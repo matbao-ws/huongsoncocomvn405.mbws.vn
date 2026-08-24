@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mắt Bão WS – Dịch vụ vận tải và hậu cần</title>
+  <meta name="description" content="Dẫn đầu về các giải pháp vận tải và hậu cần đáng tin cậy. Dịch vụ vận tải đường bộ toàn diện, kho bãi, chuỗi cung ứng lạnh và logistics thông minh." />
+  <link rel="icon" href="assets/images/logo-favicon-mbws-png.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/images/logo-favicon-mbws-png.png" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: '#f17c34',
+              orangeHover: '#d96620',
+              orangeAccent: '#f5934a',
+              dark: '#181924',
+              deepDark: '#12131c',
+              text: '#5b5d62',
+              heading: '#181923',
+              beige: 'rgb(247, 243, 238)',
+              lightBg: '#f5f8fb',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            handwriting: ['"Dancing Script"', 'cursive'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body class="bg-white text-[#5b5d62] antialiased selection:bg-[#f17c34] selection:text-white">
+
+  <!-- TOP BAR -->
+  <div id="top-bar" class="bg-[#181924] border-b border-gray-800 text-gray-300 text-xs hidden lg:block">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 h-12 flex items-center justify-between">
+      <div class="flex items-center space-x-6">
+        <div class="flex items-center space-x-2 hover:text-[#f17c34] transition">
+          <i class="fa-solid fa-location-dot text-[#f17c34]"></i>
+          <span>54 Đường C1, P.13, Q. Tân Bình, TP. HCM</span>
+        </div>
+        <div class="flex items-center space-x-2 hover:text-[#f17c34] transition">
+          <i class="fa-regular fa-clock text-[#f17c34]"></i>
+          <span>t2-t7 8.00 - 17.00</span>
+        </div>
+        <div class="flex items-center space-x-2 hover:text-[#f17c34] transition">
+          <i class="fa-solid fa-phone text-[#f17c34]"></i>
+          <a href="tel:02877777999">(028) 7777 7999</a>
+        </div>
+      </div>
+      <div class="flex items-center space-x-6">
+        <div class="flex items-center space-x-3">
+          <a href="#" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#f17c34] hover:text-white transition" title="Facebook"><i class="fa-brands fa-facebook-f text-xs"></i></a>
+          <a href="#" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#f17c34] hover:text-white transition" title="Twitter"><i class="fa-brands fa-x-twitter text-xs"></i></a>
+          <a href="#" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#f17c34] hover:text-white transition" title="LinkedIn"><i class="fa-brands fa-linkedin-in text-xs"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN HEADER -->
+  <header class="site-header bg-[#181924] w-full z-40 transition-all duration-300 border-b border-gray-800/50">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <a href="index.html" class="flex items-center">
+        <img src="assets/images/Logo-MBWS-Trang-1.svg" alt="MATBAO WS" class="h-10 sm:h-12 w-auto" />
+      </a>
+
+      <!-- NAV -->
+      <nav class="hidden lg:flex items-center space-x-8">
+        <a href="index.html" class="nav-link text-[#f17c34] font-medium text-sm transition py-2">Trang chủ</a>
+        <a href="gioi-thieu.html" class="nav-link text-white hover:text-[#f17c34] font-medium text-sm transition py-2">Giới thiệu</a>
+        
+        <div class="relative has-dropdown group py-2">
+          <a href="dich-vu.html" class="nav-link text-white hover:text-[#f17c34] font-medium text-sm flex items-center space-x-1 group-hover:text-[#f17c34] transition">
+            <span>Dịch vụ</span>
+            <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
+          </a>
+          <div class="dropdown-menu absolute top-full left-0 w-64 bg-[#181924] border border-gray-800 shadow-2xl py-2 z-50">
+            <a href="dich-vu.html#ftl" class="block px-4 py-2.5 text-sm text-gray-300 hover:bg-[#f17c34] hover:text-white transition">Xe tải đầy tải (FTL)</a>
+            <a href="dich-vu.html#ltl" class="block px-4 py-2.5 text-sm text-gray-300 hover:bg-[#f17c34] hover:text-white transition">Tải trọng một phần (LTL)</a>
+            <a href="dich-vu.html#express" class="block px-4 py-2.5 text-sm text-gray-300 hover:bg-[#f17c34] hover:text-white transition">Vận chuyển nhanh</a>
+            <a href="dich-vu.html#cold-chain" class="block px-4 py-2.5 text-sm text-gray-300 hover:bg-[#f17c34] hover:text-white transition">Kiểm soát nhiệt độ</a>
+            <a href="dich-vu.html#warehouse" class="block px-4 py-2.5 text-sm text-gray-300 hover:bg-[#f17c34] hover:text-white transition">Kho bãi & Phân phối</a>
+          </div>
+        </div>
+
+        <a href="tin-tuc.html" class="nav-link text-white hover:text-[#f17c34] font-medium text-sm transition py-2">Tin tức</a>
+        <a href="lien-he.html" class="nav-link text-white hover:text-[#f17c34] font-medium text-sm transition py-2">Liên hệ</a>
+      </nav>
+
+      <!-- RIGHT ACTIONS: SEARCH + YÊU CẦU BÁO GIÁ -->
+      <div class="hidden lg:flex items-center space-x-6">
+        <button class="search-toggle text-white hover:text-[#f17c34] transition text-base" aria-label="Tìm kiếm">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <a href="lien-he.html" class="bg-[#f17c34] hover:bg-[#d96620] text-white font-bold text-xs uppercase tracking-wider px-6 py-3 transition">
+          YÊU CẦU BÁO GIÁ
+        </a>
+      </div>
+
+      <!-- MOBILE TOGGLE -->
+      <div class="flex lg:hidden items-center space-x-3">
+        <button class="search-toggle w-9 h-9 bg-gray-800 text-white flex items-center justify-center hover:bg-[#f17c34]">
+          <i class="fa-solid fa-magnifying-glass text-xs"></i>
+        </button>
+        <button id="mobile-menu-toggle" class="text-white p-2 focus:outline-none">
+          <i class="fa-solid fa-bars-staggered text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: HERO SECTION -->
+  <section class="relative bg-[#181924] min-h-[580px] lg:min-h-[660px] flex items-center overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img src="assets/images/xxx_truck-hero_xxx.jpg" alt="Vận tải và Hậu cần" class="w-full h-full object-cover object-center" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#181924]/95 via-[#181924]/85 to-transparent"></div>
+    </div>
+
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+      <div class="max-w-2xl text-white">
+        <div class="mb-4">
+          <span class="font-handwriting text-3xl text-[#f5934a] font-bold block">Vận tải đường bộ ưu tú</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
+          Dẫn đầu về các giải pháp vận tải và hậu cần đáng tin cậy
+        </h1>
+        <p class="text-base text-gray-300 mb-8 leading-relaxed">
+          Chúng tôi cung cấp các dịch vụ vận tải đường bộ toàn diện, phù hợp với nhu cầu riêng của doanh nghiệp bạn. Từ các lô hàng khẩn cấp đến các tuyến đường dài, chúng tôi đảm bảo hàng hóa của bạn sẽ đến nơi an toàn và đúng giờ.
+        </p>
+        <div class="flex flex-wrap items-center gap-4">
+          <a href="dich-vu.html" class="btn-primary">
+            Khám phá dịch vụ
+          </a>
+          <a href="lien-he.html" class="btn-outline">
+            Liên hệ tư vấn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: 3 FEATURE HIGHLIGHT BOXES -->
+  <section class="bg-[#181924] pb-12 pt-0">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 -mt-14 relative z-20">
+        
+        <div class="bg-[#181924] hover:bg-[#f17c34] border border-gray-700/80 p-8 text-white transition-colors duration-300 group cursor-pointer">
+          <div class="w-12 h-12 mb-6">
+            <img src="assets/images/speed.svg" alt="Giao hàng" class="w-10 h-10 filter brightness-0 invert" />
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2 uppercase tracking-wider">GIAO HÀNG</h3>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Đảm bảo hàng hóa của bạn luôn đến đúng giờ và nguyên vẹn với hệ thống định vị thông minh.
+          </p>
+        </div>
+
+        <div class="bg-[#181924] hover:bg-[#f17c34] border border-gray-700/80 p-8 text-white transition-colors duration-300 group cursor-pointer">
+          <div class="w-12 h-12 mb-6">
+            <img src="assets/images/fire.svg" alt="Đổi mới" class="w-10 h-10 filter brightness-0 invert" />
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2 uppercase tracking-wider">ĐỔI MỚI</h3>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Ứng dụng công nghệ vận tải tiên tiến, số hóa quy trình quản lý và vận hành thông suốt 24/7.
+          </p>
+        </div>
+
+        <div class="bg-[#181924] hover:bg-[#f17c34] border border-gray-700/80 p-8 text-white transition-colors duration-300 group cursor-pointer">
+          <div class="w-12 h-12 mb-6">
+            <img src="assets/images/leave.svg" alt="Môi trường" class="w-10 h-10 filter brightness-0 invert" />
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2 uppercase tracking-wider">MÔI TRƯỜNG</h3>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Hướng đến giải pháp logistics xanh, tối ưu hóa cung đường và giảm phát thải carbon hiệu quả.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: PARTNER LOGOS -->
+  <section class="py-8 bg-white border-b border-gray-200">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap items-center justify-center md:justify-between gap-8 opacity-70 hover:opacity-100 transition">
+        <img src="assets/images/logo-fedex.png" alt="FedEx" class="h-8 md:h-9 w-auto grayscale hover:grayscale-0 transition" />
+        <img src="assets/images/logo-walmart-300x95.png" alt="Walmart" class="h-8 md:h-9 w-auto grayscale hover:grayscale-0 transition" />
+        <img src="assets/images/logo-pepsico.png" alt="PepsiCo" class="h-8 md:h-9 w-auto grayscale hover:grayscale-0 transition" />
+        <img src="assets/images/logo-ford.png" alt="Ford" class="h-8 md:h-9 w-auto grayscale hover:grayscale-0 transition" />
+        <img src="assets/images/logo-exxon-300x101.png" alt="Exxon" class="h-8 md:h-9 w-auto grayscale hover:grayscale-0 transition" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: WHY CHOOSE US -->
+  <section class="py-16 bg-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 relative">
+          <div class="relative z-10 overflow-hidden shadow-lg">
+            <img src="assets/images/home-001.jpg" alt="Vận tải hiện đại" class="w-full h-[420px] object-cover" />
+          </div>
+          <div class="absolute -bottom-6 -right-6 z-20 w-48 sm:w-56 overflow-hidden shadow-2xl border-4 border-white hidden sm:block">
+            <img src="assets/images/home-002-205x300.jpg" alt="Nhân viên chuyên nghiệp" class="w-full h-auto object-cover" />
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <span class="font-handwriting text-3xl text-[#f5934a] font-bold block mb-2">Tại sao chọn chúng tôi?</span>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#181923] mb-6 leading-tight">
+            Thúc đẩy thành công bằng sự cống hiến và đổi mới
+          </h2>
+          <p class="text-gray-600 text-sm sm:text-base mb-8 leading-relaxed">
+            Chúng tôi luôn đặt lợi ích và sự an tâm của khách hàng lên hàng đầu. Với hệ thống phương tiện hiện đại cùng quy trình kiểm soát thông minh, hàng hoá của bạn luôn được bảo vệ tối đa trên từng cây số.
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-[#f17c34] text-white flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fa-solid fa-award text-base"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-bold text-[#181923] mb-1">Hàng chục năm kinh nghiệm</h3>
+                <p class=\"text-sm sm:text-base sm:text-sm text-gray-500\">Đội ngũ chuyên gia và tài xế dày dạn kinh nghiệm, am hiểu mọi tuyến đường huyết mạch.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-[#f17c34] text-white flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fa-solid fa-shield-halved text-base"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-bold text-[#181923] mb-1">Độ tin cậy và an toàn</h3>
+                <p class=\"text-sm sm:text-base sm:text-sm text-gray-500\">Cam kết bảo hiểm hàng hóa 100%, trang bị camera hành trình và kiểm soát nhiệt độ nghiêm ngặt.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-[#f17c34] text-white flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fa-solid fa-headset text-base"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-bold text-[#181923] mb-1">Dịch vụ cá nhân hóa</h3>
+                <p class=\"text-sm sm:text-base sm:text-sm text-gray-500\">Thiết kế phương án vận chuyển tối ưu theo ngân sách và tiến độ riêng của từng khách hàng.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: COUNTERS SECTION -->
+  <section class="py-12 bg-[#181924] text-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-gray-800">
+        
+        <div class="pt-6 md:pt-0">
+          <div class="text-4xl sm:text-5xl font-bold text-[#f17c34] mb-2 counter-value" data-target="10" data-suffix=" Triệu+">10 Triệu+</div>
+          <h4 class="text-base font-bold text-white uppercase tracking-wider">Gói hàng đã giao</h4>
+        </div>
+
+        <div class="pt-6 md:pt-0">
+          <div class="text-4xl sm:text-5xl font-bold text-[#f17c34] mb-2 counter-value" data-target="500000" data-suffix=" Km+">500.000 Km+</div>
+          <h4 class="text-base font-bold text-white uppercase tracking-wider">Số km đã đi</h4>
+        </div>
+
+        <div class="pt-6 md:pt-0">
+          <div class="text-4xl sm:text-5xl font-bold text-[#f17c34] mb-2 counter-value" data-target="1500" data-suffix="+">1.500+</div>
+          <h4 class="text-base font-bold text-white uppercase tracking-wider">Quan hệ đối tác được xây dựng</h4>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: SERVICES SECTION (3 MAIN OVERLAY CARDS) -->
+  <section class="py-16 bg-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="font-handwriting text-3xl text-[#f5934a] font-bold block mb-2">Dịch vụ của chúng tôi</span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#181923] mb-4">Vận chuyển xuyên quốc gia</h2>
+        <p class="text-gray-500 text-sm">
+          Chúng tôi tự hào cung cấp một loạt các dịch vụ hậu cần và vận tải được thiết kế để đáp ứng nhu cầu ngày càng phát triển của doanh nghiệp bạn.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        
+        <div class="relative group overflow-hidden bg-[#181924] h-[380px] flex flex-col justify-end p-8 text-white">
+          <img src="assets/images/home-003.jpg" alt="Kho & Phân phối" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-40 transition duration-500" />
+          <div class="relative z-10">
+            <span class="font-handwriting text-2xl text-[#f5934a] block mb-1">Hậu cần quy mô lớn</span>
+            <h3 class="text-xl font-bold text-white mb-2">Kho & Phân phối</h3>
+            <p class=\"text-sm text-gray-300 mb-4 line-clamp-2\">Hệ thống kho bãi hiện đại, phân loại và lưu trữ hàng hóa chuẩn xác 24/7.</p>
+            <a href="dich-vu.html" class="inline-flex items-center space-x-2 text-[#f17c34] group-hover:text-white font-bold text-xs uppercase tracking-wider transition">
+              <span>Xem chi tiết</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden bg-[#181924] h-[380px] flex flex-col justify-end p-8 text-white">
+          <img src="assets/images/home-004.jpg" alt="Dịch vụ xe tải đầy đủ" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-40 transition duration-500" />
+          <div class="relative z-10">
+            <span class="font-handwriting text-2xl text-[#f5934a] block mb-1">Đối với lô hàng lớn</span>
+            <h3 class="text-xl font-bold text-white mb-2">Dịch vụ xe tải đầy đủ (FTL)</h3>
+            <p class=\"text-sm text-gray-300 mb-4 line-clamp-2\">Vận chuyển nguyên chuyến trực tiếp, rút ngắn hành trình và bảo đảm an toàn.</p>
+            <a href="dich-vu.html" class="inline-flex items-center space-x-2 text-[#f17c34] group-hover:text-white font-bold text-xs uppercase tracking-wider transition">
+              <span>Xem chi tiết</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden bg-[#181924] h-[380px] flex flex-col justify-end p-8 text-white">
+          <img src="assets/images/home-005.jpg" alt="Kiểm soát nhiệt độ" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-40 transition duration-500" />
+          <div class="relative z-10">
+            <span class="font-handwriting text-2xl text-[#f5934a] block mb-1">Đối với hàng dễ hư hỏng</span>
+            <h3 class="text-xl font-bold text-white mb-2">Kiểm soát nhiệt độ</h3>
+            <p class=\"text-sm text-gray-300 mb-4 line-clamp-2\">Chuỗi cung ứng lạnh bảo quản thực phẩm, thủy hải sản và dược phẩm y tế.</p>
+            <a href="dich-vu.html" class="inline-flex items-center space-x-2 text-[#f17c34] group-hover:text-white font-bold text-xs uppercase tracking-wider transition">
+              <span>Xem chi tiết</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 7: SPECIALIZED SERVICES -->
+  <section class="py-16 bg-[rgb(247,243,238)]">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <div class="lg:col-span-4">
+          <h3 class="text-2xl sm:text-3xl font-bold text-[#181923] mb-4">Dịch vụ chuyên ngành</h3>
+          <p class="text-gray-600 text-sm leading-relaxed mb-6">
+            Đội ngũ của chúng tôi sẵn sàng giải quyết những vấn đề phức tạp về hậu cần, cho phép bạn tập trung vào công việc kinh doanh của mình.
+          </p>
+          <a href="dich-vu.html" class="btn-primary">
+            <span>Xem tất cả</span>
+          </a>
+        </div>
+
+        <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          
+          <div class="bg-white p-6 border border-gray-200/80 shadow-sm hover:border-[#f17c34] transition">
+            <img src="assets/images/speed.svg" alt="Vận chuyển nhanh" class="w-10 h-10 mb-4" />
+            <h4 class="text-lg font-bold text-[#181923] mb-2">Vận chuyển nhanh</h4>
+            <p class=\"text-sm text-gray-500 leading-relaxed\">Đáp ứng các đơn hàng khẩn cấp hỏa tốc giao trong ngày hoặc 24h.</p>
+          </div>
+
+          <div class="bg-white p-6 border border-gray-200/80 shadow-sm hover:border-[#f17c34] transition">
+            <img src="assets/images/fire.svg" alt="Vật liệu nguy hiểm" class="w-10 h-10 mb-4" />
+            <h4 class="text-lg font-bold text-[#181923] mb-2">Vật liệu nguy hiểm</h4>
+            <p class=\"text-sm text-gray-500 leading-relaxed\">Đầy đủ chứng chỉ vận chuyển hàng nguy hiểm, hóa chất an toàn tuyệt đối.</p>
+          </div>
+
+          <div class="bg-white p-6 border border-gray-200/80 shadow-sm hover:border-[#f17c34] transition">
+            <img src="assets/images/right-way.svg" alt="Tối ưu tuyến đường" class="w-10 h-10 mb-4" />
+            <h4 class="text-lg font-bold text-[#181923] mb-2">Tối ưu hóa tuyến đường</h4>
+            <p class=\"text-sm text-gray-500 leading-relaxed\">Thuật toán AI phân tích lộ trình ngắn nhất, tiết kiệm nhiên liệu và thời gian.</p>
+          </div>
+
+          <div class="bg-white p-6 border border-gray-200/80 shadow-sm hover:border-[#f17c34] transition">
+            <img src="assets/images/leave.svg" alt="Logistics xanh" class="w-10 h-10 mb-4" />
+            <h4 class="text-lg font-bold text-[#181923] mb-2">Hậu cần thân thiện với môi trường</h4>
+            <p class=\"text-sm text-gray-500 leading-relaxed\">Đội xe chuẩn khí thải Euro 5/6, cam kết phát triển bền vững cùng cộng đồng.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 8: MARQUEE COMMITMENT BANNER -->
+  <div class="bg-[#f17c34] text-white py-4 overflow-hidden whitespace-nowrap border-y border-[#d96620]">
+    <div class="inline-block animate-marquee">
+      <span class="text-sm sm:text-base font-bold mx-6 uppercase tracking-wider">Chúng tôi cam kết hàng đến tay khách hàng luôn luôn đúng giờ - </span>
+      <span class="text-sm sm:text-base font-bold mx-6 uppercase tracking-wider">Chúng tôi cam kết hàng đến tay khách hàng luôn luôn đúng giờ - </span>
+      <span class="text-sm sm:text-base font-bold mx-6 uppercase tracking-wider">Chúng tôi cam kết hàng đến tay khách hàng luôn luôn đúng giờ - </span>
+      <span class="text-sm sm:text-base font-bold mx-6 uppercase tracking-wider">Chúng tôi cam kết hàng đến tay khách hàng luôn luôn đúng giờ - </span>
+    </div>
+  </div>
+
+  <!-- SECTION 9: INNOVATIVE COMPANY -->
+  <section class="py-16 bg-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6">
+          <h2 class="text-2xl sm:text-3xl font-bold text-[#181923] mb-4">
+            Công ty Vận tải & Logistics Sáng tạo
+          </h2>
+          <p class="text-gray-500 text-sm mb-8 leading-relaxed">
+            Chúng tôi là một công ty hiện đại cung cấp dịch vụ quản lý chuỗi cung ứng, cung cấp các giải pháp toàn diện về kho bãi, vận tải và hậu cần.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/50 flex items-center space-x-3">
+              <i class="fa-solid fa-shield-check text-[#f17c34] text-lg"></i>
+              <h4 class="font-bold text-[#181923] text-sm">An toàn hàng hoá</h4>
+            </div>
+
+            <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/50 flex items-center space-x-3">
+              <i class="fa-solid fa-earth-americas text-[#f17c34] text-lg"></i>
+              <h4 class="font-bold text-[#181923] text-sm">Giao hàng toàn quốc</h4>
+            </div>
+
+            <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/50 flex items-center space-x-3">
+              <i class="fa-solid fa-map-location-dot text-[#f17c34] text-lg"></i>
+              <h4 class="font-bold text-[#181923] text-sm">Theo dõi thuận tiện</h4>
+            </div>
+
+            <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/50 flex items-center space-x-3">
+              <i class="fa-solid fa-headset text-[#f17c34] text-lg"></i>
+              <h4 class="font-bold text-[#181923] text-sm">Hỗ trợ 24/7</h4>
+            </div>
+
+            <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/50 sm:col-span-2 flex items-center space-x-3">
+              <i class="fa-solid fa-users text-[#f17c34] text-lg"></i>
+              <h4 class="font-bold text-[#181923] text-sm">Đội ngũ chuyên nghiệp</h4>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="shadow-md overflow-hidden">
+            <img src="assets/images/home-007.jpg" alt="Vận tải sáng tạo" class="w-full h-[420px] object-cover" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 10: PARALLAX BANNER -->
+  <section class="relative min-h-[380px] bg-fixed bg-cover bg-center flex items-center justify-center" style="background-image: url('assets/images/xxx_home-bg_xxx.jpg');">
+    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 text-center text-white py-16">
+      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Giải pháp Logistics đột phá cho mọi doanh nghiệp</h2>
+      <a href="lien-he.html" class="btn-primary">
+        Nhận báo giá ngay
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION 11: TEAM MEMBERS -->
+  <section class="py-16 bg-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="font-handwriting text-3xl text-[#f5934a] font-bold block mb-1">Đội ngũ chuyên nghiệp</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#181923]">Các chuyên gia tận tâm của chúng tôi</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-[rgb(247,243,238)] p-8 text-center border border-gray-200/60">
+          <img src="assets/images/mbws-avatar-2-300x300.jpg" alt="Mr. Hưng" class="circle-avatar w-28 h-28 mx-auto object-cover mb-4 border border-gray-300" />
+          <h4 class="text-lg font-bold text-[#181923] mb-1">Mr. Hưng</h4>
+          <p class="text-xs text-[#f17c34] font-semibold">Nhà sáng lập</p>
+        </div>
+
+        <div class="bg-[rgb(247,243,238)] p-8 text-center border border-gray-200/60">
+          <img src="assets/images/mbws-avatar-4-300x300.jpg" alt="Mr. Vỹ" class="circle-avatar w-28 h-28 mx-auto object-cover mb-4 border border-gray-300" />
+          <h4 class="text-lg font-bold text-[#181923] mb-1">Mr. Vỹ</h4>
+          <p class="text-xs text-[#f17c34] font-semibold">Giám đốc</p>
+        </div>
+
+        <div class="bg-[rgb(247,243,238)] p-8 text-center border border-gray-200/60">
+          <img src="assets/images/mbws-avatar-6-300x300.jpg" alt="Văn" class="circle-avatar w-28 h-28 mx-auto object-cover mb-4 border border-gray-300" />
+          <h4 class="text-lg font-bold text-[#181923] mb-1">Văn</h4>
+          <p class="text-xs text-[#f17c34] font-semibold">Quản lý</p>
+        </div>
+
+        <div class="bg-[rgb(247,243,238)] p-8 text-center border border-gray-200/60">
+          <img src="assets/images/mbws-avatar-8-300x300.jpg" alt="Kiên" class="circle-avatar w-28 h-28 mx-auto object-cover mb-4 border border-gray-300" />
+          <h4 class="text-lg font-bold text-[#181923] mb-1">Kiên</h4>
+          <p class="text-xs text-[#f17c34] font-semibold">Vận hành</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 12: CUSTOMER TESTIMONIALS (BG: rgb(247, 243, 238)) -->
+  <section class="py-16 bg-[rgb(247,243,238)] text-center">
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <h2 class="text-2xl sm:text-3xl font-bold text-[#181923] mb-10">Đánh giá của khách hàng</h2>
+
+      <div class="relative px-8 sm:px-16">
+        <div class="overflow-hidden">
+          <div id="testimonial-track" class="flex transition-transform duration-500 ease-out">
+            
+            <div class="w-full flex-shrink-0 px-2 sm:px-6 text-center">
+              <img src="assets/images/mbws-avatar-1-150x150.jpg" alt="Hà Ly" class="circle-avatar w-20 h-20 mx-auto object-cover mb-3 border-2 border-white shadow-sm" />
+              <div class="flex justify-center items-center space-x-1 text-[#f17c34] text-xs mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="text-sm sm:text-base italic text-gray-600 leading-relaxed mb-4 max-w-2xl mx-auto">
+                "Hợp tác với Dịch vụ Vận tải Đường bộ đã giúp thay đổi cuộc chơi cho hoạt động của chúng tôi. Hiệu quả và độ tin cậy mà họ mang lại cho chuỗi cung ứng của chúng tôi đã giảm đáng kể những vấn đề đau đầu về hậu cần của chúng tôi. Theo dõi thời gian thực và dịch vụ khách hàng đặc biệt của họ nổi bật trong ngành, góp phần nâng cao sự hài lòng của khách hàng."
+              </p>
+              <div class="text-sm">
+                <strong class="font-bold text-[#181923]">Hà Ly</strong>
+                <span class="text-gray-400 mx-1">/</span>
+                <span class="text-gray-500 text-xs">Chủ cửa hàng LyLy</span>
+              </div>
+            </div>
+
+            <div class="w-full flex-shrink-0 px-2 sm:px-6 text-center">
+              <img src="assets/images/mbws-avatar-5-150x150.jpg" alt="Vỹ Nương" class="circle-avatar w-20 h-20 mx-auto object-cover mb-3 border-2 border-white shadow-sm" />
+              <div class="flex justify-center items-center space-x-1 text-[#f17c34] text-xs mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="text-sm sm:text-base italic text-gray-600 leading-relaxed mb-4 max-w-2xl mx-auto">
+                "Khi nói đến việc xử lý hàng hóa chuyên dụng của chúng tôi, chúng tôi cần một đối tác hậu cần hiểu rõ các lô hàng được kiểm soát nhiệt độ. Dịch vụ Vận tải Đường bộ đã liên tục vượt lên trên, đảm bảo hàng hóa dễ hỏng của chúng tôi được vận chuyển trong điều kiện tối ưu, duy trì chất lượng từ khâu nhận hàng đến giao hàng."
+              </p>
+              <div class="text-sm">
+                <strong class="font-bold text-[#181923]">Vỹ Nương</strong>
+                <span class="text-gray-400 mx-1">/</span>
+                <span class="text-gray-500 text-xs">Bán hàng</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <button id="testimonial-prev" class="absolute left-0 top-1/2 -translate-y-1/2 w-9 h-9 bg-white hover:bg-[#f17c34] hover:text-white text-gray-700 flex items-center justify-center transition border border-gray-200 shadow-sm cursor-pointer z-10" aria-label="Trước">
+          <i class="fa-solid fa-chevron-left text-xs"></i>
+        </button>
+        <button id="testimonial-next" class="absolute right-0 top-1/2 -translate-y-1/2 w-9 h-9 bg-white hover:bg-[#f17c34] hover:text-white text-gray-700 flex items-center justify-center transition border border-gray-200 shadow-sm cursor-pointer z-10" aria-label="Sau">
+          <i class="fa-solid fa-chevron-right text-xs"></i>
+        </button>
+
+      </div>
+
+      <div id="testimonial-dots" class="flex justify-center items-center space-x-2 mt-6"></div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 13: LATEST NEWS -->
+  <section class="py-16 bg-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-[#181923]">Tin tức & Sự kiện</h2>
+          <p class="text-gray-500 text-sm mt-1">Các bài viết mới nhất từ blog của chúng tôi</p>
+        </div>
+        <a href="tin-tuc.html" class="btn-primary mt-4 sm:mt-0">
+          <span>Đọc thêm</span>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <div class="lg:col-span-7 bg-[rgb(247,243,238)] border border-gray-200/60 group">
+          <div class="h-64 sm:h-80 overflow-hidden">
+            <img src="assets/images/news004-300x239.jpg" alt="Logistics xanh" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+          </div>
+          <div class="p-6 sm:p-8">
+            <div class=\"text-sm text-gray-400 mb-2\">03/12/2024</div>
+            <h3 class="text-xl font-bold text-[#181923] mb-3 group-hover:text-[#f17c34] transition">
+              <a href="tin-tuc-chi-tiet.html">Tính bền vững khi di chuyển: Logistics xanh đang thay đổi cuộc chơi như thế nào</a>
+            </h3>
+            <p class=\"text-sm sm:text-base sm:text-sm text-gray-600 leading-relaxed line-clamp-3\">
+              Trong bối cảnh biến đổi khí hậu và những vấn đề môi trường ngày càng nghiêm trọng, ngành logistics đang đứng trước một áp lực lớn để thay đổi cách thức hoạt động sao cho bền vững hơn...
+            </p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 space-y-4">
+          
+          <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/60 flex space-x-4 group">
+            <img src="assets/images/news003-150x150.jpg" alt="Chọn đối tác" class="w-20 h-20 object-cover flex-shrink-0" />
+            <div>
+              <span class="text-[10px] text-gray-400 block mb-1">03/12/2024</span>
+              <h4 class=\"font-bold text-[#181923] text-sm sm:text-base sm:text-sm group-hover:text-[#f17c34] transition line-clamp-2\">
+                <a href="tin-tuc-chi-tiet.html">Hướng dẫn cơ bản để chọn đối tác hậu cần phù hợp cho bạn</a>
+              </h4>
+            </div>
+          </div>
+
+          <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/60 flex space-x-4 group">
+            <img src="assets/images/news002-150x150.jpg" alt="Tương lai vận tải" class="w-20 h-20 object-cover flex-shrink-0" />
+            <div>
+              <span class="text-[10px] text-gray-400 block mb-1">03/12/2024</span>
+              <h4 class=\"font-bold text-[#181923] text-sm sm:text-base sm:text-sm group-hover:text-[#f17c34] transition line-clamp-2\">
+                <a href="tin-tuc-chi-tiet.html">Tương lai của vận tải đường bộ: Xu hướng định hình ngành công nghiệp của chúng ta vào năm 2025 và hơn thế nữa</a>
+              </h4>
+            </div>
+          </div>
+
+          <div class="bg-[rgb(247,243,238)] p-4 border border-gray-200/60 flex space-x-4 group">
+            <img src="assets/images/news001-300x300.jpg" alt="Công nghệ vận tải" class="w-20 h-20 object-cover flex-shrink-0" />
+            <div>
+              <span class="text-[10px] text-gray-400 block mb-1">03/12/2024</span>
+              <h4 class=\"font-bold text-[#181923] text-sm sm:text-base sm:text-sm group-hover:text-[#f17c34] transition line-clamp-2\">
+                <a href="tin-tuc-chi-tiet.html">Hậu trường: Công nghệ thúc đẩy hiệu quả vận tải đường bộ ngày nay</a>
+              </h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+    <!-- FOOTER (SPACIOUS & READABLE TYPOGRAPHY) -->
+  <footer class="bg-[#181924] text-gray-300 pt-20 pb-10 border-t border-gray-800 relative bg-cover bg-center" style="background-image: linear-gradient(rgba(24, 25, 36, 0.88), rgba(24, 25, 36, 0.96)), url('assets/images/xxx_footer_xxx.jpg');">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-14 border-b border-gray-800/80">
+        
+        <!-- Column 1: Logo, Slogan, Subscribe (5 cols) -->
+        <div class="lg:col-span-5 space-y-5">
+          <a href="index.html" class="inline-block">
+            <img src="assets/images/Logo-MBWS-Trang-1.svg" alt="MATBAO WS" class="h-11 sm:h-12 w-auto" />
+          </a>
+          <p class="text-[15px] text-gray-300 leading-relaxed max-w-md">
+            Giao hàng đúng tiến độ, đảm bảo doanh nghiệp của bạn tiếp tục phát triển.
+          </p>
+          <form class="ajax-form flex items-center max-w-md pt-2">
+            <input type="email" placeholder="Địa chỉ email của bạn..." required class="bg-gray-900/90 text-white text-[14.5px] px-4 py-3 w-full border border-gray-700 focus:outline-none focus:border-[#f17c34] transition" />
+            <button type="submit" class="bg-[#f17c34] hover:bg-[#d96620] text-white font-bold text-[14px] uppercase px-6 py-3 flex-shrink-0 transition cursor-pointer">
+              Đăng ký
+            </button>
+          </form>
+        </div>
+
+        <!-- Column 2: Liên kết (2 cols) -->
+        <div class="lg:col-span-2">
+          <h4 class="text-white text-[16px] font-bold mb-5 uppercase tracking-wider">Liên kết</h4>
+          <ul class="space-y-3 text-[14.5px] font-normal text-gray-300">
+            <li><a href="index.html" class="hover:text-[#f17c34] transition block">Trang chủ</a></li>
+            <li><a href="gioi-thieu.html" class="hover:text-[#f17c34] transition block">Giới thiệu</a></li>
+            <li><a href="dich-vu.html" class="hover:text-[#f17c34] transition block">Dịch vụ</a></li>
+            <li><a href="tin-tuc.html" class="hover:text-[#f17c34] transition block">Tin tức</a></li>
+            <li><a href="lien-he.html" class="hover:text-[#f17c34] transition block">Liên hệ</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Dịch vụ (2 cols) -->
+        <div class="lg:col-span-2">
+          <h4 class="text-white text-[16px] font-bold mb-5 uppercase tracking-wider">Dịch vụ</h4>
+          <ul class="space-y-3 text-[14.5px] font-normal text-gray-300">
+            <li><a href="dich-vu.html#ftl" class="hover:text-[#f17c34] transition block">Xe tải đầy tải</a></li>
+            <li><a href="dich-vu.html#ltl" class="hover:text-[#f17c34] transition block">Tải một phần</a></li>
+            <li><a href="dich-vu.html#cold-chain" class="hover:text-[#f17c34] transition block">Kiểm soát nhiệt độ</a></li>
+            <li><a href="dich-vu.html#warehouse" class="hover:text-[#f17c34] transition block">Kho bãi & Phân phối</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Thông tin liên hệ (3 cols) -->
+        <div class="lg:col-span-3">
+          <h4 class="text-white text-[16px] font-bold mb-5 uppercase tracking-wider">Thông tin liên hệ</h4>
+          <ul class="space-y-3.5 text-[14.5px] font-normal text-gray-300">
+            <li class="flex items-start space-x-3">
+              <i class="fa-solid fa-location-dot text-[#f17c34] mt-1 text-sm flex-shrink-0"></i>
+              <span class="leading-relaxed">54 Đường C1, P.13, Q. Tân Bình, TP. HCM</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fa-solid fa-phone text-[#f17c34] text-sm flex-shrink-0"></i>
+              <a href="tel:02877777999" class="hover:text-[#f17c34] transition font-medium">(028) 7777 7999</a>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fa-regular fa-clock text-[#f17c34] text-sm flex-shrink-0"></i>
+              <span>t2-t7 8.00 - 17.00</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fa-solid fa-envelope text-[#f17c34] text-sm flex-shrink-0"></i>
+              <a href="mailto:contact@matbao.ws" class="hover:text-[#f17c34] transition">contact@matbao.ws</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[14px] text-gray-400">
+        <p>© Copyright 2026 - Thiết kế web bởi <a href="https://www.matbao.ws/" target="_blank" rel="noopener" class="text-[#f17c34] font-medium hover:underline">Mắt Bão WS</a></p>
+        <div class="flex items-center space-x-6 mt-4 sm:mt-0">
+          <a href="#" class="hover:text-[#f17c34] transition">Điều khoản dịch vụ</a>
+          <span class="text-gray-600">•</span>
+          <a href="#" class="hover:text-[#f17c34] transition">Bảo mật thông tin</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobile-backdrop" class="fixed inset-0 bg-black/60 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <div id="mobile-drawer" class="fixed top-0 left-0 bottom-0 w-80 max-w-[85vw] bg-[#181924] z-50 shadow-2xl transform -translate-x-full transition-transform duration-300 flex flex-col">
+    <div class="p-6 border-b border-gray-800 flex items-center justify-between">
+      <img src="assets/images/Logo-MBWS-Trang-1.svg" alt="Logo" class="h-8 w-auto" />
+      <button id="mobile-menu-close" class="text-gray-400 hover:text-white p-2">
+        <i class="fa-solid fa-xmark text-xl"></i>
+      </button>
+    </div>
+    <div class="p-6 flex-1 overflow-y-auto space-y-3">
+      <a href="index.html" class="block text-white font-medium py-2 border-b border-gray-800/50 hover:text-[#f17c34]">Trang chủ</a>
+      <a href="gioi-thieu.html" class="block text-white font-medium py-2 border-b border-gray-800/50 hover:text-[#f17c34]">Giới thiệu</a>
+      <div>
+        <button class="mobile-dropdown-btn w-full flex items-center justify-between text-white font-medium py-2 border-b border-gray-800/50 hover:text-[#f17c34]">
+          <span>Dịch vụ</span>
+          <i class="fa-solid fa-chevron-down text-xs"></i>
+        </button>
+        <div class="hidden pl-4 py-2 space-y-2 text-sm text-gray-400">
+          <a href="dich-vu.html#ftl" class="block py-1 hover:text-white">Xe tải đầy tải (FTL)</a>
+          <a href="dich-vu.html#ltl" class="block py-1 hover:text-white">Tải trọng một phần (LTL)</a>
+          <a href="dich-vu.html#express" class="block py-1 hover:text-white">Vận chuyển nhanh</a>
+          <a href="dich-vu.html#cold-chain" class="block py-1 hover:text-white">Kiểm soát nhiệt độ</a>
+          <a href="dich-vu.html#warehouse" class="block py-1 hover:text-white">Kho bãi & Phân phối</a>
+        </div>
+      </div>
+      <a href="tin-tuc.html" class="block text-white font-medium py-2 border-b border-gray-800/50 hover:text-[#f17c34]">Tin tức</a>
+      <a href="lien-he.html" class="block text-white font-medium py-2 border-b border-gray-800/50 hover:text-[#f17c34]">Liên hệ</a>
+    </div>
+    <div class="p-6 border-t border-gray-800 bg-[#12131c]">
+      <a href="tel:02877777999" class="bg-[#f17c34] hover:bg-[#d96620] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block">
+        <i class="fa-solid fa-phone mr-2"></i> (028) 7777 7999
+      </a>
+    </div>
+  </div>
+
+  <!-- SEARCH POPUP -->
+  <div id="search-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4">
+    <div class="bg-[#181924] border border-gray-800 w-full max-w-2xl p-6 sm:p-8 shadow-2xl relative">
+      <button id="search-close" class="absolute top-4 right-4 text-gray-400 hover:text-white p-2">
+        <i class="fa-solid fa-xmark text-xl"></i>
+      </button>
+      <h3 class="text-lg font-bold text-white mb-4 uppercase">Tìm kiếm</h3>
+      <form action="tin-tuc.html" method="get" class="relative">
+        <input type="text" id="search-input" name="s" placeholder="Nhập từ khóa tìm kiếm..." class="w-full bg-gray-900 border border-gray-700 text-white px-4 py-3 pr-12 text-xs focus:outline-none focus:border-[#f17c34]" />
+        <button type="submit" class="absolute right-4 top-1/2 -translate-y-1/2 text-[#f17c34]">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- FLOATING BUTTONS -->
+  <a href="tel:02877777999" class="fixed bottom-24 right-6 z-40 w-12 h-12 bg-[#f17c34] text-white flex items-center justify-center shadow-xl animate-pulse-phone" title="Gọi ngay">
+    <i class="fa-solid fa-phone text-lg"></i>
+  </a>
+  <a href="https://zalo.me" target="_blank" rel="noopener" class="fixed bottom-38 right-6 z-40 w-12 h-12 bg-[#0068ff] text-white flex items-center justify-center shadow-xl animate-pulse-zalo" style="bottom: 96px;" title="Chat Zalo">
+    <span class="font-bold text-xs">Zalo</span>
+  </a>
+  <button id="back-to-top" class="fixed bottom-8 right-6 z-40 w-10 h-10 bg-gray-900 text-white flex items-center justify-center shadow-xl hover:bg-[#f17c34] transition-all duration-300 opacity-0 invisible translate-y-4">
+    <i class="fa-solid fa-arrow-up text-xs"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
