@@ -63,7 +63,7 @@ def head(*, title, description, url, keywords="", og_type="website", jsonld=None
         extend: {{
           colors: {{
             brand: {{
-              orange: '{BRAND}', orangeHover: '#176035', orangeAccent: '#35a05e',
+              green: '{BRAND}', greenHover: '#176035', greenAccent: '#35a05e',
               dark: '{DARK}', deepDark: '#12131c', text: '#5b5d62', heading: '#181923',
               beige: 'rgb(247, 243, 238)', lightBg: '#f5f8fb',
             }}
@@ -78,7 +78,7 @@ def head(*, title, description, url, keywords="", og_type="website", jsonld=None
   </script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="/assets/css/custom.css" />{blocks}
+  <link rel="stylesheet" href="/assets/css/custom.css?v=2.0.1" />{blocks}
 </head>
 
 <body class="bg-white text-[#5b5d62] antialiased selection:bg-[{BRAND}] selection:text-white">
@@ -326,7 +326,7 @@ def drawer():
     <i class="fa-solid fa-arrow-up text-xs"></i>
   </button>
 
-  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/main.js?v=2.0.1"></script>
 </body>
 </html>
 """
