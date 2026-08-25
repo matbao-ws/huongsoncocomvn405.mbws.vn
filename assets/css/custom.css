@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
 :root {
-  --primary: #f17c34;
-  --primary-hover: #d96620;
-  --primary-accent: #f5934a;
+  --primary: #1f7c45;
+  --primary-hover: #176035;
+  --primary-accent: #35a05e;
   --secondary: #181924;
   --dark: #181924;
   --text-main: #5b5d62;
@@ -55,10 +55,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #181924;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f17c34;
+  background: #1f7c45;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #d96620;
+  background: #176035;
 }
 
 /* Buttons */

@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (dotsContainer) {
         Array.from(dotsContainer.children).forEach((dot, dIdx) => {
           if (dIdx === currentIndex) {
-            dot.className = 'w-6 h-2 bg-[#f17c34] transition-all duration-300';
+            dot.className = 'w-6 h-2 bg-[#1f7c45] transition-all duration-300';
           } else {
             dot.className = 'w-2 h-2 bg-gray-300 transition-all duration-300 hover:bg-gray-400 cursor-pointer';
           }
@@ -252,10 +252,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const toast = document.createElement('div');
     const isSuccess = type === 'success';
     toast.className = `flex items-center px-4 py-3 rounded-lg shadow-xl text-white transform transition-all duration-300 translate-y-8 opacity-0 ${
-      isSuccess ? 'bg-[#181924] border-l-4 border-[#f17c34]' : 'bg-red-600'
+      isSuccess ? 'bg-[#181924] border-l-4 border-[#1f7c45]' : 'bg-red-600'
     }`;
     toast.innerHTML = `
-      <div class="mr-3 text-[#f17c34]">
+      <div class="mr-3 text-[#1f7c45]">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
         </svg>
@@ -297,6 +297,138 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
         window.showToast('Cảm ơn bạn! Yêu cầu của bạn đã được gửi thành công. Chúng tôi sẽ liên hệ trong ít phút.');
       }, 1000);
+    });
+  });
+});
+
+/* =============================================================
+   HƯƠNG SƠN – LEAD ENGINE
+   Bổ sung cho Digital Sales Engine: tự động ghi nguồn lead,
+   validate, chống spam và phát event đo lường (GA4).
+   Sinh bởi build/ — xem KE-HOACH-WEBSITE-HUONG-SON.md
+   ============================================================= */
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* --- 1. Tự động điền hidden field: nguồn truy cập, UTM, gclid --------- */
+  const qs = new URLSearchParams(location.search);
+  const store = (k, v) => { try { if (v) sessionStorage.setItem('hs_' + k, v); } catch (e) {} };
+  const recall = (k) => { try { return sessionStorage.getItem('hs_' + k) || ''; } catch (e) { return ''; } };
+
+  ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid']
+    .forEach((k) => store(k, qs.get(k)));
+  if (document.referrer && !document.referrer.includes(location.host)) store('referrer', document.referrer);
+
+  document.querySelectorAll('[data-autofill]').forEach((el) => {
+    const key = el.getAttribute('data-autofill');
+    if (key === 'url') el.value = location.href;
+    else if (key === 'referrer') el.value = recall('referrer') || document.referrer || '';
+    else el.value = qs.get(key) || recall(key) || '';
+  });
+
+  /* --- 2. Đo lường: gửi event GA4 nếu đã cài gtag ----------------------- */
+  const track = (name, params) => {
+    if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(Object.assign({ event: name }, params || {}));
+  };
+  window.hsTrack = track;
+
+  document.addEventListener('click', (e) => {
+    const el = e.target.closest('[data-ga]');
+    if (!el) return;
+    const name = el.getAttribute('data-ga');
+    if (name === 'generate_lead') return; // phát sau khi submit thành công
+    track(name, { label: (el.innerText || '').trim().slice(0, 80), page: location.pathname });
+  });
+
+  /* --- 3. Form lead: validate + chống spam + gửi ------------------------ */
+  const markError = (field, msg) => {
+    field.classList.add('border-red-500');
+    let n = field.parentElement.querySelector('.hs-err');
+    if (!n) {
+      n = document.createElement('p');
+      n.className = 'hs-err text-[12.5px] text-red-600 mt-1.5';
+      field.parentElement.appendChild(n);
+    }
+    n.textContent = msg;
+  };
+  const clearError = (field) => {
+    field.classList.remove('border-red-500');
+    field.parentElement.querySelector('.hs-err')?.remove();
+  };
+
+  document.querySelectorAll('form.lead-form').forEach((form) => {
+    const openedAt = Date.now();
+
+    form.querySelectorAll('input, select, textarea').forEach((f) => {
+      f.addEventListener('input', () => clearError(f));
+      f.addEventListener('change', () => clearError(f));
+    });
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      // Honeypot + thời gian điền: chặn bot mà không cần captcha
+      if (form.querySelector('[name="_hp"]')?.value) return;
+      if (Date.now() - openedAt < 2500) {
+        window.showToast?.('Vui lòng kiểm tra lại thông tin trước khi gửi.', 'error');
+        return;
+      }
+
+      let ok = true;
+      let first = null;
+      form.querySelectorAll('[required]').forEach((f) => {
+        if (!f.value.trim()) { markError(f, 'Vui lòng nhập thông tin này.'); ok = false; first = first || f; }
+      });
+      const phone = form.querySelector('[name="dien_thoai"]');
+      if (phone && phone.value.trim() && !/^[0-9+\s().-]{9,15}$/.test(phone.value.trim())) {
+        markError(phone, 'Số điện thoại chưa đúng định dạng.'); ok = false; first = first || phone;
+      }
+      const mail = form.querySelector('[name="email"]');
+      if (mail && mail.value.trim() && !/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(mail.value.trim())) {
+        markError(mail, 'Email chưa đúng định dạng.'); ok = false; first = first || mail;
+      }
+      if (!ok) {
+        first?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        first?.focus({ preventScroll: true });
+        return;
+      }
+
+      const btn = form.querySelector('button[type="submit"]');
+      const orig = btn ? btn.innerHTML : '';
+      if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<svg class="animate-spin -ml-1 mr-2 h-4 w-4 text-white inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path></svg> Đang gửi...';
+      }
+
+      const data = Object.fromEntries(new FormData(form).entries());
+      delete data._hp;
+
+      const done = (success) => {
+        if (btn) { btn.disabled = false; btn.innerHTML = orig; }
+        if (success) {
+          form.reset();
+          document.querySelectorAll('[data-autofill]').forEach((el) => {
+            if (el.getAttribute('data-autofill') === 'url') el.value = location.href;
+          });
+          track('generate_lead', {
+            page_type: data.page_type || '', nhu_cau: data.nhu_cau || '',
+            loai_don_vi: data.loai_don_vi || '', product_model: data.product_model || '',
+            solution_slug: data.solution_slug || '', page: location.pathname,
+          });
+          window.showToast?.('Hương Sơn đã nhận được yêu cầu. Bộ phận phụ trách sẽ liên hệ lại trong giờ làm việc.');
+        } else {
+          window.showToast?.('Chưa gửi được. Vui lòng gọi hotline để được hỗ trợ ngay.', 'error');
+        }
+      };
+
+      // CẦN CẤU HÌNH: đổi form.action sang endpoint thật (email/CRM webhook).
+      // Khi chưa có endpoint, form vẫn phản hồi cho người dùng nhưng KHÔNG lưu lead.
+      fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      }).then((r) => done(r.ok)).catch(() => done(true));
     });
   });
 });

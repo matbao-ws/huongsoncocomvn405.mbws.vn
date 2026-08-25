@@ -1,0 +1,54 @@
+[
+  {
+    "label": "SẢN PHẨM",
+    "url": "/san-pham/",
+    "children": [
+      { "label": "Photocopy – Máy đa chức năng", "url": "/san-pham/photocopy-may-da-chuc-nang/" },
+      { "label": "Máy in nhân bản tốc độ cao", "url": "/san-pham/may-in-nhan-ban-toc-do-cao/" },
+      { "label": "Máy Scan – Số hóa", "url": "/san-pham/may-scan-so-hoa/" },
+      { "label": "Máy phối trang – Hoàn thiện sau in", "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/" },
+      { "label": "Máy in Laser – Thiết bị in", "url": "/san-pham/may-in-laser/" },
+      { "label": "Thiết bị phòng học – Giáo dục", "url": "/san-pham/thiet-bi-phong-hoc-giao-duc/" },
+      { "label": "Vật tư – Linh kiện – Tiêu hao", "url": "/san-pham/vat-tu-linh-kien-tieu-hao/" },
+      { "label": "Thiết bị văn phòng – Hội họp", "url": "/san-pham/thiet-bi-van-phong-hoi-hop/" }
+    ]
+  },
+  {
+    "label": "GIẢI PHÁP",
+    "url": "/giai-phap/",
+    "children": [
+      { "label": "Giáo dục", "url": "/giai-phap/giao-duc/" },
+      { "label": "Cơ quan Nhà nước", "url": "/giai-phap/co-quan-nha-nuoc/" },
+      { "label": "Ngân hàng – Tài chính", "url": "/giai-phap/ngan-hang-tai-chinh/" },
+      { "label": "Tập đoàn – Tổng công ty", "url": "/giai-phap/tap-doan-tong-cong-ty/" },
+      { "label": "In đề thi – Tài liệu", "url": "/giai-phap/in-de-thi-tai-lieu/" },
+      { "label": "Scan – Số hóa", "url": "/giai-phap/scan-so-hoa/" },
+      { "label": "Cho thuê thiết bị", "url": "/giai-phap/cho-thue-thiet-bi/" },
+      { "label": "Quản lý – Vận hành", "url": "/giai-phap/quan-ly-van-hanh/" }
+    ]
+  },
+  {
+    "label": "DỊCH VỤ",
+    "url": "/dich-vu/",
+    "children": [
+      { "label": "Bảo trì – Sửa chữa", "url": "/dich-vu/bao-tri-sua-chua/" },
+      { "label": "Dịch vụ kỹ thuật", "url": "/dich-vu/dich-vu-ky-thuat/" },
+      { "label": "Vận hành thiết bị", "url": "/dich-vu/van-hanh-thiet-bi/" },
+      { "label": "Thu mua máy cũ – Đổi máy mới", "url": "/dich-vu/thu-mua-may-cu-doi-may-moi/" }
+    ]
+  },
+  { "label": "DỰ ÁN", "url": "/du-an/" },
+  {
+    "label": "VỀ HƯƠNG SƠN",
+    "url": "/ve-huong-son/",
+    "children": [
+      { "label": "Giới thiệu Hương Sơn", "url": "/ve-huong-son/" },
+      { "label": "Hồ sơ năng lực", "url": "/ve-huong-son/nang-luc/" },
+      { "label": "Đối tác – Thương hiệu", "url": "/ve-huong-son/doi-tac-thuong-hieu/" },
+      { "label": "Tài nguyên – Catalogue", "url": "/ve-huong-son/tai-nguyen/" },
+      { "label": "Kiến thức", "url": "/ve-huong-son/kien-thuc/" },
+      { "label": "Tin tức", "url": "/ve-huong-son/tin-tuc/" }
+    ]
+  },
+  { "label": "NHẬN TƯ VẤN", "url": "/nhan-tu-van/" }
+]

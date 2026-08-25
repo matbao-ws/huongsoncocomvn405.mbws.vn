@@ -1,7 +1,12 @@
 .DS_Store
 Thumbs.db
 *.log
+*.ai
+*.psd
+*.raw
 node_modules/
 dist/
 .idea/
 .vscode/
+build/__pycache__/
+__pycache__/

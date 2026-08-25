@@ -1,0 +1,2652 @@
+[
+ {
+  "slug": "giao-duc",
+  "url": "/giai-phap/giao-duc/",
+  "name": "Giải pháp thiết bị và in ấn cho ngành Giáo dục",
+  "eyebrow": "Hương Sơn Education Solutions",
+  "h1": "Giải pháp thiết bị & in ấn cho ngành Giáo dục",
+  "service_type": "Giải pháp thiết bị, in ấn và số hóa cho ngành Giáo dục",
+  "seo_title": "Giải pháp in ấn – scan – số hóa cho Sở GD&ĐT và trường học | Hương Sơn",
+  "seo_desc": "Hương Sơn cung cấp thiết bị, cho thuê máy, vật tư, kỹ thuật và giải pháp scan – số hóa cho Sở GD&ĐT, trường THPT/THCS và cơ sở đào tạo: từ in sao đề thi đến số hóa hồ sơ.",
+  "keywords": "giải pháp in ấn cho Sở GD&ĐT, dịch vụ in ấn cho Sở Giáo dục, thiết bị in đề thi cho Sở Giáo dục, giải pháp máy in cho trường THPT, dịch vụ scan số hóa tài liệu trường học",
+  "lead": "Từ in đề thi đến số hóa tài liệu – Hương Sơn cung cấp thiết bị, cho thuê, vật tư, kỹ thuật và giải pháp scan/số hóa theo đúng nhu cầu của từng đơn vị.",
+  "summary": "Giải pháp trọn vòng đời tài liệu cho ngành Giáo dục: thuê máy in sao đề thi, thuê máy photocopy cho trường học, quản lý in ấn trọn gói và số hóa hồ sơ – kèm vật tư, kỹ thuật trực và phương án máy dự phòng.",
+  "audience": [
+   "Sở Giáo dục và Đào tạo",
+   "Phòng Khảo thí – QLCLGD",
+   "Phòng Kế hoạch – Tài chính",
+   "Trường THPT",
+   "Trường THCS",
+   "Trường Đại học – Cao đẳng",
+   "Trung tâm và đơn vị trực thuộc"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Trang trụ cột tập hợp toàn bộ giải pháp thiết bị, in ấn và số hóa mà Hương Sơn cung cấp cho ngành Giáo dục, chia thành 4 nhóm theo đúng đầu việc của đơn vị."
+   ],
+   [
+    "Dành cho ai",
+    "Sở GD&ĐT (Lãnh đạo, Phòng Khảo thí/QLCLGD, Phòng Kế hoạch – Tài chính), trường THPT/THCS, trường đại học – cao đẳng và các đơn vị trực thuộc."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đảm bảo năng lực in ấn cho kỳ thi và hoạt động thường xuyên, kiểm soát chi phí in, và chuyển hồ sơ giấy sang dữ liệu số – không cần đơn vị tự đầu tư và tự vận hành thiết bị."
+   ]
+  ],
+  "problem": [
+   "Kỳ thi có sản lượng in rất lớn dồn vào vài ngày, trong khi thiết bị sẵn có của đơn vị không đủ công suất và không có máy dự phòng.",
+   "Đầu tư mua máy cho nhu cầu theo mùa gây tồn đọng tài sản, khấu hao và chi phí bảo trì cả năm cho vài ngày sử dụng.",
+   "Chi phí in ấn thường xuyên (mực, drum, linh kiện, sửa chữa) rời rạc, khó dự toán và khó kiểm soát theo từng phòng ban.",
+   "Sự cố thiết bị giữa kỳ thi không có phương án thay thế rõ ràng, không có cam kết thời gian xử lý.",
+   "Khối lượng hồ sơ giấy (văn bằng, chứng chỉ, hồ sơ học sinh, hồ sơ giáo viên, tài liệu lưu trữ) tăng liên tục nhưng chưa được số hóa và tra cứu được.",
+   "Hồ sơ báo giá – hợp đồng – bàn giao – nghiệm thu – thanh lý phải khớp nhau về tên thiết bị, cấu hình và khối lượng thực tế."
+  ],
+  "solution_intro": "Hương Sơn không chào từng chiếc máy rời. Hương Sơn chào một gói năng lực gồm thiết bị, vật tư, kỹ thuật, dự phòng và hồ sơ – chia thành 4 nhóm theo đầu việc của đơn vị.",
+  "packages": [
+   {
+    "code": "EXAM PRO",
+    "title": "Cho thuê máy in đề thi – vận hành điểm sao in",
+    "url": "/giai-phap/giao-duc/in-de-thi/",
+    "text": "Máy in nhân bản siêu tốc và máy photocopy tốc độ cao phục vụ in sao đề thi, kèm Master/mực, vận chuyển, lắp đặt, kỹ thuật trực và máy dự phòng theo quy mô kỳ thi.",
+    "icon": "fa-solid fa-print"
+   },
+   {
+    "code": "SCHOOL PRINT",
+    "title": "Cho thuê máy photocopy, máy in A3/A4 cho trường học",
+    "url": "/giai-phap/giao-duc/cho-thue-may-truong-hoc/",
+    "text": "Thuê máy theo tháng hoặc theo định mức bản in cho văn phòng trường, phòng giáo vụ và phòng đào tạo; có gói bao mực và bảo trì.",
+    "icon": "fa-solid fa-copy"
+   },
+   {
+    "code": "SCHOOL PRO",
+    "title": "Quản lý in ấn trọn gói – Managed Print Service",
+    "url": "/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/",
+    "text": "Hương Sơn quản lý toàn bộ thiết bị, vật tư, bảo trì, counter và SLA; đơn vị chỉ trả theo sản lượng và mức dịch vụ đã thống nhất.",
+    "icon": "fa-solid fa-gauge-high"
+   },
+   {
+    "code": "DIGITAL DOCUMENT",
+    "title": "Scan, OCR và số hóa hồ sơ – tài liệu",
+    "url": "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/",
+    "text": "Từ tiếp nhận hồ sơ giấy, scan tốc độ cao, kiểm soát chất lượng, OCR, đặt tên và metadata đến bàn giao dữ liệu số.",
+    "icon": "fa-solid fa-file-arrow-up"
+   }
+  ],
+  "equipment": [
+   {
+    "name": "Máy in nhân bản tốc độ cao",
+    "note": "Duplo, Riso – in sao đề thi sản lượng lớn",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Máy photocopy – máy đa chức năng A3/A4",
+    "note": "Toshiba, Ricoh, Konica Minolta – copy, in, scan hồ sơ",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy phối trang – thiết bị hoàn thiện sau in",
+    "note": "Phối đề, đóng bộ, hoàn thiện tài liệu",
+    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+   },
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Số hóa hồ sơ, văn bằng, chứng chỉ, tài liệu lưu trữ",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Máy in laser A4",
+    "note": "Phòng chuyên môn, phòng giáo vụ, văn thư",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Thiết bị phòng học – thiết bị dạy học",
+    "note": "Trang bị phòng học, phòng chức năng",
+    "url": "/san-pham/thiet-bi-phong-hoc-giao-duc/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Master, mực, drum, bột từ, linh kiện; mực Fansipan",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "T-60 → T-30",
+    "Khảo sát nhu cầu",
+    "Xác định kỳ thi hoặc nhu cầu thường xuyên, số điểm in, số máy, sản lượng dự kiến, khổ giấy và yêu cầu an ninh khu vực sao in."
+   ],
+   [
+    "T-30 → T-15",
+    "Chốt phương án",
+    "Cấu hình máy chính và máy dự phòng, định mức vật tư, nhân sự kỹ thuật, phương án vận chuyển; gửi phương án kỹ thuật kèm cơ cấu giá."
+   ],
+   [
+    "T-15 → T-7",
+    "Chuẩn bị thiết bị",
+    "Vệ sinh, bảo dưỡng, in test đạt yêu cầu; chuẩn bị Master/mực đủ cho toàn kỳ và tồn dự phòng; phân công kỹ thuật trực."
+   ],
+   [
+    "T-2",
+    "Giao và lắp đặt",
+    "Giao máy trước thời điểm in chính thức để đơn vị làm quen; kiểm tra nguồn điện, chạy thử, chốt counter đầu kỳ và lập biên bản bàn giao."
+   ],
+   [
+    "Trong kỳ",
+    "Vận hành và trực kỹ thuật",
+    "Kỹ thuật trực theo phương án đã thống nhất, ghi nhật ký vận hành, bổ sung vật tư, xử lý sự cố theo cấp độ."
+   ],
+   [
+    "Sau kỳ",
+    "Thu hồi và nghiệm thu",
+    "Chốt counter và vật tư thực tế, thu hồi thiết bị, nghiệm thu, xuất hóa đơn và thanh lý – hồ sơ khớp với báo giá và hợp đồng."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; không khắc phục được thì thay máy dự phòng"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ, không ảnh hưởng vận hành",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì gần nhất"
+   ]
+  ],
+  "service": [
+   "Kênh tiếp nhận sự cố qua điện thoại, Zalo và email; mỗi hợp đồng có đầu mối kỹ thuật xác định.",
+   "Phân loại sự cố theo cấp độ P1/P2/P3 với cam kết thời gian tương ứng.",
+   "Phương án máy dự phòng cho nhiệm vụ trọng yếu – tối thiểu 01 máy dự phòng cho mỗi cụm in của kỳ thi lớn.",
+   "Theo dõi lịch sử thiết bị, vật tư đã cấp và số lần xử lý sự cố theo từng mã máy.",
+   "Bảo dưỡng định kỳ và đánh giá thiết bị trước mỗi mùa cao điểm.",
+   "Hồ sơ nghiệm thu ghi rõ máy, số ngày thuê, vật tư thực tế, tình trạng và counter được xác nhận."
+  ],
+  "roi_intro": "Điều đơn vị mua không phải là chiếc máy, mà là năng lực in ấn ổn định trong một khoảng thời gian xác định. Vì vậy nên so sánh bằng tổng chi phí sở hữu, không so sánh bằng giá máy.",
+  "roi": [
+   [
+    "Chi phí đầu tư ban đầu",
+    "Mua: chi trả toàn bộ giá thiết bị ngay trong năm ngân sách",
+    "Thuê: chỉ chi phí thuê theo thời gian thực dùng"
+   ],
+   [
+    "Chi phí cả năm cho nhu cầu theo mùa",
+    "Mua: khấu hao, bảo trì, lưu kho cả 12 tháng",
+    "Thuê: chỉ phát sinh trong kỳ thi hoặc thời gian thuê"
+   ],
+   [
+    "Vật tư và linh kiện",
+    "Mua: đơn vị tự dự trù, tự mua, tự quản tồn",
+    "Thuê/MPS: nằm trong gói hoặc theo định mức đã thống nhất"
+   ],
+   [
+    "Rủi ro sự cố",
+    "Mua: đơn vị tự chịu, tự tìm phương án thay thế",
+    "Thuê: có cam kết SLA và máy dự phòng"
+   ],
+   [
+    "Dự toán và nghiệm thu",
+    "Mua: tài sản, thủ tục đầu tư",
+    "Thuê: chi phí dịch vụ, nghiệm thu theo khối lượng thực tế"
+   ]
+  ],
+  "roi_note": "Hương Sơn cung cấp 3 cách báo giá để phù hợp với cách lập dự toán của đơn vị: (A) thuê máy khô – vật tư tính theo thực tế; (B) máy kèm định mức vật tư; (C) trọn gói một đơn giá theo phạm vi hợp đồng. Mọi báo giá ghi rõ VAT, vận chuyển – lắp đặt, mực, Master, kỹ thuật, thời gian thuê và điều kiện phát sinh.",
+  "faqs": [
+   [
+    "Hương Sơn có kinh nghiệm triển khai cho Sở GD&ĐT chưa?",
+    "Có. Hương Sơn đã thực hiện hợp đồng thuê máy photocopy phục vụ in sao đề thi cho Sở GD&ĐT Vĩnh Phúc và hợp đồng thuê máy in nhân bản siêu tốc phục vụ sao đề thi Kỳ thi Tốt nghiệp THPT năm 2026 cho Sở GD&ĐT Quảng Trị. Chi tiết xem tại mục <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/du-an/\">Dự án – Case study</a>."
+   ],
+   [
+    "Thuê máy theo kỳ thi thì thuê tối thiểu bao lâu?",
+    "Theo hồ sơ đã triển khai, thời gian thuê phục vụ kỳ thi thường từ vài ngày đến khoảng hai tuần, tùy số điểm in và sản lượng. Hương Sơn giao máy trước thời điểm in chính thức để đơn vị làm quen và kiểm tra, chứ không giao sát giờ in."
+   ],
+   [
+    "Vật tư Master và mực do bên nào cung cấp?",
+    "Phụ thuộc mô hình báo giá được chọn. Mô hình A tách vật tư và tính theo thực tế sử dụng; mô hình B đi kèm định mức vật tư; mô hình C là trọn gói. Điều này được ghi rõ trong báo giá và hợp đồng để không gây hiểu nhầm phạm vi."
+   ],
+   [
+    "Nếu máy gặp sự cố trong ngày in đề thi thì xử lý thế nào?",
+    "Sự cố được phân loại theo cấp độ. Với sự cố P1 – máy dừng hoàn toàn, Hương Sơn tiếp nhận trong vòng 30 phút, mục tiêu có mặt trong vòng 2 giờ; nếu không khắc phục được thì thay bằng máy dự phòng đã chuẩn bị sẵn theo hợp đồng."
+   ],
+   [
+    "Hương Sơn có đảm bảo bảo mật khu vực sao in không?",
+    "Hương Sơn tuân thủ tuyệt đối quy định về an ninh và bảo mật khu vực sao in của đơn vị. Nội dung đề thi, dữ liệu học sinh và thông tin vận hành nhạy cảm không được ghi nhận, sao lưu hay công bố dưới bất kỳ hình thức nào."
+   ],
+   [
+    "Đơn vị cần chuẩn bị gì trước khi nhận máy?",
+    "Vị trí đặt máy có nguồn điện phù hợp, đầu mối kỹ thuật và đầu mối nghiệm thu của đơn vị, xác nhận số lượng và khổ giấy, và xác nhận thời điểm nhận máy – thời điểm in chính thức – thời điểm trả máy."
+   ],
+   [
+    "Có thể vừa thuê máy in đề thi vừa thuê máy photocopy thường xuyên không?",
+    "Được. Đây là mô hình phổ biến: bắt đầu bằng nhu cầu theo kỳ thi, sau đó mở rộng sang thuê máy photocopy thường xuyên cho văn phòng và các đơn vị trực thuộc, rồi tới quản lý in ấn trọn gói và số hóa hồ sơ."
+   ],
+   [
+    "Hương Sơn có nhận số hóa hồ sơ văn bằng, chứng chỉ không?",
+    "Có, đây là nhóm dịch vụ Hương Sơn đang phát triển cho giai đoạn 2027–2028. Quy trình gồm tiếp nhận và kiểm đếm hồ sơ, phân loại, scan tốc độ cao, kiểm soát chất lượng, OCR khi phạm vi yêu cầu, đặt tên và nhập metadata, bàn giao dữ liệu kèm biên bản số lượng và chất lượng."
+   ]
+  ],
+  "related_projects": [
+   "so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026",
+   "so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi"
+  ],
+  "next": [
+   [
+    "Cho thuê máy in đề thi",
+    "/giai-phap/giao-duc/in-de-thi/"
+   ],
+   [
+    "Cho thuê máy cho trường học",
+    "/giai-phap/giao-duc/cho-thue-may-truong-hoc/"
+   ],
+   [
+    "Quản lý in ấn trọn gói",
+    "/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/"
+   ],
+   [
+    "Số hóa hồ sơ trường học",
+    "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"
+   ]
+  ]
+ },
+ {
+  "slug": "in-de-thi",
+  "parent": "giao-duc",
+  "url": "/giai-phap/giao-duc/in-de-thi/",
+  "name": "Cho thuê máy in đề thi và vận hành điểm sao in",
+  "eyebrow": "EXAM PRO",
+  "h1": "Cho thuê máy in đề thi – in sao đề thi cho Sở GD&ĐT",
+  "service_type": "Cho thuê máy in nhân bản siêu tốc phục vụ in sao đề thi",
+  "nhu_cau_code": "EXAM",
+  "form_title": "Yêu cầu phương án in đề thi",
+  "seo_title": "Cho thuê máy in đề thi Duplo – Giải pháp EXAM PRO cho Sở GD&ĐT | Hương Sơn",
+  "seo_desc": "Cho thuê máy in đề thi, máy in nhân bản Duplo tốc độ cao và giải pháp in sao đề thi cho Sở GD&ĐT, Hội đồng thi và điểm sao in. Gồm thiết bị, Master, mực, vận chuyển, lắp đặt, kỹ thuật trực và máy dự phòng.",
+  "keywords": "cho thuê máy in đề thi, cho thuê máy in sao đề thi, dịch vụ in sao đề thi, cho thuê máy in đề thi Duplo, cho thuê máy in nhân bản Duplo, máy in đề thi tốc độ cao, thuê máy in nhân bản phục vụ kỳ thi tốt nghiệp THPT, máy dự phòng in đề thi, vật tư Master mực Duplo, giải pháp in đề thi bảo mật",
+  "lead": "Hương Sơn cung cấp dịch vụ cho thuê máy in đề thi, máy in nhân bản Duplo tốc độ cao và giải pháp in sao đề thi cho Sở GD&ĐT, Hội đồng thi và các điểm sao in. Dịch vụ bao gồm thiết bị, Master, mực, vận chuyển, lắp đặt, kỹ thuật trực và phương án máy dự phòng.",
+  "summary": "Dịch vụ thuê máy in nhân bản siêu tốc và máy photocopy tốc độ cao phục vụ in sao đề thi, kèm vật tư Master/mực, vận chuyển – lắp đặt, kỹ thuật trực tại điểm in và máy dự phòng theo quy mô kỳ thi.",
+  "audience": [
+   "Sở Giáo dục và Đào tạo",
+   "Phòng Khảo thí – QLCLGD",
+   "Hội đồng thi",
+   "Điểm sao in đề thi",
+   "Trường THPT"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Dịch vụ cho thuê máy in đề thi và vận hành điểm sao in theo kỳ thi: máy in nhân bản siêu tốc, máy photocopy tốc độ cao, vật tư, kỹ thuật trực và máy dự phòng."
+   ],
+   [
+    "Dành cho ai",
+    "Sở GD&ĐT, Phòng Khảo thí – QLCLGD, Hội đồng thi và các điểm sao in đề thi có nhu cầu in sản lượng lớn trong thời gian ngắn."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đảm bảo kỳ thi in đủ, in đúng tiến độ và không bị phụ thuộc vào một thiết bị duy nhất – không cần đơn vị đầu tư mua máy cho nhu cầu chỉ dùng theo mùa."
+   ]
+  ],
+  "problem": [
+   "Sản lượng in của kỳ thi dồn vào một vài ngày, vượt xa công suất thiết bị thường ngày của đơn vị.",
+   "Kỳ thi phụ thuộc vào một máy duy nhất: máy dừng là toàn bộ tiến độ sao in dừng theo.",
+   "Mua máy nhân bản siêu tốc cho nhu cầu vài ngày mỗi năm là đầu tư kém hiệu quả, còn phát sinh khấu hao, lưu kho và bảo trì cả năm.",
+   "Vật tư Master và mực nếu thiếu giữa kỳ sẽ làm gián đoạn công việc, trong khi việc dự trù định mức không đơn giản.",
+   "Yêu cầu bảo mật khu vực sao in rất cao – không phải nhà cung cấp nào cũng có quy trình phù hợp.",
+   "Hồ sơ dự toán, hợp đồng và nghiệm thu phải khớp về số ngày thuê, khối lượng và vật tư thực tế."
+  ],
+  "solution_intro": "EXAM PRO là gói dịch vụ trọn phạm vi cho một kỳ in sao đề thi. Hương Sơn chịu trách nhiệm về thiết bị, vật tư, kỹ thuật và phương án dự phòng; đơn vị tập trung vào nghiệp vụ khảo thí.",
+  "solution_points": [
+   "Máy chính: máy in nhân bản siêu tốc được chọn theo sản lượng dự kiến của từng điểm in.",
+   "Máy dự phòng: tối thiểu 01 máy dự phòng cho mỗi cụm in của kỳ thi lớn.",
+   "Vật tư: Master và mực đủ cho toàn kỳ, kèm tồn dự phòng tại điểm in.",
+   "Bàn giao trước: máy được vệ sinh, bảo dưỡng, in test đạt và giao trước thời điểm in chính thức để đơn vị làm quen.",
+   "Kỹ thuật: đầu mối kỹ thuật xác định, hỗ trợ từ xa và có mặt tại hiện trường theo cam kết.",
+   "Hoàn thiện sau in: bổ sung máy phối trang khi đơn vị có nhu cầu phối đề, đóng bộ.",
+   "Bảo mật: tuân thủ tuyệt đối quy định an ninh khu vực sao in của đơn vị.",
+   "Hồ sơ: biên bản bàn giao, nhật ký vận hành, biên bản chốt counter, nghiệm thu và thanh lý đầy đủ."
+  ],
+  "equipment": [
+   {
+    "name": "Máy in nhân bản tốc độ cao",
+    "note": "Máy chính cho in sao đề thi sản lượng lớn – lựa chọn theo bản/phút và quy mô điểm in",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Máy photocopy tốc độ cao A3",
+    "note": "Máy in sao đề thi khổ A3/A4, dùng độc lập hoặc bổ trợ cho máy nhân bản",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy phối trang – hoàn thiện sau in",
+    "note": "Phối đề, đóng bộ, hoàn thiện tài liệu sau khi in",
+    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+   },
+   {
+    "name": "Vật tư Master – mực – linh kiện",
+    "note": "Định mức cho toàn kỳ thi kèm tồn dự phòng tại điểm in",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "T-60 → T-30",
+    "Khảo sát kỳ thi",
+    "Xác định các kỳ thi và đợt khảo sát cần sao in trong năm, số điểm sao in, số máy dự kiến tại mỗi điểm, sản lượng và khổ giấy, yêu cầu an ninh khu vực sao in."
+   ],
+   [
+    "T-30 → T-15",
+    "Chốt giải pháp",
+    "Cấu hình máy chính và máy dự phòng, định mức Master/mực, nhân sự kỹ thuật, phương án vận chuyển; xác định đầu mối kỹ thuật và đầu mối nghiệm thu của đơn vị."
+   ],
+   [
+    "T-15 → T-7",
+    "Chuẩn bị thiết bị và vật tư",
+    "Vệ sinh, bảo dưỡng và in test đạt yêu cầu; chuẩn bị Master, mực, phụ kiện và thiết bị phụ trợ; phân công kỹ thuật trực; xác nhận máy dự phòng đã sẵn sàng."
+   ],
+   [
+    "T-2",
+    "Bàn giao tại điểm in",
+    "Giao và lắp máy, kiểm tra nguồn điện, chạy thử, chốt counter đầu kỳ, lập biên bản bàn giao. Không giao máy sát giờ in chính thức."
+   ],
+   [
+    "Ngày in",
+    "Vận hành và trực kỹ thuật",
+    "Kỹ thuật trực theo phương án, ghi nhật ký vận hành, bổ sung vật tư khi cần, xử lý sự cố theo cấp độ; chuyển sang máy dự phòng nếu không khắc phục được tại chỗ."
+   ],
+   [
+    "Sau kỳ thi",
+    "Thu hồi và nghiệm thu",
+    "Chốt counter và vật tư thực tế, thu hồi thiết bị, nghiệm thu, xuất hóa đơn và thanh lý; hồ sơ dùng cùng tên thiết bị và cấu hình với báo giá và hợp đồng."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; không khắc phục được thì thay máy dự phòng"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý ngay trong ngày in"
+   ],
+   [
+    "P3 – Lỗi nhỏ, không ảnh hưởng tiến độ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch, không làm dừng công việc"
+   ]
+  ],
+  "service": [
+   "Checklist bắt buộc trước khi xe rời kho: đúng model và serial, đã vệ sinh – bảo dưỡng, in test đạt, đủ Master/mực, đủ phụ kiện và thiết bị phụ trợ, có biên bản bàn giao, xác định địa chỉ và đầu mối nhận máy, tên kỹ thuật trực, máy dự phòng đã sẵn sàng.",
+   "Kênh liên lạc ưu tiên trong ngày in: điện thoại và Zalo tới đầu mối kỹ thuật được chỉ định.",
+   "Nhật ký vận hành ghi nhận sản lượng, vật tư đã dùng và sự cố phát sinh theo từng máy.",
+   "Phương án thay máy dự phòng được xác định trước, không xử lý theo tình huống.",
+   "Tuân thủ tuyệt đối quy định bảo mật khu vực sao in; không ghi nhận, sao lưu hoặc công bố nội dung đề thi.",
+   "Biên bản nghiệm thu xác nhận máy, số ngày thuê, vật tư thực tế, tình trạng thiết bị và counter."
+  ],
+  "roi_intro": "Với nhu cầu chỉ phát sinh theo kỳ thi, thuê máy thường hiệu quả hơn mua – vì chi phí chỉ tồn tại trong thời gian thực dùng, còn rủi ro thiết bị được chuyển sang nhà cung cấp.",
+  "roi": [
+   [
+    "Thời gian sử dụng thực tế",
+    "Mua: máy nằm kho phần lớn thời gian trong năm",
+    "Thuê: chỉ tính chi phí cho số ngày thuê thực tế"
+   ],
+   [
+    "Khấu hao và lưu kho",
+    "Mua: phát sinh cả 12 tháng",
+    "Thuê: không phát sinh"
+   ],
+   [
+    "Máy dự phòng",
+    "Mua: phải mua thêm máy thứ hai mới có dự phòng",
+    "Thuê: nằm trong phương án dịch vụ theo quy mô kỳ thi"
+   ],
+   [
+    "Vật tư Master – mực",
+    "Mua: đơn vị tự dự trù và tự quản tồn",
+    "Thuê: theo thực tế hoặc theo định mức đã thống nhất"
+   ],
+   [
+    "Kỹ thuật trực trong kỳ",
+    "Mua: đơn vị tự bố trí hoặc thuê ngoài từng lần",
+    "Thuê: nằm trong phạm vi dịch vụ"
+   ],
+   [
+    "Thủ tục ngân sách",
+    "Mua: thủ tục đầu tư tài sản",
+    "Thuê: chi phí dịch vụ, nghiệm thu theo khối lượng thực tế"
+   ]
+  ],
+  "roi_note": "Ba cách báo giá để phù hợp với cách lập dự toán của đơn vị: (A) thuê máy khô – Master/mực tính theo thực tế, dùng khi đơn vị muốn tách vật tư; (B) máy kèm định mức vật tư, dùng khi sản lượng kỳ thi dự báo được; (C) trọn gói một đơn giá theo phạm vi hợp đồng, dùng khi đơn vị cần kiểm soát ngân sách đơn giản. Báo giá luôn ghi rõ VAT, vận chuyển – lắp đặt, mực, Master, giấy, kỹ thuật, thời gian thuê và điều kiện phát sinh.",
+  "faqs": [
+   [
+    "Thuê máy in đề thi thì giá tính theo gì?",
+    "Theo phạm vi cung cấp và cách báo giá được chọn: tiền máy theo thời gian thuê, vật tư Master và mực theo thực tế hoặc theo định mức, cộng vận chuyển – lắp đặt và kỹ thuật trực. Mọi khoản được tách rõ trong báo giá, không dùng một chữ trọn gói gây hiểu nhầm phạm vi."
+   ],
+   [
+    "Máy được giao trước ngày in bao lâu?",
+    "Hương Sơn giao máy trước thời điểm in chính thức để đơn vị kiểm tra và làm quen thiết bị, theo thông lệ là khoảng 2 ngày trở lên tùy quy mô. Nguyên tắc điều hành của Hương Sơn là không giao máy sát giờ in."
+   ],
+   [
+    "Có máy dự phòng không, và tính phí thế nào?",
+    "Có. Phương án dự phòng được xác định ngay khi chốt giải pháp – tối thiểu 01 máy dự phòng cho mỗi cụm in của kỳ thi lớn. Cách tính phí máy dự phòng được ghi rõ trong báo giá."
+   ],
+   [
+    "Máy in nhân bản đạt được tốc độ bao nhiêu bản/phút?",
+    "Tùy dòng máy và cấu hình. Trong hợp đồng đã thực hiện với Sở GD&ĐT Quảng Trị năm 2026, yêu cầu kỹ thuật là máy đạt khoảng 150–155 bản/phút. Hương Sơn chọn máy theo sản lượng và tiến độ thực tế của từng điểm in."
+   ],
+   [
+    "Hương Sơn có nhận in sao đề thi hộ đơn vị không?",
+    "Phạm vi dịch vụ của Hương Sơn là cung cấp thiết bị, vật tư, kỹ thuật và phương án dự phòng để đơn vị vận hành điểm sao in. Nghiệp vụ khảo thí và nội dung đề thi do đơn vị chịu trách nhiệm và quản lý theo quy định bảo mật."
+   ],
+   [
+    "Kỹ thuật có trực tại điểm in trong ngày in không?",
+    "Có. Kỹ thuật trực theo phương án đã thống nhất trong hợp đồng, với đầu mối được chỉ định tên cụ thể, hỗ trợ từ xa và có mặt tại hiện trường theo cam kết SLA."
+   ],
+   [
+    "Nếu sản lượng thực tế thấp hơn dự kiến thì nghiệm thu thế nào?",
+    "Nghiệm thu theo khối lượng thực tế. Trong hồ sơ đã thực hiện với Sở GD&ĐT Vĩnh Phúc, hợp đồng ghi 05 ngày thuê nhưng khối lượng thực tế xác nhận là 04 ngày và giá trị nghiệm thu được điều chỉnh tương ứng. Mọi thay đổi số ngày thuê hoặc khối lượng đều thể hiện rõ trong biên bản nghiệm thu."
+   ],
+   [
+    "Sau kỳ thi có thể tiếp tục thuê máy cho công việc thường xuyên không?",
+    "Được. Nhiều đơn vị bắt đầu từ nhu cầu theo kỳ thi rồi mở rộng sang <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/giao-duc/cho-thue-may-truong-hoc/\">thuê máy photocopy thường xuyên</a> và <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/\">quản lý in ấn trọn gói</a>."
+   ]
+  ],
+  "next": [
+   [
+    "Cho thuê máy cho trường học",
+    "/giai-phap/giao-duc/cho-thue-may-truong-hoc/"
+   ],
+   [
+    "Quản lý in ấn trọn gói",
+    "/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/"
+   ],
+   [
+    "Số hóa hồ sơ trường học",
+    "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"
+   ],
+   [
+    "Máy in nhân bản tốc độ cao",
+    "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   ]
+  ],
+  "cta_title": "Kỳ thi sắp tới của Quý đơn vị cần bao nhiêu máy?",
+  "cta_text": "Gửi số điểm in, sản lượng dự kiến và thời gian in – Hương Sơn đề xuất cấu hình máy chính, máy dự phòng, định mức vật tư và cơ cấu giá để Quý đơn vị đưa vào dự toán."
+ },
+ {
+  "slug": "cho-thue-may-truong-hoc",
+  "parent": "giao-duc",
+  "url": "/giai-phap/giao-duc/cho-thue-may-truong-hoc/",
+  "name": "Cho thuê máy photocopy, máy in A3/A4 cho trường học",
+  "eyebrow": "SCHOOL PRINT",
+  "h1": "Cho thuê máy photocopy, máy in A3/A4 cho trường học",
+  "service_type": "Cho thuê máy photocopy và máy in cho trường học",
+  "nhu_cau_code": "PRINT",
+  "form_title": "Nhận bảng giá thuê máy",
+  "seo_title": "Cho thuê máy photocopy cho trường học – A3/A4, mực và bảo trì | Hương Sơn",
+  "seo_desc": "Cho thuê máy photocopy và máy in A3/A4 cho trường THPT, THCS và đơn vị giáo dục. Thuê theo tháng, theo định mức bản in hoặc gói trọn gói có mực, bảo trì và hỗ trợ kỹ thuật.",
+  "keywords": "cho thuê máy photocopy cho trường học, cho thuê máy photocopy trường THPT, cho thuê máy photocopy trường THCS, cho thuê máy photocopy A3 cho trường học, thuê máy photocopy bao mực bảo trì, bảng giá thuê máy photocopy trường học, thuê máy photocopy cho phòng giáo vụ",
+  "lead": "Hương Sơn cung cấp dịch vụ cho thuê máy photocopy và máy in A3/A4 cho trường THCS, THPT và các đơn vị giáo dục. Đơn vị có thể chọn thuê theo tháng, theo định mức bản in, hoặc gói có mực, bảo trì và hỗ trợ kỹ thuật.",
+  "summary": "Cho thuê máy photocopy và máy in A3/A4 theo tháng hoặc theo định mức bản in cho văn phòng trường, phòng giáo vụ và phòng đào tạo, kèm vật tư, bảo trì và hỗ trợ kỹ thuật.",
+  "audience": [
+   "Trường THPT",
+   "Trường THCS",
+   "Trường Tiểu học",
+   "Phòng giáo vụ",
+   "Phòng đào tạo",
+   "Văn phòng trường",
+   "Đơn vị trực thuộc Sở GD&ĐT"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Dịch vụ cho thuê máy photocopy và máy in A3/A4 phục vụ công việc in ấn thường xuyên của trường học, tính phí theo tháng hoặc theo sản lượng bản in."
+   ],
+   [
+    "Dành cho ai",
+    "Trường THPT, THCS, Tiểu học, phòng giáo vụ, phòng đào tạo, văn phòng trường và các đơn vị trực thuộc Sở GD&ĐT."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đảm bảo máy luôn hoạt động và chi phí in ấn dự đoán được theo tháng, thay vì đầu tư mua máy rồi tự lo mực, linh kiện và sửa chữa."
+   ]
+  ],
+  "problem": [
+   "Máy photocopy cũ hỏng liên tục vào đúng đầu năm học và mùa kiểm tra, không có phương án thay thế nhanh.",
+   "Chi phí mực, drum, linh kiện và sửa chữa phát sinh rời rạc, khó dự toán cho cả năm học.",
+   "Kinh phí đầu tư mua máy mới không sẵn có hoặc phải chờ chu kỳ ngân sách.",
+   "Sản lượng in dao động mạnh giữa mùa thấp điểm và mùa cao điểm nhưng thiết bị chỉ có một cấu hình cố định.",
+   "Không có số liệu sản lượng theo phòng ban nên không biết chi phí in thực tế là bao nhiêu."
+  ],
+  "solution_intro": "Đơn vị không mua thiết bị mà mua năng lực in ấn ổn định theo tháng. Hương Sơn chịu trách nhiệm về máy, vật tư và bảo trì; đơn vị chỉ trả phí thuê và phần sản lượng vượt định mức nếu có.",
+  "solution_points": [
+   "Khảo sát trước khi báo giá: số giáo viên, số học sinh, số phòng ban, sản lượng bình quân tháng, tháng cao điểm và khổ giấy sử dụng.",
+   "Chọn cấu hình A3 hoặc A4 theo nhu cầu thực tế, không chào máy vượt nhu cầu.",
+   "Cấu trúc phí: phí thuê cố định + định mức bản in miễn phí + đơn giá bản vượt định mức.",
+   "Thời hạn hợp đồng linh hoạt 12, 24 hoặc 36 tháng.",
+   "Giao máy, chốt counter đầu kỳ và đào tạo sử dụng cho nhân sự của đơn vị.",
+   "Chốt counter định kỳ và xuất hóa đơn theo kỳ đã thống nhất.",
+   "Bảo trì, thay vật tư và xử lý sự cố trong phạm vi hợp đồng.",
+   "Đánh giá gia hạn hoặc nâng cấp cấu hình trước 90 ngày khi hợp đồng gần hết hạn."
+  ],
+  "equipment": [
+   {
+    "name": "Máy photocopy – máy đa chức năng A3",
+    "note": "Copy, in, scan hồ sơ cho văn phòng trường và phòng chuyên môn",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy in laser A4 – máy in đa chức năng A4",
+    "note": "Phòng giáo vụ, phòng đào tạo, văn thư",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Máy scan tài liệu",
+    "note": "Bổ sung cho gói có nhu cầu số hóa hồ sơ",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Mực, drum, bột từ, linh kiện thay thế trong quá trình thuê",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Khảo sát nhu cầu",
+    "Xác định số giáo viên, học sinh, phòng ban, sản lượng bình quân tháng, tháng cao điểm và khổ giấy."
+   ],
+   [
+    "Bước 2",
+    "Tính sản lượng và chọn cấu hình",
+    "Tính sản lượng bình quân và cao điểm, từ đó chọn cấu hình A3, A4 hoặc kết hợp cho phù hợp."
+   ],
+   [
+    "Bước 3",
+    "Xây gói phí thuê",
+    "Xác định phí thuê, định mức bản in miễn phí và đơn giá bản vượt; gửi báo giá kèm cơ cấu giá rõ ràng."
+   ],
+   [
+    "Bước 4",
+    "Ký hợp đồng",
+    "Ký hợp đồng 12, 24 hoặc 36 tháng với phạm vi cung cấp, cơ chế nghiệm thu và thanh toán xác định."
+   ],
+   [
+    "Bước 5",
+    "Giao máy và đào tạo",
+    "Giao – lắp đặt, chốt counter đầu kỳ, hướng dẫn sử dụng cho nhân sự phụ trách."
+   ],
+   [
+    "Bước 6",
+    "Vận hành và chốt kỳ",
+    "Bảo trì, thay vật tư, xử lý sự cố; chốt counter định kỳ và xuất hóa đơn."
+   ],
+   [
+    "Bước 7",
+    "Đánh giá gia hạn",
+    "Trước 90 ngày hết hạn, đánh giá lại nhu cầu để gia hạn hoặc nâng cấp cấu hình."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay máy nếu không khắc phục được"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì"
+   ]
+  ],
+  "service": [
+   "Bảo trì định kỳ theo lịch, không chờ đến khi máy hỏng mới xử lý.",
+   "Vật tư trong phạm vi hợp đồng do Hương Sơn cung cấp và quản lý tồn.",
+   "Kênh tiếp nhận sự cố qua điện thoại, Zalo và email với đầu mối kỹ thuật xác định.",
+   "Theo dõi lịch sử thiết bị, vật tư và số lần xử lý theo từng mã máy.",
+   "Phương án thay máy khi thiết bị không khắc phục được tại chỗ.",
+   "Chốt counter đúng kỳ để hai bên có cùng số liệu sản lượng khi nghiệm thu."
+  ],
+  "roi_intro": "So sánh nên đặt trên tổng chi phí một năm học, gồm cả mực, linh kiện, sửa chữa và thời gian máy dừng – không chỉ so sánh giá mua máy.",
+  "roi": [
+   [
+    "Vốn ban đầu",
+    "Mua: chi trả toàn bộ giá máy trong một kỳ ngân sách",
+    "Thuê: không cần vốn đầu tư, chi phí trải theo tháng"
+   ],
+   [
+    "Mực và linh kiện",
+    "Mua: đơn vị tự mua từng lần, giá và chất lượng không ổn định",
+    "Thuê: trong phạm vi hợp đồng hoặc theo định mức đã thống nhất"
+   ],
+   [
+    "Sửa chữa và máy dừng",
+    "Mua: chi phí phát sinh không dự đoán được",
+    "Thuê: có cam kết thời gian xử lý và phương án thay máy"
+   ],
+   [
+    "Dự toán chi phí in",
+    "Mua: khó tách chi phí in thực tế",
+    "Thuê: có số liệu counter theo kỳ, dự toán được"
+   ],
+   [
+    "Nâng cấp khi nhu cầu tăng",
+    "Mua: phải đầu tư máy mới",
+    "Thuê: đánh giá lại và đổi cấu hình khi gia hạn"
+   ]
+  ],
+  "roi_note": "Ba cấu hình gợi ý: Basic – 01 máy A3 đa chức năng cho trường quy mô nhỏ; Standard – 01 máy A3 kết hợp 01 máy A4 cho trường THCS/THPT; Plus – 01 máy A3, 02 máy A4 và 01 máy scan cho trường có bộ phận văn thư hoặc có nhu cầu số hóa hồ sơ.",
+  "faqs": [
+   [
+    "Thuê máy photocopy cho trường học tính phí như thế nào?",
+    "Theo cấu trúc phí thuê cố định hàng tháng, kèm định mức bản in miễn phí và đơn giá cho bản in vượt định mức. Định mức được xác định từ sản lượng khảo sát thực tế của đơn vị, không áp một con số chung."
+   ],
+   [
+    "Gói thuê có bao gồm mực và bảo trì không?",
+    "Có gói bao mực và bảo trì. Đơn vị cũng có thể chọn gói chỉ thuê máy và tự lo vật tư. Phạm vi cung cấp được ghi rõ trong báo giá và hợp đồng."
+   ],
+   [
+    "Thời hạn thuê tối thiểu là bao lâu?",
+    "Hợp đồng thuê thường xuyên ký theo 12, 24 hoặc 36 tháng. Với nhu cầu ngắn hạn theo mùa vụ hoặc theo kỳ thi, xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/giao-duc/in-de-thi/\">gói thuê máy in đề thi theo kỳ</a>."
+   ],
+   [
+    "Máy cho thuê là máy mới hay máy đã qua sử dụng?",
+    "Tùy cấu hình và ngân sách của đơn vị. Tình trạng thiết bị, model và cấu hình được ghi rõ trong báo giá, hợp đồng và biên bản bàn giao – dùng cùng một tên thiết bị trên toàn bộ hồ sơ."
+   ],
+   [
+    "Nếu sản lượng vượt định mức thì tính thế nào?",
+    "Phần vượt định mức tính theo đơn giá bản in đã thống nhất trong hợp đồng, căn cứ counter được chốt định kỳ và có xác nhận của hai bên."
+   ],
+   [
+    "Trường ở tỉnh xa Hà Nội có thuê được không?",
+    "Hương Sơn xem xét theo địa bàn và khả năng phục vụ kỹ thuật thực tế, vì cam kết SLA chỉ có giá trị khi đội kỹ thuật tiếp cận được trong thời gian cam kết. Vui lòng gửi địa chỉ đơn vị để Hương Sơn xác nhận phạm vi phục vụ."
+   ],
+   [
+    "Có thể vừa thuê máy vừa nhờ Hương Sơn quản lý toàn bộ hệ thống in không?",
+    "Được, đó là gói <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/\">quản lý in ấn trọn gói (Managed Print Service)</a> – Hương Sơn quản lý thiết bị, vật tư, bảo trì, counter và SLA."
+   ]
+  ],
+  "next": [
+   [
+    "Quản lý in ấn trọn gói",
+    "/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/"
+   ],
+   [
+    "Cho thuê máy in đề thi",
+    "/giai-phap/giao-duc/in-de-thi/"
+   ],
+   [
+    "Số hóa hồ sơ trường học",
+    "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"
+   ],
+   [
+    "Máy photocopy A3/A4",
+    "/san-pham/photocopy-may-da-chuc-nang/"
+   ]
+  ],
+  "cta_title": "Nhận bảng giá thuê máy theo đúng sản lượng của trường",
+  "cta_text": "Gửi số phòng ban và sản lượng in bình quân tháng – Hương Sơn đề xuất cấu hình, định mức bản in và phí thuê để đơn vị đưa vào kế hoạch năm học."
+ },
+ {
+  "slug": "quan-ly-in-an-truong-hoc",
+  "parent": "giao-duc",
+  "url": "/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/",
+  "name": "Quản lý in ấn trọn gói cho trường học – Managed Print Service",
+  "eyebrow": "SCHOOL PRO",
+  "h1": "Quản lý in ấn trọn gói cho trường học (Managed Print Service)",
+  "service_type": "Managed Print Service cho khối Giáo dục",
+  "nhu_cau_code": "PRO",
+  "form_title": "Yêu cầu khảo sát hệ thống in",
+  "seo_title": "Managed Print Service cho trường học – SCHOOL PRO | Hương Sơn",
+  "seo_desc": "Giải pháp thuê và quản lý trọn gói hệ thống máy in, photocopy, scan cho trường học và đơn vị giáo dục theo sản lượng, SLA và ngân sách đã thống nhất.",
+  "keywords": "managed print service trường học, quản lý in ấn trường học, dịch vụ quản lý máy in trường học, thuê máy in photocopy theo sản lượng, giải pháp thuê máy photocopy trọn gói cho trường học, quản lý chi phí in ấn trường học, quản lý counter máy photocopy",
+  "lead": "SCHOOL PRO là giải pháp Managed Print Service giúp trường học và đơn vị giáo dục thuê, quản lý và vận hành toàn bộ hệ thống máy in – photocopy – scan theo sản lượng, SLA và ngân sách đã thống nhất.",
+  "summary": "Hương Sơn quản lý toàn bộ thiết bị, vật tư, bảo trì, counter và SLA của hệ thống in; đơn vị trả theo sản lượng và mức dịch vụ đã thống nhất, có báo cáo định kỳ.",
+  "audience": [
+   "Sở Giáo dục và Đào tạo",
+   "Trường Đại học – Cao đẳng",
+   "Trường có nhiều phòng ban",
+   "Trung tâm in của đơn vị giáo dục"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Dịch vụ quản lý in ấn trọn gói: Hương Sơn quản lý thiết bị, vật tư, bảo trì, counter và cam kết SLA cho toàn bộ hệ thống in của đơn vị."
+   ],
+   [
+    "Dành cho ai",
+    "Sở GD&ĐT, trường đại học – cao đẳng, trường lớn nhiều phòng ban và các đơn vị có trung tâm in riêng."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Biến chi phí in rời rạc và khó kiểm soát thành một khoản dịch vụ có số liệu, có cam kết và có báo cáo – đồng thời giảm tải công việc kỹ thuật cho nhân sự của đơn vị."
+   ]
+  ],
+  "problem": [
+   "Nhiều máy của nhiều hãng, nhiều đời, mỗi máy một loại vật tư – việc mua và quản tồn rất phức tạp.",
+   "Không có số liệu sản lượng theo máy và theo phòng ban nên không biết chi phí in thực tế phân bổ ra sao.",
+   "Nhân sự kỹ thuật của đơn vị phải xử lý sự cố máy in thay vì làm công việc chuyên môn.",
+   "Chi phí sửa chữa và vật tư phát sinh không dự đoán được, gây khó cho dự toán.",
+   "Không có cam kết thời gian xử lý sự cố, mỗi lần hỏng là một lần thương lượng lại.",
+   "Máy cũ vẫn được dùng vì chưa có căn cứ số liệu để đề xuất thay thế hay nâng cấp."
+  ],
+  "solution_intro": "Hương Sơn tiến từ bảo trì từng máy sang quản lý toàn bộ hệ thống in của đơn vị: thiết bị, vật tư, sản lượng, sự cố và chi phí đều được quản lý theo mã máy và báo cáo định kỳ.",
+  "solution_points": [
+   "Khảo sát toàn bộ thiết bị hiện có: model, tuổi máy, sản lượng, tình trạng, vật tư đang dùng.",
+   "Chuẩn hóa đội máy: cấu hình A3 đa chức năng, A4 và máy scan theo đúng nhu cầu từng khu vực; có thể bổ sung máy in nhân bản hoặc thiết bị sau in.",
+   "Hương Sơn chủ động cung ứng và quản lý tồn vật tư – đơn vị không phải mua từng lần.",
+   "Counter được chốt định kỳ và quản lý theo mã máy, làm căn cứ nghiệm thu và thanh toán.",
+   "SLA phân theo cấp độ P1/P2/P3 với cam kết thời gian tương ứng.",
+   "Thiết bị dự phòng theo quy mô hợp đồng.",
+   "Báo cáo định kỳ về sản lượng, sự cố, vật tư đã cấp và chi phí trên mỗi thiết bị.",
+   "Đánh giá lại hợp đồng ở các mốc 90, 60 và 30 ngày trước khi hết hạn để tối ưu cấu hình."
+  ],
+  "equipment": [
+   {
+    "name": "Máy photocopy – máy đa chức năng A3",
+    "note": "Thiết bị trục chính của hệ thống in",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy in laser A4 – máy đa chức năng A4",
+    "note": "Thiết bị phân tán theo phòng ban",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Số hóa hồ sơ trong cùng một hợp đồng dịch vụ",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Máy in nhân bản – thiết bị sau in",
+    "note": "Bổ sung khi đơn vị có trung tâm in hoặc nhu cầu sản lượng lớn",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Do Hương Sơn chủ động cung ứng và quản lý tồn",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Khảo sát hệ thống hiện tại",
+    "Kiểm kê toàn bộ thiết bị theo model, tuổi máy, sản lượng, tình trạng và loại vật tư đang sử dụng."
+   ],
+   [
+    "Bước 2",
+    "Phân tích chi phí hiện tại",
+    "Tính chi phí in thực tế theo máy và theo phòng ban, xác định các thiết bị và khu vực đang gây chi phí cao."
+   ],
+   [
+    "Bước 3",
+    "Thiết kế lại đội máy",
+    "Đề xuất cấu hình thiết bị theo nhu cầu từng khu vực, loại bỏ thiết bị không hiệu quả."
+   ],
+   [
+    "Bước 4",
+    "Chốt SLA và cơ chế giá",
+    "Thống nhất mức dịch vụ P1/P2/P3, đơn giá theo sản lượng, phạm vi vật tư và cơ chế nghiệm thu – thanh toán."
+   ],
+   [
+    "Bước 5",
+    "Triển khai và chốt counter đầu kỳ",
+    "Lắp đặt, cấu hình, đào tạo sử dụng và chốt counter khởi điểm cho từng mã máy."
+   ],
+   [
+    "Bước 6",
+    "Vận hành và báo cáo",
+    "Cung ứng vật tư, bảo trì theo lịch, xử lý sự cố theo SLA, chốt counter và gửi báo cáo định kỳ."
+   ],
+   [
+    "Bước 7",
+    "Đánh giá và tối ưu",
+    "Rà soát ở mốc T-90, T-60, T-30 trước hạn để điều chỉnh cấu hình, định mức và phạm vi dịch vụ."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay thiết bị nếu không khắc phục được"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ, không ảnh hưởng vận hành",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì định kỳ"
+   ]
+  ],
+  "service": [
+   "Vật tư do Hương Sơn chủ động cung ứng và quản lý tồn, đảm bảo không gián đoạn vì thiếu vật tư.",
+   "Counter chốt định kỳ theo mã máy – hai bên có cùng một số liệu khi nghiệm thu.",
+   "Thiết bị dự phòng theo quy mô hợp đồng, không xử lý theo tình huống.",
+   "Báo cáo định kỳ: sản lượng, sự cố, vật tư đã cấp, chi phí trên mỗi thiết bị.",
+   "Bảo trì theo lịch phòng ngừa thay vì chỉ sửa khi hỏng.",
+   "Đầu mối kỹ thuật xác định cho từng khu vực triển khai."
+  ],
+  "roi_intro": "Giá trị của Managed Print Service không nằm ở đơn giá một bản in, mà ở việc chi phí in trở thành một khoản có số liệu, có cam kết và có thể tối ưu theo từng kỳ.",
+  "roi": [
+   [
+    "Khả năng dự toán",
+    "Tự quản: chi phí phát sinh rời rạc theo từng lần mua và từng lần sửa",
+    "MPS: một cơ cấu giá theo sản lượng, dự toán được theo kỳ"
+   ],
+   [
+    "Nhân sự kỹ thuật của đơn vị",
+    "Tự quản: mất thời gian xử lý sự cố thiết bị",
+    "MPS: chuyển toàn bộ sang nhà cung cấp theo SLA"
+   ],
+   [
+    "Quản lý vật tư",
+    "Tự quản: mua từng lần, tồn kho không kiểm soát",
+    "MPS: nhà cung cấp quản lý tồn và cung ứng chủ động"
+   ],
+   [
+    "Số liệu để ra quyết định",
+    "Tự quản: không có counter và báo cáo hệ thống",
+    "MPS: báo cáo sản lượng, sự cố và chi phí theo mã máy"
+   ],
+   [
+    "Thời gian máy dừng",
+    "Tự quản: không có cam kết",
+    "MPS: cam kết P1/P2/P3 và thiết bị dự phòng"
+   ],
+   [
+    "Tối ưu theo thời gian",
+    "Tự quản: cấu hình cố định nhiều năm",
+    "MPS: đánh giá lại và điều chỉnh ở mỗi kỳ gia hạn"
+   ]
+  ],
+  "roi_note": "Hương Sơn lập Cost Sheet nội bộ cho mọi hợp đồng trước khi gửi báo giá, gồm giá vốn thiết bị, chi phí vốn, vật tư, vận chuyển – lắp đặt – thu hồi, kỹ thuật, bảo trì, chi phí quản lý và dự phòng rủi ro. Nhờ vậy cơ cấu giá đưa cho đơn vị là cơ cấu giá bền được cho cả thời hạn hợp đồng, không phải giá chào thấp rồi phát sinh về sau.",
+  "faqs": [
+   [
+    "Managed Print Service khác thuê máy thường ở chỗ nào?",
+    "Thuê máy là thuê thiết bị. Managed Print Service là thuê cả năng lực vận hành: Hương Sơn quản lý thiết bị, vật tư, bảo trì, counter, SLA và gửi báo cáo định kỳ; đơn vị trả theo sản lượng và mức dịch vụ thay vì trả theo từng lần mua mực hay từng lần sửa máy."
+   ],
+   [
+    "Đơn vị đang có nhiều máy của nhiều hãng thì có triển khai được không?",
+    "Được. Hương Sơn làm theo mô hình đa thương hiệu nên có thể tiếp nhận đội máy hỗn hợp, khảo sát và chuẩn hóa dần chứ không bắt buộc thay toàn bộ thiết bị ngay từ đầu."
+   ],
+   [
+    "Chi phí được tính theo gì?",
+    "Theo sản lượng bản in được chốt bằng counter định kỳ theo từng mã máy, cộng phần thiết bị và mức dịch vụ đã thống nhất. Cơ cấu giá được ghi rõ trong hợp đồng."
+   ],
+   [
+    "Báo cáo gồm những gì và tần suất thế nào?",
+    "Báo cáo định kỳ gồm sản lượng theo máy, sự cố đã xử lý, vật tư đã cấp và chi phí trên mỗi thiết bị. Tần suất báo cáo thống nhất trong hợp đồng, thường theo tháng hoặc theo kỳ chốt counter."
+   ],
+   [
+    "Nếu một máy hỏng nặng thì có được thay máy không?",
+    "Có. Hợp đồng xác định thiết bị dự phòng theo quy mô. Với sự cố P1 mà không khắc phục được tại chỗ, Hương Sơn thay thiết bị theo phương án đã thống nhất."
+   ],
+   [
+    "Có thể đưa cả máy scan và dịch vụ số hóa vào cùng hợp đồng không?",
+    "Được. Nhiều đơn vị mở rộng từ quản lý in sang <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/\">số hóa hồ sơ</a> trong cùng một quan hệ dịch vụ."
+   ]
+  ],
+  "next": [
+   [
+    "Số hóa hồ sơ trường học",
+    "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"
+   ],
+   [
+    "Cho thuê máy cho trường học",
+    "/giai-phap/giao-duc/cho-thue-may-truong-hoc/"
+   ],
+   [
+    "Quản lý – Vận hành thiết bị",
+    "/giai-phap/quan-ly-van-hanh/"
+   ],
+   [
+    "Dịch vụ bảo trì – sửa chữa",
+    "/dich-vu/bao-tri-sua-chua/"
+   ]
+  ],
+  "cta_title": "Muốn biết chi phí in thực tế của đơn vị đang là bao nhiêu?",
+  "cta_text": "Hương Sơn khảo sát đội máy hiện có, tính chi phí in theo máy và theo phòng ban, rồi đề xuất phương án quản lý trọn gói kèm cơ cấu giá."
+ },
+ {
+  "slug": "so-hoa-ho-so-truong-hoc",
+  "parent": "giao-duc",
+  "url": "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/",
+  "name": "Dịch vụ scan, OCR và số hóa hồ sơ cho Sở GD&ĐT và trường học",
+  "eyebrow": "DIGITAL DOCUMENT",
+  "h1": "Scan, OCR và số hóa hồ sơ cho Sở GD&ĐT và trường học",
+  "service_type": "Dịch vụ scan, OCR và số hóa tài liệu ngành Giáo dục",
+  "nhu_cau_code": "DIGITAL",
+  "form_title": "Yêu cầu khảo sát số hóa",
+  "seo_title": "Dịch vụ scan, OCR và số hóa hồ sơ Sở Giáo dục – DIGITAL DOCUMENT | Hương Sơn",
+  "seo_desc": "Dịch vụ scan tốc độ cao, OCR và số hóa hồ sơ, tài liệu cho Sở GD&ĐT, trường học, phòng đào tạo, văn thư và thư viện – từ tiếp nhận hồ sơ giấy đến bàn giao dữ liệu số.",
+  "keywords": "dịch vụ số hóa tài liệu, dịch vụ số hóa hồ sơ, dịch vụ scan tài liệu, số hóa hồ sơ Sở Giáo dục, số hóa hồ sơ trường học, số hóa hồ sơ học sinh, số hóa hồ sơ giáo viên, dịch vụ scan OCR, chuyển hồ sơ giấy sang PDF, số hóa tài liệu thư viện",
+  "lead": "Hương Sơn cung cấp dịch vụ scan, OCR và số hóa hồ sơ, tài liệu cho Sở GD&ĐT, trường học, phòng đào tạo, văn thư và thư viện; từ tiếp nhận hồ sơ giấy, scan, kiểm tra chất lượng, OCR đến bàn giao dữ liệu số.",
+  "summary": "Số hóa hồ sơ ngành Giáo dục theo quy trình có kiểm soát chất lượng: tiếp nhận và kiểm đếm, phân loại, scan tốc độ cao, OCR, đặt tên và metadata, kiểm tra và bàn giao dữ liệu kèm biên bản.",
+  "audience": [
+   "Sở Giáo dục và Đào tạo",
+   "Đơn vị quản lý văn bằng – chứng chỉ",
+   "Phòng chuyên môn",
+   "Trường THPT",
+   "Trung tâm giáo dục",
+   "Thư viện",
+   "Bộ phận văn thư – lưu trữ"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Dịch vụ số hóa tài liệu theo quy trình: Hương Sơn không chỉ bán máy scan mà nhận cả công đoạn tiếp nhận, scan, kiểm soát chất lượng, OCR, chuẩn hóa tên và metadata rồi bàn giao dữ liệu."
+   ],
+   [
+    "Dành cho ai",
+    "Sở GD&ĐT và các đơn vị quản lý văn bằng – chứng chỉ, phòng chuyên môn có khối lượng hồ sơ lớn, trường THPT, trung tâm giáo dục, thư viện và bộ phận văn thư – lưu trữ."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Chuyển khối hồ sơ giấy đang tăng liên tục thành dữ liệu tra cứu được, đáp ứng yêu cầu số hóa dữ liệu văn bằng – chứng chỉ của Bộ GD&ĐT, mà không cần đơn vị tự đầu tư thiết bị và tự tổ chức nhân sự scan."
+   ]
+  ],
+  "problem": [
+   "Khối lượng hồ sơ giấy về văn bằng, chứng chỉ, hồ sơ học sinh, hồ sơ giáo viên và tài liệu lưu trữ tăng liên tục.",
+   "Tra cứu một hồ sơ cũ mất nhiều thời gian và phụ thuộc vào người nắm cách sắp xếp.",
+   "Yêu cầu số hóa dữ liệu văn bằng, chứng chỉ đang được Bộ GD&ĐT triển khai và đôn đốc, tạo áp lực về tiến độ.",
+   "Hồ sơ có nhiều dạng khác nhau: A4 và A3, một mặt và hai mặt, giấy mỏng và giấy dày, hồ sơ đã đóng quyển – không thể dùng một cách scan cho mọi loại.",
+   "Nếu tự tổ chức scan, đơn vị phải đầu tư thiết bị, bố trí nhân sự và tự chịu rủi ro về chất lượng dữ liệu.",
+   "Dữ liệu scan không có quy ước đặt tên và metadata thống nhất thì vẫn không tra cứu được."
+  ],
+  "solution_intro": "Hương Sơn không bán một chiếc máy scan. Hương Sơn nhận cả quy trình số hóa: thiết bị, nhân sự, kiểm soát chất lượng và bàn giao dữ liệu theo quy ước thống nhất – theo mô hình tích hợp giải pháp, phần OCR và hệ thống lưu trữ do đối tác chuyên môn cung cấp.",
+  "solution_points": [
+   "Tiếp nhận: kiểm đếm hồ sơ và số trang, lập biên bản tiếp nhận – hai bên cùng xác nhận khối lượng đầu vào.",
+   "Chuẩn bị: phân loại tài liệu, tháo ghim, làm phẳng để scan không bị lỗi trang.",
+   "Scan: dùng máy scan tốc độ cao phù hợp từng loại tài liệu, kèm kiểm soát chất lượng ngay trong quá trình scan.",
+   "OCR: nhận dạng ký tự khi phạm vi dịch vụ yêu cầu, giúp dữ liệu tìm kiếm được theo nội dung.",
+   "Đặt tên: theo quy ước thống nhất đã được đơn vị phê duyệt trước khi bắt đầu.",
+   "Metadata: nhập các trường dữ liệu theo yêu cầu của đơn vị để phục vụ tra cứu và quản lý.",
+   "Kiểm tra: soát tỷ lệ lỗi, thiếu trang và lệch trang trước khi bàn giao.",
+   "Bàn giao: giao dữ liệu kèm biên bản xác nhận số lượng và chất lượng; hướng dẫn vận hành và hỗ trợ sau triển khai."
+  ],
+  "equipment": [
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Chọn theo khối lượng, khổ giấy và loại tài liệu: máy để bàn, máy theo phòng ban, máy tốc độ cao, máy scan mạng",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Máy photocopy – máy đa chức năng có chức năng scan",
+    "note": "Dùng cho khối lượng vừa và scan phát sinh hằng ngày",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Thiết bị văn phòng phụ trợ",
+    "note": "Workstation và thiết bị hỗ trợ cho khu vực scan",
+    "url": "/san-pham/thiet-bi-van-phong-hoi-hop/"
+   },
+   {
+    "name": "Vật tư – linh kiện máy scan",
+    "note": "Con lăn, tấm ma sát và vật tư thay thế theo số trang đã scan",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Khảo sát khối lượng và loại tài liệu",
+    "Xác định số hồ sơ, số trang, khổ giấy, tình trạng tài liệu và mức độ ưu tiên của từng nhóm hồ sơ."
+   ],
+   [
+    "Bước 2",
+    "Chốt phạm vi và quy ước dữ liệu",
+    "Thống nhất định dạng file, độ phân giải, có OCR hay không, quy ước đặt tên, cấu trúc thư mục và các trường metadata."
+   ],
+   [
+    "Bước 3",
+    "Chọn phương án thiết bị và nhân sự",
+    "Chọn dòng máy scan phù hợp, xác định số ca làm việc, địa điểm thực hiện – tại đơn vị hoặc tại nơi được đơn vị chấp thuận."
+   ],
+   [
+    "Bước 4",
+    "Tiếp nhận và kiểm đếm",
+    "Kiểm đếm hồ sơ và số trang, lập biên bản tiếp nhận trước khi bắt đầu."
+   ],
+   [
+    "Bước 5",
+    "Scan – OCR – chuẩn hóa",
+    "Chuẩn bị tài liệu, scan, kiểm soát chất lượng, OCR khi có yêu cầu, đặt tên và nhập metadata."
+   ],
+   [
+    "Bước 6",
+    "Kiểm tra chất lượng",
+    "Soát tỷ lệ lỗi, thiếu trang, lệch trang; scan lại phần chưa đạt."
+   ],
+   [
+    "Bước 7",
+    "Bàn giao và hỗ trợ",
+    "Bàn giao dữ liệu kèm biên bản số lượng và chất lượng, hướng dẫn vận hành, hỗ trợ và bảo trì sau triển khai."
+   ]
+  ],
+  "sla": [
+   [
+    "Tiến độ",
+    "Theo kế hoạch từng giai đoạn",
+    "Báo cáo khối lượng đã hoàn thành theo kỳ đã thống nhất"
+   ],
+   [
+    "Chất lượng dữ liệu",
+    "Kiểm tra 100% số lượng trang",
+    "Scan lại phần không đạt, không tính thêm phí"
+   ],
+   [
+    "Bảo mật tài liệu",
+    "Cam kết trong hợp đồng",
+    "Tài liệu chỉ xử lý trong phạm vi và địa điểm được đơn vị chấp thuận"
+   ]
+  ],
+  "service": [
+   "Toàn bộ hồ sơ được kiểm đếm và lập biên bản khi tiếp nhận và khi bàn giao – không có khối lượng nào không được xác nhận.",
+   "Quy ước đặt tên và metadata được đơn vị phê duyệt trước khi bắt đầu, không tự quyết trong lúc thực hiện.",
+   "Kiểm soát chất lượng theo tỷ lệ lỗi, thiếu trang và lệch trang; phần không đạt được scan lại.",
+   "Bảo mật: tài liệu chỉ được xử lý trong phạm vi và địa điểm đơn vị chấp thuận; không sao lưu ngoài phạm vi hợp đồng.",
+   "Hướng dẫn vận hành cho nhân sự của đơn vị sau khi bàn giao dữ liệu.",
+   "Bảo trì và hỗ trợ thiết bị scan sau triển khai."
+  ],
+  "roi_intro": "Giá trị của số hóa không nằm ở việc có file PDF, mà ở chỗ hồ sơ trở nên tra cứu được, chia sẻ được và không phụ thuộc vào một người biết cách sắp xếp.",
+  "roi": [
+   [
+    "Thời gian tra cứu một hồ sơ",
+    "Hồ sơ giấy: tìm theo kho, theo tủ, phụ thuộc người phụ trách",
+    "Đã số hóa: tìm theo tên file, theo metadata, theo nội dung nếu có OCR"
+   ],
+   [
+    "Rủi ro mất và hỏng tài liệu",
+    "Hồ sơ giấy: hỏng theo thời gian, cháy, ẩm, thất lạc",
+    "Đã số hóa: có bản dữ liệu, sao lưu được"
+   ],
+   [
+    "Không gian lưu trữ",
+    "Hồ sơ giấy: chiếm diện tích tăng theo năm",
+    "Đã số hóa: hồ sơ gốc lưu trữ gọn, tra cứu trên dữ liệu"
+   ],
+   [
+    "Cách thực hiện",
+    "Tự làm: đầu tư thiết bị, bố trí nhân sự, tự chịu rủi ro chất lượng",
+    "Thuê dịch vụ: trả theo khối lượng thực tế, có cam kết chất lượng"
+   ],
+   [
+    "Đáp ứng yêu cầu quản lý",
+    "Hồ sơ giấy: khó tổng hợp và báo cáo",
+    "Đã số hóa: sẵn dữ liệu để phục vụ yêu cầu số hóa văn bằng, chứng chỉ"
+   ]
+  ],
+  "roi_note": "Cơ sở nhu cầu: Bộ GD&ĐT đã triển khai kế hoạch số hóa dữ liệu văn bằng, chứng chỉ và có văn bản đôn đốc các Sở GD&ĐT chỉ đạo, kiểm tra và thúc đẩy các đơn vị thực hiện. Đây là hạng mục công việc có tiến độ, nên nên tách thành các giai đoạn theo mức độ ưu tiên của từng nhóm hồ sơ.",
+  "faqs": [
+   [
+    "Hương Sơn nhận số hóa tại đơn vị hay đưa hồ sơ đi?",
+    "Cả hai phương án đều thực hiện được, nhưng địa điểm luôn do đơn vị quyết định và ghi rõ trong hợp đồng. Với hồ sơ có yêu cầu bảo mật cao, phương án thực hiện tại đơn vị thường được lựa chọn."
+   ],
+   [
+    "Chi phí số hóa tính theo gì?",
+    "Thường tính theo số trang đã scan, có phân biệt theo khổ giấy, một mặt hoặc hai mặt, tình trạng tài liệu, có OCR hay không và số trường metadata cần nhập. Đơn giá được chốt sau khảo sát khối lượng thực tế."
+   ],
+   [
+    "OCR có bắt buộc không?",
+    "Không. OCR chỉ thực hiện khi phạm vi dịch vụ yêu cầu. Nếu đơn vị chỉ cần bản ảnh để lưu trữ và tra cứu theo tên hồ sơ thì không cần OCR; nếu cần tìm kiếm theo nội dung thì nên có."
+   ],
+   [
+    "Dữ liệu được bàn giao ở định dạng nào?",
+    "Theo yêu cầu của đơn vị, thường là PDF hoặc PDF có lớp văn bản khi có OCR, kèm cấu trúc thư mục và quy ước đặt tên đã được phê duyệt trước khi bắt đầu."
+   ],
+   [
+    "Làm sao biết dữ liệu bàn giao là đủ và đúng?",
+    "Khối lượng được kiểm đếm và lập biên bản ở cả hai đầu – khi tiếp nhận và khi bàn giao. Trước bàn giao, Hương Sơn soát tỷ lệ lỗi, thiếu trang và lệch trang; phần không đạt được scan lại."
+   ],
+   [
+    "Đơn vị chỉ muốn mua máy scan và tự làm thì có được không?",
+    "Được. Hương Sơn cung cấp <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/san-pham/may-scan-so-hoa/\">máy scan tốc độ cao</a> kèm tư vấn chọn dòng máy theo khối lượng và loại tài liệu, hướng dẫn thiết lập quy trình scan và bảo trì thiết bị."
+   ],
+   [
+    "Hương Sơn có tự phát triển phần mềm quản lý tài liệu không?",
+    "Không. Hương Sơn đóng vai trò tích hợp giải pháp: khảo sát, thiết bị, triển khai, quy trình, đào tạo và vận hành; phần OCR, hệ thống quản lý tài liệu và lưu trữ do đối tác chuyên môn cung cấp. Cách làm này giúp đơn vị chọn được công cụ phù hợp thay vì bị bó vào một sản phẩm."
+   ]
+  ],
+  "next": [
+   [
+    "Scan – Số hóa cho mọi ngành",
+    "/giai-phap/scan-so-hoa/"
+   ],
+   [
+    "Máy scan tốc độ cao",
+    "/san-pham/may-scan-so-hoa/"
+   ],
+   [
+    "Quản lý in ấn trọn gói",
+    "/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/"
+   ],
+   [
+    "Giải pháp Giáo dục",
+    "/giai-phap/giao-duc/"
+   ]
+  ],
+  "cta_title": "Đơn vị đang có bao nhiêu hồ sơ cần số hóa?",
+  "cta_text": "Hương Sơn khảo sát khối lượng và loại tài liệu, đề xuất phương án thiết bị, quy trình, quy ước dữ liệu và đơn giá theo trang để đơn vị đưa vào kế hoạch."
+ },
+ {
+  "slug": "co-quan-nha-nuoc",
+  "url": "/giai-phap/co-quan-nha-nuoc/",
+  "name": "Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước",
+  "eyebrow": "Government Solutions",
+  "h1": "Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước",
+  "service_type": "Giải pháp thiết bị, in ấn và số hóa cho khu vực công",
+  "seo_title": "Giải pháp thiết bị in ấn, scan và số hóa cho Cơ quan Nhà nước | Hương Sơn",
+  "seo_desc": "Cung cấp thiết bị, cho thuê máy, vật tư, dịch vụ kỹ thuật và số hóa hồ sơ cho Bộ, Sở, UBND và đơn vị sự nghiệp. Hồ sơ đầy đủ phục vụ dự toán, đấu thầu, nghiệm thu và thanh toán.",
+  "keywords": "dịch vụ scan tài liệu cho cơ quan nhà nước, thiết bị in ấn cho cơ quan nhà nước, cho thuê máy photocopy cơ quan nhà nước, số hóa hồ sơ lưu trữ, giải pháp in ấn cho UBND, thiết bị văn phòng cho đơn vị sự nghiệp",
+  "lead": "Hương Sơn cung cấp thiết bị, dịch vụ cho thuê, vật tư, kỹ thuật và giải pháp số hóa hồ sơ cho Bộ, Sở, UBND, đơn vị sự nghiệp và cơ quan hành chính – kèm bộ hồ sơ đầy đủ phục vụ dự toán, nghiệm thu và thanh toán.",
+  "summary": "Giải pháp thiết bị văn phòng, in ấn, scan và số hóa hồ sơ cho khu vực công, đi kèm quy trình hồ sơ chuẩn: báo giá, hợp đồng, bàn giao, nghiệm thu và thanh lý dùng cùng một tên thiết bị và cấu hình.",
+  "audience": [
+   "Bộ và cơ quan ngang Bộ",
+   "Sở – ban – ngành",
+   "UBND các cấp",
+   "Đơn vị sự nghiệp công lập",
+   "Cơ quan hành chính"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Giải pháp thiết bị, in ấn, scan và số hóa dành riêng cho khu vực công, trong đó phần hồ sơ và quy trình nghiệm thu được coi là một phần của giải pháp chứ không phải việc phát sinh."
+   ],
+   [
+    "Dành cho ai",
+    "Bộ, Sở – ban – ngành, UBND các cấp, đơn vị sự nghiệp công lập và cơ quan hành chính."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đáp ứng nhu cầu thiết bị và in ấn trong khuôn khổ dự toán và thủ tục của khu vực công, đồng thời chuyển khối hồ sơ lưu trữ giấy sang dữ liệu tra cứu được."
+   ]
+  ],
+  "problem": [
+   "Nhu cầu thiết bị phải được đưa vào dự toán trước, trong khi công việc thực tế lại phát sinh theo đợt và theo mùa.",
+   "Thủ tục mua sắm tài sản mất thời gian, còn nhu cầu sử dụng thì cần ngay.",
+   "Hồ sơ báo giá, hợp đồng, bàn giao, nghiệm thu và thanh lý nếu không khớp về tên thiết bị và khối lượng sẽ gây vướng khi thanh toán.",
+   "Khối hồ sơ lưu trữ giấy tăng theo năm, chiếm diện tích và khó tra cứu.",
+   "Yêu cầu bảo mật thông tin trong quá trình in và scan tài liệu nội bộ.",
+   "Thiết bị phân tán nhiều phòng ban, nhiều đời máy, khó quản lý chi phí và vật tư."
+  ],
+  "solution_intro": "Với khu vực công, một giải pháp chỉ dùng được khi vừa đúng nhu cầu kỹ thuật vừa đi qua được thủ tục. Vì vậy Hương Sơn chuẩn hóa cả hai phần: phương án kỹ thuật và bộ hồ sơ thương mại.",
+  "solution_points": [
+   "Cung cấp thiết bị: máy photocopy đa chức năng A3/A4, máy in laser, máy scan, máy in nhân bản và thiết bị văn phòng.",
+   "Cho thuê thiết bị cho nhu cầu theo đợt hoặc theo mùa – chi phí dịch vụ, không phải thủ tục đầu tư tài sản.",
+   "Quản lý in ấn trọn gói cho đơn vị có nhiều thiết bị phân tán, kèm counter và báo cáo sản lượng.",
+   "Số hóa hồ sơ lưu trữ theo quy trình có kiểm đếm, kiểm soát chất lượng và biên bản bàn giao.",
+   "Cung cấp vật tư và linh kiện, bao gồm nhãn Fansipan cho các dòng máy thông dụng.",
+   "Dịch vụ kỹ thuật, bảo trì và sửa chữa theo cam kết thời gian xử lý.",
+   "Bộ hồ sơ chuẩn: báo giá có cơ cấu giá rõ ràng, hợp đồng, biên bản bàn giao, nghiệm thu và thanh lý dùng cùng một tên thiết bị và cấu hình.",
+   "Ba cách báo giá để phù hợp với cách lập dự toán: thuê máy khô, máy kèm định mức vật tư, hoặc trọn gói theo phạm vi hợp đồng."
+  ],
+  "equipment": [
+   {
+    "name": "Máy photocopy – máy đa chức năng A3/A4",
+    "note": "Thiết bị trục chính cho văn phòng và phòng chuyên môn",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy in laser – thiết bị in",
+    "note": "Thiết bị phân tán theo phòng ban",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Số hóa hồ sơ lưu trữ và hồ sơ phát sinh hằng ngày",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Máy in nhân bản tốc độ cao",
+    "note": "In tài liệu số lượng lớn theo đợt",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Thiết bị văn phòng – hội họp",
+    "note": "Trang bị phòng họp và khu vực làm việc",
+    "url": "/san-pham/thiet-bi-van-phong-hoi-hop/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Mực, drum, linh kiện thay thế cho nhiều dòng máy",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Tiếp nhận nhu cầu",
+    "Xác định phạm vi công việc, số lượng thiết bị, khối lượng in hoặc scan, thời điểm cần và bộ phận đầu mối."
+   ],
+   [
+    "Bước 2",
+    "Khảo sát hiện trạng",
+    "Kiểm kê thiết bị hiện có, sản lượng, tình trạng và loại vật tư đang dùng; xác định yêu cầu bảo mật."
+   ],
+   [
+    "Bước 3",
+    "Đề xuất phương án",
+    "Gửi phương án kỹ thuật kèm cơ cấu giá tách rõ thiết bị, vật tư, vận chuyển – lắp đặt, kỹ thuật, thời gian và điều kiện phát sinh."
+   ],
+   [
+    "Bước 4",
+    "Hoàn thiện hồ sơ",
+    "Chuẩn bị hồ sơ thương mại và hồ sơ năng lực theo yêu cầu của đơn vị, phục vụ dự toán hoặc hồ sơ gói thầu."
+   ],
+   [
+    "Bước 5",
+    "Triển khai",
+    "Giao – lắp đặt – chạy thử, chốt counter đầu kỳ, đào tạo sử dụng và lập biên bản bàn giao."
+   ],
+   [
+    "Bước 6",
+    "Vận hành và bảo trì",
+    "Cung cấp vật tư, bảo trì định kỳ, xử lý sự cố theo cam kết thời gian."
+   ],
+   [
+    "Bước 7",
+    "Nghiệm thu và thanh lý",
+    "Chốt khối lượng thực tế, nghiệm thu, xuất hóa đơn và thanh lý; mọi thay đổi khối lượng được thể hiện rõ trong biên bản."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Thiết bị dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay thiết bị nếu không khắc phục được"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì định kỳ"
+   ]
+  ],
+  "service": [
+   "Đầu mối kỹ thuật xác định cho từng hợp đồng, tiếp nhận qua điện thoại, Zalo và email.",
+   "Bảo trì định kỳ theo lịch, có biên bản sau mỗi lần thực hiện.",
+   "Vật tư và linh kiện cung cấp theo hợp đồng, có chứng từ đầy đủ.",
+   "Phương án thiết bị thay thế cho nhiệm vụ trọng yếu.",
+   "Theo dõi lịch sử thiết bị và vật tư theo từng mã máy để phục vụ báo cáo và nghiệm thu.",
+   "Tuân thủ quy định bảo mật thông tin của đơn vị trong quá trình in, scan và số hóa tài liệu."
+  ],
+  "roi_intro": "Ở khu vực công, hiệu quả không chỉ là giá thấp nhất mà là phương án đi được qua thủ tục, đúng tiến độ và không phát sinh ngoài dự toán.",
+  "roi": [
+   [
+    "Hình thức chi",
+    "Mua thiết bị: chi đầu tư, thủ tục mua sắm tài sản",
+    "Thuê dịch vụ: chi thường xuyên, nghiệm thu theo khối lượng thực tế"
+   ],
+   [
+    "Nhu cầu theo đợt và theo mùa",
+    "Mua: thiết bị nhàn rỗi phần lớn thời gian",
+    "Thuê: chỉ phát sinh trong thời gian sử dụng"
+   ],
+   [
+    "Vật tư và bảo trì",
+    "Tự quản: nhiều lần mua nhỏ, nhiều chứng từ",
+    "Hợp đồng dịch vụ: một đầu mối, chứng từ gọn"
+   ],
+   [
+    "Rủi ro tiến độ",
+    "Mua: phụ thuộc thời gian thủ tục và giao hàng",
+    "Thuê: triển khai nhanh hơn theo phương án đã chuẩn bị"
+   ],
+   [
+    "Kiểm soát chi phí in",
+    "Không có counter: không tách được chi phí thực tế",
+    "Có counter và báo cáo: dự toán và giải trình được"
+   ]
+  ],
+  "roi_note": "Hương Sơn coi đấu thầu là một kênh tiếp cận khách hàng chứ không chỉ là nghiệp vụ hồ sơ, và chọn lọc gói thầu theo mức độ phù hợp về năng lực triển khai. Với các gói mà Hương Sơn không đủ điều kiện phục vụ đúng cam kết, Hương Sơn không tham gia.",
+  "faqs": [
+   [
+    "Hương Sơn có tham gia đấu thầu không?",
+    "Có. Hương Sơn tham gia có chọn lọc, ưu tiên các gói phù hợp với năng lực triển khai và dịch vụ thực tế của mình. Với gói mà Hương Sơn không đảm bảo được cam kết kỹ thuật hoặc dịch vụ, Hương Sơn không tham gia."
+   ],
+   [
+    "Hồ sơ năng lực của Hương Sơn gồm những gì?",
+    "Thông tin pháp lý, năng lực thiết bị, năng lực kho, năng lực kỹ thuật, năng lực logistics, năng lực cho thuê, danh mục hãng và đối tác, cùng các dự án được phép công bố. Xem tại <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/ve-huong-son/nang-luc/\">Hồ sơ năng lực</a>."
+   ],
+   [
+    "Đơn vị cần chi thường xuyên thay vì chi đầu tư thì có phương án nào?",
+    "Phương án thuê thiết bị. Đây là chi phí dịch vụ, nghiệm thu theo khối lượng thực tế, phù hợp cho nhu cầu theo đợt hoặc khi chưa có kế hoạch đầu tư tài sản. Xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/cho-thue-thiet-bi/\">giải pháp cho thuê thiết bị</a>."
+   ],
+   [
+    "Hương Sơn có nhận số hóa hồ sơ lưu trữ của cơ quan không?",
+    "Có. Quy trình gồm tiếp nhận và kiểm đếm, phân loại, scan tốc độ cao, kiểm soát chất lượng, OCR khi có yêu cầu, đặt tên và metadata, bàn giao dữ liệu kèm biên bản. Địa điểm thực hiện do đơn vị quyết định."
+   ],
+   [
+    "Báo giá của Hương Sơn có tách rõ các khoản không?",
+    "Có. Nguyên tắc của Hương Sơn là báo giá phải ghi rõ VAT, vận chuyển – lắp đặt, vật tư, kỹ thuật, thời gian và điều kiện phát sinh; không dùng một chữ trọn gói gây hiểu nhầm phạm vi."
+   ]
+  ],
+  "next": [
+   [
+    "Cho thuê thiết bị",
+    "/giai-phap/cho-thue-thiet-bi/"
+   ],
+   [
+    "Scan – Số hóa",
+    "/giai-phap/scan-so-hoa/"
+   ],
+   [
+    "Quản lý – Vận hành",
+    "/giai-phap/quan-ly-van-hanh/"
+   ],
+   [
+    "Hồ sơ năng lực",
+    "/ve-huong-son/nang-luc/"
+   ]
+  ],
+  "cta_title": "Cần phương án kỹ thuật và cơ cấu giá để đưa vào dự toán?",
+  "cta_text": "Hương Sơn khảo sát nhu cầu, đề xuất cấu hình thiết bị và cơ cấu giá tách rõ từng khoản, kèm hồ sơ năng lực theo yêu cầu của đơn vị."
+ },
+ {
+  "slug": "ngan-hang-tai-chinh",
+  "url": "/giai-phap/ngan-hang-tai-chinh/",
+  "name": "Giải pháp thiết bị in ấn và quản lý tài liệu cho Ngân hàng – Tài chính",
+  "eyebrow": "Banking & Finance",
+  "h1": "Giải pháp thiết bị in ấn và tài liệu cho Ngân hàng – Tài chính",
+  "service_type": "Giải pháp thiết bị in ấn, scan và quản lý in cho ngân hàng và tổ chức tài chính",
+  "seo_title": "Giải pháp máy in, photocopy và scan cho Ngân hàng – Tài chính | Hương Sơn",
+  "seo_desc": "Cung cấp máy photocopy A3, máy in A4, máy scan, quản lý in ấn theo hệ thống chi nhánh, vật tư và dịch vụ kỹ thuật cho ngân hàng và tổ chức tài chính.",
+  "keywords": "máy photocopy cho ngân hàng, máy in cho ngân hàng, giải pháp in ấn ngân hàng, secure print, quản lý máy in hệ thống chi nhánh, máy scan chứng từ ngân hàng, vật tư máy in ngân hàng",
+  "lead": "Hương Sơn cung cấp thiết bị in ấn, máy scan, vật tư và dịch vụ kỹ thuật cho ngân hàng và tổ chức tài chính – với yêu cầu cao về tính liên tục, bảo mật tài liệu và khả năng phục vụ nhiều điểm giao dịch.",
+  "summary": "Thiết bị và dịch vụ in ấn – scan cho ngân hàng và tổ chức tài chính: máy photocopy A3, máy in A4, máy scan chứng từ, quản lý in theo hệ thống chi nhánh, vật tư và bảo trì theo cam kết.",
+  "audience": [
+   "Ngân hàng thương mại",
+   "Chi nhánh và phòng giao dịch",
+   "Công ty tài chính",
+   "Công ty bảo hiểm",
+   "Công ty chứng khoán"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Giải pháp thiết bị in ấn, scan và quản lý in cho ngân hàng – tổ chức tài chính, tập trung vào tính liên tục của hoạt động và khả năng phục vụ nhiều điểm giao dịch."
+   ],
+   [
+    "Dành cho ai",
+    "Ngân hàng thương mại, chi nhánh và phòng giao dịch, công ty tài chính, bảo hiểm và chứng khoán."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đảm bảo thiết bị in – copy – scan tại các điểm giao dịch hoạt động liên tục, vật tư không bị thiếu, và chi phí in được quản lý theo từng đơn vị."
+   ]
+  ],
+  "problem": [
+   "Nhiều điểm giao dịch phân tán, mỗi nơi một số lượng nhỏ thiết bị nhưng đòi hỏi hoạt động liên tục.",
+   "Thiết bị dừng tại quầy giao dịch ảnh hưởng trực tiếp đến khách hàng, không có thời gian chờ xử lý dài.",
+   "Chứng từ giấy phát sinh khối lượng lớn, cần scan và lưu trữ theo quy định nội bộ.",
+   "Yêu cầu bảo mật tài liệu cao, việc in và scan phải kiểm soát được.",
+   "Vật tư cho nhiều đời máy ở nhiều địa điểm khó quản lý tồn và dễ thiếu cục bộ.",
+   "Chi phí in phân tán theo chi nhánh nên khó tổng hợp và khó tối ưu."
+  ],
+  "solution_intro": "Với ngành ngân hàng, điều quan trọng nhất không phải cấu hình máy mà là thời gian thiết bị dừng. Vì vậy giải pháp được thiết kế quanh tính liên tục: cấu hình phù hợp, vật tư luôn có, và cam kết thời gian xử lý.",
+  "solution_points": [
+   "Chuẩn hóa cấu hình theo loại điểm: máy đa chức năng A3 cho khối văn phòng, máy A4 cho quầy giao dịch, máy scan cho khu vực xử lý chứng từ.",
+   "Chuẩn hóa số lượng dòng máy để giảm số loại vật tư phải quản lý trên toàn hệ thống.",
+   "Quản lý vật tư tập trung, cung ứng theo định mức và theo sản lượng thực tế của từng điểm.",
+   "Quản lý in ấn theo hệ thống với counter theo mã máy và báo cáo sản lượng theo đơn vị.",
+   "Cam kết SLA theo cấp độ, có phương án thiết bị thay thế cho các điểm trọng yếu.",
+   "Máy scan chứng từ tốc độ cao cho khu vực xử lý hồ sơ và lưu trữ.",
+   "Dịch vụ kỹ thuật và bảo trì định kỳ, có biên bản theo từng lần thực hiện."
+  ],
+  "equipment": [
+   {
+    "name": "Máy photocopy – máy đa chức năng A3",
+    "note": "Khối văn phòng và phòng nghiệp vụ",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy in laser A4 – máy đa chức năng A4",
+    "note": "Quầy giao dịch và phòng ban",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Scan chứng từ và hồ sơ khách hàng",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Cung ứng theo định mức cho nhiều địa điểm",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   },
+   {
+    "name": "Thiết bị văn phòng – hội họp",
+    "note": "Trang bị phòng họp và khu vực làm việc",
+    "url": "/san-pham/thiet-bi-van-phong-hoi-hop/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Khảo sát hệ thống điểm",
+    "Xác định số điểm, loại điểm, số thiết bị mỗi điểm, sản lượng và yêu cầu về tính liên tục."
+   ],
+   [
+    "Bước 2",
+    "Chuẩn hóa cấu hình",
+    "Rút gọn số dòng máy để giảm số loại vật tư, chọn cấu hình theo loại điểm."
+   ],
+   [
+    "Bước 3",
+    "Thiết kế phương án vật tư",
+    "Xác định định mức và cách cung ứng cho từng điểm, tránh thiếu cục bộ."
+   ],
+   [
+    "Bước 4",
+    "Chốt SLA theo loại điểm",
+    "Điểm trọng yếu có cam kết chặt hơn và có phương án thiết bị thay thế."
+   ],
+   [
+    "Bước 5",
+    "Triển khai theo đợt",
+    "Lắp đặt, chốt counter đầu kỳ và đào tạo sử dụng theo từng đợt để không ảnh hưởng hoạt động."
+   ],
+   [
+    "Bước 6",
+    "Vận hành và báo cáo",
+    "Cung ứng vật tư, bảo trì theo lịch, xử lý sự cố theo SLA và báo cáo sản lượng theo đơn vị."
+   ],
+   [
+    "Bước 7",
+    "Đánh giá định kỳ",
+    "Rà soát thiết bị hiệu suất thấp, điều chỉnh cấu hình và định mức theo số liệu thực tế."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Thiết bị tại điểm giao dịch dừng",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay thiết bị nếu không khắc phục được"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì"
+   ]
+  ],
+  "service": [
+   "Cam kết thời gian xử lý phân theo mức độ trọng yếu của từng điểm.",
+   "Phương án thiết bị thay thế cho các điểm không được phép dừng.",
+   "Cung ứng vật tư theo định mức, có theo dõi tồn tại từng điểm.",
+   "Bảo trì phòng ngừa theo lịch, có biên bản sau mỗi lần thực hiện.",
+   "Counter theo mã máy và báo cáo sản lượng theo đơn vị để phục vụ phân bổ chi phí.",
+   "Tuân thủ quy định bảo mật tài liệu và quy trình kiểm soát nội bộ của tổ chức."
+  ],
+  "roi_intro": "Với ngân hàng, chi phí lớn nhất của một thiết bị hỏng không phải tiền sửa, mà là thời gian quầy giao dịch không phục vụ được khách hàng.",
+  "roi": [
+   [
+    "Thời gian thiết bị dừng",
+    "Không có hợp đồng dịch vụ: xử lý theo từng lần, không cam kết",
+    "Có hợp đồng: cam kết SLA và phương án thay thế"
+   ],
+   [
+    "Quản lý vật tư nhiều điểm",
+    "Mỗi điểm tự mua: dễ thiếu cục bộ, giá không thống nhất",
+    "Cung ứng tập trung theo định mức: tồn kiểm soát được"
+   ],
+   [
+    "Số loại vật tư phải quản",
+    "Nhiều dòng máy: nhiều mã vật tư",
+    "Chuẩn hóa dòng máy: giảm số mã phải quản"
+   ],
+   [
+    "Phân bổ chi phí in",
+    "Không có counter: khó phân bổ theo đơn vị",
+    "Có counter và báo cáo: phân bổ và giải trình được"
+   ],
+   [
+    "Mở rộng thêm điểm mới",
+    "Mỗi lần là một lần mua sắm riêng",
+    "Theo hợp đồng khung: triển khai nhanh theo cấu hình đã chuẩn"
+   ]
+  ],
+  "roi_note": "Năng lực đã có: website của Hương Sơn công bố việc cung cấp máy photocopy cho hệ thống Vietcombank trong các năm 2022–2024, trong đó năm 2024 là lô 127 máy Toshiba. Nội dung này đang được rà soát về hồ sơ và quyền công bố trước khi trình bày như một case study đầy đủ.",
+  "faqs": [
+   [
+    "Hương Sơn đã triển khai cho ngân hàng nào chưa?",
+    "Website của Hương Sơn công bố việc cung cấp máy photocopy cho hệ thống Vietcombank trong các năm 2022–2024, trong đó năm 2024 là lô 127 máy Toshiba. Hương Sơn đang hoàn thiện hồ sơ và xác nhận quyền công bố trước khi trình bày chi tiết dưới dạng case study."
+   ],
+   [
+    "Hương Sơn phục vụ được bao nhiêu điểm giao dịch?",
+    "Phụ thuộc địa bàn, vì cam kết thời gian xử lý chỉ có giá trị khi đội kỹ thuật tiếp cận được trong thời gian cam kết. Hương Sơn xác nhận phạm vi phục vụ theo danh sách địa điểm cụ thể trước khi ký cam kết SLA."
+   ],
+   [
+    "Có giải pháp in bảo mật (secure print) không?",
+    "Hương Sơn triển khai theo mô hình đa thương hiệu và làm việc với đối tác phần mềm cho phần kiểm soát in. Phạm vi cụ thể được xác định sau khảo sát yêu cầu kiểm soát nội bộ của tổ chức."
+   ],
+   [
+    "Vật tư cho nhiều đời máy ở nhiều điểm được quản lý thế nào?",
+    "Bằng hai việc: chuẩn hóa số dòng máy để giảm số mã vật tư, và cung ứng theo định mức căn cứ sản lượng thực tế của từng điểm thay vì để mỗi điểm tự mua."
+   ],
+   [
+    "Có báo cáo sản lượng theo từng chi nhánh không?",
+    "Có, khi triển khai theo mô hình quản lý in ấn. Counter được chốt theo mã máy và báo cáo tổng hợp theo đơn vị, phục vụ phân bổ chi phí nội bộ."
+   ]
+  ],
+  "next": [
+   [
+    "Quản lý – Vận hành",
+    "/giai-phap/quan-ly-van-hanh/"
+   ],
+   [
+    "Scan – Số hóa",
+    "/giai-phap/scan-so-hoa/"
+   ],
+   [
+    "Dịch vụ bảo trì – sửa chữa",
+    "/dich-vu/bao-tri-sua-chua/"
+   ],
+   [
+    "Dự án đã triển khai",
+    "/du-an/"
+   ]
+  ],
+  "cta_title": "Cần phương án cho hệ thống nhiều điểm giao dịch?",
+  "cta_text": "Gửi danh sách địa điểm và số thiết bị hiện có – Hương Sơn xác nhận phạm vi phục vụ, đề xuất chuẩn hóa cấu hình, định mức vật tư và mức SLA phù hợp."
+ },
+ {
+  "slug": "tap-doan-tong-cong-ty",
+  "url": "/giai-phap/tap-doan-tong-cong-ty/",
+  "name": "Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty",
+  "eyebrow": "Enterprise Solutions",
+  "h1": "Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty",
+  "service_type": "Giải pháp in ấn, quản lý tài liệu và số hóa cho doanh nghiệp lớn",
+  "seo_title": "Giải pháp in ấn, quản lý tài liệu và số hóa cho doanh nghiệp | Hương Sơn",
+  "seo_desc": "Thiết bị in ấn, quản lý in theo sản lượng, scan và số hóa tài liệu cho tập đoàn, tổng công ty, nhà máy, logistics và doanh nghiệp nhiều chi nhánh.",
+  "keywords": "giải pháp in ấn cho doanh nghiệp, quản lý hệ thống máy in doanh nghiệp, thuê máy photocopy cho công ty, số hóa tài liệu doanh nghiệp, managed print service doanh nghiệp, máy scan tài liệu doanh nghiệp",
+  "lead": "Hương Sơn cung cấp thiết bị, dịch vụ quản lý in ấn theo sản lượng, scan và số hóa tài liệu cho tập đoàn, tổng công ty, nhà máy, đơn vị logistics và doanh nghiệp có nhiều chi nhánh.",
+  "summary": "Giải pháp in ấn – tài liệu – số hóa cho doanh nghiệp lớn: chuẩn hóa đội thiết bị, quản lý in theo sản lượng và SLA, số hóa tài liệu và cung ứng vật tư tập trung.",
+  "audience": [
+   "Tập đoàn",
+   "Tổng công ty",
+   "Nhà máy – khu sản xuất",
+   "Doanh nghiệp logistics",
+   "Công ty bảo hiểm – tài chính",
+   "Doanh nghiệp thương mại – dịch vụ"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Giải pháp in ấn, quản lý tài liệu và số hóa cho doanh nghiệp có nhiều phòng ban, nhiều chi nhánh hoặc nhiều nhà máy."
+   ],
+   [
+    "Dành cho ai",
+    "Tập đoàn, tổng công ty, nhà máy, doanh nghiệp logistics, bảo hiểm – tài chính, thương mại và dịch vụ."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đưa chi phí in phân tán về một cơ chế quản lý có số liệu và cam kết, đồng thời chuyển hồ sơ giấy sang dữ liệu số dùng chung được."
+   ]
+  ],
+  "problem": [
+   "Thiết bị in mua rải rác qua nhiều năm, nhiều hãng và nhiều đời – không có chuẩn chung.",
+   "Chi phí in nằm rải trong nhiều đầu mục chi phí nhỏ, không ai nắm được tổng số thực tế.",
+   "Bộ phận IT hoặc hành chính phải xử lý sự cố máy in thay vì làm công việc chính.",
+   "Hồ sơ giấy tại nhiều phòng ban và nhiều chi nhánh không dùng chung được.",
+   "Nhu cầu in theo đợt (tài liệu hội nghị, ấn phẩm nội bộ, biểu mẫu) vượt công suất thiết bị thường ngày.",
+   "Mỗi lần mở thêm địa điểm lại phải mua sắm và thiết lập lại từ đầu."
+  ],
+  "solution_intro": "Doanh nghiệp lớn không thiếu máy – thường là thiếu chuẩn và thiếu số liệu. Hương Sơn bắt đầu bằng việc chuẩn hóa đội thiết bị và thiết lập số liệu, rồi mới tối ưu chi phí.",
+  "solution_points": [
+   "Kiểm kê và chuẩn hóa đội thiết bị theo loại khu vực: khối văn phòng, phòng ban, nhà máy, chi nhánh.",
+   "Quản lý in ấn theo sản lượng với counter theo mã máy, báo cáo theo đơn vị và theo kỳ.",
+   "Cung ứng vật tư tập trung theo định mức, giảm số lần mua nhỏ và giảm số mã phải quản.",
+   "Cam kết SLA theo mức độ trọng yếu của từng khu vực, có thiết bị dự phòng.",
+   "Cho thuê thiết bị cho nhu cầu theo đợt hoặc theo dự án, không cần đầu tư tài sản.",
+   "In tài liệu số lượng lớn theo đợt bằng máy in nhân bản và thiết bị hoàn thiện sau in.",
+   "Scan và số hóa tài liệu theo quy trình có kiểm đếm và kiểm soát chất lượng.",
+   "Mô hình mở rộng: chuẩn cấu hình đã có sẵn để triển khai nhanh cho địa điểm mới."
+  ],
+  "equipment": [
+   {
+    "name": "Máy photocopy – máy đa chức năng A3",
+    "note": "Khối văn phòng và phòng nghiệp vụ",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy in laser A4",
+    "note": "Phòng ban, nhà máy, chi nhánh",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Máy in nhân bản tốc độ cao",
+    "note": "In tài liệu, biểu mẫu và ấn phẩm nội bộ số lượng lớn",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Máy phối trang – hoàn thiện sau in",
+    "note": "Đóng bộ và hoàn thiện tài liệu sau in",
+    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+   },
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Số hóa hồ sơ và tài liệu lưu trữ",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Cung ứng tập trung theo định mức",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Kiểm kê đội thiết bị",
+    "Thống kê model, tuổi máy, sản lượng, tình trạng và loại vật tư đang dùng ở toàn bộ địa điểm."
+   ],
+   [
+    "Bước 2",
+    "Phân tích chi phí in hiện tại",
+    "Tính chi phí in theo máy, theo phòng ban và theo địa điểm để xác định điểm gây chi phí cao."
+   ],
+   [
+    "Bước 3",
+    "Chuẩn hóa cấu hình",
+    "Xác định chuẩn thiết bị cho từng loại khu vực và lộ trình thay thế thiết bị không hiệu quả."
+   ],
+   [
+    "Bước 4",
+    "Chốt cơ chế giá và SLA",
+    "Thống nhất đơn giá theo sản lượng, phạm vi vật tư, mức dịch vụ và cơ chế nghiệm thu – thanh toán."
+   ],
+   [
+    "Bước 5",
+    "Triển khai theo đợt",
+    "Lắp đặt, chốt counter đầu kỳ, đào tạo sử dụng; triển khai theo đợt để không gián đoạn hoạt động."
+   ],
+   [
+    "Bước 6",
+    "Vận hành và báo cáo",
+    "Cung ứng vật tư, bảo trì theo lịch, xử lý sự cố theo SLA, báo cáo sản lượng và chi phí theo kỳ."
+   ],
+   [
+    "Bước 7",
+    "Tối ưu theo số liệu",
+    "Mỗi kỳ rà soát lại cấu hình, định mức và danh mục thiết bị dựa trên số liệu thực tế."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Thiết bị dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay thiết bị nếu không khắc phục được"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì"
+   ]
+  ],
+  "service": [
+   "Một đầu mối dịch vụ cho toàn bộ đội thiết bị thay vì nhiều nhà cung cấp rời rạc.",
+   "Bảo trì phòng ngừa theo lịch cho từng nhóm thiết bị.",
+   "Cung ứng vật tư theo định mức và theo sản lượng thực tế.",
+   "Counter theo mã máy, báo cáo sản lượng và chi phí theo đơn vị.",
+   "Thiết bị dự phòng cho khu vực trọng yếu.",
+   "Đánh giá lại hợp đồng trước hạn để điều chỉnh cấu hình và định mức."
+  ],
+  "roi_intro": "Ở doanh nghiệp lớn, phần tiết kiệm được thường không đến từ giá mua thiết bị mà đến từ việc loại bỏ thiết bị không hiệu quả và chấm dứt tình trạng mỗi nơi tự mua vật tư.",
+  "roi": [
+   [
+    "Tổng chi phí in",
+    "Phân tán: không tổng hợp được, không tối ưu được",
+    "Quản lý tập trung: có số liệu theo máy và theo đơn vị"
+   ],
+   [
+    "Số nhà cung cấp",
+    "Nhiều nhà cung cấp cho nhiều loại máy",
+    "Một đầu mối cho thiết bị, vật tư và dịch vụ"
+   ],
+   [
+    "Thời gian của IT và hành chính",
+    "Xử lý sự cố thiết bị",
+    "Chuyển sang nhà cung cấp theo SLA"
+   ],
+   [
+    "Thiết bị không hiệu quả",
+    "Vẫn dùng vì không có căn cứ thay thế",
+    "Có số liệu sản lượng và chi phí để quyết định"
+   ],
+   [
+    "Mở rộng địa điểm mới",
+    "Mua sắm và thiết lập lại từ đầu",
+    "Áp chuẩn cấu hình đã có, triển khai nhanh"
+   ]
+  ],
+  "roi_note": "Hương Sơn lập Cost Sheet nội bộ trước khi gửi báo giá cho mọi hợp đồng, gồm giá vốn thiết bị, chi phí vốn, vật tư, vận chuyển – lắp đặt – thu hồi, kỹ thuật, bảo trì, chi phí quản lý và dự phòng rủi ro. Mục tiêu là cơ cấu giá bền được cho cả thời hạn hợp đồng.",
+  "faqs": [
+   [
+    "Doanh nghiệp đang dùng nhiều hãng máy khác nhau, có triển khai được không?",
+    "Được. Hương Sơn làm theo mô hình đa thương hiệu, tiếp nhận đội máy hỗn hợp và chuẩn hóa theo lộ trình chứ không yêu cầu thay toàn bộ thiết bị ngay."
+   ],
+   [
+    "Bắt đầu từ đâu nếu chưa biết chi phí in hiện tại là bao nhiêu?",
+    "Bắt đầu từ kiểm kê đội thiết bị và tính chi phí in theo máy, theo phòng ban. Đây là bước khảo sát, làm trước khi bàn tới cấu hình hay giá."
+   ],
+   [
+    "Có thể chỉ thuê thiết bị cho một dự án ngắn hạn không?",
+    "Được. Xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/cho-thue-thiet-bi/\">giải pháp cho thuê thiết bị</a> cho nhu cầu theo đợt, theo dự án hoặc theo mùa vụ."
+   ],
+   [
+    "Hương Sơn có in tài liệu số lượng lớn hộ doanh nghiệp không?",
+    "Hương Sơn cung cấp thiết bị và giải pháp để đơn vị tự in, gồm máy in nhân bản tốc độ cao và thiết bị hoàn thiện sau in. Xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/in-de-thi-tai-lieu/\">giải pháp in tài liệu số lượng lớn</a>."
+   ],
+   [
+    "Số hóa tài liệu doanh nghiệp thực hiện thế nào?",
+    "Theo quy trình có kiểm đếm khi tiếp nhận và khi bàn giao, scan tốc độ cao, kiểm soát chất lượng, OCR khi có yêu cầu, đặt tên và metadata theo quy ước được doanh nghiệp phê duyệt trước."
+   ]
+  ],
+  "next": [
+   [
+    "Quản lý – Vận hành",
+    "/giai-phap/quan-ly-van-hanh/"
+   ],
+   [
+    "Cho thuê thiết bị",
+    "/giai-phap/cho-thue-thiet-bi/"
+   ],
+   [
+    "Scan – Số hóa",
+    "/giai-phap/scan-so-hoa/"
+   ],
+   [
+    "In đề thi – Tài liệu",
+    "/giai-phap/in-de-thi-tai-lieu/"
+   ]
+  ],
+  "cta_title": "Muốn biết tổng chi phí in thực tế của doanh nghiệp?",
+  "cta_text": "Hương Sơn kiểm kê đội thiết bị, tính chi phí in theo máy và theo đơn vị, rồi đề xuất phương án chuẩn hóa kèm cơ cấu giá theo sản lượng."
+ },
+ {
+  "slug": "in-de-thi-tai-lieu",
+  "url": "/giai-phap/in-de-thi-tai-lieu/",
+  "name": "Giải pháp in đề thi và in tài liệu số lượng lớn",
+  "eyebrow": "Production Print",
+  "h1": "Giải pháp in đề thi và in tài liệu số lượng lớn",
+  "service_type": "Giải pháp in sản lượng lớn và hoàn thiện sau in",
+  "seo_title": "Giải pháp in đề thi và in tài liệu số lượng lớn – máy in nhân bản, phối trang | Hương Sơn",
+  "seo_desc": "Máy in nhân bản siêu tốc, máy photocopy tốc độ cao và thiết bị hoàn thiện sau in cho nhu cầu in đề thi, biểu mẫu, tài liệu và ấn phẩm nội bộ số lượng lớn.",
+  "keywords": "in đề thi số lượng lớn, máy in nhân bản tốc độ cao, máy in đề thi tốc độ cao, in tài liệu số lượng lớn, máy phối trang tài liệu, máy DFC phối đề, thiết bị hoàn thiện sau in, giải pháp phòng in",
+  "lead": "Hương Sơn cung cấp thiết bị và giải pháp cho nhu cầu in sản lượng lớn: máy in nhân bản siêu tốc, máy photocopy tốc độ cao, máy phối trang và thiết bị hoàn thiện sau in – dùng cho in đề thi, biểu mẫu, tài liệu và ấn phẩm nội bộ.",
+  "summary": "Giải pháp in sản lượng lớn và hoàn thiện sau in: chọn thiết bị theo sản lượng và tiến độ, kèm vật tư, kỹ thuật, phương án dự phòng và thiết bị phối trang – đóng bộ.",
+  "audience": [
+   "Sở Giáo dục và Đào tạo",
+   "Trường học và cơ sở đào tạo",
+   "Cơ quan Nhà nước",
+   "Trung tâm in của tổ chức",
+   "Doanh nghiệp có phòng in nội bộ"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Giải pháp thiết bị cho công việc in sản lượng lớn dồn vào thời gian ngắn, gồm cả công đoạn hoàn thiện sau in như phối trang và đóng bộ."
+   ],
+   [
+    "Dành cho ai",
+    "Sở GD&ĐT, trường học, cơ quan Nhà nước, trung tâm in của tổ chức và doanh nghiệp có phòng in nội bộ."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Chọn đúng thiết bị theo sản lượng và tiến độ, thay vì dùng máy văn phòng cho công việc vượt xa công suất thiết kế của nó."
+   ]
+  ],
+  "problem": [
+   "Máy photocopy văn phòng không được thiết kế cho sản lượng hàng chục nghìn bản dồn vào vài ngày.",
+   "Chi phí một bản in trên máy văn phòng cao hơn nhiều so với máy in nhân bản khi sản lượng lớn.",
+   "Công đoạn hoàn thiện sau in (phối trang, đóng bộ) làm thủ công vừa chậm vừa dễ sai sót.",
+   "Thiếu vật tư giữa đợt in làm dừng toàn bộ tiến độ.",
+   "Không có máy dự phòng thì toàn bộ công việc phụ thuộc vào một thiết bị.",
+   "Chọn thiết bị theo giá thay vì theo sản lượng dẫn tới máy quá tải và hỏng sớm."
+  ],
+  "solution_intro": "Nguyên tắc của Hương Sơn là chọn thiết bị theo sản lượng và tiến độ, không chọn theo giá máy. Với sản lượng lớn, máy in nhân bản có chi phí trên mỗi bản thấp hơn hẳn máy văn phòng.",
+  "solution_points": [
+   "Xác định sản lượng thực tế và thời gian cho phép, từ đó tính công suất thiết bị cần thiết.",
+   "Máy in nhân bản siêu tốc làm máy chính cho phần sản lượng lớn.",
+   "Máy photocopy tốc độ cao dùng cho phần sản lượng vừa, bản màu hoặc bản cần chất lượng khác.",
+   "Máy phối trang và thiết bị hoàn thiện sau in để đóng bộ, phối đề, hoàn thiện tài liệu.",
+   "Định mức vật tư cho toàn đợt kèm tồn dự phòng.",
+   "Phương án máy dự phòng theo mức độ quan trọng của công việc.",
+   "Có thể mua thiết bị hoặc thuê theo đợt, tùy tần suất phát sinh nhu cầu."
+  ],
+  "equipment": [
+   {
+    "name": "Máy in nhân bản tốc độ cao",
+    "note": "Máy chính cho sản lượng lớn – chi phí trên mỗi bản thấp",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Máy photocopy tốc độ cao A3",
+    "note": "Bổ trợ cho sản lượng vừa và các bản cần chất lượng khác",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy phối trang – hoàn thiện sau in",
+    "note": "Phối trang, đóng bộ, hoàn thiện tài liệu",
+    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Master, mực, linh kiện theo định mức cả đợt kèm dự phòng",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Xác định sản lượng và tiến độ",
+    "Số bản cần in, khổ giấy, một mặt hoặc hai mặt, thời gian cho phép và số điểm in."
+   ],
+   [
+    "Bước 2",
+    "Tính công suất cần thiết",
+    "Từ sản lượng và tiến độ, tính số máy và tốc độ cần thiết – gồm cả biên dự phòng."
+   ],
+   [
+    "Bước 3",
+    "Chọn cấu hình thiết bị",
+    "Phân bổ giữa máy in nhân bản, máy photocopy tốc độ cao và thiết bị sau in."
+   ],
+   [
+    "Bước 4",
+    "Chốt vật tư và dự phòng",
+    "Định mức vật tư cho toàn đợt, tồn dự phòng và phương án máy dự phòng."
+   ],
+   [
+    "Bước 5",
+    "Triển khai",
+    "Giao – lắp – chạy thử trước thời điểm in chính thức, chốt counter đầu kỳ, lập biên bản bàn giao."
+   ],
+   [
+    "Bước 6",
+    "Vận hành",
+    "Trực kỹ thuật, bổ sung vật tư, ghi nhật ký vận hành và xử lý sự cố theo cấp độ."
+   ],
+   [
+    "Bước 7",
+    "Kết thúc đợt",
+    "Chốt counter và vật tư thực tế, thu hồi thiết bị nếu là hợp đồng thuê, nghiệm thu và thanh lý."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay máy dự phòng nếu cần"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày"
+   ],
+   [
+    "P3 – Lỗi nhỏ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch"
+   ]
+  ],
+  "service": [
+   "Kiểm tra và bảo dưỡng thiết bị trước mỗi đợt in, in test đạt trước khi bàn giao.",
+   "Định mức vật tư cho toàn đợt và tồn dự phòng tại chỗ.",
+   "Kỹ thuật trực theo phương án đã thống nhất cho các đợt in quan trọng.",
+   "Phương án máy dự phòng xác định trước, không xử lý theo tình huống.",
+   "Nhật ký vận hành ghi sản lượng, vật tư và sự cố theo từng máy.",
+   "Bảo trì định kỳ cho thiết bị đã bán, theo hợp đồng dịch vụ."
+  ],
+  "roi_intro": "Với sản lượng lớn, yếu tố quyết định không phải giá máy mà là chi phí trên mỗi bản in và khả năng hoàn thành đúng tiến độ.",
+  "roi": [
+   [
+    "Chi phí trên mỗi bản in",
+    "Máy văn phòng: cao khi sản lượng lớn",
+    "Máy in nhân bản: thấp hơn đáng kể ở sản lượng lớn"
+   ],
+   [
+    "Thời gian hoàn thành",
+    "Máy văn phòng: kéo dài, dễ vỡ tiến độ",
+    "Máy đúng công suất: hoàn thành trong thời gian cho phép"
+   ],
+   [
+    "Tuổi thọ thiết bị",
+    "Máy văn phòng bị dùng quá tải: hỏng sớm",
+    "Máy đúng công suất: vận hành trong dải thiết kế"
+   ],
+   [
+    "Công đoạn sau in",
+    "Làm thủ công: chậm và dễ sai sót",
+    "Máy phối trang: nhanh, đồng nhất"
+   ],
+   [
+    "Tần suất nhu cầu",
+    "Nhu cầu thường xuyên: nên mua",
+    "Nhu cầu theo đợt: nên thuê theo đợt"
+   ]
+  ],
+  "roi_note": "Nếu nhu cầu chỉ phát sinh vài đợt mỗi năm, phương án thuê theo đợt thường hiệu quả hơn mua. Xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/giao-duc/in-de-thi/\">gói thuê máy in đề thi theo kỳ</a> hoặc <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/cho-thue-thiet-bi/\">giải pháp cho thuê thiết bị</a>.",
+  "faqs": [
+   [
+    "Sản lượng bao nhiêu thì nên dùng máy in nhân bản thay vì máy photocopy?",
+    "Không có một ngưỡng chung cho mọi trường hợp, vì còn phụ thuộc tiến độ và khổ giấy. Cách làm đúng là tính từ sản lượng và thời gian cho phép để ra công suất cần thiết, rồi mới chọn thiết bị. Hương Sơn thực hiện phần tính toán này trong bước khảo sát."
+   ],
+   [
+    "Máy phối trang dùng để làm gì?",
+    "Để ghép các trang đã in thành bộ theo đúng thứ tự và số lượng, thay cho việc phối thủ công. Với công việc như phối đề thi hoặc đóng bộ tài liệu số lượng lớn, thiết bị này giảm đáng kể thời gian và sai sót."
+   ],
+   [
+    "Nên mua hay thuê thiết bị in sản lượng lớn?",
+    "Nếu nhu cầu phát sinh thường xuyên trong năm thì mua hợp lý hơn. Nếu chỉ phát sinh vài đợt, thuê theo đợt thường hiệu quả hơn vì không phát sinh khấu hao, lưu kho và bảo trì cho thời gian không sử dụng."
+   ],
+   [
+    "Hương Sơn có cung cấp vật tư cho máy in nhân bản không?",
+    "Có. Hương Sơn cung cấp Master, mực và linh kiện cho các dòng máy đang phân phối, tính định mức theo sản lượng của từng đợt và có tồn dự phòng."
+   ],
+   [
+    "Có phương án dự phòng nếu máy hỏng giữa đợt in không?",
+    "Có. Phương án máy dự phòng được xác định ngay khi chốt giải pháp, theo mức độ quan trọng của công việc, chứ không xử lý khi sự cố đã xảy ra."
+   ]
+  ],
+  "next": [
+   [
+    "Cho thuê máy in đề thi",
+    "/giai-phap/giao-duc/in-de-thi/"
+   ],
+   [
+    "Máy in nhân bản tốc độ cao",
+    "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   ],
+   [
+    "Máy phối trang – sau in",
+    "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+   ],
+   [
+    "Cho thuê thiết bị",
+    "/giai-phap/cho-thue-thiet-bi/"
+   ]
+  ],
+  "cta_title": "Cho Hương Sơn biết sản lượng và tiến độ cần in",
+  "cta_text": "Từ số bản, khổ giấy và thời gian cho phép, Hương Sơn tính công suất cần thiết và đề xuất cấu hình thiết bị, định mức vật tư và phương án dự phòng."
+ },
+ {
+  "slug": "scan-so-hoa",
+  "url": "/giai-phap/scan-so-hoa/",
+  "name": "Giải pháp scan và số hóa tài liệu",
+  "eyebrow": "Scan & Digital Document",
+  "h1": "Giải pháp scan và số hóa tài liệu",
+  "service_type": "Giải pháp scan, OCR và số hóa tài liệu",
+  "seo_title": "Dịch vụ scan và số hóa tài liệu – scan tốc độ cao, OCR, chuẩn hóa dữ liệu | Hương Sơn",
+  "seo_desc": "Giải pháp scan và số hóa tài liệu cho cơ quan, trường học, ngân hàng và doanh nghiệp: máy scan tốc độ cao, OCR, chuẩn hóa metadata và bàn giao dữ liệu có kiểm soát chất lượng.",
+  "keywords": "dịch vụ scan tài liệu, dịch vụ số hóa tài liệu, dịch vụ số hóa hồ sơ, máy scan tốc độ cao A4 A3, dịch vụ scan OCR, chuyển hồ sơ giấy sang PDF, scan tài liệu số lượng lớn, số hóa hồ sơ lưu trữ",
+  "lead": "Hương Sơn cung cấp thiết bị và dịch vụ số hóa tài liệu theo mô hình đầy đủ: scan tốc độ cao, kiểm soát chất lượng, OCR, chuẩn hóa tên và metadata, bàn giao dữ liệu kèm biên bản.",
+  "summary": "Giải pháp scan và số hóa tài liệu theo chuỗi Scan → OCR → phân loại → lưu trữ → tra cứu → workflow, với Hương Sơn đóng vai trò tích hợp giải pháp và đối tác chuyên môn cung cấp phần OCR, DMS.",
+  "audience": [
+   "Cơ quan Nhà nước",
+   "Sở Giáo dục và Đào tạo",
+   "Trường học và cơ sở đào tạo",
+   "Ngân hàng – tài chính",
+   "Doanh nghiệp",
+   "Bộ phận văn thư – lưu trữ",
+   "Thư viện"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Giải pháp chuyển tài liệu giấy thành dữ liệu số tra cứu được, gồm cả thiết bị, quy trình và dịch vụ thực hiện – không chỉ là bán máy scan."
+   ],
+   [
+    "Dành cho ai",
+    "Cơ quan Nhà nước, Sở GD&ĐT, trường học, ngân hàng, doanh nghiệp và các bộ phận văn thư – lưu trữ, thư viện."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đưa khối hồ sơ giấy đang tăng theo năm về dạng dữ liệu tìm được, chia sẻ được và sao lưu được, theo một quy ước thống nhất."
+   ]
+  ],
+  "problem": [
+   "Hồ sơ giấy tăng theo năm, chiếm diện tích và xuống cấp theo thời gian.",
+   "Tra cứu một hồ sơ cũ phụ thuộc vào người biết cách sắp xếp.",
+   "Mua máy scan rồi tự làm nhưng không có quy ước đặt tên và metadata nên dữ liệu vẫn không tra cứu được.",
+   "Tài liệu có nhiều dạng: A4 và A3, một mặt và hai mặt, giấy mỏng và giấy dày, hồ sơ đã đóng quyển.",
+   "Không có tiêu chí kiểm tra chất lượng nên không biết dữ liệu bàn giao có đủ và đúng hay không.",
+   "Yêu cầu bảo mật khiến việc đưa tài liệu ra ngoài xử lý trở nên phức tạp."
+  ],
+  "solution_intro": "Hương Sơn xây giải pháp theo chuỗi Scan → OCR → phân loại → lưu trữ → tra cứu → workflow, và đóng vai trò tích hợp giải pháp: khảo sát, thiết bị, triển khai, quy trình, đào tạo và vận hành. Phần OCR, hệ thống quản lý tài liệu, lưu trữ và API do đối tác chuyên môn cung cấp.",
+  "solution_points": [
+   "Khảo sát khối lượng và phân loại tài liệu: khổ giấy, số mặt, độ dày giấy, tình trạng đóng quyển.",
+   "Chọn dòng máy scan phù hợp: máy để bàn, máy theo phòng ban, máy tốc độ cao, máy scan mạng.",
+   "Thiết lập quy trình scan và tiêu chí kiểm soát chất lượng trước khi bắt đầu.",
+   "OCR khi phạm vi dịch vụ yêu cầu, để dữ liệu tìm kiếm được theo nội dung.",
+   "Quy ước đặt tên, cấu trúc thư mục và các trường metadata được đơn vị phê duyệt trước.",
+   "Kiểm tra tỷ lệ lỗi, thiếu trang và lệch trang; scan lại phần chưa đạt.",
+   "Bàn giao dữ liệu kèm biên bản số lượng và chất lượng, kèm hướng dẫn vận hành.",
+   "Hai hình thức: đơn vị mua thiết bị và tự làm với sự hỗ trợ của Hương Sơn, hoặc thuê Hương Sơn thực hiện dịch vụ."
+  ],
+  "equipment": [
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Chọn theo khối lượng, khổ giấy và loại tài liệu",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Máy photocopy – máy đa chức năng có scan",
+    "note": "Cho khối lượng vừa và scan phát sinh hằng ngày",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Thiết bị văn phòng phụ trợ",
+    "note": "Workstation và thiết bị cho khu vực scan",
+    "url": "/san-pham/thiet-bi-van-phong-hoi-hop/"
+   },
+   {
+    "name": "Vật tư – linh kiện máy scan",
+    "note": "Con lăn, tấm ma sát và vật tư thay theo số trang",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Khảo sát khối lượng và loại tài liệu",
+    "Số hồ sơ, số trang, khổ giấy, tình trạng tài liệu và mức độ ưu tiên từng nhóm."
+   ],
+   [
+    "Bước 2",
+    "Chốt phạm vi và quy ước dữ liệu",
+    "Định dạng file, độ phân giải, có OCR hay không, quy ước đặt tên, cấu trúc thư mục và trường metadata."
+   ],
+   [
+    "Bước 3",
+    "Chọn thiết bị và hình thức thực hiện",
+    "Chọn dòng máy scan; xác định đơn vị tự làm hay Hương Sơn thực hiện dịch vụ, và địa điểm thực hiện."
+   ],
+   [
+    "Bước 4",
+    "Tiếp nhận và kiểm đếm",
+    "Kiểm đếm hồ sơ và số trang, lập biên bản tiếp nhận."
+   ],
+   [
+    "Bước 5",
+    "Chuẩn bị và scan",
+    "Phân loại, tháo ghim, làm phẳng; scan kèm kiểm soát chất lượng trong quá trình."
+   ],
+   [
+    "Bước 6",
+    "OCR và chuẩn hóa",
+    "OCR khi có yêu cầu; đặt tên, nhập metadata theo quy ước đã phê duyệt."
+   ],
+   [
+    "Bước 7",
+    "Kiểm tra và bàn giao",
+    "Soát tỷ lệ lỗi, thiếu trang, lệch trang; bàn giao dữ liệu kèm biên bản và hướng dẫn vận hành."
+   ]
+  ],
+  "sla": [
+   [
+    "Tiến độ",
+    "Theo kế hoạch từng giai đoạn",
+    "Báo cáo khối lượng hoàn thành theo kỳ đã thống nhất"
+   ],
+   [
+    "Chất lượng dữ liệu",
+    "Kiểm tra 100% số trang",
+    "Scan lại phần không đạt, không tính thêm phí"
+   ],
+   [
+    "Bảo mật tài liệu",
+    "Cam kết trong hợp đồng",
+    "Chỉ xử lý trong phạm vi và địa điểm đơn vị chấp thuận"
+   ]
+  ],
+  "service": [
+   "Kiểm đếm và lập biên bản ở cả hai đầu: khi tiếp nhận và khi bàn giao.",
+   "Quy ước đặt tên và metadata được phê duyệt trước khi bắt đầu, không tự quyết giữa quá trình.",
+   "Tiêu chí kiểm soát chất lượng rõ ràng theo tỷ lệ lỗi, thiếu trang và lệch trang.",
+   "Bảo mật: không sao lưu hoặc chuyển tài liệu ngoài phạm vi hợp đồng.",
+   "Đào tạo vận hành cho nhân sự của đơn vị sau khi bàn giao.",
+   "Bảo trì và cung cấp vật tư thay thế cho thiết bị scan theo số trang đã sử dụng."
+  ],
+  "roi_intro": "Số hóa chỉ có giá trị khi dữ liệu tra cứu được. Vì vậy phần quy ước dữ liệu và kiểm soát chất lượng quan trọng không kém phần thiết bị.",
+  "roi": [
+   [
+    "Thời gian tra cứu",
+    "Hồ sơ giấy: phụ thuộc kho và người phụ trách",
+    "Đã số hóa: tra theo tên, metadata, hoặc nội dung nếu có OCR"
+   ],
+   [
+    "Rủi ro mất tài liệu",
+    "Hồ sơ giấy: hỏng, ẩm, cháy, thất lạc",
+    "Đã số hóa: có bản dữ liệu và sao lưu"
+   ],
+   [
+    "Diện tích lưu trữ",
+    "Tăng theo năm",
+    "Hồ sơ gốc lưu trữ gọn, làm việc trên dữ liệu"
+   ],
+   [
+    "Tự làm hay thuê dịch vụ",
+    "Tự làm: đầu tư thiết bị, bố trí nhân sự, tự chịu rủi ro chất lượng",
+    "Thuê dịch vụ: trả theo khối lượng thực tế, có cam kết chất lượng"
+   ],
+   [
+    "Khả năng dùng chung dữ liệu",
+    "Hồ sơ giấy: một bản, một nơi",
+    "Đã số hóa: nhiều người tra cứu cùng lúc theo phân quyền"
+   ]
+  ],
+  "roi_note": "Hương Sơn không tự phát triển phần mềm OCR hay hệ thống quản lý tài liệu. Hương Sơn chọn mô hình đối tác để đơn vị có thể dùng công cụ phù hợp nhất với mình, thay vì bị bó vào một sản phẩm duy nhất.",
+  "faqs": [
+   [
+    "Chi phí số hóa tính theo gì?",
+    "Thường tính theo số trang đã scan, phân biệt theo khổ giấy, một mặt hoặc hai mặt, tình trạng tài liệu, có OCR hay không và số trường metadata cần nhập. Đơn giá được chốt sau khảo sát khối lượng thực tế."
+   ],
+   [
+    "Hương Sơn thực hiện tại đơn vị hay đưa tài liệu đi?",
+    "Cả hai đều thực hiện được, nhưng địa điểm luôn do đơn vị quyết định và ghi rõ trong hợp đồng. Với tài liệu có yêu cầu bảo mật cao, phương án thực hiện tại đơn vị thường được chọn."
+   ],
+   [
+    "Nên mua máy scan tự làm hay thuê dịch vụ?",
+    "Nếu khối lượng phát sinh liên tục hằng ngày thì nên có thiết bị riêng. Nếu là một khối hồ sơ tồn cần xử lý một lần, thuê dịch vụ thường nhanh và rẻ hơn. Nhiều đơn vị làm cả hai: thuê dịch vụ cho khối tồn và mua máy cho phát sinh hằng ngày."
+   ],
+   [
+    "Chọn máy scan theo tiêu chí nào?",
+    "Theo khối lượng trang mỗi ngày, khổ giấy lớn nhất cần scan, có cần scan hai mặt một lần chạy hay không, độ dày và tình trạng giấy, và có cần scan qua mạng dùng chung hay không. Xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/san-pham/may-scan-so-hoa/\">danh mục máy scan</a>."
+   ],
+   [
+    "Dữ liệu bàn giao ở định dạng nào?",
+    "Theo yêu cầu của đơn vị, thường là PDF hoặc PDF có lớp văn bản khi có OCR, kèm cấu trúc thư mục và quy ước đặt tên đã được phê duyệt trước."
+   ]
+  ],
+  "next": [
+   [
+    "Số hóa hồ sơ trường học",
+    "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"
+   ],
+   [
+    "Máy scan – Số hóa",
+    "/san-pham/may-scan-so-hoa/"
+   ],
+   [
+    "Giải pháp Cơ quan Nhà nước",
+    "/giai-phap/co-quan-nha-nuoc/"
+   ],
+   [
+    "Quản lý – Vận hành",
+    "/giai-phap/quan-ly-van-hanh/"
+   ]
+  ],
+  "cta_title": "Yêu cầu khảo sát số hóa cho đơn vị",
+  "cta_text": "Hương Sơn khảo sát khối lượng và loại tài liệu, đề xuất thiết bị, quy trình, quy ước dữ liệu và đơn giá theo trang."
+ },
+ {
+  "slug": "cho-thue-thiet-bi",
+  "url": "/giai-phap/cho-thue-thiet-bi/",
+  "name": "Cho thuê thiết bị – Equipment as a Service",
+  "eyebrow": "Rental Solutions",
+  "h1": "Cho thuê máy photocopy, máy in và thiết bị văn phòng",
+  "service_type": "Cho thuê thiết bị in ấn và văn phòng",
+  "seo_title": "Cho thuê máy photocopy Hà Nội – thuê máy in, máy scan trọn gói | Hương Sơn",
+  "seo_desc": "Cho thuê máy photocopy, máy in A3/A4, máy scan và máy in nhân bản theo tháng, theo sản lượng hoặc theo đợt. Có gói bao mực, bảo trì và cam kết thời gian xử lý sự cố.",
+  "keywords": "cho thuê máy photocopy Hà Nội, thuê máy photocopy trọn gói, thuê máy photocopy bao mực bảo trì, cho thuê máy in, cho thuê máy scan, thuê máy photocopy theo tháng, bảng giá thuê máy photocopy, dịch vụ cho thuê máy phục vụ kỳ thi",
+  "lead": "Hương Sơn cho thuê máy photocopy, máy in A3/A4, máy scan và máy in nhân bản theo tháng, theo sản lượng hoặc theo đợt – kèm vật tư, bảo trì và cam kết thời gian xử lý sự cố.",
+  "summary": "Cho thuê thiết bị theo 4 gói từ cơ bản đến quản lý toàn bộ đội máy: khách hàng mua năng lực in ấn ổn định trong một khoảng thời gian thay vì mua thiết bị.",
+  "audience": [
+   "Sở Giáo dục và Đào tạo",
+   "Trường học",
+   "Cơ quan Nhà nước",
+   "Ngân hàng",
+   "Doanh nghiệp",
+   "Đơn vị có nhu cầu theo đợt hoặc theo mùa"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Dịch vụ cho thuê thiết bị in ấn và văn phòng với 4 gói từ thuê máy cơ bản tới quản lý toàn bộ đội máy có SLA và báo cáo."
+   ],
+   [
+    "Dành cho ai",
+    "Sở GD&ĐT, trường học, cơ quan Nhà nước, ngân hàng, doanh nghiệp và mọi đơn vị có nhu cầu theo đợt hoặc chưa muốn đầu tư tài sản."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Có thiết bị dùng ngay mà không cần vốn đầu tư và không phải tự lo mực, linh kiện, sửa chữa hay phương án thay máy."
+   ]
+  ],
+  "problem": [
+   "Nhu cầu thiết bị phát sinh ngay nhưng kinh phí đầu tư chưa có hoặc phải chờ chu kỳ ngân sách.",
+   "Nhu cầu chỉ theo đợt hoặc theo mùa – mua máy thì máy nằm không phần lớn thời gian.",
+   "Mua máy rồi vẫn phải tự lo mực, drum, linh kiện và tìm người sửa mỗi lần hỏng.",
+   "Không có phương án thay máy khi thiết bị hỏng vào lúc công việc gấp.",
+   "Chi phí in không dự đoán được vì phát sinh theo từng lần mua và từng lần sửa.",
+   "Nhu cầu thay đổi theo thời gian nhưng thiết bị đã mua thì cấu hình cố định."
+  ],
+  "solution_intro": "Điều khách hàng cần không phải là sở hữu một chiếc máy, mà là năng lực in ấn ổn định trong một khoảng thời gian. Hương Sơn cung cấp năng lực đó theo 4 gói.",
+  "solution_points": [
+   "Gói Basic – máy kèm giao lắp và bảo trì cơ bản, cho văn phòng và trường quy mô nhỏ.",
+   "Gói Standard – máy kèm vật tư và bảo trì, phù hợp nhu cầu in thường xuyên.",
+   "Gói Business – máy kèm vật tư, linh kiện và cam kết SLA, cho đơn vị không được phép dừng.",
+   "Gói Enterprise – quản lý toàn bộ đội máy với monitoring, SLA, báo cáo và tối ưu định kỳ.",
+   "Gói theo đợt – thuê ngắn hạn cho kỳ thi, hội nghị, đợt in tài liệu hoặc dự án.",
+   "Thời hạn linh hoạt: theo ngày cho nhu cầu theo đợt; 12, 24 hoặc 36 tháng cho nhu cầu thường xuyên.",
+   "Cơ chế giá: phí thuê cố định kèm định mức bản in, hoặc tính theo sản lượng thực tế.",
+   "Đánh giá lại trước 90 ngày hết hạn để gia hạn, đổi cấu hình hoặc nâng gói."
+  ],
+  "equipment": [
+   {
+    "name": "Máy photocopy – máy đa chức năng A3/A4",
+    "note": "Thiết bị được thuê nhiều nhất cho văn phòng và phòng chuyên môn",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy in nhân bản tốc độ cao",
+    "note": "Thuê theo đợt cho kỳ thi và các đợt in sản lượng lớn",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Máy in laser A4",
+    "note": "Thiết bị phân tán theo phòng ban",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Thuê cho đợt số hóa hồ sơ hoặc nhu cầu scan thường xuyên",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Thiết bị văn phòng – hội họp",
+    "note": "Trang bị theo đợt cho hội nghị và sự kiện",
+    "url": "/san-pham/thiet-bi-van-phong-hoi-hop/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Tiếp nhận nhu cầu",
+    "Xác định loại thiết bị, số lượng, thời gian thuê, địa điểm và sản lượng dự kiến."
+   ],
+   [
+    "Bước 2",
+    "Khảo sát và chọn gói",
+    "Chọn gói Basic, Standard, Business, Enterprise hoặc gói theo đợt cho phù hợp nhu cầu và ngân sách."
+   ],
+   [
+    "Bước 3",
+    "Báo giá",
+    "Gửi báo giá tách rõ phí thuê, định mức vật tư, vận chuyển – lắp đặt, kỹ thuật, thời gian thuê và điều kiện phát sinh."
+   ],
+   [
+    "Bước 4",
+    "Ký hợp đồng",
+    "Hợp đồng ghi rõ model và cấu hình thiết bị, phạm vi dịch vụ, mức SLA, cơ chế nghiệm thu và thanh toán."
+   ],
+   [
+    "Bước 5",
+    "Giao máy",
+    "Giao – lắp đặt – chạy thử, chốt counter đầu kỳ, đào tạo sử dụng và lập biên bản bàn giao."
+   ],
+   [
+    "Bước 6",
+    "Vận hành",
+    "Cung cấp vật tư, bảo trì theo lịch, xử lý sự cố theo SLA, chốt counter định kỳ."
+   ],
+   [
+    "Bước 7",
+    "Kết thúc hoặc gia hạn",
+    "Trước 90 ngày hết hạn: đánh giá gia hạn, đổi cấu hình hoặc nâng gói. Nếu kết thúc: thu hồi, nghiệm thu và thanh lý."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay máy nếu không khắc phục được"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì"
+   ]
+  ],
+  "service": [
+   "Kênh tiếp nhận sự cố qua điện thoại, Zalo và email; mỗi hợp đồng có đầu mối kỹ thuật xác định.",
+   "Phân loại sự cố theo cấp độ với cam kết thời gian tương ứng theo từng gói.",
+   "Phương án thay máy hoặc máy dự phòng cho nhiệm vụ trọng yếu.",
+   "Vật tư trong phạm vi hợp đồng do Hương Sơn cung cấp và quản lý tồn.",
+   "Theo dõi lịch sử thiết bị, vật tư đã cấp và số lần xử lý theo từng mã máy.",
+   "Chốt counter đúng kỳ để hai bên có cùng số liệu khi nghiệm thu."
+  ],
+  "roi_intro": "So sánh thuê và mua nên đặt trên tổng chi phí sở hữu trong cả thời gian sử dụng, bao gồm cả vật tư, sửa chữa và thời gian máy dừng.",
+  "roi": [
+   [
+    "Vốn ban đầu",
+    "Mua: chi trả toàn bộ giá thiết bị ngay",
+    "Thuê: không cần vốn, chi phí trải theo kỳ"
+   ],
+   [
+    "Nhu cầu theo đợt",
+    "Mua: thiết bị nhàn rỗi phần lớn thời gian",
+    "Thuê: chỉ trả cho thời gian sử dụng"
+   ],
+   [
+    "Vật tư và linh kiện",
+    "Mua: tự dự trù, tự mua, tự quản tồn",
+    "Thuê: trong phạm vi hợp đồng hoặc theo định mức"
+   ],
+   [
+    "Rủi ro thiết bị",
+    "Mua: đơn vị tự chịu và tự tìm phương án",
+    "Thuê: nhà cung cấp chịu, có SLA và phương án thay máy"
+   ],
+   [
+    "Thay đổi nhu cầu",
+    "Mua: cấu hình cố định",
+    "Thuê: đổi cấu hình khi gia hạn"
+   ],
+   [
+    "Hình thức chi",
+    "Mua: chi đầu tư tài sản",
+    "Thuê: chi phí dịch vụ, nghiệm thu theo thực tế"
+   ]
+  ],
+  "roi_note": "Ba cách báo giá tùy cách lập dự toán của đơn vị: (A) thuê máy khô – vật tư theo thực tế; (B) máy kèm định mức vật tư; (C) trọn gói một đơn giá theo phạm vi hợp đồng. Báo giá luôn ghi rõ VAT, vận chuyển – lắp đặt, vật tư, kỹ thuật, thời gian thuê và điều kiện phát sinh.",
+  "faqs": [
+   [
+    "Thuê máy photocopy giá bao nhiêu một tháng?",
+    "Phụ thuộc cấu hình máy, sản lượng in, gói dịch vụ và thời hạn hợp đồng, nên Hương Sơn báo giá sau khi biết sản lượng dự kiến và loại máy phù hợp. Việc báo một con số chung mà chưa biết sản lượng sẽ dẫn tới phát sinh về sau."
+   ],
+   [
+    "Có thuê ngắn hạn theo ngày được không?",
+    "Được, cho nhu cầu theo đợt như kỳ thi, hội nghị hoặc đợt in tài liệu. Đây là hình thức Hương Sơn đã thực hiện cho các Sở GD&ĐT trong các kỳ thi."
+   ],
+   [
+    "Gói thuê có bao gồm mực và bảo trì không?",
+    "Tùy gói. Gói Basic gồm máy, giao lắp và bảo trì cơ bản. Gói Standard trở lên có vật tư. Gói Business có thêm linh kiện và cam kết SLA. Phạm vi được ghi rõ trong báo giá và hợp đồng."
+   ],
+   [
+    "Máy cho thuê là máy mới hay máy đã qua sử dụng?",
+    "Tùy cấu hình và ngân sách. Tình trạng thiết bị, model và cấu hình được ghi rõ trong báo giá, hợp đồng và biên bản bàn giao – dùng cùng một tên thiết bị trên toàn bộ hồ sơ."
+   ],
+   [
+    "Hết hạn hợp đồng thì thế nào?",
+    "Trước 90 ngày hết hạn, hai bên đánh giá lại nhu cầu để gia hạn, đổi cấu hình hoặc nâng gói. Nếu kết thúc, Hương Sơn thu hồi thiết bị, nghiệm thu và thanh lý theo hồ sơ."
+   ],
+   [
+    "Hương Sơn cho thuê ở những địa bàn nào?",
+    "Hương Sơn xác nhận phạm vi phục vụ theo địa chỉ cụ thể, vì cam kết SLA chỉ có giá trị khi đội kỹ thuật tiếp cận được trong thời gian cam kết. Vui lòng gửi địa chỉ để Hương Sơn xác nhận."
+   ]
+  ],
+  "next": [
+   [
+    "Cho thuê máy in đề thi",
+    "/giai-phap/giao-duc/in-de-thi/"
+   ],
+   [
+    "Cho thuê máy cho trường học",
+    "/giai-phap/giao-duc/cho-thue-may-truong-hoc/"
+   ],
+   [
+    "Quản lý – Vận hành",
+    "/giai-phap/quan-ly-van-hanh/"
+   ],
+   [
+    "Dịch vụ bảo trì – sửa chữa",
+    "/dich-vu/bao-tri-sua-chua/"
+   ]
+  ],
+  "cta_title": "Nhận báo giá thuê máy theo đúng nhu cầu",
+  "cta_text": "Gửi loại thiết bị, số lượng, thời gian thuê và sản lượng dự kiến – Hương Sơn đề xuất gói phù hợp kèm cơ cấu giá tách rõ từng khoản."
+ },
+ {
+  "slug": "quan-ly-van-hanh",
+  "url": "/giai-phap/quan-ly-van-hanh/",
+  "name": "Quản lý và vận hành hệ thống thiết bị in ấn",
+  "eyebrow": "Managed Print & Operations",
+  "h1": "Quản lý và vận hành hệ thống thiết bị in ấn",
+  "service_type": "Managed Print Service và vận hành thiết bị",
+  "seo_title": "Quản lý in ấn trọn gói – Managed Print Service và vận hành thiết bị | Hương Sơn",
+  "seo_desc": "Hương Sơn quản lý toàn bộ đội thiết bị in ấn của đơn vị: khảo sát, thiết bị, vật tư, bảo trì, counter, SLA, báo cáo và tối ưu chi phí in theo từng kỳ.",
+  "keywords": "managed print service, quản lý in ấn, quản lý hệ thống máy in, dịch vụ vận hành thiết bị, quản lý counter máy photocopy, tối ưu chi phí in ấn, thuê máy in theo sản lượng, fleet management máy in",
+  "lead": "Hương Sơn tiến từ bảo trì từng máy sang quản lý toàn bộ hệ thống in của khách hàng: khảo sát, thiết bị, vật tư, bảo trì, monitoring, SLA, báo cáo và tối ưu chi phí.",
+  "summary": "Quản lý và vận hành toàn bộ đội thiết bị in ấn theo sản lượng và SLA, có counter theo mã máy, báo cáo định kỳ và đánh giá tối ưu ở mỗi kỳ gia hạn.",
+  "audience": [
+   "Cơ quan Nhà nước",
+   "Sở Giáo dục và Đào tạo",
+   "Trường đại học – cao đẳng",
+   "Ngân hàng",
+   "Tập đoàn – tổng công ty",
+   "Doanh nghiệp nhiều địa điểm"
+  ],
+  "answer_first": [
+   [
+    "Trang này là gì",
+    "Dịch vụ quản lý và vận hành toàn bộ hệ thống thiết bị in ấn của một tổ chức, tính theo sản lượng và mức dịch vụ, có số liệu và báo cáo."
+   ],
+   [
+    "Dành cho ai",
+    "Tổ chức có nhiều thiết bị ở nhiều phòng ban hoặc nhiều địa điểm: cơ quan Nhà nước, Sở GD&ĐT, trường đại học, ngân hàng, tập đoàn và doanh nghiệp lớn."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Chấm dứt tình trạng chi phí in phân tán, không có số liệu và không có cam kết – thay bằng một cơ chế quản lý có counter, có SLA và có báo cáo."
+   ]
+  ],
+  "problem": [
+   "Nhiều máy, nhiều hãng, nhiều đời – mỗi máy một loại vật tư và một cách xử lý.",
+   "Không có counter và báo cáo nên không biết chi phí in thực tế theo máy và theo đơn vị.",
+   "Bộ phận IT hoặc hành chính mất thời gian xử lý sự cố thiết bị.",
+   "Vật tư mua từng lần, dễ thiếu cục bộ và giá không thống nhất.",
+   "Không có cam kết thời gian xử lý sự cố – mỗi lần hỏng là một lần thương lượng.",
+   "Thiết bị hiệu suất thấp vẫn được dùng vì không có căn cứ số liệu để đề xuất thay thế."
+  ],
+  "solution_intro": "Quản lý in ấn không bắt đầu từ việc thay máy, mà bắt đầu từ việc biết đang có gì và đang tốn bao nhiêu. Hương Sơn khảo sát và thiết lập số liệu trước, rồi mới bàn tới cấu hình và giá.",
+  "solution_points": [
+   "Khảo sát và kiểm kê toàn bộ thiết bị: model, tuổi máy, sản lượng, tình trạng, loại vật tư đang dùng.",
+   "Phân tích chi phí in hiện tại theo máy, theo phòng ban và theo địa điểm.",
+   "Thiết kế lại đội máy theo nhu cầu từng khu vực, loại bỏ thiết bị không hiệu quả theo lộ trình.",
+   "Hương Sơn chủ động cung ứng và quản lý tồn vật tư cho toàn bộ đội máy.",
+   "Counter chốt định kỳ theo mã máy, làm căn cứ nghiệm thu và thanh toán.",
+   "SLA phân theo cấp độ P1/P2/P3, có thiết bị dự phòng theo quy mô hợp đồng.",
+   "Báo cáo định kỳ: sản lượng, sự cố, vật tư đã cấp, chi phí trên mỗi thiết bị.",
+   "Đánh giá lại hợp đồng ở mốc T-90, T-60, T-30 để tối ưu cấu hình và định mức."
+  ],
+  "equipment": [
+   {
+    "name": "Máy photocopy – máy đa chức năng A3/A4",
+    "note": "Thiết bị trục chính của đội máy",
+    "url": "/san-pham/photocopy-may-da-chuc-nang/"
+   },
+   {
+    "name": "Máy in laser A4",
+    "note": "Thiết bị phân tán theo phòng ban",
+    "url": "/san-pham/may-in-laser/"
+   },
+   {
+    "name": "Máy scan tốc độ cao",
+    "note": "Đưa nhu cầu scan và số hóa vào cùng một hợp đồng dịch vụ",
+    "url": "/san-pham/may-scan-so-hoa/"
+   },
+   {
+    "name": "Máy in nhân bản – thiết bị sau in",
+    "note": "Bổ sung cho đơn vị có trung tâm in",
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
+   },
+   {
+    "name": "Vật tư – linh kiện – tiêu hao",
+    "note": "Cung ứng và quản lý tồn tập trung",
+    "url": "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   }
+  ],
+  "implementation": [
+   [
+    "Bước 1",
+    "Khảo sát và kiểm kê",
+    "Thống kê toàn bộ thiết bị theo model, tuổi máy, sản lượng, tình trạng và loại vật tư."
+   ],
+   [
+    "Bước 2",
+    "Phân tích chi phí hiện tại",
+    "Tính chi phí in theo máy, theo phòng ban và theo địa điểm; xác định điểm gây chi phí cao."
+   ],
+   [
+    "Bước 3",
+    "Thiết kế đội máy mục tiêu",
+    "Đề xuất cấu hình theo khu vực và lộ trình thay thế thiết bị không hiệu quả."
+   ],
+   [
+    "Bước 4",
+    "Chốt cơ chế giá và SLA",
+    "Đơn giá theo sản lượng, phạm vi vật tư, mức dịch vụ P1/P2/P3, cơ chế nghiệm thu và thanh toán."
+   ],
+   [
+    "Bước 5",
+    "Triển khai và chốt counter đầu kỳ",
+    "Lắp đặt, cấu hình, đào tạo và chốt counter khởi điểm cho từng mã máy."
+   ],
+   [
+    "Bước 6",
+    "Vận hành và báo cáo",
+    "Cung ứng vật tư, bảo trì theo lịch, xử lý sự cố theo SLA, chốt counter và gửi báo cáo định kỳ."
+   ],
+   [
+    "Bước 7",
+    "Đánh giá và tối ưu",
+    "Rà soát ở mốc T-90, T-60, T-30 trước hạn để điều chỉnh cấu hình, định mức và phạm vi dịch vụ."
+   ]
+  ],
+  "sla": [
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ; thay thiết bị nếu không khắc phục được"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ, không ảnh hưởng vận hành",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì định kỳ"
+   ]
+  ],
+  "service": [
+   "Một đầu mối cho toàn bộ thiết bị, vật tư và dịch vụ – thay cho nhiều nhà cung cấp rời rạc.",
+   "Vật tư do Hương Sơn chủ động cung ứng và quản lý tồn, không để gián đoạn vì thiếu vật tư.",
+   "Bảo trì phòng ngừa theo lịch cho từng nhóm thiết bị, có biên bản mỗi lần thực hiện.",
+   "Counter theo mã máy – hai bên có cùng một số liệu khi nghiệm thu.",
+   "Thiết bị dự phòng theo quy mô hợp đồng, xác định trước chứ không xử lý theo tình huống.",
+   "Báo cáo định kỳ về sản lượng, sự cố, vật tư và chi phí trên mỗi thiết bị."
+  ],
+  "roi_intro": "Phần tiết kiệm lớn nhất thường không đến từ đơn giá bản in, mà đến từ việc loại bỏ thiết bị không hiệu quả và chấm dứt tình trạng mỗi nơi tự mua vật tư.",
+  "roi": [
+   [
+    "Khả năng dự toán",
+    "Tự quản: chi phí phát sinh rời rạc",
+    "MPS: cơ cấu giá theo sản lượng, dự toán được"
+   ],
+   [
+    "Số liệu ra quyết định",
+    "Tự quản: không có counter và báo cáo",
+    "MPS: báo cáo theo mã máy và theo đơn vị"
+   ],
+   [
+    "Nhân sự nội bộ",
+    "Tự quản: mất thời gian xử lý thiết bị",
+    "MPS: chuyển sang nhà cung cấp theo SLA"
+   ],
+   [
+    "Quản lý vật tư",
+    "Tự quản: mua từng lần, tồn không kiểm soát",
+    "MPS: cung ứng chủ động theo định mức"
+   ],
+   [
+    "Thời gian máy dừng",
+    "Tự quản: không cam kết",
+    "MPS: cam kết P1/P2/P3 và thiết bị dự phòng"
+   ],
+   [
+    "Tối ưu theo thời gian",
+    "Tự quản: cấu hình cố định nhiều năm",
+    "MPS: đánh giá và điều chỉnh mỗi kỳ gia hạn"
+   ]
+  ],
+  "roi_note": "Hương Sơn lập Cost Sheet nội bộ trước khi gửi báo giá cho mọi hợp đồng, gồm giá vốn thiết bị, chi phí vốn, vật tư, vận chuyển – lắp đặt – thu hồi, kỹ thuật, bảo trì, chi phí quản lý và dự phòng rủi ro. Mục tiêu là cơ cấu giá bền được cho cả thời hạn hợp đồng, không phải giá chào thấp rồi phát sinh về sau.",
+  "faqs": [
+   [
+    "Managed Print Service khác hợp đồng bảo trì thông thường ở đâu?",
+    "Hợp đồng bảo trì xử lý sự cố theo từng lần. Managed Print Service quản lý cả đội thiết bị: vật tư, counter, SLA, báo cáo và tối ưu cấu hình theo kỳ. Đơn vị trả theo sản lượng và mức dịch vụ chứ không trả theo từng lần sửa."
+   ],
+   [
+    "Đơn vị đang dùng máy của nhiều hãng, có tiếp nhận được không?",
+    "Được. Hương Sơn làm theo mô hình đa thương hiệu, tiếp nhận đội máy hỗn hợp và chuẩn hóa theo lộ trình, không yêu cầu thay toàn bộ thiết bị ngay từ đầu."
+   ],
+   [
+    "Bắt đầu triển khai từ đâu?",
+    "Từ khảo sát và kiểm kê thiết bị, rồi tính chi phí in hiện tại. Đây là bước khảo sát và làm trước khi bàn tới cấu hình hay giá – vì không có số liệu thì mọi đề xuất chỉ là phỏng đoán."
+   ],
+   [
+    "Chi phí tính theo gì?",
+    "Theo sản lượng bản in được chốt bằng counter định kỳ theo từng mã máy, cộng phần thiết bị và mức dịch vụ đã thống nhất. Cơ cấu giá ghi rõ trong hợp đồng."
+   ],
+   [
+    "Có thể đưa cả máy scan và dịch vụ số hóa vào cùng hợp đồng không?",
+    "Được. Đây là hướng mở rộng tự nhiên – xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/scan-so-hoa/\">giải pháp scan và số hóa tài liệu</a>."
+   ]
+  ],
+  "next": [
+   [
+    "Cho thuê thiết bị",
+    "/giai-phap/cho-thue-thiet-bi/"
+   ],
+   [
+    "Vận hành thiết bị",
+    "/dich-vu/van-hanh-thiet-bi/"
+   ],
+   [
+    "Scan – Số hóa",
+    "/giai-phap/scan-so-hoa/"
+   ],
+   [
+    "Bảo trì – Sửa chữa",
+    "/dich-vu/bao-tri-sua-chua/"
+   ]
+  ],
+  "cta_title": "Yêu cầu khảo sát hệ thống in của đơn vị",
+  "cta_text": "Hương Sơn kiểm kê đội thiết bị, tính chi phí in theo máy và theo đơn vị, rồi đề xuất phương án quản lý kèm cơ cấu giá theo sản lượng và mức SLA."
+ }
+]

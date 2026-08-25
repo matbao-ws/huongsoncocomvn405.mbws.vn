@@ -1,64 +1,107 @@
-# Website Vận Tải & Logistics – Mắt Bão WS (Mẫu 8324)
+# Website Hương Sơn – huongsonco.com.vn
 
-Giao diện website dịch vụ vận tải và hậu cần logistics chuyên nghiệp, hiện đại, chuẩn SEO và tương thích hoàn hảo trên mọi thiết bị. Xây dựng hoàn toàn bằng **HTML5, TailwindCSS và JavaScript thuần (Vanilla JS)**.
+Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước – Giáo dục – Ngân hàng – Doanh nghiệp.
+Xây dựng trên giao diện mẫu 8324 (đã được khách duyệt) — **HTML5, TailwindCSS, JavaScript thuần** —
+với toàn bộ 55 trang được **sinh tự động** từ dữ liệu qua một generator Python.
+
+Kế hoạch đầy đủ: [KE-HOACH-WEBSITE-HUONG-SON.md](KE-HOACH-WEBSITE-HUONG-SON.md).
 
 ---
 
-## 📁 Cấu Trúc Thư Mục Chuẩn Chỉnh
+## ⚠️ Quy tắc bắt buộc: không sửa HTML ở root bằng tay
+
+Mọi trang `*/index.html` ở thư mục gốc (`giai-phap/`, `san-pham/`, `dich-vu/`, `du-an/`,
+`ve-huong-son/`, `nhan-tu-van/`, `cong-cu/`, `index.html`, `404.html`) đều do
+`build/build.py` **sinh ra**. Sửa trực tiếp các file này sẽ bị ghi đè ở lần build sau.
+
+Muốn thay đổi nội dung hoặc cấu trúc → sửa trong `build/data/*.json` hoặc
+`build/pages_*.py`, rồi chạy lại:
+
+```bash
+python3 build/build.py
+```
+
+Xem trước:
+
+```bash
+python3 -m http.server 8080
+# mở http://localhost:8080/
+```
+
+---
+
+## 📁 Cấu trúc
 
 ```
 huongsoncocomvn405.mbws.vn/
-├── index.html                  # Trang chủ (Homepage)
-├── gioi-thieu.html             # Trang Giới thiệu (About Us)
-├── dich-vu.html                # Trang Dịch vụ (Services Listing)
-├── tin-tuc.html                # Trang Tin tức & Sự kiện (Blog Listing)
-├── tin-tuc-chi-tiet.html       # Trang Chi tiết bài viết chuẩn SEO
-├── lien-he.html                # Trang Liên hệ & Báo giá (Contact & Google Maps)
+├── build/                       # Generator — SOURCE OF TRUTH
+│   ├── build.py                 # Entry point, sinh toàn bộ HTML + sitemap/robots/llms.txt
+│   ├── render.py                # Chrome dùng chung: head, topbar, header, footer, drawer
+│   ├── components.py            # Khối tái sử dụng: hero, FAQ, bảng, card, CTA...
+│   ├── forms.py                 # Form lead — tên trường khớp CRM 3 Cửa
+│   ├── schema.py                # Sinh JSON-LD (Organization, Product, Service, FAQPage, HowTo...)
+│   ├── pages_home.py            # Trang chủ
+│   ├── pages_solutions.py       # /giai-phap/ — 12 trang, đúng 6 khối Problem→ROI
+│   ├── pages_products.py        # /san-pham/ — 8 danh mục + trang model (12 trường AI-ready)
+│   ├── pages_services.py        # /dich-vu/ — 4 trang
+│   ├── pages_projects.py        # /du-an/ — case study
+│   ├── pages_about.py           # /ve-huong-son/ — giới thiệu, năng lực, thương hiệu, tài nguyên...
+│   ├── pages_lead.py            # /nhan-tu-van/ + /cong-cu/ — 6 CTA + 2 công cụ tính
+│   └── data/
+│       ├── site.json            # Thông tin doanh nghiệp — sửa 1 chỗ, đổi toàn site
+│       ├── nav.json             # Menu 6 cấp 1 (đúng sitemap.jpeg khách duyệt)
+│       ├── solutions.json        products.json        services.json
+│       └── projects.json
+├── giai-phap/  san-pham/  dich-vu/  du-an/  ve-huong-son/  nhan-tu-van/  cong-cu/
+│                                 # HTML đã sinh — KHÔNG sửa tay
+├── index.html  404.html  sitemap.xml  robots.txt  llms.txt   # đã sinh
 ├── assets/
-│   ├── css/
-│   │   └── custom.css          # Styling tùy biến, Google Fonts, Animations, Scrollbar
-│   ├── js/
-│   │   └── main.js             # Sticky Header, Mobile Drawer, Slider, Counters, Form AJAX
-│   └── images/                 # Toàn bộ 57+ hình ảnh, banner, avatar & icon vector SVG gốc
-└── README.md
+│   ├── css/custom.css
+│   ├── js/main.js                # + lead engine: validate, honeypot, UTM, GA4 events
+│   ├── images/brand/              # logo thật (lấy từ huongsonco.com.vn)
+│   ├── images/products/           # ảnh sản phẩm thật (Duplo, Toshiba, HP, Vietcombank)
+│   └── docs/                      # tài liệu chiến lược khách cung cấp (không public)
+└── KE-HOACH-WEBSITE-HUONG-SON.md
 ```
 
 ---
 
-## 🌟 Tính Năng Nổi Bật
+## Nguồn dữ liệu
 
-1. **Thiết Kế Đẳng Cấp & Chuẩn Nhận Diện Thương Hiệu**:
-   - Tông màu chủ đạo: Cam `#f17c34` & Đen than `#181924`.
-   - Kết hợp 2 phông chữ: `Plus Jakarta Sans` hiện đại và `Dancing Script` nghệ thuật.
-   - Phong cách vuông vức, phẳng (Flat & Geometric) sắc nét.
+- **Chiến lược & cấu trúc**: 5 tài liệu khách cung cấp trong `assets/docs/` + `sitemap.jpeg`.
+- **Thông tin thật** (logo, địa chỉ, hotline, model, thông số, case study): lấy trực tiếp từ
+  website cũ `huongsonco.com.vn` — không bịa số liệu hay thông số kỹ thuật.
+- Những chỗ chưa có dữ liệu xác nhận (ví dụ: model Scan, thiết bị phòng học) được đánh dấu
+  rõ trong `build/data/*.json` bằng khóa `_note` hoặc hiển thị "đang hoàn thiện" trên trang —
+  không tự suy diễn thông số.
 
-2. **Trải Nghiệm Tương Tác Hiện Đại (JavaScript Interactivity)**:
-   - **Sticky Navigation**: Tự động cố định thanh điều hướng khi cuộn trang.
-   - **Mobile Drawer Menu**: Menu trượt mượt mà kèm phân cấp accordion cho điện thoại.
-   - **Animated Stat Counters**: Bộ đếm số tự động kích hoạt khi cuộn đến vùng hiển thị.
-   - **Testimonials Slider**: Trình chiếu đánh giá khách hàng hỗ trợ vuốt chạm cảm ứng (Touch Swipe), tự động chuyển slide sau 6s và tạm dừng khi rê chuột.
-   - **Running Marquee Banner**: Dải băng chữ cam chuyển động mượt mà.
-   - **Form AJAX & Toast Notification**: Xử lý gửi biểu mẫu báo giá chuyên nghiệp với thông báo popup.
-   - **Nút liên hệ nhanh nổi**: Nút Gọi điện thoại rung lắc (Pulse), nút Zalo Chat và nút Cuộn lên đầu trang (Back to Top).
+## Đặc điểm kỹ thuật
 
-3. **Chuẩn SEO & Tối Ưu Tốc Độ**:
-   - Đầy đủ thẻ Meta Title, Description, OpenGraph và chuẩn ngữ nghĩa HTML5.
-   - Tương thích 100% trên Mobile, Tablet và Desktop.
+1. **Giữ nguyên bố cục/tương tác của mẫu 8324, đổi màu chủ đạo theo đúng logo**: xanh lá `#1f7c45`
+   (trước đây là cam `#f17c34` của template gốc, không liên quan thương hiệu Hương Sơn) + đen than
+   `#181924`, Plus Jakarta Sans,
+   phong cách vuông vức/flat, toàn bộ module JS gốc (sticky header, mobile drawer, counters,
+   marquee, floating buttons).
+2. **AI-ready**: mỗi trang có khối "answer-first" 3 câu đầu, `<h1>` duy nhất, bảng ngữ nghĩa
+   (`<table><caption><th scope>`), JSON-LD đầy đủ (Organization/Product/Service/FAQPage/HowTo/
+   BreadcrumbList/ItemList), `llms.txt` ở root.
+3. **Lead → CRM**: form dùng chung field name khớp mô hình CRM 3 Cửa (`cua`, `nhu_cau`,
+   `loai_don_vi`...), tự động ghi UTM/gclid/referrer, honeypot chống spam, event GA4
+   `generate_lead`.
+4. **12 trường sản phẩm** (tên chuẩn, model, manufacturer, compatible model, use case,
+   specifications, FAQ, comparison, document, source, application, industry) và
+   **6 khối giải pháp** (Problem → Solution → Equipment → Implementation → Service → ROI)
+   theo đúng yêu cầu "WWW phải được thiết kế cho AI".
+
+## Nợ kỹ thuật còn treo (ghi rõ để không tính nhầm là đã xong)
+
+- **Tailwind CDN**: máy build hiện không có Node/npm nên chưa chạy được Tailwind CLI để purge
+  CSS. Khi deploy có Node, build 1 file CSS tĩnh thay `<script src="cdn.tailwindcss.com">`.
+- **Endpoint nhận lead**: `assets/js/main.js` gửi `fetch(form.action, ...)` tới `/api/lead` —
+  cần trỏ sang email/CRM webhook thật trước khi go-live.
+- **Logo vector**: đang dùng file JPEG nền trắng lấy từ website cũ, bọc khối nền trắng để
+  đọc được trên header tối — nên xin bản vector nền trong suốt từ khách.
 
 ---
 
-## 🚀 Hướng Dẫn Khởi Chạy Cục Bộ (Local Development)
-
-Sử dụng bất kỳ web server tĩnh nào hoặc Python HTTP Server:
-
-```bash
-# Python 3
-python3 -m http.server 8080
-
-# Mở trình duyệt truy cập:
-http://localhost:8080/index.html
-```
-
----
-
-© 2026 Mắt Bão WS. All rights reserved.
+© 2026 Công ty TNHH Thương mại và Dịch vụ Hương Sơn. Thiết kế bởi Mắt Bão WS.
