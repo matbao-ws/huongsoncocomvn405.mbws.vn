@@ -22,9 +22,21 @@
   "hotline_primary": "024 3972 9484",
   "hotline_primary_tel": "02439729484",
   "hotlines": [
-    { "label": "024 3972 9484", "tel": "02439729484", "note": "Văn phòng" },
-    { "label": "0913 237 302", "tel": "0913237302", "note": "Kinh doanh" },
-    { "label": "091 113 8583", "tel": "0911138583", "note": "Kỹ thuật" }
+    {
+      "label": "024 3972 9484",
+      "tel": "02439729484",
+      "note": "Văn phòng"
+    },
+    {
+      "label": "0913 237 302",
+      "tel": "0913237302",
+      "note": "Kinh doanh"
+    },
+    {
+      "label": "091 113 8583",
+      "tel": "0911138583",
+      "note": "Kỹ thuật"
+    }
   ],
   "_hotline_note": "3 số này lấy từ website cũ (footer + mọi trang), đã dùng thống nhất trong nhiều năm. 0913237302 là số gắn với Zalo và Messenger chính.",
   "email": "info@huongsonco.com.vn",
@@ -34,22 +46,65 @@
   "zalo": "https://zalo.me/0913237302",
   "messenger": "https://www.messenger.com/t/thuan.nguyencong.330",
   "facebook": "https://www.facebook.com/huonsonco/",
-  "logo": "/assets/images/brand/logo-huong-son.jpg",
-  "_logo_note": "Logo thật lấy từ website cũ (huongsonco.com.vn/images/brand/logo--29.jpg): biểu tượng núi cách điệu + chữ HUONG SON Company Limited. File hiện là JPEG nền trắng — nên xin bản vector (AI/EPS/SVG nền trong suốt) từ khách để dùng cho header tối màu.",
+  "logo": "/assets/images/brand/logo-huong-son.svg",
+  "_logo_note": "Vector SVG chính thức từ khách hàng: biểu tượng núi cách điệu + chữ HUONG SON Company Limited (HUONG_SON_logo.svg).",
   "og_image": "/assets/images/products/duplo-dp-x550.jpg",
   "socials": [
-    { "icon": "fa-brands fa-facebook-f", "label": "Facebook", "url": "https://www.facebook.com/huonsonco/" },
-    { "icon": "fa-solid fa-comment-dots", "label": "Zalo", "url": "https://zalo.me/0913237302" },
-    { "icon": "fa-brands fa-facebook-messenger", "label": "Messenger", "url": "https://www.messenger.com/t/thuan.nguyencong.330" }
+    {
+      "icon": "fa-brands fa-facebook-f",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/huonsonco/"
+    },
+    {
+      "icon": "fa-solid fa-comment-dots",
+      "label": "Zalo",
+      "url": "https://zalo.me/0913237302"
+    },
+    {
+      "icon": "fa-brands fa-facebook-messenger",
+      "label": "Messenger",
+      "url": "https://www.messenger.com/t/thuan.nguyencong.330"
+    }
   ],
-  "brands": ["DUPLO", "TOSHIBA", "RICOH", "KONICA MINOLTA", "HP", "FANSIPAN"],
+  "brands": [
+    "DUPLO",
+    "TOSHIBA",
+    "RICOH",
+    "KONICA MINOLTA",
+    "HP",
+    "FANSIPAN"
+  ],
   "_brands_note": "Đã xác nhận từ website cũ: đại lý ủy quyền phân phối chính thức DUPLO (Nhật Bản) và TOSHIBA tại miền Bắc từ 2017; đại lý bán hàng Konica Minolta (MFP đa chức năng 25–90bpm) từ 2021. Ricoh và HP xuất hiện trong danh mục sản phẩm nhưng không có xác nhận đại lý ủy quyền — hiển thị là 'sản phẩm phân phối', không ghi 'đại lý ủy quyền' cho 2 hãng này trừ khi khách xác nhận.",
   "cta6": [
-    { "label": "Yêu cầu báo giá", "url": "/nhan-tu-van/bao-gia/", "icon": "fa-solid fa-file-invoice-dollar" },
-    { "label": "Tư vấn thuê máy", "url": "/nhan-tu-van/tu-van-thue-may/", "icon": "fa-solid fa-handshake" },
-    { "label": "Phương án in đề thi", "url": "/nhan-tu-van/phuong-an-in-de-thi/", "icon": "fa-solid fa-print" },
-    { "label": "Khảo sát số hóa", "url": "/nhan-tu-van/khao-sat-so-hoa/", "icon": "fa-solid fa-file-arrow-up" },
-    { "label": "Yêu cầu kỹ thuật", "url": "/nhan-tu-van/yeu-cau-ky-thuat/", "icon": "fa-solid fa-screwdriver-wrench" },
-    { "label": "Tải hồ sơ năng lực", "url": "/ve-huong-son/tai-nguyen/", "icon": "fa-solid fa-download" }
+    {
+      "label": "Yêu cầu báo giá",
+      "url": "/nhan-tu-van/bao-gia/",
+      "icon": "fa-solid fa-file-invoice-dollar"
+    },
+    {
+      "label": "Tư vấn thuê máy",
+      "url": "/nhan-tu-van/tu-van-thue-may/",
+      "icon": "fa-solid fa-handshake"
+    },
+    {
+      "label": "Phương án in đề thi",
+      "url": "/nhan-tu-van/phuong-an-in-de-thi/",
+      "icon": "fa-solid fa-print"
+    },
+    {
+      "label": "Khảo sát số hóa",
+      "url": "/nhan-tu-van/khao-sat-so-hoa/",
+      "icon": "fa-solid fa-file-arrow-up"
+    },
+    {
+      "label": "Yêu cầu kỹ thuật",
+      "url": "/nhan-tu-van/yeu-cau-ky-thuat/",
+      "icon": "fa-solid fa-screwdriver-wrench"
+    },
+    {
+      "label": "Tải hồ sơ năng lực",
+      "url": "/ve-huong-son/tai-nguyen/",
+      "icon": "fa-solid fa-download"
+    }
   ]
 }
