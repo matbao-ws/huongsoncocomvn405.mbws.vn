@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/login', fn () => redirect('/'.app(\App\Services\LanguageRegistry::class)->defaultLocale().'/admin/login'))->name('login');
+Route::get('/admin', fn () => redirect('/'.app(\App\Services\LanguageRegistry::class)->defaultLocale().'/admin'))->name('admin.redirect');
+Route::get('/admin/{any}', fn ($any) => redirect('/'.app(\App\Services\LanguageRegistry::class)->defaultLocale().'/admin/'.$any))->where('any', '.*');
 
 Route::get('/api/docs', [\App\Http\Controllers\Api\PublicController::class, 'docs'])->name('api.docs');
 
