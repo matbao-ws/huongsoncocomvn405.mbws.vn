@@ -276,17 +276,70 @@
             const previewImg = document.getElementById('post_image_preview');
             const placeholder = document.getElementById('post_image_placeholder');
             const container = document.getElementById('post_image_preview_container');
+            const removeBtn = document.getElementById('post_image_remove_btn');
+            const urlInput = document.getElementById('post_image_url');
+
+            function updatePostImagePreview(src) {
+                if (src) {
+                    previewImg.src = src;
+                    previewImg.classList.remove('d-none');
+                    if (placeholder) placeholder.classList.add('d-none');
+                    if (removeBtn) removeBtn.classList.remove('d-none');
+                } else {
+                    previewImg.src = '';
+                    previewImg.classList.add('d-none');
+                    if (placeholder) placeholder.classList.remove('d-none');
+                    if (removeBtn) removeBtn.classList.add('d-none');
+                }
+            }
 
             if (fileInput && previewImg) {
                 fileInput.addEventListener('change', function(e) {
                     const file = e.target.files[0];
                     if (file) {
-                        previewImg.src = URL.createObjectURL(file);
-                        previewImg.classList.remove('d-none');
-                        if (placeholder) placeholder.classList.add('d-none');
+                        updatePostImagePreview(URL.createObjectURL(file));
                         isDirty = true;
                     }
                 });
+
+                if (removeBtn) {
+                    removeBtn.addEventListener('click', function() {
+                        fileInput.value = '';
+                        if (urlInput) urlInput.value = '';
+                        updatePostImagePreview('');
+                        isDirty = true;
+                    });
+                }
+
+                if (urlInput) {
+                    urlInput.addEventListener('input', function() {
+                        if (urlInput.value.trim() !== '') {
+                            updatePostImagePreview(urlInput.value.trim());
+                        }
+                    });
+                }
+
+                if (container) {
+                    container.addEventListener('dragover', function(e) {
+                        e.preventDefault();
+                        container.classList.add('bg-primary-subtle');
+                    });
+
+                    container.addEventListener('dragleave', function() {
+                        container.classList.remove('bg-primary-subtle');
+                    });
+
+                    container.addEventListener('drop', function(e) {
+                        e.preventDefault();
+                        container.classList.remove('bg-primary-subtle');
+                        const file = e.dataTransfer.files[0];
+                        if (file) {
+                            fileInput.files = e.dataTransfer.files;
+                            updatePostImagePreview(URL.createObjectURL(file));
+                            isDirty = true;
+                        }
+                    });
+                }
             }
 
             // Live SEO Analyzer Logic

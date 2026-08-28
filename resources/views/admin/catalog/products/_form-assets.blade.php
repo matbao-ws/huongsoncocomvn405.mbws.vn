@@ -193,17 +193,48 @@
             const previewImg = document.getElementById('product_image_preview');
             const placeholder = document.getElementById('product_image_placeholder');
             const container = document.getElementById('product_image_preview_container');
+            const removeBtn = document.getElementById('product_image_remove_btn');
+            const urlInput = document.getElementById('image_url');
+
+            function updateImagePreview(src) {
+                if (src) {
+                    previewImg.src = src;
+                    previewImg.classList.remove('d-none');
+                    if (placeholder) placeholder.classList.add('d-none');
+                    if (removeBtn) removeBtn.classList.remove('d-none');
+                } else {
+                    previewImg.src = '';
+                    previewImg.classList.add('d-none');
+                    if (placeholder) placeholder.classList.remove('d-none');
+                    if (removeBtn) removeBtn.classList.add('d-none');
+                }
+            }
 
             if (fileInput && previewImg) {
                 fileInput.addEventListener('change', function(e) {
                     const file = e.target.files[0];
                     if (file) {
-                        previewImg.src = URL.createObjectURL(file);
-                        previewImg.classList.remove('d-none');
-                        if (placeholder) placeholder.classList.add('d-none');
+                        updateImagePreview(URL.createObjectURL(file));
                         isDirty = true;
                     }
                 });
+
+                if (removeBtn) {
+                    removeBtn.addEventListener('click', function() {
+                        fileInput.value = '';
+                        if (urlInput) urlInput.value = '';
+                        updateImagePreview('');
+                        isDirty = true;
+                    });
+                }
+
+                if (urlInput) {
+                    urlInput.addEventListener('input', function() {
+                        if (urlInput.value.trim() !== '') {
+                            updateImagePreview(urlInput.value.trim());
+                        }
+                    });
+                }
 
                 if (container) {
                     container.addEventListener('dragover', function(e) {
@@ -221,9 +252,7 @@
                         const file = e.dataTransfer.files[0];
                         if (file) {
                             fileInput.files = e.dataTransfer.files;
-                            previewImg.src = URL.createObjectURL(file);
-                            previewImg.classList.remove('d-none');
-                            if (placeholder) placeholder.classList.add('d-none');
+                            updateImagePreview(URL.createObjectURL(file));
                             isDirty = true;
                         }
                     });

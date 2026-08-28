@@ -163,26 +163,40 @@
         <!-- Thumbnail Card -->
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title mb-7">{{ __('admin.posts.sections.thumbnail') }}</h4>
+                <h4 class="card-title mb-3">{{ __('admin.posts.sections.thumbnail') }}</h4>
                 
                 <!-- Hidden file input for image select -->
-                <input type="file" name="image_file" id="post_image_file" class="d-none" accept="image/*" data-media-folder="posts">
+                <input type="file" name="image_file" id="post_image_file" class="d-none" accept="image/jpeg,image/png,image/webp,image/gif,image/svg+xml" data-media-folder="posts">
                 
                 <!-- Styled image preview area -->
-                <div id="post_image_preview_container" class="position-relative text-center border border-2 border-dashed rounded p-3 mb-3 cursor-pointer d-flex flex-column align-items-center justify-content-center bg-light" 
+                <div id="post_image_preview_container" class="position-relative text-center border border-2 border-dashed rounded-3 p-3 mb-3 cursor-pointer d-flex flex-column align-items-center justify-content-center bg-light" 
                      style="min-height: 180px; cursor: pointer; border-style: dashed !important;" 
                      onclick="document.getElementById('post_image_file').click()">
                      
-                    <img id="post_image_preview" src="{{ $post->image_url ?: '#' }}" 
-                         class="img-fluid rounded {{ $post->image_url ? '' : 'd-none' }}" 
-                         style="max-height: 150px; object-fit: contain;">
+                    <img id="post_image_preview" src="{{ old('image_url', $post->image_url) }}" 
+                         class="img-fluid rounded {{ old('image_url', $post->image_url) ? '' : 'd-none' }}" 
+                         style="max-height: 160px; object-fit: contain;">
                      
-                    <div id="post_image_placeholder" class="text-center py-3 {{ $post->image_url ? 'd-none' : '' }}">
-                        <iconify-icon icon="solar:gallery-add-bold-duotone" class="fs-20 text-muted mb-2"></iconify-icon>
-                        <div class="text-muted small">{{ __('admin.posts.placeholders.image_help') }}</div>
+                    <div id="post_image_placeholder" class="text-center py-3 {{ old('image_url', $post->image_url) ? 'd-none' : '' }}">
+                        <div class="mb-2"><i class="ti ti-cloud-upload fs-8 text-primary"></i></div>
+                        <div class="fw-semibold text-dark mb-1">Nhấp hoặc kéo thả ảnh đại diện vào đây</div>
+                        <div class="text-muted small">Hỗ trợ JPG, PNG, WEBP, SVG</div>
                     </div>
                 </div>
-                <p class="fs-2 text-center mb-0">{{ __('admin.posts.placeholders.image_types') }}</p>
+
+                <div class="d-grid gap-2 mb-3">
+                    <button type="button" class="btn btn-outline-primary btn-sm d-flex align-items-center justify-content-center gap-1" onclick="document.getElementById('post_image_file').click()">
+                        <i class="ti ti-upload fs-4"></i> Chọn ảnh từ máy tính
+                    </button>
+                    <button type="button" id="post_image_remove_btn" class="btn btn-outline-danger btn-sm d-flex align-items-center justify-content-center gap-1 {{ old('image_url', $post->image_url) ? '' : 'd-none' }}" onclick="clearPostImage()">
+                        <i class="ti ti-trash fs-4"></i> Xóa ảnh hiện tại
+                    </button>
+                </div>
+
+                <div class="mb-2">
+                    <label class="form-label small text-muted mb-1" for="post_image_url">Hoặc nhập URL ảnh:</label>
+                    <input type="text" class="form-control form-control-sm" id="post_image_url" name="image_url" value="{{ old('image_url', $post->image_url) }}" placeholder="https://... hoặc /assets/images/...">
+                </div>
             </div>
         </div>
 
