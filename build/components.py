@@ -36,22 +36,22 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
     for i, (label, url) in enumerate(trail):
         last = i == len(trail) - 1
         if last:
-            crumbs.append(f'<span class="text-[{BRAND}]" aria-current="page">{esc(label)}</span>')
+            crumbs.append(f'<span class="text-[#5eb74c] font-semibold" aria-current="page">{esc(label)}</span>')
         else:
-            crumbs.append(f'<a href="{url}" class="hover:text-white transition">{esc(label)}</a>')
-    sep = ' <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> '
+            crumbs.append(f'<a href="{url}" class="text-gray-300 hover:text-white transition">{esc(label)}</a>')
+    sep = ' <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> '
     return f"""
   <!-- PAGE HERO -->
-  <section class="relative bg-[{DARK}] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="{image}" alt="{esc(h1)}" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[{DARK}]/88"></div>
+      <img src="{image}" alt="{esc(h1)}" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 {WRAP} py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">{esc(eyebrow)}</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">{esc(h1)}</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">{lead}</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+    <div class="relative z-10 {WRAP} py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">{esc(eyebrow)}</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">{esc(h1)}</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">{lead}</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
         {sep.join(crumbs)}
       </nav>
     </div>
