@@ -233,7 +233,7 @@ class HuongSonSeeder extends Seeder
         Product::query()->updateOrCreate(
             ['slug' => 'duplo-dfc-122'],
             [
-                'category_id' => $catCollator->id,
+                'category_id' => $catDuplo->id,
                 'brand_id' => $brandDuplo->id,
                 'name' => ['vi' => 'Máy Phối Trang 12 Khay DUPLO DFC-122', 'en' => 'DUPLO DFC-122 12-Bin Friction Collator'],
                 'sku' => 'DUPLO-DFC-122',

@@ -8,17 +8,17 @@ use Illuminate\Http\Request;
 
 class ToolController extends Controller
 {
-    public function index(Request , ...): View
+    public function index(Request $request, ...$params): View
     {
         return view('client.pages.tools.index');
     }
 
-    public function subpage(Request , ...): View
+    public function subpage(Request $request, ...$params): View
     {
-         = end();
-         = 'client.pages.tools.' .  . '.index';
-        if (view()->exists()) {
-            return view();
+        $slug = end($params);
+        $viewName = 'client.pages.tools.' . $slug . '.index';
+        if (view()->exists($viewName)) {
+            return view($viewName);
         }
         abort(404);
     }

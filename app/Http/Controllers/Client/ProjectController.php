@@ -8,17 +8,17 @@ use Illuminate\Http\Request;
 
 class ProjectController extends Controller
 {
-    public function index(Request , ...): View
+    public function index(Request $request, ...$params): View
     {
         return view('client.pages.projects.index');
     }
 
-    public function show(Request , ...): View
+    public function show(Request $request, ...$params): View
     {
-         = end();
-         = 'client.pages.projects.' .  . '.index';
-        if (view()->exists()) {
-            return view();
+        $slug = end($params);
+        $viewName = 'client.pages.projects.' . $slug . '.index';
+        if (view()->exists($viewName)) {
+            return view($viewName);
         }
         abort(404);
     }

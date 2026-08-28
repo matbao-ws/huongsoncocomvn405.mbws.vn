@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index(Request , ?string  = null): View
+    public function index(Request $request): View
     {
         return view('client.pages.home');
     }
