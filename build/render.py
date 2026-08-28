@@ -40,16 +40,6 @@ def head(*, title, description, url, keywords="", og_type="website", jsonld=None
             + "\n  </script>"
         )
 
-    # Đọc inline blocks phục vụ CMS Visual Editor nếu có
-    blocks = ""
-    ib = os.path.join(ROOT, "resources", "views", "client", "partials", "inline-blocks.blade.php")
-    if os.path.exists(ib):
-        try:
-            with open(ib, encoding="utf-8") as f:
-                blocks = "\n" + f.read().strip()
-        except Exception:
-            pass
-
     return f"""<!doctype html>
 <html lang="vi" class="scroll-smooth">
 <head>
@@ -104,7 +94,7 @@ def head(*, title, description, url, keywords="", og_type="website", jsonld=None
   </script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="/assets/css/custom.css?v=2.0.1" />{blocks}{schema_tags}
+  <link rel="stylesheet" href="/assets/css/custom.css?v=2.0.1" />{schema_tags}
 </head>
 
 <body class="bg-white text-[#5b5d62] antialiased selection:bg-[{BRAND}] selection:text-white">
