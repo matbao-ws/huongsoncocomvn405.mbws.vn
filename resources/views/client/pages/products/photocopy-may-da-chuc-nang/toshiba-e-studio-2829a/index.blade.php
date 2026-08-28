@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Máy photocopy – Máy đa chức năng A3/A4",
         "item": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Máy photocopy Toshiba e-STUDIO 2829A",
         "item": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/"
@@ -121,148 +121,148 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/#product",
+    "@@context": "https://schema.org",
+    "@@type": "Product",
+    "@@id": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/#product",
     "name": "Máy photocopy Toshiba e-STUDIO 2829A",
     "model": "e-STUDIO 2829A",
     "sku": "TOSHIBA-2829A",
     "category": "Photocopy – Máy đa chức năng",
     "description": "Toshiba e-STUDIO 2829A là dòng máy photocopy đen trắng đa chức năng khổ A3, tốc độ 28 trang/phút, thiết kế nhỏ gọn với chức năng Template và quản lý qua TopAccess — phù hợp doanh nghiệp, văn phòng nhỏ có mức sử dụng khoảng 3.000–8.000 bản/tháng.",
     "brand": {
-      "@type": "Brand",
+      "@@type": "Brand",
       "name": "Toshiba (Toshiba Tec, Nhật Bản)"
     },
     "manufacturer": {
-      "@type": "Organization",
+      "@@type": "Organization",
       "name": "Toshiba (Toshiba Tec, Nhật Bản)"
     },
     "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/",
     "additionalProperty": [
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Công nghệ in/copy",
         "value": "Laser"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Tốc độ copy/in",
         "value": "28 trang/phút (A4)"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Khổ giấy tối đa",
         "value": "A3"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Bản chụp đầu tiên",
         "value": "6.4 giây"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Phóng to – thu nhỏ",
         "value": "25% đến 400%"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Độ phân giải in",
         "value": "600 x 600 dpi, 2400 x 600 dpi (Smoothing)"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Tốc độ scan",
         "value": "Tối đa 25 SPM, độ phân giải 600 x 600 dpi"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Định dạng scan",
         "value": "PDF, JPEG, XPS — Scan to USB, TWAIN, email, file, SMB, FTP"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Bộ nhớ RAM",
         "value": "512 MB"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "CPU",
         "value": "Cortex A8 500 MHz"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Khay giấy",
         "value": "250 tờ (khay chính), 100 tờ (khay tay), mở rộng tối đa 1.700 tờ"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Kích thước",
         "value": "W575 x D540 x H402 mm"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Cổng giao tiếp",
         "value": "USB 2.0, RJ45"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Model tương thích",
         "value": "Toshiba e-STUDIO 2329A, Toshiba e-STUDIO 3028A"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
         "value": "Hàng nhập khẩu mới 100% nguyên đai nguyên kiện do Toshiba Tec Nhật Bản sản xuất, có đầy đủ giấy chứng nhận xuất xứ (CO) và chất lượng (CQ). Hương Sơn là đại lý ủy quyền phân phối chính thức Toshiba tại miền Bắc Việt Nam từ năm 2017."
       }
     ],
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Doanh nghiệp SME"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Văn phòng nhỏ"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Giáo dục"
       }
     ],
     "seller": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "offers": {
-      "@type": "Offer",
+      "@@type": "Offer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "VND",
       "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/",
       "seller": {
-        "@id": "https://huongsonco.com.vn/#organization"
+        "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
-        "@type": "PriceSpecification",
+        "@@type": "PriceSpecification",
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hao tài vật tư của 2829A có dễ thay không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Vật tư được thiết kế theo dạng modules, có thể thay thế từng phần khi hết hạn mức sử dụng mà không cần thay cả cụm, giúp tiết kiệm chi phí vận hành."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Giá 56.500.000 đồng đã bao gồm gì?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Đây là mức giá tham khảo được công bố trên website trước đây, cần Hương Sơn xác nhận lại thành phần cụ thể (đã gồm VAT, vận chuyển, lắp đặt hay chưa) tại thời điểm báo giá."
         }
       }

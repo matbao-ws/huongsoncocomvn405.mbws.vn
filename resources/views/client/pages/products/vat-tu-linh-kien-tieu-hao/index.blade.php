@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Vật tư – linh kiện – tiêu hao cho máy photocopy, máy in",
         "item": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/"
@@ -115,37 +115,37 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@@context": "https://schema.org",
+    "@@type": "ItemList",
     "name": "Vật tư – linh kiện – tiêu hao cho máy photocopy, máy in",
     "numberOfItems": 0,
     "itemListElement": []
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Mực Fansipan có tương thích với máy hãng khác không mua từ Hương Sơn không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Fansipan hướng tới vật tư tương thích cho các dòng máy thông dụng trên thị trường. Mỗi loại vật tư cần được xác nhận đúng model tương thích trước khi đặt hàng — vui lòng liên hệ để được tư vấn theo đúng model máy đang sử dụng."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Vật tư Duplo có phải hàng chính hãng không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Với vai trò đại lý ủy quyền phân phối Duplo tại miền Bắc, Hương Sơn cung cấp Master và mực nhập khẩu chính hãng từ Nhật Bản đi kèm thiết bị."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có cung cấp vật tư theo hợp đồng định kỳ không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, đây là một phần của giải pháp quản lý và vận hành, trong đó Hương Sơn chủ động cung ứng và quản lý tồn vật tư theo định mức."
         }
       }

@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Dịch vụ",
         "item": "https://huongsonco.com.vn/dich-vu/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Dịch vụ kỹ thuật – lắp đặt, triển khai, trực kỹ thuật",
         "item": "https://huongsonco.com.vn/dich-vu/dich-vu-ky-thuat/"
@@ -115,75 +115,75 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/dich-vu/dich-vu-ky-thuat/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/dich-vu/dich-vu-ky-thuat/#service",
     "name": "Dịch vụ kỹ thuật",
     "serviceType": "Dịch vụ kỹ thuật lắp đặt, triển khai và hỗ trợ vận hành thiết bị in ấn",
     "description": "Dịch vụ kỹ thuật đi kèm mọi hợp đồng bán, thuê hoặc quản lý thiết bị của Hương Sơn: từ lắp đặt ban đầu đến trực kỹ thuật trong thời gian vận hành cao điểm.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/dich-vu/dich-vu-ky-thuat/"
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Kỹ thuật có trực tại chỗ trong ngày thi không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, khi phạm vi hợp đồng bao gồm trực kỹ thuật — đây là yêu cầu tiêu chuẩn của gói thuê máy in đề thi."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có hỗ trợ từ xa trước khi cử người đến không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, nhiều sự cố xử lý được qua hướng dẫn từ xa, giúp tiết kiệm thời gian so với việc luôn phải chờ kỹ thuật đến tận nơi."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Dịch vụ kỹ thuật – lắp đặt, triển khai, trực kỹ thuật",
     "description": "Dịch vụ kỹ thuật đi kèm mọi hợp đồng bán, thuê hoặc quản lý thiết bị của Hương Sơn: từ lắp đặt ban đầu đến trực kỹ thuật trong thời gian vận hành cao điểm.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát trước triển khai",
         "text": "Kiểm tra nguồn điện, mặt bằng, yêu cầu kết nối mạng (nếu có)."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Lắp đặt và cấu hình",
         "text": "Lắp đặt thiết bị, cấu hình theo yêu cầu, chạy thử và in test."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Đào tạo sử dụng",
         "text": "Hướng dẫn nhân sự phụ trách vận hành cơ bản và xử lý lỗi thường gặp."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Trực kỹ thuật (nếu có)",
         "text": "Bố trí kỹ thuật viên tại hiện trường trong thời gian vận hành cao điểm theo hợp đồng."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Bàn giao",
         "text": "Lập biên bản bàn giao kỹ thuật, xác nhận tình trạng thiết bị đã sẵn sàng vận hành."

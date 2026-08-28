@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp thiết bị & in ấn cho ngành Giáo dục",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/"
@@ -115,100 +115,100 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/giao-duc/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/giao-duc/#service",
     "name": "Giải pháp thiết bị và in ấn cho ngành Giáo dục",
     "serviceType": "Giải pháp thiết bị, in ấn và số hóa cho ngành Giáo dục",
     "description": "Giải pháp trọn vòng đời tài liệu cho ngành Giáo dục: thuê máy in sao đề thi, thuê máy photocopy cho trường học, quản lý in ấn trọn gói và số hóa hồ sơ – kèm vật tư, kỹ thuật trực và phương án máy dự phòng.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/giao-duc/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở Giáo dục và Đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Phòng Khảo thí – QLCLGD"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Phòng Kế hoạch – Tài chính"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường THPT"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường THCS"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường Đại học – Cao đẳng"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trung tâm và đơn vị trực thuộc"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in nhân bản tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng A3/A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy phối trang – thiết bị hoàn thiện sau in"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in laser A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Thiết bị phòng học – thiết bị dạy học"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện – tiêu hao"
           }
         }
@@ -216,113 +216,113 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có kinh nghiệm triển khai cho Sở GD&ĐT chưa?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Hương Sơn đã thực hiện hợp đồng thuê máy photocopy phục vụ in sao đề thi cho Sở GD&ĐT Vĩnh Phúc và hợp đồng thuê máy in nhân bản siêu tốc phục vụ sao đề thi Kỳ thi Tốt nghiệp THPT năm 2026 cho Sở GD&ĐT Quảng Trị. Chi tiết xem tại mục Dự án – Case study."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Thuê máy theo kỳ thi thì thuê tối thiểu bao lâu?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo hồ sơ đã triển khai, thời gian thuê phục vụ kỳ thi thường từ vài ngày đến khoảng hai tuần, tùy số điểm in và sản lượng. Hương Sơn giao máy trước thời điểm in chính thức để đơn vị làm quen và kiểm tra, chứ không giao sát giờ in."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Vật tư Master và mực do bên nào cung cấp?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Phụ thuộc mô hình báo giá được chọn. Mô hình A tách vật tư và tính theo thực tế sử dụng; mô hình B đi kèm định mức vật tư; mô hình C là trọn gói. Điều này được ghi rõ trong báo giá và hợp đồng để không gây hiểu nhầm phạm vi."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Nếu máy gặp sự cố trong ngày in đề thi thì xử lý thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Sự cố được phân loại theo cấp độ. Với sự cố P1 – máy dừng hoàn toàn, Hương Sơn tiếp nhận trong vòng 30 phút, mục tiêu có mặt trong vòng 2 giờ; nếu không khắc phục được thì thay bằng máy dự phòng đã chuẩn bị sẵn theo hợp đồng."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có đảm bảo bảo mật khu vực sao in không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hương Sơn tuân thủ tuyệt đối quy định về an ninh và bảo mật khu vực sao in của đơn vị. Nội dung đề thi, dữ liệu học sinh và thông tin vận hành nhạy cảm không được ghi nhận, sao lưu hay công bố dưới bất kỳ hình thức nào."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Đơn vị cần chuẩn bị gì trước khi nhận máy?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Vị trí đặt máy có nguồn điện phù hợp, đầu mối kỹ thuật và đầu mối nghiệm thu của đơn vị, xác nhận số lượng và khổ giấy, và xác nhận thời điểm nhận máy – thời điểm in chính thức – thời điểm trả máy."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thể vừa thuê máy in đề thi vừa thuê máy photocopy thường xuyên không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Đây là mô hình phổ biến: bắt đầu bằng nhu cầu theo kỳ thi, sau đó mở rộng sang thuê máy photocopy thường xuyên cho văn phòng và các đơn vị trực thuộc, rồi tới quản lý in ấn trọn gói và số hóa hồ sơ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có nhận số hóa hồ sơ văn bằng, chứng chỉ không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, đây là nhóm dịch vụ Hương Sơn đang phát triển. Quy trình gồm tiếp nhận và kiểm đếm hồ sơ, phân loại, scan tốc độ cao, kiểm soát chất lượng, OCR khi phạm vi yêu cầu, đặt tên và nhập metadata, bàn giao dữ liệu kèm biên bản số lượng và chất lượng."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Giải pháp thiết bị và in ấn cho ngành Giáo dục",
     "description": "Giải pháp trọn vòng đời tài liệu cho ngành Giáo dục: thuê máy in sao đề thi, thuê máy photocopy cho trường học, quản lý in ấn trọn gói và số hóa hồ sơ – kèm vật tư, kỹ thuật trực và phương án máy dự phòng.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát nhu cầu",
         "text": "Xác định kỳ thi hoặc nhu cầu thường xuyên, số điểm in, số máy, sản lượng dự kiến, khổ giấy và yêu cầu an ninh khu vực sao in."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Chốt phương án",
         "text": "Cấu hình máy chính và máy dự phòng, định mức vật tư, nhân sự kỹ thuật, phương án vận chuyển; gửi phương án kỹ thuật kèm cơ cấu giá."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Chuẩn bị thiết bị",
         "text": "Vệ sinh, bảo dưỡng, in test đạt yêu cầu; chuẩn bị Master/mực đủ cho toàn kỳ và tồn dự phòng; phân công kỹ thuật trực."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Giao và lắp đặt",
         "text": "Giao máy trước thời điểm in chính thức để đơn vị làm quen; kiểm tra nguồn điện, chạy thử, chốt counter đầu kỳ và lập biên bản bàn giao."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Vận hành và trực kỹ thuật",
         "text": "Kỹ thuật trực theo phương án đã thống nhất, ghi nhật ký vận hành, bổ sung vật tư, xử lý sự cố theo cấp độ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Thu hồi và nghiệm thu",
         "text": "Chốt counter và vật tư thực tế, thu hồi thiết bị, nghiệm thu, xuất hóa đơn và thanh lý – hồ sơ khớp với báo giá và hợp đồng."

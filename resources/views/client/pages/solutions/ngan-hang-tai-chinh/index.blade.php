@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp thiết bị in ấn và tài liệu cho Ngân hàng – Tài chính",
         "item": "https://huongsonco.com.vn/giai-phap/ngan-hang-tai-chinh/"
@@ -115,78 +115,78 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/ngan-hang-tai-chinh/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/ngan-hang-tai-chinh/#service",
     "name": "Giải pháp thiết bị in ấn và quản lý tài liệu cho Ngân hàng – Tài chính",
     "serviceType": "Giải pháp thiết bị in ấn, scan và quản lý in cho ngân hàng và tổ chức tài chính",
     "description": "Thiết bị và dịch vụ in ấn – scan cho ngân hàng và tổ chức tài chính: máy photocopy A3, máy in A4, máy scan chứng từ, quản lý in theo hệ thống chi nhánh, vật tư và bảo trì theo cam kết.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/ngan-hang-tai-chinh/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Ngân hàng thương mại"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Chi nhánh và phòng giao dịch"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Công ty tài chính"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Công ty bảo hiểm"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Công ty chứng khoán"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng A3"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in laser A4 – máy đa chức năng A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện – tiêu hao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Thiết bị văn phòng – hội họp"
           }
         }
@@ -194,95 +194,95 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn đã triển khai cho ngân hàng nào chưa?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Website của Hương Sơn công bố việc cung cấp máy photocopy cho hệ thống Vietcombank trong các năm 2022–2024, trong đó năm 2024 là lô 127 máy Toshiba. Hương Sơn đang hoàn thiện hồ sơ và xác nhận quyền công bố trước khi trình bày chi tiết dưới dạng case study."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn phục vụ được bao nhiêu điểm giao dịch?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Phụ thuộc địa bàn, vì cam kết thời gian xử lý chỉ có giá trị khi đội kỹ thuật tiếp cận được trong thời gian cam kết. Hương Sơn xác nhận phạm vi phục vụ theo danh sách địa điểm cụ thể trước khi ký cam kết SLA."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có giải pháp in bảo mật (secure print) không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hương Sơn triển khai theo mô hình đa thương hiệu và làm việc với đối tác phần mềm cho phần kiểm soát in. Phạm vi cụ thể được xác định sau khảo sát yêu cầu kiểm soát nội bộ của tổ chức."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Vật tư cho nhiều đời máy ở nhiều điểm được quản lý thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Bằng hai việc: chuẩn hóa số dòng máy để giảm số mã vật tư, và cung ứng theo định mức căn cứ sản lượng thực tế của từng điểm thay vì để mỗi điểm tự mua."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có báo cáo sản lượng theo từng chi nhánh không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, khi triển khai theo mô hình quản lý in ấn. Counter được chốt theo mã máy và báo cáo tổng hợp theo đơn vị, phục vụ phân bổ chi phí nội bộ."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Giải pháp thiết bị in ấn và quản lý tài liệu cho Ngân hàng – Tài chính",
     "description": "Thiết bị và dịch vụ in ấn – scan cho ngân hàng và tổ chức tài chính: máy photocopy A3, máy in A4, máy scan chứng từ, quản lý in theo hệ thống chi nhánh, vật tư và bảo trì theo cam kết.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát hệ thống điểm",
         "text": "Xác định số điểm, loại điểm, số thiết bị mỗi điểm, sản lượng và yêu cầu về tính liên tục."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Chuẩn hóa cấu hình",
         "text": "Rút gọn số dòng máy để giảm số loại vật tư, chọn cấu hình theo loại điểm."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Thiết kế phương án vật tư",
         "text": "Xác định định mức và cách cung ứng cho từng điểm, tránh thiếu cục bộ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Chốt SLA theo loại điểm",
         "text": "Điểm trọng yếu có cam kết chặt hơn và có phương án thiết bị thay thế."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Triển khai theo đợt",
         "text": "Lắp đặt, chốt counter đầu kỳ và đào tạo sử dụng theo từng đợt để không ảnh hưởng hoạt động."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Vận hành và báo cáo",
         "text": "Cung ứng vật tư, bảo trì theo lịch, xử lý sự cố theo SLA và báo cáo sản lượng theo đơn vị."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Đánh giá định kỳ",
         "text": "Rà soát thiết bị hiệu suất thấp, điều chỉnh cấu hình và định mức theo số liệu thực tế."

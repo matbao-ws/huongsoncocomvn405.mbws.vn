@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Dự án",
         "item": "https://huongsonco.com.vn/du-an/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Thuê máy photocopy phục vụ in sao đề thi – Sở GD&ĐT Vĩnh Phúc",
         "item": "https://huongsonco.com.vn/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/"
@@ -115,17 +115,17 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Article",
+    "@@context": "https://schema.org",
+    "@@type": "Article",
     "headline": "Thuê máy photocopy phục vụ in sao đề thi – Sở GD&ĐT Vĩnh Phúc",
     "description": "Hương Sơn cung cấp dịch vụ thuê 02 máy photocopy Toshiba 7518A/8518A phục vụ in sao đề thi cho Sở GD&ĐT tỉnh Vĩnh Phúc. Khối lượng thuê thực tế được xác nhận là 04 ngày (thay vì 05 ngày theo hợp đồng ban đầu), thể hiện đầy đủ trong biên bản nghiệm thu.",
     "datePublished": "2025",
     "dateModified": "2025",
     "author": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "publisher": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "mainEntityOfPage": "https://huongsonco.com.vn/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/",
     "inLanguage": "vi-VN"

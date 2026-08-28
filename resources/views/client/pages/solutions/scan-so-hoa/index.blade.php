@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp scan và số hóa tài liệu",
         "item": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/"
@@ -115,79 +115,79 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/#service",
     "name": "Giải pháp scan và số hóa tài liệu",
     "serviceType": "Giải pháp scan, OCR và số hóa tài liệu",
     "description": "Giải pháp scan và số hóa tài liệu theo chuỗi Scan → OCR → phân loại → lưu trữ → tra cứu → workflow, với Hương Sơn đóng vai trò tích hợp giải pháp và đối tác chuyên môn cung cấp phần OCR, DMS.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Cơ quan Nhà nước"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở Giáo dục và Đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường học và cơ sở đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Ngân hàng – tài chính"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Doanh nghiệp"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Bộ phận văn thư – lưu trữ"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Thư viện"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng có scan"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Thiết bị văn phòng phụ trợ"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện máy scan"
           }
         }
@@ -195,95 +195,95 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Chi phí số hóa tính theo gì?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Thường tính theo số trang đã scan, phân biệt theo khổ giấy, một mặt hoặc hai mặt, tình trạng tài liệu, có OCR hay không và số trường metadata cần nhập. Đơn giá được chốt sau khảo sát khối lượng thực tế."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn thực hiện tại đơn vị hay đưa tài liệu đi?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Cả hai đều thực hiện được, nhưng địa điểm luôn do đơn vị quyết định và ghi rõ trong hợp đồng. Với tài liệu có yêu cầu bảo mật cao, phương án thực hiện tại đơn vị thường được chọn."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Nên mua máy scan tự làm hay thuê dịch vụ?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Nếu khối lượng phát sinh liên tục hằng ngày thì nên có thiết bị riêng. Nếu là một khối hồ sơ tồn cần xử lý một lần, thuê dịch vụ thường nhanh và rẻ hơn. Nhiều đơn vị làm cả hai: thuê dịch vụ cho khối tồn và mua máy cho phát sinh hằng ngày."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Chọn máy scan theo tiêu chí nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo khối lượng trang mỗi ngày, khổ giấy lớn nhất cần scan, có cần scan hai mặt một lần chạy hay không, độ dày và tình trạng giấy, và có cần scan qua mạng dùng chung hay không. Xem danh mục máy scan."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Dữ liệu bàn giao ở định dạng nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo yêu cầu của đơn vị, thường là PDF hoặc PDF có lớp văn bản khi có OCR, kèm cấu trúc thư mục và quy ước đặt tên đã được phê duyệt trước."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Giải pháp scan và số hóa tài liệu",
     "description": "Giải pháp scan và số hóa tài liệu theo chuỗi Scan → OCR → phân loại → lưu trữ → tra cứu → workflow, với Hương Sơn đóng vai trò tích hợp giải pháp và đối tác chuyên môn cung cấp phần OCR, DMS.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát khối lượng và loại tài liệu",
         "text": "Số hồ sơ, số trang, khổ giấy, tình trạng tài liệu và mức độ ưu tiên từng nhóm."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Chốt phạm vi và quy ước dữ liệu",
         "text": "Định dạng file, độ phân giải, có OCR hay không, quy ước đặt tên, cấu trúc thư mục và trường metadata."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Chọn thiết bị và hình thức thực hiện",
         "text": "Chọn dòng máy scan; xác định đơn vị tự làm hay Hương Sơn thực hiện dịch vụ, và địa điểm thực hiện."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Tiếp nhận và kiểm đếm",
         "text": "Kiểm đếm hồ sơ và số trang, lập biên bản tiếp nhận."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Chuẩn bị và scan",
         "text": "Phân loại, tháo ghim, làm phẳng; scan kèm kiểm soát chất lượng trong quá trình."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "OCR và chuẩn hóa",
         "text": "OCR khi có yêu cầu; đặt tên, nhập metadata theo quy ước đã phê duyệt."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Kiểm tra và bàn giao",
         "text": "Soát tỷ lệ lỗi, thiếu trang, lệch trang; bàn giao dữ liệu kèm biên bản và hướng dẫn vận hành."

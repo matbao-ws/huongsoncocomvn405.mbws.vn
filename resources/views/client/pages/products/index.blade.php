@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,43 +65,43 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
@@ -109,61 +109,61 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@@context": "https://schema.org",
+    "@@type": "ItemList",
     "name": "Danh mục sản phẩm Hương Sơn",
     "numberOfItems": 9,
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Máy photocopy – Máy đa chức năng A3/A4",
         "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Máy in nhân bản tốc độ cao & Thiết bị hoàn thiện sau in Duplo",
         "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Máy scan – thiết bị số hóa tài liệu",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Cho thuê thiết bị cho khối Giáo dục – HƯƠNG SƠN EDUCATION SOLUTIONS",
         "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 5,
         "name": "Máy in Laser – thiết bị in văn phòng",
         "url": "https://huongsonco.com.vn/san-pham/may-in-laser/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 6,
         "name": "Thiết bị phòng học – thiết bị dạy học",
         "url": "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 7,
         "name": "Vật tư – linh kiện – tiêu hao cho máy photocopy, máy in",
         "url": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 8,
         "name": "Thiết bị văn phòng – hội họp và văn phòng phẩm",
         "url": "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 9,
         "name": "FANSIPAN – Mực và vật tư in ấn tương thích",
         "url": "https://huongsonco.com.vn/san-pham/fansipan/"

@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,100 +65,100 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https://huongsonco.com.vn/#website",
+    "@@context": "https://schema.org",
+    "@@type": "WebSite",
+    "@@id": "https://huongsonco.com.vn/#website",
     "url": "https://huongsonco.com.vn/",
     "name": "Hương Sơn",
     "inLanguage": "vi-VN",
     "publisher": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "potentialAction": {
-      "@type": "SearchAction",
+      "@@type": "SearchAction",
       "target": {
-        "@type": "EntryPoint",
+        "@@type": "EntryPoint",
         "urlTemplate": "https://huongsonco.com.vn/ve-huong-son/kien-thuc/?s={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@@context": "https://schema.org",
+    "@@type": "ItemList",
     "name": "Giải pháp Hương Sơn",
     "numberOfItems": 8,
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Giải pháp thiết bị và in ấn cho ngành Giáo dục",
         "url": "https://huongsonco.com.vn/giai-phap/giao-duc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Cho thuê máy in đề thi và vận hành điểm sao in",
         "url": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Cho thuê máy photocopy, máy in A3/A4 cho trường học",
         "url": "https://huongsonco.com.vn/giai-phap/giao-duc/cho-thue-may-truong-hoc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Quản lý in ấn trọn gói cho trường học – Managed Print Service",
         "url": "https://huongsonco.com.vn/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 5,
         "name": "Dịch vụ scan, OCR và số hóa hồ sơ cho Sở GD&ĐT và trường học",
         "url": "https://huongsonco.com.vn/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 6,
         "name": "Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước",
         "url": "https://huongsonco.com.vn/giai-phap/co-quan-nha-nuoc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 7,
         "name": "Giải pháp thiết bị in ấn và quản lý tài liệu cho Ngân hàng – Tài chính",
         "url": "https://huongsonco.com.vn/giai-phap/ngan-hang-tai-chinh/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 8,
         "name": "Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty",
         "url": "https://huongsonco.com.vn/giai-phap/tap-doan-tong-cong-ty/"

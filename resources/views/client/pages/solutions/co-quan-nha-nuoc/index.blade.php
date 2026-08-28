@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước",
         "item": "https://huongsonco.com.vn/giai-phap/co-quan-nha-nuoc/"
@@ -115,85 +115,85 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/co-quan-nha-nuoc/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/co-quan-nha-nuoc/#service",
     "name": "Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước",
     "serviceType": "Giải pháp thiết bị, in ấn và số hóa cho khu vực công",
     "description": "Giải pháp thiết bị văn phòng, in ấn, scan và số hóa hồ sơ cho khu vực công, đi kèm quy trình hồ sơ chuẩn: báo giá, hợp đồng, bàn giao, nghiệm thu và thanh lý dùng cùng một tên thiết bị và cấu hình.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/co-quan-nha-nuoc/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Bộ và cơ quan ngang Bộ"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở – ban – ngành"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "UBND các cấp"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Đơn vị sự nghiệp công lập"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Cơ quan hành chính"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng A3/A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in laser – thiết bị in"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in nhân bản tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Thiết bị văn phòng – hội họp"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện – tiêu hao"
           }
         }
@@ -201,95 +201,95 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có tham gia đấu thầu không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Hương Sơn tham gia có chọn lọc, ưu tiên các gói phù hợp với năng lực triển khai và dịch vụ thực tế của mình. Với gói mà Hương Sơn không đảm bảo được cam kết kỹ thuật hoặc dịch vụ, Hương Sơn không tham gia."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hồ sơ năng lực của Hương Sơn gồm những gì?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Thông tin pháp lý, năng lực thiết bị, năng lực kho, năng lực kỹ thuật, năng lực logistics, năng lực cho thuê, danh mục hãng và đối tác, cùng các dự án được phép công bố. Xem tại Hồ sơ năng lực."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Đơn vị cần chi thường xuyên thay vì chi đầu tư thì có phương án nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Phương án thuê thiết bị. Đây là chi phí dịch vụ, nghiệm thu theo khối lượng thực tế, phù hợp cho nhu cầu theo đợt hoặc khi chưa có kế hoạch đầu tư tài sản. Xem giải pháp cho thuê thiết bị."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có nhận số hóa hồ sơ lưu trữ của cơ quan không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Quy trình gồm tiếp nhận và kiểm đếm, phân loại, scan tốc độ cao, kiểm soát chất lượng, OCR khi có yêu cầu, đặt tên và metadata, bàn giao dữ liệu kèm biên bản. Địa điểm thực hiện do đơn vị quyết định."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Báo giá của Hương Sơn có tách rõ các khoản không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Nguyên tắc của Hương Sơn là báo giá phải ghi rõ VAT, vận chuyển – lắp đặt, vật tư, kỹ thuật, thời gian và điều kiện phát sinh; không dùng một chữ trọn gói gây hiểu nhầm phạm vi."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước",
     "description": "Giải pháp thiết bị văn phòng, in ấn, scan và số hóa hồ sơ cho khu vực công, đi kèm quy trình hồ sơ chuẩn: báo giá, hợp đồng, bàn giao, nghiệm thu và thanh lý dùng cùng một tên thiết bị và cấu hình.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Tiếp nhận nhu cầu",
         "text": "Xác định phạm vi công việc, số lượng thiết bị, khối lượng in hoặc scan, thời điểm cần và bộ phận đầu mối."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Khảo sát hiện trạng",
         "text": "Kiểm kê thiết bị hiện có, sản lượng, tình trạng và loại vật tư đang dùng; xác định yêu cầu bảo mật."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Đề xuất phương án",
         "text": "Gửi phương án kỹ thuật kèm cơ cấu giá tách rõ thiết bị, vật tư, vận chuyển – lắp đặt, kỹ thuật, thời gian và điều kiện phát sinh."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Hoàn thiện hồ sơ",
         "text": "Chuẩn bị hồ sơ thương mại và hồ sơ năng lực theo yêu cầu của đơn vị, phục vụ dự toán hoặc hồ sơ gói thầu."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Triển khai",
         "text": "Giao – lắp đặt – chạy thử, chốt counter đầu kỳ, đào tạo sử dụng và lập biên bản bàn giao."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Vận hành và bảo trì",
         "text": "Cung cấp vật tư, bảo trì định kỳ, xử lý sự cố theo cam kết thời gian."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Nghiệm thu và thanh lý",
         "text": "Chốt khối lượng thực tế, nghiệm thu, xuất hóa đơn và thanh lý; mọi thay đổi khối lượng được thể hiện rõ trong biên bản."

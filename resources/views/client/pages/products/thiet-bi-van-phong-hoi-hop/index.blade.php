@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Thiết bị văn phòng – hội họp và văn phòng phẩm",
         "item": "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/"
@@ -115,29 +115,29 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@@context": "https://schema.org",
+    "@@type": "ItemList",
     "name": "Thiết bị văn phòng – hội họp và văn phòng phẩm",
     "numberOfItems": 0,
     "itemListElement": []
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Mua văn phòng phẩm liên hệ ở đâu?",
         "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Cửa hàng thiết bị văn phòng & văn phòng phẩm Hương Sơn tại số 2 ngõ 67 phố Đức Giang, phường Việt Hưng, quận Long Biên, Hà Nội — phụ trách Mrs. Nguyễn Thị Hương, di động 0916533383, email vpphuongson@gmail.com."
+          "@@type": "Answer",
+          "text": "Cửa hàng thiết bị văn phòng & văn phòng phẩm Hương Sơn tại số 2 ngõ 67 phố Đức Giang, phường Việt Hưng, quận Long Biên, Hà Nội — phụ trách Mrs. Nguyễn Thị Hương, di động 0916533383, email vpphuongson@@gmail.com."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có giao hàng thiết bị văn phòng cùng lúc với máy photocopy không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Với đơn hàng lớn hoặc theo dự án, Hương Sơn sắp xếp giao hàng đồng bộ; vui lòng nêu rõ nhu cầu khi liên hệ để được sắp xếp phù hợp."
         }
       }

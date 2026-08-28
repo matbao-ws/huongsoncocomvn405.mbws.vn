@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Máy in Laser – thiết bị in văn phòng",
         "item": "https://huongsonco.com.vn/san-pham/may-in-laser/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Máy in đa năng HP LaserJet Pro MFP M4103fdw",
         "item": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/"
@@ -121,88 +121,88 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/#product",
+    "@@context": "https://schema.org",
+    "@@type": "Product",
+    "@@id": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/#product",
     "name": "Máy in đa năng HP LaserJet Pro MFP M4103fdw",
     "model": "M4103fdw (2Z629A)",
     "sku": "HP-M4103FDW-2Z629A",
     "category": "Máy in Laser – Thiết bị in",
     "description": "HP LaserJet Pro MFP M4103fdw là máy in đa năng A4 cho văn phòng hiện đại, có thể mua hoặc thuê theo tháng.",
     "brand": {
-      "@type": "Brand",
+      "@@type": "Brand",
       "name": "HP"
     },
     "manufacturer": {
-      "@type": "Organization",
+      "@@type": "Organization",
       "name": "HP"
     },
     "url": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/",
     "additionalProperty": [
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Loại thiết bị",
         "value": "Máy in đa năng Laser đen trắng A4"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Model đầy đủ",
         "value": "HP LaserJet Pro MFP 4103fdw – mã sản phẩm 2Z629A"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
         "value": "Phân phối bởi Hương Sơn trong danh mục máy in Laser – Ricoh & HP."
       }
     ],
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Văn phòng"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Giáo dục"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Doanh nghiệp SME"
       }
     ],
     "seller": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "offers": {
-      "@type": "Offer",
+      "@@type": "Offer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "VND",
       "url": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/",
       "seller": {
-        "@id": "https://huongsonco.com.vn/#organization"
+        "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
-        "@type": "PriceSpecification",
+        "@@type": "PriceSpecification",
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thể thuê máy này theo tháng không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Website trước đây công bố mức phí thuê tham khảo khoảng 550.000 đồng/tháng — mức phí thực tế cần Hương Sơn xác nhận và báo giá theo thời điểm và sản lượng cụ thể."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Máy có in màu không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Đây là dòng máy in Laser đen trắng đa năng A4."
         }
       }

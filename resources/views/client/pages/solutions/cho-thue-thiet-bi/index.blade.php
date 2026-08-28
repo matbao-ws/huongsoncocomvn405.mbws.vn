@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Cho thuê máy photocopy, máy in và thiết bị văn phòng",
         "item": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/"
@@ -115,82 +115,82 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/#service",
     "name": "Cho thuê thiết bị – Equipment as a Service",
     "serviceType": "Cho thuê thiết bị in ấn và văn phòng",
     "description": "Cho thuê thiết bị theo 4 gói từ cơ bản đến quản lý toàn bộ đội máy: khách hàng mua năng lực in ấn ổn định trong một khoảng thời gian thay vì mua thiết bị.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở Giáo dục và Đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường học"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Cơ quan Nhà nước"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Ngân hàng"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Doanh nghiệp"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Đơn vị có nhu cầu theo đợt hoặc theo mùa"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng A3/A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in nhân bản tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in laser A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Thiết bị văn phòng – hội họp"
           }
         }
@@ -198,103 +198,103 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Thuê máy photocopy giá bao nhiêu một tháng?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Phụ thuộc cấu hình máy, sản lượng in, gói dịch vụ và thời hạn hợp đồng, nên Hương Sơn báo giá sau khi biết sản lượng dự kiến và loại máy phù hợp. Việc báo một con số chung mà chưa biết sản lượng sẽ dẫn tới phát sinh về sau."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thuê ngắn hạn theo ngày được không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được, cho nhu cầu theo đợt như kỳ thi, hội nghị hoặc đợt in tài liệu. Đây là hình thức Hương Sơn đã thực hiện cho các Sở GD&ĐT trong các kỳ thi."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Gói thuê có bao gồm mực và bảo trì không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Tùy gói. Gói Basic gồm máy, giao lắp và bảo trì cơ bản. Gói Standard trở lên có vật tư. Gói Business có thêm linh kiện và cam kết SLA. Phạm vi được ghi rõ trong báo giá và hợp đồng."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Máy cho thuê là máy mới hay máy đã qua sử dụng?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Tùy cấu hình và ngân sách. Tình trạng thiết bị, model và cấu hình được ghi rõ trong báo giá, hợp đồng và biên bản bàn giao – dùng cùng một tên thiết bị trên toàn bộ hồ sơ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hết hạn hợp đồng thì thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Trước 90 ngày hết hạn, hai bên đánh giá lại nhu cầu để gia hạn, đổi cấu hình hoặc nâng gói. Nếu kết thúc, Hương Sơn thu hồi thiết bị, nghiệm thu và thanh lý theo hồ sơ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn cho thuê ở những địa bàn nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hương Sơn xác nhận phạm vi phục vụ theo địa chỉ cụ thể, vì cam kết SLA chỉ có giá trị khi đội kỹ thuật tiếp cận được trong thời gian cam kết. Vui lòng gửi địa chỉ để Hương Sơn xác nhận."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Cho thuê thiết bị – Equipment as a Service",
     "description": "Cho thuê thiết bị theo 4 gói từ cơ bản đến quản lý toàn bộ đội máy: khách hàng mua năng lực in ấn ổn định trong một khoảng thời gian thay vì mua thiết bị.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Tiếp nhận nhu cầu",
         "text": "Xác định loại thiết bị, số lượng, thời gian thuê, địa điểm và sản lượng dự kiến."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Khảo sát và chọn gói",
         "text": "Chọn gói Basic, Standard, Business, Enterprise hoặc gói theo đợt cho phù hợp nhu cầu và ngân sách."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Báo giá",
         "text": "Gửi báo giá tách rõ phí thuê, định mức vật tư, vận chuyển – lắp đặt, kỹ thuật, thời gian thuê và điều kiện phát sinh."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Ký hợp đồng",
         "text": "Hợp đồng ghi rõ model và cấu hình thiết bị, phạm vi dịch vụ, mức SLA, cơ chế nghiệm thu và thanh toán."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Giao máy",
         "text": "Giao – lắp đặt – chạy thử, chốt counter đầu kỳ, đào tạo sử dụng và lập biên bản bàn giao."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Vận hành",
         "text": "Cung cấp vật tư, bảo trì theo lịch, xử lý sự cố theo SLA, chốt counter định kỳ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Kết thúc hoặc gia hạn",
         "text": "Trước 90 ngày hết hạn: đánh giá gia hạn, đổi cấu hình hoặc nâng gói. Nếu kết thúc: thu hồi, nghiệm thu và thanh lý."

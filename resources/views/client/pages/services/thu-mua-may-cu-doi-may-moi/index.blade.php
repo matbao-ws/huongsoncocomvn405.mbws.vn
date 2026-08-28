@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Dịch vụ",
         "item": "https://huongsonco.com.vn/dich-vu/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Thu mua máy photocopy cũ – Đổi máy mới",
         "item": "https://huongsonco.com.vn/dich-vu/thu-mua-may-cu-doi-may-moi/"
@@ -115,77 +115,77 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/dich-vu/thu-mua-may-cu-doi-may-moi/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/dich-vu/thu-mua-may-cu-doi-may-moi/#service",
     "name": "Thu mua máy cũ – Đổi máy mới",
     "serviceType": "Thu mua thiết bị cũ và hỗ trợ đổi sang thiết bị mới",
     "description": "Dịch vụ hỗ trợ đơn vị chuyển đổi từ thiết bị cũ sang thiết bị mới hoặc mô hình thuê, thông qua thu mua hoặc định giá trừ vào giá trị hợp đồng mới.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/dich-vu/thu-mua-may-cu-doi-may-moi/"
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Thiết bị cũ hãng khác có được thu mua không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, Hương Sơn định giá theo tình trạng thực tế thiết bị, không giới hạn theo hãng đã mua trước đó."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Giá thu mua được tính thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo tình trạng, tuổi máy và sản lượng đã sử dụng — Hương Sơn khảo sát trực tiếp trước khi đưa ra mức giá cụ thể."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thể đổi từ mua sang thuê không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Nhiều đơn vị chuyển từ sở hữu thiết bị cũ sang mô hình thuê để giảm gánh nặng vận hành và bảo trì."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Thu mua máy photocopy cũ – Đổi máy mới",
     "description": "Dịch vụ hỗ trợ đơn vị chuyển đổi từ thiết bị cũ sang thiết bị mới hoặc mô hình thuê, thông qua thu mua hoặc định giá trừ vào giá trị hợp đồng mới.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát thiết bị cũ",
         "text": "Kiểm tra tình trạng, tuổi máy, sản lượng đã sử dụng."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Định giá",
         "text": "Đưa ra mức giá thu mua hoặc mức khấu trừ vào hợp đồng mới."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Đề xuất phương án thay thế",
         "text": "Tư vấn thiết bị mới hoặc chuyển sang mô hình thuê phù hợp nhu cầu."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Thực hiện",
         "text": "Thu hồi thiết bị cũ, giao lắp thiết bị mới, hoàn tất hồ sơ."

@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp in đề thi và in tài liệu số lượng lớn",
         "item": "https://huongsonco.com.vn/giai-phap/in-de-thi-tai-lieu/"
@@ -115,71 +115,71 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/in-de-thi-tai-lieu/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/in-de-thi-tai-lieu/#service",
     "name": "Giải pháp in đề thi và in tài liệu số lượng lớn",
     "serviceType": "Giải pháp in sản lượng lớn và hoàn thiện sau in",
     "description": "Giải pháp in sản lượng lớn và hoàn thiện sau in: chọn thiết bị theo sản lượng và tiến độ, kèm vật tư, kỹ thuật, phương án dự phòng và thiết bị phối trang – đóng bộ.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/in-de-thi-tai-lieu/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở Giáo dục và Đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường học và cơ sở đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Cơ quan Nhà nước"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trung tâm in của tổ chức"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Doanh nghiệp có phòng in nội bộ"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in nhân bản tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy tốc độ cao A3"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy phối trang – hoàn thiện sau in"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện – tiêu hao"
           }
         }
@@ -187,95 +187,95 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Sản lượng bao nhiêu thì nên dùng máy in nhân bản thay vì máy photocopy?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Không có một ngưỡng chung cho mọi trường hợp, vì còn phụ thuộc tiến độ và khổ giấy. Cách làm đúng là tính từ sản lượng và thời gian cho phép để ra công suất cần thiết, rồi mới chọn thiết bị. Hương Sơn thực hiện phần tính toán này trong bước khảo sát."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Máy phối trang dùng để làm gì?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Để ghép các trang đã in thành bộ theo đúng thứ tự và số lượng, thay cho việc phối thủ công. Với công việc như phối đề thi hoặc đóng bộ tài liệu số lượng lớn, thiết bị này giảm đáng kể thời gian và sai sót."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Nên mua hay thuê thiết bị in sản lượng lớn?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Nếu nhu cầu phát sinh thường xuyên trong năm thì mua hợp lý hơn. Nếu chỉ phát sinh vài đợt, thuê theo đợt thường hiệu quả hơn vì không phát sinh khấu hao, lưu kho và bảo trì cho thời gian không sử dụng."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có cung cấp vật tư cho máy in nhân bản không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Hương Sơn cung cấp Master, mực và linh kiện cho các dòng máy đang phân phối, tính định mức theo sản lượng của từng đợt và có tồn dự phòng."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có phương án dự phòng nếu máy hỏng giữa đợt in không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Phương án máy dự phòng được xác định ngay khi chốt giải pháp, theo mức độ quan trọng của công việc, chứ không xử lý khi sự cố đã xảy ra."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Giải pháp in đề thi và in tài liệu số lượng lớn",
     "description": "Giải pháp in sản lượng lớn và hoàn thiện sau in: chọn thiết bị theo sản lượng và tiến độ, kèm vật tư, kỹ thuật, phương án dự phòng và thiết bị phối trang – đóng bộ.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Xác định sản lượng và tiến độ",
         "text": "Số bản cần in, khổ giấy, một mặt hoặc hai mặt, thời gian cho phép và số điểm in."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Tính công suất cần thiết",
         "text": "Từ sản lượng và tiến độ, tính số máy và tốc độ cần thiết – gồm cả biên dự phòng."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Chọn cấu hình thiết bị",
         "text": "Phân bổ giữa máy in nhân bản, máy photocopy tốc độ cao và thiết bị sau in."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Chốt vật tư và dự phòng",
         "text": "Định mức vật tư cho toàn đợt, tồn dự phòng và phương án máy dự phòng."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Triển khai",
         "text": "Giao – lắp – chạy thử trước thời điểm in chính thức, chốt counter đầu kỳ, lập biên bản bàn giao."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Vận hành",
         "text": "Trực kỹ thuật, bổ sung vật tư, ghi nhật ký vận hành và xử lý sự cố theo cấp độ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Kết thúc đợt",
         "text": "Chốt counter và vật tư thực tế, thu hồi thiết bị nếu là hợp đồng thuê, nghiệm thu và thanh lý."

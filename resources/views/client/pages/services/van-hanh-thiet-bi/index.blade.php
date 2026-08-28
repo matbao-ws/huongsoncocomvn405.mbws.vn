@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Dịch vụ",
         "item": "https://huongsonco.com.vn/dich-vu/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Dịch vụ vận hành thiết bị in ấn",
         "item": "https://huongsonco.com.vn/dich-vu/van-hanh-thiet-bi/"
@@ -115,69 +115,69 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/dich-vu/van-hanh-thiet-bi/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/dich-vu/van-hanh-thiet-bi/#service",
     "name": "Vận hành thiết bị",
     "serviceType": "Dịch vụ vận hành và giám sát thiết bị in ấn theo hợp đồng",
     "description": "Vận hành thiết bị theo hợp đồng là lớp dịch vụ nằm giữa 'chỉ bán máy' và 'quản lý in ấn trọn gói' — phù hợp với đơn vị đã có sẵn thiết bị nhưng cần một bên vận hành hộ.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/dich-vu/van-hanh-thiet-bi/"
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Khác gì so với Managed Print Service?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Vận hành thiết bị là dịch vụ tập trung vào việc chăm sóc thiết bị hiện có (counter, vật tư, bảo trì, báo cáo). Managed Print Service có phạm vi rộng hơn, bao gồm cả tư vấn chuẩn hóa lại đội thiết bị và tối ưu chi phí theo kỳ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có áp dụng cho thiết bị không thuê từ Hương Sơn không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, miễn là thiết bị còn phù hợp để bảo trì và có vật tư tương thích."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Dịch vụ vận hành thiết bị in ấn",
     "description": "Vận hành thiết bị theo hợp đồng là lớp dịch vụ nằm giữa 'chỉ bán máy' và 'quản lý in ấn trọn gói' — phù hợp với đơn vị đã có sẵn thiết bị nhưng cần một bên vận hành hộ.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Tiếp nhận đội thiết bị",
         "text": "Kiểm kê thiết bị hiện có, chốt counter khởi điểm."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Thiết lập lịch vận hành",
         "text": "Lịch bảo trì, lịch cấp vật tư và kênh tiếp nhận sự cố."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Vận hành định kỳ",
         "text": "Bảo trì, cung ứng vật tư, xử lý sự cố theo lịch và theo yêu cầu phát sinh."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Báo cáo",
         "text": "Gửi báo cáo sản lượng, vật tư và sự cố theo kỳ đã thống nhất."

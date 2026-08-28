@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp thiết bị & in ấn cho ngành Giáo dục",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Cho thuê máy in đề thi – in sao đề thi cho Sở GD&ĐT",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/"
@@ -121,71 +121,71 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/#service",
     "name": "Cho thuê máy in đề thi và vận hành điểm sao in",
     "serviceType": "Cho thuê máy in nhân bản siêu tốc phục vụ in sao đề thi",
     "description": "Dịch vụ thuê máy in nhân bản siêu tốc và máy photocopy tốc độ cao phục vụ in sao đề thi, kèm vật tư Master/mực, vận chuyển – lắp đặt, kỹ thuật trực tại điểm in và máy dự phòng theo quy mô kỳ thi.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở Giáo dục và Đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Phòng Khảo thí – QLCLGD"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Hội đồng thi"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Điểm sao in đề thi"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường THPT"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in nhân bản tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy tốc độ cao A3"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy phối trang – hoàn thiện sau in"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư Master – mực – linh kiện"
           }
         }
@@ -193,113 +193,113 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Thuê máy in đề thi thì giá tính theo gì?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo phạm vi cung cấp và cách báo giá được chọn: tiền máy theo thời gian thuê, vật tư Master và mực theo thực tế hoặc theo định mức, cộng vận chuyển – lắp đặt và kỹ thuật trực. Mọi khoản được tách rõ trong báo giá, không dùng một chữ trọn gói gây hiểu nhầm phạm vi."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Máy được giao trước ngày in bao lâu?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hương Sơn giao máy trước thời điểm in chính thức để đơn vị kiểm tra và làm quen thiết bị, theo thông lệ là khoảng 2 ngày trở lên tùy quy mô. Nguyên tắc điều hành của Hương Sơn là không giao máy sát giờ in."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có máy dự phòng không, và tính phí thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Phương án dự phòng được xác định ngay khi chốt giải pháp – tối thiểu 01 máy dự phòng cho mỗi cụm in của kỳ thi lớn. Cách tính phí máy dự phòng được ghi rõ trong báo giá."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Máy in nhân bản đạt được tốc độ bao nhiêu bản/phút?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Tùy dòng máy và cấu hình. Trong hợp đồng đã thực hiện với Sở GD&ĐT Quảng Trị năm 2026, yêu cầu kỹ thuật là máy đạt khoảng 150–155 bản/phút. Hương Sơn chọn máy theo sản lượng và tiến độ thực tế của từng điểm in."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có nhận in sao đề thi hộ đơn vị không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Phạm vi dịch vụ của Hương Sơn là cung cấp thiết bị, vật tư, kỹ thuật và phương án dự phòng để đơn vị vận hành điểm sao in. Nghiệp vụ khảo thí và nội dung đề thi do đơn vị chịu trách nhiệm và quản lý theo quy định bảo mật."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Kỹ thuật có trực tại điểm in trong ngày in không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Kỹ thuật trực theo phương án đã thống nhất trong hợp đồng, với đầu mối được chỉ định tên cụ thể, hỗ trợ từ xa và có mặt tại hiện trường theo cam kết SLA."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Nếu sản lượng thực tế thấp hơn dự kiến thì nghiệm thu thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Nghiệm thu theo khối lượng thực tế. Trong hồ sơ đã thực hiện với Sở GD&ĐT Vĩnh Phúc, hợp đồng ghi 05 ngày thuê nhưng khối lượng thực tế xác nhận là 04 ngày và giá trị nghiệm thu được điều chỉnh tương ứng. Mọi thay đổi số ngày thuê hoặc khối lượng đều thể hiện rõ trong biên bản nghiệm thu."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Sau kỳ thi có thể tiếp tục thuê máy cho công việc thường xuyên không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Nhiều đơn vị bắt đầu từ nhu cầu theo kỳ thi rồi mở rộng sang thuê máy photocopy thường xuyên và quản lý in ấn trọn gói."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Cho thuê máy in đề thi và vận hành điểm sao in",
     "description": "Dịch vụ thuê máy in nhân bản siêu tốc và máy photocopy tốc độ cao phục vụ in sao đề thi, kèm vật tư Master/mực, vận chuyển – lắp đặt, kỹ thuật trực tại điểm in và máy dự phòng theo quy mô kỳ thi.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát kỳ thi",
         "text": "Xác định các kỳ thi và đợt khảo sát cần sao in trong năm, số điểm sao in, số máy dự kiến tại mỗi điểm, sản lượng và khổ giấy, yêu cầu an ninh khu vực sao in."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Chốt giải pháp",
         "text": "Cấu hình máy chính và máy dự phòng, định mức Master/mực, nhân sự kỹ thuật, phương án vận chuyển; xác định đầu mối kỹ thuật và đầu mối nghiệm thu của đơn vị."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Chuẩn bị thiết bị và vật tư",
         "text": "Vệ sinh, bảo dưỡng và in test đạt yêu cầu; chuẩn bị Master, mực, phụ kiện và thiết bị phụ trợ; phân công kỹ thuật trực; xác nhận máy dự phòng đã sẵn sàng."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Bàn giao tại điểm in",
         "text": "Giao và lắp máy, kiểm tra nguồn điện, chạy thử, chốt counter đầu kỳ, lập biên bản bàn giao. Không giao máy sát giờ in chính thức."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Vận hành và trực kỹ thuật",
         "text": "Kỹ thuật trực theo phương án, ghi nhật ký vận hành, bổ sung vật tư khi cần, xử lý sự cố theo cấp độ; chuyển sang máy dự phòng nếu không khắc phục được tại chỗ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Thu hồi và nghiệm thu",
         "text": "Chốt counter và vật tư thực tế, thu hồi thiết bị, nghiệm thu, xuất hóa đơn và thanh lý; hồ sơ dùng cùng tên thiết bị và cấu hình với báo giá và hợp đồng."

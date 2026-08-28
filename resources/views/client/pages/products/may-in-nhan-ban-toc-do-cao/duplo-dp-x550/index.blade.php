@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Máy in nhân bản tốc độ cao & Thiết bị hoàn thiện sau in Duplo",
         "item": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Máy nhân bản siêu tốc Duplo DP-X550",
         "item": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x550/"
@@ -121,122 +121,122 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x550/#product",
+    "@@context": "https://schema.org",
+    "@@type": "Product",
+    "@@id": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x550/#product",
     "name": "Máy nhân bản siêu tốc Duplo DP-X550",
     "model": "DP-X550",
     "sku": "DUPLO-DPX550",
     "category": "Máy in nhân bản tốc độ cao",
     "description": "Duplo DP-X550 đạt tốc độ đến 155 bản/phút với độ phân giải cao, tạo độ sắc nét cho khu vực hình ảnh khổ A3 — phù hợp cho nhu cầu nhân bản một văn bản gốc ra số lượng lớn trong thời gian ngắn như in đề thi, giáo trình, biểu mẫu.",
     "brand": {
-      "@type": "Brand",
+      "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
     },
     "manufacturer": {
-      "@type": "Organization",
+      "@@type": "Organization",
       "name": "Duplo (Nhật Bản)"
     },
     "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x550/",
     "additionalProperty": [
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Tốc độ in",
         "value": "Lên đến 155 bản/phút"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Khổ giấy tối đa",
         "value": "A3"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Màn hình điều khiển",
         "value": "Màn hình màu cảm ứng lớn"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Xuất xứ",
         "value": "Nhập khẩu nguyên đai nguyên kiện, sản xuất bởi Duplo Nhật Bản"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Model tương thích",
         "value": "Duplo DP-X520, Duplo DP-X650"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
         "value": "Nhập khẩu mới 100% từ Duplo Nhật Bản, có đầy đủ chứng nhận xuất xứ (CO) và chứng nhận chất lượng (CQ). Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam từ năm 2017."
       }
     ],
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Giáo dục"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Ngân hàng"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Y tế"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Cơ quan Nhà nước"
       }
     ],
     "seller": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "offers": {
-      "@type": "Offer",
+      "@@type": "Offer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "VND",
       "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x550/",
       "seller": {
-        "@id": "https://huongsonco.com.vn/#organization"
+        "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
-        "@type": "PriceSpecification",
+        "@@type": "PriceSpecification",
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     },
     "subjectOf": [
       {
-        "@type": "DigitalDocument",
+        "@@type": "DigitalDocument",
         "name": "Trang sản phẩm chính hãng Duplo DP-X550",
         "url": "https://huongsonco.com.vnhttps://www.duplo.com/eng/products/duplicators/dpx550.html"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "DP-X550 phù hợp với đơn vị có quy mô in như thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Phù hợp với đơn vị có nhu cầu in sản lượng lớn dồn vào thời gian ngắn — điển hình là Sở GD&ĐT trong mùa thi, ngân hàng, bệnh viện và cơ quan hành chính có khối lượng văn bản lớn."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thể thuê DP-X550 theo đợt không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Đây là mô hình phổ biến cho các kỳ thi — xem giải pháp cho thuê máy in đề thi."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Vật tư cho DP-X550 có sẵn không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có, Master và mực nhập khẩu chính hãng từ Nhật Bản, cung cấp kèm theo khi thuê hoặc mua máy."
         }
       }

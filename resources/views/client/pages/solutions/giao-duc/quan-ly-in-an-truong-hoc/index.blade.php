@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp thiết bị & in ấn cho ngành Giáo dục",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Quản lý in ấn trọn gói cho trường học (Managed Print Service)",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/"
@@ -121,74 +121,74 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/#service",
     "name": "Quản lý in ấn trọn gói cho trường học – Managed Print Service",
     "serviceType": "Managed Print Service cho khối Giáo dục",
     "description": "Hương Sơn quản lý toàn bộ thiết bị, vật tư, bảo trì, counter và SLA của hệ thống in; đơn vị trả theo sản lượng và mức dịch vụ đã thống nhất, có báo cáo định kỳ.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở Giáo dục và Đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường Đại học – Cao đẳng"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường có nhiều phòng ban"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trung tâm in của đơn vị giáo dục"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng A3"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in laser A4 – máy đa chức năng A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in nhân bản – thiết bị sau in"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện – tiêu hao"
           }
         }
@@ -196,103 +196,103 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Managed Print Service khác thuê máy thường ở chỗ nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Thuê máy là thuê thiết bị. Managed Print Service là thuê cả năng lực vận hành: Hương Sơn quản lý thiết bị, vật tư, bảo trì, counter, SLA và gửi báo cáo định kỳ; đơn vị trả theo sản lượng và mức dịch vụ thay vì trả theo từng lần mua mực hay từng lần sửa máy."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Đơn vị đang có nhiều máy của nhiều hãng thì có triển khai được không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Hương Sơn làm theo mô hình đa thương hiệu nên có thể tiếp nhận đội máy hỗn hợp, khảo sát và chuẩn hóa dần chứ không bắt buộc thay toàn bộ thiết bị ngay từ đầu."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Chi phí được tính theo gì?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo sản lượng bản in được chốt bằng counter định kỳ theo từng mã máy, cộng phần thiết bị và mức dịch vụ đã thống nhất. Cơ cấu giá được ghi rõ trong hợp đồng."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Báo cáo gồm những gì và tần suất thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Báo cáo định kỳ gồm sản lượng theo máy, sự cố đã xử lý, vật tư đã cấp và chi phí trên mỗi thiết bị. Tần suất báo cáo thống nhất trong hợp đồng, thường theo tháng hoặc theo kỳ chốt counter."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Nếu một máy hỏng nặng thì có được thay máy không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có. Hợp đồng xác định thiết bị dự phòng theo quy mô. Với sự cố P1 mà không khắc phục được tại chỗ, Hương Sơn thay thiết bị theo phương án đã thống nhất."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thể đưa cả máy scan và dịch vụ số hóa vào cùng hợp đồng không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Nhiều đơn vị mở rộng từ quản lý in sang số hóa hồ sơ trong cùng một quan hệ dịch vụ."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Quản lý in ấn trọn gói cho trường học – Managed Print Service",
     "description": "Hương Sơn quản lý toàn bộ thiết bị, vật tư, bảo trì, counter và SLA của hệ thống in; đơn vị trả theo sản lượng và mức dịch vụ đã thống nhất, có báo cáo định kỳ.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát hệ thống hiện tại",
         "text": "Kiểm kê toàn bộ thiết bị theo model, tuổi máy, sản lượng, tình trạng và loại vật tư đang sử dụng."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Phân tích chi phí hiện tại",
         "text": "Tính chi phí in thực tế theo máy và theo phòng ban, xác định các thiết bị và khu vực đang gây chi phí cao."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Thiết kế lại đội máy",
         "text": "Đề xuất cấu hình thiết bị theo nhu cầu từng khu vực, loại bỏ thiết bị không hiệu quả."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Chốt SLA và cơ chế giá",
         "text": "Thống nhất mức dịch vụ P1/P2/P3, đơn giá theo sản lượng, phạm vi vật tư và cơ chế nghiệm thu – thanh toán."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Triển khai và chốt counter đầu kỳ",
         "text": "Lắp đặt, cấu hình, đào tạo sử dụng và chốt counter khởi điểm cho từng mã máy."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Vận hành và báo cáo",
         "text": "Cung ứng vật tư, bảo trì theo lịch, xử lý sự cố theo SLA, chốt counter và gửi báo cáo định kỳ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Đánh giá và tối ưu",
         "text": "Rà soát ở mốc T-90, T-60, T-30 trước hạn để điều chỉnh cấu hình, định mức và phạm vi dịch vụ."

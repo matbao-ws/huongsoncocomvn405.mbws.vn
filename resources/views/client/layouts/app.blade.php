@@ -55,8 +55,6 @@
 
     @include('client.partials.footer')
     @include('client.partials.drawer')
-    @include('client.partials.search-modal')
-    @include('client.partials.floating-buttons')
 
     @include('client.partials.admin-bar')
     @include('client.partials.inline-blocks')

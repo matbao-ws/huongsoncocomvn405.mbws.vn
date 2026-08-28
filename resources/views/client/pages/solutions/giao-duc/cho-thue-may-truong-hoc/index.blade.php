@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp thiết bị & in ấn cho ngành Giáo dục",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Cho thuê máy photocopy, máy in A3/A4 cho trường học",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/cho-thue-may-truong-hoc/"
@@ -121,79 +121,79 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/giao-duc/cho-thue-may-truong-hoc/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/giao-duc/cho-thue-may-truong-hoc/#service",
     "name": "Cho thuê máy photocopy, máy in A3/A4 cho trường học",
     "serviceType": "Cho thuê máy photocopy và máy in cho trường học",
     "description": "Cho thuê máy photocopy và máy in A3/A4 theo tháng hoặc theo định mức bản in cho văn phòng trường, phòng giáo vụ và phòng đào tạo, kèm vật tư, bảo trì và hỗ trợ kỹ thuật.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/giao-duc/cho-thue-may-truong-hoc/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường THPT"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường THCS"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường Tiểu học"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Phòng giáo vụ"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Phòng đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Văn phòng trường"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Đơn vị trực thuộc Sở GD&ĐT"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng A3"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in laser A4 – máy in đa chức năng A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tài liệu"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện – tiêu hao"
           }
         }
@@ -201,111 +201,111 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Thuê máy photocopy cho trường học tính phí như thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo cấu trúc phí thuê cố định hàng tháng, kèm định mức bản in miễn phí và đơn giá cho bản in vượt định mức. Định mức được xác định từ sản lượng khảo sát thực tế của đơn vị, không áp một con số chung."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Gói thuê có bao gồm mực và bảo trì không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Có gói bao mực và bảo trì. Đơn vị cũng có thể chọn gói chỉ thuê máy và tự lo vật tư. Phạm vi cung cấp được ghi rõ trong báo giá và hợp đồng."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Thời hạn thuê tối thiểu là bao lâu?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hợp đồng thuê thường xuyên ký theo 12, 24 hoặc 36 tháng. Với nhu cầu ngắn hạn theo mùa vụ hoặc theo kỳ thi, xem gói thuê máy in đề thi theo kỳ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Máy cho thuê là máy mới hay máy đã qua sử dụng?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Tùy cấu hình và ngân sách của đơn vị. Tình trạng thiết bị, model và cấu hình được ghi rõ trong báo giá, hợp đồng và biên bản bàn giao – dùng cùng một tên thiết bị trên toàn bộ hồ sơ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Nếu sản lượng vượt định mức thì tính thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Phần vượt định mức tính theo đơn giá bản in đã thống nhất trong hợp đồng, căn cứ counter được chốt định kỳ và có xác nhận của hai bên."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Trường ở tỉnh xa Hà Nội có thuê được không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hương Sơn xem xét theo địa bàn và khả năng phục vụ kỹ thuật thực tế, vì cam kết SLA chỉ có giá trị khi đội kỹ thuật tiếp cận được trong thời gian cam kết. Vui lòng gửi địa chỉ đơn vị để Hương Sơn xác nhận phạm vi phục vụ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thể vừa thuê máy vừa nhờ Hương Sơn quản lý toàn bộ hệ thống in không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được, đó là gói quản lý in ấn trọn gói (Managed Print Service) – Hương Sơn quản lý thiết bị, vật tư, bảo trì, counter và SLA."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Cho thuê máy photocopy, máy in A3/A4 cho trường học",
     "description": "Cho thuê máy photocopy và máy in A3/A4 theo tháng hoặc theo định mức bản in cho văn phòng trường, phòng giáo vụ và phòng đào tạo, kèm vật tư, bảo trì và hỗ trợ kỹ thuật.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát nhu cầu",
         "text": "Xác định số giáo viên, học sinh, phòng ban, sản lượng bình quân tháng, tháng cao điểm và khổ giấy."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Tính sản lượng và chọn cấu hình",
         "text": "Tính sản lượng bình quân và cao điểm, từ đó chọn cấu hình A3, A4 hoặc kết hợp cho phù hợp."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Xây gói phí thuê",
         "text": "Xác định phí thuê, định mức bản in miễn phí và đơn giá bản vượt; gửi báo giá kèm cơ cấu giá rõ ràng."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Ký hợp đồng",
         "text": "Ký hợp đồng 12, 24 hoặc 36 tháng với phạm vi cung cấp, cơ chế nghiệm thu và thanh toán xác định."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Giao máy và đào tạo",
         "text": "Giao – lắp đặt, chốt counter đầu kỳ, hướng dẫn sử dụng cho nhân sự phụ trách."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Vận hành và chốt kỳ",
         "text": "Bảo trì, thay vật tư, xử lý sự cố; chốt counter định kỳ và xuất hóa đơn."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Đánh giá gia hạn",
         "text": "Trước 90 ngày hết hạn, đánh giá lại nhu cầu để gia hạn hoặc nâng cấp cấu hình."

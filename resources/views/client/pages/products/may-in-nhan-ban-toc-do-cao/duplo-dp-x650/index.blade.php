@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Máy in nhân bản tốc độ cao & Thiết bị hoàn thiện sau in Duplo",
         "item": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Máy nhân bản siêu tốc Duplo DP-X650",
         "item": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x650/"
@@ -121,94 +121,94 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x650/#product",
+    "@@context": "https://schema.org",
+    "@@type": "Product",
+    "@@id": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x650/#product",
     "name": "Máy nhân bản siêu tốc Duplo DP-X650",
     "model": "DP-X650",
     "sku": "DUPLO-DPX650",
     "category": "Máy in nhân bản tốc độ cao",
     "description": "DP-X650 là thế hệ máy in nhân bản siêu tốc mới của Duplo, tốc độ đến 200 bản/phút, do Hương Sơn phân phối tại thị trường Việt Nam.",
     "brand": {
-      "@type": "Brand",
+      "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
     },
     "manufacturer": {
-      "@type": "Organization",
+      "@@type": "Organization",
       "name": "Duplo (Nhật Bản)"
     },
     "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x650/",
     "additionalProperty": [
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Tốc độ in",
         "value": "Lên đến 200 bản/phút"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Màn hình điều khiển",
         "value": "Màn hình LCD cảm ứng màu, thiết kế hoàn toàn mới"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Xuất xứ",
         "value": "Duplo Nhật Bản"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Model tương thích",
         "value": "Duplo DP-X550, Duplo DP-X520"
       },
       {
-        "@type": "PropertyValue",
+        "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
         "value": "Duplo Nhật Bản sản xuất. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam."
       }
     ],
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Giáo dục"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Cơ quan Nhà nước"
       }
     ],
     "seller": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "offers": {
-      "@type": "Offer",
+      "@@type": "Offer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "VND",
       "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x650/",
       "seller": {
-        "@id": "https://huongsonco.com.vn/#organization"
+        "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
-        "@type": "PriceSpecification",
+        "@@type": "PriceSpecification",
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "DP-X650 khác gì so với DP-X550?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "DP-X650 là thế hệ thiết kế mới với tốc độ tối đa cao hơn, lên đến 200 bản/phút so với 155 bản/phút của DP-X550, kèm màn hình LCD cảm ứng màu mới."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Model này đã có sẵn tại Việt Nam chưa?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Vui lòng liên hệ Hương Sơn để xác nhận tình trạng hàng và thời gian giao hàng hiện tại của model này."
         }
       }

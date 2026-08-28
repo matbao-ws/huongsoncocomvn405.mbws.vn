@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty",
         "item": "https://huongsonco.com.vn/giai-phap/tap-doan-tong-cong-ty/"
@@ -115,89 +115,89 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/tap-doan-tong-cong-ty/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/tap-doan-tong-cong-ty/#service",
     "name": "Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty",
     "serviceType": "Giải pháp in ấn, quản lý tài liệu và số hóa cho doanh nghiệp lớn",
     "description": "Giải pháp in ấn – tài liệu – số hóa cho doanh nghiệp lớn: chuẩn hóa đội thiết bị, quản lý in theo sản lượng và SLA, số hóa tài liệu và cung ứng vật tư tập trung.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/tap-doan-tong-cong-ty/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Tập đoàn"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Tổng công ty"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Nhà máy – khu sản xuất"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Doanh nghiệp logistics"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Công ty bảo hiểm – tài chính"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Doanh nghiệp thương mại – dịch vụ"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng A3"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in laser A4"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy in nhân bản tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy phối trang – hoàn thiện sau in"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện – tiêu hao"
           }
         }
@@ -205,95 +205,95 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Doanh nghiệp đang dùng nhiều hãng máy khác nhau, có triển khai được không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Hương Sơn làm theo mô hình đa thương hiệu, tiếp nhận đội máy hỗn hợp và chuẩn hóa theo lộ trình chứ không yêu cầu thay toàn bộ thiết bị ngay."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Bắt đầu từ đâu nếu chưa biết chi phí in hiện tại là bao nhiêu?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Bắt đầu từ kiểm kê đội thiết bị và tính chi phí in theo máy, theo phòng ban. Đây là bước khảo sát, làm trước khi bàn tới cấu hình hay giá."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Có thể chỉ thuê thiết bị cho một dự án ngắn hạn không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Xem giải pháp cho thuê thiết bị cho nhu cầu theo đợt, theo dự án hoặc theo mùa vụ."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có in tài liệu số lượng lớn hộ doanh nghiệp không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hương Sơn cung cấp thiết bị và giải pháp để đơn vị tự in, gồm máy in nhân bản tốc độ cao và thiết bị hoàn thiện sau in. Xem giải pháp in tài liệu số lượng lớn."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Số hóa tài liệu doanh nghiệp thực hiện thế nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo quy trình có kiểm đếm khi tiếp nhận và khi bàn giao, scan tốc độ cao, kiểm soát chất lượng, OCR khi có yêu cầu, đặt tên và metadata theo quy ước được doanh nghiệp phê duyệt trước."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty",
     "description": "Giải pháp in ấn – tài liệu – số hóa cho doanh nghiệp lớn: chuẩn hóa đội thiết bị, quản lý in theo sản lượng và SLA, số hóa tài liệu và cung ứng vật tư tập trung.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Kiểm kê đội thiết bị",
         "text": "Thống kê model, tuổi máy, sản lượng, tình trạng và loại vật tư đang dùng ở toàn bộ địa điểm."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Phân tích chi phí in hiện tại",
         "text": "Tính chi phí in theo máy, theo phòng ban và theo địa điểm để xác định điểm gây chi phí cao."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Chuẩn hóa cấu hình",
         "text": "Xác định chuẩn thiết bị cho từng loại khu vực và lộ trình thay thế thiết bị không hiệu quả."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Chốt cơ chế giá và SLA",
         "text": "Thống nhất đơn giá theo sản lượng, phạm vi vật tư, mức dịch vụ và cơ chế nghiệm thu – thanh toán."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Triển khai theo đợt",
         "text": "Lắp đặt, chốt counter đầu kỳ, đào tạo sử dụng; triển khai theo đợt để không gián đoạn hoạt động."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Vận hành và báo cáo",
         "text": "Cung ứng vật tư, bảo trì theo lịch, xử lý sự cố theo SLA, báo cáo sản lượng và chi phí theo kỳ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Tối ưu theo số liệu",
         "text": "Mỗi kỳ rà soát lại cấu hình, định mức và danh mục thiết bị dựa trên số liệu thực tế."

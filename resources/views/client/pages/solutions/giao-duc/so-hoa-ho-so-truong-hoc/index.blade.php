@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,55 +65,55 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Giải pháp",
         "item": "https://huongsonco.com.vn/giai-phap/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "Giải pháp thiết bị & in ấn cho ngành Giáo dục",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 4,
         "name": "Scan, OCR và số hóa hồ sơ cho Sở GD&ĐT và trường học",
         "item": "https://huongsonco.com.vn/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"
@@ -121,79 +121,79 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://huongsonco.com.vn/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/#service",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "@@id": "https://huongsonco.com.vn/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/#service",
     "name": "Dịch vụ scan, OCR và số hóa hồ sơ cho Sở GD&ĐT và trường học",
     "serviceType": "Dịch vụ scan, OCR và số hóa tài liệu ngành Giáo dục",
     "description": "Số hóa hồ sơ ngành Giáo dục theo quy trình có kiểm soát chất lượng: tiếp nhận và kiểm đếm, phân loại, scan tốc độ cao, OCR, đặt tên và metadata, kiểm tra và bàn giao dữ liệu kèm biên bản.",
     "provider": {
-      "@id": "https://huongsonco.com.vn/#organization"
+      "@@id": "https://huongsonco.com.vn/#organization"
     },
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "url": "https://huongsonco.com.vn/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/",
     "audience": [
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Sở Giáo dục và Đào tạo"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Đơn vị quản lý văn bằng – chứng chỉ"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Phòng chuyên môn"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trường THPT"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Trung tâm giáo dục"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Thư viện"
       },
       {
-        "@type": "Audience",
+        "@@type": "Audience",
         "audienceType": "Bộ phận văn thư – lưu trữ"
       }
     ],
     "hasOfferCatalog": {
-      "@type": "OfferCatalog",
+      "@@type": "OfferCatalog",
       "name": "Thiết bị trong giải pháp",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy scan tốc độ cao"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Máy photocopy – máy đa chức năng có chức năng scan"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Thiết bị văn phòng phụ trợ"
           }
         },
         {
-          "@type": "Offer",
+          "@@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
+            "@@type": "Product",
             "name": "Vật tư – linh kiện máy scan"
           }
         }
@@ -201,111 +201,111 @@
     }
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn nhận số hóa tại đơn vị hay đưa hồ sơ đi?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Cả hai phương án đều thực hiện được, nhưng địa điểm luôn do đơn vị quyết định và ghi rõ trong hợp đồng. Với hồ sơ có yêu cầu bảo mật cao, phương án thực hiện tại đơn vị thường được lựa chọn."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Chi phí số hóa tính theo gì?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Thường tính theo số trang đã scan, có phân biệt theo khổ giấy, một mặt hoặc hai mặt, tình trạng tài liệu, có OCR hay không và số trường metadata cần nhập. Đơn giá được chốt sau khảo sát khối lượng thực tế."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "OCR có bắt buộc không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Không. OCR chỉ thực hiện khi phạm vi dịch vụ yêu cầu. Nếu đơn vị chỉ cần bản ảnh để lưu trữ và tra cứu theo tên hồ sơ thì không cần OCR; nếu cần tìm kiếm theo nội dung thì nên có."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Dữ liệu được bàn giao ở định dạng nào?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Theo yêu cầu của đơn vị, thường là PDF hoặc PDF có lớp văn bản khi có OCR, kèm cấu trúc thư mục và quy ước đặt tên đã được phê duyệt trước khi bắt đầu."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Làm sao biết dữ liệu bàn giao là đủ và đúng?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Khối lượng được kiểm đếm và lập biên bản ở cả hai đầu – khi tiếp nhận và khi bàn giao. Trước bàn giao, Hương Sơn soát tỷ lệ lỗi, thiếu trang và lệch trang; phần không đạt được scan lại."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Đơn vị chỉ muốn mua máy scan và tự làm thì có được không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Được. Hương Sơn cung cấp máy scan tốc độ cao kèm tư vấn chọn dòng máy theo khối lượng và loại tài liệu, hướng dẫn thiết lập quy trình scan và bảo trì thiết bị."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có tự phát triển phần mềm quản lý tài liệu không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Không. Hương Sơn đóng vai trò tích hợp giải pháp: khảo sát, thiết bị, triển khai, quy trình, đào tạo và vận hành; phần OCR, hệ thống quản lý tài liệu và lưu trữ do đối tác chuyên môn cung cấp. Cách làm này giúp đơn vị chọn được công cụ phù hợp thay vì bị bó vào một sản phẩm."
         }
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
     "name": "Quy trình triển khai: Dịch vụ scan, OCR và số hóa hồ sơ cho Sở GD&ĐT và trường học",
     "description": "Số hóa hồ sơ ngành Giáo dục theo quy trình có kiểm soát chất lượng: tiếp nhận và kiểm đếm, phân loại, scan tốc độ cao, OCR, đặt tên và metadata, kiểm tra và bàn giao dữ liệu kèm biên bản.",
     "step": [
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 1,
         "name": "Khảo sát khối lượng và loại tài liệu",
         "text": "Xác định số hồ sơ, số trang, khổ giấy, tình trạng tài liệu và mức độ ưu tiên của từng nhóm hồ sơ."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 2,
         "name": "Chốt phạm vi và quy ước dữ liệu",
         "text": "Thống nhất định dạng file, độ phân giải, có OCR hay không, quy ước đặt tên, cấu trúc thư mục và các trường metadata."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 3,
         "name": "Chọn phương án thiết bị và nhân sự",
         "text": "Chọn dòng máy scan phù hợp, xác định số ca làm việc, địa điểm thực hiện – tại đơn vị hoặc tại nơi được đơn vị chấp thuận."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 4,
         "name": "Tiếp nhận và kiểm đếm",
         "text": "Kiểm đếm hồ sơ và số trang, lập biên bản tiếp nhận trước khi bắt đầu."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 5,
         "name": "Scan – OCR – chuẩn hóa",
         "text": "Chuẩn bị tài liệu, scan, kiểm soát chất lượng, OCR khi có yêu cầu, đặt tên và nhập metadata."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 6,
         "name": "Kiểm tra chất lượng",
         "text": "Soát tỷ lệ lỗi, thiếu trang, lệch trang; scan lại phần chưa đạt."
       },
       {
-        "@type": "HowToStep",
+        "@@type": "HowToStep",
         "position": 7,
         "name": "Bàn giao và hỗ trợ",
         "text": "Bàn giao dữ liệu kèm biên bản số lượng và chất lượng, hướng dẫn vận hành, hỗ trợ và bảo trì sau triển khai."

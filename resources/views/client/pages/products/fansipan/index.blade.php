@@ -7,12 +7,12 @@
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
-    "@type": [
+    "@@context": "https://schema.org",
+    "@@type": [
       "Organization",
       "LocalBusiness"
     ],
-    "@id": "https://huongsonco.com.vn/#organization",
+    "@@id": "https://huongsonco.com.vn/#organization",
     "name": "Hương Sơn",
     "legalName": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN",
     "alternateName": "Huong Son Co., Ltd",
@@ -25,11 +25,11 @@
     "vatID": "0102759269",
     "foundingDate": "2008-06-01",
     "founder": {
-      "@type": "Person",
+      "@@type": "Person",
       "name": "Nguyễn Công Thuận"
     },
     "address": {
-      "@type": "PostalAddress",
+      "@@type": "PostalAddress",
       "streetAddress": "Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội",
       "addressLocality": "Hà Nội",
       "addressCountry": "VN"
@@ -39,10 +39,10 @@
       "0913 237 302",
       "091 113 8583"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "areaServed": {
-      "@type": "Country",
+      "@@type": "Country",
       "name": "Việt Nam"
     },
     "sameAs": [
@@ -65,49 +65,49 @@
     ],
     "brand": [
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "DUPLO"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "TOSHIBA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "RICOH"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "KONICA MINOLTA"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "HP"
       },
       {
-        "@type": "Brand",
+        "@@type": "Brand",
         "name": "FANSIPAN"
       }
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
         "item": "https://huongsonco.com.vn/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 2,
         "name": "Sản phẩm",
         "item": "https://huongsonco.com.vn/san-pham/"
       },
       {
-        "@type": "ListItem",
+        "@@type": "ListItem",
         "position": 3,
         "name": "FANSIPAN – Mực và vật tư in ấn tương thích",
         "item": "https://huongsonco.com.vn/san-pham/fansipan/"
@@ -115,61 +115,61 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@@context": "https://schema.org",
+    "@@type": "ItemList",
     "name": "FANSIPAN – Mực và vật tư in ấn tương thích",
     "numberOfItems": 0,
     "itemListElement": []
   },
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Mực Fansipan có phải hàng chính hãng của Toshiba, Ricoh, HP không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Không. FANSIPAN là thương hiệu vật tư tương thích (compatible) do Hương Sơn phát triển và phân phối, được thiết kế để lắp vừa và hoạt động tốt trên nhiều dòng máy của các hãng như Toshiba, Ricoh, HP, Konica Minolta — đây không phải là vật tư chính hãng do các hãng máy sản xuất, nhưng vẫn đảm bảo chất lượng in và độ tương thích khi dùng đúng model."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Vì sao nên chọn mực Fansipan thay vì mực chính hãng?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Mực Fansipan thường có chi phí thấp hơn hàng chính hãng trong khi vẫn đảm bảo chất lượng in cho nhu cầu sử dụng thông thường — phù hợp với đơn vị cần tối ưu chi phí vật tư cho khối lượng in lớn hoặc thường xuyên."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Làm sao biết mực Fansipan nào tương thích với máy của tôi?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Cung cấp đúng tên hãng và model máy đang sử dụng (ví dụ: Toshiba e-STUDIO 2829A) — Hương Sơn tư vấn chính xác loại mực, toner hoặc cụm mực Fansipan tương thích với model đó."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Fansipan có bán lẻ theo từng hộp mực không hay chỉ theo hợp đồng?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Cả hai. Có thể mua lẻ theo nhu cầu phát sinh, hoặc đưa vào hợp đồng cung ứng định kỳ khi thuê máy hoặc sử dụng dịch vụ quản lý in ấn trọn gói của Hương Sơn."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Mực refill Fansipan khác gì mực hộp mới?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Refill là hình thức nạp lại mực vào vỏ hộp cũ, thường có chi phí thấp hơn hộp mực mới hoàn toàn. Loại phù hợp tùy thuộc tình trạng hộp mực hiện có và nhu cầu của đơn vị — Hương Sơn tư vấn cụ thể theo từng trường hợp."
         }
       },
       {
-        "@type": "Question",
+        "@@type": "Question",
         "name": "Hương Sơn có giao mực Fansipan toàn quốc không?",
         "acceptedAnswer": {
-          "@type": "Answer",
+          "@@type": "Answer",
           "text": "Hương Sơn nhận yêu cầu và tư vấn trên toàn quốc; phạm vi giao hàng và thời gian cụ thể phụ thuộc địa điểm — vui lòng liên hệ để được xác nhận."
         }
       }
