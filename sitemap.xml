@@ -171,7 +171,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-in-nhan-ban-de-thi-thpt/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-photocopy-truong-hoc-toshiba/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/san-pham/fansipan/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-ricoh-aficio/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-toshiba-e-studio/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -211,7 +231,22 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7480/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -221,7 +256,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2500ac/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-3028a/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -231,12 +276,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/he-thong-hoi-nghi-logitech-group/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/may-chieu-hoi-truong-panasonic-pt-vz580/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/muc-in-master-duplo-chinh-hang/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/trong-drum-bot-tu-photocopy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

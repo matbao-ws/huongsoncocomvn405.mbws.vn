@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy phối trang (sắp xếp tài liệu) Duplo DFC-122 – DFC-122 | Hương Sơn")
-@section('meta_description', "Máy phối trang Duplo DFC-122 tự động sắp xếp các trang tài liệu đã in thành bộ theo đúng thứ tự, thay cho việc phối thủ công — thường dùng kèm máy in nhân")
+@section('title', "Máy phối trang Duplo DFC-122 – DFC-122 | Hương Sơn")
+@section('meta_description', "Duplo DFC-122 là máy phối trang 12 khay tốc độ 4.200 bộ/giờ — giải pháp hoàn thiện tài liệu sau in đắc lực giúp tiết kiệm 90% nhân lực xếp bộ tài liệu tron")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -115,7 +115,7 @@
       {
         "@@type": "ListItem",
         "position": 4,
-        "name": "Máy phối trang (sắp xếp tài liệu) Duplo DFC-122",
+        "name": "Máy phối trang Duplo DFC-122",
         "item": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/"
       }
     ]
@@ -124,11 +124,11 @@
     "@@context": "https://schema.org",
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/#product",
-    "name": "Máy phối trang (sắp xếp tài liệu) Duplo DFC-122",
+    "name": "Máy phối trang Duplo DFC-122",
     "model": "DFC-122",
     "sku": "DUPLO-DFC122",
-    "category": "Máy phối trang – Hoàn thiện sau in",
-    "description": "Máy phối trang Duplo DFC-122 tự động sắp xếp các trang tài liệu đã in thành bộ theo đúng thứ tự, thay cho việc phối thủ công — thường dùng kèm máy in nhân bản siêu tốc Duplo.",
+    "category": "Thiết bị hoàn thiện sau in",
+    "description": "Duplo DFC-122 là máy phối trang 12 khay tốc độ 4.200 bộ/giờ — giải pháp hoàn thiện tài liệu sau in đắc lực giúp tiết kiệm 90% nhân lực xếp bộ tài liệu trong các kỳ thi.",
     "brand": {
       "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
@@ -141,23 +141,28 @@
     "additionalProperty": [
       {
         "@@type": "PropertyValue",
-        "name": "Chức năng chính",
-        "value": "Phối trang (sắp xếp tài liệu) và đóng ghim tự động"
+        "name": "Số khay nạp",
+        "value": "12 khay nạp ma sát độc lập"
       },
       {
         "@@type": "PropertyValue",
-        "name": "Xuất xứ",
-        "value": "Duplo Nhật Bản"
+        "name": "Tốc độ xếp bộ",
+        "value": "Lên đến 4.200 bộ/giờ"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Cảm biến an toàn",
+        "value": "Phát hiện kẹt giấy, nạp giấy đôi, hết giấy từng khay"
       },
       {
         "@@type": "PropertyValue",
         "name": "Model tương thích",
-        "value": "Duplo DP-X550, Duplo DP-X650"
+        "value": "Duplo DFC-102, Duplo DFC-SII"
       },
       {
         "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
-        "value": "Duplo Nhật Bản sản xuất. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam từ năm 2017."
+        "value": "Chính hãng Duplo Nhật Bản."
       }
     ],
     "audience": [
@@ -167,7 +172,11 @@
       },
       {
         "@@type": "Audience",
-        "audienceType": "Cơ quan Nhà nước"
+        "audienceType": "Xưởng in"
+      },
+      {
+        "@@type": "Audience",
+        "audienceType": "Trung tâm khảo thí"
       }
     ],
     "seller": {
@@ -186,20 +195,6 @@
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     }
-  },
-  {
-    "@@context": "https://schema.org",
-    "@@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@@type": "Question",
-        "name": "Máy phối trang có bắt buộc dùng kèm máy in nhân bản không?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "Không bắt buộc nhưng đây là mô hình phổ biến nhất: máy in nhân bản in ra các trang rời với sản lượng lớn, sau đó máy phối trang ghép nhanh thành bộ hoàn chỉnh, giảm đáng kể thời gian so với phối thủ công."
-        }
-      }
-    ]
   }
 ]
 </script>
@@ -209,15 +204,15 @@
 <!-- PAGE HERO -->
   <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-office.jpg" alt="Máy phối trang (sắp xếp tài liệu) Duplo DFC-122" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <img src="/assets/images/hero-office.jpg" alt="Máy phối trang Duplo DFC-122" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
       <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
       <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Production &amp; Finishing</span>
-      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy phối trang (sắp xếp tài liệu) Duplo DFC-122</h1>
-      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Máy phối trang Duplo DFC-122 tự động sắp xếp các trang tài liệu đã in thành bộ theo đúng thứ tự, thay cho việc phối thủ công — thường dùng kèm máy in nhân bản siêu tốc Duplo.</p>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy phối trang Duplo DFC-122</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Duplo DFC-122 là máy phối trang 12 khay tốc độ 4.200 bộ/giờ — giải pháp hoàn thiện tài liệu sau in đắc lực giúp tiết kiệm 90% nhân lực xếp bộ tài liệu trong các kỳ thi.</p>
       <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-gray-300 hover:text-white transition">Máy in nhân bản tốc độ cao &amp; Thiết bị hoàn thiện sau in Duplo</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy phối trang (sắp xếp tài liệu) Duplo DFC-122</span>
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-gray-300 hover:text-white transition">Máy in nhân bản tốc độ cao &amp; Thiết bị hoàn thiện sau in Duplo</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy phối trang Duplo DFC-122</span>
       </nav>
     </div>
   </section>
@@ -231,11 +226,11 @@
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dùng cho</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Giáo dục, Cơ quan Nhà nước</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Giáo dục, Xưởng in, Trung tâm khảo thí</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Model tương thích</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Duplo DP-X550, Duplo DP-X650</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Duplo DFC-102, Duplo DFC-SII</p>
           </div>
       </div>
     </div>
@@ -246,29 +241,29 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
         <div class="lg:col-span-5">
           <div class="border border-gray-200 bg-white p-4">
-            <img src="/assets/images/products/duplo-dfc-122.jpg" alt="Máy phối trang (sắp xếp tài liệu) Duplo DFC-122" loading="lazy" class="w-full h-auto object-contain" />
+            <img src="/assets/images/products/duplo-dfc-122.jpg" alt="Máy phối trang Duplo DFC-122" loading="lazy" class="w-full h-auto object-contain" />
           </div>
         </div>
         <div class="lg:col-span-7">
           <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-8">
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Tên chuẩn</dt><dd class="text-[15px] font-semibold text-[#181923]">Máy phối trang (sắp xếp tài liệu) Duplo DFC-122</dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Tên chuẩn</dt><dd class="text-[15px] font-semibold text-[#181923]">Máy phối trang Duplo DFC-122</dd></div>
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Model</dt><dd class="text-[15px] font-semibold text-[#181923]">DFC-122</dd></div>
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Hãng sản xuất</dt><dd class="text-[15px] font-semibold text-[#181923]">Duplo (Nhật Bản)</dd></div>
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Danh mục</dt><dd class="text-[15px] font-semibold text-[#181923]"><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="hover:text-[#1A9900]">Máy phối trang – Hoàn thiện sau in</a></dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Danh mục</dt><dd class="text-[15px] font-semibold text-[#181923]"><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="hover:text-[#1A9900]">Thiết bị hoàn thiện sau in</a></dd></div>
           </dl>
           <h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Ứng dụng thực tế</h2>
           <ul class="grid grid-cols-1 md:grid-cols-1 gap-x-10 gap-y-3.5">
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Phối đề thi tự động sau khi in bằng máy nhân bản siêu tốc</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">Xếp bộ tự động đề thi nhiều trang, giáo trình, tập tài liệu hội nghị</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Đóng bộ giáo trình, tài liệu học tập số lượng lớn</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">Kết nối với máy dập ghim hoàn thiện tập tài liệu khép kín</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Sắp xếp và ghim tài liệu hành chính số lượng lớn</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">Loại bỏ hoàn toàn công đoạn đếm và xếp trang thủ công</span>
         </li>
       </ul>
         </div>
@@ -283,12 +278,16 @@
           <caption class="text-left px-5 py-4 bg-[#181924] text-white text-sm font-bold uppercase tracking-wider">Thông số kỹ thuật — DFC-122</caption>
           <tbody class="px-5">
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Chức năng chính</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Phối trang (sắp xếp tài liệu) và đóng ghim tự động</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Số khay nạp</th>
+              <td class="py-3 text-[14.5px] text-gray-600">12 khay nạp ma sát độc lập</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Xuất xứ</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Duplo Nhật Bản</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Tốc độ xếp bộ</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Lên đến 4.200 bộ/giờ</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Cảm biến an toàn</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Phát hiện kẹt giấy, nạp giấy đôi, hết giấy từng khay</td>
             </tr>
           </tbody>
         </table>
@@ -303,9 +302,8 @@
           <caption class="text-left px-5 py-4 bg-white border border-b-0 border-gray-200 text-sm font-bold text-[#181923] uppercase tracking-wider">Nguồn gốc và bảo hành</caption>
           <thead class="bg-[#181924]"><tr><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Thông tin</th><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Chi tiết</th></tr></thead>
           <tbody>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo Nhật Bản sản xuất. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam từ năm 2017.</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Bảo hành</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Theo tiêu chuẩn bảo hành của nhà sản xuất Duplo.</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo DP-X550, Duplo DP-X650</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Chính hãng Duplo Nhật Bản.</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo DFC-102, Duplo DFC-SII</td></tr>
           </tbody>
         </table>
       </div>
@@ -318,13 +316,6 @@
         <div class="lg:col-span-7">
       <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] mb-8">Câu hỏi thường gặp</h2>
       <div class="space-y-3">
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">Máy phối trang có bắt buộc dùng kèm máy in nhân bản không?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Không bắt buộc nhưng đây là mô hình phổ biến nhất: máy in nhân bản in ra các trang rời với sản lượng lớn, sau đó máy phối trang ghép nhanh thành bộ hoàn chỉnh, giảm đáng kể thời gian so với phối thủ công.</div>
-        </details>
       </div>
         </div>
         <div class="lg:col-span-5">
@@ -424,7 +415,7 @@
   <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">
-        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">Cần báo giá cho Máy phối trang (sắp xếp tài liệu) Duplo DFC-122?</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">Cần báo giá cho Máy phối trang Duplo DFC-122?</h2>
         <p class="text-gray-300 text-[15px] leading-relaxed">Gửi số lượng và thời điểm cần — Hương Sơn báo giá kèm phương án vận chuyển, lắp đặt và bảo hành.</p>
       </div>
       <div class="flex flex-wrap items-center gap-4 flex-shrink-0">

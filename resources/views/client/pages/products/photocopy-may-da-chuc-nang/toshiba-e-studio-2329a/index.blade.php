@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
 @section('title', "Máy photocopy Toshiba e-STUDIO 2329A – e-STUDIO 2329A | Hương Sơn")
-@section('meta_description', "Toshiba e-STUDIO 2329A là dòng máy photocopy đen trắng đa chức năng khổ A3, thiết kế nhỏ gọn, dễ sử dụng với chức năng Template và dễ quản lý bằng TopAcces")
+@section('meta_description', "Toshiba e-STUDIO 2329A là dòng máy photocopy đa chức năng A3 nhỏ gọn, hiệu quả và bền bỉ — tích hợp sẵn tính năng Copy, In mạng và Scan màu, tối ưu chi phí")
 @section('canonical', "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2329a/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -127,26 +127,21 @@
     "name": "Máy photocopy Toshiba e-STUDIO 2329A",
     "model": "e-STUDIO 2329A",
     "sku": "TOSHIBA-2329A",
-    "category": "Photocopy – Máy đa chức năng",
-    "description": "Toshiba e-STUDIO 2329A là dòng máy photocopy đen trắng đa chức năng khổ A3, thiết kế nhỏ gọn, dễ sử dụng với chức năng Template và dễ quản lý bằng TopAccess — phù hợp doanh nghiệp, văn phòng nhỏ có mức sử dụng khoảng 3.000–8.000 bản/tháng.",
+    "category": "Máy photocopy đa chức năng",
+    "description": "Toshiba e-STUDIO 2329A là dòng máy photocopy đa chức năng A3 nhỏ gọn, hiệu quả và bền bỉ — tích hợp sẵn tính năng Copy, In mạng và Scan màu, tối ưu chi phí vận hành cho văn phòng vừa và nhỏ.",
     "brand": {
       "@@type": "Brand",
-      "name": "Toshiba (Toshiba Tec, Nhật Bản)"
+      "name": "Toshiba (Nhật Bản)"
     },
     "manufacturer": {
       "@@type": "Organization",
-      "name": "Toshiba (Toshiba Tec, Nhật Bản)"
+      "name": "Toshiba (Nhật Bản)"
     },
     "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2329a/",
     "additionalProperty": [
       {
         "@@type": "PropertyValue",
-        "name": "Công nghệ in/copy",
-        "value": "Laser"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Tốc độ copy/in",
+        "name": "Tốc độ in/copy",
         "value": "23 trang/phút (A4)"
       },
       {
@@ -156,28 +151,13 @@
       },
       {
         "@@type": "PropertyValue",
-        "name": "Bản chụp đầu tiên",
-        "value": "6.4 giây"
+        "name": "Độ phân giải",
+        "value": "2.400 x 600 dpi (với Smoothing)"
       },
       {
         "@@type": "PropertyValue",
-        "name": "Phóng to – thu nhỏ",
-        "value": "25% đến 400%"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Độ phân giải in",
-        "value": "600 x 600 dpi, 2400 x 600 dpi (Smoothing)"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Tốc độ scan",
-        "value": "Tối đa 25 SPM, độ phân giải 600 x 600 dpi"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Định dạng scan",
-        "value": "PDF, JPEG, XPS — Scan to USB, TWAIN, email, file, SMB, FTP"
+        "name": "Khay giấy chuẩn",
+        "value": "1 khay 250 tờ + khay tay 100 tờ"
       },
       {
         "@@type": "PropertyValue",
@@ -186,23 +166,8 @@
       },
       {
         "@@type": "PropertyValue",
-        "name": "CPU",
-        "value": "Cortex A8 500 MHz"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Khay giấy",
-        "value": "250 tờ (khay chính), 100 tờ (khay tay), mở rộng tối đa 1.700 tờ"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Kích thước",
-        "value": "W575 x D540 x H402 mm"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Cổng giao tiếp",
-        "value": "USB 2.0, RJ45"
+        "name": "Kết nối",
+        "value": "USB 2.0, Ethernet 10/100 Base-T"
       },
       {
         "@@type": "PropertyValue",
@@ -212,21 +177,21 @@
       {
         "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
-        "value": "Hàng nhập khẩu mới 100% nguyên đai nguyên kiện do Toshiba Tec Nhật Bản sản xuất, có đầy đủ giấy chứng nhận xuất xứ (CO) và chất lượng (CQ). Hương Sơn là đại lý ủy quyền phân phối chính thức Toshiba tại miền Bắc Việt Nam từ năm 2017."
+        "value": "Nhập khẩu chính hãng Toshiba Tec Corporation, đầy đủ CO/CQ."
       }
     ],
     "audience": [
       {
         "@@type": "Audience",
-        "audienceType": "Doanh nghiệp SME"
+        "audienceType": "Doanh nghiệp vừa và nhỏ"
       },
       {
         "@@type": "Audience",
-        "audienceType": "Văn phòng nhỏ"
+        "audienceType": "Trường học"
       },
       {
         "@@type": "Audience",
-        "audienceType": "Giáo dục"
+        "audienceType": "Cơ quan hành chính"
       }
     ],
     "seller": {
@@ -245,36 +210,6 @@
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     }
-  },
-  {
-    "@@context": "https://schema.org",
-    "@@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@@type": "Question",
-        "name": "Hao tài vật tư của 2329A có dễ thay không?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "Có. Vật tư được thiết kế theo dạng modules, có thể thay thế từng phần khi hết hạn mức sử dụng mà không cần thay cả cụm, giúp tiết kiệm chi phí vận hành."
-        }
-      },
-      {
-        "@@type": "Question",
-        "name": "Máy có kèm khuyến mại gì không?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "Theo chính sách bán hàng của Hương Sơn, các máy photocopy Toshiba có khuyến mại 01 bàn kê gỗ — chính sách cụ thể tại thời điểm mua vui lòng liên hệ xác nhận."
-        }
-      },
-      {
-        "@@type": "Question",
-        "name": "2329A khác 2829A ở điểm nào?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "Khác biệt chính là tốc độ: 2329A đạt 23 trang/phút, 2829A đạt 28 trang/phút; các thông số còn lại (khổ giấy, độ phân giải, chức năng scan) tương đương."
-        }
-      }
-    ]
   }
 ]
 </script>
@@ -290,7 +225,7 @@
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
       <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Office Equipment</span>
       <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy photocopy Toshiba e-STUDIO 2329A</h1>
-      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Toshiba e-STUDIO 2329A là dòng máy photocopy đen trắng đa chức năng khổ A3, thiết kế nhỏ gọn, dễ sử dụng với chức năng Template và dễ quản lý bằng TopAccess — phù hợp doanh nghiệp, văn phòng nhỏ có mức sử dụng khoảng 3.000–8.000 bản/tháng.</p>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Toshiba e-STUDIO 2329A là dòng máy photocopy đa chức năng A3 nhỏ gọn, hiệu quả và bền bỉ — tích hợp sẵn tính năng Copy, In mạng và Scan màu, tối ưu chi phí vận hành cho văn phòng vừa và nhỏ.</p>
       <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
         <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/photocopy-may-da-chuc-nang/" class="text-gray-300 hover:text-white transition">Máy photocopy – Máy đa chức năng A3/A4</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy photocopy Toshiba e-STUDIO 2329A</span>
       </nav>
@@ -302,11 +237,11 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Model</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed"><strong>e-STUDIO 2329A</strong> — sản xuất bởi Toshiba (Toshiba Tec, Nhật Bản)</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed"><strong>e-STUDIO 2329A</strong> — sản xuất bởi Toshiba (Nhật Bản)</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dùng cho</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Doanh nghiệp SME, Văn phòng nhỏ, Giáo dục</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Doanh nghiệp vừa và nhỏ, Trường học, Cơ quan hành chính</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Model tương thích</p>
@@ -328,22 +263,22 @@
           <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-8">
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Tên chuẩn</dt><dd class="text-[15px] font-semibold text-[#181923]">Máy photocopy Toshiba e-STUDIO 2329A</dd></div>
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Model</dt><dd class="text-[15px] font-semibold text-[#181923]">e-STUDIO 2329A</dd></div>
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Hãng sản xuất</dt><dd class="text-[15px] font-semibold text-[#181923]">Toshiba (Toshiba Tec, Nhật Bản)</dd></div>
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Danh mục</dt><dd class="text-[15px] font-semibold text-[#181923]"><a href="/san-pham/photocopy-may-da-chuc-nang/" class="hover:text-[#1A9900]">Photocopy – Máy đa chức năng</a></dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Hãng sản xuất</dt><dd class="text-[15px] font-semibold text-[#181923]">Toshiba (Nhật Bản)</dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Danh mục</dt><dd class="text-[15px] font-semibold text-[#181923]"><a href="/san-pham/photocopy-may-da-chuc-nang/" class="hover:text-[#1A9900]">Máy photocopy đa chức năng</a></dd></div>
           </dl>
           <h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Ứng dụng thực tế</h2>
           <ul class="grid grid-cols-1 md:grid-cols-1 gap-x-10 gap-y-3.5">
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Copy, in, scan cho văn phòng và doanh nghiệp quy mô nhỏ</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">In ấn, sao chụp tài liệu hàng ngày cho văn phòng vừa và nhỏ (3.000–8.000 bản/tháng)</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Phòng ban có mức sử dụng khoảng 3.000–8.000 bản mỗi tháng</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">Scan tài liệu màu và tài liệu hành chính gửi qua email/folder mạng</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Đặt trên bàn làm việc nhờ thiết kế nhỏ gọn</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">Phục vụ công tác văn thư, giáo vụ tại các trường học</span>
         </li>
       </ul>
         </div>
@@ -358,11 +293,7 @@
           <caption class="text-left px-5 py-4 bg-[#181924] text-white text-sm font-bold uppercase tracking-wider">Thông số kỹ thuật — e-STUDIO 2329A</caption>
           <tbody class="px-5">
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Công nghệ in/copy</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Laser</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Tốc độ copy/in</th>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Tốc độ in/copy</th>
               <td class="py-3 text-[14.5px] text-gray-600">23 trang/phút (A4)</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
@@ -370,44 +301,20 @@
               <td class="py-3 text-[14.5px] text-gray-600">A3</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Bản chụp đầu tiên</th>
-              <td class="py-3 text-[14.5px] text-gray-600">6.4 giây</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Độ phân giải</th>
+              <td class="py-3 text-[14.5px] text-gray-600">2.400 x 600 dpi (với Smoothing)</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Phóng to – thu nhỏ</th>
-              <td class="py-3 text-[14.5px] text-gray-600">25% đến 400%</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Độ phân giải in</th>
-              <td class="py-3 text-[14.5px] text-gray-600">600 x 600 dpi, 2400 x 600 dpi (Smoothing)</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Tốc độ scan</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Tối đa 25 SPM, độ phân giải 600 x 600 dpi</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Định dạng scan</th>
-              <td class="py-3 text-[14.5px] text-gray-600">PDF, JPEG, XPS — Scan to USB, TWAIN, email, file, SMB, FTP</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Khay giấy chuẩn</th>
+              <td class="py-3 text-[14.5px] text-gray-600">1 khay 250 tờ + khay tay 100 tờ</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
               <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Bộ nhớ RAM</th>
               <td class="py-3 text-[14.5px] text-gray-600">512 MB</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">CPU</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Cortex A8 500 MHz</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Khay giấy</th>
-              <td class="py-3 text-[14.5px] text-gray-600">250 tờ (khay chính), 100 tờ (khay tay), mở rộng tối đa 1.700 tờ</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Kích thước</th>
-              <td class="py-3 text-[14.5px] text-gray-600">W575 x D540 x H402 mm</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Cổng giao tiếp</th>
-              <td class="py-3 text-[14.5px] text-gray-600">USB 2.0, RJ45</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Kết nối</th>
+              <td class="py-3 text-[14.5px] text-gray-600">USB 2.0, Ethernet 10/100 Base-T</td>
             </tr>
           </tbody>
         </table>
@@ -422,17 +329,11 @@
           <caption class="text-left px-5 py-4 bg-white border border-b-0 border-gray-200 text-sm font-bold text-[#181923] uppercase tracking-wider">Nguồn gốc và bảo hành</caption>
           <thead class="bg-[#181924]"><tr><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Thông tin</th><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Chi tiết</th></tr></thead>
           <tbody>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Hàng nhập khẩu mới 100% nguyên đai nguyên kiện do Toshiba Tec Nhật Bản sản xuất, có đầy đủ giấy chứng nhận xuất xứ (CO) và chất lượng (CQ). Hương Sơn là đại lý ủy quyền phân phối chính thức Toshiba tại miền Bắc Việt Nam từ năm 2017.</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Bảo hành</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Bảo hành 12 tháng hoặc theo số bản chụp, tùy điều kiện nào đến trước; bảo hành, bảo trì, giám định do Hương Sơn thực hiện tại địa điểm lắp đặt của khách hàng; hết bảo hành chuyển sang dịch vụ bảo trì có tính phí.</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Nhập khẩu chính hãng Toshiba Tec Corporation, đầy đủ CO/CQ.</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Toshiba e-STUDIO 2829A, Toshiba e-STUDIO 3028A</td></tr>
           </tbody>
         </table>
       </div>
-    </div>
-  </section>
-
-  <section class="py-16 bg-[#f5f8fb] ">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] mb-6">So sánh với model liên quan</h2><p class="text-[15.5px] text-gray-600 leading-[1.85] max-w-4xl">So với e-STUDIO 2829A (28 trang/phút), 2329A có tốc độ thấp hơn (23 trang/phút) nhưng phù hợp với đơn vị có sản lượng ở ngưỡng thấp hơn trong khoảng 3.000–8.000 bản/tháng.</p>
     </div>
   </section>
 
@@ -442,27 +343,6 @@
         <div class="lg:col-span-7">
       <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] mb-8">Câu hỏi thường gặp</h2>
       <div class="space-y-3">
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">Hao tài vật tư của 2329A có dễ thay không?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Có. Vật tư được thiết kế theo dạng modules, có thể thay thế từng phần khi hết hạn mức sử dụng mà không cần thay cả cụm, giúp tiết kiệm chi phí vận hành.</div>
-        </details>
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">Máy có kèm khuyến mại gì không?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Theo chính sách bán hàng của Hương Sơn, các máy photocopy Toshiba có khuyến mại 01 bàn kê gỗ — chính sách cụ thể tại thời điểm mua vui lòng liên hệ xác nhận.</div>
-        </details>
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">2329A khác 2829A ở điểm nào?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Khác biệt chính là tốc độ: 2329A đạt 23 trang/phút, 2829A đạt 28 trang/phút; các thông số còn lại (khổ giấy, độ phân giải, chức năng scan) tương đương.</div>
-        </details>
       </div>
         </div>
         <div class="lg:col-span-5">

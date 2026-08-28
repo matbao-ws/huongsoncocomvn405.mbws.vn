@@ -118,8 +118,21 @@
     "@@context": "https://schema.org",
     "@@type": "ItemList",
     "name": "Thiết bị phòng học – thiết bị dạy học",
-    "numberOfItems": 0,
-    "itemListElement": []
+    "numberOfItems": 2,
+    "itemListElement": [
+      {
+        "@@type": "ListItem",
+        "position": 1,
+        "name": "Màn hình tương tác thông minh ViewSonic IFP6550 4K (65 inch)",
+        "url": "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 2,
+        "name": "Camera vật thể trình chiếu đa năng AVer F17-8M",
+        "url": "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/"
+      }
+    ]
   },
   {
     "@@context": "https://schema.org",
@@ -186,8 +199,33 @@
           <span class="text-[15px] text-gray-600 leading-relaxed">Model, hãng và cấu hình cụ thể được tư vấn theo quy mô phòng học và ngân sách của từng trường — vui lòng liên hệ để nhận báo giá chi tiết.</span>
         </li>
       </ul><div class="mb-10"></div>
-      <div class="border-l-4 border-[#1A9900] bg-[#f5f8fb] px-6 py-5">
-        <p class="text-[14.5px] text-gray-600 leading-relaxed">Danh mục model cụ thể của nhóm sản phẩm này đang được Hương Sơn hoàn thiện đầy đủ thông tin (tên chuẩn, thông số, tài liệu) trước khi công bố. Vui lòng liên hệ để được tư vấn trực tiếp theo nhu cầu.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/viewsonic-ifp6550.jpg" alt="Màn hình tương tác thông minh ViewSonic IFP6550 4K (65 inch)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">ViewSonic (Hoa Kỳ)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/">Màn hình tương tác thông minh ViewSonic IFP6550 4K (65 inch)</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Màn hình tương tác ViewSonic IFP6550 65 inch 4K — trung tâm của lớp học số hiện đại, hỗ trợ cảm ứng đa điểm mượt mà và phần mềm giáo dục myViewBoard b…</p>
+            <a href="/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/camera-vat-the-aver.jpg" alt="Camera vật thể trình chiếu đa năng AVer F17-8M" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">AVer (Đài Loan)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/">Camera vật thể trình chiếu đa năng AVer F17-8M</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Camera vật thể AVer F17-8M cảm biến 8MP zoom 32x — công cụ hỗ trợ giảng dạy trực quan hàng đầu giúp giáo viên chấm chữa bài thi và minh họa thí nghiệm…</p>
+            <a href="/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
       </div>
     </div>
   </section>

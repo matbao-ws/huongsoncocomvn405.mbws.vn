@@ -118,8 +118,21 @@
     "@@context": "https://schema.org",
     "@@type": "ItemList",
     "name": "Máy scan – thiết bị số hóa tài liệu",
-    "numberOfItems": 0,
-    "itemListElement": []
+    "numberOfItems": 2,
+    "itemListElement": [
+      {
+        "@@type": "ListItem",
+        "position": 1,
+        "name": "Máy scan tài liệu tốc độ cao Ricoh fi-7160",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 2,
+        "name": "Máy scan khổ A3 tốc độ cao Ricoh fi-7480",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7480/"
+      }
+    ]
   },
   {
     "@@context": "https://schema.org",
@@ -194,8 +207,33 @@
           <span class="text-[15px] text-gray-600 leading-relaxed">Danh mục model cụ thể đang được cập nhật — vui lòng liên hệ để được tư vấn theo nhu cầu.</span>
         </li>
       </ul><div class="mb-10"></div>
-      <div class="border-l-4 border-[#1A9900] bg-[#f5f8fb] px-6 py-5">
-        <p class="text-[14.5px] text-gray-600 leading-relaxed">Danh mục model cụ thể của nhóm sản phẩm này đang được Hương Sơn hoàn thiện đầy đủ thông tin (tên chuẩn, thông số, tài liệu) trước khi công bố. Vui lòng liên hệ để được tư vấn trực tiếp theo nhu cầu.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fujitsu-fi-7160.jpg" alt="Máy scan tài liệu tốc độ cao Ricoh fi-7160" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh / Fujitsu (Nhật Bản)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/">Máy scan tài liệu tốc độ cao Ricoh fi-7160</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Ricoh fi-7160 (tiền thân Fujitsu fi-7160) là dòng máy quét số hóa tài liệu bán chạy số 1 thế giới — tốc độ 60 trang/phút, nạp giấy siêu êm và tích hợp…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fujitsu-fi-7480.jpg" alt="Máy scan khổ A3 tốc độ cao Ricoh fi-7480" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh / Fujitsu (Nhật Bản)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7480/">Máy scan khổ A3 tốc độ cao Ricoh fi-7480</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Ricoh fi-7480 là máy quét A3 nhỏ gọn nhất phân khúc với tốc độ 80 trang/phút — giải pháp số hóa lý tưởng cho các trung tâm lưu trữ văn thư và cơ quan …</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7480/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
       </div>
     </div>
   </section>

@@ -118,7 +118,7 @@
     "@@context": "https://schema.org",
     "@@type": "ItemList",
     "name": "Máy photocopy – Máy đa chức năng A3/A4",
-    "numberOfItems": 2,
+    "numberOfItems": 5,
     "itemListElement": [
       {
         "@@type": "ListItem",
@@ -131,6 +131,24 @@
         "position": 2,
         "name": "Máy photocopy Toshiba e-STUDIO 2829A",
         "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 3,
+        "name": "Máy photocopy Toshiba e-STUDIO 3028A",
+        "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-3028a/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 4,
+        "name": "Máy photocopy Màu Toshiba e-STUDIO 2500AC",
+        "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2500ac/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 5,
+        "name": "Máy photocopy Konica Minolta bizhub 360i",
+        "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/"
       }
     ]
   },
@@ -223,11 +241,11 @@
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
           <div class="h-52 overflow-hidden"><img src="/assets/images/products/toshiba-e-studio-2329a.jpg" alt="Máy photocopy Toshiba e-STUDIO 2329A" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Toshiba (Toshiba Tec, Nhật Bản)</span>
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Toshiba (Nhật Bản)</span>
             <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
               <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2329a/">Máy photocopy Toshiba e-STUDIO 2329A</a>
             </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Toshiba e-STUDIO 2329A là dòng máy photocopy đen trắng đa chức năng khổ A3, thiết kế nhỏ gọn, dễ sử dụng với chức năng Template và dễ quản lý bằng Top…</p>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Toshiba e-STUDIO 2329A là dòng máy photocopy đa chức năng A3 nhỏ gọn, hiệu quả và bền bỉ — tích hợp sẵn tính năng Copy, In mạng và Scan màu, tối ưu ch…</p>
             <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2329a/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
@@ -236,12 +254,51 @@
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
           <div class="h-52 overflow-hidden"><img src="/assets/images/products/toshiba-e-studio-2829a.jpg" alt="Máy photocopy Toshiba e-STUDIO 2829A" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Toshiba (Toshiba Tec, Nhật Bản)</span>
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Toshiba (Nhật Bản)</span>
             <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
               <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/">Máy photocopy Toshiba e-STUDIO 2829A</a>
             </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Toshiba e-STUDIO 2829A là dòng máy photocopy đen trắng đa chức năng khổ A3, tốc độ 28 trang/phút, thiết kế nhỏ gọn với chức năng Template và quản lý q…</p>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Toshiba e-STUDIO 2829A đạt tốc độ 28 trang/phút, bền bỉ, tiết kiệm điện năng và mực in — dòng máy trục chính được tin dùng tại hàng trăm trường học và…</p>
             <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/toshiba-e-studio-3028a.jpg" alt="Máy photocopy Toshiba e-STUDIO 3028A" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Toshiba (Nhật Bản)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-3028a/">Máy photocopy Toshiba e-STUDIO 3028A</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Toshiba e-STUDIO 3028A thuộc thế hệ máy đa chức năng e-BRIDGE Next tiên tiến — sở hữu màn hình cảm ứng 10.1 inch, bảo mật cấp doanh nghiệp và khả năng…</p>
+            <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-3028a/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/toshiba-e-studio-2500ac.jpg" alt="Máy photocopy Màu Toshiba e-STUDIO 2500AC" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Toshiba (Nhật Bản)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2500ac/">Máy photocopy Màu Toshiba e-STUDIO 2500AC</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Toshiba e-STUDIO 2500AC là giải pháp in màu đa chức năng khổ A3 hoàn hảo cho các doanh nghiệp cần tài liệu màu chuyên nghiệp với chi phí vận hành tối …</p>
+            <a href="/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2500ac/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/konica-minolta-bizhub-360i.jpg" alt="Máy photocopy Konica Minolta bizhub 360i" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Konica Minolta (Nhật Bản)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/">Máy photocopy Konica Minolta bizhub 360i</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Konica Minolta bizhub 360i dòng máy đa chức năng cao cấp chuẩn Nhật Bản — thiết kế tinh tế, màn hình tablet mượt mà và khả năng vận hành siêu ổn định.</p>
+            <a href="/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
           </div>

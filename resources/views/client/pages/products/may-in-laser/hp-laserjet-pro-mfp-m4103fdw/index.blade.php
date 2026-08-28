@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy in đa năng HP LaserJet Pro MFP M4103fdw – M4103fdw (2Z629A) | Hương Sơn")
-@section('meta_description', "HP LaserJet Pro MFP M4103fdw là máy in đa năng A4 cho văn phòng hiện đại, có thể mua hoặc thuê theo tháng.")
+@section('title', "Máy in đa năng HP LaserJet Pro MFP M4103fdw – LaserJet Pro MFP M4103fdw (2Z629A) | Hương Sơn")
+@section('meta_description', "HP LaserJet Pro MFP M4103fdw là máy in laser đa chức năng A4 tốc độ 40 trang/phút, trang bị WiFi hai băng tần và bảo mật HP Wolf Security mạnh mẽ.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -125,34 +125,44 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/#product",
     "name": "Máy in đa năng HP LaserJet Pro MFP M4103fdw",
-    "model": "M4103fdw (2Z629A)",
-    "sku": "HP-M4103FDW-2Z629A",
-    "category": "Máy in Laser – Thiết bị in",
-    "description": "HP LaserJet Pro MFP M4103fdw là máy in đa năng A4 cho văn phòng hiện đại, có thể mua hoặc thuê theo tháng.",
+    "model": "LaserJet Pro MFP M4103fdw (2Z629A)",
+    "sku": "HP-M4103FDW",
+    "category": "Máy in Laser đa năng",
+    "description": "HP LaserJet Pro MFP M4103fdw là máy in laser đa chức năng A4 tốc độ 40 trang/phút, trang bị WiFi hai băng tần và bảo mật HP Wolf Security mạnh mẽ.",
     "brand": {
       "@@type": "Brand",
-      "name": "HP"
+      "name": "HP (Hoa Kỳ)"
     },
     "manufacturer": {
       "@@type": "Organization",
-      "name": "HP"
+      "name": "HP (Hoa Kỳ)"
     },
     "url": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/",
     "additionalProperty": [
       {
         "@@type": "PropertyValue",
-        "name": "Loại thiết bị",
-        "value": "Máy in đa năng Laser đen trắng A4"
+        "name": "Tốc độ in",
+        "value": "40 trang/phút (A4)"
       },
       {
         "@@type": "PropertyValue",
-        "name": "Model đầy đủ",
-        "value": "HP LaserJet Pro MFP 4103fdw – mã sản phẩm 2Z629A"
+        "name": "Chức năng",
+        "value": "In, Sao chép, Quét, Fax"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Kết nối",
+        "value": "Dual-band Wi-Fi, Ethernet Gigabit, USB 2.0"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Model tương thích",
+        "value": "HP M404dn, HP M428fdw"
       },
       {
         "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
-        "value": "Phân phối bởi Hương Sơn trong danh mục máy in Laser – Ricoh & HP."
+        "value": "Chính hãng HP."
       }
     ],
     "audience": [
@@ -162,11 +172,11 @@
       },
       {
         "@@type": "Audience",
-        "audienceType": "Giáo dục"
+        "audienceType": "Phòng khảo thí"
       },
       {
         "@@type": "Audience",
-        "audienceType": "Doanh nghiệp SME"
+        "audienceType": "Phòng giáo vụ"
       }
     ],
     "seller": {
@@ -185,28 +195,6 @@
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     }
-  },
-  {
-    "@@context": "https://schema.org",
-    "@@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@@type": "Question",
-        "name": "Có thể thuê máy này theo tháng không?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "Có. Website trước đây công bố mức phí thuê tham khảo khoảng 550.000 đồng/tháng — mức phí thực tế cần Hương Sơn xác nhận và báo giá theo thời điểm và sản lượng cụ thể."
-        }
-      },
-      {
-        "@@type": "Question",
-        "name": "Máy có in màu không?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "Đây là dòng máy in Laser đen trắng đa năng A4."
-        }
-      }
-    ]
   }
 ]
 </script>
@@ -222,7 +210,7 @@
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
       <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Office Equipment</span>
       <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy in đa năng HP LaserJet Pro MFP M4103fdw</h1>
-      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">HP LaserJet Pro MFP M4103fdw là máy in đa năng A4 cho văn phòng hiện đại, có thể mua hoặc thuê theo tháng.</p>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">HP LaserJet Pro MFP M4103fdw là máy in laser đa chức năng A4 tốc độ 40 trang/phút, trang bị WiFi hai băng tần và bảo mật HP Wolf Security mạnh mẽ.</p>
       <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
         <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/may-in-laser/" class="text-gray-300 hover:text-white transition">Máy in Laser – thiết bị in văn phòng</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy in đa năng HP LaserJet Pro MFP M4103fdw</span>
       </nav>
@@ -234,15 +222,15 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Model</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed"><strong>M4103fdw (2Z629A)</strong> — sản xuất bởi HP</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed"><strong>LaserJet Pro MFP M4103fdw (2Z629A)</strong> — sản xuất bởi HP (Hoa Kỳ)</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dùng cho</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Văn phòng, Giáo dục, Doanh nghiệp SME</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Văn phòng, Phòng khảo thí, Phòng giáo vụ</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Model tương thích</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Không áp dụng</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">HP M404dn, HP M428fdw</p>
           </div>
       </div>
     </div>
@@ -259,23 +247,23 @@
         <div class="lg:col-span-7">
           <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-8">
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Tên chuẩn</dt><dd class="text-[15px] font-semibold text-[#181923]">Máy in đa năng HP LaserJet Pro MFP M4103fdw</dd></div>
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Model</dt><dd class="text-[15px] font-semibold text-[#181923]">M4103fdw (2Z629A)</dd></div>
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Hãng sản xuất</dt><dd class="text-[15px] font-semibold text-[#181923]">HP</dd></div>
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Danh mục</dt><dd class="text-[15px] font-semibold text-[#181923]"><a href="/san-pham/may-in-laser/" class="hover:text-[#1A9900]">Máy in Laser – Thiết bị in</a></dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Model</dt><dd class="text-[15px] font-semibold text-[#181923]">LaserJet Pro MFP M4103fdw (2Z629A)</dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Hãng sản xuất</dt><dd class="text-[15px] font-semibold text-[#181923]">HP (Hoa Kỳ)</dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Danh mục</dt><dd class="text-[15px] font-semibold text-[#181923]"><a href="/san-pham/may-in-laser/" class="hover:text-[#1A9900]">Máy in Laser đa năng</a></dd></div>
           </dl>
           <h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Ứng dụng thực tế</h2>
           <ul class="grid grid-cols-1 md:grid-cols-1 gap-x-10 gap-y-3.5">
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">In, scan, copy cho văn phòng nhỏ và phòng ban</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">In/Scan/Copy/Fax 2 mặt tự động cho phòng hiệu trưởng, phòng giáo vụ</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Phòng giáo vụ, văn thư cần thiết bị in A4 riêng</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">In tài liệu mật độ bảo mật cao qua mã PIN</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">Nhu cầu thuê ngắn hạn theo tháng</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">Kết nối không dây in trực tiếp từ điện thoại và máy tính bảng</span>
         </li>
       </ul>
         </div>
@@ -287,15 +275,19 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="overflow-x-auto border border-gray-200">
         <table class="w-full min-w-[520px] bg-white">
-          <caption class="text-left px-5 py-4 bg-[#181924] text-white text-sm font-bold uppercase tracking-wider">Thông số kỹ thuật — M4103fdw (2Z629A)</caption>
+          <caption class="text-left px-5 py-4 bg-[#181924] text-white text-sm font-bold uppercase tracking-wider">Thông số kỹ thuật — LaserJet Pro MFP M4103fdw (2Z629A)</caption>
           <tbody class="px-5">
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Loại thiết bị</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Máy in đa năng Laser đen trắng A4</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Tốc độ in</th>
+              <td class="py-3 text-[14.5px] text-gray-600">40 trang/phút (A4)</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Model đầy đủ</th>
-              <td class="py-3 text-[14.5px] text-gray-600">HP LaserJet Pro MFP 4103fdw – mã sản phẩm 2Z629A</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Chức năng</th>
+              <td class="py-3 text-[14.5px] text-gray-600">In, Sao chép, Quét, Fax</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Kết nối</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Dual-band Wi-Fi, Ethernet Gigabit, USB 2.0</td>
             </tr>
           </tbody>
         </table>
@@ -310,8 +302,8 @@
           <caption class="text-left px-5 py-4 bg-white border border-b-0 border-gray-200 text-sm font-bold text-[#181923] uppercase tracking-wider">Nguồn gốc và bảo hành</caption>
           <thead class="bg-[#181924]"><tr><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Thông tin</th><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Chi tiết</th></tr></thead>
           <tbody>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Phân phối bởi Hương Sơn trong danh mục máy in Laser – Ricoh &amp; HP.</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Bảo hành</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Theo chính sách bảo hành của hãng HP, hỗ trợ bởi Hương Sơn.</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Chính hãng HP.</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">HP M404dn, HP M428fdw</td></tr>
           </tbody>
         </table>
       </div>
@@ -324,20 +316,6 @@
         <div class="lg:col-span-7">
       <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] mb-8">Câu hỏi thường gặp</h2>
       <div class="space-y-3">
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">Có thể thuê máy này theo tháng không?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Có. Website trước đây công bố mức phí thuê tham khảo khoảng 550.000 đồng/tháng — mức phí thực tế cần Hương Sơn xác nhận và báo giá theo thời điểm và sản lượng cụ thể.</div>
-        </details>
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">Máy có in màu không?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Đây là dòng máy in Laser đen trắng đa năng A4.</div>
-        </details>
       </div>
         </div>
         <div class="lg:col-span-5">
@@ -348,7 +326,7 @@
         <form class="lead-form" id="model-hp-laserjet-pro-mfp-m4103fdw-form" method="post" action="/api/lead" novalidate>
           
           <input type="hidden" name="page_type" value="product_model" />
-          <input type="hidden" name="product_model" value="M4103fdw (2Z629A)" />
+          <input type="hidden" name="product_model" value="LaserJet Pro MFP M4103fdw (2Z629A)" />
           <input type="hidden" name="solution_slug" value="" />
           <input type="hidden" name="source_url" value="" data-autofill="url" />
           <input type="hidden" name="referrer" value="" data-autofill="referrer" />

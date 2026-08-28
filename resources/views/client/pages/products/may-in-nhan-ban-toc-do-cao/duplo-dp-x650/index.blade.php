@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
 @section('title', "Máy nhân bản siêu tốc Duplo DP-X650 – DP-X650 | Hương Sơn")
-@section('meta_description', "DP-X650 là thế hệ máy in nhân bản siêu tốc mới của Duplo, tốc độ đến 200 bản/phút, do Hương Sơn phân phối tại thị trường Việt Nam.")
+@section('meta_description', "Duplo DP-X650 dòng máy in nhân bản siêu tốc A3 cao cấp nhất của Duplo — trang bị đầu ghi Master HD tiên tiến, tái hiện hoàn hảo chữ nhỏ và biểu đồ trong cá")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x650/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -128,7 +128,7 @@
     "model": "DP-X650",
     "sku": "DUPLO-DPX650",
     "category": "Máy in nhân bản tốc độ cao",
-    "description": "DP-X650 là thế hệ máy in nhân bản siêu tốc mới của Duplo, tốc độ đến 200 bản/phút, do Hương Sơn phân phối tại thị trường Việt Nam.",
+    "description": "Duplo DP-X650 dòng máy in nhân bản siêu tốc A3 cao cấp nhất của Duplo — trang bị đầu ghi Master HD tiên tiến, tái hiện hoàn hảo chữ nhỏ và biểu đồ trong các đề thi quan trọng.",
     "brand": {
       "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
@@ -142,37 +142,41 @@
       {
         "@@type": "PropertyValue",
         "name": "Tốc độ in",
-        "value": "Lên đến 200 bản/phút"
+        "value": "160 bản/phút"
       },
       {
         "@@type": "PropertyValue",
-        "name": "Màn hình điều khiển",
-        "value": "Màn hình LCD cảm ứng màu, thiết kế hoàn toàn mới"
+        "name": "Khổ giấy",
+        "value": "Khổ A3 chuẩn"
       },
       {
         "@@type": "PropertyValue",
-        "name": "Xuất xứ",
-        "value": "Duplo Nhật Bản"
+        "name": "Chế độ in",
+        "value": "Văn bản, Hình ảnh, Kết hợp, Chụp bút chì"
       },
       {
         "@@type": "PropertyValue",
         "name": "Model tương thích",
-        "value": "Duplo DP-X550, Duplo DP-X520"
+        "value": "Duplo DP-X550, Duplo DP-X850"
       },
       {
         "@@type": "PropertyValue",
         "name": "Xuất xứ / Nguồn",
-        "value": "Duplo Nhật Bản sản xuất. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam."
+        "value": "Chính hãng Duplo Nhật Bản."
       }
     ],
     "audience": [
       {
         "@@type": "Audience",
-        "audienceType": "Giáo dục"
+        "audienceType": "Hội đồng in sao đề thi"
       },
       {
         "@@type": "Audience",
-        "audienceType": "Cơ quan Nhà nước"
+        "audienceType": "Sở GD&ĐT"
+      },
+      {
+        "@@type": "Audience",
+        "audienceType": "Trường Đại học"
       }
     ],
     "seller": {
@@ -191,28 +195,6 @@
         "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
       }
     }
-  },
-  {
-    "@@context": "https://schema.org",
-    "@@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@@type": "Question",
-        "name": "DP-X650 khác gì so với DP-X550?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "DP-X650 là thế hệ thiết kế mới với tốc độ tối đa cao hơn, lên đến 200 bản/phút so với 155 bản/phút của DP-X550, kèm màn hình LCD cảm ứng màu mới."
-        }
-      },
-      {
-        "@@type": "Question",
-        "name": "Model này đã có sẵn tại Việt Nam chưa?",
-        "acceptedAnswer": {
-          "@@type": "Answer",
-          "text": "Vui lòng liên hệ Hương Sơn để xác nhận tình trạng hàng và thời gian giao hàng hiện tại của model này."
-        }
-      }
-    ]
   }
 ]
 </script>
@@ -228,7 +210,7 @@
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
       <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Production &amp; Finishing</span>
       <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy nhân bản siêu tốc Duplo DP-X650</h1>
-      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">DP-X650 là thế hệ máy in nhân bản siêu tốc mới của Duplo, tốc độ đến 200 bản/phút, do Hương Sơn phân phối tại thị trường Việt Nam.</p>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Duplo DP-X650 dòng máy in nhân bản siêu tốc A3 cao cấp nhất của Duplo — trang bị đầu ghi Master HD tiên tiến, tái hiện hoàn hảo chữ nhỏ và biểu đồ trong các đề thi quan trọng.</p>
       <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
         <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-gray-300 hover:text-white transition">Máy in nhân bản tốc độ cao &amp; Thiết bị hoàn thiện sau in Duplo</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy nhân bản siêu tốc Duplo DP-X650</span>
       </nav>
@@ -244,11 +226,11 @@
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dùng cho</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Giáo dục, Cơ quan Nhà nước</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Hội đồng in sao đề thi, Sở GD&amp;ĐT, Trường Đại học</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Model tương thích</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Duplo DP-X550, Duplo DP-X520</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Duplo DP-X550, Duplo DP-X850</p>
           </div>
       </div>
     </div>
@@ -273,15 +255,15 @@
           <ul class="grid grid-cols-1 md:grid-cols-1 gap-x-10 gap-y-3.5">
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">In sao đề thi số lượng rất lớn cho Sở GD&amp;ĐT và Hội đồng thi quy mô lớn</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">In ấn tài liệu chất lượng cao có hình ảnh và đồ thị phức tạp</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">In tài liệu, giáo trình cho trường đại học có sản lượng cao</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">In đề thi đòi hỏi độ tương phản cao, chữ nhỏ và hình vẽ sắc nét</span>
         </li>
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
-          <span class="text-[15px] text-gray-600 leading-relaxed">In văn bản hành chính số lượng lớn cho cơ quan Nhà nước</span>
+          <span class="text-[15px] text-gray-600 leading-relaxed">Sản xuất tài liệu đào tạo số lượng lớn cho các học viện</span>
         </li>
       </ul>
         </div>
@@ -297,15 +279,15 @@
           <tbody class="px-5">
             <tr class="border-b border-gray-200 last:border-0">
               <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Tốc độ in</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Lên đến 200 bản/phút</td>
+              <td class="py-3 text-[14.5px] text-gray-600">160 bản/phút</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Màn hình điều khiển</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Màn hình LCD cảm ứng màu, thiết kế hoàn toàn mới</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Khổ giấy</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Khổ A3 chuẩn</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Xuất xứ</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Duplo Nhật Bản</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Chế độ in</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Văn bản, Hình ảnh, Kết hợp, Chụp bút chì</td>
             </tr>
           </tbody>
         </table>
@@ -320,17 +302,11 @@
           <caption class="text-left px-5 py-4 bg-white border border-b-0 border-gray-200 text-sm font-bold text-[#181923] uppercase tracking-wider">Nguồn gốc và bảo hành</caption>
           <thead class="bg-[#181924]"><tr><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Thông tin</th><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Chi tiết</th></tr></thead>
           <tbody>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo Nhật Bản sản xuất. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam.</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Bảo hành</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Theo tiêu chuẩn bảo hành của nhà sản xuất Duplo, thực hiện bởi Hương Sơn.</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo DP-X550, Duplo DP-X520</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Chính hãng Duplo Nhật Bản.</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo DP-X550, Duplo DP-X850</td></tr>
           </tbody>
         </table>
       </div>
-    </div>
-  </section>
-
-  <section class="py-16 bg-[#f5f8fb] ">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] mb-6">So sánh với model liên quan</h2><p class="text-[15.5px] text-gray-600 leading-[1.85] max-w-4xl">So với DP-X550, DP-X650 có tốc độ tối đa cao hơn (200 so với 155 bản/phút) và màn hình điều khiển thế hệ mới — phù hợp với đơn vị có sản lượng rất lớn.</p>
     </div>
   </section>
 
@@ -340,20 +316,6 @@
         <div class="lg:col-span-7">
       <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] mb-8">Câu hỏi thường gặp</h2>
       <div class="space-y-3">
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">DP-X650 khác gì so với DP-X550?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">DP-X650 là thế hệ thiết kế mới với tốc độ tối đa cao hơn, lên đến 200 bản/phút so với 155 bản/phút của DP-X550, kèm màn hình LCD cảm ứng màu mới.</div>
-        </details>
-        <details class="group border border-gray-200 bg-white">
-          <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
-            <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">Model này đã có sẵn tại Việt Nam chưa?</span>
-            <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
-          </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Vui lòng liên hệ Hương Sơn để xác nhận tình trạng hàng và thời gian giao hàng hiện tại của model này.</div>
-        </details>
       </div>
         </div>
         <div class="lg:col-span-5">

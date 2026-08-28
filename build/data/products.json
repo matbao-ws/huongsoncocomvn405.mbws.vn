@@ -32,7 +32,10 @@
    ],
    "models": [
     "toshiba-e-studio-2329a",
-    "toshiba-e-studio-2829a"
+    "toshiba-e-studio-2829a",
+    "toshiba-e-studio-3028a",
+    "toshiba-e-studio-2500ac",
+    "konica-minolta-bizhub-360i"
    ],
    "faqs": [
     [
@@ -129,7 +132,10 @@
     "Hương Sơn tư vấn giải pháp scan – số hóa theo đúng khối lượng và loại tài liệu của đơn vị.",
     "Danh mục model cụ thể đang được cập nhật — vui lòng liên hệ để được tư vấn theo nhu cầu."
    ],
-   "models": [],
+   "models": [
+    "ricoh-fujitsu-fi-7160",
+    "ricoh-fujitsu-fi-7480"
+   ],
    "faqs": [
     [
      "Nên chọn máy scan theo tiêu chí nào?",
@@ -172,7 +178,10 @@
     "<strong>Số hóa học bạ & hồ sơ học sinh</strong>: Máy scan 2 mặt tốc độ cao 60–100 trang/phút, nhận dạng OCR chuẩn hóa dữ liệu Đề án 06.",
     "<strong>Thiết bị phòng học tương tác</strong>: Màn hình cảm ứng thông minh, máy chiếu, âm thanh trợ giảng giảng đường."
    ],
-   "models": [],
+   "models": [
+    "goi-thue-may-in-nhan-ban-de-thi-thpt",
+    "goi-thue-may-photocopy-truong-hoc-toshiba"
+   ],
    "faqs": [
     [
      "Gói HƯƠNG SƠN EDUCATION SOLUTIONS bao gồm những thiết bị gì?",
@@ -257,7 +266,10 @@
     "Nhóm thiết bị phòng học gồm: màn hình tương tác, bục giảng điện tử, camera vật thể (camera trình chiếu), máy chiếu và màn hình hiển thị cho lớp học.",
     "Model, hãng và cấu hình cụ thể được tư vấn theo quy mô phòng học và ngân sách của từng trường — vui lòng liên hệ để nhận báo giá chi tiết."
    ],
-   "models": [],
+   "models": [
+    "man-hinh-tuong-tac-viewsonic-ifp6550",
+    "camera-vat-the-aver-f17-8m"
+   ],
    "faqs": [
     [
      "Có thể mua trọn gói thiết bị phòng học cùng máy photocopy không?",
@@ -295,7 +307,10 @@
     "Vật tư hao tài cho máy Duplo là hàng chính hãng nhập khẩu từ Nhật Bản, đi kèm khi cung cấp thiết bị Duplo.",
     "Vui lòng cung cấp đúng model máy đang sử dụng để Hương Sơn tư vấn loại vật tư Fansipan tương thích chính xác."
    ],
-   "models": [],
+   "models": [
+    "muc-in-master-duplo-chinh-hang",
+    "trong-drum-bot-tu-photocopy"
+   ],
    "faqs": [
     [
      "Mực Fansipan có tương thích với máy hãng khác không mua từ Hương Sơn không?",
@@ -340,7 +355,10 @@
     "Nhóm này được phục vụ qua Cửa hàng thiết bị văn phòng & văn phòng phẩm Hương Sơn (phụ trách: Mrs. Nguyễn Thị Hương) tại số 2 ngõ 67 phố Đức Giang, phường Việt Hưng, quận Long Biên, Hà Nội.",
     "Gồm: kệ file hồ sơ, đồ dùng học sinh, file hồ sơ các mẫu, giấy các loại, kệ đựng hồ sơ, sổ các loại và văn phòng phẩm khác."
    ],
-   "models": [],
+   "models": [
+    "may-chieu-hoi-truong-panasonic-pt-vz580",
+    "he-thong-hoi-nghi-logitech-group"
+   ],
    "faqs": [
     [
      "Mua văn phòng phẩm liên hệ ở đâu?",
@@ -383,7 +401,10 @@
     "Cần cung cấp đúng model máy đang dùng để Hương Sơn tư vấn chính xác loại vật tư Fansipan tương thích — vật tư không tương thích đúng model có thể ảnh hưởng chất lượng bản in và tuổi thọ thiết bị.",
     "Có sẵn dịch vụ tư vấn và hỗ trợ kỹ thuật khi sử dụng vật tư Fansipan, đi kèm các hợp đồng thuê máy và quản lý in ấn trọn gói của Hương Sơn."
    ],
-   "models": [],
+   "models": [
+    "muc-fansipan-toner-toshiba-e-studio",
+    "muc-fansipan-toner-ricoh-aficio"
+   ],
    "faqs": [
     [
      "Mực Fansipan có phải hàng chính hãng của Toshiba, Ricoh, HP không?",
@@ -413,6 +434,175 @@
   }
  ],
  "models": [
+  {
+   "slug": "toshiba-e-studio-2329a",
+   "category": "photocopy-may-da-chuc-nang",
+   "url": "/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2329a/",
+   "name": "Máy photocopy Toshiba e-STUDIO 2329A",
+   "model": "e-STUDIO 2329A",
+   "manufacturer": "Toshiba (Nhật Bản)",
+   "sku": "TOSHIBA-2329A",
+   "category_label": "Máy photocopy đa chức năng",
+   "image": "/assets/images/products/toshiba-e-studio-2329a.jpg",
+   "compatible_model": [
+    "Toshiba e-STUDIO 2829A",
+    "Toshiba e-STUDIO 3028A"
+   ],
+   "use_case": [
+    "In ấn, sao chụp tài liệu hàng ngày cho văn phòng vừa và nhỏ (3.000–8.000 bản/tháng)",
+    "Scan tài liệu màu và tài liệu hành chính gửi qua email/folder mạng",
+    "Phục vụ công tác văn thư, giáo vụ tại các trường học"
+   ],
+   "specifications": {
+    "Tốc độ in/copy": "23 trang/phút (A4)",
+    "Khổ giấy tối đa": "A3",
+    "Độ phân giải": "2.400 x 600 dpi (với Smoothing)",
+    "Khay giấy chuẩn": "1 khay 250 tờ + khay tay 100 tờ",
+    "Bộ nhớ RAM": "512 MB",
+    "Kết nối": "USB 2.0, Ethernet 10/100 Base-T"
+   },
+   "summary": "Toshiba e-STUDIO 2329A là dòng máy photocopy đa chức năng A3 nhỏ gọn, hiệu quả và bền bỉ — tích hợp sẵn tính năng Copy, In mạng và Scan màu, tối ưu chi phí vận hành cho văn phòng vừa và nhỏ.",
+   "industry": [
+    "Doanh nghiệp vừa và nhỏ",
+    "Trường học",
+    "Cơ quan hành chính"
+   ],
+   "source": "Nhập khẩu chính hãng Toshiba Tec Corporation, đầy đủ CO/CQ."
+  },
+  {
+   "slug": "toshiba-e-studio-2829a",
+   "category": "photocopy-may-da-chuc-nang",
+   "url": "/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/",
+   "name": "Máy photocopy Toshiba e-STUDIO 2829A",
+   "model": "e-STUDIO 2829A",
+   "manufacturer": "Toshiba (Nhật Bản)",
+   "sku": "TOSHIBA-2829A",
+   "category_label": "Máy photocopy đa chức năng",
+   "image": "/assets/images/products/toshiba-e-studio-2829a.jpg",
+   "compatible_model": [
+    "Toshiba e-STUDIO 2329A",
+    "Toshiba e-STUDIO 3028A"
+   ],
+   "use_case": [
+    "Đáp ứng sản lượng in ấn 5.000–15.000 bản/tháng cho các phòng ban đông nhân sự",
+    "Sao in tài liệu hội họp, báo cáo tài chính và hồ sơ đấu thầu",
+    "Trang bị đồng bộ cho hệ thống chi nhánh ngân hàng (lô 127 máy trúng thầu Vietcombank)"
+   ],
+   "specifications": {
+    "Tốc độ in/copy": "28 trang/phút (A4)",
+    "Khổ giấy tối đa": "A3",
+    "Độ phân giải": "2.400 x 600 dpi",
+    "Khay nạp và đảo bản gốc tự động": "RADF 50 tờ (chọn thêm)",
+    "Tính năng": "In 2 mặt tự động (Duplex), Scan màu mạng"
+   },
+   "summary": "Toshiba e-STUDIO 2829A đạt tốc độ 28 trang/phút, bền bỉ, tiết kiệm điện năng và mực in — dòng máy trục chính được tin dùng tại hàng trăm trường học và chi nhánh Vietcombank.",
+   "industry": [
+    "Ngân hàng",
+    "Cơ quan Nhà nước",
+    "Doanh nghiệp lớn",
+    "Trường THPT/Đại học"
+   ],
+   "source": "Nhập khẩu chính hãng Toshiba Tec, phân phối ủy quyền tại miền Bắc bởi Hương Sơn."
+  },
+  {
+   "slug": "toshiba-e-studio-3028a",
+   "category": "photocopy-may-da-chuc-nang",
+   "url": "/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-3028a/",
+   "name": "Máy photocopy Toshiba e-STUDIO 3028A",
+   "model": "e-STUDIO 3028A",
+   "manufacturer": "Toshiba (Nhật Bản)",
+   "sku": "TOSHIBA-3028A",
+   "category_label": "Máy photocopy đa chức năng",
+   "image": "/assets/images/products/toshiba-e-studio-3028a.jpg",
+   "compatible_model": [
+    "Toshiba e-STUDIO 2528A",
+    "Toshiba e-STUDIO 3528A"
+   ],
+   "use_case": [
+    "Giải pháp in ấn tập trung có bảo mật và phân quyền tài khoản cho doanh nghiệp",
+    "Scan tài liệu tốc độ cao 73–240 trang/phút lên đám mây và máy chủ nội bộ",
+    "Vận hành liên tục với chu kỳ 100.000 bản/tháng"
+   ],
+   "specifications": {
+    "Tốc độ in/copy": "30 trang/phút (A4)",
+    "Màn hình điều khiển": "Cảm ứng màu 10.1 inch tùy biến giao diện",
+    "Bộ xử lý": "Intel Atom 1.33 GHz lõi kép, RAM 4 GB, SSD 128 GB tự mã hóa",
+    "Bảo mật": "Chuẩn SED tự mã hóa dữ liệu FIPS 140-2"
+   },
+   "summary": "Toshiba e-STUDIO 3028A thuộc thế hệ máy đa chức năng e-BRIDGE Next tiên tiến — sở hữu màn hình cảm ứng 10.1 inch, bảo mật cấp doanh nghiệp và khả năng kết nối đám mây linh hoạt.",
+   "industry": [
+    "Tập đoàn",
+    "Ngân hàng",
+    "Cơ quan hành chính",
+    "Viện nghiên cứu"
+   ],
+   "source": "Chính hãng Toshiba Tec."
+  },
+  {
+   "slug": "toshiba-e-studio-2500ac",
+   "category": "photocopy-may-da-chuc-nang",
+   "url": "/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2500ac/",
+   "name": "Máy photocopy Màu Toshiba e-STUDIO 2500AC",
+   "model": "e-STUDIO 2500AC",
+   "manufacturer": "Toshiba (Nhật Bản)",
+   "sku": "TOSHIBA-2500AC",
+   "category_label": "Máy photocopy Màu đa chức năng",
+   "image": "/assets/images/products/toshiba-e-studio-2500ac.jpg",
+   "compatible_model": [
+    "Toshiba e-STUDIO 3005AC",
+    "Toshiba e-STUDIO 3505AC"
+   ],
+   "use_case": [
+    "In ấn phẩm catalogue, brochure, tài liệu thuyết trình màu chất lượng cao",
+    "In bản vẽ thiết kế, phối cảnh kiến trúc và tài liệu marketing khổ A3",
+    "Quản lý định mức in màu/đen trắng riêng biệt theo phòng ban"
+   ],
+   "specifications": {
+    "Tốc độ": "25 trang/phút (cả Màu và Đen trắng)",
+    "Công nghệ màu": "e-BRIDGE Color thế hệ mới cho màu sắc chân thực",
+    "Khổ giấy": "A5-R đến A3, hỗ trợ banner dài 1.2m"
+   },
+   "summary": "Toshiba e-STUDIO 2500AC là giải pháp in màu đa chức năng khổ A3 hoàn hảo cho các doanh nghiệp cần tài liệu màu chuyên nghiệp với chi phí vận hành tối ưu.",
+   "industry": [
+    "Công ty thiết kế",
+    "Truyền thông",
+    "Văn phòng hiện đại",
+    "Trường quốc tế"
+   ],
+   "source": "Chính hãng Toshiba Tec."
+  },
+  {
+   "slug": "konica-minolta-bizhub-360i",
+   "category": "photocopy-may-da-chuc-nang",
+   "url": "/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/",
+   "name": "Máy photocopy Konica Minolta bizhub 360i",
+   "model": "bizhub 360i",
+   "manufacturer": "Konica Minolta (Nhật Bản)",
+   "sku": "KONICA-360I",
+   "category_label": "Máy photocopy đa chức năng",
+   "image": "/assets/images/products/konica-minolta-bizhub-360i.jpg",
+   "compatible_model": [
+    "bizhub 300i",
+    "bizhub 450i"
+   ],
+   "use_case": [
+    "Môi trường làm việc thông minh (Smart Workplace) với khả năng di động cao",
+    "Sao chụp khối lượng lớn tốc độ 36 bản/phút",
+    "Tích hợp giải pháp quét diệt virus Bitdefender trên máy"
+   ],
+   "specifications": {
+    "Tốc độ": "36 trang/phút (A4)",
+    "Màn hình": "Cảm ứng 10.1 inch đa điểm dạng tablet",
+    "Bộ nhớ": "RAM 8 GB, SSD 256 GB"
+   },
+   "summary": "Konica Minolta bizhub 360i dòng máy đa chức năng cao cấp chuẩn Nhật Bản — thiết kế tinh tế, màn hình tablet mượt mà và khả năng vận hành siêu ổn định.",
+   "industry": [
+    "Doanh nghiệp FDI",
+    "Tập đoàn",
+    "Ngân hàng"
+   ],
+   "source": "Phân phối chính thức bởi Hương Sơn."
+  },
   {
    "slug": "duplo-dp-x550",
    "category": "may-in-nhan-ban-toc-do-cao",
@@ -446,30 +636,7 @@
     "Y tế",
     "Cơ quan Nhà nước"
    ],
-   "source": "Nhập khẩu mới 100% từ Duplo Nhật Bản, có đầy đủ chứng nhận xuất xứ (CO) và chứng nhận chất lượng (CQ). Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam từ năm 2017.",
-   "document": [
-    {
-     "label": "Trang sản phẩm chính hãng Duplo DP-X550",
-     "url": "https://www.duplo.com/eng/products/duplicators/dpx550.html",
-     "external": true
-    }
-   ],
-   "warranty": "Bảo hành đúng tiêu chuẩn nhà sản xuất, hoàn toàn miễn phí tại địa điểm lắp đặt của khách hàng; bảo trì, bảo dưỡng định kỳ miễn phí trong thời gian bảo hành.",
-   "faqs": [
-    [
-     "DP-X550 phù hợp với đơn vị có quy mô in như thế nào?",
-     "Phù hợp với đơn vị có nhu cầu in sản lượng lớn dồn vào thời gian ngắn — điển hình là Sở GD&ĐT trong mùa thi, ngân hàng, bệnh viện và cơ quan hành chính có khối lượng văn bản lớn."
-    ],
-    [
-     "Có thể thuê DP-X550 theo đợt không?",
-     "Có. Đây là mô hình phổ biến cho các kỳ thi — xem <a class=\"text-[#1A9900] font-medium hover:underline\" href=\"/giai-phap/giao-duc/in-de-thi/\">giải pháp cho thuê máy in đề thi</a>."
-    ],
-    [
-     "Vật tư cho DP-X550 có sẵn không?",
-     "Có, Master và mực nhập khẩu chính hãng từ Nhật Bản, cung cấp kèm theo khi thuê hoặc mua máy."
-    ]
-   ],
-   "comparison_note": "So với DP-X650 (thế hệ mới hơn, tốc độ đến 200 bản/phút), DP-X550 phù hợp với đơn vị đã quen thuộc dòng máy hiện tại hoặc có ngân sách vừa phải hơn."
+   "source": "Nhập khẩu mới 100% từ Duplo Nhật Bản. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc từ năm 2017."
   },
   {
    "slug": "duplo-dp-x650",
@@ -483,229 +650,483 @@
    "image": "/assets/images/products/duplo-dp-x650.jpg",
    "compatible_model": [
     "Duplo DP-X550",
-    "Duplo DP-X520"
+    "Duplo DP-X850"
    ],
    "use_case": [
-    "In sao đề thi số lượng rất lớn cho Sở GD&ĐT và Hội đồng thi quy mô lớn",
-    "In tài liệu, giáo trình cho trường đại học có sản lượng cao",
-    "In văn bản hành chính số lượng lớn cho cơ quan Nhà nước"
+    "In ấn tài liệu chất lượng cao có hình ảnh và đồ thị phức tạp",
+    "In đề thi đòi hỏi độ tương phản cao, chữ nhỏ và hình vẽ sắc nét",
+    "Sản xuất tài liệu đào tạo số lượng lớn cho các học viện"
    ],
    "specifications": {
-    "Tốc độ in": "Lên đến 200 bản/phút",
-    "Màn hình điều khiển": "Màn hình LCD cảm ứng màu, thiết kế hoàn toàn mới",
-    "Xuất xứ": "Duplo Nhật Bản"
+    "Tốc độ in": "160 bản/phút",
+    "Khổ giấy": "Khổ A3 chuẩn",
+    "Chế độ in": "Văn bản, Hình ảnh, Kết hợp, Chụp bút chì"
    },
-   "summary": "DP-X650 là thế hệ máy in nhân bản siêu tốc mới của Duplo, tốc độ đến 200 bản/phút, do Hương Sơn phân phối tại thị trường Việt Nam.",
+   "summary": "Duplo DP-X650 dòng máy in nhân bản siêu tốc A3 cao cấp nhất của Duplo — trang bị đầu ghi Master HD tiên tiến, tái hiện hoàn hảo chữ nhỏ và biểu đồ trong các đề thi quan trọng.",
    "industry": [
-    "Giáo dục",
-    "Cơ quan Nhà nước"
+    "Hội đồng in sao đề thi",
+    "Sở GD&ĐT",
+    "Trường Đại học"
    ],
-   "source": "Duplo Nhật Bản sản xuất. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam.",
-   "document": [],
-   "warranty": "Theo tiêu chuẩn bảo hành của nhà sản xuất Duplo, thực hiện bởi Hương Sơn.",
-   "faqs": [
-    [
-     "DP-X650 khác gì so với DP-X550?",
-     "DP-X650 là thế hệ thiết kế mới với tốc độ tối đa cao hơn, lên đến 200 bản/phút so với 155 bản/phút của DP-X550, kèm màn hình LCD cảm ứng màu mới."
-    ],
-    [
-     "Model này đã có sẵn tại Việt Nam chưa?",
-     "Vui lòng liên hệ Hương Sơn để xác nhận tình trạng hàng và thời gian giao hàng hiện tại của model này."
-    ]
-   ],
-   "comparison_note": "So với DP-X550, DP-X650 có tốc độ tối đa cao hơn (200 so với 155 bản/phút) và màn hình điều khiển thế hệ mới — phù hợp với đơn vị có sản lượng rất lớn."
+   "source": "Chính hãng Duplo Nhật Bản."
   },
   {
    "slug": "duplo-dfc-122",
    "category": "may-in-nhan-ban-toc-do-cao",
    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/",
-   "name": "Máy phối trang (sắp xếp tài liệu) Duplo DFC-122",
+   "name": "Máy phối trang Duplo DFC-122",
    "model": "DFC-122",
    "manufacturer": "Duplo (Nhật Bản)",
    "sku": "DUPLO-DFC122",
-   "category_label": "Máy phối trang – Hoàn thiện sau in",
+   "category_label": "Thiết bị hoàn thiện sau in",
    "image": "/assets/images/products/duplo-dfc-122.jpg",
    "compatible_model": [
-    "Duplo DP-X550",
-    "Duplo DP-X650"
+    "Duplo DFC-102",
+    "Duplo DFC-SII"
    ],
    "use_case": [
-    "Phối đề thi tự động sau khi in bằng máy nhân bản siêu tốc",
-    "Đóng bộ giáo trình, tài liệu học tập số lượng lớn",
-    "Sắp xếp và ghim tài liệu hành chính số lượng lớn"
+    "Xếp bộ tự động đề thi nhiều trang, giáo trình, tập tài liệu hội nghị",
+    "Kết nối với máy dập ghim hoàn thiện tập tài liệu khép kín",
+    "Loại bỏ hoàn toàn công đoạn đếm và xếp trang thủ công"
    ],
    "specifications": {
-    "Chức năng chính": "Phối trang (sắp xếp tài liệu) và đóng ghim tự động",
-    "Xuất xứ": "Duplo Nhật Bản"
+    "Số khay nạp": "12 khay nạp ma sát độc lập",
+    "Tốc độ xếp bộ": "Lên đến 4.200 bộ/giờ",
+    "Cảm biến an toàn": "Phát hiện kẹt giấy, nạp giấy đôi, hết giấy từng khay"
    },
-   "summary": "Máy phối trang Duplo DFC-122 tự động sắp xếp các trang tài liệu đã in thành bộ theo đúng thứ tự, thay cho việc phối thủ công — thường dùng kèm máy in nhân bản siêu tốc Duplo.",
+   "summary": "Duplo DFC-122 là máy phối trang 12 khay tốc độ 4.200 bộ/giờ — giải pháp hoàn thiện tài liệu sau in đắc lực giúp tiết kiệm 90% nhân lực xếp bộ tài liệu trong các kỳ thi.",
    "industry": [
     "Giáo dục",
-    "Cơ quan Nhà nước"
+    "Xưởng in",
+    "Trung tâm khảo thí"
    ],
-   "source": "Duplo Nhật Bản sản xuất. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo tại miền Bắc Việt Nam từ năm 2017.",
-   "document": [],
-   "warranty": "Theo tiêu chuẩn bảo hành của nhà sản xuất Duplo.",
-   "faqs": [
-    [
-     "Máy phối trang có bắt buộc dùng kèm máy in nhân bản không?",
-     "Không bắt buộc nhưng đây là mô hình phổ biến nhất: máy in nhân bản in ra các trang rời với sản lượng lớn, sau đó máy phối trang ghép nhanh thành bộ hoàn chỉnh, giảm đáng kể thời gian so với phối thủ công."
-    ]
-   ]
-  },
-  {
-   "slug": "toshiba-e-studio-2329a",
-   "category": "photocopy-may-da-chuc-nang",
-   "url": "/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2329a/",
-   "name": "Máy photocopy Toshiba e-STUDIO 2329A",
-   "model": "e-STUDIO 2329A",
-   "manufacturer": "Toshiba (Toshiba Tec, Nhật Bản)",
-   "sku": "TOSHIBA-2329A",
-   "category_label": "Photocopy – Máy đa chức năng",
-   "image": "/assets/images/products/toshiba-e-studio-2329a.jpg",
-   "compatible_model": [
-    "Toshiba e-STUDIO 2829A",
-    "Toshiba e-STUDIO 3028A"
-   ],
-   "use_case": [
-    "Copy, in, scan cho văn phòng và doanh nghiệp quy mô nhỏ",
-    "Phòng ban có mức sử dụng khoảng 3.000–8.000 bản mỗi tháng",
-    "Đặt trên bàn làm việc nhờ thiết kế nhỏ gọn"
-   ],
-   "specifications": {
-    "Công nghệ in/copy": "Laser",
-    "Tốc độ copy/in": "23 trang/phút (A4)",
-    "Khổ giấy tối đa": "A3",
-    "Bản chụp đầu tiên": "6.4 giây",
-    "Phóng to – thu nhỏ": "25% đến 400%",
-    "Độ phân giải in": "600 x 600 dpi, 2400 x 600 dpi (Smoothing)",
-    "Tốc độ scan": "Tối đa 25 SPM, độ phân giải 600 x 600 dpi",
-    "Định dạng scan": "PDF, JPEG, XPS — Scan to USB, TWAIN, email, file, SMB, FTP",
-    "Bộ nhớ RAM": "512 MB",
-    "CPU": "Cortex A8 500 MHz",
-    "Khay giấy": "250 tờ (khay chính), 100 tờ (khay tay), mở rộng tối đa 1.700 tờ",
-    "Kích thước": "W575 x D540 x H402 mm",
-    "Cổng giao tiếp": "USB 2.0, RJ45"
-   },
-   "summary": "Toshiba e-STUDIO 2329A là dòng máy photocopy đen trắng đa chức năng khổ A3, thiết kế nhỏ gọn, dễ sử dụng với chức năng Template và dễ quản lý bằng TopAccess — phù hợp doanh nghiệp, văn phòng nhỏ có mức sử dụng khoảng 3.000–8.000 bản/tháng.",
-   "industry": [
-    "Doanh nghiệp SME",
-    "Văn phòng nhỏ",
-    "Giáo dục"
-   ],
-   "source": "Hàng nhập khẩu mới 100% nguyên đai nguyên kiện do Toshiba Tec Nhật Bản sản xuất, có đầy đủ giấy chứng nhận xuất xứ (CO) và chất lượng (CQ). Hương Sơn là đại lý ủy quyền phân phối chính thức Toshiba tại miền Bắc Việt Nam từ năm 2017.",
-   "document": [],
-   "warranty": "Bảo hành 12 tháng hoặc theo số bản chụp, tùy điều kiện nào đến trước; bảo hành, bảo trì, giám định do Hương Sơn thực hiện tại địa điểm lắp đặt của khách hàng; hết bảo hành chuyển sang dịch vụ bảo trì có tính phí.",
-   "faqs": [
-    [
-     "Hao tài vật tư của 2329A có dễ thay không?",
-     "Có. Vật tư được thiết kế theo dạng modules, có thể thay thế từng phần khi hết hạn mức sử dụng mà không cần thay cả cụm, giúp tiết kiệm chi phí vận hành."
-    ],
-    [
-     "Máy có kèm khuyến mại gì không?",
-     "Theo chính sách bán hàng của Hương Sơn, các máy photocopy Toshiba có khuyến mại 01 bàn kê gỗ — chính sách cụ thể tại thời điểm mua vui lòng liên hệ xác nhận."
-    ],
-    [
-     "2329A khác 2829A ở điểm nào?",
-     "Khác biệt chính là tốc độ: 2329A đạt 23 trang/phút, 2829A đạt 28 trang/phút; các thông số còn lại (khổ giấy, độ phân giải, chức năng scan) tương đương."
-    ]
-   ],
-   "comparison_note": "So với e-STUDIO 2829A (28 trang/phút), 2329A có tốc độ thấp hơn (23 trang/phút) nhưng phù hợp với đơn vị có sản lượng ở ngưỡng thấp hơn trong khoảng 3.000–8.000 bản/tháng."
-  },
-  {
-   "slug": "toshiba-e-studio-2829a",
-   "category": "photocopy-may-da-chuc-nang",
-   "url": "/san-pham/photocopy-may-da-chuc-nang/toshiba-e-studio-2829a/",
-   "name": "Máy photocopy Toshiba e-STUDIO 2829A",
-   "model": "e-STUDIO 2829A",
-   "manufacturer": "Toshiba (Toshiba Tec, Nhật Bản)",
-   "sku": "TOSHIBA-2829A",
-   "category_label": "Photocopy – Máy đa chức năng",
-   "image": "/assets/images/products/toshiba-e-studio-2829a.jpg",
-   "compatible_model": [
-    "Toshiba e-STUDIO 2329A",
-    "Toshiba e-STUDIO 3028A"
-   ],
-   "use_case": [
-    "Copy, in, scan cho văn phòng và doanh nghiệp quy mô nhỏ đến vừa",
-    "Phòng ban có mức sử dụng khoảng 3.000–8.000 bản mỗi tháng",
-    "Trường học, phòng giáo vụ cần thiết bị đa chức năng khổ A3"
-   ],
-   "specifications": {
-    "Công nghệ in/copy": "Laser",
-    "Tốc độ copy/in": "28 trang/phút (A4)",
-    "Khổ giấy tối đa": "A3",
-    "Bản chụp đầu tiên": "6.4 giây",
-    "Phóng to – thu nhỏ": "25% đến 400%",
-    "Độ phân giải in": "600 x 600 dpi, 2400 x 600 dpi (Smoothing)",
-    "Tốc độ scan": "Tối đa 25 SPM, độ phân giải 600 x 600 dpi",
-    "Định dạng scan": "PDF, JPEG, XPS — Scan to USB, TWAIN, email, file, SMB, FTP",
-    "Bộ nhớ RAM": "512 MB",
-    "CPU": "Cortex A8 500 MHz",
-    "Khay giấy": "250 tờ (khay chính), 100 tờ (khay tay), mở rộng tối đa 1.700 tờ",
-    "Kích thước": "W575 x D540 x H402 mm",
-    "Cổng giao tiếp": "USB 2.0, RJ45"
-   },
-   "summary": "Toshiba e-STUDIO 2829A là dòng máy photocopy đen trắng đa chức năng khổ A3, tốc độ 28 trang/phút, thiết kế nhỏ gọn với chức năng Template và quản lý qua TopAccess — phù hợp doanh nghiệp, văn phòng nhỏ có mức sử dụng khoảng 3.000–8.000 bản/tháng.",
-   "industry": [
-    "Doanh nghiệp SME",
-    "Văn phòng nhỏ",
-    "Giáo dục"
-   ],
-   "source": "Hàng nhập khẩu mới 100% nguyên đai nguyên kiện do Toshiba Tec Nhật Bản sản xuất, có đầy đủ giấy chứng nhận xuất xứ (CO) và chất lượng (CQ). Hương Sơn là đại lý ủy quyền phân phối chính thức Toshiba tại miền Bắc Việt Nam từ năm 2017.",
-   "document": [],
-   "warranty": "Bảo hành 12 tháng hoặc theo số bản chụp, tùy điều kiện nào đến trước; bảo hành, bảo trì, giám định do Hương Sơn thực hiện tại địa điểm lắp đặt của khách hàng; hết bảo hành chuyển sang dịch vụ bảo trì có tính phí.",
-   "faqs": [
-    [
-     "Hao tài vật tư của 2829A có dễ thay không?",
-     "Có. Vật tư được thiết kế theo dạng modules, có thể thay thế từng phần khi hết hạn mức sử dụng mà không cần thay cả cụm, giúp tiết kiệm chi phí vận hành."
-    ],
-    [
-     "Giá 56.500.000 đồng đã bao gồm gì?",
-     "Đây là mức giá tham khảo được công bố trên website trước đây, cần Hương Sơn xác nhận lại thành phần cụ thể (đã gồm VAT, vận chuyển, lắp đặt hay chưa) tại thời điểm báo giá."
-    ]
-   ],
-   "comparison_note": "So với e-STUDIO 2329A (23 trang/phút), 2829A có tốc độ cao hơn (28 trang/phút), phù hợp với đơn vị có sản lượng ở ngưỡng cao hơn trong khoảng 3.000–8.000 bản/tháng."
+   "source": "Chính hãng Duplo Nhật Bản."
   },
   {
    "slug": "hp-laserjet-pro-mfp-m4103fdw",
    "category": "may-in-laser",
    "url": "/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/",
    "name": "Máy in đa năng HP LaserJet Pro MFP M4103fdw",
-   "model": "M4103fdw (2Z629A)",
-   "manufacturer": "HP",
-   "sku": "HP-M4103FDW-2Z629A",
-   "category_label": "Máy in Laser – Thiết bị in",
+   "model": "LaserJet Pro MFP M4103fdw (2Z629A)",
+   "manufacturer": "HP (Hoa Kỳ)",
+   "sku": "HP-M4103FDW",
+   "category_label": "Máy in Laser đa năng",
    "image": "/assets/images/products/hp-laserjet-pro-mfp-m4103fdw.jpg",
-   "compatible_model": [],
+   "compatible_model": [
+    "HP M404dn",
+    "HP M428fdw"
+   ],
    "use_case": [
-    "In, scan, copy cho văn phòng nhỏ và phòng ban",
-    "Phòng giáo vụ, văn thư cần thiết bị in A4 riêng",
-    "Nhu cầu thuê ngắn hạn theo tháng"
+    "In/Scan/Copy/Fax 2 mặt tự động cho phòng hiệu trưởng, phòng giáo vụ",
+    "In tài liệu mật độ bảo mật cao qua mã PIN",
+    "Kết nối không dây in trực tiếp từ điện thoại và máy tính bảng"
    ],
    "specifications": {
-    "Loại thiết bị": "Máy in đa năng Laser đen trắng A4",
-    "Model đầy đủ": "HP LaserJet Pro MFP 4103fdw – mã sản phẩm 2Z629A"
+    "Tốc độ in": "40 trang/phút (A4)",
+    "Chức năng": "In, Sao chép, Quét, Fax",
+    "Kết nối": "Dual-band Wi-Fi, Ethernet Gigabit, USB 2.0"
    },
-   "summary": "HP LaserJet Pro MFP M4103fdw là máy in đa năng A4 cho văn phòng hiện đại, có thể mua hoặc thuê theo tháng.",
+   "summary": "HP LaserJet Pro MFP M4103fdw là máy in laser đa chức năng A4 tốc độ 40 trang/phút, trang bị WiFi hai băng tần và bảo mật HP Wolf Security mạnh mẽ.",
    "industry": [
     "Văn phòng",
-    "Giáo dục",
-    "Doanh nghiệp SME"
+    "Phòng khảo thí",
+    "Phòng giáo vụ"
    ],
-   "source": "Phân phối bởi Hương Sơn trong danh mục máy in Laser – Ricoh & HP.",
-   "document": [],
-   "warranty": "Theo chính sách bảo hành của hãng HP, hỗ trợ bởi Hương Sơn.",
-   "faqs": [
-    [
-     "Có thể thuê máy này theo tháng không?",
-     "Có. Website trước đây công bố mức phí thuê tham khảo khoảng 550.000 đồng/tháng — mức phí thực tế cần Hương Sơn xác nhận và báo giá theo thời điểm và sản lượng cụ thể."
-    ],
-    [
-     "Máy có in màu không?",
-     "Đây là dòng máy in Laser đen trắng đa năng A4."
-    ]
-   ]
+   "source": "Chính hãng HP."
+  },
+  {
+   "slug": "ricoh-fujitsu-fi-7160",
+   "category": "may-scan-so-hoa",
+   "url": "/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/",
+   "name": "Máy scan tài liệu tốc độ cao Ricoh fi-7160",
+   "model": "fi-7160",
+   "manufacturer": "Ricoh / Fujitsu (Nhật Bản)",
+   "sku": "RICOH-FI7160",
+   "category_label": "Máy scan số hóa tài liệu",
+   "image": "/assets/images/products/ricoh-fujitsu-fi-7160.jpg",
+   "compatible_model": [
+    "fi-7260",
+    "fi-7180"
+   ],
+   "use_case": [
+    "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học theo Đề án 06",
+    "Quét hồ sơ bệnh án, chứng từ kế toán, hồ sơ cán bộ công chức",
+    "Nhận dạng ký tự quang học OCR xuất ra file PDF có thể tìm kiếm"
+   ],
+   "specifications": {
+    "Tốc độ quét": "60 trang/phút, 120 ảnh/phút (2 mặt tự động)",
+    "Khay nạp tự động (ADF)": "80 tờ",
+    "Cảm biến": "Cảm biến sóng siêu âm chống kẹt giấy và cuốn giấy kép",
+    "Độ phân giải quang học": "600 dpi"
+   },
+   "summary": "Ricoh fi-7160 (tiền thân Fujitsu fi-7160) là dòng máy quét số hóa tài liệu bán chạy số 1 thế giới — tốc độ 60 trang/phút, nạp giấy siêu êm và tích hợp phần mềm xử lý ảnh PaperStream IP chuyên nghiệp.",
+   "industry": [
+    "Sở GD&ĐT",
+    "Trường học",
+    "Ngân hàng",
+    "Cơ quan lưu trữ"
+   ],
+   "source": "Chính hãng Ricoh / Fujitsu Nhật Bản."
+  },
+  {
+   "slug": "ricoh-fujitsu-fi-7480",
+   "category": "may-scan-so-hoa",
+   "url": "/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7480/",
+   "name": "Máy scan khổ A3 tốc độ cao Ricoh fi-7480",
+   "model": "fi-7480",
+   "manufacturer": "Ricoh / Fujitsu (Nhật Bản)",
+   "sku": "RICOH-FI7480",
+   "category_label": "Máy scan khổ A3 số hóa",
+   "image": "/assets/images/products/ricoh-fujitsu-fi-7480.jpg",
+   "compatible_model": [
+    "fi-7460",
+    "fi-7600"
+   ],
+   "use_case": [
+    "Số hóa bản vẽ kỹ thuật, sổ hộ tịch, hồ sơ đất đai khổ A3",
+    "Quét tài liệu kích thước hỗn hợp từ danh thiếp đến A3 liên tục",
+    "Xử lý khối lượng quét lớn 24.000 tờ/ngày"
+   ],
+   "specifications": {
+    "Tốc độ quét": "80 trang/phút, 160 ảnh/phút",
+    "Khổ giấy": "Từ A8 đến A3 và tài liệu dài 5.5m",
+    "Khay ADF": "100 tờ"
+   },
+   "summary": "Ricoh fi-7480 là máy quét A3 nhỏ gọn nhất phân khúc với tốc độ 80 trang/phút — giải pháp số hóa lý tưởng cho các trung tâm lưu trữ văn thư và cơ quan hành chính.",
+   "industry": [
+    "Trung tâm lưu trữ",
+    "UBND",
+    "Sở ban ngành"
+   ],
+   "source": "Chính hãng Ricoh."
+  },
+  {
+   "slug": "goi-thue-may-in-nhan-ban-de-thi-thpt",
+   "category": "cho-thue-thiet-bi-giao-duc",
+   "url": "/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-in-nhan-ban-de-thi-thpt/",
+   "name": "Gói thuê máy in nhân bản in đề thi THPT & Tuyển sinh",
+   "model": "HS-EDU-EXAMPRINT",
+   "manufacturer": "Hương Sơn Education Solutions",
+   "sku": "EDU-EXAM-01",
+   "category_label": "Gói giải pháp thuê máy giáo dục",
+   "image": "/assets/images/products/duplo-dp-x550.jpg",
+   "compatible_model": [
+    "Duplo DP-X550",
+    "Duplo DP-X650",
+    "Ricoh DX3443"
+   ],
+   "use_case": [
+    "In sao đề thi kỳ thi tốt nghiệp THPT Quốc gia tại các Hội đồng thi Sở GD&ĐT",
+    "In đề thi tuyển sinh vào lớp 10 các tỉnh thành",
+    "In đề thi kết thúc học kỳ, khảo sát chất lượng cho các trường THPT/THCS"
+   ],
+   "specifications": {
+    "Thiết bị cung cấp": "Máy in siêu tốc Duplo DP-X550 / X650 + Máy phối trang DFC-122",
+    "Hỗ trợ kỹ thuật": "Kỹ thuật viên trực 24/24 trong khu vực cách ly 3 vòng",
+    "Cam kết SLA": "Máy dự phòng 1-đổi-1 tại chỗ, miễn phí toàn bộ mực & Master in"
+   },
+   "summary": "Gói giải pháp chuyên biệt in sao đề thi THPT của Hương Sơn — được tin dùng bởi các Sở GD&ĐT Vĩnh Phúc, Quảng Trị, Hà Nội... Đảm bảo tuyệt đối bảo mật, đúng tiến độ và không gián đoạn.",
+   "industry": [
+    "Sở Giáo dục và Đào tạo",
+    "Phòng Khảo thí",
+    "Hội đồng in sao đề thi"
+   ],
+   "source": "Gói giải pháp độc quyền từ Hương Sơn."
+  },
+  {
+   "slug": "goi-thue-may-photocopy-truong-hoc-toshiba",
+   "category": "cho-thue-thiet-bi-giao-duc",
+   "url": "/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-photocopy-truong-hoc-toshiba/",
+   "name": "Gói thuê máy photocopy trường học định mức chi phí",
+   "model": "HS-EDU-SCHOOLCOPY",
+   "manufacturer": "Hương Sơn Education Solutions",
+   "sku": "EDU-COPY-02",
+   "category_label": "Gói giải pháp thuê máy giáo dục",
+   "image": "/assets/images/products/toshiba-e-studio-2829a.jpg",
+   "compatible_model": [
+    "Toshiba e-STUDIO 2829A",
+    "Toshiba e-STUDIO 3028A"
+   ],
+   "use_case": [
+    "In ấn tài liệu giảng dạy, phiếu bài tập, đề kiểm tra định kỳ nhà trường",
+    "Phân quyền tài khoản mã PIN cho từng tổ chuyên môn (Toán, Văn, Anh...)",
+    "Quản trị định mức số trang in theo ngân sách từng kỳ"
+   ],
+   "specifications": {
+    "Thiết bị": "Toshiba e-STUDIO 2829A / 3028A đa chức năng khổ A3",
+    "Chi phí": "Trọn gói từ 800.000đ/tháng (miễn phí mực, trống, sửa chữa)",
+    "Bảo trì": "Định kỳ hàng tháng và hỗ trợ kỹ thuật trong 60 phút"
+   },
+   "summary": "Gói thuê máy photocopy trường học tối ưu ngân sách — 0 đồng đầu tư ban đầu, cấp mã định mức cho từng giáo viên và miễn phí 100% mực in & bảo dưỡng.",
+   "industry": [
+    "Trường THPT",
+    "Trường THCS",
+    "Trường Đại học - Cao đẳng"
+   ],
+   "source": "Hương Sơn Co., Ltd."
+  },
+  {
+   "slug": "muc-in-master-duplo-chinh-hang",
+   "category": "vat-tu-linh-kien-tieu-hao",
+   "url": "/san-pham/vat-tu-linh-kien-tieu-hao/muc-in-master-duplo-chinh-hang/",
+   "name": "Mực in và Master in chính hãng Duplo Nhật Bản",
+   "model": "Duplo Ink & Master HD",
+   "manufacturer": "Duplo (Nhật Bản)",
+   "sku": "DUPLO-INK-MAT",
+   "category_label": "Vật tư in siêu tốc chính hãng",
+   "image": "/assets/images/products/muc-in-master-duplo.jpg",
+   "compatible_model": [
+    "DP-X550",
+    "DP-X650",
+    "DP-F550",
+    "DP-G325"
+   ],
+   "use_case": [
+    "Sử dụng đồng bộ cho các dòng máy in nhân bản siêu tốc Duplo",
+    "Đảm bảo độ bám mực tốt, khô nhanh, không nhòe và không mùi độc hại",
+    "Tối ưu tuổi thọ đầu ghi Master và trống từ máy in"
+   ],
+   "specifications": {
+    "Quy cách đóng gói": "Tuýp mực 1.000ml / Cuộn Master 200–220 tấm",
+    "Màu mực": "Mực đen tiêu chuẩn (Black) và các màu chuyên dụng",
+    "Xuất xứ": "Made in Japan"
+   },
+   "summary": "Mực in và cuộn phim Master in chính hãng Duplo Nhật Bản — độ phân giải cao, bám giấy tốt, khô ngay lập tức, là yếu tố then chốt cho bản in đề thi sắc nét.",
+   "industry": [
+    "Giáo dục",
+    "In ấn chuyên nghiệp"
+   ],
+   "source": "Hương Sơn nhập khẩu và phân phối trực tiếp từ Duplo Nhật Bản."
+  },
+  {
+   "slug": "trong-drum-bot-tu-photocopy",
+   "category": "vat-tu-linh-kien-tieu-hao",
+   "url": "/san-pham/vat-tu-linh-kien-tieu-hao/trong-drum-bot-tu-photocopy/",
+   "name": "Trống Drum và Bột từ Developer cho máy photocopy",
+   "model": "Drum & Developer Kit",
+   "manufacturer": "Toshiba / Ricoh / OEM",
+   "sku": "DRUM-DEV-KIT",
+   "category_label": "Linh kiện máy photocopy",
+   "image": "/assets/images/products/drum-bot-tu-photocopy.jpg",
+   "compatible_model": [
+    "Toshiba e-STUDIO 2329A/2829A",
+    "Ricoh MP 2001/2554"
+   ],
+   "use_case": [
+    "Thay thế định kỳ khi bản in bị mờ, sọc đen hoặc giảm độ tương phản",
+    "Bảo dưỡng hệ thống tạo ảnh cho máy photocopy văn phòng",
+    "Nâng cao tuổi thọ máy và giảm tỷ lệ phát sinh bụi mực"
+   ],
+   "specifications": {
+    "Độ bền trống OPC": "80.000 – 120.000 trang",
+    "Tuổi thọ bột từ": "100.000 – 150.000 trang",
+    "Bảo hành": "Bảo hành theo tiêu chuẩn số trang in"
+   },
+   "summary": "Bộ Trống Drum OPC và Bột từ Developer chất lượng cao — phục hồi độ sắc nét như mới cho các dòng máy photocopy Toshiba, Ricoh, Konica Minolta.",
+   "industry": [
+    "Cơ quan",
+    "Văn phòng",
+    "Dịch vụ sửa chữa"
+   ],
+   "source": "Phân phối bởi Hương Sơn."
+  },
+  {
+   "slug": "muc-fansipan-toner-toshiba-e-studio",
+   "category": "fansipan",
+   "url": "/san-pham/fansipan/muc-fansipan-toner-toshiba-e-studio/",
+   "name": "Mực photocopy FANSIPAN Toner Black cho Toshiba e-STUDIO",
+   "model": "FANSIPAN T-2309/2508",
+   "manufacturer": "FANSIPAN (Hương Sơn)",
+   "sku": "FAN-TOSH-01",
+   "category_label": "Mực photocopy FANSIPAN",
+   "image": "/assets/images/products/muc-fansipan-toner.jpg",
+   "compatible_model": [
+    "Toshiba 2329A",
+    "Toshiba 2829A",
+    "Toshiba 2508A",
+    "Toshiba 3008A"
+   ],
+   "use_case": [
+    "Nạp mực kinh tế cho các dòng máy photocopy Toshiba phổ biến",
+    "Tiết kiệm 50% chi phí mực in so với mực hãng mà chất lượng đạt 95%",
+    "Bản in đen đậm, không cặn, ít bụi thải"
+   ],
+   "specifications": {
+    "Trọng lượng tịnh": "500g / 1.000g",
+    "Số trang in ước tính": "15.000 – 30.000 trang (độ phủ 5%)",
+    "Đặc tính": "Hạt mực siêu mịn công nghệ polymer"
+   },
+   "summary": "FANSIPAN Toner Black cho Toshiba là thương hiệu mực độc quyền của Hương Sơn — đem lại chất lượng bản in sắc nét, tiết kiệm tối đa chi phí cho trường học và doanh nghiệp.",
+   "industry": [
+    "Trường học",
+    "Văn phòng",
+    "Doanh nghiệp"
+   ],
+   "source": "Sản phẩm phát triển và bảo hành bởi Công ty TNHH TM&DV Hương Sơn."
+  },
+  {
+   "slug": "muc-fansipan-toner-ricoh-aficio",
+   "category": "fansipan",
+   "url": "/san-pham/fansipan/muc-fansipan-toner-ricoh-aficio/",
+   "name": "Mực photocopy FANSIPAN Toner Black cho Ricoh Aficio",
+   "model": "FANSIPAN R-2501/3554",
+   "manufacturer": "FANSIPAN (Hương Sơn)",
+   "sku": "FAN-RICOH-02",
+   "category_label": "Mực photocopy FANSIPAN",
+   "image": "/assets/images/products/muc-fansipan-toner.jpg",
+   "compatible_model": [
+    "Ricoh MP 2001",
+    "Ricoh MP 2554",
+    "Ricoh MP 3054",
+    "Ricoh MP 3554"
+   ],
+   "use_case": [
+    "Nạp mực cho máy photocopy Ricoh đen trắng",
+    "Đảm bảo máy vận hành êm, không gây bẩn cụm sấy và gương quang học",
+    "Dùng cho các đơn vị in ấn tài liệu số lượng lớn"
+   ],
+   "specifications": {
+    "Quy cách": "Chai 1.000g đóng gói kín khí",
+    "Độ phủ": "Độ đen bóng đạt tiêu chuẩn quốc tế"
+   },
+   "summary": "Mực FANSIPAN cho Ricoh Aficio — tương thích hoàn hảo với các dòng máy Ricoh MP series, giúp doanh nghiệp cắt giảm đáng kể chi phí in ấn thường xuyên.",
+   "industry": [
+    "Cơ quan",
+    "Trường học",
+    "Doanh nghiệp"
+   ],
+   "source": "Hương Sơn Co., Ltd."
+  },
+  {
+   "slug": "man-hinh-tuong-tac-viewsonic-ifp6550",
+   "category": "thiet-bi-phong-hoc-giao-duc",
+   "url": "/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/",
+   "name": "Màn hình tương tác thông minh ViewSonic IFP6550 4K (65 inch)",
+   "model": "ViewSonic ViewBoard IFP6550-5",
+   "manufacturer": "ViewSonic (Hoa Kỳ)",
+   "sku": "VIEW-IFP6550",
+   "category_label": "Thiết bị phòng học thông minh",
+   "image": "/assets/images/products/viewsonic-ifp6550.jpg",
+   "compatible_model": [
+    "IFP7550",
+    "IFP8650"
+   ],
+   "use_case": [
+    "Giảng dạy tương tác đa điểm, viết vẽ bài giảng sinh động",
+    "Trình chiếu bài giảng điện tử E-learning, kết nối không dây với laptop/tablet học sinh",
+    "Họp trực tuyến và đào tạo từ xa trong các trường học"
+   ],
+   "specifications": {
+    "Kích thước màn hình": "65 inch 4K Ultra HD (3840 x 2160)",
+    "Công nghệ cảm ứng": "Cảm ứng hồng ngoại siêu nhạy 20 điểm chạm",
+    "Âm thanh": "Tích hợp loa Stereo 2x10W + Subwoofer 15W",
+    "Hệ điều hành": "Android 11 tích hợp khe cắm OPS Windows"
+   },
+   "summary": "Màn hình tương tác ViewSonic IFP6550 65 inch 4K — trung tâm của lớp học số hiện đại, hỗ trợ cảm ứng đa điểm mượt mà và phần mềm giáo dục myViewBoard bản quyền.",
+   "industry": [
+    "Trường THPT",
+    "Trường Quốc tế",
+    "Trường Đại học"
+   ],
+   "source": "Nhập khẩu chính hãng ViewSonic."
+  },
+  {
+   "slug": "camera-vat-the-aver-f17-8m",
+   "category": "thiet-bi-phong-hoc-giao-duc",
+   "url": "/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/",
+   "name": "Camera vật thể trình chiếu đa năng AVer F17-8M",
+   "model": "AVerVision F17-8M",
+   "manufacturer": "AVer (Đài Loan)",
+   "sku": "AVER-F178M",
+   "category_label": "Thiết bị dạy học số",
+   "image": "/assets/images/products/camera-vat-the-aver.jpg",
+   "compatible_model": [
+    "AVer F50-8M",
+    "AVer U50"
+   ],
+   "use_case": [
+    "Soi bài làm học sinh, chữa bài thi trực tiếp trên màn chiếu lớp học",
+    "Trình chiếu mô hình 3D, mẫu vật sinh học, hóa học cho học sinh quan sát",
+    "Ghi hình bài giảng độ phân giải 8MP với tốc độ khung hình 60fps"
+   ],
+   "specifications": {
+    "Độ phân giải": "8 Megapixels Full HD / 4K Output",
+    "Zoom": "Zoom tổng cộng 32X (16X kỹ thuật số + 2X AVerZoom)",
+    "Vùng chụp tối đa": "Khổ A3",
+    "Cần xoay": "Cổ ngỗng uốn dẻo linh hoạt 360 độ"
+   },
+   "summary": "Camera vật thể AVer F17-8M cảm biến 8MP zoom 32x — công cụ hỗ trợ giảng dạy trực quan hàng đầu giúp giáo viên chấm chữa bài thi và minh họa thí nghiệm rõ nét đến từng chi tiết.",
+   "industry": [
+    "Trường THPT",
+    "Trường THCS",
+    "Trung tâm khảo thí"
+   ],
+   "source": "Chính hãng AVer."
+  },
+  {
+   "slug": "may-chieu-hoi-truong-panasonic-pt-vz580",
+   "category": "thiet-bi-van-phong-hoi-hop",
+   "url": "/san-pham/thiet-bi-van-phong-hoi-hop/may-chieu-hoi-truong-panasonic-pt-vz580/",
+   "name": "Máy chiếu hội trường văn phòng Panasonic PT-VZ580",
+   "model": "PT-VZ580",
+   "manufacturer": "Panasonic (Nhật Bản)",
+   "sku": "PANA-VZ580",
+   "category_label": "Thiết bị trình chiếu hội nghị",
+   "image": "/assets/images/products/panasonic-pt-vz580.jpg",
+   "compatible_model": [
+    "PT-VZ585N",
+    "PT-VMZ51"
+   ],
+   "use_case": [
+    "Trình chiếu hội trường, phòng họp lớn không cần tắt bớt đèn",
+    "Hội nghị tổng kết, hội thảo chuyên đề cơ quan và doanh nghiệp",
+    "Chiếu hình ảnh bản vẽ kỹ thuật, đồ thị độ nét cao WUXGA"
+   ],
+   "specifications": {
+    "Độ sáng": "5.000 ANSI Lumens",
+    "Độ phân giải": "WUXGA (1920 x 1200) cao hơn Full HD",
+    "Độ tương phản": "16.000:1",
+    "Tuổi thọ bóng đèn": "Lên đến 7.000 giờ"
+   },
+   "summary": "Panasonic PT-VZ580 máy chiếu hội trường 5.000 Ansi Lumens độ phân giải WUXGA — độ sáng vượt trội giúp trình chiếu sắc nét rõ ràng ngay cả trong phòng họp bật đầy đủ ánh sáng.",
+   "industry": [
+    "Hội trường cơ quan",
+    "Phòng họp tập đoàn",
+    "Giảng đường lớn"
+   ],
+   "source": "Chính hãng Panasonic Nhật Bản."
+  },
+  {
+   "slug": "he-thong-hoi-nghi-logitech-group",
+   "category": "thiet-bi-van-phong-hoi-hop",
+   "url": "/san-pham/thiet-bi-van-phong-hoi-hop/he-thong-hoi-nghi-logitech-group/",
+   "name": "Hệ thống hội nghị truyền hình trực tuyến Logitech Group",
+   "model": "Logitech GROUP ConferenceCam",
+   "manufacturer": "Logitech (Thụy Sĩ)",
+   "sku": "LOGI-GROUP",
+   "category_label": "Thiết bị họp trực tuyến",
+   "image": "/assets/images/products/logitech-group.jpg",
+   "compatible_model": [
+    "Logitech Rally",
+    "Logitech MeetUp"
+   ],
+   "use_case": [
+    "Họp trực tuyến qua Zoom, MS Teams, Google Meet cho phòng họp 14–20 người",
+    "Kết nối đa điểm giữa các chi nhánh ngân hàng, trường học, cơ quan",
+    "Thu âm khử ồn, khử tiếng vọng đa hướng 360 độ"
+   ],
+   "specifications": {
+    "Camera": "PTZ xoay ngang 90 độ, nghiêng 130 độ, Zoom 10x Full HD 1080p",
+    "Loa ngoài & Micro": "Full-duplex khử tiếng vọng và lọc tạp âm, 4 micro đa hướng",
+    "Phạm vi thu âm": "Bán kính 6m (mở rộng lên 8.5m với micro kéo dài)"
+   },
+   "summary": "Logitech Group là hệ thống họp trực tuyến chuyên nghiệp chuẩn Full HD — âm thanh khử vọng trong trẻo, camera PTZ zoom 10x mượt mà, cắm là chạy qua USB.",
+   "industry": [
+    "Doanh nghiệp",
+    "Cơ quan Nhà nước",
+    "Ngân hàng"
+   ],
+   "source": "Chính hãng Logitech."
   }
  ]
 }
