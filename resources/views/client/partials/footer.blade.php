@@ -5,7 +5,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-14 border-b border-gray-800/80">
 
         <div class="lg:col-span-4 space-y-5">
-          <a href="/" class="inline-block"><span class="inline-flex items-center bg-white px-3 py-1.5 h-11 sm:h-12"><img src="/assets/images/brand/HUONG_SON_logo.svg" alt="Hương Sơn" class="h-full w-auto object-contain" /></span></a>
+          <a href="/" class="inline-block"><img src="/assets/images/brand/HUONG_SON_logo.svg" alt="Hương Sơn" class="h-10 sm:h-12 w-auto object-contain" /></a>
           <p class="text-[15px] text-gray-300 leading-relaxed max-w-md">
             CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN — Giải pháp thiết bị, in ấn, số hóa và dịch vụ cho Cơ quan Nhà nước – Giáo dục – Ngân hàng – Doanh nghiệp.
           </p>

@@ -2,7 +2,7 @@
   <div id="mobile-backdrop" class="fixed inset-0 bg-black/60 z-50 hidden opacity-0 transition-opacity duration-300"></div>
   <div id="mobile-drawer" class="fixed top-0 left-0 bottom-0 w-80 max-w-[85vw] bg-[#181924] z-50 shadow-2xl transform -translate-x-full transition-transform duration-300 flex flex-col">
     <div class="p-6 border-b border-gray-800 flex items-center justify-between">
-      <a href="/"><span class="inline-flex items-center bg-white px-3 py-1.5 h-11 sm:h-12"><img src="/assets/images/brand/HUONG_SON_logo.svg" alt="Hương Sơn" class="h-full w-auto object-contain" /></span></a>
+      <a href="/"><img src="/assets/images/brand/HUONG_SON_logo.svg" alt="Hương Sơn" class="h-10 sm:h-12 w-auto object-contain" /></a>
       <button id="mobile-menu-close" class="text-gray-400 hover:text-white p-2" aria-label="Đóng menu">
         <i class="fa-solid fa-xmark text-xl"></i>
       </button>

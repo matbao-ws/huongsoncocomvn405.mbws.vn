@@ -125,12 +125,9 @@ def topbar():
 
 
 # ------------------------------------------------------------------------- header
-def _logo(cls="h-11 sm:h-12"):
-    """Logo thật lấy từ website cũ (nền trắng) — bọc khối trắng bo góc để
-    đọc được trên header/footer nền tối. Xin bản vector nền trong suốt
-    từ khách để bỏ khối nền này (xem site.json:_logo_note)."""
-    return (f'<span class="inline-flex items-center bg-white px-3 py-1.5 {cls}">'
-            f'<img src="{SITE["logo"]}" alt="{SITE["name"]}" class="h-full w-auto object-contain" /></span>')
+def _logo(cls="h-10 sm:h-12"):
+    """Logo vector chuẩn SVG nền trong suốt, không bọc nền/box."""
+    return f'<img src="{SITE["logo"]}" alt="{SITE["name"]}" class="{cls} w-auto object-contain" />'
 
 
 def header(active=""):
