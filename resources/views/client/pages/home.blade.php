@@ -2,7 +2,7 @@
 
 @section('title', "Hương Sơn – Giải pháp thiết bị, in ấn, số hóa và dịch vụ cho Cơ quan Nhà nước – Giáo dục – Ngân hàng – Doanh nghiệp")
 @section('meta_description', "Hương Sơn cung cấp thiết bị, cho thuê, vật tư, kỹ thuật và giải pháp số hóa tài liệu cho Giáo dục, Cơ quan Nhà nước, Ngân hàng và Doanh nghiệp. Đại lý ủy quyền Duplo, Toshiba, Konica Minolta.")
-@section('canonical', url('/'))
+@section('canonical', "https://huongsonco.com.vn/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -166,7 +166,7 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')

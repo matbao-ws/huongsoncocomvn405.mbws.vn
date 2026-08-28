@@ -2,7 +2,7 @@
 
 @section('title', "Giải pháp thiết bị, in ấn, số hóa theo ngành | Hương Sơn")
 @section('meta_description', "8 giải pháp Hương Sơn cho Giáo dục, Cơ quan Nhà nước, Ngân hàng, Doanh nghiệp: in đề thi, scan số hóa, cho thuê thiết bị, quản lý vận hành.")
-@section('canonical', url('/giai-phap/'))
+@section('canonical', "https://huongsonco.com.vn/giai-phap/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -165,22 +165,22 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')
 <!-- PAGE HERO -->
-  <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-solutions.jpg" alt="Giải pháp thiết bị, in ấn và số hóa theo ngành" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[#181924]/88"></div>
+      <img src="/assets/images/hero-solutions.jpg" alt="Giải pháp thiết bị, in ấn và số hóa theo ngành" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Solutions</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Giải pháp thiết bị, in ấn và số hóa theo ngành</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">8 giải pháp Hương Sơn xây dựng theo đúng bài toán từng ngành — mỗi giải pháp trình bày theo 6 bước: Problem → Solution → Equipment → Implementation → Service → ROI.</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Giải pháp</span>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Solutions</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Giải pháp thiết bị, in ấn và số hóa theo ngành</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">8 giải pháp Hương Sơn xây dựng theo đúng bài toán từng ngành — mỗi giải pháp trình bày theo 6 bước: Problem → Solution → Equipment → Implementation → Service → ROI.</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Giải pháp</span>
       </nav>
     </div>
   </section>

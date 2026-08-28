@@ -2,7 +2,7 @@
 
 @section('title', "Dịch vụ vận hành thiết bị in ấn theo hợp đồng | Hương Sơn")
 @section('meta_description', "Hương Sơn vận hành và giám sát thiết bị in ấn theo hợp đồng dài hạn: counter, vật tư, bảo trì và báo cáo định kỳ — phù hợp đơn vị có nhiều thiết bị.")
-@section('canonical', url('/dich-vu/van-hanh-thiet-bi/'))
+@section('canonical', "https://huongsonco.com.vn/dich-vu/van-hanh-thiet-bi/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -185,22 +185,22 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')
 <!-- PAGE HERO -->
-  <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-office.jpg" alt="Dịch vụ vận hành thiết bị in ấn" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[#181924]/88"></div>
+      <img src="/assets/images/hero-office.jpg" alt="Dịch vụ vận hành thiết bị in ấn" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Managed Operations</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Dịch vụ vận hành thiết bị in ấn</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">Với các hợp đồng dài hạn hoặc quy mô nhiều thiết bị, Hương Sơn đảm nhận vận hành: theo dõi counter, cung ứng vật tư, bảo trì định kỳ và báo cáo — để đơn vị không phải tự quản lý từng thiết bị riêng lẻ.</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/dich-vu/" class="hover:text-white transition">Dịch vụ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Dịch vụ vận hành thiết bị in ấn</span>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Managed Operations</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Dịch vụ vận hành thiết bị in ấn</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Với các hợp đồng dài hạn hoặc quy mô nhiều thiết bị, Hương Sơn đảm nhận vận hành: theo dõi counter, cung ứng vật tư, bảo trì định kỳ và báo cáo — để đơn vị không phải tự quản lý từng thiết bị riêng lẻ.</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/dich-vu/" class="text-gray-300 hover:text-white transition">Dịch vụ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Dịch vụ vận hành thiết bị in ấn</span>
       </nav>
     </div>
   </section>
@@ -358,7 +358,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">

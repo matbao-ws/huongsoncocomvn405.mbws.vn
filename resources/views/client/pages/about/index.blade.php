@@ -2,7 +2,7 @@
 
 @section('title', "Giới thiệu Công ty Hương Sơn – Thiết bị, in ấn, số hóa | Hương Sơn")
 @section('meta_description', "Công ty TNHH Thương mại và Dịch vụ Hương Sơn, thành lập 2008, đại lý ủy quyền Duplo, Toshiba, Konica Minolta — cung cấp thiết bị, in ấn, số hóa và dịch vụ.")
-@section('canonical', url('/ve-huong-son/'))
+@section('canonical', "https://huongsonco.com.vn/ve-huong-son/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -109,22 +109,22 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')
 <!-- PAGE HERO -->
-  <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-office.jpg" alt="Giới thiệu Công ty Hương Sơn" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[#181924]/88"></div>
+      <img src="/assets/images/hero-office.jpg" alt="Giới thiệu Công ty Hương Sơn" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Về Hương Sơn</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Giới thiệu Công ty Hương Sơn</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">Thiết bị cho hiện tại, giải pháp cho tương lai.</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Về Hương Sơn</span>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Về Hương Sơn</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Giới thiệu Công ty Hương Sơn</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Thiết bị cho hiện tại, giải pháp cho tương lai.</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Về Hương Sơn</span>
       </nav>
     </div>
   </section>
@@ -180,7 +180,7 @@
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Văn phòng giao dịch</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Tài khoản ngân hàng</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">0531100329005 – Ngân hàng TMCP Quân Đội (MB Bank), chi nhánh Long Biên</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Điện thoại</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">024 3972 9484 – 0913 237 302 – 091 113 8583</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Email</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">info@huongsonco.com.vn</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Email</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">info@@huongsonco.com.vn</td></tr>
           </tbody>
         </table>
       </div>

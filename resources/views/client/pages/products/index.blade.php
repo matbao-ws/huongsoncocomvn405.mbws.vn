@@ -2,7 +2,7 @@
 
 @section('title', "Sản phẩm – Thiết bị văn phòng, in ấn, số hóa | Hương Sơn")
 @section('meta_description', "9 nhóm sản phẩm Hương Sơn cung cấp: photocopy, máy in nhân bản, scan, phối trang, in laser, thiết bị phòng học, vật tư, thiết bị văn phòng và FANSIPAN.")
-@section('canonical', url('/san-pham/'))
+@section('canonical', "https://huongsonco.com.vn/san-pham/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -171,22 +171,22 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')
 <!-- PAGE HERO -->
-  <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-office.jpg" alt="Sản phẩm thiết bị văn phòng, in ấn và số hóa" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[#181924]/88"></div>
+      <img src="/assets/images/hero-office.jpg" alt="Sản phẩm thiết bị văn phòng, in ấn và số hóa" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Office Equipment · Production Print</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Sản phẩm thiết bị văn phòng, in ấn và số hóa</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">9 nhóm thiết bị Hương Sơn cung cấp: từ máy photocopy đa chức năng đến vật tư tiêu hao — bán, cho thuê và bảo trì.</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Sản phẩm</span>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Office Equipment · Production Print</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Sản phẩm thiết bị văn phòng, in ấn và số hóa</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">9 nhóm thiết bị Hương Sơn cung cấp: từ máy photocopy đa chức năng đến vật tư tiêu hao — bán, cho thuê và bảo trì.</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Sản phẩm</span>
       </nav>
     </div>
   </section>

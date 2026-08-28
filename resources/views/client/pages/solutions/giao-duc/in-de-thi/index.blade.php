@@ -2,7 +2,7 @@
 
 @section('title', "Cho thuê máy in đề thi Duplo – Giải pháp EXAM PRO cho Sở GD&ĐT | Hương Sơn")
 @section('meta_description', "Cho thuê máy in đề thi, máy in nhân bản Duplo tốc độ cao và giải pháp in sao đề thi cho Sở GD&ĐT, Hội đồng thi và điểm sao in. Gồm thiết bị, Master, mực, vận chuyển, lắp đặt, kỹ thuật trực và máy dự phòng.")
-@section('canonical', url('/giai-phap/giao-duc/in-de-thi/'))
+@section('canonical', "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -307,22 +307,22 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')
 <!-- PAGE HERO -->
-  <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-education.jpg" alt="Cho thuê máy in đề thi – in sao đề thi cho Sở GD&amp;ĐT" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[#181924]/88"></div>
+      <img src="/assets/images/hero-education.jpg" alt="Cho thuê máy in đề thi – in sao đề thi cho Sở GD&amp;ĐT" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">EXAM PRO</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Cho thuê máy in đề thi – in sao đề thi cho Sở GD&amp;ĐT</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">Hương Sơn cung cấp dịch vụ cho thuê máy in đề thi, máy in nhân bản Duplo tốc độ cao và giải pháp in sao đề thi cho Sở GD&amp;ĐT, Hội đồng thi và các điểm sao in. Dịch vụ bao gồm thiết bị, Master, mực, vận chuyển, lắp đặt, kỹ thuật trực và phương án máy dự phòng.</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/giai-phap/" class="hover:text-white transition">Giải pháp</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/giai-phap/giao-duc/" class="hover:text-white transition">Giải pháp thiết bị &amp; in ấn cho ngành Giáo dục</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Cho thuê máy in đề thi – in sao đề thi cho Sở GD&amp;ĐT</span>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">EXAM PRO</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Cho thuê máy in đề thi – in sao đề thi cho Sở GD&amp;ĐT</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Hương Sơn cung cấp dịch vụ cho thuê máy in đề thi, máy in nhân bản Duplo tốc độ cao và giải pháp in sao đề thi cho Sở GD&amp;ĐT, Hội đồng thi và các điểm sao in. Dịch vụ bao gồm thiết bị, Master, mực, vận chuyển, lắp đặt, kỹ thuật trực và phương án máy dự phòng.</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/giai-phap/" class="text-gray-300 hover:text-white transition">Giải pháp</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/giai-phap/giao-duc/" class="text-gray-300 hover:text-white transition">Giải pháp thiết bị &amp; in ấn cho ngành Giáo dục</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Cho thuê máy in đề thi – in sao đề thi cho Sở GD&amp;ĐT</span>
       </nav>
     </div>
   </section>
@@ -711,7 +711,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">

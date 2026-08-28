@@ -148,6 +148,88 @@ siêu tốc, vật tư Master/mực, kỹ thuật trực và phương án máy d
     WRITTEN.remove("/404/")
 
 
+def sync_blade_templates():
+    import re
+    CLIENT_PAGES = os.path.join(ROOT, 'resources', 'views', 'client', 'pages')
+
+    def convert_html_file(html_path, blade_path):
+        if not os.path.exists(html_path):
+            return
+        with open(html_path, 'r', encoding='utf-8') as f:
+            html = f.read()
+
+        title_m = re.search(r'<title>(.*?)</title>', html, re.DOTALL)
+        title = title_m.group(1).strip() if title_m else 'Hương Sơn'
+
+        desc_m = re.search(r'<meta\s+name=[\"\x27]description[\"\x27]\s+content=[\"\x27](.*?)[\"\x27]', html, re.DOTALL)
+        desc = desc_m.group(1).strip() if desc_m else ''
+
+        canon_m = re.search(r'<link\s+rel=[\"\x27]canonical[\"\x27]\s+href=[\"\x27](.*?)[\"\x27]', html, re.DOTALL)
+        canon = canon_m.group(1).strip() if canon_m else ''
+
+        jsonlds = re.findall(r'<script\s+type=[\"\x27]application/ld\+json[\"\x27]>(.*?)</script>', html, re.DOTALL)
+        escaped_jsonld = ''
+        if jsonlds:
+            escaped_jsonld = '@section(\x27jsonld\x27)\n'
+            for ld in jsonlds:
+                clean_ld = ld.strip().replace('@', '@@')
+                escaped_jsonld += f'<script type=\"application/ld+json\">\n{clean_ld}\n</script>\n'
+            escaped_jsonld += '@endsection\n'
+
+        main_m = re.search(r'<main\s+id=[\"\x27]main-content[\"\x27]>(.*?)</main>', html, re.DOTALL)
+        if main_m:
+            content = main_m.group(1).strip()
+        else:
+            content_m = re.search(r'</header>(.*?)(?:<!-- FOOTER -->|<footer)', html, re.DOTALL)
+            content = content_m.group(1).strip() if content_m else ''
+
+        content = content.replace('@', '@@')
+
+        safe_title = title.replace('\"', '\\\"')
+        safe_desc = desc.replace('\"', '\\\"')
+        safe_canon = canon.replace('\"', '\\\"')
+
+        blade = f'''@extends('client.layouts.app')
+
+@section('title', \"{safe_title}\")
+@section('meta_description', \"{safe_desc}\")
+@section('canonical', \"{safe_canon}\")
+{escaped_jsonld}
+@section('content')
+{content}
+@endsection
+'''
+        os.makedirs(os.path.dirname(blade_path), exist_ok=True)
+        with open(blade_path, 'w', encoding='utf-8') as f:
+            f.write(blade)
+
+    convert_html_file(os.path.join(ROOT, 'index.html'), os.path.join(CLIENT_PAGES, 'home.blade.php'))
+
+    for dir_prefix in ['san-pham', 'giai-phap', 'dich-vu', 'du-an', 've-huong-son', 'cong-cu', 'nhan-tu-van']:
+        full_dir = os.path.join(ROOT, dir_prefix)
+        if not os.path.exists(full_dir):
+            continue
+        for root, dirs, files in os.walk(full_dir):
+            if 'index.html' in files:
+                rel = os.path.relpath(root, ROOT)
+                folder_map = {
+                    'cong-cu': 'tools',
+                    'nhan-tu-van': 'lead',
+                    'san-pham': 'products',
+                    'giai-phap': 'solutions',
+                    'dich-vu': 'services',
+                    'du-an': 'projects',
+                    've-huong-son': 'about',
+                }
+                parts = rel.split('/')
+                mapped_parts = [folder_map.get(parts[0], parts[0])] + parts[1:]
+                blade_rel = os.path.join(*mapped_parts, 'index.blade.php') if len(mapped_parts) > 1 or mapped_parts[0] in ['products', 'solutions', 'services', 'projects', 'about', 'tools', 'lead'] else f'{mapped_parts[0]}.blade.php'
+                
+                html_file = os.path.join(root, 'index.html')
+                blade_file = os.path.join(CLIENT_PAGES, blade_rel)
+                convert_html_file(html_file, blade_file)
+
+
 MODULES = ["pages_solutions", "pages_products", "pages_services", "pages_projects",
            "pages_about", "pages_lead", "pages_home"]
 
@@ -164,10 +246,12 @@ def main():
         print("  (chưa có module: " + ", ".join(missing) + ")")
 
     build_infra()
-    print(f"\n✔ Đã sinh {len(WRITTEN)} trang + sitemap.xml + robots.txt + llms.txt + 404.html")
+    sync_blade_templates()
+    print(f"\n✔ Đã sinh {len(WRITTEN)} trang + Blade templates + sitemap.xml + robots.txt + llms.txt + 404.html")
     for u in sorted(WRITTEN):
         print("  ", u)
 
 
 if __name__ == "__main__":
     main()
+

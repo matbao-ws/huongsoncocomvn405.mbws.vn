@@ -2,7 +2,7 @@
 
 @section('title', "Thiết bị văn phòng, hội họp và văn phòng phẩm | Hương Sơn")
 @section('meta_description', "Cung cấp thiết bị văn phòng, hội họp và văn phòng phẩm: kệ hồ sơ, file, giấy các loại, sổ sách và đồ dùng văn phòng — qua Cửa hàng thiết bị văn phòng Hương Sơn.")
-@section('canonical', url('/san-pham/thiet-bi-van-phong-hoi-hop/'))
+@section('canonical', "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -144,22 +144,22 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')
 <!-- PAGE HERO -->
-  <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-office.jpg" alt="Thiết bị văn phòng – hội họp và văn phòng phẩm" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[#181924]/88"></div>
+      <img src="/assets/images/hero-office.jpg" alt="Thiết bị văn phòng – hội họp và văn phòng phẩm" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Office Equipment</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Thiết bị văn phòng – hội họp và văn phòng phẩm</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">Ngoài thiết bị in ấn, Hương Sơn còn cung cấp thiết bị văn phòng, hội họp và văn phòng phẩm qua Cửa hàng thiết bị văn phòng &amp; văn phòng phẩm Hương Sơn tại Đức Giang, Long Biên, Hà Nội.</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/san-pham/" class="hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Thiết bị văn phòng – hội họp và văn phòng phẩm</span>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Office Equipment</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Thiết bị văn phòng – hội họp và văn phòng phẩm</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Ngoài thiết bị in ấn, Hương Sơn còn cung cấp thiết bị văn phòng, hội họp và văn phòng phẩm qua Cửa hàng thiết bị văn phòng &amp; văn phòng phẩm Hương Sơn tại Đức Giang, Long Biên, Hà Nội.</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Thiết bị văn phòng – hội họp và văn phòng phẩm</span>
       </nav>
     </div>
   </section>
@@ -211,7 +211,7 @@
             <span class="text-[15.5px] font-bold text-[#181923] group-open:text-[#1A9900] transition">Mua văn phòng phẩm liên hệ ở đâu?</span>
             <i class="fa-solid fa-plus text-[#1A9900] text-xs mt-1.5 flex-shrink-0 group-open:rotate-45 transition-transform"></i>
           </summary>
-          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Cửa hàng thiết bị văn phòng & văn phòng phẩm Hương Sơn tại số 2 ngõ 67 phố Đức Giang, phường Việt Hưng, quận Long Biên, Hà Nội — phụ trách Mrs. Nguyễn Thị Hương, di động 0916533383, email vpphuongson@gmail.com.</div>
+          <div class="px-5 pb-5 text-[14.5px] text-gray-600 leading-relaxed border-t border-gray-100 pt-4">Cửa hàng thiết bị văn phòng & văn phòng phẩm Hương Sơn tại số 2 ngõ 67 phố Đức Giang, phường Việt Hưng, quận Long Biên, Hà Nội — phụ trách Mrs. Nguyễn Thị Hương, di động 0916533383, email vpphuongson@@gmail.com.</div>
         </details>
         <details class="group border border-gray-200 bg-white">
           <summary class="flex items-start justify-between gap-4 cursor-pointer px-5 py-4 list-none">
@@ -277,7 +277,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">

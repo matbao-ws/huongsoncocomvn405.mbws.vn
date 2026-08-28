@@ -2,7 +2,7 @@
 
 @section('title', "Giải pháp thiết bị in ấn, scan và số hóa cho Cơ quan Nhà nước | Hương Sơn")
 @section('meta_description', "Cung cấp thiết bị, cho thuê máy, vật tư, dịch vụ kỹ thuật và số hóa hồ sơ cho Bộ, Sở, UBND và đơn vị sự nghiệp. Hồ sơ đầy đủ phục vụ dự toán, đấu thầu, nghiệm thu và thanh toán.")
-@section('canonical', url('/giai-phap/co-quan-nha-nuoc/'))
+@section('canonical', "https://huongsonco.com.vn/giai-phap/co-quan-nha-nuoc/")
 @section('jsonld')
 <script type="application/ld+json">
 [
@@ -297,22 +297,22 @@
     ]
   }
 ]
-  </script>
+</script>
 @endsection
 
 @section('content')
 <!-- PAGE HERO -->
-  <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
+  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-solutions.jpg" alt="Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước" class="w-full h-full object-cover object-center" loading="eager" />
-      <div class="absolute inset-0 bg-[#181924]/88"></div>
+      <img src="/assets/images/hero-solutions.jpg" alt="Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Government Solutions</span>
-      <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước</h1>
-      <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">Hương Sơn cung cấp thiết bị, dịch vụ cho thuê, vật tư, kỹ thuật và giải pháp số hóa hồ sơ cho Bộ, Sở, UBND, đơn vị sự nghiệp và cơ quan hành chính – kèm bộ hồ sơ đầy đủ phục vụ dự toán, nghiệm thu và thanh toán.</p>
-      <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/giai-phap/" class="hover:text-white transition">Giải pháp</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước</span>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Government Solutions</span>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước</h1>
+      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Hương Sơn cung cấp thiết bị, dịch vụ cho thuê, vật tư, kỹ thuật và giải pháp số hóa hồ sơ cho Bộ, Sở, UBND, đơn vị sự nghiệp và cơ quan hành chính – kèm bộ hồ sơ đầy đủ phục vụ dự toán, nghiệm thu và thanh toán.</p>
+      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/giai-phap/" class="text-gray-300 hover:text-white transition">Giải pháp</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Giải pháp thiết bị, in ấn và số hóa cho Cơ quan Nhà nước</span>
       </nav>
     </div>
   </section>
@@ -687,7 +687,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">
