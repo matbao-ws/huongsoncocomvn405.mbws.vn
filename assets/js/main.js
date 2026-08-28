@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (dotsContainer) {
         Array.from(dotsContainer.children).forEach((dot, dIdx) => {
           if (dIdx === currentIndex) {
-            dot.className = 'w-6 h-2 bg-[#1f7c45] transition-all duration-300';
+            dot.className = 'w-6 h-2 bg-[#1A9900] transition-all duration-300';
           } else {
             dot.className = 'w-2 h-2 bg-gray-300 transition-all duration-300 hover:bg-gray-400 cursor-pointer';
           }
@@ -252,10 +252,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const toast = document.createElement('div');
     const isSuccess = type === 'success';
     toast.className = `flex items-center px-4 py-3 rounded-lg shadow-xl text-white transform transition-all duration-300 translate-y-8 opacity-0 ${
-      isSuccess ? 'bg-[#181924] border-l-4 border-[#1f7c45]' : 'bg-red-600'
+      isSuccess ? 'bg-[#181924] border-l-4 border-[#1A9900]' : 'bg-red-600'
     }`;
     toast.innerHTML = `
-      <div class="mr-3 text-[#1f7c45]">
+      <div class="mr-3 text-[#1A9900]">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
         </svg>

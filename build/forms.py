@@ -117,7 +117,7 @@ def lead_form(*, form_id="lead", page_type="", preset_nhu_cau="", product_model=
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">{fields}
           </div>
           <div class="mt-7 flex flex-col sm:flex-row items-center gap-4">
-            <button type="submit" data-ga="generate_lead" class="bg-[{BRAND}] hover:bg-[#176035] text-white font-bold text-xs uppercase tracking-wider px-9 py-4 transition w-full sm:w-auto">
+            <button type="submit" data-ga="generate_lead" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-9 py-4 transition w-full sm:w-auto">
               {esc(submit)}
             </button>
             <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="text-[14.5px] font-bold text-[#181923] hover:text-[{BRAND}] transition">

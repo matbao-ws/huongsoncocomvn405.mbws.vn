@@ -10,7 +10,8 @@
       { "label": "Máy in Laser – Thiết bị in", "url": "/san-pham/may-in-laser/" },
       { "label": "Thiết bị phòng học – Giáo dục", "url": "/san-pham/thiet-bi-phong-hoc-giao-duc/" },
       { "label": "Vật tư – Linh kiện – Tiêu hao", "url": "/san-pham/vat-tu-linh-kien-tieu-hao/" },
-      { "label": "Thiết bị văn phòng – Hội họp", "url": "/san-pham/thiet-bi-van-phong-hoi-hop/" }
+      { "label": "Thiết bị văn phòng – Hội họp", "url": "/san-pham/thiet-bi-van-phong-hoi-hop/" },
+      { "label": "FANSIPAN – Vật tư tương thích", "url": "/san-pham/fansipan/" }
     ]
   },
   {

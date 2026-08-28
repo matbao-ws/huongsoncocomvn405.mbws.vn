@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Trang sản phẩm — danh mục (8) + trang model theo đúng 12 trường AI-ready:
+"""Trang sản phẩm — danh mục (9) + trang model theo đúng 12 trường AI-ready:
 tên chuẩn, model, manufacturer, compatible model, use case, specifications,
 FAQ, comparison, document, source, application, industry.
 """
@@ -24,7 +24,9 @@ def render_category(cat):
 
     inner = f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">{esc(cat["summary"])}</p>'
     if cat.get("sub_notes"):
-        inner += C.bullets([esc(n) for n in cat["sub_notes"]], cols=1) + '<div class="mb-10"></div>'
+        # sub_notes cho phép HTML tin cậy (liên kết chéo), giống cách FAQ xử lý câu trả lời —
+        # không esc() để link nội bộ (vd: trỏ sang trang FANSIPAN) render đúng thành thẻ <a>.
+        inner += C.bullets(cat["sub_notes"], cols=1) + '<div class="mb-10"></div>'
 
     models = [MODEL_BY_SLUG[s] for s in cat["models"]]
     if models:
@@ -157,10 +159,10 @@ def render_hub():
     body = C.page_hero(
         eyebrow="Office Equipment · Production Print",
         h1="Sản phẩm thiết bị văn phòng, in ấn và số hóa",
-        lead="8 nhóm thiết bị Hương Sơn cung cấp: từ máy photocopy đa chức năng đến vật tư tiêu hao — bán, cho thuê và bảo trì.",
+        lead="9 nhóm thiết bị Hương Sơn cung cấp: từ máy photocopy đa chức năng đến vật tư tiêu hao — bán, cho thuê và bảo trì.",
         trail=trail)
     body += C.answer_first([
-        ["Trang này là gì", "Trang tổng hợp 8 danh mục sản phẩm mà Hương Sơn cung cấp: thiết bị, vật tư và linh kiện cho in ấn và văn phòng."],
+        ["Trang này là gì", "Trang tổng hợp 9 danh mục sản phẩm mà Hương Sơn cung cấp: thiết bị, vật tư và linh kiện cho in ấn và văn phòng."],
         ["Dành cho ai", "Khách hàng cần tra cứu nhanh nhóm thiết bị phù hợp trước khi xem chi tiết từng model."],
         ["Giải quyết vấn đề gì", "Định hướng đúng danh mục theo nhu cầu: photocopy, in nhân bản, scan, sau in, in laser, thiết bị phòng học, vật tư hay thiết bị văn phòng."],
     ])
@@ -174,7 +176,7 @@ def render_hub():
     ld = [schema.organization(), schema.breadcrumb(trail),
           schema.itemlist("Danh mục sản phẩm Hương Sơn", [(c["h1"], c["url"]) for c in CATEGORIES])]
     return render.page(title="Sản phẩm – Thiết bị văn phòng, in ấn, số hóa | Hương Sơn",
-                       description="8 nhóm sản phẩm Hương Sơn cung cấp: photocopy, máy in nhân bản, scan, phối trang, in laser, thiết bị phòng học, vật tư và thiết bị văn phòng.",
+                       description="9 nhóm sản phẩm Hương Sơn cung cấp: photocopy, máy in nhân bản, scan, phối trang, in laser, thiết bị phòng học, vật tư, thiết bị văn phòng và FANSIPAN.",
                        url="/san-pham/", body=body, jsonld=ld, active="/san-pham/")
 
 

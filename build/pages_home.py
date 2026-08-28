@@ -2,7 +2,7 @@
 """TRANG CHỦ — map các section giao diện mẫu 8324 sang nội dung khách hàng của
 Hương Sơn (xem KE-HOACH §7). Chỉ trình bày nội dung phục vụ khách hàng — không
 đưa mô hình vận hành/kênh bán hàng nội bộ lên trang công khai.
-Giữ nguyên ngôn ngữ thiết kế: xanh lá #1f7c45 + đen than #181924, phong cách
+Giữ nguyên ngôn ngữ thiết kế: xanh lá #1A9900 + đen than #181924, phong cách
 vuông vức/flat.
 """
 import render
@@ -27,7 +27,7 @@ def _hero():
     </div>
     <div class="relative z-10 {WRAP} py-20 w-full">
       <div class="max-w-3xl text-white">
-        <span class="font-handwriting text-3xl text-[#35a05e] font-bold block mb-3">Hương Sơn từ 2008</span>
+        <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-3">Hương Sơn từ 2008</span>
         <h1 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-5">
           GIẢI PHÁP THIẾT BỊ – IN ẤN VÀ SỐ HÓA
         </h1>
@@ -38,7 +38,7 @@ def _hero():
           Đồng hành cùng Cơ quan Nhà nước – Sở Giáo dục & Đào tạo – Ngân hàng – Doanh nghiệp trong quản lý, xử lý và số hóa tài liệu.
         </p>
         <div class="flex flex-wrap items-center gap-4">
-          <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[{BRAND}] hover:bg-[#176035] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Yêu cầu báo giá</a>
+          <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Yêu cầu báo giá</a>
           <a href="/giai-phap/giao-duc/in-de-thi/" data-ga="cta_click" class="border border-gray-400 hover:border-white text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Phương án in đề thi</a>
         </div>
       </div>
@@ -95,7 +95,7 @@ def _why():
     <div class="{WRAP}">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         <div class="lg:col-span-5">
-          <span class="font-handwriting text-3xl text-[#35a05e] font-bold block mb-2">Vì sao chọn Hương Sơn?</span>
+          <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Vì sao chọn Hương Sơn?</span>
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#181923] mb-6 leading-tight">Từ máy đến giải pháp vận hành</h2>
           <p class="text-gray-600 text-sm sm:text-base mb-2 leading-relaxed">
             Hương Sơn không chỉ bán một chiếc máy — Hương Sơn cung cấp năng lực xử lý tài liệu trọn vòng đời: thiết bị, cho thuê, vật tư, kỹ thuật và số hóa.
@@ -149,12 +149,12 @@ def _pillars():
         + f'<div class="grid grid-cols-1 md:grid-cols-3 gap-8">{cards}</div>', pad="py-16")
 
 
-# ------------------------------------------------------- S7: 8 danh mục sản phẩm
+# ------------------------------------------------------- S7: 9 danh mục sản phẩm
 def _categories():
     cards = [{"title": c["h1"], "url": c["url"], "icon": "fa-solid fa-box",
              "tag": c["eyebrow"], "text": esc(c["summary"][:110] + "…")} for c in PRODUCTS["categories"]]
     return C.section(
-        C.heading(eyebrow="Danh mục", title="8 nhóm sản phẩm Hương Sơn cung cấp")
+        C.heading(eyebrow="Danh mục", title="9 nhóm sản phẩm Hương Sơn cung cấp")
         + C.card_grid(cards, cols=4)
         + f'<div class="text-center mt-10"><a href="/san-pham/" class="inline-block border border-gray-300 hover:border-[{BRAND}] hover:text-[{BRAND}] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem tất cả sản phẩm</a></div>',
         bg="light", pad="py-16")

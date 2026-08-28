@@ -2,7 +2,8 @@
 """Chrome dùng chung cho toàn bộ website Hương Sơn.
 
 Giữ nguyên ngôn ngữ thiết kế của mẫu 8324 khách đã duyệt:
-xanh lá #1f7c45 + đen than #181924, phong cách vuông vức/flat, Plus Jakarta Sans.
+xanh lá #1A9900 (đúng mã màu trong logo vector chính thức) + đen than #181924,
+phong cách vuông vức/flat, Plus Jakarta Sans.
 Mọi đường dẫn dùng root-absolute (/assets/...) để trang ở thư mục sâu vẫn đúng.
 """
 import json
@@ -20,7 +21,7 @@ def load(name):
 SITE = load("site.json")
 NAV = load("nav.json")
 
-BRAND = "#1f7c45"
+BRAND = "#1A9900"
 DARK = "#181924"
 
 
@@ -52,8 +53,10 @@ def head(*, title, description, url, keywords="", og_type="website", jsonld=None
   <meta property="og:image" content="{SITE['website'].rstrip('/')}{SITE['og_image']}" />
   <meta property="og:locale" content="vi_VN" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="/assets/images/logo-favicon-mbws-png.png" sizes="32x32" />
-  <link rel="apple-touch-icon" href="/assets/images/logo-favicon-mbws-png.png" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/brand/favicon.svg" />
+  <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/assets/images/favicon-16.png" sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
 
   <!-- Tailwind CSS CDN — Phase 3: thay bằng file CSS đã purge qua Tailwind CLI khi môi trường có Node -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -63,7 +66,7 @@ def head(*, title, description, url, keywords="", og_type="website", jsonld=None
         extend: {{
           colors: {{
             brand: {{
-              green: '{BRAND}', greenHover: '#176035', greenAccent: '#35a05e',
+              green: '{BRAND}', greenHover: '#147700', greenAccent: '#5eb74c',
               dark: '{DARK}', deepDark: '#12131c', text: '#5b5d62', heading: '#181923',
               beige: 'rgb(247, 243, 238)', lightBg: '#f5f8fb',
             }}
@@ -166,7 +169,7 @@ def header(active=""):
         <button class="search-toggle text-white hover:text-[{BRAND}] transition text-base" aria-label="Tìm kiếm">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
-        <a href="/nhan-tu-van/bao-gia/" class="bg-[{BRAND}] hover:bg-[#176035] text-white font-bold text-xs uppercase tracking-wider px-6 py-3 transition">
+        <a href="/nhan-tu-van/bao-gia/" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-6 py-3 transition">
           YÊU CẦU BÁO GIÁ
         </a>
       </div>
@@ -293,7 +296,7 @@ def drawer():
     <div class="p-6 flex-1 overflow-y-auto space-y-3">{items}
     </div>
     <div class="p-6 border-t border-gray-800 bg-[#12131c]">
-      <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="bg-[{BRAND}] hover:bg-[#176035] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block">
+      <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block">
         <i class="fa-solid fa-phone mr-2"></i> {SITE['hotline_primary']}
       </a>
     </div>

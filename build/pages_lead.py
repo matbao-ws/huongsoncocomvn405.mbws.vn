@@ -125,28 +125,28 @@ def _calc_rental():
           <div class="bg-white border border-gray-200 p-7 space-y-6">
             <div>
               <label class="block text-[13px] font-semibold text-[#181923] mb-2">Sản lượng in bình quân mỗi tháng (bản)</label>
-              <input type="number" id="calc-volume" value="5000" min="0" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" />
+              <input type="number" id="calc-volume" value="5000" min="0" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" />
             </div>
             <div>
               <label class="block text-[13px] font-semibold text-[#181923] mb-2">Đơn giá tham khảo mỗi bản in (đồng)</label>
-              <input type="number" id="calc-price" value="350" min="0" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" />
+              <input type="number" id="calc-price" value="350" min="0" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" />
             </div>
             <div>
               <label class="block text-[13px] font-semibold text-[#181923] mb-2">Phí thuê máy cố định mỗi tháng (đồng)</label>
-              <input type="number" id="calc-fixed" value="800000" min="0" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" />
+              <input type="number" id="calc-fixed" value="800000" min="0" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" />
             </div>
             <div>
               <label class="block text-[13px] font-semibold text-[#181923] mb-2">Thời hạn thuê (tháng)</label>
-              <input type="number" id="calc-months" value="24" min="1" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" />
+              <input type="number" id="calc-months" value="24" min="1" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" />
             </div>
           </div>
         </div>
         <div class="lg:col-span-6">
           <div class="p-7 h-full flex flex-col justify-center" style="background-color: rgb(247,243,238);">
-            <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1f7c45] mb-2">Ước tính chi phí mỗi tháng</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-2">Ước tính chi phí mỗi tháng</p>
             <p class="text-4xl font-bold text-[#181923] mb-1" id="calc-result-month">—</p>
             <p class="text-[13.5px] text-gray-500 mb-6">Phí cố định + (sản lượng × đơn giá mỗi bản)</p>
-            <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1f7c45] mb-2">Ước tính tổng chi phí cả thời hạn thuê</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-2">Ước tính tổng chi phí cả thời hạn thuê</p>
             <p class="text-3xl font-bold text-[#181923]" id="calc-result-total">—</p>
           </div>
         </div>
@@ -154,7 +154,7 @@ def _calc_rental():
       <p class="text-[13px] text-gray-500 mt-6 max-w-3xl">
         Đây là công cụ ước tính tham khảo, không phải báo giá chính thức. Chi phí thực tế phụ thuộc cấu hình máy,
         khổ giấy, gói dịch vụ và điều kiện phát sinh — vui lòng
-        <a class="text-[#1f7c45] font-medium hover:underline" href="/nhan-tu-van/tu-van-thue-may/">gửi yêu cầu tư vấn thuê máy</a>
+        <a class="text-[#1A9900] font-medium hover:underline" href="/nhan-tu-van/tu-van-thue-may/">gửi yêu cầu tư vấn thuê máy</a>
         để nhận báo giá chính xác.
       </p>
       <script>
@@ -194,31 +194,31 @@ def _calc_tco():
         <div class="bg-white border border-gray-200 p-7 space-y-5">
           <h3 class="font-bold text-[#181923] uppercase text-sm tracking-wider mb-2">Phương án mua</h3>
           <div><label class="block text-[13px] font-semibold text-[#181923] mb-2">Giá mua thiết bị (đồng)</label>
-            <input type="number" id="tco-buy-price" value="56500000" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" /></div>
+            <input type="number" id="tco-buy-price" value="56500000" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" /></div>
           <div><label class="block text-[13px] font-semibold text-[#181923] mb-2">Vật tư + bảo trì mỗi tháng (đồng)</label>
-            <input type="number" id="tco-buy-monthly" value="600000" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" /></div>
+            <input type="number" id="tco-buy-monthly" value="600000" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" /></div>
         </div>
         <div class="bg-white border border-gray-200 p-7 space-y-5">
           <h3 class="font-bold text-[#181923] uppercase text-sm tracking-wider mb-2">Phương án thuê</h3>
           <div><label class="block text-[13px] font-semibold text-[#181923] mb-2">Phí thuê trọn gói mỗi tháng (đồng)</label>
-            <input type="number" id="tco-rent-monthly" value="1800000" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" /></div>
+            <input type="number" id="tco-rent-monthly" value="1800000" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" /></div>
           <div><label class="block text-[13px] font-semibold text-[#181923] mb-2">Thời gian sử dụng để so sánh (tháng)</label>
-            <input type="number" id="tco-months" value="36" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1f7c45]" /></div>
+            <input type="number" id="tco-months" value="36" class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900]" /></div>
         </div>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div class="p-7" style="background-color: rgb(247,243,238);">
-          <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1f7c45] mb-2">Tổng chi phí phương án mua</p>
+          <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-2">Tổng chi phí phương án mua</p>
           <p class="text-3xl font-bold text-[#181923]" id="tco-buy-total">—</p>
         </div>
         <div class="p-7" style="background-color: rgb(247,243,238);">
-          <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1f7c45] mb-2">Tổng chi phí phương án thuê</p>
+          <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-2">Tổng chi phí phương án thuê</p>
           <p class="text-3xl font-bold text-[#181923]" id="tco-rent-total">—</p>
         </div>
       </div>
       <p class="text-[13px] text-gray-500 mt-6 max-w-3xl">
         Công cụ ước tính tham khảo dựa trên số liệu Quý khách nhập, không thay thế cho Cost Sheet nội bộ mà Hương Sơn
-        lập trước khi báo giá chính thức. Vui lòng <a class="text-[#1f7c45] font-medium hover:underline" href="/nhan-tu-van/bao-gia/">yêu cầu báo giá</a>
+        lập trước khi báo giá chính thức. Vui lòng <a class="text-[#1A9900] font-medium hover:underline" href="/nhan-tu-van/bao-gia/">yêu cầu báo giá</a>
         để có con số chính xác theo cấu hình cụ thể.
       </p>
       <script>

@@ -48,7 +48,7 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/xxx_about-hero_
       <div class="absolute inset-0 bg-[{DARK}]/88"></div>
     </div>
     <div class="relative z-10 {WRAP} py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#35a05e] font-bold block mb-2">{esc(eyebrow)}</span>
+      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">{esc(eyebrow)}</span>
       <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">{esc(h1)}</h1>
       <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">{lead}</p>
       <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
@@ -132,7 +132,7 @@ def cta_band(*, title, text, primary=("Yêu cầu báo giá", "/nhan-tu-van/bao-
         <p class="text-gray-300 text-[15px] leading-relaxed">{text}</p>
       </div>
       <div class="flex flex-wrap items-center gap-4 flex-shrink-0">
-        <a href="{primary[1]}" data-ga="cta_click" class="bg-[{BRAND}] hover:bg-[#176035] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">{esc(primary[0])}</a>
+        <a href="{primary[1]}" data-ga="cta_click" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">{esc(primary[0])}</a>
         {sec}
         <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="text-white font-bold text-sm hover:text-[{BRAND}] transition">
           <i class="fa-solid fa-phone text-[{BRAND}] mr-2"></i>{SITE['hotline_primary']}

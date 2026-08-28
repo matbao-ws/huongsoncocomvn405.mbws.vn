@@ -1,5 +1,5 @@
 [
-{
+ {
   "slug": "bao-tri-sua-chua",
   "url": "/dich-vu/bao-tri-sua-chua/",
   "name": "Bảo trì – Sửa chữa máy photocopy, máy in",
@@ -8,41 +8,104 @@
   "service_type": "Bảo trì và sửa chữa thiết bị văn phòng, máy photocopy, máy in",
   "seo_title": "Dịch vụ bảo trì, sửa chữa máy photocopy, máy in tại Hà Nội | Hương Sơn",
   "seo_desc": "Dịch vụ bảo trì, bảo dưỡng định kỳ và sửa chữa máy photocopy, máy in, máy in nhân bản. Cam kết thời gian xử lý theo cấp độ sự cố, kỹ thuật viên có kinh nghiệm nhiều hãng.",
-  "keywords": "dịch vụ bảo trì máy photocopy, sửa chữa máy photocopy, bảo dưỡng máy in, dịch vụ kỹ thuật máy photocopy Hà Nội",
+  "keywords": "sửa máy photocopy, sửa máy photocopy Hà Nội, sửa máy in Hà Nội, sửa máy photocopy văn phòng, sửa máy photocopy Toshiba, sửa máy photocopy Ricoh, sửa máy photocopy Konica Minolta, bảo trì máy photocopy, bảo trì máy photocopy Hà Nội, bảo dưỡng máy photocopy, bảo dưỡng máy in, bảo trì máy in siêu tốc, bảo trì Duplo, bảo trì Ricoh, trung tâm bảo hành máy photocopy",
   "lead": "Hương Sơn cung cấp dịch vụ bảo trì định kỳ và sửa chữa máy photocopy, máy in, máy in nhân bản — với cam kết thời gian xử lý theo cấp độ sự cố và đội kỹ thuật có kinh nghiệm nhiều hãng.",
   "summary": "Bảo trì phòng ngừa theo lịch và sửa chữa khi có sự cố, áp dụng cho máy đã mua từ Hương Sơn hoặc thiết bị đang sử dụng của đơn vị.",
   "answer_first": [
-    ["Trang này là gì", "Dịch vụ bảo trì định kỳ và sửa chữa máy photocopy, máy in, máy in nhân bản của Hương Sơn."],
-    ["Dành cho ai", "Đơn vị đang sở hữu hoặc thuê thiết bị in ấn, cần bảo trì định kỳ hoặc xử lý sự cố."],
-    ["Giải quyết vấn đề gì", "Giữ thiết bị hoạt động ổn định, giảm thời gian dừng máy và kéo dài tuổi thọ thiết bị bằng bảo trì phòng ngừa thay vì chỉ sửa khi hỏng."]
+   [
+    "Trang này là gì",
+    "Dịch vụ bảo trì định kỳ và sửa chữa máy photocopy, máy in, máy in nhân bản của Hương Sơn."
+   ],
+   [
+    "Dành cho ai",
+    "Đơn vị đang sở hữu hoặc thuê thiết bị in ấn, cần bảo trì định kỳ hoặc xử lý sự cố."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Giữ thiết bị hoạt động ổn định, giảm thời gian dừng máy và kéo dài tuổi thọ thiết bị bằng bảo trì phòng ngừa thay vì chỉ sửa khi hỏng."
+   ]
   ],
   "scope": [
-    "Bảo trì, bảo dưỡng định kỳ theo lịch: vệ sinh, kiểm tra linh kiện hao mòn, hiệu chỉnh chất lượng bản in.",
-    "Sửa chữa khi có sự cố: từ lỗi nhỏ đến sự cố khiến máy dừng hoàn toàn.",
-    "Thay thế linh kiện, phụ tùng chính hãng hoặc tương thích theo yêu cầu.",
-    "Hỗ trợ từ xa qua điện thoại trước khi cử kỹ thuật đến hiện trường nếu có thể xử lý nhanh.",
-    "Áp dụng cho máy đã mua từ Hương Sơn và cả thiết bị đang sử dụng của đơn vị (đa thương hiệu)."
+   "Bảo trì, bảo dưỡng định kỳ theo lịch: vệ sinh, kiểm tra linh kiện hao mòn, hiệu chỉnh chất lượng bản in.",
+   "Sửa chữa khi có sự cố: từ lỗi nhỏ đến sự cố khiến máy dừng hoàn toàn.",
+   "Thay thế linh kiện, phụ tùng chính hãng hoặc tương thích theo yêu cầu.",
+   "Hỗ trợ từ xa qua điện thoại trước khi cử kỹ thuật đến hiện trường nếu có thể xử lý nhanh.",
+   "Áp dụng cho máy đã mua từ Hương Sơn và cả thiết bị đang sử dụng của đơn vị (đa thương hiệu)."
   ],
   "process": [
-    ["Bước 1", "Tiếp nhận yêu cầu", "Qua điện thoại, Zalo hoặc email; ghi nhận model máy, mô tả sự cố và mức độ ảnh hưởng."],
-    ["Bước 2", "Phân loại mức độ", "Xác định cấp độ P1 (dừng hoàn toàn), P2 (ảnh hưởng chức năng chính) hoặc P3 (lỗi nhỏ)."],
-    ["Bước 3", "Xử lý", "Hỗ trợ từ xa nếu phù hợp, hoặc cử kỹ thuật đến hiện trường theo cam kết thời gian."],
-    ["Bước 4", "Khắc phục và kiểm tra", "Sửa chữa hoặc thay thế linh kiện, kiểm tra lại chất lượng bản in trước khi bàn giao."],
-    ["Bước 5", "Biên bản dịch vụ", "Ghi nhận nội dung đã xử lý, linh kiện đã thay, thời gian thực hiện."]
+   [
+    "Bước 1",
+    "Tiếp nhận yêu cầu",
+    "Qua điện thoại, Zalo hoặc email; ghi nhận model máy, mô tả sự cố và mức độ ảnh hưởng."
+   ],
+   [
+    "Bước 2",
+    "Phân loại mức độ",
+    "Xác định cấp độ P1 (dừng hoàn toàn), P2 (ảnh hưởng chức năng chính) hoặc P3 (lỗi nhỏ)."
+   ],
+   [
+    "Bước 3",
+    "Xử lý",
+    "Hỗ trợ từ xa nếu phù hợp, hoặc cử kỹ thuật đến hiện trường theo cam kết thời gian."
+   ],
+   [
+    "Bước 4",
+    "Khắc phục và kiểm tra",
+    "Sửa chữa hoặc thay thế linh kiện, kiểm tra lại chất lượng bản in trước khi bàn giao."
+   ],
+   [
+    "Bước 5",
+    "Biên bản dịch vụ",
+    "Ghi nhận nội dung đã xử lý, linh kiện đã thay, thời gian thực hiện."
+   ]
   ],
   "sla": [
-    ["P1 – Máy dừng hoàn toàn", "Tiếp nhận ≤ 30 phút", "Mục tiêu có mặt ≤ 2 giờ"],
-    ["P2 – Ảnh hưởng chức năng chính", "Tiếp nhận ≤ 30 phút", "Xử lý trong ngày làm việc"],
-    ["P3 – Lỗi nhỏ", "Tiếp nhận trong ngày", "Xử lý theo lịch bảo trì"]
+   [
+    "P1 – Máy dừng hoàn toàn",
+    "Tiếp nhận ≤ 30 phút",
+    "Mục tiêu có mặt ≤ 2 giờ"
+   ],
+   [
+    "P2 – Ảnh hưởng chức năng chính",
+    "Tiếp nhận ≤ 30 phút",
+    "Xử lý trong ngày làm việc"
+   ],
+   [
+    "P3 – Lỗi nhỏ",
+    "Tiếp nhận trong ngày",
+    "Xử lý theo lịch bảo trì"
+   ]
   ],
   "faqs": [
-    ["Hương Sơn có sửa máy không mua từ Hương Sơn không?", "Có. Đội kỹ thuật của Hương Sơn có kinh nghiệm với nhiều hãng máy (Toshiba, Duplo, Ricoh, Konica Minolta, HP) nên nhận sửa chữa và bảo trì cho thiết bị đang sử dụng của đơn vị, không giới hạn chỉ máy mua từ Hương Sơn."],
-    ["Chi phí bảo trì tính theo gì?", "Tùy vào việc thiết bị còn trong thời gian bảo hành hay đã hết bảo hành, và tùy phạm vi hợp đồng dịch vụ (nếu có). Vui lòng liên hệ để được báo giá theo tình trạng thiết bị cụ thể."],
-    ["Có hợp đồng bảo trì định kỳ theo năm không?", "Có. Xem <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/quan-ly-van-hanh/\">giải pháp quản lý và vận hành</a> để có bảo trì định kỳ trọn gói kèm SLA và báo cáo."]
+   [
+    "Hương Sơn có sửa máy không mua từ Hương Sơn không?",
+    "Có. Đội kỹ thuật của Hương Sơn có kinh nghiệm với nhiều hãng máy (Toshiba, Duplo, Ricoh, Konica Minolta, HP) nên nhận sửa chữa và bảo trì cho thiết bị đang sử dụng của đơn vị, không giới hạn chỉ máy mua từ Hương Sơn."
+   ],
+   [
+    "Chi phí bảo trì tính theo gì?",
+    "Tùy vào việc thiết bị còn trong thời gian bảo hành hay đã hết bảo hành, và tùy phạm vi hợp đồng dịch vụ (nếu có). Vui lòng liên hệ để được báo giá theo tình trạng thiết bị cụ thể."
+   ],
+   [
+    "Có hợp đồng bảo trì định kỳ theo năm không?",
+    "Có. Xem <a class=\"text-[#1A9900] font-medium hover:underline\" href=\"/giai-phap/quan-ly-van-hanh/\">giải pháp quản lý và vận hành</a> để có bảo trì định kỳ trọn gói kèm SLA và báo cáo."
+   ]
   ],
-  "next": [["Vận hành thiết bị", "/dich-vu/van-hanh-thiet-bi/"], ["Vật tư – linh kiện", "/san-pham/vat-tu-linh-kien-tieu-hao/"], ["Quản lý – Vận hành", "/giai-phap/quan-ly-van-hanh/"]]
-},
-{
+  "next": [
+   [
+    "Vận hành thiết bị",
+    "/dich-vu/van-hanh-thiet-bi/"
+   ],
+   [
+    "Vật tư – linh kiện",
+    "/san-pham/vat-tu-linh-kien-tieu-hao/"
+   ],
+   [
+    "Quản lý – Vận hành",
+    "/giai-phap/quan-ly-van-hanh/"
+   ]
+  ]
+ },
+ {
   "slug": "dich-vu-ky-thuat",
   "url": "/dich-vu/dich-vu-ky-thuat/",
   "name": "Dịch vụ kỹ thuật",
@@ -51,35 +114,83 @@
   "service_type": "Dịch vụ kỹ thuật lắp đặt, triển khai và hỗ trợ vận hành thiết bị in ấn",
   "seo_title": "Dịch vụ kỹ thuật lắp đặt, triển khai máy photocopy, máy in | Hương Sơn",
   "seo_desc": "Dịch vụ kỹ thuật: lắp đặt, cấu hình, hướng dẫn sử dụng, trực kỹ thuật tại hiện trường cho kỳ thi và các dự án cần vận hành liên tục.",
-  "keywords": "dịch vụ kỹ thuật máy photocopy, lắp đặt máy in, trực kỹ thuật kỳ thi, hỗ trợ kỹ thuật máy văn phòng",
+  "keywords": "dịch vụ máy photocopy, dịch vụ máy in văn phòng, dịch vụ kỹ thuật photocopy, dịch vụ kỹ thuật máy in, dịch vụ sửa chữa máy văn phòng, dịch vụ bảo trì tận nơi, kỹ thuật viên máy photocopy, quy trình in đề thi bảo mật, phòng in đề thi",
   "lead": "Đội kỹ thuật Hương Sơn thực hiện lắp đặt, cấu hình, hướng dẫn sử dụng và trực kỹ thuật tại hiện trường — đặc biệt cho các đợt in đề thi và dự án cần vận hành liên tục.",
   "summary": "Dịch vụ kỹ thuật đi kèm mọi hợp đồng bán, thuê hoặc quản lý thiết bị của Hương Sơn: từ lắp đặt ban đầu đến trực kỹ thuật trong thời gian vận hành cao điểm.",
   "answer_first": [
-    ["Trang này là gì", "Dịch vụ kỹ thuật của Hương Sơn: lắp đặt, cấu hình, đào tạo sử dụng và trực kỹ thuật tại hiện trường."],
-    ["Dành cho ai", "Mọi khách hàng mua, thuê hoặc sử dụng dịch vụ quản lý thiết bị của Hương Sơn, đặc biệt các đơn vị có đợt vận hành cao điểm như kỳ thi."],
-    ["Giải quyết vấn đề gì", "Đảm bảo thiết bị được lắp đặt đúng, nhân sự biết sử dụng, và có người xử lý ngay khi có sự cố trong thời gian vận hành quan trọng."]
+   [
+    "Trang này là gì",
+    "Dịch vụ kỹ thuật của Hương Sơn: lắp đặt, cấu hình, đào tạo sử dụng và trực kỹ thuật tại hiện trường."
+   ],
+   [
+    "Dành cho ai",
+    "Mọi khách hàng mua, thuê hoặc sử dụng dịch vụ quản lý thiết bị của Hương Sơn, đặc biệt các đơn vị có đợt vận hành cao điểm như kỳ thi."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Đảm bảo thiết bị được lắp đặt đúng, nhân sự biết sử dụng, và có người xử lý ngay khi có sự cố trong thời gian vận hành quan trọng."
+   ]
   ],
   "scope": [
-    "Lắp đặt và cấu hình thiết bị tại địa điểm của khách hàng.",
-    "Hướng dẫn sử dụng cho nhân sự phụ trách.",
-    "Trực kỹ thuật tại hiện trường cho các đợt vận hành cao điểm như kỳ thi.",
-    "Hỗ trợ kỹ thuật từ xa qua điện thoại và Zalo.",
-    "Kiểm tra, chạy thử và in test trước khi bàn giao chính thức."
+   "Lắp đặt và cấu hình thiết bị tại địa điểm của khách hàng.",
+   "Hướng dẫn sử dụng cho nhân sự phụ trách.",
+   "Trực kỹ thuật tại hiện trường cho các đợt vận hành cao điểm như kỳ thi.",
+   "Hỗ trợ kỹ thuật từ xa qua điện thoại và Zalo.",
+   "Kiểm tra, chạy thử và in test trước khi bàn giao chính thức."
   ],
   "process": [
-    ["Bước 1", "Khảo sát trước triển khai", "Kiểm tra nguồn điện, mặt bằng, yêu cầu kết nối mạng (nếu có)."],
-    ["Bước 2", "Lắp đặt và cấu hình", "Lắp đặt thiết bị, cấu hình theo yêu cầu, chạy thử và in test."],
-    ["Bước 3", "Đào tạo sử dụng", "Hướng dẫn nhân sự phụ trách vận hành cơ bản và xử lý lỗi thường gặp."],
-    ["Bước 4", "Trực kỹ thuật (nếu có)", "Bố trí kỹ thuật viên tại hiện trường trong thời gian vận hành cao điểm theo hợp đồng."],
-    ["Bước 5", "Bàn giao", "Lập biên bản bàn giao kỹ thuật, xác nhận tình trạng thiết bị đã sẵn sàng vận hành."]
+   [
+    "Bước 1",
+    "Khảo sát trước triển khai",
+    "Kiểm tra nguồn điện, mặt bằng, yêu cầu kết nối mạng (nếu có)."
+   ],
+   [
+    "Bước 2",
+    "Lắp đặt và cấu hình",
+    "Lắp đặt thiết bị, cấu hình theo yêu cầu, chạy thử và in test."
+   ],
+   [
+    "Bước 3",
+    "Đào tạo sử dụng",
+    "Hướng dẫn nhân sự phụ trách vận hành cơ bản và xử lý lỗi thường gặp."
+   ],
+   [
+    "Bước 4",
+    "Trực kỹ thuật (nếu có)",
+    "Bố trí kỹ thuật viên tại hiện trường trong thời gian vận hành cao điểm theo hợp đồng."
+   ],
+   [
+    "Bước 5",
+    "Bàn giao",
+    "Lập biên bản bàn giao kỹ thuật, xác nhận tình trạng thiết bị đã sẵn sàng vận hành."
+   ]
   ],
   "faqs": [
-    ["Kỹ thuật có trực tại chỗ trong ngày thi không?", "Có, khi phạm vi hợp đồng bao gồm trực kỹ thuật — đây là yêu cầu tiêu chuẩn của <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/giao-duc/in-de-thi/\">gói thuê máy in đề thi</a>."],
-    ["Có hỗ trợ từ xa trước khi cử người đến không?", "Có, nhiều sự cố xử lý được qua hướng dẫn từ xa, giúp tiết kiệm thời gian so với việc luôn phải chờ kỹ thuật đến tận nơi."]
+   [
+    "Kỹ thuật có trực tại chỗ trong ngày thi không?",
+    "Có, khi phạm vi hợp đồng bao gồm trực kỹ thuật — đây là yêu cầu tiêu chuẩn của <a class=\"text-[#1A9900] font-medium hover:underline\" href=\"/giai-phap/giao-duc/in-de-thi/\">gói thuê máy in đề thi</a>."
+   ],
+   [
+    "Có hỗ trợ từ xa trước khi cử người đến không?",
+    "Có, nhiều sự cố xử lý được qua hướng dẫn từ xa, giúp tiết kiệm thời gian so với việc luôn phải chờ kỹ thuật đến tận nơi."
+   ]
   ],
-  "next": [["Bảo trì – Sửa chữa", "/dich-vu/bao-tri-sua-chua/"], ["Cho thuê máy in đề thi", "/giai-phap/giao-duc/in-de-thi/"], ["Vận hành thiết bị", "/dich-vu/van-hanh-thiet-bi/"]]
-},
-{
+  "next": [
+   [
+    "Bảo trì – Sửa chữa",
+    "/dich-vu/bao-tri-sua-chua/"
+   ],
+   [
+    "Cho thuê máy in đề thi",
+    "/giai-phap/giao-duc/in-de-thi/"
+   ],
+   [
+    "Vận hành thiết bị",
+    "/dich-vu/van-hanh-thiet-bi/"
+   ]
+  ]
+ },
+ {
   "slug": "van-hanh-thiet-bi",
   "url": "/dich-vu/van-hanh-thiet-bi/",
   "name": "Vận hành thiết bị",
@@ -88,34 +199,78 @@
   "service_type": "Dịch vụ vận hành và giám sát thiết bị in ấn theo hợp đồng",
   "seo_title": "Dịch vụ vận hành thiết bị in ấn theo hợp đồng | Hương Sơn",
   "seo_desc": "Hương Sơn vận hành và giám sát thiết bị in ấn theo hợp đồng dài hạn: counter, vật tư, bảo trì và báo cáo định kỳ — phù hợp đơn vị có nhiều thiết bị.",
-  "keywords": "dịch vụ vận hành thiết bị in ấn, giám sát máy in theo hợp đồng, quản lý counter máy photocopy, vận hành máy photocopy thuê",
+  "keywords": "managed print service, managed print services Việt Nam, dịch vụ quản lý in ấn, quản lý máy in doanh nghiệp, quản lý hệ thống in, quản lý chi phí in ấn, kiểm soát chi phí in ấn, theo dõi sản lượng in, SLA máy photocopy, SLA dịch vụ máy in",
   "lead": "Với các hợp đồng dài hạn hoặc quy mô nhiều thiết bị, Hương Sơn đảm nhận vận hành: theo dõi counter, cung ứng vật tư, bảo trì định kỳ và báo cáo — để đơn vị không phải tự quản lý từng thiết bị riêng lẻ.",
   "summary": "Vận hành thiết bị theo hợp đồng là lớp dịch vụ nằm giữa 'chỉ bán máy' và 'quản lý in ấn trọn gói' — phù hợp với đơn vị đã có sẵn thiết bị nhưng cần một bên vận hành hộ.",
   "answer_first": [
-    ["Trang này là gì", "Dịch vụ vận hành thiết bị theo hợp đồng: theo dõi counter, vật tư, bảo trì và báo cáo định kỳ."],
-    ["Dành cho ai", "Đơn vị có sẵn thiết bị (mua hoặc thuê) nhưng không có nhân sự chuyên trách để tự vận hành và theo dõi."],
-    ["Giải quyết vấn đề gì", "Chuyển việc theo dõi, bảo trì và cung ứng vật tư hằng ngày cho một đầu mối chuyên trách, có số liệu và báo cáo rõ ràng."]
+   [
+    "Trang này là gì",
+    "Dịch vụ vận hành thiết bị theo hợp đồng: theo dõi counter, vật tư, bảo trì và báo cáo định kỳ."
+   ],
+   [
+    "Dành cho ai",
+    "Đơn vị có sẵn thiết bị (mua hoặc thuê) nhưng không có nhân sự chuyên trách để tự vận hành và theo dõi."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Chuyển việc theo dõi, bảo trì và cung ứng vật tư hằng ngày cho một đầu mối chuyên trách, có số liệu và báo cáo rõ ràng."
+   ]
   ],
   "scope": [
-    "Theo dõi và chốt counter định kỳ theo từng mã máy.",
-    "Cung ứng vật tư theo định mức hoặc theo thực tế sử dụng.",
-    "Bảo trì phòng ngừa theo lịch.",
-    "Xử lý sự cố theo cam kết thời gian.",
-    "Báo cáo định kỳ về sản lượng, vật tư đã cấp và sự cố đã xử lý."
+   "Theo dõi và chốt counter định kỳ theo từng mã máy.",
+   "Cung ứng vật tư theo định mức hoặc theo thực tế sử dụng.",
+   "Bảo trì phòng ngừa theo lịch.",
+   "Xử lý sự cố theo cam kết thời gian.",
+   "Báo cáo định kỳ về sản lượng, vật tư đã cấp và sự cố đã xử lý."
   ],
   "process": [
-    ["Bước 1", "Tiếp nhận đội thiết bị", "Kiểm kê thiết bị hiện có, chốt counter khởi điểm."],
-    ["Bước 2", "Thiết lập lịch vận hành", "Lịch bảo trì, lịch cấp vật tư và kênh tiếp nhận sự cố."],
-    ["Bước 3", "Vận hành định kỳ", "Bảo trì, cung ứng vật tư, xử lý sự cố theo lịch và theo yêu cầu phát sinh."],
-    ["Bước 4", "Báo cáo", "Gửi báo cáo sản lượng, vật tư và sự cố theo kỳ đã thống nhất."]
+   [
+    "Bước 1",
+    "Tiếp nhận đội thiết bị",
+    "Kiểm kê thiết bị hiện có, chốt counter khởi điểm."
+   ],
+   [
+    "Bước 2",
+    "Thiết lập lịch vận hành",
+    "Lịch bảo trì, lịch cấp vật tư và kênh tiếp nhận sự cố."
+   ],
+   [
+    "Bước 3",
+    "Vận hành định kỳ",
+    "Bảo trì, cung ứng vật tư, xử lý sự cố theo lịch và theo yêu cầu phát sinh."
+   ],
+   [
+    "Bước 4",
+    "Báo cáo",
+    "Gửi báo cáo sản lượng, vật tư và sự cố theo kỳ đã thống nhất."
+   ]
   ],
   "faqs": [
-    ["Khác gì so với Managed Print Service?", "Vận hành thiết bị là dịch vụ tập trung vào việc chăm sóc thiết bị hiện có (counter, vật tư, bảo trì, báo cáo). <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/quan-ly-van-hanh/\">Managed Print Service</a> có phạm vi rộng hơn, bao gồm cả tư vấn chuẩn hóa lại đội thiết bị và tối ưu chi phí theo kỳ."],
-    ["Có áp dụng cho thiết bị không thuê từ Hương Sơn không?", "Có, miễn là thiết bị còn phù hợp để bảo trì và có vật tư tương thích."]
+   [
+    "Khác gì so với Managed Print Service?",
+    "Vận hành thiết bị là dịch vụ tập trung vào việc chăm sóc thiết bị hiện có (counter, vật tư, bảo trì, báo cáo). <a class=\"text-[#1A9900] font-medium hover:underline\" href=\"/giai-phap/quan-ly-van-hanh/\">Managed Print Service</a> có phạm vi rộng hơn, bao gồm cả tư vấn chuẩn hóa lại đội thiết bị và tối ưu chi phí theo kỳ."
+   ],
+   [
+    "Có áp dụng cho thiết bị không thuê từ Hương Sơn không?",
+    "Có, miễn là thiết bị còn phù hợp để bảo trì và có vật tư tương thích."
+   ]
   ],
-  "next": [["Quản lý – Vận hành (MPS)", "/giai-phap/quan-ly-van-hanh/"], ["Bảo trì – Sửa chữa", "/dich-vu/bao-tri-sua-chua/"], ["Cho thuê thiết bị", "/giai-phap/cho-thue-thiet-bi/"]]
-},
-{
+  "next": [
+   [
+    "Quản lý – Vận hành (MPS)",
+    "/giai-phap/quan-ly-van-hanh/"
+   ],
+   [
+    "Bảo trì – Sửa chữa",
+    "/dich-vu/bao-tri-sua-chua/"
+   ],
+   [
+    "Cho thuê thiết bị",
+    "/giai-phap/cho-thue-thiet-bi/"
+   ]
+  ]
+ },
+ {
   "slug": "thu-mua-may-cu-doi-may-moi",
   "url": "/dich-vu/thu-mua-may-cu-doi-may-moi/",
   "name": "Thu mua máy cũ – Đổi máy mới",
@@ -128,27 +283,74 @@
   "lead": "Khi thiết bị cũ đã lỗi thời hoặc không còn đáp ứng nhu cầu, Hương Sơn hỗ trợ thu mua và đổi sang thiết bị mới hoặc chuyển sang hình thức thuê — giúp đơn vị nâng cấp mà không lãng phí tài sản cũ.",
   "summary": "Dịch vụ hỗ trợ đơn vị chuyển đổi từ thiết bị cũ sang thiết bị mới hoặc mô hình thuê, thông qua thu mua hoặc định giá trừ vào giá trị hợp đồng mới.",
   "answer_first": [
-    ["Trang này là gì", "Dịch vụ thu mua thiết bị cũ và hỗ trợ đổi sang thiết bị mới hoặc chuyển sang mô hình thuê."],
-    ["Dành cho ai", "Đơn vị đang có thiết bị cũ, lỗi thời hoặc chi phí vận hành cao, muốn nâng cấp."],
-    ["Giải quyết vấn đề gì", "Giảm chi phí đầu tư ban đầu cho thiết bị mới nhờ giá trị thu mua thiết bị cũ được trừ vào hợp đồng."]
+   [
+    "Trang này là gì",
+    "Dịch vụ thu mua thiết bị cũ và hỗ trợ đổi sang thiết bị mới hoặc chuyển sang mô hình thuê."
+   ],
+   [
+    "Dành cho ai",
+    "Đơn vị đang có thiết bị cũ, lỗi thời hoặc chi phí vận hành cao, muốn nâng cấp."
+   ],
+   [
+    "Giải quyết vấn đề gì",
+    "Giảm chi phí đầu tư ban đầu cho thiết bị mới nhờ giá trị thu mua thiết bị cũ được trừ vào hợp đồng."
+   ]
   ],
   "scope": [
-    "Khảo sát và định giá thiết bị cũ theo tình trạng thực tế.",
-    "Thu mua trực tiếp hoặc trừ vào giá trị hợp đồng mua/thuê thiết bị mới.",
-    "Tư vấn phương án thay thế: mua mới hoặc chuyển sang thuê.",
-    "Thu hồi và vận chuyển thiết bị cũ."
+   "Khảo sát và định giá thiết bị cũ theo tình trạng thực tế.",
+   "Thu mua trực tiếp hoặc trừ vào giá trị hợp đồng mua/thuê thiết bị mới.",
+   "Tư vấn phương án thay thế: mua mới hoặc chuyển sang thuê.",
+   "Thu hồi và vận chuyển thiết bị cũ."
   ],
   "process": [
-    ["Bước 1", "Khảo sát thiết bị cũ", "Kiểm tra tình trạng, tuổi máy, sản lượng đã sử dụng."],
-    ["Bước 2", "Định giá", "Đưa ra mức giá thu mua hoặc mức khấu trừ vào hợp đồng mới."],
-    ["Bước 3", "Đề xuất phương án thay thế", "Tư vấn thiết bị mới hoặc chuyển sang mô hình thuê phù hợp nhu cầu."],
-    ["Bước 4", "Thực hiện", "Thu hồi thiết bị cũ, giao lắp thiết bị mới, hoàn tất hồ sơ."]
+   [
+    "Bước 1",
+    "Khảo sát thiết bị cũ",
+    "Kiểm tra tình trạng, tuổi máy, sản lượng đã sử dụng."
+   ],
+   [
+    "Bước 2",
+    "Định giá",
+    "Đưa ra mức giá thu mua hoặc mức khấu trừ vào hợp đồng mới."
+   ],
+   [
+    "Bước 3",
+    "Đề xuất phương án thay thế",
+    "Tư vấn thiết bị mới hoặc chuyển sang mô hình thuê phù hợp nhu cầu."
+   ],
+   [
+    "Bước 4",
+    "Thực hiện",
+    "Thu hồi thiết bị cũ, giao lắp thiết bị mới, hoàn tất hồ sơ."
+   ]
   ],
   "faqs": [
-    ["Thiết bị cũ hãng khác có được thu mua không?", "Có, Hương Sơn định giá theo tình trạng thực tế thiết bị, không giới hạn theo hãng đã mua trước đó."],
-    ["Giá thu mua được tính thế nào?", "Theo tình trạng, tuổi máy và sản lượng đã sử dụng — Hương Sơn khảo sát trực tiếp trước khi đưa ra mức giá cụ thể."],
-    ["Có thể đổi từ mua sang thuê không?", "Được. Nhiều đơn vị chuyển từ sở hữu thiết bị cũ sang <a class=\"text-[#1f7c45] font-medium hover:underline\" href=\"/giai-phap/cho-thue-thiet-bi/\">mô hình thuê</a> để giảm gánh nặng vận hành và bảo trì."]
+   [
+    "Thiết bị cũ hãng khác có được thu mua không?",
+    "Có, Hương Sơn định giá theo tình trạng thực tế thiết bị, không giới hạn theo hãng đã mua trước đó."
+   ],
+   [
+    "Giá thu mua được tính thế nào?",
+    "Theo tình trạng, tuổi máy và sản lượng đã sử dụng — Hương Sơn khảo sát trực tiếp trước khi đưa ra mức giá cụ thể."
+   ],
+   [
+    "Có thể đổi từ mua sang thuê không?",
+    "Được. Nhiều đơn vị chuyển từ sở hữu thiết bị cũ sang <a class=\"text-[#1A9900] font-medium hover:underline\" href=\"/giai-phap/cho-thue-thiet-bi/\">mô hình thuê</a> để giảm gánh nặng vận hành và bảo trì."
+   ]
   ],
-  "next": [["Cho thuê thiết bị", "/giai-phap/cho-thue-thiet-bi/"], ["Photocopy – Máy đa chức năng", "/san-pham/photocopy-may-da-chuc-nang/"], ["Quản lý – Vận hành", "/giai-phap/quan-ly-van-hanh/"]]
-}
+  "next": [
+   [
+    "Cho thuê thiết bị",
+    "/giai-phap/cho-thue-thiet-bi/"
+   ],
+   [
+    "Photocopy – Máy đa chức năng",
+    "/san-pham/photocopy-may-da-chuc-nang/"
+   ],
+   [
+    "Quản lý – Vận hành",
+    "/giai-phap/quan-ly-van-hanh/"
+   ]
+  ]
+ }
 ]

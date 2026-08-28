@@ -129,16 +129,16 @@ siêu tốc, vật tư Master/mực, kỹ thuật trực và phương án máy d
         body="""
   <section class="py-28 bg-white">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <p class="text-[#1f7c45] font-bold text-xs uppercase tracking-[0.2em] mb-4">Lỗi 404</p>
+      <p class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] mb-4">Lỗi 404</p>
       <h1 class="text-3xl sm:text-5xl font-bold text-[#181923] mb-5">Không tìm thấy trang</h1>
       <p class="text-[15.5px] text-gray-500 max-w-xl mx-auto mb-9 leading-relaxed">
         Đường dẫn không còn tồn tại hoặc đã được chuyển. Quý khách có thể bắt đầu lại từ trang chủ,
         hoặc xem trực tiếp danh mục sản phẩm và giải pháp.
       </p>
       <div class="flex flex-wrap items-center justify-center gap-4">
-        <a href="/" class="bg-[#1f7c45] hover:bg-[#176035] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Về trang chủ</a>
-        <a href="/san-pham/" class="border border-gray-300 hover:border-[#1f7c45] hover:text-[#1f7c45] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem sản phẩm</a>
-        <a href="/giai-phap/" class="border border-gray-300 hover:border-[#1f7c45] hover:text-[#1f7c45] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem giải pháp</a>
+        <a href="/" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Về trang chủ</a>
+        <a href="/san-pham/" class="border border-gray-300 hover:border-[#1A9900] hover:text-[#1A9900] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem sản phẩm</a>
+        <a href="/giai-phap/" class="border border-gray-300 hover:border-[#1A9900] hover:text-[#1A9900] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem giải pháp</a>
       </div>
     </div>
   </section>
