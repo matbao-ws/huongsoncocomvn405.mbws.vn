@@ -104,8 +104,6 @@ def render_model(m):
 
     # nguồn gốc / bảo hành / tài liệu
     meta_inner = ""
-    if m.get("_note"):
-        meta_inner += C.note(esc(m["_note"]), kind="warn") + '<div class="mb-6"></div>'
     rows = [["Xuất xứ / Nguồn", esc(m.get("source", ""))]]
     if m.get("warranty"):
         rows.append(["Bảo hành", esc(m["warranty"])])

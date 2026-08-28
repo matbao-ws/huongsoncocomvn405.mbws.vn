@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
-"""TRANG CHỦ — map 13 section giao diện mẫu 8324 sang nội dung Digital Sales
-Engine của Hương Sơn (xem KE-HOACH §7). Giữ nguyên ngôn ngữ thiết kế: xanh lá
-#1f7c45 + đen than #181924, phong cách vuông vức/flat.
+"""TRANG CHỦ — map các section giao diện mẫu 8324 sang nội dung khách hàng của
+Hương Sơn (xem KE-HOACH §7). Chỉ trình bày nội dung phục vụ khách hàng — không
+đưa mô hình vận hành/kênh bán hàng nội bộ lên trang công khai.
+Giữ nguyên ngôn ngữ thiết kế: xanh lá #1f7c45 + đen than #181924, phong cách
+vuông vức/flat.
 """
 import render
 import schema
@@ -167,25 +169,6 @@ def _marquee():
   </section>"""
 
 
-# ------------------------------------------ S9: Digital Sales Engine diagram
-def _engine():
-    steps = ["Google/Search", "Website", "Nội dung", "Giải pháp", "Khách hàng để lại thông tin",
-             "CRM", "Sales", "Hợp đồng", "CSKH", "Bán thêm"]
-    chips = "".join(
-        f'<div class="flex items-center"><span class="bg-white border border-gray-200 px-4 py-2.5 text-[12.5px] '
-        f'font-bold text-[#181923] whitespace-nowrap">{esc(s)}</span>'
-        + (f'<i class="fa-solid fa-arrow-right text-[{BRAND}] mx-2 text-xs"></i>' if i < len(steps) - 1 else '')
-        + '</div>'
-        for i, s in enumerate(steps))
-    return C.section(
-        C.heading(eyebrow="Digital Sales Engine", title="Website bắt đầu tạo doanh thu — không chỉ hiện diện")
-        + f'<div class="flex flex-wrap items-center justify-center gap-y-3 mb-10">{chips}</div>'
-        + '<p class="text-center text-gray-500 text-[14.5px] max-w-3xl mx-auto leading-relaxed">'
-        + 'Mô hình mới của Hương Sơn: website không chỉ để "có mặt trên Internet", mà tham gia trực tiếp '
-        + 'vào việc tạo nhu cầu, thu hút khách hàng tiềm năng và kết nối tới CRM, Sales và chăm sóc khách hàng.</p>',
-        pad="py-16")
-
-
 # ------------------------------------------------------ S10: CTA tải hồ sơ
 def _cta_download():
     return C.cta_band(
@@ -239,7 +222,7 @@ def _news():
 
 def build(write):
     body = (_hero() + _quick_cta() + _brands() + _why() + _counters() + _pillars()
-            + _categories() + _marquee() + _engine() + _cta_download() + _capability()
+            + _categories() + _marquee() + _cta_download() + _capability()
             + _sla() + _news())
 
     ld = [

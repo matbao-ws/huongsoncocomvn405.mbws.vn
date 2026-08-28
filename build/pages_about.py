@@ -85,41 +85,28 @@ def _capability():
                        lead="Năng lực thiết bị, kho, kỹ thuật, logistics và các dự án đã triển khai.", trail=trail)
     body += C.answer_first([
         ["Trang này là gì", "Tổng hợp năng lực triển khai thực tế của Hương Sơn: thiết bị, kho, kỹ thuật, logistics và dự án đã thực hiện."],
-        ["Phần nào đã chứng minh được", "Năng lực thiết bị, đại lý các hãng và 2 case study Sở GD&ĐT có hồ sơ hợp đồng đầy đủ."],
-        ["Phần nào là định hướng", "Mở rộng Scanner, Số hóa tài liệu và Managed Print Service là định hướng chiến lược 2027–2028, chưa phải năng lực đã triển khai đại trà."],
+        ["Năng lực chính", "Đại lý ủy quyền phân phối Duplo, Toshiba và Konica Minolta; kinh nghiệm cho thuê thiết bị và triển khai dịch vụ cho Sở GD&ĐT, có hồ sơ hợp đồng đầy đủ."],
+        ["Đang mở rộng thêm", "Dịch vụ scan – số hóa tài liệu và quản lý in ấn trọn gói cho khách hàng Giáo dục, cơ quan Nhà nước và doanh nghiệp."],
     ])
 
     body += C.section(
-        '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Năng lực hiện có — đã chứng minh được</h2>'
+        '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Năng lực triển khai</h2>'
         + C.bullets([
             "Cung cấp và triển khai máy photocopy Toshiba, Ricoh, Konica Minolta và các dòng thiết bị văn phòng.",
             "Đại lý ủy quyền phân phối chính thức máy in nhân bản siêu tốc Duplo (Nhật Bản) tại miền Bắc từ năm 2017.",
             "Cung cấp máy in HP và giải pháp in văn phòng.",
             "Cung cấp vật tư, linh kiện photocopy – in, bao gồm mực thương hiệu riêng Fansipan, trống, bột từ và vật tư hao tài Duplo.",
             "Kinh nghiệm cho thuê thiết bị và triển khai dịch vụ tại Sở GD&ĐT — hồ sơ Vĩnh Phúc 2025 và Quảng Trị 2026 là bằng chứng trực tiếp.",
-            "Đã cung cấp máy photocopy cho hệ thống Ngân hàng Vietcombank toàn quốc trong các năm 2022–2024 (tự công bố công khai).",
+            "Đã cung cấp máy photocopy cho hệ thống Ngân hàng Vietcombank toàn quốc trong các năm 2022–2024.",
         ], cols=1), pad="py-14")
 
     body += C.section(
-        '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Định hướng 2027–2028 — chiến lược đề xuất, chưa phải thành tích đã đạt</h2>'
+        '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Đang mở rộng thêm</h2>'
         + C.bullets([
-            "Mở rộng nhóm Scan & Digital Document: dịch vụ scan, OCR và số hóa hồ sơ trọn gói cho Sở GD&ĐT và cơ quan Nhà nước.",
-            "Chuẩn hóa gói Managed Print Service (SCHOOL PRO) cho khối Giáo dục và doanh nghiệp.",
-            "Phát triển FANSIPAN thành business unit vật tư riêng với đầy đủ hồ sơ SKU.",
-            "Xây dựng Digital Sales Engine: website, CRM và AI hỗ trợ toàn bộ hành trình khách hàng.",
+            "Dịch vụ scan, OCR và số hóa hồ sơ trọn gói cho Sở GD&ĐT và cơ quan Nhà nước.",
+            "Quản lý in ấn trọn gói (Managed Print Service) cho khối Giáo dục và doanh nghiệp.",
+            "Vật tư thương hiệu riêng FANSIPAN cho nhiều dòng máy thông dụng.",
         ], cols=1), bg="light", pad="py-14")
-
-    body += C.section(
-        '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Bộ bằng chứng đang hoàn thiện trước 2027</h2>'
-        + C.bullets([
-            "Giấy chứng nhận đăng ký doanh nghiệp hiện hành.",
-            "Hồ sơ thương hiệu Hương Sơn và Fansipan.",
-            "Chứng nhận / đại lý / ủy quyền còn hiệu lực của các hãng.",
-            "Danh mục thiết bị và số lượng thực tế.",
-            "Danh sách dự án có thể công bố và ảnh có quyền sử dụng.",
-            "Quy trình bảo hành – bảo trì và danh sách kỹ thuật viên theo phạm vi phục vụ.",
-            "Mẫu hợp đồng, biên bản nghiệm thu, thanh lý.",
-        ], cols=2), pad="py-14")
 
     body += C.cta_band(title="Cần bản hồ sơ năng lực đầy đủ dạng PDF?",
                        text="Tải hồ sơ năng lực hoặc liên hệ để nhận bản trình bày chi tiết theo ngành.",
@@ -146,16 +133,12 @@ def _brands():
         ["DUPLO (Nhật Bản)", "Đại lý ủy quyền phân phối chính thức tại miền Bắc Việt Nam", "Từ năm 2017"],
         ["TOSHIBA", "Đại lý ủy quyền phân phối chính thức tại miền Bắc Việt Nam", "Từ năm 2017"],
         ["Konica Minolta", "Đại lý bán hàng — dòng máy photocopy đa chức năng 25–90 bản/phút", "Từ năm 2021"],
-        ["Ricoh", "Sản phẩm phân phối trong danh mục Hương Sơn", "Đang cập nhật xác nhận đại lý"],
-        ["HP", "Sản phẩm phân phối trong danh mục Hương Sơn", "Đang cập nhật xác nhận đại lý"],
-        ["FANSIPAN", "Thương hiệu vật tư riêng của Hương Sơn", "Đang phát triển thành business unit riêng"],
+        ["Ricoh", "Sản phẩm phân phối trong danh mục Hương Sơn", "—"],
+        ["HP", "Sản phẩm phân phối trong danh mục Hương Sơn", "—"],
+        ["FANSIPAN", "Thương hiệu vật tư riêng của Hương Sơn", "—"],
     ]
     body += C.section(C.matrix_table(["Thương hiệu", "Vai trò hợp tác", "Thời gian"], rows,
                                      caption="Danh mục đối tác – thương hiệu"), pad="py-16")
-    body += C.section(C.note(
-        "Với Ricoh và HP, website hiện hiển thị là sản phẩm phân phối trong danh mục Hương Sơn; trạng thái đại lý ủy quyền chính thức "
-        "cần Hương Sơn xác nhận và cập nhật giấy ủy quyền còn hiệu lực trước khi công bố chính thức trong hồ sơ năng lực và hồ sơ đấu thầu."),
-        bg="light")
     body += C.cta_band(title="Cần tư vấn chọn đúng thương hiệu cho nhu cầu?",
                        text="Hương Sơn tư vấn theo mô hình đa thương hiệu — chọn thiết bị phù hợp nhất, không cố định vào một hãng.")
     ld = [schema.organization(), schema.breadcrumb(trail)]
@@ -173,7 +156,7 @@ def _resources():
     body += C.answer_first([
         ["Trang này là gì", "Nơi tải tài liệu, catalogue và hồ sơ năng lực của Hương Sơn."],
         ["Dành cho ai", "Khách hàng cần tài liệu để lập dự toán, hồ sơ mời thầu hoặc trình lãnh đạo phê duyệt."],
-        ["Hiện có gì", "Danh mục tài liệu đang được Hương Sơn hoàn thiện — liên hệ trực tiếp để nhận ngay trong lúc chờ xuất bản."],
+        ["Cách nhận tài liệu", "Bấm 'Yêu cầu' ở tài liệu cần — Hương Sơn gửi qua email trong ngày làm việc."],
     ])
     items = [
         ("Hồ sơ năng lực Hương Sơn (PDF)", "Giới thiệu công ty, năng lực thiết bị, kỹ thuật, logistics và dự án."),
@@ -191,9 +174,6 @@ def _resources():
         <a href="/nhan-tu-van/bao-gia/" class="flex-shrink-0 ml-4 border border-gray-300 hover:border-[{BRAND}] hover:text-[{BRAND}] px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition">Yêu cầu</a>
       </div>""" for t, d in items)
     body += C.section(f'<div class="space-y-4">{cards}</div>', pad="py-16")
-    body += C.section(C.note(
-        "Các tài liệu trên đang được Hương Sơn chuẩn hóa thành bản PDF chính thức để tải trực tiếp từ website. "
-        "Trong thời gian hoàn thiện, vui lòng bấm 'Yêu cầu' để nhận tài liệu qua email trong ngày làm việc."), bg="light")
     body += C.section(forms.lead_form(form_id="resources", page_type="resources",
                                       title="Nhận tài liệu qua email", compact=False), bg="light")
     ld = [schema.organization(), schema.breadcrumb(trail)]
@@ -211,7 +191,7 @@ def _knowledge_hub():
     body += C.answer_first([
         ["Trang này là gì", "Chuyên mục kiến thức giải đáp các câu hỏi thường gặp trước khi mua hoặc thuê thiết bị in ấn."],
         ["Dành cho ai", "Người phụ trách mua sắm, kế hoạch tài chính hoặc kỹ thuật đang cân nhắc phương án thiết bị."],
-        ["Nội dung dự kiến", "Buying Guide, So sánh sản phẩm, Hướng dẫn kỹ thuật, Phân tích đấu thầu, TCO — theo đúng 10 loại nội dung trong chiến lược nội dung 2027–2028."],
+        ["Nội dung dự kiến", "Buying Guide, so sánh sản phẩm, hướng dẫn kỹ thuật và phân tích chi phí — cập nhật theo nhu cầu tra cứu thực tế của khách hàng."],
     ])
     topics = [
         "Nên thuê hay mua máy photocopy cho doanh nghiệp?",
@@ -241,11 +221,8 @@ def _news_hub():
     body += C.answer_first([
         ["Trang này là gì", "Chuyên mục tin tức về dự án, bàn giao thiết bị và sự kiện của Hương Sơn."],
         ["Dành cho ai", "Khách hàng và đối tác muốn theo dõi hoạt động mới nhất của Hương Sơn."],
-        ["Hiện có gì", "Xem các dự án đã công bố tại mục Dự án; tin tức cập nhật thường xuyên sẽ được bổ sung theo lịch xuất bản nội dung hằng tháng."],
+        ["Hiện có gì", "Các dự án đã triển khai; tin tức mới sẽ được cập nhật khi có dự án hoặc hoạt động đáng chú ý."],
     ])
-    body += C.section(C.note(
-        "Chuyên mục tin tức đang được xây dựng theo lịch xuất bản nội dung 2027–2028 (1–2 tin dự án mỗi tháng). "
-        "Trong thời gian này, các dự án đã triển khai được trình bày đầy đủ tại mục Dự án."), pad="py-14")
     body += C.section(C.card_grid([{
         "title": p, "url": u, "tag": "Case Study", "cta": "Xem chi tiết",
         "text": "Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.",

@@ -83,7 +83,7 @@ def _lead_page(p):
 
 def _hub():
     trail = [("Trang chủ", "/"), ("Nhận tư vấn", "/nhan-tu-van/")]
-    body = C.page_hero(eyebrow="Digital Sales Engine", h1="Nhận tư vấn từ Hương Sơn",
+    body = C.page_hero(eyebrow="Nhận tư vấn", h1="Nhận tư vấn từ Hương Sơn",
                        lead="Chọn đúng nhu cầu để được tư vấn nhanh nhất, hoặc gửi yêu cầu chung để Hương Sơn liên hệ.",
                        trail=trail)
     body += C.answer_first([

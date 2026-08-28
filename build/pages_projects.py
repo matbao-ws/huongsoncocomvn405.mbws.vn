@@ -40,7 +40,8 @@ def render_project(p):
              + C.bullets([esc(r) for r in p["result"]], cols=1))
     body += C.section(inner, pad="py-16")
 
-    body += C.section(C.note(esc(p["note"])), bg="light")
+    if p.get("note"):
+        body += C.section(C.note(esc(p["note"])), bg="light")
 
     body += C.section(f"""
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14">
@@ -81,9 +82,6 @@ def render_hub():
         "text": esc(p["summary"][:160] + "…"), "cta": "Xem case study",
     } for p in PROJECTS]
     body += C.section(C.card_grid(cards, cols=3), pad="py-16")
-    body += C.section(C.note(
-        "Danh sách dự án sẽ tiếp tục được bổ sung sau khi Hương Sơn hoàn thiện hồ sơ và xác nhận quyền "
-        "công bố với từng khách hàng, theo đúng nguyên tắc sử dụng ảnh và logo khách hàng."), bg="light")
     body += C.cta_band(title="Cần xem thêm năng lực triển khai của Hương Sơn?",
                        text="Tải hồ sơ năng lực đầy đủ hoặc liên hệ trực tiếp để trao đổi chi tiết.",
                        primary=("Tải hồ sơ năng lực", "/ve-huong-son/tai-nguyen/"),
