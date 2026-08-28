@@ -1,57 +1,76 @@
 <style>
     #adminMediaPickerGrid .media-picker-card {
-        height: 150px;
+        height: 175px;
         min-width: 0;
+        transition: all 0.2s ease;
+        border: 1px solid #e2e8f0;
+    }
+    #adminMediaPickerGrid .media-picker-card:hover {
+        border-color: #204DA4 !important;
+        box-shadow: 0 4px 12px rgba(32, 77, 164, 0.15) !important;
+        transform: translateY(-2px);
     }
     #adminMediaPickerGrid .media-picker-thumbnail {
-        background: #f4f6f9;
-        height: 92px;
+        background: #f8fafc;
+        height: 110px;
         object-fit: contain;
-        padding: 4px;
+        padding: 6px;
         width: 100%;
+        border-bottom: 1px solid #f1f5f9;
     }
     #adminMediaPickerGrid .media-picker-name {
         font-size: 12px;
-        line-height: 1.2;
+        line-height: 1.3;
+        font-weight: 500;
+        color: #1e293b;
     }
     #adminMediaPickerGrid .media-picker-dimensions {
         font-size: 11px;
         line-height: 1.2;
+        color: #64748b;
     }
 </style>
 
 <div class="modal fade" id="adminMediaPicker" tabindex="-1" aria-labelledby="adminMediaPickerLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header bg-light">
                 <div>
-                    <h5 class="modal-title" id="adminMediaPickerLabel">Chọn ảnh từ thư viện</h5>
-                    <p class="text-muted fs-2 mb-0">Chọn một ảnh đã tải lên hoặc thêm ảnh mới.</p>
+                    <h5 class="modal-title fw-bold text-dark" id="adminMediaPickerLabel">
+                        <i class="ti ti-photo-circle me-1 text-primary"></i>Thư viện hình ảnh
+                    </h5>
+                    <p class="text-muted fs-2 mb-0">Chọn ảnh có sẵn trong thư viện hoặc tải ảnh mới từ máy tính.</p>
                 </div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
             </div>
-            <div class="modal-body">
-                <div class="d-flex flex-wrap gap-2 justify-content-between align-items-center mb-3">
-                    <select class="form-select w-auto" id="adminMediaPickerFolder" aria-label="Thư mục ảnh">
-                        <option value="all">Tất cả thư mục</option>
-                        @foreach(app(\App\Services\CloudinaryService::class)->listFolders() as $folder)
-                            <option value="{{ $folder }}">{{ ucfirst($folder) }}</option>
-                        @endforeach
-                    </select>
+            <div class="modal-body p-4">
+                <div class="d-flex flex-wrap gap-2 justify-content-between align-items-center mb-4">
+                    <div class="d-flex align-items-center gap-2">
+                        <label class="form-label small text-muted mb-0 fw-semibold">Thư mục:</label>
+                        <select class="form-select form-select-sm w-auto" id="adminMediaPickerFolder" aria-label="Thư mục ảnh">
+                            <option value="all">Tất cả thư mục</option>
+                            @foreach(app(\App\Services\CloudinaryService::class)->listFolders() as $folder)
+                                <option value="{{ $folder }}">{{ ucfirst($folder) }}</option>
+                            @endforeach
+                        </select>
+                    </div>
                     <div>
                         <input class="d-none" id="adminMediaPickerUpload" type="file" accept="image/*">
-                        <button class="btn btn-primary" type="button" id="adminMediaPickerUploadButton">
-                            <i class="ti ti-upload me-1"></i>Thêm ảnh mới
+                        <button class="btn btn-primary btn-sm d-flex align-items-center gap-1" type="button" id="adminMediaPickerUploadButton">
+                            <i class="ti ti-cloud-upload fs-4"></i> Tải ảnh mới vào thư viện
                         </button>
                     </div>
                 </div>
                 <div class="alert alert-danger d-none mb-3" id="adminMediaPickerError" role="alert"></div>
-                <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 row-cols-xl-8 g-2" id="adminMediaPickerGrid"></div>
-                <div class="text-center text-muted py-5 d-none" id="adminMediaPickerEmpty">Chưa có ảnh trong thư viện.</div>
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-3" id="adminMediaPickerGrid"></div>
+                <div class="text-center text-muted py-5 d-none" id="adminMediaPickerEmpty">
+                    <div class="mb-2"><i class="ti ti-photo-off fs-9 text-muted"></i></div>
+                    <div>Chưa có ảnh nào trong thư mục này.</div>
+                </div>
                 <div class="text-center py-5" id="adminMediaPickerLoading"><div class="spinner-border text-primary" role="status"></div></div>
                 <div class="d-flex justify-content-between align-items-center mt-4 d-none" id="adminMediaPickerPagination">
                     <button class="btn btn-outline-secondary btn-sm" type="button" id="adminMediaPickerPrevious">← Trước</button>
-                    <span class="small text-muted" id="adminMediaPickerPage">Trang 1</span>
+                    <span class="small text-muted fw-semibold" id="adminMediaPickerPage">Trang 1</span>
                     <button class="btn btn-outline-secondary btn-sm" type="button" id="adminMediaPickerNext">Sau →</button>
                 </div>
             </div>
@@ -64,7 +83,7 @@
         const modalElement = document.getElementById('adminMediaPicker');
         if (!modalElement || typeof bootstrap === 'undefined') return;
 
-        const modal = new bootstrap.Modal(modalElement);
+        const modal = bootstrap.Modal.getOrCreateInstance(modalElement);
         const folder = document.getElementById('adminMediaPickerFolder');
         const upload = document.getElementById('adminMediaPickerUpload');
         const grid = document.getElementById('adminMediaPickerGrid');
@@ -79,6 +98,19 @@
         let cursors = [null];
         let pageIndex = 0;
         let nextCursor = null;
+
+        window.openMediaPickerFor = function(inputId) {
+            const input = document.getElementById(inputId);
+            if (!input) return;
+            activeInput = input;
+            if (folder && input.dataset.mediaFolder) {
+                folder.value = input.dataset.mediaFolder;
+            }
+            modal.show();
+            pageIndex = 0;
+            cursors = [null];
+            loadResources();
+        };
 
         const inputFolder = (input) => input.dataset.mediaFolder || ({ image_file: 'general', avatar_file: 'avatars' }[input.name] || 'general');
         const selectedField = (input) => input.dataset.mediaSelectedField || (input.name === 'avatar_file' ? 'avatar_url' : 'image_url');
@@ -103,12 +135,16 @@
                 column.className = 'col';
                 const button = document.createElement('button');
                 button.type = 'button';
-                button.className = 'media-picker-card btn p-0 border rounded overflow-hidden w-100 text-start bg-white d-flex flex-column';
+                button.className = 'media-picker-card btn p-0 rounded-3 overflow-hidden w-100 text-start bg-white d-flex flex-column';
                 button.title = 'Chọn ' + resource.public_id;
                 const image = document.createElement('img');
                 image.src = resource.secure_url;
                 image.alt = resource.public_id;
                 image.className = 'media-picker-thumbnail d-block flex-shrink-0';
+                image.onerror = function() {
+                    this.onerror = null;
+                    this.src = '/assets/images/brand/logo-huong-son.svg';
+                };
                 const name = document.createElement('div');
                 name.className = 'media-picker-name px-2 pt-2 text-truncate';
                 name.textContent = resource.public_id.split('/').pop();
@@ -140,8 +176,6 @@
                 .then(function (data) { render(data.resources || [], data.next_cursor); })
                 .catch(function (exception) { showError(exception.message); })
                 .finally(function () { loading.classList.add('d-none'); });
-        }
-
         function select(url) {
             if (!activeInput) return;
             const form = activeInput.closest('form');

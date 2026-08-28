@@ -199,6 +199,9 @@
                         <button type="button" class="btn btn-outline-primary btn-sm d-flex align-items-center justify-content-center gap-1" onclick="document.getElementById('product_image_file').click()">
                             <i class="ti ti-upload fs-4"></i> Chọn ảnh từ máy tính
                         </button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center gap-1" onclick="openMediaPickerFor('product_image_file')">
+                            <i class="ti ti-photo fs-4"></i> Chọn từ Thư viện Media
+                        </button>
                         <button type="button" id="product_image_remove_btn" class="btn btn-outline-danger btn-sm d-flex align-items-center justify-content-center gap-1 {{ old('image_url', $product->image_url) ? '' : 'd-none' }}">
                             <i class="ti ti-trash fs-4"></i> Xóa ảnh hiện tại
                         </button>
