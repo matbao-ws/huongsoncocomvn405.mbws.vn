@@ -28,10 +28,10 @@ class SiteBranding
         $contact = $settings->get('contact');
 
         return $this->branding = [
-            'name' => $this->textValue($settings->get('shop_name')) ?: config('app.name', 'Laravel Ecommerce Core'),
-            'logo_url' => $this->assetUrl($settings->get('logo_url'), 'matbao-ws-logo.png'),
-            'admin_logo_url' => asset('matbao-ws-logo.png'),
-            'favicon_url' => $this->assetUrl($settings->get('favicon_url'), 'admin-assets/images/logos/favicon.png'),
+            'name' => $this->textValue($settings->get('shop_name')) ?: config('app.name', 'Hương Sơn'),
+            'logo_url' => $this->assetUrl($settings->get('logo_url'), 'assets/images/brand/HUONG_SON_logo.svg'),
+            'admin_logo_url' => asset('assets/images/brand/HUONG_SON_logo.svg'),
+            'favicon_url' => $this->assetUrl($settings->get('favicon_url'), 'assets/images/brand/favicon.svg'),
             'contact' => is_array($contact) ? $contact : [],
         ];
     }

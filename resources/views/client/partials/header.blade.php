@@ -2,7 +2,7 @@
   <header class="site-header bg-[#181924] w-full z-40 transition-all duration-300 border-b border-gray-800/50">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
 
-      <a href="/" class="flex items-center" aria-label="Hương Sơn – Trang chủ"><span class="inline-flex items-center bg-white px-3 py-1.5 h-11 sm:h-12"><img src="/assets/images/brand/logo-huong-son.svg" alt="Hương Sơn" class="h-full w-auto object-contain" /></span></a>
+      <a href="/" class="flex items-center" aria-label="Hương Sơn – Trang chủ"><span class="inline-flex items-center bg-white px-3 py-1.5 h-11 sm:h-12"><img src="/assets/images/brand/HUONG_SON_logo.svg" alt="Hương Sơn" class="h-full w-auto object-contain" /></span></a>
 
       <nav class="hidden xl:flex items-center space-x-6" aria-label="Điều hướng chính">
         <div class="relative has-dropdown group py-2">
