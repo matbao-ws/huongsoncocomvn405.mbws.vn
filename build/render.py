@@ -350,4 +350,6 @@ def page(*, title, description, url, body, keywords="", jsonld=None, og_type="we
     """Ghép 1 trang hoàn chỉnh."""
     return (head(title=title, description=description, url=url, keywords=keywords,
                  jsonld=jsonld, og_type=og_type)
-            + topbar() + header(active or url) + body + footer() + drawer())
+            + topbar() + header(active or url)
+            + f'\n  <main id="main-content">\n{body}\n  </main>\n'
+            + footer() + drawer())
