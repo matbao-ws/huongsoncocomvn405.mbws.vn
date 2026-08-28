@@ -62,10 +62,21 @@ class HuongSonSeeder extends Seeder
         $catDuplo = Category::query()->updateOrCreate(
             ['slug' => 'may-in-nhan-ban-toc-do-cao'],
             [
-                'name' => ['vi' => 'Máy In Nhân Bản Siêu Tốc (Duplo)', 'en' => 'High-Speed Duplicators (Duplo)'],
-                'description' => ['vi' => 'Dòng máy in nhân bản siêu tốc Duplo Nhật Bản tốc độ 130–150 trang/phút, chuyên dụng cho in đề thi, biểu mẫu.', 'en' => 'Duplo high-speed duplicators for exam printing.'],
+                'name' => ['vi' => 'Máy In Nhân Bản & Hoàn Thiện Sau In', 'en' => 'Duplicators & Finishing Equipment'],
+                'description' => ['vi' => 'Dòng máy in nhân bản siêu tốc Duplo Nhật Bản (130–150 trang/phút) và máy phối trang dập ghim hoàn thiện sau in.', 'en' => 'Duplo high-speed duplicators and friction collators.'],
                 'image_url' => '/assets/images/products/duplo-dp-x550.jpg',
                 'sort_order' => 2,
+                'is_active' => true,
+            ]
+        );
+
+        $catEduSolutions = Category::query()->updateOrCreate(
+            ['slug' => 'cho-thue-thiet-bi-giao-duc'],
+            [
+                'name' => ['vi' => 'Cho Thuê Thiết Bị Giáo Dục (HƯƠNG SƠN EDUCATION SOLUTIONS)', 'en' => 'Education Solutions (Rental & Tech)'],
+                'description' => ['vi' => 'Gói giải pháp trọn gói cho khối Giáo dục: thuê máy in đề thi bí mật, thuê máy photocopy trường học, số hóa học bạ và thiết bị phòng học.', 'en' => 'All-in-one educational equipment rental and digitization solutions.'],
+                'image_url' => '/assets/images/products/duplo-dp-x650.jpg',
+                'sort_order' => 3,
                 'is_active' => true,
             ]
         );
@@ -76,7 +87,7 @@ class HuongSonSeeder extends Seeder
                 'name' => ['vi' => 'Máy In Laser Văn Phòng', 'en' => 'Office Laser Printers'],
                 'description' => ['vi' => 'Máy in laser đơn năng và đa chức năng tốc độ cao HP, Canon.', 'en' => 'High-speed laser printers.'],
                 'image_url' => '/assets/images/products/hp-laserjet-pro-mfp-m4103fdw.jpg',
-                'sort_order' => 3,
+                'sort_order' => 4,
                 'is_active' => true,
             ]
         );
@@ -87,17 +98,6 @@ class HuongSonSeeder extends Seeder
                 'name' => ['vi' => 'Máy Scan & Số Hóa Tài Liệu', 'en' => 'Document Scanners & Digitization'],
                 'description' => ['vi' => 'Thiết bị scan tốc độ cao, scan chuyên dụng 2 mặt phục vụ số hóa hồ sơ giáo dục, cơ quan nhà nước.', 'en' => 'High speed scanners for document digitization.'],
                 'image_url' => '/assets/images/products/may-scan-so-hoa.jpg',
-                'sort_order' => 4,
-                'is_active' => true,
-            ]
-        );
-
-        $catCollator = Category::query()->updateOrCreate(
-            ['slug' => 'may-phoi-trang-hoan-thien-sau-in'],
-            [
-                'name' => ['vi' => 'Máy Phối Trang & Hoàn Thiện Sau In', 'en' => 'Collators & Finishing Equipment'],
-                'description' => ['vi' => 'Máy phối trang Duplo DFC series, máy dập ghim gập đôi hoàn thiện tài liệu sau in.', 'en' => 'Collators and booklet makers.'],
-                'image_url' => '/assets/images/products/duplo-dfc-122.jpg',
                 'sort_order' => 5,
                 'is_active' => true,
             ]

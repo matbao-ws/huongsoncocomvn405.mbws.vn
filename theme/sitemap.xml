@@ -166,6 +166,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/san-pham/fansipan/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -186,22 +191,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x550/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x650/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://huongsonco.com.vn/san-pham/may-phoi-trang-hoan-thien-sau-in/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://huongsonco.com.vn/san-pham/may-phoi-trang-hoan-thien-sau-in/duplo-dfc-122/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

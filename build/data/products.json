@@ -52,14 +52,14 @@
   {
    "slug": "may-in-nhan-ban-toc-do-cao",
    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/",
-   "name": "Máy in nhân bản tốc độ cao",
-   "eyebrow": "Production Print",
-   "h1": "Máy in nhân bản tốc độ cao Duplo",
-   "seo_title": "Máy in nhân bản tốc độ cao Duplo – DP-X550, DP-X650 | Hương Sơn",
-   "seo_desc": "Máy in nhân bản siêu tốc Duplo tốc độ đến 200 bản/phút, dùng cho in đề thi, giáo trình, biểu mẫu số lượng lớn. Hương Sơn là đại lý ủy quyền phân phối Duplo tại miền Bắc.",
-   "keywords": "máy in nhân bản siêu tốc, máy in nhân bản Duplo, máy in Duplo, máy in siêu tốc Ricoh, máy in siêu tốc Duplo, Duplo DP-X550, Duplo DP-X650, Duplo DP-X850, Duplo DP-U950, máy in đề thi, máy in đề thi siêu tốc, thuê máy in đề thi, cho thuê máy in đề thi",
-   "lead": "Máy in nhân bản siêu tốc Duplo — tốc độ đến 200 bản/phút, dùng để nhân bản một văn bản gốc ra số lượng lớn trong thời gian ngắn: in đề thi, giáo trình, biểu mẫu. Hương Sơn là đại lý ủy quyền phân phối chính thức Duplo (Nhật Bản) tại miền Bắc Việt Nam từ năm 2017.",
-   "summary": "Máy in nhân bản siêu tốc Duplo cho nhu cầu sản lượng lớn dồn vào thời gian ngắn — khách hàng thường xuyên gồm Sở Giáo dục, ngân hàng, trung tâm y tế, bệnh viện, trường đại học và văn phòng các Bộ.",
+   "name": "Máy in nhân bản & Hoàn thiện sau in",
+   "eyebrow": "Production & Finishing",
+   "h1": "Máy in nhân bản tốc độ cao & Thiết bị hoàn thiện sau in Duplo",
+   "seo_title": "Máy in nhân bản siêu tốc Duplo & Máy phối trang hoàn thiện sau in | Hương Sơn",
+   "seo_desc": "Máy in nhân bản siêu tốc Duplo (DP-X550, DP-X650) và máy phối trang, dập ghim hoàn thiện sau in Duplo DFC-122 chính hãng Nhật Bản. Cung cấp và cho thuê cho Hội đồng thi, Giáo dục, Cơ quan Nhà nước.",
+   "keywords": "máy in nhân bản siêu tốc, máy in nhân bản Duplo, máy in Duplo, Duplo DP-X550, Duplo DP-X650, máy phối trang Duplo, Duplo DFC-122, máy hoàn thiện sau in, máy in đề thi, cho thuê máy in đề thi",
+   "lead": "Hệ thống thiết bị in nhân bản siêu tốc và hoàn thiện tài liệu sau in Duplo (Nhật Bản) — tốc độ in đến 150–200 bản/phút kết hợp máy phối trang ma sát 12 khay 4.200 bộ/giờ. Giải pháp chuyên dụng cho in đề thi, giáo trình, tập bài giảng và biểu mẫu số lượng lớn trong thời gian ngắn.",
+   "summary": "Hệ thống đồng bộ từ máy in nhân bản siêu tốc Duplo đến máy phối trang, gấp dập ghim tài liệu sau in — phục vụ Sở GD&ĐT, trường đại học, ngân hàng, bệnh viện và cơ quan Nhà nước.",
    "answer_first": [
     [
      "Trang này là gì",
@@ -76,12 +76,14 @@
    ],
    "sub_notes": [
     "Đại lý ủy quyền phân phối chính thức DUPLO Nhật Bản tại miền Bắc Việt Nam từ 2017.",
-    "Vật tư đi kèm (Master, mực) cũng nhập khẩu từ Nhật Bản.",
-    "Đã cung cấp thiết bị phục vụ in đề thi THPT Quốc gia cho các Sở GD&ĐT nhiều tỉnh."
+    "Máy in nhân bản Duplo DP-X series khổ B4/A3 tốc độ 130–150 trang/phút, chuyên dụng in đề thi, giáo trình.",
+    "Máy phối trang Duplo DFC series 12 khay ma sát, tốc độ 4.200 bộ/giờ, tự động phát hiện lỗi trang đôi, kẹt giấy.",
+    "Vật tư chính hãng đi kèm (Master in, mực in Duplo Nhật Bản) luôn có sẵn số lượng lớn."
    ],
    "models": [
     "duplo-dp-x550",
-    "duplo-dp-x650"
+    "duplo-dp-x650",
+    "duplo-dfc-122"
    ],
    "faqs": [
     [
@@ -140,44 +142,49 @@
    ]
   },
   {
-   "slug": "may-phoi-trang-hoan-thien-sau-in",
-   "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/",
-   "name": "Máy phối trang – Hoàn thiện sau in",
-   "eyebrow": "Production Print",
-   "h1": "Máy phối trang – thiết bị hoàn thiện sau in",
-   "seo_title": "Máy phối trang Duplo DFC – thiết bị hoàn thiện sau in | Hương Sơn",
-   "seo_desc": "Máy phối trang, đóng ghim Duplo DFC dùng để sắp xếp tài liệu, phối đề thi tự động, thay cho phối thủ công. Hương Sơn là đại lý phân phối Duplo tại miền Bắc.",
-   "keywords": "máy phối trang, máy sắp xếp tài liệu, máy đóng ghim tài liệu, máy gấp giấy, thiết bị sau in, finishing thiết bị in, giải pháp finishing tài liệu, máy đóng sách tài liệu",
-   "lead": "Máy phối trang Duplo DFC dùng để tự động sắp xếp và ghép các trang tài liệu đã in thành bộ theo đúng thứ tự, thay cho việc phối thủ công — dùng nhiều cho phối đề thi và đóng bộ tài liệu số lượng lớn.",
-   "summary": "Thiết bị hoàn thiện sau in giúp giảm thời gian và sai sót khi phối trang, đóng ghim tài liệu số lượng lớn.",
+   "slug": "cho-thue-thiet-bi-giao-duc",
+   "url": "/san-pham/cho-thue-thiet-bi-giao-duc/",
+   "name": "Cho thuê thiết bị Giáo dục (HƯƠNG SƠN EDUCATION SOLUTIONS)",
+   "eyebrow": "Education Solutions",
+   "h1": "Cho thuê thiết bị cho khối Giáo dục – HƯƠNG SƠN EDUCATION SOLUTIONS",
+   "seo_title": "Cho thuê thiết bị khối Giáo dục – HƯƠNG SƠN EDUCATION SOLUTIONS | Hương Sơn",
+   "seo_desc": "Gói giải pháp cho thuê thiết bị trọn gói chuyên biệt cho khối Giáo dục: thuê máy in đề thi bí mật, thuê máy photocopy trường học, máy scan số hóa học bạ và thiết bị phòng học thông minh.",
+   "keywords": "cho thuê thiết bị giáo dục, huong son education solutions, thuê máy in đề thi, thuê máy photocopy trường học, giải pháp in ấn trường học, số hóa học bạ trường học, thiết bị phòng học thông minh",
+   "lead": "HƯƠNG SƠN EDUCATION SOLUTIONS — Gói giải pháp chuyên biệt toàn diện dành riêng cho Sở GD&ĐT, Phòng GD&ĐT, các Trường Đại học, Cao đẳng, THPT, THCS và Tiểu học. Cung cấp dịch vụ cho thuê máy in nhân bản đề thi bảo mật, thuê máy photocopy tối ưu ngân sách nhà trường, giải pháp số hóa hồ sơ học bạ và thiết bị phòng học tương tác.",
+   "summary": "Giải pháp trọn gói cho ngành giáo dục: không cần vốn đầu tư ban đầu, miễn phí toàn bộ vật tư mực in & linh kiện thay thế, trực kỹ thuật 24/7 trong mọi kỳ thi, kèm máy dự phòng 1-đổi-1 tại chỗ.",
    "answer_first": [
     [
      "Trang này là gì",
-     "Danh mục máy phối trang và thiết bị hoàn thiện sau in Duplo mà Hương Sơn phân phối."
+     "Gói giải pháp cho thuê thiết bị chuyên biệt cho khối giáo dục – HƯƠNG SƠN EDUCATION SOLUTIONS."
     ],
     [
      "Dành cho ai",
-     "Đơn vị có nhu cầu phối đề thi, đóng bộ tài liệu hoặc hoàn thiện ấn phẩm số lượng lớn."
+     "Sở GD&ĐT, Hội đồng thi, Ban Giám hiệu, Phòng Hành chính - Quản trị các trường ĐH, CĐ, THPT, THCS trên toàn miền Bắc."
     ],
     [
      "Giải quyết vấn đề gì",
-     "Thay thế công đoạn phối trang thủ công vốn chậm và dễ sai sót bằng thiết bị tự động."
+     "Đáp ứng các đợt thi cử cao điểm và vận hành in ấn giảng dạy quanh năm mà không lo phát sinh chi phí bảo trì, kẹt giấy hay sự cố kỹ thuật."
     ]
    ],
    "sub_notes": [
-    "Đại lý ủy quyền phân phối chính thức DUPLO Nhật Bản tại miền Bắc Việt Nam từ 2017."
+    "<strong>Thuê máy in nhân bản in sao đề thi</strong>: Tốc độ 130–150 trang/phút, bảo mật tuyệt đối, kỹ thuật viên trực 24/24 trong khu vực cách ly.",
+    "<strong>Thuê máy photocopy quản lý chi phí trường học</strong>: Cấp tài khoản/mã PIN phân quyền từng tổ bộ môn, định mức chi phí rõ ràng, không lo hỏng hóc.",
+    "<strong>Số hóa học bạ & hồ sơ học sinh</strong>: Máy scan 2 mặt tốc độ cao 60–100 trang/phút, nhận dạng OCR chuẩn hóa dữ liệu Đề án 06.",
+    "<strong>Thiết bị phòng học tương tác</strong>: Màn hình cảm ứng thông minh, máy chiếu, âm thanh trợ giảng giảng đường."
    ],
-   "models": [
-    "duplo-dfc-122"
-   ],
+   "models": [],
    "faqs": [
     [
-     "Máy phối trang dùng khi nào?",
-     "Khi cần ghép nhiều trang đã in rời thành một bộ hoàn chỉnh theo đúng thứ tự và số lượng — điển hình là phối đề thi hoặc đóng bộ tài liệu, giáo trình số lượng lớn."
+     "Gói HƯƠNG SƠN EDUCATION SOLUTIONS bao gồm những thiết bị gì?",
+     "Gói giải pháp cung cấp đầy đủ: Máy in nhân bản siêu tốc Duplo in đề thi, Máy photocopy đa chức năng Toshiba/Konica cho văn phòng trường, Máy scan số hóa học bạ và thiết bị phòng học thông minh."
     ],
     [
-     "Có thể kết hợp với máy in nhân bản Duplo không?",
-     "Có, đây là mô hình phổ biến: <a class=\"text-[#1A9900] font-medium hover:underline\" href=\"/san-pham/may-in-nhan-ban-toc-do-cao/\">máy in nhân bản</a> in ra các trang rời, sau đó máy phối trang ghép thành bộ."
+     "Nhà trường có phải trả chi phí thay mực, trống hoặc sửa chữa khi máy hỏng không?",
+     "Không. Giá thuê đã trọn gói 100% chi phí: mực in, master, cụm trống, linh kiện hao mòn và kỹ thuật bảo dưỡng định kỳ tận nơi."
+    ],
+    [
+     "Thời gian hỗ trợ kỹ thuật trong các kỳ thi cao điểm như thế nào?",
+     "Hương Sơn bố trí kỹ thuật viên chuyên trách trực 24/7 và đặt sẵn máy in dự phòng tại điểm thi để đảm bảo tiến độ tuyệt đối an toàn."
     ]
    ]
   },
@@ -510,8 +517,8 @@
   },
   {
    "slug": "duplo-dfc-122",
-   "category": "may-phoi-trang-hoan-thien-sau-in",
-   "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/duplo-dfc-122/",
+   "category": "may-in-nhan-ban-toc-do-cao",
+   "url": "/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/",
    "name": "Máy phối trang (sắp xếp tài liệu) Duplo DFC-122",
    "model": "DFC-122",
    "manufacturer": "Duplo (Nhật Bản)",

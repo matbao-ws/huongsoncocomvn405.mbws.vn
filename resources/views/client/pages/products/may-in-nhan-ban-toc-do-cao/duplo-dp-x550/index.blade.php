@@ -109,7 +109,7 @@
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Máy in nhân bản tốc độ cao Duplo",
+        "name": "Máy in nhân bản tốc độ cao & Thiết bị hoàn thiện sau in Duplo",
         "item": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
       },
       {
@@ -407,7 +407,7 @@
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Máy in nhân bản tốc độ cao Duplo",
+        "name": "Máy in nhân bản tốc độ cao & Thiết bị hoàn thiện sau in Duplo",
         "item": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
       },
       {
@@ -584,7 +584,7 @@
             <span>SẢN PHẨM</span>
             <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
           </a>
-          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md"><a href="/san-pham/photocopy-may-da-chuc-nang/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Photocopy – Máy đa chức năng</a><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in nhân bản tốc độ cao</a><a href="/san-pham/may-scan-so-hoa/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy Scan – Số hóa</a><a href="/san-pham/may-phoi-trang-hoan-thien-sau-in/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy phối trang – Hoàn thiện sau in</a><a href="/san-pham/may-in-laser/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in Laser – Thiết bị in</a><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị phòng học – Giáo dục</a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Vật tư – Linh kiện – Tiêu hao</a><a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị văn phòng – Hội họp</a><a href="/san-pham/fansipan/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">FANSIPAN – Vật tư tương thích</a>
+          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md"><a href="/san-pham/photocopy-may-da-chuc-nang/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Photocopy – Máy đa chức năng</a><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in nhân bản & Hoàn thiện sau in</a><a href="/san-pham/cho-thue-thiet-bi-giao-duc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Cho thuê thiết bị Giáo dục (HƯƠNG SƠN EDUCATION SOLUTIONS)</a><a href="/san-pham/may-scan-so-hoa/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy Scan – Số hóa</a><a href="/san-pham/may-in-laser/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in Laser – Thiết bị in</a><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị phòng học – Giáo dục</a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Vật tư – Linh kiện – Tiêu hao</a><a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị văn phòng – Hội họp</a><a href="/san-pham/fansipan/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">FANSIPAN – Vật tư tương thích</a>
           </div>
         </div>
         <div class="relative has-dropdown group py-2">
@@ -642,11 +642,11 @@
       <div class="absolute inset-0 bg-[#181924]/88"></div>
     </div>
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
-      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Production Print</span>
+      <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-2">Production &amp; Finishing</span>
       <h1 class="text-3xl sm:text-[42px] font-bold text-white mb-4 leading-tight">Máy nhân bản siêu tốc Duplo DP-X550</h1>
       <p class="max-w-3xl mx-auto text-gray-300 text-[15px] leading-relaxed">Duplo DP-X550 đạt tốc độ đến 155 bản/phút với độ phân giải cao, tạo độ sắc nét cho khu vực hình ảnh khổ A3 — phù hợp cho nhu cầu nhân bản một văn bản gốc ra số lượng lớn trong thời gian ngắn như in đề thi, giáo trình, biểu mẫu.</p>
       <nav class="mt-7 text-[12.5px] text-gray-400 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/san-pham/" class="hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="hover:text-white transition">Máy in nhân bản tốc độ cao Duplo</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Máy nhân bản siêu tốc Duplo DP-X550</span>
+        <a href="/" class="hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/san-pham/" class="hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="hover:text-white transition">Máy in nhân bản tốc độ cao &amp; Thiết bị hoàn thiện sau in Duplo</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-500"></i> <span class="text-[#1A9900]" aria-current="page">Máy nhân bản siêu tốc Duplo DP-X550</span>
       </nav>
     </div>
   </section>
@@ -889,7 +889,7 @@
       </div>
       <div class="flex flex-wrap items-center gap-4 flex-shrink-0">
         <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Yêu cầu báo giá</a>
-        <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="border border-gray-500 hover:border-[#1A9900] hover:text-[#1A9900] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem Máy in nhân bản tốc độ cao Duplo</a>
+        <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="border border-gray-500 hover:border-[#1A9900] hover:text-[#1A9900] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem Máy in nhân bản tốc độ cao &amp; Thiết bị hoàn thiện sau in Duplo</a>
         <a href="tel:02439729484" data-ga="click_hotline" class="text-white font-bold text-sm hover:text-[#1A9900] transition">
           <i class="fa-solid fa-phone text-[#1A9900] mr-2"></i>024 3972 9484
         </a>
@@ -916,7 +916,7 @@
 
         <div class="lg:col-span-2">
           <h4 class="text-gray-900 text-[16px] font-bold mb-5 uppercase tracking-wider">Sản phẩm</h4>
-          <ul class="space-y-3 text-[14.5px] font-normal"><li><a href="/san-pham/photocopy-may-da-chuc-nang/" class="hover:text-[#1A9900] transition block text-gray-600">Photocopy – Máy đa chức năng</a></li><li><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="hover:text-[#1A9900] transition block text-gray-600">Máy in nhân bản tốc độ cao</a></li><li><a href="/san-pham/may-scan-so-hoa/" class="hover:text-[#1A9900] transition block text-gray-600">Máy Scan – Số hóa</a></li><li><a href="/san-pham/may-phoi-trang-hoan-thien-sau-in/" class="hover:text-[#1A9900] transition block text-gray-600">Máy phối trang – Hoàn thiện sau in</a></li><li><a href="/san-pham/may-in-laser/" class="hover:text-[#1A9900] transition block text-gray-600">Máy in Laser – Thiết bị in</a></li><li><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="hover:text-[#1A9900] transition block text-gray-600">Thiết bị phòng học – Giáo dục</a></li></ul>
+          <ul class="space-y-3 text-[14.5px] font-normal"><li><a href="/san-pham/photocopy-may-da-chuc-nang/" class="hover:text-[#1A9900] transition block text-gray-600">Photocopy – Máy đa chức năng</a></li><li><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="hover:text-[#1A9900] transition block text-gray-600">Máy in nhân bản & Hoàn thiện sau in</a></li><li><a href="/san-pham/cho-thue-thiet-bi-giao-duc/" class="hover:text-[#1A9900] transition block text-gray-600">Cho thuê thiết bị Giáo dục (HƯƠNG SƠN EDUCATION SOLUTIONS)</a></li><li><a href="/san-pham/may-scan-so-hoa/" class="hover:text-[#1A9900] transition block text-gray-600">Máy Scan – Số hóa</a></li><li><a href="/san-pham/may-in-laser/" class="hover:text-[#1A9900] transition block text-gray-600">Máy in Laser – Thiết bị in</a></li><li><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="hover:text-[#1A9900] transition block text-gray-600">Thiết bị phòng học – Giáo dục</a></li></ul>
         </div>
 
         <div class="lg:col-span-3">
@@ -984,7 +984,7 @@
           <i class="fa-solid fa-chevron-down text-xs"></i>
         </button>
         <div class="hidden pl-4 py-2 space-y-2 text-sm text-gray-600">
-          <a href="/san-pham/" class="block py-1 text-[#1A9900] font-semibold">Tổng quan</a><a href="/san-pham/photocopy-may-da-chuc-nang/" class="block py-1 hover:text-[#1A9900]">Photocopy – Máy đa chức năng</a><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block py-1 hover:text-[#1A9900]">Máy in nhân bản tốc độ cao</a><a href="/san-pham/may-scan-so-hoa/" class="block py-1 hover:text-[#1A9900]">Máy Scan – Số hóa</a><a href="/san-pham/may-phoi-trang-hoan-thien-sau-in/" class="block py-1 hover:text-[#1A9900]">Máy phối trang – Hoàn thiện sau in</a><a href="/san-pham/may-in-laser/" class="block py-1 hover:text-[#1A9900]">Máy in Laser – Thiết bị in</a><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block py-1 hover:text-[#1A9900]">Thiết bị phòng học – Giáo dục</a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block py-1 hover:text-[#1A9900]">Vật tư – Linh kiện – Tiêu hao</a><a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block py-1 hover:text-[#1A9900]">Thiết bị văn phòng – Hội họp</a><a href="/san-pham/fansipan/" class="block py-1 hover:text-[#1A9900]">FANSIPAN – Vật tư tương thích</a>
+          <a href="/san-pham/" class="block py-1 text-[#1A9900] font-semibold">Tổng quan</a><a href="/san-pham/photocopy-may-da-chuc-nang/" class="block py-1 hover:text-[#1A9900]">Photocopy – Máy đa chức năng</a><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block py-1 hover:text-[#1A9900]">Máy in nhân bản & Hoàn thiện sau in</a><a href="/san-pham/cho-thue-thiet-bi-giao-duc/" class="block py-1 hover:text-[#1A9900]">Cho thuê thiết bị Giáo dục (HƯƠNG SƠN EDUCATION SOLUTIONS)</a><a href="/san-pham/may-scan-so-hoa/" class="block py-1 hover:text-[#1A9900]">Máy Scan – Số hóa</a><a href="/san-pham/may-in-laser/" class="block py-1 hover:text-[#1A9900]">Máy in Laser – Thiết bị in</a><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block py-1 hover:text-[#1A9900]">Thiết bị phòng học – Giáo dục</a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block py-1 hover:text-[#1A9900]">Vật tư – Linh kiện – Tiêu hao</a><a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block py-1 hover:text-[#1A9900]">Thiết bị văn phòng – Hội họp</a><a href="/san-pham/fansipan/" class="block py-1 hover:text-[#1A9900]">FANSIPAN – Vật tư tương thích</a>
         </div>
       </div>
       <div>
