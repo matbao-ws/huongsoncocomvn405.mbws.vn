@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'Hương Sơn – Giải pháp thiết bị, in ấn, số hóa')</title>
     @hasSection('meta_description')
         <meta name="description" content="@yield('meta_description')">

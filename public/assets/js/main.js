@@ -424,9 +424,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // CẦN CẤU HÌNH: đổi form.action sang endpoint thật (email/CRM webhook).
       // Khi chưa có endpoint, form vẫn phản hồi cho người dùng nhưng KHÔNG lưu lead.
-      fetch(form.action, {
+      const csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content')
+        || document.querySelector('input[name="_token"]')?.value
+        || '';
+
+      fetch(form.action || '/api/lead', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+          'X-CSRF-TOKEN': csrfToken,
+        },
         body: JSON.stringify(data),
       }).then((r) => done(r.ok)).catch(() => done(true));
     });

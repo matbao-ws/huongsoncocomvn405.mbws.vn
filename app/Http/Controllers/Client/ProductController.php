@@ -8,13 +8,14 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index(Request , ?string  = null): View
+    public function index(Request , ...): View
     {
         return view('client.pages.products.index');
     }
 
-    public function category(Request , ?string  = null, ?string  = null): View
+    public function category(Request , ...): View
     {
+         = end();
          = 'client.pages.products.' .  . '.index';
         if (view()->exists()) {
             return view();
@@ -22,8 +23,10 @@ class ProductController extends Controller
         abort(404);
     }
 
-    public function show(Request , ?string  = null, ?string  = null, ?string  = null): View
+    public function show(Request , ...): View
     {
+         = array_pop();
+         = array_pop();
          = 'client.pages.products.' .  . '.' .  . '.index';
         if (view()->exists()) {
             return view();

@@ -8,13 +8,14 @@ use Illuminate\Http\Request;
 
 class ToolController extends Controller
 {
-    public function index(Request , ?string  = null): View
+    public function index(Request , ...): View
     {
         return view('client.pages.tools.index');
     }
 
-    public function subpage(Request , ?string  = null, ?string  = null): View
+    public function subpage(Request , ...): View
     {
+         = end();
          = 'client.pages.tools.' .  . '.index';
         if (view()->exists()) {
             return view();

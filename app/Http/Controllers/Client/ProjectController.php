@@ -8,13 +8,14 @@ use Illuminate\Http\Request;
 
 class ProjectController extends Controller
 {
-    public function index(Request , ?string  = null): View
+    public function index(Request , ...): View
     {
         return view('client.pages.projects.index');
     }
 
-    public function show(Request , ?string  = null, ?string  = null): View
+    public function show(Request , ...): View
     {
+         = end();
          = 'client.pages.projects.' .  . '.index';
         if (view()->exists()) {
             return view();

@@ -11,47 +11,58 @@ use Illuminate\Http\Request;
 
 class LeadController extends Controller
 {
-    public function index(Request , ?string  = null): View
+    public function index(Request $request, ...$params): View
     {
         return view('client.pages.lead.index');
     }
 
-    public function subpage(Request , ?string  = null, ?string  = null): View
+    public function subpage(Request $request, ...$params): View
     {
-         = 'client.pages.lead.' .  . '.index';
-        if (view()->exists()) {
-            return view();
+        $slug = end($params);
+        $viewName = 'client.pages.lead.' . $slug . '.index';
+        if (view()->exists($viewName)) {
+            return view($viewName);
         }
         abort(404);
     }
 
-    public function submit(Request ): JsonResponse|RedirectResponse
+    public function submit(Request $request): JsonResponse|RedirectResponse
     {
-         = ->validate([
-            'name' => 'nullable|string|max:255',
-            'phone' => 'required|string|max:50',
-            'email' => 'nullable|email|max:255',
-            'message' => 'nullable|string|max:2000',
-        ]);
+        $phone = $request->input('dien_thoai') ?? $request->input('phone');
+        if (blank($phone)) {
+            if ($request->expectsJson() || $request->ajax()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Vui lòng cung cấp số điện thoại liên hệ.',
+                ], 422);
+            }
+            return back()->withErrors(['dien_thoai' => 'Vui lòng cung cấp số điện thoại liên hệ.']);
+        }
 
-         = ->except(['_token', 'name', 'phone', 'email', 'message']);
+        $name = $request->input('ho_ten') ?? $request->input('name') ?? 'Khách hàng liên hệ';
+        $email = $request->input('email');
+        $message = $request->input('noi_dung') 
+            ?? $request->input('message') 
+            ?? ('Yêu cầu: ' . ($request->input('nhu_cau') ?? $request->input('page_type') ?? 'Tư vấn từ website'));
+
+        $meta = $request->except(['_token', '_hp', 'ho_ten', 'name', 'dien_thoai', 'phone', 'email', 'noi_dung', 'message']);
 
         ContactSubmission::create([
-            'name' => ['name'] ?? 'Khách hàng liên hệ',
-            'phone' => ['phone'],
-            'email' => ['email'] ?? null,
-            'message' => ['message'] ?? (->input('form_type') ? 'Gửi yêu cầu: ' . ->input('form_type') : 'Liên hệ từ website'),
-            'meta' => ,
+            'name' => $name,
+            'phone' => $phone,
+            'email' => $email,
+            'message' => $message,
+            'meta' => $meta !== [] ? $meta : null,
             'is_read' => false,
         ]);
 
-        if (->expectsJson() || ->ajax()) {
+        if ($request->expectsJson() || $request->ajax()) {
             return response()->json([
                 'success' => true,
-                'message' => 'Gửi thông tin thành công! Chuyên viên Hương Sơn sẽ liên hệ Quý khách trong thời gian sớm nhất.',
+                'message' => 'Hương Sơn đã nhận được thông tin! Chuyên viên sẽ liên hệ Quý khách trong thời gian sớm nhất.',
             ]);
         }
 
-        return back()->with('success', 'Gửi thông tin thành công! Chuyên viên Hương Sơn sẽ liên hệ Quý khách trong thời gian sớm nhất.');
+        return back()->with('success', 'Hương Sơn đã nhận được thông tin! Chuyên viên sẽ liên hệ Quý khách trong thời gian sớm nhất.');
     }
 }
