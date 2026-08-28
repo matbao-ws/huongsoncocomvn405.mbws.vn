@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /assets/docs/
+
+# Crawler AI — phục vụ KPI "AI visibility". Đổi thành Disallow nếu khách không đồng ý.
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://huongsonco.com.vn/sitemap.xml
