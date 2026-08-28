@@ -30,7 +30,7 @@ def slugify(t):
 
 
 # ------------------------------------------------------------------- page header
-def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/xxx_about-hero_xxx.jpg"):
+def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg"):
     """Banner đầu trang + breadcrumb hiển thị (schema BreadcrumbList sinh riêng)."""
     crumbs = []
     for i, (label, url) in enumerate(trail):

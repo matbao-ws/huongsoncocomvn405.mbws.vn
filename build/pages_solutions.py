@@ -38,7 +38,8 @@ def render_solution(s):
         trail.append((p["h1"], p["url"]))
     trail.append((s["h1"], s["url"]))
 
-    body = C.page_hero(eyebrow=s["eyebrow"], h1=s["h1"], lead=esc(s["lead"]), trail=trail)
+    hero_img = "/assets/images/hero-education.jpg" if "giao-duc" in s.get("url", "") or s.get("slug") == "in-de-thi-tai-lieu" else "/assets/images/hero-solutions.jpg"
+    body = C.page_hero(eyebrow=s["eyebrow"], h1=s["h1"], lead=esc(s["lead"]), trail=trail, image=hero_img)
     body += C.answer_first([(k, v) for k, v in s["answer_first"]])
 
     # 1. PROBLEM
@@ -139,7 +140,8 @@ def render_hub():
         eyebrow="Solutions",
         h1="Giải pháp thiết bị, in ấn và số hóa theo ngành",
         lead="8 giải pháp Hương Sơn xây dựng theo đúng bài toán từng ngành — mỗi giải pháp trình bày theo 6 bước: Problem → Solution → Equipment → Implementation → Service → ROI.",
-        trail=trail)
+        trail=trail,
+        image="/assets/images/hero-solutions.jpg")
     body += C.answer_first([
         ["Trang này là gì", "Trang tổng hợp toàn bộ giải pháp theo ngành mà Hương Sơn cung cấp."],
         ["Dành cho ai", "Khách hàng muốn tìm giải pháp phù hợp với ngành hoặc nhu cầu cụ thể của đơn vị mình."],

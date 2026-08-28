@@ -16,7 +16,8 @@ PROJECTS = render.load("projects.json")
 def render_project(p):
     trail = [("Trang chủ", "/"), ("Dự án", "/du-an/"), (p["title"], p["url"])]
     body = C.page_hero(eyebrow=p["eyebrow"], h1=p["title"],
-                       lead=f'{esc(p["customer"])} · {esc(p["year"])}', trail=trail)
+                       lead=f'{esc(p["customer"])} · {esc(p["year"])}', trail=trail,
+                       image=p.get("image", "/assets/images/hero-projects.jpg"))
 
     facts = [
         ("Khách hàng", esc(p["customer"])), ("Nhiệm vụ", esc(p["task"])),
@@ -71,7 +72,8 @@ def render_hub():
     body = C.page_hero(eyebrow="Case Study",
                        h1="Dự án đã triển khai",
                        lead="Các dự án Hương Sơn đã thực hiện, có hồ sơ hợp đồng, bàn giao và nghiệm thu làm bằng chứng năng lực.",
-                       trail=trail)
+                       trail=trail,
+                       image="/assets/images/hero-projects.jpg")
     body += C.answer_first([
         ["Trang này là gì", "Danh sách dự án Hương Sơn đã triển khai, mỗi dự án có bằng chứng hồ sơ cụ thể."],
         ["Dành cho ai", "Khách hàng muốn xem năng lực triển khai thực tế của Hương Sơn trước khi quyết định hợp tác."],

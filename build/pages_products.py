@@ -71,7 +71,7 @@ def render_model(m):
     trail = [("Trang chủ", "/"), ("Sản phẩm", "/san-pham/"), (cat["h1"], cat["url"]), (m["name"], m["url"])]
 
     body = C.page_hero(eyebrow=cat["eyebrow"], h1=m["name"], lead=esc(m["summary"]), trail=trail,
-                       image=m.get("image", "/assets/images/xxx_about-hero_xxx.jpg"))
+                       image=m.get("image", "/assets/images/hero-office.jpg"))
     body += C.answer_first([
         ("Model", f'<strong>{esc(m["model"])}</strong> — sản xuất bởi {esc(m["manufacturer"])}'),
         ("Dùng cho", ", ".join(esc(i) for i in m.get("industry", []))),

@@ -754,7 +754,7 @@
   <!-- PAGE HERO -->
   <section class="relative bg-[#181924] min-h-[340px] sm:min-h-[400px] flex items-center overflow-hidden">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/xxx_about-hero_xxx.jpg" alt="Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty" class="w-full h-full object-cover object-center" loading="eager" />
+      <img src="/assets/images/hero-solutions.jpg" alt="Giải pháp in ấn, tài liệu và số hóa cho Tập đoàn – Tổng công ty" class="w-full h-full object-cover object-center" loading="eager" />
       <div class="absolute inset-0 bg-[#181924]/88"></div>
     </div>
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
