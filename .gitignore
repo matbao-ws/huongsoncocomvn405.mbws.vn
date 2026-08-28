@@ -5,6 +5,7 @@
 .env.local
 .env.production
 .env.testing
+.deploy-backups/
 /storage/*.key
 /storage/framework/cache/*
 /storage/framework/sessions/*
