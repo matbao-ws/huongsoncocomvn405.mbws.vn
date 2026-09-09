@@ -465,11 +465,26 @@
                 metaDescInput.dispatchEvent(new Event('input', { bubbles: true }));
             };
 
-            // Event listener for "Tự động tạo SEO" button
+            // Track manual user typing on SEO fields
+            document.querySelectorAll('input[data-i18n-field="meta_title"], textarea[data-i18n-field="meta_description"]').forEach((el) => {
+                el.addEventListener('input', () => {
+                    el.dataset.manuallyEdited = 'true';
+                });
+            });
+
+            // Event listener for "Tự động tạo SEO" button with visual feedback
             document.querySelectorAll('.js-auto-seo-btn').forEach((btn) => {
                 btn.addEventListener('click', () => {
                     const locale = btn.dataset.locale;
                     autoGenerateSeoForLocale(locale);
+
+                    const origHtml = btn.innerHTML;
+                    btn.innerHTML = '<i class="ti ti-check me-1"></i>Đã tạo SEO!';
+                    btn.classList.replace('btn-outline-success', 'btn-success');
+                    setTimeout(() => {
+                        btn.innerHTML = origHtml;
+                        btn.classList.replace('btn-success', 'btn-outline-success');
+                    }, 1500);
                 });
             });
 
@@ -483,6 +498,19 @@
                     }
                 });
             });
+
+            // When brand select changes, update SEO title if user hasn't manually edited
+            if (brandSelect) {
+                brandSelect.addEventListener('change', () => {
+                    document.querySelectorAll('.js-auto-seo-btn').forEach((btn) => {
+                        const locale = btn.dataset.locale;
+                        const metaTitleInput = document.getElementById(`meta_title_${locale}`);
+                        if (metaTitleInput && (!metaTitleInput.dataset.manuallyEdited || !metaTitleInput.value.trim())) {
+                            autoGenerateSeoForLocale(locale);
+                        }
+                    });
+                });
+            }
         });
     </script>
 @endpush

@@ -1,8 +1,20 @@
 @extends('client.layouts.app')
 
-@section('title', $category->name . " | Hương Sơn")
-@section('meta_description', $category->description ?: ("Danh mục thiết bị " . $category->name . " chính hãng tại Hương Sơn."))
+@php
+    $catTitle = $category->meta_title ?: $category->name;
+    if (!str_contains($catTitle, 'Hương Sơn') && !str_contains($catTitle, 'Huong Son')) {
+        $catTitle .= ' | Hương Sơn';
+    }
+    $catDesc = $category->meta_description ?: ($category->description ?: ("Danh mục thiết bị " . $category->name . " chính hãng tại Hương Sơn."));
+@endphp
+
+@section('title', $catTitle)
+@section('meta_description', $catDesc)
 @section('canonical', url()->current())
+@section('og_type', 'website')
+@if($category->image_url)
+@section('og_image', str_starts_with($category->image_url, 'http') ? $category->image_url : url($category->image_url))
+@endif
 
 @section('jsonld')
 @php

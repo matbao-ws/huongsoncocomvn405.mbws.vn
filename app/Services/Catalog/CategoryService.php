@@ -60,13 +60,35 @@ class CategoryService
         $baseSlug = $submittedSlugs[$this->languages->defaultLocale()] ?? $submittedSlugs[app()->getLocale()] ?? ($name[$this->languages->defaultLocale()] ?? $name[$this->fallbackLocale()] ?? reset($name));
         $imageUrl = $this->imageUrl($data['image_file'] ?? null, $data['image_url'] ?? null, $category);
 
+        $desc = $this->translationValue($data['description'] ?? null, $category, 'description');
+        $metaTitle = $this->translationValue($data['meta_title'] ?? null, $category, 'meta_title');
+        $metaDescription = $this->translationValue($data['meta_description'] ?? null, $category, 'meta_description');
+
+        foreach ($name as $loc => $catName) {
+            $isEn = $loc === 'en';
+            if (empty($metaTitle[$loc]) && filled($catName)) {
+                $metaTitle[$loc] = $isEn ? "{$catName} Genuine | Huong Son" : "{$catName} Chính Hãng | Công Ty Hương Sơn";
+            }
+            if (empty($metaDescription[$loc])) {
+                $rawText = !empty($desc[$loc]) ? strip_tags($desc[$loc]) : '';
+                $cleanText = trim(preg_replace('/\s+/', ' ', $rawText));
+                if (filled($cleanText)) {
+                    $metaDescription[$loc] = Str::limit($cleanText, 155);
+                } elseif (filled($catName)) {
+                    $metaDescription[$loc] = $isEn
+                        ? "Genuine {$catName} distributed by Huong Son Co., Ltd. Best quality, on-site warranty and professional support."
+                        : "Danh mục {$catName} phân phối chính hãng bởi Công ty Hương Sơn. Cam kết chất lượng, bảo hành tận nơi, dịch vụ chuyên nghiệp.";
+                }
+            }
+        }
+
         return [
             'parent_id' => $data['parent_id'] ?? null,
             'name' => $name,
             'slug' => $this->uniqueSlug((string) $baseSlug, $category?->id),
-            'description' => $this->translationValue($data['description'] ?? null, $category, 'description'),
-            'meta_title' => $this->translationValue($data['meta_title'] ?? null, $category, 'meta_title'),
-            'meta_description' => $this->translationValue($data['meta_description'] ?? null, $category, 'meta_description'),
+            'description' => $desc,
+            'meta_title' => $metaTitle,
+            'meta_description' => $metaDescription,
             'image_url' => $imageUrl,
             'sort_order' => (int) ($data['sort_order'] ?? $category?->sort_order ?? 0),
             'is_active' => (bool) ($data['is_active'] ?? false),

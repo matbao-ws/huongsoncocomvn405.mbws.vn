@@ -1,8 +1,20 @@
 @extends('client.layouts.app')
 
-@section('title', ($post->seo_title ?: $post->title) . " | Hương Sơn")
-@section('meta_description', $post->seo_description ?: ($post->summary ?: $post->title))
+@php
+    $postTitle = $post->seo_title ?: $post->title;
+    if (!str_contains($postTitle, 'Hương Sơn') && !str_contains($postTitle, 'Huong Son')) {
+        $postTitle .= ' | Hương Sơn';
+    }
+    $postDesc = $post->seo_description ?: ($post->summary ?: \Illuminate\Support\Str::limit(strip_tags($post->content), 155));
+@endphp
+
+@section('title', $postTitle)
+@section('meta_description', $postDesc)
 @section('canonical', url()->current())
+@section('og_type', 'article')
+@if($post->image_url)
+@section('og_image', str_starts_with($post->image_url, 'http') ? $post->image_url : url($post->image_url))
+@endif
 
 @section('content')
 <!-- PAGE HERO -->

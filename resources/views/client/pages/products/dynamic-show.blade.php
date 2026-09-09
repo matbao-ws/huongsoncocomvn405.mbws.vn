@@ -1,8 +1,20 @@
 @extends('client.layouts.app')
 
-@section('title', ($product->meta_title ?: $product->name) . " | Hương Sơn")
-@section('meta_description', $product->meta_description ?: ($product->short_description ?: $product->name))
+@php
+    $prodTitle = $product->meta_title ?: $product->name;
+    if (!str_contains($prodTitle, 'Hương Sơn') && !str_contains($prodTitle, 'Huong Son')) {
+        $prodTitle .= ' | Hương Sơn';
+    }
+    $prodDesc = $product->meta_description ?: ($product->short_description ?: $product->name);
+@endphp
+
+@section('title', $prodTitle)
+@section('meta_description', $prodDesc)
 @section('canonical', url()->current())
+@section('og_type', 'product')
+@if($product->image_url)
+@section('og_image', str_starts_with($product->image_url, 'http') ? $product->image_url : url($product->image_url))
+@endif
 
 @section('jsonld')
 @php

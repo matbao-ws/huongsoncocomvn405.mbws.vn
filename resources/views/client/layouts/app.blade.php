@@ -11,6 +11,24 @@
     @hasSection('canonical')
         <link rel="canonical" href="@yield('canonical')">
     @endif
+
+    <!-- Open Graph / Facebook / Zalo -->
+    <meta property="og:type" content="@yield('og_type', 'website')">
+    <meta property="og:url" content="@yield('canonical', url()->current())">
+    <meta property="og:title" content="@yield('title', 'Hương Sơn – Giải pháp thiết bị, in ấn, số hóa')">
+    @hasSection('meta_description')
+        <meta property="og:description" content="@yield('meta_description')">
+    @endif
+    <meta property="og:image" content="@yield('og_image', url('/assets/images/brand/logo.png'))">
+    <meta property="og:site_name" content="Công ty TNHH TM&DV Hương Sơn">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('title', 'Hương Sơn – Giải pháp thiết bị, in ấn, số hóa')">
+    @hasSection('meta_description')
+        <meta name="twitter:description" content="@yield('meta_description')">
+    @endif
+    <meta name="twitter:image" content="@yield('og_image', url('/assets/images/brand/logo.png'))">
     
     <link rel="icon" href="/assets/images/brand/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">

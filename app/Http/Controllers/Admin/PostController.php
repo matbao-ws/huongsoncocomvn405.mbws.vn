@@ -82,6 +82,23 @@ class PostController extends Controller
         $contents = $this->cleanTranslations($validated['content'], true);
         $seoTitles = $this->cleanTranslations($validated['seo_title'] ?? []);
         $seoDescriptions = $this->cleanTranslations($validated['seo_description'] ?? []);
+
+        foreach ($titles as $loc => $titleText) {
+            $isEn = $loc === 'en';
+            if (empty($seoTitles[$loc]) && filled($titleText)) {
+                $seoTitles[$loc] = $isEn ? "{$titleText} | Huong Son" : "{$titleText} | Hương Sơn";
+            }
+            if (empty($seoDescriptions[$loc])) {
+                $sum = $validated['summary'][$loc] ?? '';
+                $cnt = $contents[$loc] ?? '';
+                $raw = !empty($sum) ? strip_tags($sum) : (!empty($cnt) ? strip_tags($cnt) : '');
+                $clean = trim(preg_replace('/\s+/', ' ', $raw));
+                if (filled($clean)) {
+                    $seoDescriptions[$loc] = \Illuminate\Support\Str::limit($clean, 155);
+                }
+            }
+        }
+
         $seoAnalysis = $this->analyzeSeo($titles, $contents, $seoTitles, $seoDescriptions, $legacySlug, $validated['seo_keys'] ?? null);
 
         $imageUrl = $validated['image_url'] ?? null;
@@ -152,6 +169,23 @@ class PostController extends Controller
         $contents = $this->mergeTranslations($post, 'content', $validated['content'], true);
         $seoTitles = $this->mergeTranslations($post, 'seo_title', $validated['seo_title'] ?? []);
         $seoDescriptions = $this->mergeTranslations($post, 'seo_description', $validated['seo_description'] ?? []);
+
+        foreach ($titles as $loc => $titleText) {
+            $isEn = $loc === 'en';
+            if (empty($seoTitles[$loc]) && filled($titleText)) {
+                $seoTitles[$loc] = $isEn ? "{$titleText} | Huong Son" : "{$titleText} | Hương Sơn";
+            }
+            if (empty($seoDescriptions[$loc])) {
+                $sum = $validated['summary'][$loc] ?? ($post->getTranslation('summary', $loc, false) ?: '');
+                $cnt = $contents[$loc] ?? '';
+                $raw = !empty($sum) ? strip_tags($sum) : (!empty($cnt) ? strip_tags($cnt) : '');
+                $clean = trim(preg_replace('/\s+/', ' ', $raw));
+                if (filled($clean)) {
+                    $seoDescriptions[$loc] = \Illuminate\Support\Str::limit($clean, 155);
+                }
+            }
+        }
+
         $seoAnalysis = $this->analyzeSeo($titles, $contents, $seoTitles, $seoDescriptions, $legacySlug, $validated['seo_keys'] ?? null);
 
         $imageUrl = ($validated['image_url'] ?? null) ?: $post->image_url;
