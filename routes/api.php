@@ -280,8 +280,8 @@ Route::get('/catalog/sync-all-seo-v1', function (Request $request) {
     $updatedProducts = [];
 
     foreach ($products as $prod) {
-        $viName = $prod->getTranslation('name', 'vi', false) ?: $prod->name;
-        $enName = $prod->getTranslation('name', 'en', false) ?: $prod->name;
+        $viName = $prod->getTranslation('name', 'vi', false) ?: ($prod->name ?: 'Sản phẩm Hương Sơn');
+        $enName = $prod->getTranslation('name', 'en', false) ?: $viName;
         $brandName = $prod->brand ? ($prod->brand->getTranslation('name', 'vi', false) ?: $prod->brand->name) : '';
         $brandSuffix = $brandName ? " - Chính Hãng {$brandName}" : '';
 
