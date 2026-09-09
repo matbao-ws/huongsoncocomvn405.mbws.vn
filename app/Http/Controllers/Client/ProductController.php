@@ -10,14 +10,14 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index(Request $request, ...$params): View
+    public function index(Request $request): View
     {
         return view('client.pages.products.index');
     }
 
-    public function category(Request $request, ...$params): View
+    public function category(Request $request, string $slug): View
     {
-        $slug = end($params);
+        $slug = trim($slug, '/');
         $viewName = 'client.pages.products.' . $slug . '.index';
         if (view()->exists($viewName)) {
             return view($viewName);
@@ -27,7 +27,10 @@ class ProductController extends Controller
         }
 
         // Dynamic category lookup from DB
-        $cat = Category::where('slug', $slug)->first();
+        $cat = Category::where('slug', $slug)
+            ->orWhere('slug->vi', $slug)
+            ->first();
+
         if ($cat) {
             $products = Product::with('brand')
                 ->where('category_id', $cat->id)
@@ -45,10 +48,11 @@ class ProductController extends Controller
         abort(404);
     }
 
-    public function show(Request $request, ...$params): View
+    public function show(Request $request, string $category, string $slug): View
     {
-        $slug = array_pop($params);
-        $category = array_pop($params);
+        $category = trim($category, '/');
+        $slug = trim($slug, '/');
+
         $viewName = 'client.pages.products.' . $category . '.' . $slug . '.index';
         if (view()->exists($viewName)) {
             return view($viewName);

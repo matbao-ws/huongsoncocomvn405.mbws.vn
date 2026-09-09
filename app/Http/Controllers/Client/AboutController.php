@@ -9,14 +9,16 @@ use Illuminate\Http\Request;
 
 class AboutController extends Controller
 {
-    public function index(Request $request, ...$params): View
+    public function index(Request $request): View
     {
         return view('client.pages.about.index');
     }
 
-    public function subpage(Request $request, ...$params): View
+    public function subpage(Request $request, ?string $slug = null): View
     {
-        $slug = end($params);
+        $slug = $slug ?: $request->route('slug');
+        $slug = trim((string) $slug, '/');
+
         $viewName = 'client.pages.about.' . $slug . '.index';
         if (view()->exists($viewName)) {
             if ($slug === 'tin-tuc') {
@@ -33,6 +35,8 @@ class AboutController extends Controller
 
     public function postDetail(Request $request, string $postSlug): View
     {
+        $postSlug = trim($postSlug, '/');
+
         $post = Post::where('is_active', true)
             ->where(function ($q) use ($postSlug) {
                 $q->where('slug', $postSlug)

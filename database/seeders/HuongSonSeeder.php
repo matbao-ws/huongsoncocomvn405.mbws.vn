@@ -365,6 +365,8 @@ class HuongSonSeeder extends Seeder
             [
                 'category_id' => $postCatNews->id,
                 'title' => ['vi' => 'Hương Sơn hoàn tất bàn giao & vận hành hệ thống máy in DUPLO cho kỳ thi THPT', 'en' => 'Huong Son completes delivery of DUPLO exam printing systems for National High School Exam'],
+                'summary' => ['vi' => 'Hương Sơn hoàn tất công tác lắp đặt, kiểm định và bàn giao dàn máy in nhân bản siêu tốc Duplo DP-X650 và máy phối trang DFC-122 cho Hội đồng in sao đề thi.', 'en' => 'Huong Son completes deployment of Duplo DP-X650 and DFC-122 systems.'],
+                'image_url' => '/assets/images/products/duplo-dp-x650.jpg',
                 'content' => [
                     'vi' => '<p>Tháng 06/2026, Công ty TNHH TM & DV Hương Sơn đã hoàn tất công tác lắp đặt, kiểm định và bàn giao hệ thống máy in nhân bản siêu tốc <strong>DUPLO DP-X650</strong> cùng máy phối trang 12 khay <strong>DUPLO DFC-122</strong> phục vụ Hội đồng in sao đề thi tại nhiều tỉnh thành miền Bắc và miền Trung.</p><p>Với yêu cầu nghiêm ngặt về tính bảo mật và tốc độ, toàn bộ hệ thống đã hoạt động liên tục 24/24 dưới sự giám sát của đội ngũ kỹ sư Hương Sơn, đảm bảo 100% đề thi sắc nét, đúng tiến độ và an toàn tuyệt đối.</p>',
                     'en' => '<p>Huong Son successfully delivers and operates Duplo digital duplicators for the 2026 National High School Exam boards.</p>'
@@ -379,6 +381,8 @@ class HuongSonSeeder extends Seeder
             [
                 'category_id' => $postCatNews->id,
                 'title' => ['vi' => 'Chính thức triển khai giải pháp HƯƠNG SƠN EDUCATION SOLUTIONS cho khối trường học', 'en' => 'Official launch of HUONG SON EDUCATION SOLUTIONS for schools and academic institutions'],
+                'summary' => ['vi' => 'Gói giải pháp toàn diện bao gồm cho thuê máy photocopy, máy in đề thi và máy scan học bạ điện tử không phát sinh chi phí linh kiện.', 'en' => 'Comprehensive education printing and scanning packages.'],
+                'image_url' => '/assets/images/hero-office.jpg',
                 'content' => [
                     'vi' => '<p>Nhằm đồng hành cùng các trường học trong công cuộc chuyển đổi số, Hương Sơn chính thức giới thiệu gói giải pháp <strong>HƯƠNG SƠN EDUCATION SOLUTIONS</strong>.</p><p>Gói giải pháp bao gồm: Cho thuê máy photocopy chuẩn giáo dục, hệ thống máy in siêu tốc phục vụ thi cử, thiết bị scan số hóa học bạ điện tử và dịch vụ bảo trì định kỳ trọn gói không phát sinh chi phí linh kiện.</p>',
                     'en' => '<p>Huong Son Education Solutions offers all-in-one equipment and digitization packages for educational institutions.</p>'
@@ -393,6 +397,8 @@ class HuongSonSeeder extends Seeder
             [
                 'category_id' => $postCatKnowledge->id,
                 'title' => ['vi' => 'Kinh nghiệm chọn máy in nhân bản và phương án dự phòng cho hội đồng in sao đề thi', 'en' => 'Best practices for exam printing duplicators and redundancy plans'],
+                'summary' => ['vi' => 'Những tiêu chí quan trọng khi chọn máy in siêu tốc: tốc độ trên 130 trang/phút, độ nét cao, vật tư dự phòng và phương án dự phòng 1:1 trong phòng cách ly.', 'en' => 'Key criteria for selecting exam printing duplicators.'],
+                'image_url' => '/assets/images/products/duplo-dp-x550.jpg',
                 'content' => [
                     'vi' => '<p>Công tác in sao đề thi đòi hỏi tốc độ in cực cao (từ 130 trang/phút trở lên) cùng độ ổn định không được phép xảy ra sự cố gián đoạn trong khu vực cách ly 3 vòng.</p><p>Khi lựa chọn thiết bị, các đơn vị cần ưu tiên dòng máy in nhân bản công nghệ Master chất lượng cao như DUPLO DP-X550 / DP-X650, chuẩn bị đầy đủ mực in và master dự phòng, đồng thời bố trí máy dự phòng 1:1 để đảm bảo quy trình thông suốt.</p>',
                     'en' => '<p>Technical specifications and redundancy plans for high-stake exam printing operations.</p>'
@@ -407,6 +413,8 @@ class HuongSonSeeder extends Seeder
             [
                 'category_id' => $postCatKnowledge->id,
                 'title' => ['vi' => 'So sánh chi phí TCO: Doanh nghiệp và trường học nên mua hay thuê máy photocopy?', 'en' => 'TCO Comparison: Should businesses and schools buy or rent photocopiers?'],
+                'summary' => ['vi' => 'Phân tích chi tiết tổng chi phí sở hữu (TCO) giữa mua đứt và thuê máy photocopy: tối ưu ngân sách vận hành lên tới 35% mỗi năm.', 'en' => 'In-depth TCO analysis between purchasing and leasing office equipment.'],
+                'image_url' => '/assets/images/products/toshiba-e-studio-2829a.jpg',
                 'content' => [
                     'vi' => '<p>Bài toán chi phí sở hữu (Total Cost of Ownership - TCO) giữa việc mua đứt và thuê máy photocopy là mối quan tâm hàng đầu của các nhà quản lý tài chính.</p><p>Khi thuê máy photocopy tại Hương Sơn, đơn vị không cần bỏ vốn đầu tư ban đầu, được miễn phí toàn bộ mực in, linh kiện thay thế và chi phí bảo trì kỹ thuật, giúp tối ưu hóa ngân sách vận hành lên tới 35% mỗi năm.</p>',
                     'en' => '<p>Comprehensive TCO comparison between purchasing and renting office photocopiers.</p>'
