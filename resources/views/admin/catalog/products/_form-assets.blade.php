@@ -412,6 +412,77 @@
                 if (placeholder) placeholder.classList.add('d-none');
                 isDirty = true;
             });
+
+            // Auto SEO Title & Description Generator
+            const brandSelect = document.getElementById('brand_id');
+            const getSelectedBrandName = () => {
+                if (!brandSelect || !brandSelect.value) return '';
+                const selectedOption = brandSelect.options[brandSelect.selectedIndex];
+                return selectedOption ? selectedOption.text.trim() : '';
+            };
+
+            const autoGenerateSeoForLocale = (locale) => {
+                const nameInput = document.getElementById(`name_${locale}`);
+                const shortDescInput = document.getElementById(`short_description_${locale}`);
+                const metaTitleInput = document.getElementById(`meta_title_${locale}`);
+                const metaDescInput = document.getElementById(`meta_description_${locale}`);
+
+                if (!nameInput || !metaTitleInput || !metaDescInput) return;
+
+                const productName = nameInput.value.trim();
+                if (!productName) return;
+
+                const isEn = locale === 'en';
+                const brandName = getSelectedBrandName();
+                const brandSuffix = brandName ? (isEn ? ` - Genuine ${brandName}` : ` - Chính Hãng ${brandName}`) : '';
+                const siteSuffix = isEn ? 'Huong Son' : 'Hương Sơn';
+
+                // Generate SEO Title
+                metaTitleInput.value = `${productName}${brandSuffix} | ${siteSuffix}`;
+
+                // Generate SEO Description
+                let baseText = shortDescInput ? shortDescInput.value.trim() : '';
+                if (!baseText) {
+                    const quillElem = document.getElementById(`description_editor_${locale}`);
+                    if (quillElem && quillElem.__quill) {
+                        baseText = quillElem.__quill.getText().trim();
+                    }
+                }
+
+                if (baseText) {
+                    baseText = baseText.replace(/\s+/g, ' ');
+                    if (baseText.length > 155) {
+                        baseText = baseText.substring(0, 152) + '...';
+                    }
+                    metaDescInput.value = baseText;
+                } else {
+                    metaDescInput.value = isEn
+                        ? `Buy genuine ${productName} at Huong Son Co., Ltd. 100% genuine, competitive prices and professional technical support.`
+                        : `Cung cấp ${productName} chính hãng tại Công ty Hương Sơn. Đầy đủ CO/CQ, bảo hành uy tín, hỗ trợ kỹ thuật tận nơi chuyên nghiệp.`;
+                }
+
+                metaTitleInput.dispatchEvent(new Event('input', { bubbles: true }));
+                metaDescInput.dispatchEvent(new Event('input', { bubbles: true }));
+            };
+
+            // Event listener for "Tự động tạo SEO" button
+            document.querySelectorAll('.js-auto-seo-btn').forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    const locale = btn.dataset.locale;
+                    autoGenerateSeoForLocale(locale);
+                });
+            });
+
+            // Live auto-populate SEO when product name input loses focus (blur) if SEO title is empty
+            document.querySelectorAll('input[data-i18n-field="name"]').forEach((input) => {
+                input.addEventListener('blur', () => {
+                    const locale = input.dataset.i18nLocale;
+                    const metaTitleInput = document.getElementById(`meta_title_${locale}`);
+                    if (metaTitleInput && !metaTitleInput.value.trim()) {
+                        autoGenerateSeoForLocale(locale);
+                    }
+                });
+            });
         });
     </script>
 @endpush

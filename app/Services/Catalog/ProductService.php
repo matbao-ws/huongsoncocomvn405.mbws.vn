@@ -162,16 +162,49 @@ class ProductService
             $categoryId = $defaultCategory->id;
         }
 
+        $shortDesc = $this->translationValue($data['short_description'] ?? null, $product, 'short_description');
+        $desc = $this->translationValue($data['description'] ?? null, $product, 'description');
+        $metaTitle = $this->translationValue($data['meta_title'] ?? null, $product, 'meta_title');
+        $metaDescription = $this->translationValue($data['meta_description'] ?? null, $product, 'meta_description');
+
+        // Auto-generate SEO title and description if left empty by admin
+        $brandName = '';
+        if (!empty($data['brand_id'])) {
+            $b = \App\Models\Brand::find($data['brand_id']);
+            $brandName = $b ? $b->name : '';
+        }
+
+        foreach ($name as $loc => $prodName) {
+            $isEn = $loc === 'en';
+            if (empty($metaTitle[$loc]) && filled($prodName)) {
+                $bSuffix = $brandName ? ($isEn ? " - Genuine {$brandName}" : " - Chính Hãng {$brandName}") : '';
+                $sSuffix = $isEn ? "Huong Son" : "Hương Sơn";
+                $metaTitle[$loc] = "{$prodName}{$bSuffix} | {$sSuffix}";
+            }
+
+            if (empty($metaDescription[$loc])) {
+                $rawText = !empty($shortDesc[$loc]) ? strip_tags($shortDesc[$loc]) : (!empty($desc[$loc]) ? strip_tags($desc[$loc]) : '');
+                $cleanText = trim(preg_replace('/\s+/', ' ', $rawText));
+                if (filled($cleanText)) {
+                    $metaDescription[$loc] = Str::limit($cleanText, 155);
+                } elseif (filled($prodName)) {
+                    $metaDescription[$loc] = $isEn
+                        ? "Buy genuine {$prodName} at Huong Son Co., Ltd. 100% genuine, competitive prices and professional technical support."
+                        : "Cung cấp {$prodName} chính hãng tại Công ty Hương Sơn. Bảo hành uy tín, giá tốt, hỗ trợ kỹ thuật tận nơi chuyên nghiệp.";
+                }
+            }
+        }
+
         return [
             'category_id' => $categoryId,
             'brand_id' => $data['brand_id'] ?? null,
             'name' => $name,
             'slug' => $this->uniqueProductSlug((string) $baseSlug, $product?->id),
             'sku' => $data['sku'] ?? null,
-            'short_description' => $this->translationValue($data['short_description'] ?? null, $product, 'short_description'),
-            'description' => $this->translationValue($data['description'] ?? null, $product, 'description'),
-            'meta_title' => $this->translationValue($data['meta_title'] ?? null, $product, 'meta_title'),
-            'meta_description' => $this->translationValue($data['meta_description'] ?? null, $product, 'meta_description'),
+            'short_description' => $shortDesc,
+            'description' => $desc,
+            'meta_title' => $metaTitle,
+            'meta_description' => $metaDescription,
             'image_url' => $data['image_url'] ?? null,
             'price' => $data['price'] ?? 0,
             'compare_at_price' => $data['compare_at_price'] ?? null,

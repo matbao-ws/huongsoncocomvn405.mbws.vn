@@ -271,6 +271,95 @@ Route::get('/catalog/sync-all-brands-v1', function (Request $request) {
     ]);
 });
 
+Route::get('/catalog/sync-all-seo-v1', function (Request $request) {
+    if ($request->query('key') !== 'huongson_sync_2026') {
+        return response()->json(['error' => 'Unauthorized'], 401);
+    }
+
+    $products = \App\Models\Product::with('brand')->get();
+    $updatedProducts = [];
+
+    foreach ($products as $prod) {
+        $viName = $prod->getTranslation('name', 'vi', false) ?: $prod->name;
+        $enName = $prod->getTranslation('name', 'en', false) ?: $prod->name;
+        $brandName = $prod->brand ? ($prod->brand->getTranslation('name', 'vi', false) ?: $prod->brand->name) : '';
+        $brandSuffix = $brandName ? " - Chính Hãng {$brandName}" : '';
+
+        // Generate Vietnamese SEO
+        $viTitle = "{$viName}{$brandSuffix} | Hương Sơn";
+        
+        $viShort = $prod->getTranslation('short_description', 'vi', false);
+        $viDesc = $prod->getTranslation('description', 'vi', false);
+        $rawText = !empty($viShort) ? strip_tags($viShort) : (!empty($viDesc) ? strip_tags($viDesc) : '');
+        $cleanText = trim(preg_replace('/\s+/', ' ', $rawText));
+
+        if (!empty($cleanText) && mb_strlen($cleanText, 'UTF-8') >= 25) {
+            $viDescription = \Illuminate\Support\Str::limit($cleanText, 150);
+            if (!str_contains($viDescription, 'Hương Sơn') && mb_strlen($viDescription, 'UTF-8') <= 120) {
+                $viDescription .= ' Phân phối chính hãng bởi Hương Sơn.';
+            }
+        } else {
+            $viDescription = "Cung cấp {$viName} chính hãng{$brandSuffix} tại Công ty Hương Sơn. Đầy đủ chứng nhận CO/CQ, giá cạnh tranh, hỗ trợ kỹ thuật tận nơi 24/7.";
+        }
+
+        // Generate English SEO
+        $enBrandSuffix = $brandName ? " - Genuine {$brandName}" : '';
+        $enTitle = "{$enName}{$enBrandSuffix} | Huong Son";
+        $enDescription = "Buy and lease genuine {$enName} at Huong Son Co., Ltd. High performance, 100% genuine CO/CQ, competitive pricing and professional technical support.";
+
+        // Set translations
+        $prod->setTranslation('meta_title', 'vi', $viTitle);
+        $prod->setTranslation('meta_title', 'en', $enTitle);
+        $prod->setTranslation('meta_description', 'vi', $viDescription);
+        $prod->setTranslation('meta_description', 'en', $enDescription);
+        $prod->save();
+
+        $updatedProducts[] = [
+            'id' => $prod->id,
+            'name' => $viName,
+            'meta_title' => $viTitle,
+            'meta_description' => $viDescription,
+        ];
+    }
+
+    // Also auto-populate Category SEO if empty
+    $categories = \App\Models\Category::all();
+    $updatedCategories = [];
+
+    foreach ($categories as $cat) {
+        $catName = $cat->getTranslation('name', 'vi', false) ?: $cat->name;
+        $catDesc = $cat->getTranslation('description', 'vi', false);
+
+        $catTitle = "{$catName} Chính Hãng | Công Ty Hương Sơn";
+        $rawCatText = !empty($catDesc) ? strip_tags($catDesc) : '';
+        $cleanCatText = trim(preg_replace('/\s+/', ' ', $rawCatText));
+
+        if (!empty($cleanCatText) && mb_strlen($cleanCatText, 'UTF-8') >= 25) {
+            $catDescription = \Illuminate\Support\Str::limit($cleanCatText, 150);
+        } else {
+            $catDescription = "Danh mục {$catName} phân phối chính hãng bởi Công ty Hương Sơn. Cam kết chất lượng, bảo hành tận nơi, dịch vụ chuyên nghiệp.";
+        }
+
+        $cat->setTranslation('meta_title', 'vi', $catTitle);
+        $cat->setTranslation('meta_description', 'vi', $catDescription);
+        $cat->save();
+
+        $updatedCategories[] = [
+            'id' => $cat->id,
+            'name' => $catName,
+            'meta_title' => $catTitle,
+        ];
+    }
+
+    return response()->json([
+        'success' => true,
+        'message' => 'Successfully generated and saved SEO titles and descriptions for all products and categories!',
+        'total_products_updated' => count($updatedProducts),
+        'total_categories_updated' => count($updatedCategories),
+        'products' => $updatedProducts,
+    ]);
+});
+
 Route::prefix('public')->middleware('apiLocale')->group(function () use ($leadHandler) {
     Route::get('/health', [PublicController::class, 'health']);
     Route::get('/settings', [PublicController::class, 'settings']);

@@ -39,6 +39,25 @@
                             $description = old("description.$code", $product->getTranslation('description', $code, false));
                             $metaTitle = old("meta_title.$code", $product->getTranslation('meta_title', $code, false));
                             $metaDescription = old("meta_description.$code", $product->getTranslation('meta_description', $code, false));
+
+                            // Auto-generate fallback for SEO if empty
+                            $brandNameStr = $product->brand ? $product->brand->name : '';
+                            $brandSuffix = $brandNameStr ? ($code === 'en' ? (' - Genuine ' . $brandNameStr) : (' - Chính Hãng ' . $brandNameStr)) : '';
+                            $siteSuffix = $code === 'en' ? 'Huong Son' : 'Hương Sơn';
+                            $autoTitle = $name ? ($name . $brandSuffix . ' | ' . $siteSuffix) : '';
+                            $baseText = $shortDescription ?: strip_tags($description ?: '');
+                            $cleanDesc = trim(preg_replace('/\s+/', ' ', $baseText));
+                            $defaultFallbackDesc = $code === 'en'
+                                ? ('Buy genuine ' . $name . ' at Huong Son Co., Ltd. Best price, warranty and professional support.')
+                                : ('Cung cấp ' . $name . ' chính hãng tại Công ty Hương Sơn. Đầy đủ CO/CQ, bảo hành uy tín, hỗ trợ kỹ thuật tận nơi.');
+                            $autoDesc = $cleanDesc ? \Illuminate\Support\Str::limit($cleanDesc, 155) : ($name ? $defaultFallbackDesc : '');
+
+                            if (empty($metaTitle) && filled($autoTitle)) {
+                                $metaTitle = $autoTitle;
+                            }
+                            if (empty($metaDescription) && filled($autoDesc)) {
+                                $metaDescription = $autoDesc;
+                            }
                         @endphp
                         <div class="tab-pane fade @if($code === $defaultContentLocale) show active @endif" id="product-language-{{ $code }}">
                             @if($code !== $defaultContentLocale)
@@ -52,7 +71,26 @@
                                 <textarea class="form-control d-none" id="description_{{ $code }}" name="description[{{ $code }}]" data-i18n-locale="{{ $code }}" data-i18n-field="description" data-translation-format="html">{{ $description }}</textarea>
                                 <div id="description_editor_{{ $code }}" class="catalog-quill" data-target="description_{{ $code }}" style="height: 350px;">{!! app(\App\Support\HtmlSanitizer::class)->clean($description) !!}</div>
                             </div>
-                            <div class="card border bg-light-subtle mt-4"><div class="card-body"><h5 class="mb-3">{{ __('catalog.fields.seo') }}</h5><div class="mb-3"><label class="form-label" for="meta_title_{{ $code }}">{{ __('catalog.fields.meta_title') }}</label><input type="text" maxlength="255" class="form-control" id="meta_title_{{ $code }}" name="meta_title[{{ $code }}]" value="{{ $metaTitle }}" data-i18n-locale="{{ $code }}" data-i18n-field="meta_title"></div><div class="mb-0"><label class="form-label" for="meta_description_{{ $code }}">{{ __('catalog.fields.meta_description') }}</label><textarea maxlength="500" class="form-control" id="meta_description_{{ $code }}" name="meta_description[{{ $code }}]" rows="3" data-i18n-locale="{{ $code }}" data-i18n-field="meta_description">{{ $metaDescription }}</textarea></div></div></div>
+                            <div class="card border bg-light-subtle mt-4">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between mb-3">
+                                        <h5 class="mb-0">{{ __('catalog.fields.seo') }}</h5>
+                                        <button type="button" class="btn btn-sm btn-outline-success js-auto-seo-btn" data-locale="{{ $code }}">
+                                            <i class="ti ti-sparkles me-1"></i>Tự động tạo SEO
+                                        </button>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="meta_title_{{ $code }}">{{ __('catalog.fields.meta_title') }}</label>
+                                        <input type="text" maxlength="255" class="form-control" id="meta_title_{{ $code }}" name="meta_title[{{ $code }}]" value="{{ $metaTitle }}" data-i18n-locale="{{ $code }}" data-i18n-field="meta_title" placeholder="{{ $autoTitle }}">
+                                        <p class="fs-2 text-muted mb-0">Tiêu đề xuất hiện trên Google Search (hệ thống tự động đề xuất chuẩn, khách có thể sửa thêm).</p>
+                                    </div>
+                                    <div class="mb-0">
+                                        <label class="form-label" for="meta_description_{{ $code }}">{{ __('catalog.fields.meta_description') }}</label>
+                                        <textarea maxlength="500" class="form-control" id="meta_description_{{ $code }}" name="meta_description[{{ $code }}]" rows="3" data-i18n-locale="{{ $code }}" data-i18n-field="meta_description" placeholder="{{ $autoDesc }}">{{ $metaDescription }}</textarea>
+                                        <p class="fs-2 text-muted mb-0">Đoạn mô tả ngắn hiển thị dưới kết quả tìm kiếm (tự động tóm tắt, khách có thể bổ sung tùy ý).</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     @endforeach
                 </div>
