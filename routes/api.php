@@ -165,6 +165,9 @@ Route::get('/catalog/sync-all-brands-v1', function (Request $request) {
         ],
     ];
 
+    // Delete legacy duplicate brand id 7
+    \App\Models\Brand::where('id', 7)->delete();
+
     $brandMap = [];
     foreach ($brandsData as $b) {
         $brand = \App\Models\Brand::updateOrCreate(
