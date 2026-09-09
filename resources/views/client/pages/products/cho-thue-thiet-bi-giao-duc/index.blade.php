@@ -118,17 +118,29 @@
     "@@context": "https://schema.org",
     "@@type": "ItemList",
     "name": "Cho thuê thiết bị cho khối Giáo dục – HƯƠNG SƠN EDUCATION SOLUTIONS",
-    "numberOfItems": 2,
+    "numberOfItems": 4,
     "itemListElement": [
       {
         "@@type": "ListItem",
         "position": 1,
+        "name": "Gói Cho Thuê Máy Photocopy Toshiba e-STUDIO 456",
+        "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-toshiba-e-studio-456/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 2,
+        "name": "Gói Cho Thuê Máy In Đa Năng A4 HP LaserJet Pro MFP M4103fdw",
+        "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-hp-laserjet-pro-mfp-m4103fdw/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 3,
         "name": "Gói thuê máy in nhân bản in đề thi THPT & Tuyển sinh",
         "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-in-nhan-ban-de-thi-thpt/"
       },
       {
         "@@type": "ListItem",
-        "position": 2,
+        "position": 4,
         "name": "Gói thuê máy photocopy trường học định mức chi phí",
         "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-photocopy-truong-hoc-toshiba/"
       }
@@ -224,6 +236,32 @@
         </li>
       </ul><div class="mb-10"></div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/98-cho-thue-toshiba-e-studio-456.jpg" alt="Gói Cho Thuê Máy Photocopy Toshiba e-STUDIO 456" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Toshiba (Nhật Bản)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-toshiba-e-studio-456/">Gói Cho Thuê Máy Photocopy Toshiba e-STUDIO 456</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Gói thuê máy photocopy 45 trang/phút giá rẻ trọn gói: miễn phí mực, linh kiện và kỹ thuật bảo trì định kỳ.</p>
+            <a href="/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-toshiba-e-studio-456/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/100-cho-thue-may-in-hp-laserjet-pro-mfp-4103fdw-2z629a.jpg" alt="Gói Cho Thuê Máy In Đa Năng A4 HP LaserJet Pro MFP M4103fdw" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">HP (Mỹ)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-hp-laserjet-pro-mfp-m4103fdw/">Gói Cho Thuê Máy In Đa Năng A4 HP LaserJet Pro MFP M4103fdw</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Dịch vụ cho thuê máy in laser đa chức năng A4 HP trọn gói mực và sửa chữa, chỉ từ 550.000 đ/tháng.</p>
+            <a href="/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-hp-laserjet-pro-mfp-m4103fdw/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
           <div class="h-52 overflow-hidden"><img src="/assets/images/products/duplo-dp-x550.jpg" alt="Gói thuê máy in nhân bản in đề thi THPT &amp; Tuyển sinh" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
