@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <rect width="320" height="80" rx="10" fill="#ffffff" fill-opacity="0.05"/>
+  <circle cx="48" cy="40" r="24" fill="#0099DA"/>
+  <circle cx="48" cy="40" r="15" fill="#ffffff" fill-opacity="0.3"/>
+  <path d="M28 40 Q48 24 68 40 Q48 56 28 40" fill="#004B87"/>
+  <text x="195" y="38" font-family="'Trebuchet MS', Arial, sans-serif" font-weight="800" font-size="20" fill="#004B87" text-anchor="middle" letter-spacing="1">KONICA MINOLTA</text>
+  <text x="195" y="56" font-family="Arial, sans-serif" font-weight="600" font-size="10" fill="#666666" text-anchor="middle" letter-spacing="2">GIVING SHAPE TO IDEAS</text>
+</svg>

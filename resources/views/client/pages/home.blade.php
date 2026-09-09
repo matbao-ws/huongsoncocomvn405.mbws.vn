@@ -271,6 +271,42 @@
       </div>
     </div>
   </section>
+
+  <!-- AUTHORIZED BRANDS LOGOS STRIP -->
+  <section class="py-8 bg-white border-b border-gray-200/80">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex-shrink-0 text-center md:text-left">
+          <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#1A9900] block mb-0.5">Đối tác chiến lược</span>
+          <h3 class="text-[15px] font-bold text-[#181923]">Thương hiệu phân phối ủy quyền</h3>
+        </div>
+        <div class="grid grid-cols-3 sm:grid-cols-4 md:flex items-center justify-center md:justify-end gap-6 sm:gap-8 lg:gap-10 w-full md:w-auto">
+          <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" title="DUPLO - Máy in nhân bản siêu tốc" class="opacity-80 hover:opacity-100 transition grayscale hover:grayscale-0 flex items-center justify-center">
+            <img src="/assets/images/brands/duplo.svg" alt="DUPLO" class="h-8 max-w-[110px] object-contain" />
+          </a>
+          <a href="/san-pham/photocopy-may-da-chuc-nang/" title="TOSHIBA - Máy photocopy đa chức năng" class="opacity-80 hover:opacity-100 transition grayscale hover:grayscale-0 flex items-center justify-center">
+            <img src="/assets/images/brands/toshiba.svg" alt="TOSHIBA" class="h-8 max-w-[110px] object-contain" />
+          </a>
+          <a href="/san-pham/fansipan/" title="FANSIPAN - Mực & Vật tư tương thích" class="opacity-80 hover:opacity-100 transition grayscale hover:grayscale-0 flex items-center justify-center">
+            <img src="/assets/images/brands/fansipan.svg" alt="FANSIPAN" class="h-8 max-w-[110px] object-contain" />
+          </a>
+          <a href="/san-pham/may-scan-so-hoa/" title="RICOH - Thiết bị in siêu tốc & Máy scan" class="opacity-80 hover:opacity-100 transition grayscale hover:grayscale-0 flex items-center justify-center">
+            <img src="/assets/images/brands/ricoh.svg" alt="RICOH" class="h-8 max-w-[110px] object-contain" />
+          </a>
+          <a href="/san-pham/photocopy-may-da-chuc-nang/" title="KONICA MINOLTA - Máy photocopy kỹ thuật số" class="opacity-80 hover:opacity-100 transition grayscale hover:grayscale-0 flex items-center justify-center">
+            <img src="/assets/images/brands/konica-minolta.svg" alt="KONICA MINOLTA" class="h-8 max-w-[110px] object-contain" />
+          </a>
+          <a href="/san-pham/may-in-laser/" title="HP - Máy in laser văn phòng" class="opacity-80 hover:opacity-100 transition grayscale hover:grayscale-0 flex items-center justify-center">
+            <img src="/assets/images/brands/hp.svg" alt="HP" class="h-8 max-w-[90px] object-contain" />
+          </a>
+          <a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" title="VIEWSONIC - Màn hình tương tác" class="opacity-80 hover:opacity-100 transition grayscale hover:grayscale-0 flex items-center justify-center">
+            <img src="/assets/images/brands/viewsonic.svg" alt="ViewSonic" class="h-8 max-w-[110px] object-contain" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="py-16 bg-white ">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-12">

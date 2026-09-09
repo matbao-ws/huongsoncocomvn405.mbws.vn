@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <rect width="300" height="80" rx="10" fill="#ffffff" fill-opacity="0.05"/>
+  <circle cx="95" cy="40" r="26" fill="#0096D6"/>
+  <text x="95" y="51" font-family="'Arial Black', sans-serif" font-style="italic" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle">hp</text>
+  <text x="185" y="49" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="28" fill="#181923" text-anchor="middle" letter-spacing="2">HEWLETT</text>
+</svg>

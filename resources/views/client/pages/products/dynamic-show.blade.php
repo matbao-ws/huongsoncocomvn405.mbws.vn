@@ -61,9 +61,16 @@
     <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
   </div>
   <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-14 w-full text-center">
-    <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">
-      {{ $product->category ? $product->category->name : 'Thiết bị chính hãng' }}
-    </span>
+    <div class="flex items-center justify-center gap-3 mb-2 flex-wrap">
+      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold">
+        {{ $product->category ? $product->category->name : 'Thiết bị chính hãng' }}
+      </span>
+      @if($product->brand)
+        <span class="text-xs font-bold uppercase tracking-wider text-white bg-white/20 backdrop-blur-md px-3 py-1 rounded-full border border-white/30 inline-flex items-center gap-1.5">
+          <i class="fa-solid fa-award text-[#5eb74c]"></i> {{ $product->brand->name }}
+        </span>
+      @endif
+    </div>
     <h1 class="text-2xl sm:text-[34px] lg:text-[38px] font-bold text-white mb-3 leading-tight tracking-tight drop-shadow-sm">
       {{ $product->name }}
     </h1>
@@ -109,9 +116,11 @@
               </div>
             @endif
             @if($product->brand)
-              <div class="flex justify-between text-[14px]">
+              <div class="flex items-center justify-between text-[14px]">
                 <span class="text-gray-500">Thương hiệu:</span>
-                <span class="font-semibold text-[#181923]">{{ $product->brand->name }}</span>
+                <span class="inline-flex items-center font-bold text-[#10203C] bg-white border border-gray-200 px-2.5 py-1 rounded text-xs tracking-wide shadow-sm">
+                  <i class="fa-solid fa-award text-[#1A9900] mr-1.5 text-xs"></i> {{ $product->brand->name }}
+                </span>
               </div>
             @endif
             <div class="flex justify-between text-[14px]">

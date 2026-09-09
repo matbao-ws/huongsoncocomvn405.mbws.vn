@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <rect width="300" height="80" rx="10" fill="#ffffff" fill-opacity="0.05"/>
+  <g transform="translate(20, 20)">
+    <circle cx="15" cy="18" r="7" fill="#E60012"/>
+    <circle cx="28" cy="22" r="6" fill="#0099DA"/>
+    <circle cx="38" cy="18" r="5" fill="#84BD00"/>
+  </g>
+  <text x="175" y="52" font-family="'Century Gothic', Arial, sans-serif" font-weight="800" font-size="32" fill="#BA121A" text-anchor="middle" letter-spacing="1">ViewSonic</text>
+</svg>

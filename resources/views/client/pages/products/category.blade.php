@@ -84,14 +84,38 @@
 <!-- PRODUCT LIST -->
 <section class="py-14 sm:py-16 bg-white">
   <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between mb-8 pb-4 border-b border-gray-100">
-      <p class="text-sm font-semibold text-gray-500">
-        Hiển thị <span class="text-[#181923] font-bold">{{ $products->count() }}</span> thiết bị trong danh mục
-      </p>
-      <div class="flex items-center gap-2">
-        <span class="text-xs text-gray-400">Thương hiệu:</span>
-        <span class="text-xs font-bold text-[#1A9900] bg-green-50 px-2.5 py-1 rounded">Chính hãng ủy quyền</span>
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 pb-4 border-b border-gray-100">
+      <div class="flex items-center gap-3">
+        <p class="text-sm font-semibold text-gray-500">
+          Hiển thị <span class="text-[#181923] font-bold">{{ $products->count() }}</span> thiết bị trong danh mục
+        </p>
+        @if(!empty($currentBrand))
+          <a href="/san-pham/{{ $category->slug }}/" class="text-xs text-red-600 hover:underline inline-flex items-center ml-2">
+            <i class="fa-solid fa-xmark mr-1"></i> Bỏ lọc
+          </a>
+        @endif
       </div>
+
+      @if(!empty($categoryBrands) && $categoryBrands->count() > 1)
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-xs font-semibold text-gray-500 mr-1">Thương hiệu:</span>
+          <a href="/san-pham/{{ $category->slug }}/" 
+             class="text-xs font-bold px-3 py-1.5 rounded transition {{ empty($currentBrand) ? 'bg-[#10203C] text-white shadow-sm' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+            Tất cả
+          </a>
+          @foreach($categoryBrands as $b)
+            <a href="/san-pham/{{ $category->slug }}/?brand={{ $b->slug }}" 
+               class="text-xs font-bold px-3 py-1.5 rounded transition {{ ($currentBrand ?? '') === $b->slug ? 'bg-[#1A9900] text-white shadow-sm' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+              {{ $b->name }}
+            </a>
+          @endforeach
+        </div>
+      @else
+        <div class="flex items-center gap-2">
+          <span class="text-xs text-gray-400">Thương hiệu:</span>
+          <span class="text-xs font-bold text-[#1A9900] bg-green-50 px-2.5 py-1 rounded">Chính hãng ủy quyền</span>
+        </div>
+      @endif
     </div>
 
     @if($products->isEmpty())
@@ -107,8 +131,8 @@
           <article class="border border-gray-200/80 group flex flex-col rounded overflow-hidden hover:shadow-md transition bg-[#fbf9f6]">
             <div class="h-56 overflow-hidden bg-white p-4 flex items-center justify-center border-b border-gray-200/60 relative">
               @if($prod->brand)
-                <span class="absolute top-3 left-3 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 bg-[#10203C] text-white rounded">
-                  {{ $prod->brand->name }}
+                <span class="absolute top-3 left-3 text-[10.5px] font-bold uppercase tracking-wider px-2.5 py-1 bg-[#10203C]/90 backdrop-blur-sm text-white rounded shadow-sm flex items-center gap-1.5">
+                  <i class="fa-solid fa-certificate text-[#1A9900] text-[10px]"></i> {{ $prod->brand->name }}
                 </span>
               @endif
               <img src="{{ $prod->image_url ?: '/assets/images/products/toshiba-e-studio-2829a.jpg' }}" 

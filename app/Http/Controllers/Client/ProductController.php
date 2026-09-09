@@ -12,7 +12,14 @@ class ProductController extends Controller
 {
     public function index(Request $request): View
     {
-        return view('client.pages.products.index');
+        $brands = \App\Models\Brand::where('is_active', true)
+            ->withCount(['products' => function ($q) {
+                $q->where('is_active', true);
+            }])
+            ->orderBy('sort_order')
+            ->get();
+
+        return view('client.pages.products.index', compact('brands'));
     }
 
     public function category(Request $request, string $slug): View
@@ -26,16 +33,32 @@ class ProductController extends Controller
             ->first();
 
         if ($cat) {
-            $products = Product::with('brand')
+            $brandFilter = $request->query('brand');
+
+            $query = Product::with('brand')
                 ->where('category_id', $cat->id)
-                ->where('is_active', true)
-                ->orderBy('sort_order')
+                ->where('is_active', true);
+
+            if ($brandFilter) {
+                $query->whereHas('brand', function ($bq) use ($brandFilter) {
+                    $bq->where('slug', $brandFilter);
+                });
+            }
+
+            $products = $query->orderBy('sort_order')
                 ->orderByDesc('id')
                 ->get();
+
+            // All brands available in this category for filtering chips
+            $categoryBrands = \App\Models\Brand::whereHas('products', function ($pq) use ($cat) {
+                $pq->where('category_id', $cat->id)->where('is_active', true);
+            })->orderBy('sort_order')->get();
 
             return view('client.pages.products.category', [
                 'category' => $cat,
                 'products' => $products,
+                'categoryBrands' => $categoryBrands,
+                'currentBrand' => $brandFilter,
             ]);
         }
 
