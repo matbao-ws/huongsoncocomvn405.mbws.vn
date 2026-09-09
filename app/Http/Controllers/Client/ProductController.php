@@ -18,17 +18,11 @@ class ProductController extends Controller
     public function category(Request $request, string $slug): View
     {
         $slug = trim($slug, '/');
-        $viewName = 'client.pages.products.' . $slug . '.index';
-        if (view()->exists($viewName)) {
-            return view($viewName);
-        }
-        if ($slug === 'may-phoi-trang-hoan-thien-sau-in') {
-            return view('client.pages.products.may-in-nhan-ban-toc-do-cao.index');
-        }
 
         // Dynamic category lookup from DB
         $cat = Category::where('slug', $slug)
             ->orWhere('slug->vi', $slug)
+            ->orWhere('slug->en', $slug)
             ->first();
 
         if ($cat) {
@@ -45,6 +39,10 @@ class ProductController extends Controller
             ]);
         }
 
+        if ($slug === 'may-phoi-trang-hoan-thien-sau-in') {
+            return redirect()->route('products.category', 'may-in-nhan-ban-toc-do-cao');
+        }
+
         abort(404);
     }
 
@@ -53,28 +51,41 @@ class ProductController extends Controller
         $category = trim($category, '/');
         $slug = trim($slug, '/');
 
-        $viewName = 'client.pages.products.' . $category . '.' . $slug . '.index';
-        if (view()->exists($viewName)) {
-            return view($viewName);
-        }
-        if ($category === 'may-phoi-trang-hoan-thien-sau-in' && view()->exists('client.pages.products.may-in-nhan-ban-toc-do-cao.' . $slug . '.index')) {
-            return view('client.pages.products.may-in-nhan-ban-toc-do-cao.' . $slug . '.index');
-        }
-
         // Dynamic product lookup from DB
         $product = Product::with(['category', 'brand'])
-            ->where('is_active', true)
             ->where(function ($q) use ($slug) {
                 $q->where('slug', $slug)
                   ->orWhere('slug->vi', $slug)
-                  ->orWhere('slug->en', $slug);
+                  ->orWhere('slug->en', $slug)
+                  ->orWhereHas('localizedSlugs', function ($lq) use ($slug) {
+                      $lq->where('slug', $slug);
+                  });
             })
             ->first();
 
         if ($product) {
-            return view('client.pages.products.dynamic-show', compact('product'));
+            if (! $product->is_active) {
+                abort(404);
+            }
+
+            $relatedProducts = Product::with('brand')
+                ->where('category_id', $product->category_id)
+                ->where('id', '!=', $product->id)
+                ->where('is_active', true)
+                ->orderBy('sort_order')
+                ->limit(3)
+                ->get();
+
+            return view('client.pages.products.dynamic-show', compact('product', 'relatedProducts'));
+        }
+
+        // Fallback for static view if not found in DB
+        $viewName = 'client.pages.products.' . $category . '.' . $slug . '.index';
+        if (view()->exists($viewName)) {
+            return view($viewName);
         }
 
         abort(404);
     }
 }
+

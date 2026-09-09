@@ -22,7 +22,8 @@ class AboutController extends Controller
         $viewName = 'client.pages.about.' . $slug . '.index';
         if (view()->exists($viewName)) {
             if ($slug === 'tin-tuc') {
-                $posts = Post::where('is_active', true)
+                $posts = Post::with('category')
+                    ->where('is_active', true)
                     ->orderByDesc('published_at')
                     ->orderByDesc('id')
                     ->get();
@@ -37,11 +38,15 @@ class AboutController extends Controller
     {
         $postSlug = trim($postSlug, '/');
 
-        $post = Post::where('is_active', true)
+        $post = Post::with('category')
+            ->where('is_active', true)
             ->where(function ($q) use ($postSlug) {
                 $q->where('slug', $postSlug)
                   ->orWhere('slug->vi', $postSlug)
-                  ->orWhere('slug->en', $postSlug);
+                  ->orWhere('slug->en', $postSlug)
+                  ->orWhereHas('localizedSlugs', function ($lq) use ($postSlug) {
+                      $lq->where('slug', $postSlug);
+                  });
             })
             ->first();
 
@@ -58,3 +63,4 @@ class AboutController extends Controller
         return view('client.pages.about.tin-tuc.show', compact('post', 'relatedPosts'));
     }
 }
+
