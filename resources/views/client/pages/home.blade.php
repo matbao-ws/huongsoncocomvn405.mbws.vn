@@ -249,24 +249,27 @@
       </div>
     </div>
   </section>
-  <section class="py-12 bg-[#181924] text-white">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-gray-800">
-        <div class="pt-6 md:pt-0">
-          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2">2008</div>
-          <h4 class="text-[13.5px] font-bold text-white uppercase tracking-wider leading-snug">Năm thành lập</h4>
+  <section class="py-14 bg-[#181924] text-white border-y border-gray-800/60">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-2 sm:gap-x-4 text-center">
+        <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3">
+          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2 tracking-tight">2008</div>
+          <h4 class="text-[13px] sm:text-[13.5px] font-bold text-gray-200 uppercase tracking-wide leading-relaxed max-w-[220px] mx-auto">Năm thành lập</h4>
         </div>
-        <div class="pt-6 md:pt-0">
-          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2">2017</div>
-          <h4 class="text-[13.5px] font-bold text-white uppercase tracking-wider leading-snug">Đại lý ủy quyền Duplo &amp; Toshiba miền Bắc</h4>
+        <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3 border-l border-gray-800">
+          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2 tracking-tight">2017</div>
+          <h4 class="text-[13px] sm:text-[13.5px] font-bold text-gray-200 uppercase tracking-wide leading-relaxed max-w-[220px] mx-auto">Đại lý ủy quyền Duplo &amp; Toshiba miền Bắc</h4>
         </div>
-        <div class="pt-6 md:pt-0">
-          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2">127</div>
-          <h4 class="text-[13.5px] font-bold text-white uppercase tracking-wider leading-snug">Máy Toshiba cung cấp cho Vietcombank (2024)</h4>
+        <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3 border-l-0 md:border-l border-gray-800">
+          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2 tracking-tight">127</div>
+          <h4 class="text-[13px] sm:text-[13.5px] font-bold text-gray-200 uppercase tracking-wide leading-relaxed max-w-[220px] mx-auto">Máy Toshiba cung cấp cho Vietcombank (2024)</h4>
         </div>
-        <div class="pt-6 md:pt-0">
-          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2">3</div>
-          <h4 class="text-[13.5px] font-bold text-white uppercase tracking-wider leading-snug">Cấp độ SLA cam kết thời gian xử lý (P1/P2/P3)</h4>
-        </div></div></div>
+        <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3 border-l border-gray-800">
+          <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2 tracking-tight">3</div>
+          <h4 class="text-[13px] sm:text-[13.5px] font-bold text-gray-200 uppercase tracking-wide leading-relaxed max-w-[220px] mx-auto">Cấp độ SLA cam kết thời gian xử lý (P1/P2/P3)</h4>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="py-16 bg-white ">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">

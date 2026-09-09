@@ -115,14 +115,23 @@ def _counters():
         ("127", "Máy Toshiba cung cấp cho Vietcombank (2024)"),
         ("3", "Cấp độ SLA cam kết thời gian xử lý (P1/P2/P3)"),
     ]
-    cols = "".join(f"""
-        <div class="pt-6 md:pt-0">
-          <div class="text-4xl sm:text-5xl font-bold text-[{BRAND}] mb-2">{esc(v)}</div>
-          <h4 class="text-[13.5px] font-bold text-white uppercase tracking-wider leading-snug">{esc(l)}</h4>
-        </div>""" for v, l in items)
+    cols = []
+    for i, (v, l) in enumerate(items):
+        if i == 1 or i == 3:
+            border_cls = "border-l border-gray-800"
+        elif i == 2:
+            border_cls = "border-l-0 md:border-l border-gray-800"
+        else:
+            border_cls = ""
+        cols.append(f"""
+        <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3 {border_cls}">
+          <div class="text-4xl sm:text-5xl font-bold text-[{BRAND}] mb-2 tracking-tight">{esc(v)}</div>
+          <h4 class="text-[13px] sm:text-[13.5px] font-bold text-gray-200 uppercase tracking-wide leading-relaxed max-w-[220px] mx-auto">{esc(l)}</h4>
+        </div>""")
+    cols_html = "".join(cols)
     return f"""
-  <section class="py-12 bg-[{DARK}] text-white">
-    <div class="{WRAP}"><div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-gray-800">{cols}</div></div>
+  <section class="py-14 bg-[{DARK}] text-white border-y border-gray-800/60">
+    <div class="{WRAP}"><div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-2 sm:gap-x-4 text-center">{cols_html}</div></div>
   </section>"""
 
 
