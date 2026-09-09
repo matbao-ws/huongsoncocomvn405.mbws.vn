@@ -53,9 +53,10 @@
             </div>
             <div class="col-md-6 mb-3">
                 <label class="form-label" for="image_file">{{ __('catalog.fields.image') }}</label>
-                <input type="file" class="form-control" id="image_file" name="image_file" accept="image/*" data-media-folder="categories">
-                <div class="mt-2 {{ $category->image_url ? '' : 'd-none' }}" data-media-preview>
-                    <img src="{{ $category->image_url ?: '' }}" alt="{{ $name }}" class="rounded border object-fit-cover" width="72" height="72" data-media-preview-image onerror="this.onerror=null;this.src='{{ asset('admin-assets/js/icons/404.png') }}';">
+                <input type="file" class="form-control mb-2" id="image_file" name="image_file" accept="image/*" data-media-folder="categories">
+                <input type="text" class="form-control form-control-sm" id="image_url" name="image_url" value="{{ old('image_url', $category->image_url) }}" placeholder="Hoặc dán link URL ảnh (https://... hoặc /assets/...)">
+                <div class="mt-2 {{ $category->image_url ? '' : 'd-none' }}" data-media-preview id="category_preview_wrap">
+                    <img id="category_image_preview" src="{{ $category->image_url ?: '' }}" alt="{{ $name }}" class="rounded border object-fit-cover" width="72" height="72" data-media-preview-image onerror="this.onerror=null;this.src='{{ asset('admin-assets/js/icons/404.png') }}';">
                 </div>
             </div>
             <div class="col-md-6 mb-3">
@@ -114,6 +115,32 @@
                     });
                 }
             });
+
+            const catFileInput = document.getElementById('image_file');
+            const catUrlInput = document.getElementById('image_url');
+            const catPreviewImg = document.getElementById('category_image_preview');
+            const catPreviewWrap = document.getElementById('category_preview_wrap');
+
+            function updateCatPreview(src) {
+                if (src && catPreviewImg && catPreviewWrap) {
+                    catPreviewImg.src = src;
+                    catPreviewWrap.classList.remove('d-none');
+                }
+            }
+
+            if (catFileInput) {
+                catFileInput.addEventListener('change', function (e) {
+                    const file = e.target.files[0];
+                    if (file) updateCatPreview(URL.createObjectURL(file));
+                });
+            }
+            if (catUrlInput) {
+                catUrlInput.addEventListener('input', function () {
+                    if (catUrlInput.value.trim() !== '') {
+                        updateCatPreview(catUrlInput.value.trim());
+                    }
+                });
+            }
         });
     </script>
 @endpush

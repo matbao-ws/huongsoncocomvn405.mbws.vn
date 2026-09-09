@@ -42,9 +42,10 @@
             </div>
             <div class="col-md-12 mb-3">
                 <label class="form-label" for="image_file">{{ __('catalog.fields.image') }}</label>
-                <input type="file" class="form-control" id="image_file" name="image_file" accept="image/*" data-media-folder="brands">
-                <div class="mt-2 {{ $brand->image_url ? '' : 'd-none' }}" data-media-preview>
-                    <img src="{{ $brand->image_url ?: '' }}" alt="{{ $name }}" class="rounded border object-fit-cover" width="72" height="72" data-media-preview-image onerror="this.onerror=null;this.src='{{ asset('admin-assets/js/icons/404.png') }}';">
+                <input type="file" class="form-control mb-2" id="image_file" name="image_file" accept="image/*" data-media-folder="brands">
+                <input type="text" class="form-control form-control-sm" id="image_url" name="image_url" value="{{ old('image_url', $brand->image_url) }}" placeholder="Hoặc dán link URL ảnh logo (https://... hoặc /assets/...)">
+                <div class="mt-2 {{ $brand->image_url ? '' : 'd-none' }}" data-media-preview id="brand_preview_wrap">
+                    <img id="brand_image_preview" src="{{ $brand->image_url ?: '' }}" alt="{{ $name }}" class="rounded border object-fit-cover" width="72" height="72" data-media-preview-image onerror="this.onerror=null;this.src='{{ asset('admin-assets/js/icons/404.png') }}';">
                 </div>
             </div>
             <div class="col-12 mb-3">
@@ -93,6 +94,32 @@
                     });
                 }
             });
+
+            const brandFileInput = document.getElementById('image_file');
+            const brandUrlInput = document.getElementById('image_url');
+            const brandPreviewImg = document.getElementById('brand_image_preview');
+            const brandPreviewWrap = document.getElementById('brand_preview_wrap');
+
+            function updateBrandPreview(src) {
+                if (src && brandPreviewImg && brandPreviewWrap) {
+                    brandPreviewImg.src = src;
+                    brandPreviewWrap.classList.remove('d-none');
+                }
+            }
+
+            if (brandFileInput) {
+                brandFileInput.addEventListener('change', function (e) {
+                    const file = e.target.files[0];
+                    if (file) updateBrandPreview(URL.createObjectURL(file));
+                });
+            }
+            if (brandUrlInput) {
+                brandUrlInput.addEventListener('input', function () {
+                    if (brandUrlInput.value.trim() !== '') {
+                        updateBrandPreview(brandUrlInput.value.trim());
+                    }
+                });
+            }
         });
     </script>
 @endpush

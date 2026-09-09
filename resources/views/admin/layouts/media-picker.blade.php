@@ -235,6 +235,10 @@
                 input = label ? document.getElementById(label.htmlFor) : null;
             }
             if (!input || input.id === 'adminMediaPickerUpload' || input.closest('#adminMediaPicker')) return;
+            // Do not hijack native file chooser for inputs with dedicated buttons or direct upload
+            if (input.id === 'product_image_file' || input.id === 'post_image_file' || input.id === 'gallery_image_file' || input.dataset.noMediaIntercept === 'true') {
+                return;
+            }
             if (input.type !== 'file' || !input.accept.includes('image')) return;
             event.preventDefault();
             event.stopImmediatePropagation();

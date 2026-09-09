@@ -144,6 +144,65 @@
                 });
                 editorElement.__quill = quill;
 
+                // Smart Image Handler: allows either direct file upload to server or pasting an Image URL
+                quill.getModule('toolbar').addHandler('image', function () {
+                    const choice = prompt('Chèn hình ảnh vào mô tả sản phẩm:\n- Dán link URL ảnh (ví dụ: https://... hoặc /assets/...)\n- Hoặc để trống và nhấn OK để chọn tải ảnh từ máy tính:');
+                    if (choice === null) return;
+                    const trimmed = choice.trim();
+                    if (trimmed !== '') {
+                        const range = quill.getSelection(true);
+                        quill.insertEmbed(range.index, 'image', trimmed);
+                        quill.setSelection(range.index + 1);
+                    } else {
+                        const fileInput = document.createElement('input');
+                        fileInput.type = 'file';
+                        fileInput.accept = 'image/jpeg,image/png,image/webp,image/gif';
+                        fileInput.onchange = function () {
+                            const file = fileInput.files[0];
+                            if (!file) return;
+                            const formData = new FormData();
+                            formData.append('file', file);
+                            formData.append('folder', 'products');
+                            formData.append('_token', document.querySelector('meta[name="csrf-token"]')?.content || '');
+
+                            fetch('{{ route("admin.media.upload") }}', {
+                                method: 'POST',
+                                body: formData,
+                                headers: {
+                                    'X-Requested-With': 'XMLHttpRequest',
+                                    'Accept': 'application/json'
+                                }
+                            })
+                            .then(res => res.json())
+                            .then(data => {
+                                if (data && data.url) {
+                                    const range = quill.getSelection(true);
+                                    quill.insertEmbed(range.index, 'image', data.url);
+                                    quill.setSelection(range.index + 1);
+                                } else {
+                                    const reader = new FileReader();
+                                    reader.onload = (e) => {
+                                        const range = quill.getSelection(true);
+                                        quill.insertEmbed(range.index, 'image', e.target.result);
+                                        quill.setSelection(range.index + 1);
+                                    };
+                                    reader.readAsDataURL(file);
+                                }
+                            })
+                            .catch(() => {
+                                const reader = new FileReader();
+                                reader.onload = (e) => {
+                                    const range = quill.getSelection(true);
+                                    quill.insertEmbed(range.index, 'image', e.target.result);
+                                    quill.setSelection(range.index + 1);
+                                };
+                                reader.readAsDataURL(file);
+                            });
+                        };
+                        fileInput.click();
+                    }
+                });
+
                 quill.on('text-change', function() {
                     isDirty = true;
                     if (target) {
@@ -270,7 +329,38 @@
             if (galleryAddTrigger && galleryFileInput) {
                 galleryAddTrigger.addEventListener('click', function () {
                     galleryFileInput.dataset.mediaSelectedField = `gallery_images[${galleryIndex}]`;
-                    galleryFileInput.click();
+                    if (typeof openMediaPickerFor === 'function') {
+                        openMediaPickerFor('gallery_image_file');
+                    } else {
+                        galleryFileInput.click();
+                    }
+                });
+
+                galleryFileInput.addEventListener('change', function () {
+                    const file = galleryFileInput.files[0];
+                    if (!file) return;
+                    const formData = new FormData();
+                    formData.append('file', file);
+                    formData.append('folder', 'products');
+                    formData.append('_token', document.querySelector('meta[name="csrf-token"]')?.content || '');
+
+                    fetch('{{ route("admin.media.upload") }}', {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest',
+                            'Accept': 'application/json'
+                        }
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data && data.url) {
+                            galleryItems.insertAdjacentHTML('beforeend', galleryItemHtml(galleryIndex, data.url));
+                            galleryIndex++;
+                            isDirty = true;
+                        }
+                    })
+                    .catch(() => {});
                 });
             }
 

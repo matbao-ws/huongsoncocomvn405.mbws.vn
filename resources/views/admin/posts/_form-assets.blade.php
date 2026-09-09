@@ -228,6 +228,65 @@
                 editorElement.__quill = editor;
                 if (editorElement.id === 'content_editor') quill = editor;
 
+                // Smart Image Handler: allows either direct file upload to server or pasting an Image URL
+                editor.getModule('toolbar').addHandler('image', function () {
+                    const choice = prompt('Chèn hình ảnh vào nội dung bài viết:\n- Dán link URL ảnh (ví dụ: https://... hoặc /assets/...)\n- Hoặc để trống và nhấn OK để chọn tải ảnh từ máy tính:');
+                    if (choice === null) return;
+                    const trimmed = choice.trim();
+                    if (trimmed !== '') {
+                        const range = editor.getSelection(true);
+                        editor.insertEmbed(range.index, 'image', trimmed);
+                        editor.setSelection(range.index + 1);
+                    } else {
+                        const fileInput = document.createElement('input');
+                        fileInput.type = 'file';
+                        fileInput.accept = 'image/jpeg,image/png,image/webp,image/gif';
+                        fileInput.onchange = function () {
+                            const file = fileInput.files[0];
+                            if (!file) return;
+                            const formData = new FormData();
+                            formData.append('file', file);
+                            formData.append('folder', 'posts');
+                            formData.append('_token', document.querySelector('meta[name="csrf-token"]')?.content || '');
+
+                            fetch('{{ route("admin.media.upload") }}', {
+                                method: 'POST',
+                                body: formData,
+                                headers: {
+                                    'X-Requested-With': 'XMLHttpRequest',
+                                    'Accept': 'application/json'
+                                }
+                            })
+                            .then(res => res.json())
+                            .then(data => {
+                                if (data && data.url) {
+                                    const range = editor.getSelection(true);
+                                    editor.insertEmbed(range.index, 'image', data.url);
+                                    editor.setSelection(range.index + 1);
+                                } else {
+                                    const reader = new FileReader();
+                                    reader.onload = (e) => {
+                                        const range = editor.getSelection(true);
+                                        editor.insertEmbed(range.index, 'image', e.target.result);
+                                        editor.setSelection(range.index + 1);
+                                    };
+                                    reader.readAsDataURL(file);
+                                }
+                            })
+                            .catch(() => {
+                                const reader = new FileReader();
+                                reader.onload = (e) => {
+                                    const range = editor.getSelection(true);
+                                    editor.insertEmbed(range.index, 'image', e.target.result);
+                                    editor.setSelection(range.index + 1);
+                                };
+                                reader.readAsDataURL(file);
+                            });
+                        };
+                        fileInput.click();
+                    }
+                });
+
                 editor.on('text-change', function() {
                     isDirty = true;
                     target.value = editor.root.innerHTML;
