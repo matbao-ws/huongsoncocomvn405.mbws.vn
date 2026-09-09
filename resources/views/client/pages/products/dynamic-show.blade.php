@@ -5,71 +5,51 @@
 @section('canonical', url()->current())
 
 @section('jsonld')
-<script type="application/ld+json">
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "{{ addslashes($product->name) }}",
-    "image": "{{ $product->image_url ? (str_starts_with($product->image_url, 'http') ? $product->image_url : url($product->image_url)) : '' }}",
-    "description": "{{ addslashes($product->short_description ?: $product->name) }}",
-    "sku": "{{ $product->sku ?: $product->slug }}",
-    "brand": {
-      "@type": "Brand",
-      "name": "{{ $product->brand ? $product->brand->name : 'Hương Sơn' }}"
-    },
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "VND",
-      "price": "{{ $product->price > 0 ? (int)$product->price : 0 }}",
-      "availability": "https://schema.org/InStock",
-      "url": "{{ url()->current() }}",
-      "seller": {
-        "@type": "Organization",
-        "name": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN"
-      }
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Trang chủ",
-        "item": "{{ url('/') }}"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Sản phẩm",
-        "item": "{{ url('/san-pham/') }}"
-      }
-      @if($product->category)
-      ,{
-        "@type": "ListItem",
-        "position": 3,
-        "name": "{{ addslashes($product->category->name) }}",
-        "item": "{{ url('/san-pham/' . $product->category->slug . '/') }}"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "{{ addslashes($product->name) }}",
-        "item": "{{ url()->current() }}"
-      }
-      @else
-      ,{
-        "@type": "ListItem",
-        "position": 3,
-        "name": "{{ addslashes($product->name) }}",
-        "item": "{{ url()->current() }}"
-      }
-      @endif
-    ]
+@php
+  $breadcrumbs = [
+      ['@type' => 'ListItem', 'position' => 1, 'name' => 'Trang chủ', 'item' => url('/')],
+      ['@type' => 'ListItem', 'position' => 2, 'name' => 'Sản phẩm', 'item' => url('/san-pham/')],
+  ];
+  if ($product->category) {
+      $breadcrumbs[] = ['@type' => 'ListItem', 'position' => 3, 'name' => $product->category->name, 'item' => url('/san-pham/' . $product->category->slug . '/')];
+      $breadcrumbs[] = ['@type' => 'ListItem', 'position' => 4, 'name' => $product->name, 'item' => url()->current()];
+  } else {
+      $breadcrumbs[] = ['@type' => 'ListItem', 'position' => 3, 'name' => $product->name, 'item' => url()->current()];
   }
-]
+
+  $productSchema = [
+      [
+          '@context' => 'https://schema.org/',
+          '@type' => 'Product',
+          'name' => $product->name,
+          'image' => $product->image_url ? (str_starts_with($product->image_url, 'http') ? $product->image_url : url($product->image_url)) : '',
+          'description' => $product->short_description ?: $product->name,
+          'sku' => $product->sku ?: $product->slug,
+          'brand' => [
+              '@type' => 'Brand',
+              'name' => $product->brand ? $product->brand->name : 'Hương Sơn',
+          ],
+          'offers' => [
+              '@type' => 'Offer',
+              'priceCurrency' => 'VND',
+              'price' => $product->price > 0 ? (int) $product->price : 0,
+              'availability' => 'https://schema.org/InStock',
+              'url' => url()->current(),
+              'seller' => [
+                  '@type' => 'Organization',
+                  'name' => 'CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN',
+              ],
+          ],
+      ],
+      [
+          '@context' => 'https://schema.org',
+          '@type' => 'BreadcrumbList',
+          'itemListElement' => $breadcrumbs,
+      ],
+  ];
+@endphp
+<script type="application/ld+json">
+{!! json_encode($productSchema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) !!}
 </script>
 @endsection
 

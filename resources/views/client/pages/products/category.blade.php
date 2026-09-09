@@ -5,48 +5,36 @@
 @section('canonical', url()->current())
 
 @section('jsonld')
-<script type="application/ld+json">
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Trang chủ",
-        "item": "{{ url('/') }}"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Sản phẩm",
-        "item": "{{ url('/san-pham/') }}"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "{{ addslashes($category->name) }}",
-        "item": "{{ url()->current() }}"
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "{{ addslashes($category->name) }}",
-    "itemListElement": [
-      @foreach($products as $idx => $p)
-      {
-        "@type": "ListItem",
-        "position": {{ $idx + 1 }},
-        "name": "{{ addslashes($p->name) }}",
-        "url": "{{ url('/san-pham/' . $category->slug . '/' . $p->slug . '/') }}"
-      }@if(!$loop->last),@endif
-      @endforeach
-    ]
+@php
+  $itemList = [];
+  foreach ($products as $idx => $p) {
+      $itemList[] = [
+          '@type' => 'ListItem',
+          'position' => $idx + 1,
+          'name' => $p->name,
+          'url' => url('/san-pham/' . $category->slug . '/' . $p->slug . '/'),
+      ];
   }
-]
+  $categorySchema = [
+      [
+          '@context' => 'https://schema.org',
+          '@type' => 'BreadcrumbList',
+          'itemListElement' => [
+              ['@type' => 'ListItem', 'position' => 1, 'name' => 'Trang chủ', 'item' => url('/')],
+              ['@type' => 'ListItem', 'position' => 2, 'name' => 'Sản phẩm', 'item' => url('/san-pham/')],
+              ['@type' => 'ListItem', 'position' => 3, 'name' => $category->name, 'item' => url()->current()],
+          ],
+      ],
+      [
+          '@context' => 'https://schema.org',
+          '@type' => 'ItemList',
+          'name' => $category->name,
+          'itemListElement' => $itemList,
+      ],
+  ];
+@endphp
+<script type="application/ld+json">
+{!! json_encode($categorySchema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) !!}
 </script>
 @endsection
 
