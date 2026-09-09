@@ -191,7 +191,7 @@ class HuongSonSeeder extends Seeder
                 'cho-thue-thiet-bi-giao-duc' => $catEduSolutions->id,
                 'thiet-bi-phong-hoc-giao-duc' => $catClassroom->id,
                 'thiet-bi-van-phong-hoi-hop' => $catOffice->id,
-                'vat-tu-linh-kien-tieu-hao' => $catSupplies->id,
+                'vat-tu-linh-kien-tieu-hao' => $catConsumables->id,
                 'fansipan' => $catFansipan->id,
             ];
 
