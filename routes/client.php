@@ -32,8 +32,10 @@ Route::get('dich-vu/{slug}', [ServiceController::class, 'show'])->name('services
 Route::get('du-an', [ProjectController::class, 'index'])->name('projects.index');
 Route::get('du-an/{slug}', [ProjectController::class, 'show'])->name('projects.show');
 
-// About
+// About & News
 Route::get('ve-huong-son', [AboutController::class, 'index'])->name('about.index');
+Route::get('ve-huong-son/tin-tuc/{postSlug}', [AboutController::class, 'postDetail'])->name('about.post.show');
+Route::get('tin-tuc/{postSlug}', [AboutController::class, 'postDetail'])->name('post.show');
 Route::get('ve-huong-son/{slug}', [AboutController::class, 'subpage'])->name('about.subpage');
 
 // Tools
