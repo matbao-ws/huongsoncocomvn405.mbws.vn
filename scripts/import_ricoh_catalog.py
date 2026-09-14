@@ -275,16 +275,21 @@ for r_num, cols in sheet1_rows:
     note = cols.get('I', '').strip()
 
     name, model_code, name_sub_note = clean_model_name(raw_name)
+    name = re.sub(r'\s+', ' ', name).strip()
+    model_code = re.sub(r'\s+', ' ', model_code).strip()
     slug = "ricoh-" + re.sub(r'[^a-z0-9]+', '-', model_code.lower()).strip('-')
-
-    # Specific slug adjustments
-    if slug == "ricoh-fi-7480":
-        # we also maintain compatibility with ricoh-fujitsu-fi-7480
-        pass
 
     cat_label = get_category_label(name, detail_desc)
     specs = parse_specs(desc, detail_desc, made_in, warranty)
     use_cases = get_use_cases(name, cat_label)
+
+    # Professional English Name
+    if "A3" in cat_label:
+        name_en = f"Ricoh {model_code} Production A3 Scanner"
+    elif "cá nhân" in cat_label or "ScanSnap" in name or "iX" in model_code:
+        name_en = f"Ricoh ScanSnap {model_code} Scanner"
+    else:
+        name_en = f"Ricoh {model_code} Document Scanner"
 
     price_val = 0
     if price_str:
@@ -329,6 +334,7 @@ for r_num, cols in sheet1_rows:
         "category": "may-scan-so-hoa",
         "url": f"/san-pham/may-scan-so-hoa/{slug}/",
         "name": name,
+        "name_en": name_en,
         "model": model_code,
         "manufacturer": f"Ricoh ({made_in})" if made_in else "Ricoh (Nhật Bản)",
         "sku": pn if pn else f"RICOH-{model_code.upper()}",
@@ -398,14 +404,35 @@ with open(PRODUCTS_JSON, 'r', encoding='utf-8') as f:
 # Retain existing models from other categories
 other_models = [m for m in data['models'] if m.get('category') != 'may-scan-so-hoa' and m.get('slug') != parts_model['slug']]
 
+# Define professional display order (bestsellers and popular business models first)
+PREFERRED_ORDER = [
+    'ricoh-fi-8170', 'ricoh-sp-1130n', 'ricoh-sp-1120n', 'ricoh-ix1600', 'ricoh-ix2500',
+    'ricoh-fi-800r', 'ricoh-fi-8150', 'ricoh-fi-8150u', 'ricoh-fi-8190', 'ricoh-fi-8250',
+    'ricoh-fi-8270', 'ricoh-fi-8290', 'ricoh-fi-8040', 'ricoh-fi-7460', 'ricoh-fi-7480',
+    'ricoh-fi-7600', 'ricoh-fi-7700', 'ricoh-fi-7700s', 'ricoh-fi-7800', 'ricoh-fi-7900',
+    'ricoh-fi-8820', 'ricoh-fi-8930', 'ricoh-fi-8950', 'ricoh-ix2400', 'ricoh-ix1400',
+    'ricoh-ix1300', 'ricoh-ix100', 'ricoh-sp-1125n', 'ricoh-sp-1425', 'ricoh-sv600',
+    'ricoh-fujitsu-fi-7160'
+]
+
 # For may-scan-so-hoa, keep ricoh-fujitsu-fi-7160 as legacy model with note, plus all 31 new models
 legacy_fi7160 = next((m for m in data['models'] if m.get('slug') == 'ricoh-fujitsu-fi-7160'), None)
 if legacy_fi7160:
-    legacy_fi7160['note'] = "Model tiền nhiệm đã nâng cấp lên dòng thế hệ mới Ricoh fi-8170."
+    legacy_fi7160['name'] = "Máy scan tài liệu tốc độ cao Ricoh fi-7160 (Model tiền nhiệm)"
+    legacy_fi7160['name_en'] = "Ricoh fi-7160 High-Speed Scanner (Predecessor)"
+    legacy_fi7160['note'] = "Model tiền nhiệm đã được nâng cấp lên dòng thế hệ mới Ricoh fi-8170."
     legacy_fi7160['compatible_model'] = ["fi-8170", "fi-7260"]
-    final_scanner_models = [legacy_fi7160] + new_scanner_models
+    scanner_pool = new_scanner_models + [legacy_fi7160]
 else:
-    final_scanner_models = new_scanner_models
+    scanner_pool = new_scanner_models
+
+scanner_dict = {m['slug']: m for m in scanner_pool}
+final_scanner_models = []
+for s in PREFERRED_ORDER:
+    if s in scanner_dict:
+        final_scanner_models.append(scanner_dict.pop(s))
+for remaining in scanner_dict.values():
+    final_scanner_models.append(remaining)
 
 # Add parts model to vat-tu-linh-kien-tieu-hao
 final_models = other_models + final_scanner_models + [parts_model]

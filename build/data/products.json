@@ -154,24 +154,15 @@
         "Danh mục model cụ thể đang được cập nhật — vui lòng liên hệ để được tư vấn theo nhu cầu."
       ],
       "models": [
-        "ricoh-fujitsu-fi-7160",
-        "ricoh-ix100",
-        "ricoh-sp-1120n",
-        "ricoh-sp-1125n",
-        "ricoh-sp-1425",
-        "ricoh-sp-1130n",
-        "ricoh-ix1300",
-        "ricoh-ix1400",
-        "ricoh-ix1600",
-        "ricoh-ix2400",
-        "ricoh-ix2500",
-        "ricoh-sv600",
-        "ricoh-fi-800r",
-        "ricoh-fi-8150u",
-        "ricoh-fi-8150",
         "ricoh-fi-8170",
+        "ricoh-sp-1130n",
+        "ricoh-sp-1120n",
+        "ricoh-ix1600",
+        "ricoh-ix2500",
+        "ricoh-fi-800r",
+        "ricoh-fi-8150",
+        "ricoh-fi-8150u",
         "ricoh-fi-8190",
-        "ricoh-fi-8250u",
         "ricoh-fi-8250",
         "ricoh-fi-8270",
         "ricoh-fi-8290",
@@ -185,7 +176,16 @@
         "ricoh-fi-7900",
         "ricoh-fi-8820",
         "ricoh-fi-8930",
-        "ricoh-fi-8950"
+        "ricoh-fi-8950",
+        "ricoh-ix2400",
+        "ricoh-ix1400",
+        "ricoh-ix1300",
+        "ricoh-ix100",
+        "ricoh-sp-1125n",
+        "ricoh-sp-1425",
+        "ricoh-sv600",
+        "ricoh-fujitsu-fi-7160",
+        "ricoh-fi-8250u"
       ],
       "faqs": [
         [
@@ -1978,643 +1978,11 @@
       "source": "Chính hãng Logitech."
     },
     {
-      "slug": "ricoh-fujitsu-fi-7160",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/",
-      "name": "Máy scan tài liệu tốc độ cao Ricoh fi-7160",
-      "model": "fi-7160",
-      "manufacturer": "Ricoh / Fujitsu (Nhật Bản)",
-      "sku": "RICOH-FI7160",
-      "category_label": "Máy scan số hóa tài liệu",
-      "image": "/assets/images/products/ricoh-fujitsu-fi-7160.jpg",
-      "compatible_model": [
-        "fi-8170",
-        "fi-7260"
-      ],
-      "use_case": [
-        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học theo Đề án 06",
-        "Quét hồ sơ bệnh án, chứng từ kế toán, hồ sơ cán bộ công chức",
-        "Nhận dạng ký tự quang học OCR xuất ra file PDF có thể tìm kiếm"
-      ],
-      "specifications": {
-        "Tốc độ quét": "60 trang/phút, 120 ảnh/phút (2 mặt tự động)",
-        "Khay nạp tự động (ADF)": "80 tờ",
-        "Cảm biến": "Cảm biến sóng siêu âm chống kẹt giấy và cuốn giấy kép",
-        "Độ phân giải quang học": "600 dpi"
-      },
-      "summary": "Ricoh fi-7160 (tiền thân Fujitsu fi-7160) là dòng máy quét số hóa tài liệu bán chạy số 1 thế giới — tốc độ 60 trang/phút, nạp giấy siêu êm và tích hợp phần mềm xử lý ảnh PaperStream IP chuyên nghiệp.",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Cơ quan lưu trữ"
-      ],
-      "source": "Chính hãng Ricoh / Fujitsu Nhật Bản.",
-      "note": "Model tiền nhiệm đã nâng cấp lên dòng thế hệ mới Ricoh fi-8170."
-    },
-    {
-      "slug": "ricoh-ix100",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-ix100/",
-      "name": "Máy quét Ricoh iX100",
-      "model": "iX100",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03688-B001",
-      "price": 9500000.0,
-      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
-      "image": "/assets/images/products/ricoh-ix100.png",
-      "compatible_model": [
-        "Ricoh iX100"
-      ],
-      "use_case": [
-        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
-        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
-        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
-      ],
-      "specifications": {
-        "Tốc độ quét": "5.2 giây / trang (quét màu, 300dpi)",
-        "Kết nối": "linh hoạt",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét ScanSnap có pin nhanh nhất trên thế giới,  Tốc độ 5.2 giây / trang (quét màu, 300dpi) Với pin lithium có thể sạc lại",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh iX100</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét ScanSnap có pin nhanh nhất trên thế giới, <br/>Tốc độ 5.2 giây / trang (quét màu, 300dpi)<br/>Với pin lithium có thể sạc lại</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét ScanSnap có pin nhanh nhất trên thế giới,</li><li>Tốc độ 5.2 giây / trang (quét màu, 300dpi).</li><li>Quét di động bất cứ nơi đâu</li><li>Với pin lithium có thể sạc lại, iX100 quét được đến 260 tài liệu khi đầy pin.</li><li>Kết nối linh hoạt</li><li>Quét vào máy tính PC hoặc Mac của bạn với kết nối USB hoặc không dây. Thêm các thiết bị iOS, Android và Chrome OS bằng cách sử dụng kết nối không dây.</li><li>Tổ chức tài liệu dễ dàng</li><li>Phần mềm tất cả trong một ScanSnap Home tập hợp tất cả các chức năng yêu thích của bạn để giúp bạn quét nhanh chóng. Dễ dàng quản lý, chỉnh sửa và sử dụng dữ liệu đã quét từ tài liệu, biên lai, danh thiếp, ảnh và nhiều hơn nữa.</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": ""
-    },
-    {
-      "slug": "ricoh-sp-1120n",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1120n/",
-      "name": "Máy quét Ricoh SP-1120N",
-      "model": "SP-1120N",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03811-B001",
-      "price": 8500000.0,
-      "category_label": "Máy scan số hóa tài liệu",
-      "image": "/assets/images/products/ricoh-sp-1120n.jpg",
-      "compatible_model": [
-        "Ricoh SP-1120N"
-      ],
-      "use_case": [
-        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
-        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
-        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
-      ],
-      "specifications": {
-        "Tốc độ quét": "20ppm/40ipm (quét màu, 300dpi), Khay giấy 50 tờ,",
-        "Khay nạp tự động (ADF)": "50 tờ",
-        "Công suất ngày": "3000 tờ/ngày",
-        "Kết nối": "mạng LAN,",
-        "Kích thước & Trọng lượng": "Tốc độ Scan: 20ppm/40ipm, chất lượng quét màu 300dpi - 24 bit",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 20ppm/40ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 3000 tờ/ngày.  Kết nối USB 3.2 & LAN.  Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt (tháng 3/2026 n...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1120N</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt kết nối mạng LAN, <br/>Tốc độ 20ppm/40ipm (quét màu, 300dpi), Khay  giấy 50 tờ, <br/>Công suất 3000 tờ/ngày. <br/>Kết nối USB 3.2 & LAN. <br/>Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Tốc độ Scan: 20ppm/40ipm, chất lượng quét màu 300dpi - 24 bit</li><li>Khay giấy 50 tờ, công suất 3000 tờ/ngày</li><li>Kết nối USB 3.2 & LAN</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 298 x 135 x 133 mm | 2,5 kg</li><li>Phần mềm hỗ trợ:</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>PaperStream Capture  - phần mềm quét chuyên dụng</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, Scanner Central Admin Agent</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": "tháng 3/2026 ngừng sản xuất"
-    },
-    {
-      "slug": "ricoh-sp-1125n",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1125n/",
-      "name": "Máy quét Ricoh SP-1125N",
-      "model": "SP-1125N",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03811-B011",
-      "price": 0,
-      "category_label": "Máy scan số hóa tài liệu",
-      "image": "/assets/images/products/ricoh-sp-1125n.jpg",
-      "compatible_model": [
-        "Ricoh SP-1125N"
-      ],
-      "use_case": [
-        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
-        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
-        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
-      ],
-      "specifications": {
-        "Tốc độ quét": "25ppm/50ipm (quét màu, 300dpi), Khay giấy 50 tờ,",
-        "Khay nạp tự động (ADF)": "50 tờ",
-        "Công suất ngày": "4000 tờ/ngày",
-        "Kết nối": "mạng LAN,",
-        "Kích thước & Trọng lượng": "Tốc độ Scan: 25ppm/50ipm (chất lượng quét màu 300dpi)",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 25ppm/50ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 4000 tờ/ngày.  Kết nối USB 3.2 & LAN.  Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1125N</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt kết nối mạng LAN, <br/>Tốc độ 25ppm/50ipm (quét màu, 300dpi), Khay  giấy 50 tờ, <br/>Công suất 4000 tờ/ngày. <br/>Kết nối USB 3.2 & LAN. <br/>Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Tốc độ Scan: 25ppm/50ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 50 tờ, công suất 4.000 tờ/ngày</li><li>Kết nối USB 3.2 & LAN</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 298 x 135 x 133 mm | 2,5 kg</li><li>Phần mềm hỗ trợ:</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>PaperStream Capture  - phần mềm quét chuyên dụng</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, Scanner Central Admin Agent</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": ""
-    },
-    {
-      "slug": "ricoh-sp-1425",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1425/",
-      "name": "Máy quét Ricoh SP-1425",
-      "model": "SP-1425",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03753-B001",
-      "price": 15500000.0,
-      "category_label": "Máy scan số hóa tài liệu",
-      "image": "/assets/images/products/ricoh-sp-1425.jpg",
-      "compatible_model": [
-        "Ricoh SP-1425"
-      ],
-      "use_case": [
-        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
-        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
-        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
-      ],
-      "specifications": {
-        "Tốc độ quét": "25ppm/50ipm (khổ A4 dọc, màu 300 dpi),",
-        "Khay nạp tự động (ADF)": "50 tờ",
-        "Công suất ngày": "4000 tờ/ngày",
-        "Kết nối": "USB 2.0.",
-        "Kích thước & Trọng lượng": "454 x 331 x 129 mm | 4.3 kg",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt + flatbed,   Tốc độ 25ppm/50ipm (khổ A4 dọc, màu 300 dpi),  Khay  giấy 50 tờ.  Kết nối USB 2.0.",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1425</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt + flatbed, <br/><br/>Tốc độ 25ppm/50ipm (khổ A4 dọc, màu 300 dpi), <br/>Khay  giấy 50 tờ. <br/>Kết nối USB 2.0.</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt A4, ADF + Flatbed, khay giấy ADF 50 tờ</li><li>Tốc độ quét:</li><li>ADF: 25ppm/50 ipm (khổ A4 dọc, màu 300 dpi)</li><li>Flatbed: 4 giây - Chất lượng bản quét: 300 dpi, 24 bit</li><li>Công suất 4000 tờ/ngày</li><li>Kết nối: USB 2.0</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 454 x 331 x 129 mm | 4.3 kg</li><li>Giải pháp phần mềm đi kèm:</li><li>PaperStream IP cho SP Series tự động tạo ra hình ảnh rõ nét nhất. Trình điều khiển máy quét hỗ trợ TWAIN / ISIS ™, dễ dàng chuyển đổi các tài liệu khác nhau thành hình ảnh chất lượng cao một cách tự động.</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, PaperStream Capture</li><li>Lite*10, Presto!™ PageManager™, ABBYY™ FineReader™ Sprint, Scanner</li><li>Central Admin Agent</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": ""
-    },
-    {
-      "slug": "ricoh-sp-1130n",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1130n/",
-      "name": "Máy quét Ricoh SP-1130N",
-      "model": "SP-1130N",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03811-B021",
-      "price": 12500000.0,
-      "category_label": "Máy scan số hóa tài liệu",
-      "image": "/assets/images/products/ricoh-sp-1130n.jpg",
-      "compatible_model": [
-        "Ricoh SP-1130N"
-      ],
-      "use_case": [
-        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
-        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
-        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
-      ],
-      "specifications": {
-        "Tốc độ quét": "30ppm/60ipm (quét màu, 300dpi), Khay giấy 50 tờ,",
-        "Khay nạp tự động (ADF)": "50 tờ",
-        "Công suất ngày": "4500 tờ/ngày",
-        "Kết nối": "mạng LAN",
-        "Kích thước & Trọng lượng": "Tốc độ Scan: 30ppm/60ipm (chất lượng quét màu 300dpi)",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt kết nối mạng LAN Tốc độ 30ppm/60ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 4500 tờ/ngày. Kết nối USB 3.2 & LAN.  Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1130N</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt kết nối mạng LAN<br/>Tốc độ 30ppm/60ipm (quét màu, 300dpi), Khay  giấy 50 tờ, <br/>Công suất 4500 tờ/ngày. Kết nối USB 3.2 & LAN. <br/>Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Tốc độ Scan: 30ppm/60ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 50 tờ, công suất 4.500 tờ/ngày</li><li>Kết nối USB 3.2 & LAN</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 298 x 135 x 133 mm | 2,5 kg</li><li>Phần mềm hỗ trợ:</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>PaperStream Capture  - phần mềm quét chuyên dụng</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, Scanner Central Admin Agent</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": ""
-    },
-    {
-      "slug": "ricoh-ix1300",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-ix1300/",
-      "name": "Máy quét Ricoh iX1300",
-      "model": "iX1300",
-      "manufacturer": "Ricoh (Indonesia)",
-      "sku": "PA03805-B001/B101",
-      "price": 0,
-      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
-      "image": "/assets/images/products/ricoh-ix1300.png",
-      "compatible_model": [
-        "Ricoh iX1300"
-      ],
-      "use_case": [
-        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
-        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
-        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
-      ],
-      "specifications": {
-        "Tốc độ quét": "30ppm/60ipm (quét màu, 300 dpi), Khay giấy 20 tờ,",
-        "Khay nạp tự động (ADF)": "20 tờ",
-        "Công suất ngày": "4500 tờ/ngày",
-        "Kết nối": "USB 3.2; Wifi IEEE802.11a/b/g/n/ac",
-        "Xuất xứ": "Indonesia",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,   Tốc độ 30ppm/60ipm (quét màu, 300 dpi), Khay  giấy 20 tờ,  Công suất 4500 tờ/ngày.  Kết nối: USB 3.2; Wifi IEEE802.11a/b/g/n/ac (Mã dự á...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh iX1300</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,  <br/>Tốc độ 30ppm/60ipm (quét màu, 300 dpi), Khay  giấy 20 tờ, <br/>Công suất 4500 tờ/ngày. <br/>Kết nối: USB 3.2; Wifi IEEE802.11a/b/g/n/ac</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,</li><li>Tốc độ 30ppm (quét màu, 300 dpi), Khay  giấy 20 tờ,</li><li>Công suất 4500 tờ/ngày.</li><li>Kết nối: USB 3.2; Wifi IEEE802.11a/b/g/n/ac</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": "Mã dự án"
-    },
-    {
-      "slug": "ricoh-ix1400",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-ix1400/",
-      "name": "Máy quét Ricoh  iX1400",
-      "model": "iX1400",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03820-B001",
-      "price": 13800000.0,
-      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
-      "image": "/assets/images/products/ricoh-ix1400.png",
-      "compatible_model": [
-        "Ricoh iX1400"
-      ],
-      "use_case": [
-        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
-        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
-        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
-      ],
-      "specifications": {
-        "Tốc độ quét": "40ppm/80ipm (quét màu, 300 dpi), Khay giấy 50 tờ.",
-        "Khay nạp tự động (ADF)": "50 tờ",
-        "Công suất ngày": "6000 tờ/ngày",
-        "Kết nối": "USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.",
-        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt,  Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ.  Công suất 6000 tờ/ngày Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. Quét giấy A3 qua Carrier Sheet. OCR: ABBYY FineReader for ScanSnap, hỗ trợ f...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh  iX1400</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, <br/>Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ. <br/>Công suất 6000 tờ/ngày<br/>Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.<br/>Quét giấy A3 qua Carrier Sheet.<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm</li><li>Tốc độ Scan: 40ppm ( chất lượng quét màu 300dpi)</li><li>Khay giấy 50 tờ, công suất 6000 tờ/ngày</li><li>Kết nối</li><li>USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 152 mm / 3,4kg</li><li>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": "ngừng sản xuất thay bằng iX2400"
-    },
-    {
-      "slug": "ricoh-ix1600",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-ix1600/",
-      "name": "Máy quét Ricoh iX1600",
-      "model": "iX1600",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03770-B401/B501",
-      "price": 19900000.0,
-      "category_label": "Máy scan khổ A3 số hóa",
-      "image": "/assets/images/products/ricoh-ix1600.png",
-      "compatible_model": [
-        "Ricoh iX1600"
-      ],
-      "use_case": [
-        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
-        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
-        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
-      ],
-      "specifications": {
-        "Tốc độ quét": "40ppm/80ipm (quét màu, 300 dpi),",
-        "Khay nạp tự động (ADF)": "50 tờ",
-        "Công suất ngày": "6000 tờ/ngày",
-        "Kết nối": "wifi (hỗ trợ kết nối 4 thiết bị cùng lúc), USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.",
-        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt, tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ.     Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc), USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.  Quét giấy A3 bằng cách gập đôi tài liệu mà không cần C...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh iX1600</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, tốc độ 40ppm/80ipm (quét màu, 300 dpi),<br/>Khay  giấy 50 tờ.    <br/>Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc), USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.<br/> Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet. <br/>Màn hình cảm ứng 4,3\"<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm</li><li>Tốc độ Scan: 40ppm ( chất lượng quét màu 300dpi)</li><li>Màn hình cảm ứng 4,3\"</li><li>Khay giấy 50 tờ, công suất 6000 tờ/ngày</li><li>Kết nối</li><li>Wifi: có thể kết nối trực tiếp lên tới 4 thiết bị cùng lúc (PC, Mac, iPad®, iPhone®, Android™ and Kindle™) thông qua Wifi IEEE802.11a/b/g/n/ac</li><li>USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.</li><li>Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 152 mm / 3,4kg</li><li>Có thể chuyển đổi sang dạng Word, Excel®, E-mail and SharePoint®; Scan snap Cloud gửi tài liệu trực tiếp tới Cloud của bạn</li><li>Phần mềm đi kèm ScanSnap Home, ScanSnap Manager, Kofax Power PDF Standard, ABBYY FineReader for ScanSnap™</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": "còn ít hàng - thay bằng iX2500"
-    },
-    {
-      "slug": "ricoh-ix2400",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-ix2400/",
-      "name": "Máy quét Ricoh IX2400",
-      "model": "IX2400",
-      "manufacturer": "Ricoh (Indonesia)",
-      "sku": "PA03870-B101",
-      "price": 15600000.0,
-      "category_label": "Máy scan khổ A3 số hóa",
-      "image": "/assets/images/products/ricoh-ix2400.jpg",
-      "compatible_model": [
-        "thay thế dòng IX1400\n\ncó 2 màu đen và trắng"
-      ],
-      "use_case": [
-        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
-        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
-        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
-      ],
-      "specifications": {
-        "Tốc độ quét": "45ppm/90ipm (khổ A4 dọc, màu 300 dpi)",
-        "Khay nạp tự động (ADF)": "100 tờ",
-        "Công suất ngày": "7000 tờ/ngày",
-        "Kết nối": "USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C).",
-        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Xuất xứ": "Indonesia",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi) khay  giấy 100 tờ.     Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C).  Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier She...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh IX2400</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi)<br/>khay  giấy 100 tờ.    <br/>Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C). <br/>Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet. <br/>                          <br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm</li><li>Tốc độ Scan: 45ppm (khổ A4 dọc, màu 300 dpi)</li><li>Khay giấy ADF 100 tờ, công suất 7000 tờ/ngày</li><li>Ra lệnh quét bằng 1 nút chạm.</li><li>Kết nối : USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C)</li><li>Quét giấy A3 bằng cách gập đôi tài liệu không cần Carrier Sheet.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 159 mm / 3,5kg</li><li>Có thể chuyển đổi sang dạng Word, Excel®, E-mail and SharePoint®; Scan snap Cloud gửi tài liệu trực tiếp tới Cloud của bạn.</li><li>Phần mềm đi kèm ScanSnap Home, ScanSnap Manager, Kofax Power PDF Standard, ABBYY FineReader for ScanSnap™</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": "thay thế dòng IX1400\n\ncó 2 màu đen và trắng"
-    },
-    {
-      "slug": "ricoh-ix2500",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-ix2500/",
-      "name": "Máy quét Ricoh IX2500",
-      "model": "IX2500",
-      "manufacturer": "Ricoh (Indonesia)",
-      "sku": "PA03860-B011/B111",
-      "price": 23500000.0,
-      "category_label": "Máy scan khổ A3 số hóa",
-      "image": "/assets/images/products/ricoh-ix2500.png",
-      "compatible_model": [
-        "thay thế iX1600\ncó 2 màu đen và trắng"
-      ],
-      "use_case": [
-        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
-        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
-        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
-      ],
-      "specifications": {
-        "Tốc độ quét": "45ppm/90ipm (khổ A4 dọc, màu 300 dpi)",
-        "Khay nạp tự động (ADF)": "100 tờ",
-        "Công suất ngày": "7000 tờ/ngày",
-        "Kết nối": "wifi (hỗ trợ kết nối 4 thiết bị cùng lúc): IEEE802.11a/b/g/n/ac/ax",
-        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Xuất xứ": "Indonesia",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi) khay  giấy 100 tờ.     Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc): IEEE802.11a/b/g/n/ac/ax băng tần: 2.4 GHz / 5 GHz, USB 3.2 Gen1x1 / USB 2.0 / USB 1.1...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh IX2500</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi)<br/>khay  giấy 100 tờ.    <br/>Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc): IEEE802.11a/b/g/n/ac/ax<br/>băng tần: 2.4 GHz / 5 GHz, USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C). <br/>Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet. <br/>Màn hình màu IPS cảm ứng 5\", ra lệnh quét bằng chạm smart phone.                          <br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm</li><li>Tốc độ Scan: 45ppm (khổ A4 dọc, màu 300 dpi)</li><li>Khay giấy ADF 100 tờ, công suất 7000 tờ/ngày</li><li>Kết nối</li><li>Wifi: có thể kết nối trực tiếp lên tới 4 thiết bị cùng lúc (PC, Mac, iPad®, iPhone®, Android™ and Kindle™) thông qua Wifi IEEE802.11a/b/g/n/ac/ax</li><li>băng tần: 2.4 GHz / 5 GHz.</li><li>USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C)</li><li>Quét giấy A3 bằng cách gập đôi tài liệu không cần Carrier Sheet.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 159 mm / 3,5kg</li><li>Có thể chuyển đổi sang dạng Word, Excel®, E-mail and SharePoint®; Scan snap Cloud gửi tài liệu trực tiếp tới Cloud của bạn.</li><li>Phần mềm đi kèm ScanSnap Home, ScanSnap Manager, Kofax Power PDF Standard, ABBYY FineReader for ScanSnap™</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": "thay thế iX1600\ncó 2 màu đen và trắng"
-    },
-    {
-      "slug": "ricoh-sv600",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-sv600/",
-      "name": "Máy quét Ricoh SV600",
-      "model": "SV600",
-      "manufacturer": "Ricoh (China)",
-      "sku": "PA03641-B301",
-      "price": 0,
-      "category_label": "Máy scan khổ A3 số hóa",
-      "image": "/assets/images/products/ricoh-sv600.jpg",
-      "compatible_model": [
-        "Ricoh SV600"
-      ],
-      "use_case": [
-        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
-        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
-        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
-      ],
-      "specifications": {
-        "Tốc độ quét": "3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc",
-        "Kết nối": "USB 2.0",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Xuất xứ": "China",
-        "Bảo hành": "12 Tháng"
-      },
-      "summary": "Máy quét sách khổ A3, tốc độ 3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SV600</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét sách khổ A3, tốc độ 3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét Sách chuyên dụng, quét tài liệu khổ A3.</li><li>Tốc độ quét trung bình: 3 giây/trang, chất lượng quét màu lên tới 600dpi</li><li>Các tùy chọn khi scan:</li><li>Quét thường: Nhấn nút scan cho mỗi trang</li><li>Quét với chế độ hẹn giờ</li><li>Tự phát hiện chuyển trang</li><li>Kết nối: USB 2.0</li><li>Tính năng:</li><li>Có thể quét danh thiếp, thẻ, mẩu hình ảnh cùng lúc - tối đa 10 tài liệu cùng lúc. Tự động cắt tách các tài liệu này, chỉnh sửa loại bỏ phần thừa hay lệch hướng</li><li>Tự động sửa chữa sự biến dạng do đường cong của sách/tạp chí</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, powerpoint, PDF có thể tìm kiếm)</li><li>Software hỗ trợ : ScanSnap Manager , ScanSnap Organizer (ScanSnap Sync*14) , CardMinder™ , Nuance® Power PDF Standard , ABBYY FineReader for ScanSnap™ , ScanSnap Connect App (ScanSnap Sync*14)</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
-      "warranty": "12 Tháng",
-      "note": ""
-    },
-    {
-      "slug": "ricoh-fi-800r",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-800r/",
-      "name": "Máy quét Ricoh  fi-800R",
-      "model": "fi-800R",
-      "manufacturer": "Ricoh (Indonesia)",
-      "sku": "PA03795-B001",
-      "price": 21500000.0,
-      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
-      "image": "/assets/images/products/ricoh-fi-800r.jpg",
-      "compatible_model": [
-        "Ricoh fi-800R"
-      ],
-      "use_case": [
-        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
-        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
-        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
-      ],
-      "specifications": {
-        "Tốc độ quét": "40ppm/80ipm (quét màu, 300 dpi), Khay giấy ADF 20 tờ, khay thủ công tốc độ 3.5 seconds (200/300 dpi),",
-        "Khay nạp tự động (ADF)": "20 tờ",
-        "Công suất ngày": "4500 tờ/ngày",
-        "Kết nối": "USB 3.2/2.0/1.1.",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Xuất xứ": "Indonesia",
-        "Bảo hành": "12 tháng"
-      },
-      "summary": "Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, căn cước, hộ chiếu. Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy ADF 20 tờ, khay thủ công tốc độ 3.5 seconds (200/300 dpi), Công suất 4500 tờ/ngày.  Kết n...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh  fi-800R</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, căn cước, hộ chiếu.<br/>Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy ADF 20 tờ, khay thủ công tốc độ 3.5 seconds (200/300 dpi),<br/>Công suất 4500 tờ/ngày. <br/>Kết nối USB 3.2/2.0/1.1. <br/>Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
-      "warranty": "12 tháng",
-      "note": "Mã dự án"
-    },
-    {
-      "slug": "ricoh-fi-8150u",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8150u/",
-      "name": "Máy quét Ricoh fi-8150U",
-      "model": "fi-8150U",
-      "manufacturer": "Ricoh (Indonesia)",
-      "sku": "PA03810-B151",
-      "price": 23500000.0,
-      "category_label": "Máy scan khổ A3 số hóa",
-      "image": "/assets/images/products/ricoh-fi-8150u.png",
-      "compatible_model": [
-        "Thay thế Fi7140"
-      ],
-      "use_case": [
-        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
-        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
-        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
-      ],
-      "specifications": {
-        "Tốc độ quét": "50ppm/100ipm (quét màu, 300 dpi), khay giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
-        "Khay nạp tự động (ADF)": "100 tờ",
-        "Công suất ngày": "8000 tờ/ngày",
-        "Kết nối": "USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
-        "Kích thước & Trọng lượng": "Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm.",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
-        "Xuất xứ": "Indonesia",
-        "Bảo hành": "12 tháng"
-      },
-      "summary": "Máy quét 2 mặt tự động  A4, quét căn cước và hộ chiếu.   Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh fi-8150U</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, quét căn cước và hộ chiếu.  <br/>Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm.</li><li>Tốc độ Scan: 50ppm/100ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 100 tờ, công suất 8.000 tờ/ngày</li><li>Kết nối USB 3.2</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 300 x 170 x 163 mm | 4 kg</li><li>Tính năng:</li><li>Cho phép quét nhiều loại giấy (kích thước khác nhau) trong 1 lần, tự động phát hiện kích cỡ và căn thẳng bản quét dù cho giấy để lệch</li><li>Quét hộ chiếu, sổ dập ghip. Quét khổ A3 bằng cách gập đôi mà không cần kẹp vào Carrier sheet</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
-      "warranty": "12 tháng",
-      "note": "Thay thế Fi7140"
-    },
-    {
-      "slug": "ricoh-fi-8150",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8150/",
-      "name": "Máy quét Ricoh fi-8150",
-      "model": "fi-8150",
-      "manufacturer": "Ricoh (Indonesia)",
-      "sku": "PA03810-B101",
-      "price": 26300000.0,
-      "category_label": "Máy scan khổ A3 số hóa",
-      "image": "/assets/images/products/ricoh-fi-8150.png",
-      "compatible_model": [
-        "Ricoh fi-8150"
-      ],
-      "use_case": [
-        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
-        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
-        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
-      ],
-      "specifications": {
-        "Tốc độ quét": "50ppm/100ipm (quét màu, 300 dpi), khay giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
-        "Khay nạp tự động (ADF)": "100 tờ",
-        "Công suất ngày": "8000 tờ/ngày",
-        "Kết nối": "USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
-        "Kích thước & Trọng lượng": "Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
-        "Xuất xứ": "Indonesia",
-        "Bảo hành": "12 tháng"
-      },
-      "summary": "Máy quét 2 mặt tự động  A4, quét sổ dập ghim, căn cước và hộ chiếu. Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh fi-8150</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, quét sổ dập ghim, căn cước và hộ chiếu.<br/>Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm</li><li>Tốc độ Scan: 50ppm/100ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 100 tờ, công suất 8.000 tờ/ngày</li><li>Kết nối USB 3.2; LAN 10BASE-T, 100BASE-TX, 1000BASE-T</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 300 x 170 x 163 mm | 4 kg</li><li>Tính năng:</li><li>Cho phép quét nhiều loại giấy (kích thước khác nhau) trong 1 lần, tự động phát hiện kích cỡ và căn thẳng bản quét dù cho giấy để lệch</li><li>Quét hộ chiếu, sổ dập ghip. Quét khổ A3 bằng cách gập đôi mà không cần kẹp vào Carrier sheet</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
-      "warranty": "12 tháng",
-      "note": "Mã dự án"
-    },
-    {
       "slug": "ricoh-fi-8170",
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8170/",
       "name": "Máy quét Ricoh fi-8170",
+      "name_en": "Ricoh fi-8170 Production A3 Scanner",
       "model": "fi-8170",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03810-B051",
@@ -2655,10 +2023,322 @@
       "note": "Thay thế Fi-7160"
     },
     {
+      "slug": "ricoh-sp-1130n",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1130n/",
+      "name": "Máy quét Ricoh SP-1130N",
+      "name_en": "Ricoh SP-1130N Document Scanner",
+      "model": "SP-1130N",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03811-B021",
+      "price": 12500000.0,
+      "category_label": "Máy scan số hóa tài liệu",
+      "image": "/assets/images/products/ricoh-sp-1130n.jpg",
+      "compatible_model": [
+        "Ricoh SP-1130N"
+      ],
+      "use_case": [
+        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
+        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
+        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
+      ],
+      "specifications": {
+        "Tốc độ quét": "30ppm/60ipm (quét màu, 300dpi), Khay giấy 50 tờ,",
+        "Khay nạp tự động (ADF)": "50 tờ",
+        "Công suất ngày": "4500 tờ/ngày",
+        "Kết nối": "mạng LAN",
+        "Kích thước & Trọng lượng": "Tốc độ Scan: 30ppm/60ipm (chất lượng quét màu 300dpi)",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt kết nối mạng LAN Tốc độ 30ppm/60ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 4500 tờ/ngày. Kết nối USB 3.2 & LAN.  Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1130N</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt kết nối mạng LAN<br/>Tốc độ 30ppm/60ipm (quét màu, 300dpi), Khay  giấy 50 tờ, <br/>Công suất 4500 tờ/ngày. Kết nối USB 3.2 & LAN. <br/>Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Tốc độ Scan: 30ppm/60ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 50 tờ, công suất 4.500 tờ/ngày</li><li>Kết nối USB 3.2 & LAN</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 298 x 135 x 133 mm | 2,5 kg</li><li>Phần mềm hỗ trợ:</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>PaperStream Capture  - phần mềm quét chuyên dụng</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, Scanner Central Admin Agent</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": ""
+    },
+    {
+      "slug": "ricoh-sp-1120n",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1120n/",
+      "name": "Máy quét Ricoh SP-1120N",
+      "name_en": "Ricoh SP-1120N Document Scanner",
+      "model": "SP-1120N",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03811-B001",
+      "price": 8500000.0,
+      "category_label": "Máy scan số hóa tài liệu",
+      "image": "/assets/images/products/ricoh-sp-1120n.jpg",
+      "compatible_model": [
+        "Ricoh SP-1120N"
+      ],
+      "use_case": [
+        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
+        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
+        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
+      ],
+      "specifications": {
+        "Tốc độ quét": "20ppm/40ipm (quét màu, 300dpi), Khay giấy 50 tờ,",
+        "Khay nạp tự động (ADF)": "50 tờ",
+        "Công suất ngày": "3000 tờ/ngày",
+        "Kết nối": "mạng LAN,",
+        "Kích thước & Trọng lượng": "Tốc độ Scan: 20ppm/40ipm, chất lượng quét màu 300dpi - 24 bit",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 20ppm/40ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 3000 tờ/ngày.  Kết nối USB 3.2 & LAN.  Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt (tháng 3/2026 n...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1120N</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt kết nối mạng LAN, <br/>Tốc độ 20ppm/40ipm (quét màu, 300dpi), Khay  giấy 50 tờ, <br/>Công suất 3000 tờ/ngày. <br/>Kết nối USB 3.2 & LAN. <br/>Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Tốc độ Scan: 20ppm/40ipm, chất lượng quét màu 300dpi - 24 bit</li><li>Khay giấy 50 tờ, công suất 3000 tờ/ngày</li><li>Kết nối USB 3.2 & LAN</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 298 x 135 x 133 mm | 2,5 kg</li><li>Phần mềm hỗ trợ:</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>PaperStream Capture  - phần mềm quét chuyên dụng</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, Scanner Central Admin Agent</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": "tháng 3/2026 ngừng sản xuất"
+    },
+    {
+      "slug": "ricoh-ix1600",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-ix1600/",
+      "name": "Máy quét Ricoh iX1600",
+      "name_en": "Ricoh iX1600 Production A3 Scanner",
+      "model": "iX1600",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03770-B401/B501",
+      "price": 19900000.0,
+      "category_label": "Máy scan khổ A3 số hóa",
+      "image": "/assets/images/products/ricoh-ix1600.png",
+      "compatible_model": [
+        "Ricoh iX1600"
+      ],
+      "use_case": [
+        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
+        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
+        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
+      ],
+      "specifications": {
+        "Tốc độ quét": "40ppm/80ipm (quét màu, 300 dpi),",
+        "Khay nạp tự động (ADF)": "50 tờ",
+        "Công suất ngày": "6000 tờ/ngày",
+        "Kết nối": "wifi (hỗ trợ kết nối 4 thiết bị cùng lúc), USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.",
+        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt, tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ.     Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc), USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.  Quét giấy A3 bằng cách gập đôi tài liệu mà không cần C...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh iX1600</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, tốc độ 40ppm/80ipm (quét màu, 300 dpi),<br/>Khay  giấy 50 tờ.    <br/>Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc), USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.<br/> Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet. <br/>Màn hình cảm ứng 4,3\"<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm</li><li>Tốc độ Scan: 40ppm ( chất lượng quét màu 300dpi)</li><li>Màn hình cảm ứng 4,3\"</li><li>Khay giấy 50 tờ, công suất 6000 tờ/ngày</li><li>Kết nối</li><li>Wifi: có thể kết nối trực tiếp lên tới 4 thiết bị cùng lúc (PC, Mac, iPad®, iPhone®, Android™ and Kindle™) thông qua Wifi IEEE802.11a/b/g/n/ac</li><li>USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.</li><li>Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 152 mm / 3,4kg</li><li>Có thể chuyển đổi sang dạng Word, Excel®, E-mail and SharePoint®; Scan snap Cloud gửi tài liệu trực tiếp tới Cloud của bạn</li><li>Phần mềm đi kèm ScanSnap Home, ScanSnap Manager, Kofax Power PDF Standard, ABBYY FineReader for ScanSnap™</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": "còn ít hàng - thay bằng iX2500"
+    },
+    {
+      "slug": "ricoh-ix2500",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-ix2500/",
+      "name": "Máy quét Ricoh IX2500",
+      "name_en": "Ricoh IX2500 Production A3 Scanner",
+      "model": "IX2500",
+      "manufacturer": "Ricoh (Indonesia)",
+      "sku": "PA03860-B011/B111",
+      "price": 23500000.0,
+      "category_label": "Máy scan khổ A3 số hóa",
+      "image": "/assets/images/products/ricoh-ix2500.png",
+      "compatible_model": [
+        "thay thế iX1600\ncó 2 màu đen và trắng"
+      ],
+      "use_case": [
+        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
+        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
+        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
+      ],
+      "specifications": {
+        "Tốc độ quét": "45ppm/90ipm (khổ A4 dọc, màu 300 dpi)",
+        "Khay nạp tự động (ADF)": "100 tờ",
+        "Công suất ngày": "7000 tờ/ngày",
+        "Kết nối": "wifi (hỗ trợ kết nối 4 thiết bị cùng lúc): IEEE802.11a/b/g/n/ac/ax",
+        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Xuất xứ": "Indonesia",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi) khay  giấy 100 tờ.     Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc): IEEE802.11a/b/g/n/ac/ax băng tần: 2.4 GHz / 5 GHz, USB 3.2 Gen1x1 / USB 2.0 / USB 1.1...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh IX2500</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi)<br/>khay  giấy 100 tờ.    <br/>Kết nối wifi (hỗ trợ kết nối 4 thiết bị cùng lúc): IEEE802.11a/b/g/n/ac/ax<br/>băng tần: 2.4 GHz / 5 GHz, USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C). <br/>Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet. <br/>Màn hình màu IPS cảm ứng 5\", ra lệnh quét bằng chạm smart phone.                          <br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm</li><li>Tốc độ Scan: 45ppm (khổ A4 dọc, màu 300 dpi)</li><li>Khay giấy ADF 100 tờ, công suất 7000 tờ/ngày</li><li>Kết nối</li><li>Wifi: có thể kết nối trực tiếp lên tới 4 thiết bị cùng lúc (PC, Mac, iPad®, iPhone®, Android™ and Kindle™) thông qua Wifi IEEE802.11a/b/g/n/ac/ax</li><li>băng tần: 2.4 GHz / 5 GHz.</li><li>USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C)</li><li>Quét giấy A3 bằng cách gập đôi tài liệu không cần Carrier Sheet.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 159 mm / 3,5kg</li><li>Có thể chuyển đổi sang dạng Word, Excel®, E-mail and SharePoint®; Scan snap Cloud gửi tài liệu trực tiếp tới Cloud của bạn.</li><li>Phần mềm đi kèm ScanSnap Home, ScanSnap Manager, Kofax Power PDF Standard, ABBYY FineReader for ScanSnap™</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": "thay thế iX1600\ncó 2 màu đen và trắng"
+    },
+    {
+      "slug": "ricoh-fi-800r",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-800r/",
+      "name": "Máy quét Ricoh fi-800R",
+      "name_en": "Ricoh ScanSnap fi-800R Scanner",
+      "model": "fi-800R",
+      "manufacturer": "Ricoh (Indonesia)",
+      "sku": "PA03795-B001",
+      "price": 21500000.0,
+      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
+      "image": "/assets/images/products/ricoh-fi-800r.jpg",
+      "compatible_model": [
+        "Ricoh fi-800R"
+      ],
+      "use_case": [
+        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
+        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
+        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
+      ],
+      "specifications": {
+        "Tốc độ quét": "40ppm/80ipm (quét màu, 300 dpi), Khay giấy ADF 20 tờ, khay thủ công tốc độ 3.5 seconds (200/300 dpi),",
+        "Khay nạp tự động (ADF)": "20 tờ",
+        "Công suất ngày": "4500 tờ/ngày",
+        "Kết nối": "USB 3.2/2.0/1.1.",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Xuất xứ": "Indonesia",
+        "Bảo hành": "12 tháng"
+      },
+      "summary": "Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, căn cước, hộ chiếu. Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy ADF 20 tờ, khay thủ công tốc độ 3.5 seconds (200/300 dpi), Công suất 4500 tờ/ngày.  Kết n...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh fi-800R</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, căn cước, hộ chiếu.<br/>Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy ADF 20 tờ, khay thủ công tốc độ 3.5 seconds (200/300 dpi),<br/>Công suất 4500 tờ/ngày. <br/>Kết nối USB 3.2/2.0/1.1. <br/>Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
+      "warranty": "12 tháng",
+      "note": "Mã dự án"
+    },
+    {
+      "slug": "ricoh-fi-8150",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8150/",
+      "name": "Máy quét Ricoh fi-8150",
+      "name_en": "Ricoh fi-8150 Production A3 Scanner",
+      "model": "fi-8150",
+      "manufacturer": "Ricoh (Indonesia)",
+      "sku": "PA03810-B101",
+      "price": 26300000.0,
+      "category_label": "Máy scan khổ A3 số hóa",
+      "image": "/assets/images/products/ricoh-fi-8150.png",
+      "compatible_model": [
+        "Ricoh fi-8150"
+      ],
+      "use_case": [
+        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
+        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
+        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
+      ],
+      "specifications": {
+        "Tốc độ quét": "50ppm/100ipm (quét màu, 300 dpi), khay giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
+        "Khay nạp tự động (ADF)": "100 tờ",
+        "Công suất ngày": "8000 tờ/ngày",
+        "Kết nối": "USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
+        "Kích thước & Trọng lượng": "Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
+        "Xuất xứ": "Indonesia",
+        "Bảo hành": "12 tháng"
+      },
+      "summary": "Máy quét 2 mặt tự động  A4, quét sổ dập ghim, căn cước và hộ chiếu. Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh fi-8150</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, quét sổ dập ghim, căn cước và hộ chiếu.<br/>Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1 & LAN 10BASE-T, 100BASE-TX, 1000BASE-T. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm</li><li>Tốc độ Scan: 50ppm/100ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 100 tờ, công suất 8.000 tờ/ngày</li><li>Kết nối USB 3.2; LAN 10BASE-T, 100BASE-TX, 1000BASE-T</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 300 x 170 x 163 mm | 4 kg</li><li>Tính năng:</li><li>Cho phép quét nhiều loại giấy (kích thước khác nhau) trong 1 lần, tự động phát hiện kích cỡ và căn thẳng bản quét dù cho giấy để lệch</li><li>Quét hộ chiếu, sổ dập ghip. Quét khổ A3 bằng cách gập đôi mà không cần kẹp vào Carrier sheet</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
+      "warranty": "12 tháng",
+      "note": "Mã dự án"
+    },
+    {
+      "slug": "ricoh-fi-8150u",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8150u/",
+      "name": "Máy quét Ricoh fi-8150U",
+      "name_en": "Ricoh fi-8150U Production A3 Scanner",
+      "model": "fi-8150U",
+      "manufacturer": "Ricoh (Indonesia)",
+      "sku": "PA03810-B151",
+      "price": 23500000.0,
+      "category_label": "Máy scan khổ A3 số hóa",
+      "image": "/assets/images/products/ricoh-fi-8150u.png",
+      "compatible_model": [
+        "Thay thế Fi7140"
+      ],
+      "use_case": [
+        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
+        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
+        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
+      ],
+      "specifications": {
+        "Tốc độ quét": "50ppm/100ipm (quét màu, 300 dpi), khay giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
+        "Khay nạp tự động (ADF)": "100 tờ",
+        "Công suất ngày": "8000 tờ/ngày",
+        "Kết nối": "USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
+        "Kích thước & Trọng lượng": "Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm.",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
+        "Xuất xứ": "Indonesia",
+        "Bảo hành": "12 tháng"
+      },
+      "summary": "Máy quét 2 mặt tự động  A4, quét căn cước và hộ chiếu.   Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh fi-8150U</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, quét căn cước và hộ chiếu.  <br/>Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm.</li><li>Tốc độ Scan: 50ppm/100ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 100 tờ, công suất 8.000 tờ/ngày</li><li>Kết nối USB 3.2</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 300 x 170 x 163 mm | 4 kg</li><li>Tính năng:</li><li>Cho phép quét nhiều loại giấy (kích thước khác nhau) trong 1 lần, tự động phát hiện kích cỡ và căn thẳng bản quét dù cho giấy để lệch</li><li>Quét hộ chiếu, sổ dập ghip. Quét khổ A3 bằng cách gập đôi mà không cần kẹp vào Carrier sheet</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
+      "warranty": "12 tháng",
+      "note": "Thay thế Fi7140"
+    },
+    {
       "slug": "ricoh-fi-8190",
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8190/",
       "name": "Máy quét Ricoh fi-8190",
+      "name_en": "Ricoh fi-8190 Production A3 Scanner",
       "model": "fi-8190",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03810-B001",
@@ -2699,54 +2379,11 @@
       "note": "Dòng Dự án cần có thông tin dự án để báo giá"
     },
     {
-      "slug": "ricoh-fi-8250u",
-      "category": "may-scan-so-hoa",
-      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8250u/",
-      "name": "Máy quét Ricoh fi-8250U",
-      "model": "fi-8250U",
-      "manufacturer": "Ricoh (Indonesia)",
-      "sku": "PA03810-B651",
-      "price": 41800000.0,
-      "category_label": "Máy scan khổ A3 số hóa",
-      "image": "/assets/images/products/ricoh-fi-8250u.png",
-      "compatible_model": [
-        "Ricoh fi-8250U"
-      ],
-      "use_case": [
-        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
-        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
-        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
-      ],
-      "specifications": {
-        "Tốc độ quét": "50ppm/100ipm (quét màu, 300 dpi), khay giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
-        "Khay nạp tự động (ADF)": "100 tờ",
-        "Công suất ngày": "8000 tờ/ngày",
-        "Kết nối": "USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
-        "Kích thước & Trọng lượng": "Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm",
-        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
-        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
-        "Xuất xứ": "Indonesia",
-        "Bảo hành": "12 tháng"
-      },
-      "summary": "Máy quét 2 mặt tự động + Flatbed A4, tích hợp tính sổ dập ghim và hộ chiếu,  tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn...",
-      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh fi-8250U</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động + Flatbed A4, tích hợp tính sổ dập ghim và hộ chiếu,  tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF) + Flatbed, kích thước tối đa A4</li><li>Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm</li><li>Tốc độ Scan: 50ppm/100ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 100 tờ, công suất 8.000 tờ/ngày</li><li>Kết nối USB 3.2</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 300 x 577 x 234 mm | 8,8 kg</li><li>Tính năng:</li><li>Cho phép quét nhiều loại giấy (kích thước khác nhau) trong 1 lần, tự động phát hiện kích cỡ và căn thẳng bản quét dù cho giấy để lệch</li><li>Quét hộ chiếu, sổ dập ghip. Quét khổ A3 bằng cách gập đôi mà không cần kẹp vào Carrier sheet</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li></ul></div>",
-      "industry": [
-        "Sở GD&ĐT",
-        "Trường học",
-        "Ngân hàng",
-        "Bệnh viện",
-        "Cơ quan hành chính",
-        "Doanh nghiệp"
-      ],
-      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
-      "warranty": "12 tháng",
-      "note": "Dòng Dự án cần có thông tin dự án để báo giá"
-    },
-    {
       "slug": "ricoh-fi-8250",
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8250/",
       "name": "Máy quét Ricoh fi-8250",
+      "name_en": "Ricoh fi-8250 Production A3 Scanner",
       "model": "fi-8250",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03810-B601",
@@ -2791,6 +2428,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8270/",
       "name": "Máy quét Ricoh fi-8270",
+      "name_en": "Ricoh fi-8270 Production A3 Scanner",
       "model": "fi-8270",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03810-B551",
@@ -2835,6 +2473,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8290/",
       "name": "Máy quét Ricoh fi-8290",
+      "name_en": "Ricoh fi-8290 Production A3 Scanner",
       "model": "fi-8290",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03810-B501",
@@ -2879,6 +2518,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8040/",
       "name": "Máy quét Ricoh fi-8040",
+      "name_en": "Ricoh fi-8040 Production A3 Scanner",
       "model": "fi-8040",
       "manufacturer": "Ricoh (China)",
       "sku": "PA03836-B001",
@@ -2923,6 +2563,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-7460/",
       "name": "Máy quét Ricoh fi-7460",
+      "name_en": "Ricoh fi-7460 Production A3 Scanner",
       "model": "fi-7460",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03710-B051",
@@ -2967,6 +2608,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-7480/",
       "name": "Máy quét Ricoh fi-7480",
+      "name_en": "Ricoh fi-7480 Production A3 Scanner",
       "model": "fi-7480",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03710-B001",
@@ -3011,6 +2653,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-7600/",
       "name": "Máy quét Ricoh fi-7600",
+      "name_en": "Ricoh fi-7600 Production A3 Scanner",
       "model": "fi-7600",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03740-B501",
@@ -3055,6 +2698,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-7700/",
       "name": "Máy quét Ricoh fi-7700",
+      "name_en": "Ricoh fi-7700 Production A3 Scanner",
       "model": "fi-7700",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03740-B001",
@@ -3097,6 +2741,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-7700s/",
       "name": "Máy quét Ricoh fi-7700S",
+      "name_en": "Ricoh fi-7700S Production A3 Scanner",
       "model": "fi-7700S",
       "manufacturer": "Ricoh (Indonesia)",
       "sku": "PA03575-B401",
@@ -3139,6 +2784,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-7800/",
       "name": "Máy quét Ricoh fi-7800",
+      "name_en": "Ricoh fi-7800 Production A3 Scanner",
       "model": "fi-7800",
       "manufacturer": "Ricoh (Nhật Bản)",
       "sku": "PA03800-B401",
@@ -3180,6 +2826,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-7900/",
       "name": "Máy quét Ricoh fi-7900",
+      "name_en": "Ricoh fi-7900 Production A3 Scanner",
       "model": "fi-7900",
       "manufacturer": "Ricoh (Nhật Bản)",
       "sku": "PA03800-B001",
@@ -3223,6 +2870,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8820/",
       "name": "Máy quét Ricoh fi-8820",
+      "name_en": "Ricoh fi-8820 Production A3 Scanner",
       "model": "fi-8820",
       "manufacturer": "Ricoh (Nhật Bản)",
       "sku": "PA03830-B301",
@@ -3264,6 +2912,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8930/",
       "name": "Máy quét Ricoh fi-8930",
+      "name_en": "Ricoh fi-8930 Production A3 Scanner",
       "model": "fi-8930",
       "manufacturer": "Ricoh (Nhật Bản)",
       "sku": "PA03830-B101",
@@ -3305,6 +2954,7 @@
       "category": "may-scan-so-hoa",
       "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8950/",
       "name": "Máy quét Ricoh fi-8950",
+      "name_en": "Ricoh fi-8950 Production A3 Scanner",
       "model": "fi-8950",
       "manufacturer": "Ricoh (Nhật Bản)",
       "sku": "PA03830-B001",
@@ -3339,6 +2989,388 @@
       ],
       "source": "Chính hãng Ricoh. Xuất xứ: Nhật Bản. Bảo hành: 12 Tháng.",
       "warranty": "12 Tháng",
+      "note": "Dòng Dự án cần có thông tin dự án để báo giá"
+    },
+    {
+      "slug": "ricoh-ix2400",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-ix2400/",
+      "name": "Máy quét Ricoh IX2400",
+      "name_en": "Ricoh IX2400 Production A3 Scanner",
+      "model": "IX2400",
+      "manufacturer": "Ricoh (Indonesia)",
+      "sku": "PA03870-B101",
+      "price": 15600000.0,
+      "category_label": "Máy scan khổ A3 số hóa",
+      "image": "/assets/images/products/ricoh-ix2400.jpg",
+      "compatible_model": [
+        "thay thế dòng IX1400\n\ncó 2 màu đen và trắng"
+      ],
+      "use_case": [
+        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
+        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
+        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
+      ],
+      "specifications": {
+        "Tốc độ quét": "45ppm/90ipm (khổ A4 dọc, màu 300 dpi)",
+        "Khay nạp tự động (ADF)": "100 tờ",
+        "Công suất ngày": "7000 tờ/ngày",
+        "Kết nối": "USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C).",
+        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Xuất xứ": "Indonesia",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi) khay  giấy 100 tờ.     Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C).  Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier She...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh IX2400</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi)<br/>khay  giấy 100 tờ.    <br/>Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C). <br/>Quét giấy A3 bằng cách gập đôi tài liệu mà không cần Carrier Sheet. <br/>                          <br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 40 g/m2 tới thẻ cứng dập nổi dày 0,76 mm</li><li>Tốc độ Scan: 45ppm (khổ A4 dọc, màu 300 dpi)</li><li>Khay giấy ADF 100 tờ, công suất 7000 tờ/ngày</li><li>Ra lệnh quét bằng 1 nút chạm.</li><li>Kết nối : USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type-C)</li><li>Quét giấy A3 bằng cách gập đôi tài liệu không cần Carrier Sheet.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 159 mm / 3,5kg</li><li>Có thể chuyển đổi sang dạng Word, Excel®, E-mail and SharePoint®; Scan snap Cloud gửi tài liệu trực tiếp tới Cloud của bạn.</li><li>Phần mềm đi kèm ScanSnap Home, ScanSnap Manager, Kofax Power PDF Standard, ABBYY FineReader for ScanSnap™</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": "thay thế dòng IX1400\n\ncó 2 màu đen và trắng"
+    },
+    {
+      "slug": "ricoh-ix1400",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-ix1400/",
+      "name": "Máy quét Ricoh iX1400",
+      "name_en": "Ricoh ScanSnap iX1400 Scanner",
+      "model": "iX1400",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03820-B001",
+      "price": 13800000.0,
+      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
+      "image": "/assets/images/products/ricoh-ix1400.png",
+      "compatible_model": [
+        "Ricoh iX1400"
+      ],
+      "use_case": [
+        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
+        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
+        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
+      ],
+      "specifications": {
+        "Tốc độ quét": "40ppm/80ipm (quét màu, 300 dpi), Khay giấy 50 tờ.",
+        "Khay nạp tự động (ADF)": "50 tờ",
+        "Công suất ngày": "6000 tờ/ngày",
+        "Kết nối": "USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.",
+        "Kích thước & Trọng lượng": "Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt,  Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ.  Công suất 6000 tờ/ngày Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. Quét giấy A3 qua Carrier Sheet. OCR: ABBYY FineReader for ScanSnap, hỗ trợ f...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh iX1400</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt, <br/>Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ. <br/>Công suất 6000 tờ/ngày<br/>Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.<br/>Quét giấy A3 qua Carrier Sheet.<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Độ dày tài liệu: giấy mỏng từ 0.06 mm tới thẻ cứng dập nổi dày 1.24 mm</li><li>Tốc độ Scan: 40ppm ( chất lượng quét màu 300dpi)</li><li>Khay giấy 50 tờ, công suất 6000 tờ/ngày</li><li>Kết nối</li><li>USB 3.2 Gen1x1 / USB 2.0 / USB 1.1.</li><li>Kích thước máy (Rộng x Dày x Cao / Trọng lượng): 292 x 161 x 152 mm / 3,4kg</li><li>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": "ngừng sản xuất thay bằng iX2400"
+    },
+    {
+      "slug": "ricoh-ix1300",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-ix1300/",
+      "name": "Máy quét Ricoh iX1300",
+      "name_en": "Ricoh ScanSnap iX1300 Scanner",
+      "model": "iX1300",
+      "manufacturer": "Ricoh (Indonesia)",
+      "sku": "PA03805-B001/B101",
+      "price": 0,
+      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
+      "image": "/assets/images/products/ricoh-ix1300.png",
+      "compatible_model": [
+        "Ricoh iX1300"
+      ],
+      "use_case": [
+        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
+        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
+        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
+      ],
+      "specifications": {
+        "Tốc độ quét": "30ppm/60ipm (quét màu, 300 dpi), Khay giấy 20 tờ,",
+        "Khay nạp tự động (ADF)": "20 tờ",
+        "Công suất ngày": "4500 tờ/ngày",
+        "Kết nối": "USB 3.2; Wifi IEEE802.11a/b/g/n/ac",
+        "Xuất xứ": "Indonesia",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,   Tốc độ 30ppm/60ipm (quét màu, 300 dpi), Khay  giấy 20 tờ,  Công suất 4500 tờ/ngày.  Kết nối: USB 3.2; Wifi IEEE802.11a/b/g/n/ac (Mã dự á...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh iX1300</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,  <br/>Tốc độ 30ppm/60ipm (quét màu, 300 dpi), Khay  giấy 20 tờ, <br/>Công suất 4500 tờ/ngày. <br/>Kết nối: USB 3.2; Wifi IEEE802.11a/b/g/n/ac</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,</li><li>Tốc độ 30ppm (quét màu, 300 dpi), Khay  giấy 20 tờ,</li><li>Công suất 4500 tờ/ngày.</li><li>Kết nối: USB 3.2; Wifi IEEE802.11a/b/g/n/ac</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": "Mã dự án"
+    },
+    {
+      "slug": "ricoh-ix100",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-ix100/",
+      "name": "Máy quét Ricoh iX100",
+      "name_en": "Ricoh ScanSnap iX100 Scanner",
+      "model": "iX100",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03688-B001",
+      "price": 9500000.0,
+      "category_label": "Máy scan tài liệu cá nhân & văn phòng",
+      "image": "/assets/images/products/ricoh-ix100.png",
+      "compatible_model": [
+        "Ricoh iX100"
+      ],
+      "use_case": [
+        "Quét nhanh hợp đồng, biên lai, danh thiếp và chứng từ cá nhân không dây qua Wifi",
+        "Chuyển đổi trực tiếp tài liệu giấy sang Word, Excel và PDF có thể tìm kiếm bằng 1 chạm",
+        "Linh hoạt di động cho lãnh đạo, chuyên gia tư vấn hoặc văn phòng nhỏ gọn"
+      ],
+      "specifications": {
+        "Tốc độ quét": "5.2 giây / trang (quét màu, 300dpi)",
+        "Kết nối": "linh hoạt",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét ScanSnap có pin nhanh nhất trên thế giới,  Tốc độ 5.2 giây / trang (quét màu, 300dpi) Với pin lithium có thể sạc lại",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh iX100</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét ScanSnap có pin nhanh nhất trên thế giới, <br/>Tốc độ 5.2 giây / trang (quét màu, 300dpi)<br/>Với pin lithium có thể sạc lại</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét ScanSnap có pin nhanh nhất trên thế giới,</li><li>Tốc độ 5.2 giây / trang (quét màu, 300dpi).</li><li>Quét di động bất cứ nơi đâu</li><li>Với pin lithium có thể sạc lại, iX100 quét được đến 260 tài liệu khi đầy pin.</li><li>Kết nối linh hoạt</li><li>Quét vào máy tính PC hoặc Mac của bạn với kết nối USB hoặc không dây. Thêm các thiết bị iOS, Android và Chrome OS bằng cách sử dụng kết nối không dây.</li><li>Tổ chức tài liệu dễ dàng</li><li>Phần mềm tất cả trong một ScanSnap Home tập hợp tất cả các chức năng yêu thích của bạn để giúp bạn quét nhanh chóng. Dễ dàng quản lý, chỉnh sửa và sử dụng dữ liệu đã quét từ tài liệu, biên lai, danh thiếp, ảnh và nhiều hơn nữa.</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": ""
+    },
+    {
+      "slug": "ricoh-sp-1125n",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1125n/",
+      "name": "Máy quét Ricoh SP-1125N",
+      "name_en": "Ricoh SP-1125N Document Scanner",
+      "model": "SP-1125N",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03811-B011",
+      "price": 0,
+      "category_label": "Máy scan số hóa tài liệu",
+      "image": "/assets/images/products/ricoh-sp-1125n.jpg",
+      "compatible_model": [
+        "Ricoh SP-1125N"
+      ],
+      "use_case": [
+        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
+        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
+        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
+      ],
+      "specifications": {
+        "Tốc độ quét": "25ppm/50ipm (quét màu, 300dpi), Khay giấy 50 tờ,",
+        "Khay nạp tự động (ADF)": "50 tờ",
+        "Công suất ngày": "4000 tờ/ngày",
+        "Kết nối": "mạng LAN,",
+        "Kích thước & Trọng lượng": "Tốc độ Scan: 25ppm/50ipm (chất lượng quét màu 300dpi)",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 25ppm/50ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 4000 tờ/ngày.  Kết nối USB 3.2 & LAN.  Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1125N</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt kết nối mạng LAN, <br/>Tốc độ 25ppm/50ipm (quét màu, 300dpi), Khay  giấy 50 tờ, <br/>Công suất 4000 tờ/ngày. <br/>Kết nối USB 3.2 & LAN. <br/>Kèm theo giải pháp số hóa bóc tách 20 trường dữ liệu tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF), kích thước tối đa A4</li><li>Tốc độ Scan: 25ppm/50ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 50 tờ, công suất 4.000 tờ/ngày</li><li>Kết nối USB 3.2 & LAN</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 298 x 135 x 133 mm | 2,5 kg</li><li>Phần mềm hỗ trợ:</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>PaperStream Capture  - phần mềm quét chuyên dụng</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, Scanner Central Admin Agent</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": ""
+    },
+    {
+      "slug": "ricoh-sp-1425",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-sp-1425/",
+      "name": "Máy quét Ricoh SP-1425",
+      "name_en": "Ricoh SP-1425 Document Scanner",
+      "model": "SP-1425",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03753-B001",
+      "price": 15500000.0,
+      "category_label": "Máy scan số hóa tài liệu",
+      "image": "/assets/images/products/ricoh-sp-1425.jpg",
+      "compatible_model": [
+        "Ricoh SP-1425"
+      ],
+      "use_case": [
+        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học và cơ sở giáo dục theo Đề án 06",
+        "Quét chứng từ kế toán, hồ sơ bệnh án bệnh viện, hồ sơ cán bộ công chức",
+        "Tự động nhận dạng tiếng Việt OCR xuất ra tệp PDF phục vụ tra cứu số"
+      ],
+      "specifications": {
+        "Tốc độ quét": "25ppm/50ipm (khổ A4 dọc, màu 300 dpi),",
+        "Khay nạp tự động (ADF)": "50 tờ",
+        "Công suất ngày": "4000 tờ/ngày",
+        "Kết nối": "USB 2.0.",
+        "Kích thước & Trọng lượng": "454 x 331 x 129 mm | 4.3 kg",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét 2 mặt + flatbed,   Tốc độ 25ppm/50ipm (khổ A4 dọc, màu 300 dpi),  Khay  giấy 50 tờ.  Kết nối USB 2.0.",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SP-1425</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt + flatbed, <br/><br/>Tốc độ 25ppm/50ipm (khổ A4 dọc, màu 300 dpi), <br/>Khay  giấy 50 tờ. <br/>Kết nối USB 2.0.</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt A4, ADF + Flatbed, khay giấy ADF 50 tờ</li><li>Tốc độ quét:</li><li>ADF: 25ppm/50 ipm (khổ A4 dọc, màu 300 dpi)</li><li>Flatbed: 4 giây - Chất lượng bản quét: 300 dpi, 24 bit</li><li>Công suất 4000 tờ/ngày</li><li>Kết nối: USB 2.0</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 454 x 331 x 129 mm | 4.3 kg</li><li>Giải pháp phần mềm đi kèm:</li><li>PaperStream IP cho SP Series tự động tạo ra hình ảnh rõ nét nhất. Trình điều khiển máy quét hỗ trợ TWAIN / ISIS ™, dễ dàng chuyển đổi các tài liệu khác nhau thành hình ảnh chất lượng cao một cách tự động.</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li><li>Software Operation Panel, Error Recovery Guide, PaperStream Capture</li><li>Lite*10, Presto!™ PageManager™, ABBYY™ FineReader™ Sprint, Scanner</li><li>Central Admin Agent</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": ""
+    },
+    {
+      "slug": "ricoh-sv600",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-sv600/",
+      "name": "Máy quét Ricoh SV600",
+      "name_en": "Ricoh SV600 Production A3 Scanner",
+      "model": "SV600",
+      "manufacturer": "Ricoh (China)",
+      "sku": "PA03641-B301",
+      "price": 0,
+      "category_label": "Máy scan khổ A3 số hóa",
+      "image": "/assets/images/products/ricoh-sv600.jpg",
+      "compatible_model": [
+        "Ricoh SV600"
+      ],
+      "use_case": [
+        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
+        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
+        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
+      ],
+      "specifications": {
+        "Tốc độ quét": "3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc",
+        "Kết nối": "USB 2.0",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Xuất xứ": "China",
+        "Bảo hành": "12 Tháng"
+      },
+      "summary": "Máy quét sách khổ A3, tốc độ 3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh SV600</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét sách khổ A3, tốc độ 3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét Sách chuyên dụng, quét tài liệu khổ A3.</li><li>Tốc độ quét trung bình: 3 giây/trang, chất lượng quét màu lên tới 600dpi</li><li>Các tùy chọn khi scan:</li><li>Quét thường: Nhấn nút scan cho mỗi trang</li><li>Quét với chế độ hẹn giờ</li><li>Tự phát hiện chuyển trang</li><li>Kết nối: USB 2.0</li><li>Tính năng:</li><li>Có thể quét danh thiếp, thẻ, mẩu hình ảnh cùng lúc - tối đa 10 tài liệu cùng lúc. Tự động cắt tách các tài liệu này, chỉnh sửa loại bỏ phần thừa hay lệch hướng</li><li>Tự động sửa chữa sự biến dạng do đường cong của sách/tạp chí</li><li>ABBYY™ FineReader™ Sprint - Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, powerpoint, PDF có thể tìm kiếm)</li><li>Software hỗ trợ : ScanSnap Manager , ScanSnap Organizer (ScanSnap Sync*14) , CardMinder™ , Nuance® Power PDF Standard , ABBYY FineReader for ScanSnap™ , ScanSnap Connect App (ScanSnap Sync*14)</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: China. Bảo hành: 12 Tháng.",
+      "warranty": "12 Tháng",
+      "note": ""
+    },
+    {
+      "slug": "ricoh-fujitsu-fi-7160",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/",
+      "name": "Máy scan tài liệu tốc độ cao Ricoh fi-7160 (Model tiền nhiệm)",
+      "model": "fi-7160",
+      "manufacturer": "Ricoh / Fujitsu (Nhật Bản)",
+      "sku": "RICOH-FI7160",
+      "category_label": "Máy scan số hóa tài liệu",
+      "image": "/assets/images/products/ricoh-fujitsu-fi-7160.jpg",
+      "compatible_model": [
+        "fi-8170",
+        "fi-7260"
+      ],
+      "use_case": [
+        "Số hóa hồ sơ học bạ, văn bằng chứng chỉ cho trường học theo Đề án 06",
+        "Quét hồ sơ bệnh án, chứng từ kế toán, hồ sơ cán bộ công chức",
+        "Nhận dạng ký tự quang học OCR xuất ra file PDF có thể tìm kiếm"
+      ],
+      "specifications": {
+        "Tốc độ quét": "60 trang/phút, 120 ảnh/phút (2 mặt tự động)",
+        "Khay nạp tự động (ADF)": "80 tờ",
+        "Cảm biến": "Cảm biến sóng siêu âm chống kẹt giấy và cuốn giấy kép",
+        "Độ phân giải quang học": "600 dpi"
+      },
+      "summary": "Ricoh fi-7160 (tiền thân Fujitsu fi-7160) là dòng máy quét số hóa tài liệu bán chạy số 1 thế giới — tốc độ 60 trang/phút, nạp giấy siêu êm và tích hợp phần mềm xử lý ảnh PaperStream IP chuyên nghiệp.",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Cơ quan lưu trữ"
+      ],
+      "source": "Chính hãng Ricoh / Fujitsu Nhật Bản.",
+      "note": "Model tiền nhiệm đã được nâng cấp lên dòng thế hệ mới Ricoh fi-8170.",
+      "name_en": "Ricoh fi-7160 High-Speed Scanner (Predecessor)"
+    },
+    {
+      "slug": "ricoh-fi-8250u",
+      "category": "may-scan-so-hoa",
+      "url": "/san-pham/may-scan-so-hoa/ricoh-fi-8250u/",
+      "name": "Máy quét Ricoh fi-8250U",
+      "name_en": "Ricoh fi-8250U Production A3 Scanner",
+      "model": "fi-8250U",
+      "manufacturer": "Ricoh (Indonesia)",
+      "sku": "PA03810-B651",
+      "price": 41800000.0,
+      "category_label": "Máy scan khổ A3 số hóa",
+      "image": "/assets/images/products/ricoh-fi-8250u.png",
+      "compatible_model": [
+        "Ricoh fi-8250U"
+      ],
+      "use_case": [
+        "Số hóa bản vẽ kỹ thuật, hồ sơ đất đai, tài liệu lưu trữ khổ lớn A3/A4",
+        "Xử lý khối lượng tài liệu công nghiệp từ 50.000 đến trên 100.000 trang/ngày",
+        "Tích hợp hệ thống lưu trữ số hóa cho Sở Tài nguyên, Trung tâm Lưu trữ Quốc gia, Thư viện"
+      ],
+      "specifications": {
+        "Tốc độ quét": "50ppm/100ipm (quét màu, 300 dpi), khay giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
+        "Khay nạp tự động (ADF)": "100 tờ",
+        "Công suất ngày": "8000 tờ/ngày",
+        "Kết nối": "USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu",
+        "Kích thước & Trọng lượng": "Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm",
+        "Nhận dạng ký tự (OCR)": "Tích hợp sẵn ABBYY FineReader tiếng Việt (xuất file Word, Excel, searchable PDF)",
+        "Trình điều khiển & Xử lý ảnh": "PaperStream IP (TWAIN / ISIS) tự động cân chỉnh góc xoay, xóa nền, loại bỏ vết bẩn",
+        "Xuất xứ": "Indonesia",
+        "Bảo hành": "12 tháng"
+      },
+      "summary": "Máy quét 2 mặt tự động + Flatbed A4, tích hợp tính sổ dập ghim và hộ chiếu,  tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn...",
+      "description": "<div class='product-description-content'><p><strong>Máy quét Ricoh fi-8250U</strong> là dòng máy quét chuyên dụng chính hãng Ricoh với độ bền bỉ cao, xử lý tài liệu êm ái và chất lượng hình ảnh sắc nét.</p><p>Máy quét 2 mặt tự động + Flatbed A4, tích hợp tính sổ dập ghim và hộ chiếu,  tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 8000 tờ/ngày. Kết nối USB 3.2/2.0/1.1. Khả năng kết xuất được 20 vùng văn bản tiếng Việt trên một trang văn bản, tự động kết xuất thông tin Hộ chiếu<br/>OCR: ABBYY FineReader for ScanSnap, hỗ trợ font tiếng Việt</p><h4>Tính năng và thông số chi tiết:</h4><ul><li>Máy quét 2 mặt nạp tài liệu tự động (ADF) + Flatbed, kích thước tối đa A4</li><li>Độ dày tài liệu: có thể quét thẻ cứng dập nổi dày tới 1.4 mm</li><li>Tốc độ Scan: 50ppm/100ipm (chất lượng quét màu 300dpi)</li><li>Khay giấy 100 tờ, công suất 8.000 tờ/ngày</li><li>Kết nối USB 3.2</li><li>Kích thước máy (Rộng x Dày x Cao | Trọng lượng): 300 x 577 x 234 mm | 8,8 kg</li><li>Tính năng:</li><li>Cho phép quét nhiều loại giấy (kích thước khác nhau) trong 1 lần, tự động phát hiện kích cỡ và căn thẳng bản quét dù cho giấy để lệch</li><li>Quét hộ chiếu, sổ dập ghip. Quét khổ A3 bằng cách gập đôi mà không cần kẹp vào Carrier sheet</li><li>PaperStream IP - Tăng cường hiệu quả scan nhờ các tính năng tự động canh chỉnh, xoay, cắt, loại bỏ khoảng trống hoặc vệt bẩn, định cỡ hình ảnh file scan</li><li>Tích hợp sẵn nhận dạng tiếng Việt (OCR), chuyển đổi sang dạng văn bản có thể chỉnh sửa (word, excel, PDF có thể tìm kiếm)</li></ul></div>",
+      "industry": [
+        "Sở GD&ĐT",
+        "Trường học",
+        "Ngân hàng",
+        "Bệnh viện",
+        "Cơ quan hành chính",
+        "Doanh nghiệp"
+      ],
+      "source": "Chính hãng Ricoh. Xuất xứ: Indonesia. Bảo hành: 12 tháng.",
+      "warranty": "12 tháng",
       "note": "Dòng Dự án cần có thông tin dự án để báo giá"
     },
     {

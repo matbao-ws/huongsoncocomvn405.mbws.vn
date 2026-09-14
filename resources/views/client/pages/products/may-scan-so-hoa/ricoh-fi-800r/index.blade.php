@@ -1,6 +1,6 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy quét Ricoh  fi-800R – fi-800R | Hương Sơn")
+@section('title', "Máy quét Ricoh fi-800R – fi-800R | Hương Sơn")
 @section('meta_description', "Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, căn cước, hộ chiếu. Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy ADF 20 tờ, khay thủ công")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-800r/")
 @section('jsonld')
@@ -115,7 +115,7 @@
       {
         "@@type": "ListItem",
         "position": 4,
-        "name": "Máy quét Ricoh  fi-800R",
+        "name": "Máy quét Ricoh fi-800R",
         "item": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-800r/"
       }
     ]
@@ -124,7 +124,7 @@
     "@@context": "https://schema.org",
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-800r/#product",
-    "name": "Máy quét Ricoh  fi-800R",
+    "name": "Máy quét Ricoh fi-800R",
     "model": "fi-800R",
     "sku": "PA03795-B001",
     "category": "Máy scan tài liệu cá nhân & văn phòng",
@@ -236,15 +236,15 @@
 <!-- PAGE HERO -->
   <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-office.jpg" alt="Máy quét Ricoh  fi-800R" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
+      <img src="/assets/images/hero-office.jpg" alt="Máy quét Ricoh fi-800R" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
       <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
     </div>
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
       <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Scan &amp; Digital Document</span>
-      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy quét Ricoh  fi-800R</h1>
+      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy quét Ricoh fi-800R</h1>
       <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, căn cước, hộ chiếu. Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy ADF 20 tờ, khay thủ công tốc độ 3.5 seconds (200/300 dpi), Công suất 4500 tờ/ngày.  Kết n...</p>
       <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/may-scan-so-hoa/" class="text-gray-300 hover:text-white transition">Máy scan – thiết bị số hóa tài liệu</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy quét Ricoh  fi-800R</span>
+        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/may-scan-so-hoa/" class="text-gray-300 hover:text-white transition">Máy scan – thiết bị số hóa tài liệu</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy quét Ricoh fi-800R</span>
       </nav>
     </div>
   </section>
@@ -273,12 +273,12 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
         <div class="lg:col-span-5">
           <div class="border border-gray-200 bg-white p-4">
-            <img src="/assets/images/products/ricoh-fi-800r.jpg" alt="Máy quét Ricoh  fi-800R" loading="lazy" class="w-full h-auto object-contain" />
+            <img src="/assets/images/products/ricoh-fi-800r.jpg" alt="Máy quét Ricoh fi-800R" loading="lazy" class="w-full h-auto object-contain" />
           </div>
         </div>
         <div class="lg:col-span-7">
           <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-8">
-            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Tên chuẩn</dt><dd class="text-[15px] font-semibold text-[#181923]">Máy quét Ricoh  fi-800R</dd></div>
+            <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Tên chuẩn</dt><dd class="text-[15px] font-semibold text-[#181923]">Máy quét Ricoh fi-800R</dd></div>
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Model</dt><dd class="text-[15px] font-semibold text-[#181923]">fi-800R</dd></div>
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Hãng sản xuất</dt><dd class="text-[15px] font-semibold text-[#181923]">Ricoh (Indonesia)</dd></div>
             <div><dt class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#1A9900] mb-1">Danh mục</dt><dd class="text-[15px] font-semibold text-[#181923]"><a href="/san-pham/may-scan-so-hoa/" class="hover:text-[#1A9900]">Máy scan tài liệu cá nhân &amp; văn phòng</a></dd></div>
@@ -464,7 +464,7 @@
   <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">
-        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">Cần báo giá cho Máy quét Ricoh  fi-800R?</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">Cần báo giá cho Máy quét Ricoh fi-800R?</h2>
         <p class="text-gray-300 text-[15px] leading-relaxed">Gửi số lượng và thời điểm cần — Hương Sơn báo giá kèm phương án vận chuyển, lắp đặt và bảo hành.</p>
       </div>
       <div class="flex flex-wrap items-center gap-4 flex-shrink-0">

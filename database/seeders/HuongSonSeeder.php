@@ -232,8 +232,13 @@ class HuongSonSeeder extends Seeder
                     $fullDescription = '<p>' . htmlspecialchars((string) ($m['summary'] ?? $m['name'])) . '</p>' . $specsTable;
                 }
 
-                $metaTitleVi = $m['name'] . ' Chính Hãng | Giá Tốt Nhất | Hương Sơn';
-                $metaTitleEn = ($m['model'] ?? $m['name']) . ' - Genuine Distributor | Huong Son';
+                $cleanNameVi = trim($m['name']);
+                $metaTitleVi = str_contains(mb_strtolower($cleanNameVi), 'chính hãng')
+                    ? ($cleanNameVi . ' | Giá Tốt Nhất | Hương Sơn')
+                    : ($cleanNameVi . ' Chính Hãng | Giá Tốt Nhất | Hương Sơn');
+                $cleanNameEn = $m['name_en'] ?? ($m['model'] ? ('Ricoh ' . $m['model'] . ' Scanner') : $m['name']);
+                $metaTitleEn = $cleanNameEn . ' - Genuine Distributor | Huong Son';
+
                 $rawSummary = strip_tags($m['summary'] ?? ($m['name'] . ' chính hãng tại Công ty Hương Sơn. Cam kết chất lượng, bảo hành chính hãng, đầy đủ CO/CQ và hỗ trợ kỹ thuật tận nơi.'));
                 $metaDescVi = mb_substr($rawSummary, 0, 158);
                 $metaDescEn = mb_substr($rawSummary, 0, 158);
@@ -243,7 +248,7 @@ class HuongSonSeeder extends Seeder
                     [
                         'category_id' => $catId,
                         'brand_id' => $brandId,
-                        'name' => ['vi' => $m['name'], 'en' => $m['model'] ?? $m['name']],
+                        'name' => ['vi' => $m['name'], 'en' => $cleanNameEn],
                         'sku' => $m['sku'] ?? strtoupper(str_replace('-', '_', $m['slug'])),
                         'short_description' => ['vi' => $m['summary'] ?? '', 'en' => $m['summary'] ?? ''],
                         'description' => ['vi' => $fullDescription, 'en' => $fullDescription],
@@ -258,6 +263,9 @@ class HuongSonSeeder extends Seeder
                     ]
                 );
             }
+
+            // Vô hiệu hoá các bản ghi demo/trùng lặp cũ trong danh mục scan
+            Product::query()->whereIn('slug', ['may-scan-so-hoa-tai-lieu-toc-do-cao', 'ricoh-fujitsu-fi-7480'])->update(['is_active' => false]);
         }
 
         // 4. Post Categories & Posts

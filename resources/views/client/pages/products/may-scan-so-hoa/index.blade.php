@@ -123,14 +123,14 @@
       {
         "@@type": "ListItem",
         "position": 1,
-        "name": "Máy scan tài liệu tốc độ cao Ricoh fi-7160",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/"
+        "name": "Máy quét Ricoh fi-8170",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8170/"
       },
       {
         "@@type": "ListItem",
         "position": 2,
-        "name": "Máy quét Ricoh iX100",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix100/"
+        "name": "Máy quét Ricoh SP-1130N",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sp-1130n/"
       },
       {
         "@@type": "ListItem",
@@ -141,176 +141,176 @@
       {
         "@@type": "ListItem",
         "position": 4,
-        "name": "Máy quét Ricoh SP-1125N",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sp-1125n/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 5,
-        "name": "Máy quét Ricoh SP-1425",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sp-1425/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 6,
-        "name": "Máy quét Ricoh SP-1130N",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sp-1130n/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 7,
-        "name": "Máy quét Ricoh iX1300",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix1300/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 8,
-        "name": "Máy quét Ricoh  iX1400",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix1400/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 9,
         "name": "Máy quét Ricoh iX1600",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix1600/"
       },
       {
         "@@type": "ListItem",
-        "position": 10,
-        "name": "Máy quét Ricoh IX2400",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix2400/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 11,
+        "position": 5,
         "name": "Máy quét Ricoh IX2500",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix2500/"
       },
       {
         "@@type": "ListItem",
-        "position": 12,
-        "name": "Máy quét Ricoh SV600",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sv600/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 13,
-        "name": "Máy quét Ricoh  fi-800R",
+        "position": 6,
+        "name": "Máy quét Ricoh fi-800R",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-800r/"
       },
       {
         "@@type": "ListItem",
-        "position": 14,
-        "name": "Máy quét Ricoh fi-8150U",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8150u/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 15,
+        "position": 7,
         "name": "Máy quét Ricoh fi-8150",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8150/"
       },
       {
         "@@type": "ListItem",
-        "position": 16,
-        "name": "Máy quét Ricoh fi-8170",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8170/"
+        "position": 8,
+        "name": "Máy quét Ricoh fi-8150U",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8150u/"
       },
       {
         "@@type": "ListItem",
-        "position": 17,
+        "position": 9,
         "name": "Máy quét Ricoh fi-8190",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8190/"
       },
       {
         "@@type": "ListItem",
-        "position": 18,
-        "name": "Máy quét Ricoh fi-8250U",
-        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8250u/"
-      },
-      {
-        "@@type": "ListItem",
-        "position": 19,
+        "position": 10,
         "name": "Máy quét Ricoh fi-8250",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8250/"
       },
       {
         "@@type": "ListItem",
-        "position": 20,
+        "position": 11,
         "name": "Máy quét Ricoh fi-8270",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8270/"
       },
       {
         "@@type": "ListItem",
-        "position": 21,
+        "position": 12,
         "name": "Máy quét Ricoh fi-8290",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8290/"
       },
       {
         "@@type": "ListItem",
-        "position": 22,
+        "position": 13,
         "name": "Máy quét Ricoh fi-8040",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8040/"
       },
       {
         "@@type": "ListItem",
-        "position": 23,
+        "position": 14,
         "name": "Máy quét Ricoh fi-7460",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7460/"
       },
       {
         "@@type": "ListItem",
-        "position": 24,
+        "position": 15,
         "name": "Máy quét Ricoh fi-7480",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7480/"
       },
       {
         "@@type": "ListItem",
-        "position": 25,
+        "position": 16,
         "name": "Máy quét Ricoh fi-7600",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7600/"
       },
       {
         "@@type": "ListItem",
-        "position": 26,
+        "position": 17,
         "name": "Máy quét Ricoh fi-7700",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7700/"
       },
       {
         "@@type": "ListItem",
-        "position": 27,
+        "position": 18,
         "name": "Máy quét Ricoh fi-7700S",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7700s/"
       },
       {
         "@@type": "ListItem",
-        "position": 28,
+        "position": 19,
         "name": "Máy quét Ricoh fi-7800",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7800/"
       },
       {
         "@@type": "ListItem",
-        "position": 29,
+        "position": 20,
         "name": "Máy quét Ricoh fi-7900",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7900/"
       },
       {
         "@@type": "ListItem",
-        "position": 30,
+        "position": 21,
         "name": "Máy quét Ricoh fi-8820",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8820/"
       },
       {
         "@@type": "ListItem",
-        "position": 31,
+        "position": 22,
         "name": "Máy quét Ricoh fi-8930",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8930/"
       },
       {
         "@@type": "ListItem",
-        "position": 32,
+        "position": 23,
         "name": "Máy quét Ricoh fi-8950",
         "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8950/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 24,
+        "name": "Máy quét Ricoh IX2400",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix2400/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 25,
+        "name": "Máy quét Ricoh iX1400",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix1400/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 26,
+        "name": "Máy quét Ricoh iX1300",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix1300/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 27,
+        "name": "Máy quét Ricoh iX100",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-ix100/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 28,
+        "name": "Máy quét Ricoh SP-1125N",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sp-1125n/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 29,
+        "name": "Máy quét Ricoh SP-1425",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sp-1425/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 30,
+        "name": "Máy quét Ricoh SV600",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-sv600/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 31,
+        "name": "Máy scan tài liệu tốc độ cao Ricoh fi-7160 (Model tiền nhiệm)",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 32,
+        "name": "Máy quét Ricoh fi-8250U",
+        "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-8250u/"
       }
     ]
   },
@@ -389,66 +389,14 @@
       </ul><div class="mb-10"></div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fujitsu-fi-7160.jpg" alt="Máy scan tài liệu tốc độ cao Ricoh fi-7160" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-8170.png" alt="Máy quét Ricoh fi-8170" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh / Fujitsu (Nhật Bản)</span>
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
             <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/">Máy scan tài liệu tốc độ cao Ricoh fi-7160</a>
+              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8170/">Máy quét Ricoh fi-8170</a>
             </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Ricoh fi-7160 (tiền thân Fujitsu fi-7160) là dòng máy quét số hóa tài liệu bán chạy số 1 thế giới — tốc độ 60 trang/phút, nạp giấy siêu êm và tích hợp…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix100.png" alt="Máy quét Ricoh iX100" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-ix100/">Máy quét Ricoh iX100</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét ScanSnap có pin nhanh nhất trên thế giới,  Tốc độ 5.2 giây / trang (quét màu, 300dpi) Với pin lithium có thể sạc lại</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-ix100/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sp-1120n.jpg" alt="Máy quét Ricoh SP-1120N" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1120n/">Máy quét Ricoh SP-1120N</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 20ppm/40ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 3000 tờ/ngày.  Kết nối USB 3.2 &amp; LAN.  Kèm theo …</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1120n/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sp-1125n.jpg" alt="Máy quét Ricoh SP-1125N" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1125n/">Máy quét Ricoh SP-1125N</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 25ppm/50ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 4000 tờ/ngày.  Kết nối USB 3.2 &amp; LAN.  Kèm theo …</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1125n/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sp-1425.jpg" alt="Máy quét Ricoh SP-1425" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1425/">Máy quét Ricoh SP-1425</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt + flatbed,   Tốc độ 25ppm/50ipm (khổ A4 dọc, màu 300 dpi),  Khay  giấy 50 tờ.  Kết nối USB 2.0.</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1425/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, quét sổ dập ghim, căn cước và hộ chiếu. Tốc độ 70ppm/140ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 10000 tờ/ngà…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8170/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
           </div>
@@ -467,27 +415,14 @@
           </div>
         </article>
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix1300.png" alt="Máy quét Ricoh iX1300" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-ix1300/">Máy quét Ricoh iX1300</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,   Tốc độ 30ppm/60ipm (quét màu, 300 dpi), Khay  giấy 20 tờ,  Công su…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-ix1300/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix1400.png" alt="Máy quét Ricoh  iX1400" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sp-1120n.jpg" alt="Máy quét Ricoh SP-1120N" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
             <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
             <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-ix1400/">Máy quét Ricoh  iX1400</a>
+              <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1120n/">Máy quét Ricoh SP-1120N</a>
             </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt,  Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ.  Công suất 6000 tờ/ngày Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. Quét g…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-ix1400/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 20ppm/40ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 3000 tờ/ngày.  Kết nối USB 3.2 &amp; LAN.  Kèm theo …</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1120n/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
           </div>
@@ -506,19 +441,6 @@
           </div>
         </article>
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix2400.jpg" alt="Máy quét Ricoh IX2400" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-ix2400/">Máy quét Ricoh IX2400</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi) khay  giấy 100 tờ.     Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-ix2400/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
           <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix2500.png" alt="Máy quét Ricoh IX2500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
             <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
@@ -532,40 +454,14 @@
           </div>
         </article>
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sv600.jpg" alt="Máy quét Ricoh SV600" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-sv600/">Máy quét Ricoh SV600</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét sách khổ A3, tốc độ 3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc OCR: ABBYY FineReader for ScanSnap, hỗ tr…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-sv600/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-800r.jpg" alt="Máy quét Ricoh  fi-800R" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-800r.jpg" alt="Máy quét Ricoh fi-800R" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
             <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
             <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-800r/">Máy quét Ricoh  fi-800R</a>
+              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-800r/">Máy quét Ricoh fi-800R</a>
             </h3>
             <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, căn cước, hộ chiếu. Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy ADF 20 tờ, khay thủ…</p>
             <a href="/san-pham/may-scan-so-hoa/ricoh-fi-800r/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-8150u.png" alt="Máy quét Ricoh fi-8150U" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8150u/">Máy quét Ricoh fi-8150U</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, quét căn cước và hộ chiếu.   Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết n…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8150u/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
           </div>
@@ -584,14 +480,14 @@
           </div>
         </article>
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-8170.png" alt="Máy quét Ricoh fi-8170" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-8150u.png" alt="Máy quét Ricoh fi-8150U" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
             <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
             <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8170/">Máy quét Ricoh fi-8170</a>
+              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8150u/">Máy quét Ricoh fi-8150U</a>
             </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, quét sổ dập ghim, căn cước và hộ chiếu. Tốc độ 70ppm/140ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 10000 tờ/ngà…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8170/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, quét căn cước và hộ chiếu.   Tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy ADF 100 tờ, công suất 8000 tờ/ngày. Kết n…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8150u/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
           </div>
@@ -605,19 +501,6 @@
             </h3>
             <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, quét sổ dập ghim, căn cước và hộ chiếu. Tốc độ 90ppm/180ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 13000 tờ/ngà…</p>
             <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8190/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-          </div>
-        </article>
-        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-8250u.png" alt="Máy quét Ricoh fi-8250U" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
-          <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8250u/">Máy quét Ricoh fi-8250U</a>
-            </h3>
-            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động + Flatbed A4, tích hợp tính sổ dập ghim và hộ chiếu,  tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 800…</p>
-            <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8250u/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
           </div>
@@ -800,6 +683,123 @@
             </h3>
             <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét công nghiệp 2 mặt A3, Tốc độ 150ppm/ 300ipm (quét màu, 300 dpi), Khay giấy 750 tờ,  Công suất 130.000 tờ/ngày.  Kết nối USB 3.2, LAN.  Màn hì…</p>
             <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8950/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix2400.jpg" alt="Máy quét Ricoh IX2400" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-ix2400/">Máy quét Ricoh IX2400</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt, tốc độ 45ppm/90ipm (khổ A4 dọc, màu 300 dpi) khay  giấy 100 tờ.     Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. (Connector Type: Type…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-ix2400/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix1400.png" alt="Máy quét Ricoh iX1400" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-ix1400/">Máy quét Ricoh iX1400</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt,  Tốc độ 40ppm/80ipm (quét màu, 300 dpi), Khay  giấy 50 tờ.  Công suất 6000 tờ/ngày Kết nối: USB 3.2 Gen1x1 / USB 2.0 / USB 1.1. Quét g…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-ix1400/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix1300.png" alt="Máy quét Ricoh iX1300" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-ix1300/">Máy quét Ricoh iX1300</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động  A4, tích hợp khay quét sổ dập ghim, Căn cước và hộ chiếu,   Tốc độ 30ppm/60ipm (quét màu, 300 dpi), Khay  giấy 20 tờ,  Công su…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-ix1300/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-ix100.png" alt="Máy quét Ricoh iX100" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-ix100/">Máy quét Ricoh iX100</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét ScanSnap có pin nhanh nhất trên thế giới,  Tốc độ 5.2 giây / trang (quét màu, 300dpi) Với pin lithium có thể sạc lại</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-ix100/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sp-1125n.jpg" alt="Máy quét Ricoh SP-1125N" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1125n/">Máy quét Ricoh SP-1125N</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt kết nối mạng LAN,  Tốc độ 25ppm/50ipm (quét màu, 300dpi), Khay  giấy 50 tờ,  Công suất 4000 tờ/ngày.  Kết nối USB 3.2 &amp; LAN.  Kèm theo …</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1125n/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sp-1425.jpg" alt="Máy quét Ricoh SP-1425" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1425/">Máy quét Ricoh SP-1425</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt + flatbed,   Tốc độ 25ppm/50ipm (khổ A4 dọc, màu 300 dpi),  Khay  giấy 50 tờ.  Kết nối USB 2.0.</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1425/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-sv600.jpg" alt="Máy quét Ricoh SV600" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (China)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-sv600/">Máy quét Ricoh SV600</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét sách khổ A3, tốc độ 3 giây/trang. Tự động phát hiện và quét trang sách, crop nhiều ảnh cùng một lúc OCR: ABBYY FineReader for ScanSnap, hỗ tr…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-sv600/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fujitsu-fi-7160.jpg" alt="Máy scan tài liệu tốc độ cao Ricoh fi-7160 (Model tiền nhiệm)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh / Fujitsu (Nhật Bản)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/">Máy scan tài liệu tốc độ cao Ricoh fi-7160 (Model tiền nhiệm)</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Ricoh fi-7160 (tiền thân Fujitsu fi-7160) là dòng máy quét số hóa tài liệu bán chạy số 1 thế giới — tốc độ 60 trang/phút, nạp giấy siêu êm và tích hợp…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-fujitsu-fi-7160/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/ricoh-fi-8250u.png" alt="Máy quét Ricoh fi-8250U" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Ricoh (Indonesia)</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8250u/">Máy quét Ricoh fi-8250U</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Máy quét 2 mặt tự động + Flatbed A4, tích hợp tính sổ dập ghim và hộ chiếu,  tốc độ 50ppm/100ipm (quét màu, 300 dpi), khay  giấy 100 tờ, công suất 800…</p>
+            <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8250u/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
               <span>Xem thông số kỹ thuật</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </a>
           </div>
