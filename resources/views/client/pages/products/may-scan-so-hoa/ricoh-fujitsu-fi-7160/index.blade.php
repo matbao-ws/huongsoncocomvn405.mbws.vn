@@ -162,7 +162,7 @@
       {
         "@@type": "PropertyValue",
         "name": "Model tương thích",
-        "value": "fi-7260, fi-7180"
+        "value": "fi-8170, fi-7260"
       },
       {
         "@@type": "PropertyValue",
@@ -239,7 +239,7 @@
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Model tương thích</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">fi-7260, fi-7180</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">fi-8170, fi-7260</p>
           </div>
       </div>
     </div>
@@ -316,7 +316,7 @@
           <thead class="bg-[#181924]"><tr><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Thông tin</th><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Chi tiết</th></tr></thead>
           <tbody>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Xuất xứ / Nguồn</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Chính hãng Ricoh / Fujitsu Nhật Bản.</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">fi-7260, fi-7180</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Model tương thích</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">fi-8170, fi-7260</td></tr>
           </tbody>
         </table>
       </div>

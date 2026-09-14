@@ -157,73 +157,45 @@
   <section class="py-16 bg-white ">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        @if(isset($posts) && $posts->count() > 0)
-          @foreach($posts as $post)
-            <article class="border border-gray-200/80 group flex flex-col rounded overflow-hidden hover:shadow-md transition" style="background-color: rgb(247, 243, 238);">
-              @if($post->image_url)
-                <div class="h-52 overflow-hidden bg-white">
-                  <a href="{{ url('/tin-tuc/' . $post->slug . '/') }}" class="block w-full h-full">
-                    <img src="{{ $post->image_url }}" alt="{{ $post->title }}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" onerror="this.src='/assets/images/hero-office.jpg'" />
-                  </a>
-                </div>
-              @endif
-              <div class="p-6 flex flex-col flex-1">
-                <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">
-                  {{ $post->category ? $post->category->name : 'Tin tức & Sự kiện' }}
-                </span>
-                <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                  <a href="{{ url('/tin-tuc/' . $post->slug . '/') }}">{{ $post->title }}</a>
-                </h3>
-                <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1 line-clamp-3">
-                  {{ $post->summary }}
-                </p>
-                <div class="pt-4 border-t border-gray-200/70 flex items-center justify-between text-xs text-gray-400 mt-auto">
-                  <span><i class="fa-regular fa-calendar mr-1 text-[#1A9900]"></i> {{ $post->published_at ? $post->published_at->format('d/m/Y') : date('d/m/Y') }}</span>
-                  <a href="{{ url('/tin-tuc/' . $post->slug . '/') }}" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold uppercase tracking-wider hover:underline">
-                    <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px] ml-1"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-          @endforeach
-        @else
-          <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-            <div class="p-6 flex flex-col flex-1">
-              <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study</span>
-              <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/">Sở GD&amp;ĐT Quảng Trị – thuê máy in nhân bản siêu tốc 2026</a>
-              </h3>
-              <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.</p>
-              <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-                <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-              </a>
-            </div>
-          </article>
-          <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-            <div class="p-6 flex flex-col flex-1">
-              <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study</span>
-              <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/">Sở GD&amp;ĐT Vĩnh Phúc – thuê máy photocopy sao in đề thi</a>
-              </h3>
-              <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.</p>
-              <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-                <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-              </a>
-            </div>
-          </article>
-          <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-            <div class="p-6 flex flex-col flex-1">
-              <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study</span>
-              <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                <a href="/du-an/vietcombank-cung-cap-may-photocopy/">Cung cấp máy photocopy cho hệ thống Vietcombank</a>
-              </h3>
-              <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.</p>
-              <a href="/du-an/vietcombank-cung-cap-may-photocopy/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-                <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-              </a>
-            </div>
-          </article>
-        @endif
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/">Sở GD&amp;ĐT Quảng Trị – thuê máy in nhân bản siêu tốc 2026</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.</p>
+            <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/">Sở GD&amp;ĐT Vĩnh Phúc – thuê máy photocopy sao in đề thi</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.</p>
+            <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/du-an/vietcombank-cung-cap-may-photocopy/">Cung cấp máy photocopy cho hệ thống Vietcombank</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.</p>
+            <a href="/du-an/vietcombank-cung-cap-may-photocopy/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
       </div>
     </div>
   </section>

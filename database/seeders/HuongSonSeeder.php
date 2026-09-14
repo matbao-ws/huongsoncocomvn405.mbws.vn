@@ -232,6 +232,12 @@ class HuongSonSeeder extends Seeder
                     $fullDescription = '<p>' . htmlspecialchars((string) ($m['summary'] ?? $m['name'])) . '</p>' . $specsTable;
                 }
 
+                $metaTitleVi = $m['name'] . ' Chính Hãng | Giá Tốt Nhất | Hương Sơn';
+                $metaTitleEn = ($m['model'] ?? $m['name']) . ' - Genuine Distributor | Huong Son';
+                $rawSummary = strip_tags($m['summary'] ?? ($m['name'] . ' chính hãng tại Công ty Hương Sơn. Cam kết chất lượng, bảo hành chính hãng, đầy đủ CO/CQ và hỗ trợ kỹ thuật tận nơi.'));
+                $metaDescVi = mb_substr($rawSummary, 0, 158);
+                $metaDescEn = mb_substr($rawSummary, 0, 158);
+
                 Product::query()->updateOrCreate(
                     ['slug' => $m['slug']],
                     [
@@ -241,6 +247,8 @@ class HuongSonSeeder extends Seeder
                         'sku' => $m['sku'] ?? strtoupper(str_replace('-', '_', $m['slug'])),
                         'short_description' => ['vi' => $m['summary'] ?? '', 'en' => $m['summary'] ?? ''],
                         'description' => ['vi' => $fullDescription, 'en' => $fullDescription],
+                        'meta_title' => ['vi' => $metaTitleVi, 'en' => $metaTitleEn],
+                        'meta_description' => ['vi' => $metaDescVi, 'en' => $metaDescEn],
                         'price' => (float) ($m['price'] ?? 0),
                         'stock_quantity' => 15,
                         'image_url' => $m['image'] ?? '/assets/images/products/toshiba-e-studio-2829a.jpg',

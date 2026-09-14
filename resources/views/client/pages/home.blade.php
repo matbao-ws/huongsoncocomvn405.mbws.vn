@@ -250,9 +250,8 @@
     </div>
   </section>
   <section class="py-14 bg-[#181924] text-white border-y border-gray-800/60">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-2 sm:gap-x-4 text-center">
-        <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-2 sm:gap-x-4 text-center">
+        <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3 ">
           <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2 tracking-tight">2008</div>
           <h4 class="text-[13px] sm:text-[13.5px] font-bold text-gray-200 uppercase tracking-wide leading-relaxed max-w-[220px] mx-auto">Năm thành lập</h4>
         </div>
@@ -267,9 +266,7 @@
         <div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-3 border-l border-gray-800">
           <div class="text-4xl sm:text-5xl font-bold text-[#1A9900] mb-2 tracking-tight">3</div>
           <h4 class="text-[13px] sm:text-[13.5px] font-bold text-gray-200 uppercase tracking-wide leading-relaxed max-w-[220px] mx-auto">Cấp độ SLA cam kết thời gian xử lý (P1/P2/P3)</h4>
-        </div>
-      </div>
-    </div>
+        </div></div></div>
   </section>
 
   <!-- AUTHORIZED BRANDS LOGOS STRIP -->
@@ -306,7 +303,6 @@
       </div>
     </div>
   </section>
-
   <section class="py-16 bg-white ">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-12">
@@ -549,79 +545,46 @@
         <h2 class="text-2xl sm:text-[34px] font-bold text-[#181923] leading-tight">Dự án đã triển khai</h2>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        @if(isset($latestPosts) && $latestPosts->count() > 0)
-          @foreach($latestPosts as $post)
-            <article class="border border-gray-200/80 group flex flex-col rounded overflow-hidden hover:shadow-md transition" style="background-color: rgb(247, 243, 238);">
-              @if($post->image_url)
-                <div class="h-48 overflow-hidden bg-white">
-                  <a href="{{ url('/tin-tuc/' . $post->slug . '/') }}" class="block w-full h-full">
-                    <img src="{{ $post->image_url }}" alt="{{ $post->title }}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" onerror="this.src='/assets/images/hero-office.jpg'" />
-                  </a>
-                </div>
-              @endif
-              <div class="p-6 flex flex-col flex-1">
-                <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">
-                  {{ $post->category ? $post->category->name : 'Tin tức & Hoạt động' }}
-                </span>
-                <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                  <a href="{{ url('/tin-tuc/' . $post->slug . '/') }}">{{ $post->title }}</a>
-                </h3>
-                <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1 line-clamp-3">
-                  {{ $post->summary }}
-                </p>
-                <div class="pt-4 border-t border-gray-200/70 flex items-center justify-between text-xs text-gray-400 mt-auto">
-                  <span><i class="fa-regular fa-calendar mr-1 text-[#1A9900]"></i> {{ $post->published_at ? $post->published_at->format('d/m/Y') : date('d/m/Y') }}</span>
-                  <a href="{{ url('/tin-tuc/' . $post->slug . '/') }}" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-                    <span>Xem chi tiết</span> <i class="fa-solid fa-arrow-right text-[10px] ml-1"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-          @endforeach
-        @else
-          <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-            <div class="p-6 flex flex-col flex-1">
-              <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study Giáo dục</span>
-              <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/">Thuê máy photocopy phục vụ in sao đề thi – Sở GD&amp;ĐT Vĩnh Phúc</a>
-              </h3>
-              <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Hương Sơn cung cấp dịch vụ thuê 02 máy photocopy Toshiba 7518A/8518A phục vụ in sao đề thi cho Sở GD&amp;ĐT tỉnh Vĩnh Phúc.</p>
-              <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-                <span>Xem case study</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-              </a>
-            </div>
-          </article>
-          <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-            <div class="p-6 flex flex-col flex-1">
-              <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study Giáo dục</span>
-              <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/">Thuê máy in nhân bản siêu tốc Duplo phục vụ Kỳ thi Tốt nghiệp THPT 2026</a>
-              </h3>
-              <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Theo Hợp đồng kinh tế số 200426/HĐKT/TTB/HS-SGDĐT ngày 12/5/2026, Hương Sơn cung cấp dịch vụ thuê 02 máy in nhân bản siêu tốc phục vụ thi cử.</p>
-              <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-                <span>Xem case study</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-              </a>
-            </div>
-          </article>
-          <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-            <div class="p-6 flex flex-col flex-1">
-              <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study Ngân hàng</span>
-              <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
-                <a href="/du-an/vietcombank-cung-cap-may-photocopy/">Cung cấp máy photocopy cho hệ thống Ngân hàng Vietcombank toàn quốc</a>
-              </h3>
-              <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Hương Sơn cung cấp hệ thống máy photocopy và dịch vụ kỹ thuật bảo trì định kỳ cho mạng lưới chi nhánh Vietcombank.</p>
-              <a href="/du-an/vietcombank-cung-cap-may-photocopy/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
-                <span>Xem case study</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
-              </a>
-            </div>
-          </article>
-        @endif
-      </div>
-      <div class="text-center mt-10">
-        <a href="/ve-huong-son/tin-tuc/" class="inline-block border border-gray-300 hover:border-[#1A9900] hover:text-[#1A9900] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">
-          Xem tất cả bài viết &amp; dự án
-        </a>
-      </div>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study Giáo dục</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/">Thuê máy photocopy phục vụ in sao đề thi – Sở GD&amp;ĐT Vĩnh Phúc</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Hương Sơn cung cấp dịch vụ thuê 02 máy photocopy Toshiba 7518A/8518A phục vụ in sao đề thi cho Sở GD&amp;ĐT tỉnh Vĩnh Phúc. Khối lượng…</p>
+            <a href="/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem case study</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study Giáo dục</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/">Thuê máy in nhân bản siêu tốc Duplo phục vụ Kỳ thi Tốt nghiệp THPT 2026</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Theo Hợp đồng kinh tế số 200426/HĐKT/TTB/HS-SGDĐT ngày 12/5/2026, Hương Sơn cung cấp dịch vụ thuê 02 máy in nhân bản siêu tốc phục…</p>
+            <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem case study</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+        <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
+          
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Case Study Ngân hàng</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">
+              <a href="/du-an/vietcombank-cung-cap-may-photocopy/">Cung cấp máy photocopy cho hệ thống Ngân hàng Vietcombank toàn quốc</a>
+            </h3>
+            <p class="text-gray-500 text-[14.5px] leading-relaxed mb-4 flex-1">Theo thông tin Hương Sơn tự công bố công khai trên website huongsonco.com.vn, năm 2022–2023 Hương Sơn đã cung cấp cho hệ thống Ngâ…</p>
+            <a href="/du-an/vietcombank-cung-cap-may-photocopy/" class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">
+              <span>Xem case study</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </article>
+      </div><div class="text-center mt-10"><a href="/du-an/" class="inline-block border border-gray-300 hover:border-[#1A9900] hover:text-[#1A9900] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem tất cả dự án</a></div>
     </div>
   </section>
 @endsection
