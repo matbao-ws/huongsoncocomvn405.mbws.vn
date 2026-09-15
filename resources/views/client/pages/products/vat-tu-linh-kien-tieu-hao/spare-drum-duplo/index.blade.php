@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Trống In Màu Dự Phòng Spare Drum Duplo – Spare Drum Color Cylinder | Hương Sơn")
-@section('meta_description', "Trống in màu rời thay thế nhanh cho máy in nhân bản Duplo: hỗ trợ đổi màu in đỏ, xanh, vàng chỉ trong 10 giây.")
+@section('title', "Trống In Màu Dự Phòng Spare Drum Duplo – Spare Drum Color Cylinder Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Trống in màu rời thay thế nhanh cho máy in nhân bản Duplo: hỗ trợ đổi màu in đỏ, xanh, vàng chỉ trong 10 giây. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/spare-drum-duplo/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/spare-drum-duplo/#product",
     "name": "Trống In Màu Dự Phòng Spare Drum Duplo",
+    "image": "https://huongsonco.com.vn/assets/images/products/44-spare-drum.jpg",
     "model": "Spare Drum Color Cylinder",
     "sku": "DUPLO-SPARE-DRUM",
     "category": "Linh kiện máy in siêu tốc",
     "description": "Trống in màu rời thay thế nhanh cho máy in nhân bản Duplo: hỗ trợ đổi màu in đỏ, xanh, vàng chỉ trong 10 giây.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
@@ -181,14 +192,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/spare-drum-duplo/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

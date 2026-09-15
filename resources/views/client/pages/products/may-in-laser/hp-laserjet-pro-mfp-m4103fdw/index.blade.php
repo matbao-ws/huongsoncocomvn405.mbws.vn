@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy in đa năng HP LaserJet Pro MFP M4103fdw – LaserJet Pro MFP M4103fdw (2Z629A) | Hương Sơn")
-@section('meta_description', "HP LaserJet Pro MFP M4103fdw là máy in laser đa chức năng A4 tốc độ 40 trang/phút, trang bị WiFi hai băng tần và bảo mật HP Wolf Security mạnh mẽ.")
+@section('title', "Máy in đa năng HP LaserJet Pro MFP M4103fdw – LaserJet Pro MFP M4103fdw (2Z629A) Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "HP LaserJet Pro MFP M4103fdw là máy in laser đa chức năng A4 tốc độ 40 trang/phút, trang bị WiFi hai băng tần và bảo mật HP Wolf Security mạnh... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/#product",
     "name": "Máy in đa năng HP LaserJet Pro MFP M4103fdw",
+    "image": "https://huongsonco.com.vn/assets/images/products/hp-laserjet-pro-mfp-m4103fdw.jpg",
     "model": "LaserJet Pro MFP M4103fdw (2Z629A)",
     "sku": "HP-M4103FDW",
     "category": "Máy in Laser đa năng",
     "description": "HP LaserJet Pro MFP M4103fdw là máy in laser đa chức năng A4 tốc độ 40 trang/phút, trang bị WiFi hai băng tần và bảo mật HP Wolf Security mạnh mẽ.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "HP (Hoa Kỳ)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/may-in-laser/hp-laserjet-pro-mfp-m4103fdw/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

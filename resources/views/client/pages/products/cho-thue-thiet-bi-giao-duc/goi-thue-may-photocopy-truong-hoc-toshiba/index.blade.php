@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Gói thuê máy photocopy trường học định mức chi phí – HS-EDU-SCHOOLCOPY | Hương Sơn")
-@section('meta_description', "Gói thuê máy photocopy trường học tối ưu ngân sách — 0 đồng đầu tư ban đầu, cấp mã định mức cho từng giáo viên và miễn phí 100% mực in & bảo dưỡng.")
+@section('title', "Gói thuê máy photocopy trường học định mức chi phí – HS-EDU-SCHOOLCOPY Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Gói thuê máy photocopy trường học tối ưu ngân sách — 0 đồng đầu tư ban đầu, cấp mã định mức cho từng giáo viên và miễn phí 100% mực in & bảo... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-photocopy-truong-hoc-toshiba/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-photocopy-truong-hoc-toshiba/#product",
     "name": "Gói thuê máy photocopy trường học định mức chi phí",
+    "image": "https://huongsonco.com.vn/assets/images/products/toshiba-e-studio-2829a.jpg",
     "model": "HS-EDU-SCHOOLCOPY",
     "sku": "EDU-COPY-02",
     "category": "Gói giải pháp thuê máy giáo dục",
     "description": "Gói thuê máy photocopy trường học tối ưu ngân sách — 0 đồng đầu tư ban đầu, cấp mã định mức cho từng giáo viên và miễn phí 100% mực in & bảo dưỡng.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Hương Sơn Education Solutions"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/goi-thue-may-photocopy-truong-hoc-toshiba/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

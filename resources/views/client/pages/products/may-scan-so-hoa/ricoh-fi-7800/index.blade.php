@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy quét Ricoh fi-7800 – fi-7800 | Hương Sơn")
-@section('meta_description', "Máy Quét công nghiệp 2 mặt A3 (ADF) Đèn quét: Color CCD Tốc độ quét: 110 ppm/220ipm (quét màu, 300dpi) Khay giấy: 500 tờ Công suất: 100,000 tờ/ngày Kết nối")
+@section('title', "Máy quét Ricoh fi-7800 Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
+@section('meta_description', "Máy Quét công nghiệp 2 mặt A3 (ADF) Đèn quét: Color CCD Tốc độ quét: 110 ppm/220ipm (quét màu, 300dpi) Khay giấy: 500 tờ Công suất: 100,000... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7800/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7800/#product",
     "name": "Máy quét Ricoh fi-7800",
+    "image": "https://huongsonco.com.vn/assets/images/products/ricoh-fi-7800.jpg",
     "model": "fi-7800",
     "sku": "PA03800-B401",
     "category": "Máy scan khổ A3 số hóa",
     "description": "Máy Quét công nghiệp 2 mặt A3 (ADF) Đèn quét: Color CCD Tốc độ quét: 110 ppm/220ipm (quét màu, 300dpi) Khay giấy: 500 tờ Công suất: 100,000 tờ/ngày Kết nối:  USB 2.0 / USB 1.1 Port (Type B Connector) Kích thước:  460 x 4...",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Ricoh (Nhật Bản)"
@@ -212,14 +223,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/may-scan-so-hoa/ricoh-fi-7800/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }
@@ -449,6 +464,16 @@
       </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="pb-10 pt-0 bg-white ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="border-t border-gray-200 pt-8">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Giải pháp & Dịch vụ liên quan</h3>
+            <div class="flex flex-wrap items-center"><a href="/giai-phap/scan-so-hoa/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Giải pháp Scan – Số hóa hồ sơ tài liệu</span></a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/bang-tra-ma-linh-kien-vat-tu-may-scan-ricoh/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Bảng tra cứu linh kiện vật tư máy scan Ricoh</span></a></div>
+          </div>
+        
     </div>
   </section>
 

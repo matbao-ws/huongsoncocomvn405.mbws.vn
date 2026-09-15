@@ -19,9 +19,8 @@ def build(write):
     write("/ve-huong-son/nang-luc/", _capability())
     write("/ve-huong-son/doi-tac-thuong-hieu/", _brands())
     write("/ve-huong-son/tai-nguyen/", _resources())
-    write("/ve-huong-son/kien-thuc/", _knowledge_hub())
     write("/ve-huong-son/tin-tuc/", _news_hub())
-    print("  về Hương Sơn: 6 trang")
+    print("  về Hương Sơn: 5 trang")
 
 
 # ------------------------------------------------------------------- 1. Giới thiệu

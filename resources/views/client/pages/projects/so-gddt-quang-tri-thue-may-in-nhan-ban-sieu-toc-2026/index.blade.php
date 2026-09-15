@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"

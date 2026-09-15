@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy phối trang Duplo DFC-122 – DFC-122 | Hương Sơn")
-@section('meta_description', "Duplo DFC-122 là máy phối trang 12 khay tốc độ 4.200 bộ/giờ — giải pháp hoàn thiện tài liệu sau in đắc lực giúp tiết kiệm 90% nhân lực xếp bộ tài liệu tron")
+@section('title', "Máy phối trang Duplo DFC-122 Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
+@section('meta_description', "Duplo DFC-122 là máy phối trang 12 khay tốc độ 4.200 bộ/giờ — giải pháp hoàn thiện tài liệu sau in đắc lực giúp tiết kiệm 90% nhân lực xếp bộ... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/#product",
     "name": "Máy phối trang Duplo DFC-122",
+    "image": "https://huongsonco.com.vn/assets/images/products/duplo-dfc-122.jpg",
     "model": "DFC-122",
     "sku": "DUPLO-DFC122",
     "category": "Thiết bị hoàn thiện sau in",
     "description": "Duplo DFC-122 là máy phối trang 12 khay tốc độ 4.200 bộ/giờ — giải pháp hoàn thiện tài liệu sau in đắc lực giúp tiết kiệm 90% nhân lực xếp bộ tài liệu trong các kỳ thi.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dfc-122/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }
@@ -409,6 +424,16 @@
       </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="pb-10 pt-0 bg-white ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="border-t border-gray-200 pt-8">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Giải pháp & Dịch vụ liên quan</h3>
+            <div class="flex flex-wrap items-center"><a href="/giai-phap/giao-duc/in-de-thi/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Giải pháp in sao đề thi tốt nghiệp THPT</span></a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/muc-master-duplo-chinh-hang/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Mực in và cuộn Master Duplo chính hãng</span></a></div>
+          </div>
+        
     </div>
   </section>
 

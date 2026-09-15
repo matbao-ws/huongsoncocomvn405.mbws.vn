@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Gói Cho Thuê Máy In Đa Năng A4 HP LaserJet Pro MFP M4103fdw – LaserJet Pro MFP 4103fdw | Hương Sơn")
-@section('meta_description', "Dịch vụ cho thuê máy in laser đa chức năng A4 HP trọn gói mực và sửa chữa, chỉ từ 550.000 đ/tháng.")
+@section('title', "Gói Cho Thuê Máy In Đa Năng A4 HP LaserJet Pro MFP M4103fdw – LaserJet Pro MFP 4103fdw Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Dịch vụ cho thuê máy in laser đa chức năng A4 HP trọn gói mực và sửa chữa, chỉ từ 550.000 đ/tháng. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-hp-laserjet-pro-mfp-m4103fdw/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-hp-laserjet-pro-mfp-m4103fdw/#product",
     "name": "Gói Cho Thuê Máy In Đa Năng A4 HP LaserJet Pro MFP M4103fdw",
+    "image": "https://huongsonco.com.vn/assets/images/products/100-cho-thue-may-in-hp-laserjet-pro-mfp-4103fdw-2z629a.jpg",
     "model": "LaserJet Pro MFP 4103fdw",
     "sku": "THUE-HP-4103FDW",
     "category": "Cho thuê thiết bị",
     "description": "Dịch vụ cho thuê máy in laser đa chức năng A4 HP trọn gói mực và sửa chữa, chỉ từ 550.000 đ/tháng.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "HP (Mỹ)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-hp-laserjet-pro-mfp-m4103fdw/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

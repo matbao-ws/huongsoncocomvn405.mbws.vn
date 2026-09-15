@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Mực photocopy FANSIPAN Toner Black cho Ricoh Aficio – FANSIPAN R-2501/3554 | Hương Sơn")
-@section('meta_description', "Mực FANSIPAN cho Ricoh Aficio — tương thích hoàn hảo với các dòng máy Ricoh MP series, giúp doanh nghiệp cắt giảm đáng kể chi phí in ấn thường xuyên.")
+@section('title', "Mực photocopy FANSIPAN Toner Black cho Ricoh Aficio – FANSIPAN R-2501/3554 Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Mực FANSIPAN cho Ricoh Aficio — tương thích hoàn hảo với các dòng máy Ricoh MP series, giúp doanh nghiệp cắt giảm đáng kể chi phí in ấn thường... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-ricoh-aficio/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-ricoh-aficio/#product",
     "name": "Mực photocopy FANSIPAN Toner Black cho Ricoh Aficio",
+    "image": "https://huongsonco.com.vn/assets/images/products/muc-fansipan-toner.jpg",
     "model": "FANSIPAN R-2501/3554",
     "sku": "FAN-RICOH-02",
     "category": "Mực photocopy FANSIPAN",
     "description": "Mực FANSIPAN cho Ricoh Aficio — tương thích hoàn hảo với các dòng máy Ricoh MP series, giúp doanh nghiệp cắt giảm đáng kể chi phí in ấn thường xuyên.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "FANSIPAN (Hương Sơn)"
@@ -180,14 +191,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-ricoh-aficio/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

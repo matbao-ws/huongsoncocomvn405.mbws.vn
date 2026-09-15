@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Mực in và Master in chính hãng Duplo Nhật Bản – Duplo Ink & Master HD | Hương Sơn")
-@section('meta_description', "Mực in và cuộn phim Master in chính hãng Duplo Nhật Bản — độ phân giải cao, bám giấy tốt, khô ngay lập tức, là yếu tố then chốt cho bản in đề thi sắc nét.")
+@section('title', "Mực in và Master in chính hãng Duplo Nhật Bản – Duplo Ink & Master HD Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Mực in và cuộn phim Master in chính hãng Duplo Nhật Bản — độ phân giải cao, bám giấy tốt, khô ngay lập tức, là yếu tố then chốt cho bản in đề... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/muc-in-master-duplo-chinh-hang/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/muc-in-master-duplo-chinh-hang/#product",
     "name": "Mực in và Master in chính hãng Duplo Nhật Bản",
+    "image": "https://huongsonco.com.vn/assets/images/products/muc-in-master-duplo.jpg",
     "model": "Duplo Ink & Master HD",
     "sku": "DUPLO-INK-MAT",
     "category": "Vật tư in siêu tốc chính hãng",
     "description": "Mực in và cuộn phim Master in chính hãng Duplo Nhật Bản — độ phân giải cao, bám giấy tốt, khô ngay lập tức, là yếu tố then chốt cho bản in đề thi sắc nét.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
@@ -181,14 +192,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/muc-in-master-duplo-chinh-hang/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

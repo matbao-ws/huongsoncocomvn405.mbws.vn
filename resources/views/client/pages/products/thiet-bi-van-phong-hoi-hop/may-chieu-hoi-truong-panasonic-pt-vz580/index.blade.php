@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy chiếu hội trường văn phòng Panasonic PT-VZ580 – PT-VZ580 | Hương Sơn")
-@section('meta_description', "Panasonic PT-VZ580 máy chiếu hội trường 5.000 Ansi Lumens độ phân giải WUXGA — độ sáng vượt trội giúp trình chiếu sắc nét rõ ràng ngay cả trong phòng họp b")
+@section('title', "Máy chiếu hội trường văn phòng Panasonic PT-VZ580 Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
+@section('meta_description', "Panasonic PT-VZ580 máy chiếu hội trường 5.000 Ansi Lumens độ phân giải WUXGA — độ sáng vượt trội giúp trình chiếu sắc nét rõ ràng ngay cả trong... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/may-chieu-hoi-truong-panasonic-pt-vz580/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/may-chieu-hoi-truong-panasonic-pt-vz580/#product",
     "name": "Máy chiếu hội trường văn phòng Panasonic PT-VZ580",
+    "image": "https://huongsonco.com.vn/assets/images/products/panasonic-pt-vz580.jpg",
     "model": "PT-VZ580",
     "sku": "PANA-VZ580",
     "category": "Thiết bị trình chiếu hội nghị",
     "description": "Panasonic PT-VZ580 máy chiếu hội trường 5.000 Ansi Lumens độ phân giải WUXGA — độ sáng vượt trội giúp trình chiếu sắc nét rõ ràng ngay cả trong phòng họp bật đầy đủ ánh sáng.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Panasonic (Nhật Bản)"
@@ -190,14 +201,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/may-chieu-hoi-truong-panasonic-pt-vz580/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

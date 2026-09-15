@@ -27,11 +27,14 @@ LIGHT_BG = "#f8fafc"
 
 
 # --------------------------------------------------------------------------- head
-def head(*, title, description, url, keywords="", og_type="website", jsonld=None,
-         robots="index,follow"):
+def head(*, title, description, url, keywords="", og_type="website", og_image=None, jsonld=None,
+         robots="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"):
     canonical_origin = SITE.get('canonical_origin') or SITE.get('website', 'https://huongsonco.com.vn')
     canonical = f"{canonical_origin}{url}"
-    og_img = f"{canonical_origin}{SITE.get('og_image', '/assets/images/brand/logo-huong-son.svg')}"
+    if og_image:
+        og_img = og_image if og_image.startswith("http") else f"{canonical_origin}{og_image}"
+    else:
+        og_img = f"{canonical_origin}{SITE.get('og_image', '/assets/images/brand/logo-huong-son.svg')}"
     schema_tags = ""
     if jsonld:
         schema_tags = (
@@ -49,12 +52,22 @@ def head(*, title, description, url, keywords="", og_type="website", jsonld=None
   <meta name="description" content="{description}" />
   <meta name="robots" content="{robots}" />
   <link rel="canonical" href="{canonical}" />
+  <link rel="alternate" hreflang="vi-vn" href="{canonical}" />
 
+  <!-- Open Graph / Facebook / Zalo -->
   <meta property="og:type" content="{og_type}" />
   <meta property="og:title" content="{title}" />
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
   <meta property="og:image" content="{og_img}" />
+  <meta property="og:site_name" content="{SITE['legal_name']}" />
+  <meta property="og:locale" content="vi_VN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{title}" />
+  <meta name="twitter:description" content="{description}" />
+  <meta name="twitter:image" content="{og_img}" />
 
   <link rel="icon" href="/assets/images/brand/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png" />
@@ -371,10 +384,10 @@ def drawer():
 
 
 def page(*, title, description, url, body, keywords="", jsonld=None, og_type="website",
-         active=""):
+         og_image=None, active=""):
     """Ghép 1 trang hoàn chỉnh."""
     return (head(title=title, description=description, url=url, keywords=keywords,
-                 jsonld=jsonld, og_type=og_type)
+                 jsonld=jsonld, og_type=og_type, og_image=og_image)
             + topbar() + header(active or url)
             + f'\n  <main id="main-content">\n{body}\n  </main>\n'
             + footer() + drawer())

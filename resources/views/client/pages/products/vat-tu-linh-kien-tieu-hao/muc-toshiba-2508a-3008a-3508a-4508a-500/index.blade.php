@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Mực Photocopy Toshiba T-3008P / T-5008P Chính Hãng – T-3008P / T-5008P | Hương Sơn")
-@section('meta_description', "Mực in Toshiba chính hãng cho dòng máy e-STUDIO 2508A, 3008A, 3508A, 4508A, 2528A, 3028A: định mức 43.900 trang chuẩn.")
+@section('title', "Mực Photocopy Toshiba T-3008P / T-5008P Chính Hãng Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
+@section('meta_description', "Mực in Toshiba chính hãng cho dòng máy e-STUDIO 2508A, 3008A, 3508A, 4508A, 2528A, 3028A: định mức 43.900 trang chuẩn. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/muc-toshiba-2508a-3008a-3508a-4508a-500/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/muc-toshiba-2508a-3008a-3508a-4508a-500/#product",
     "name": "Mực Photocopy Toshiba T-3008P / T-5008P Chính Hãng",
+    "image": "https://huongsonco.com.vn/assets/images/products/59-muc-toshiba-2508a-3008a-3508a-4508a-500.jpg",
     "model": "T-3008P / T-5008P",
     "sku": "TOSH-INK-3008P",
     "category": "Mực photocopy chính hãng",
     "description": "Mực in Toshiba chính hãng cho dòng máy e-STUDIO 2508A, 3008A, 3508A, 4508A, 2528A, 3028A: định mức 43.900 trang chuẩn.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Toshiba (Nhật Bản)"
@@ -177,14 +188,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/muc-toshiba-2508a-3008a-3508a-4508a-500/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

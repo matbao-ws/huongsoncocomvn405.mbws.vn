@@ -44,9 +44,12 @@ PRIORITY = {
 
 def build_infra():
     base = render.SITE["website"].rstrip("/")
+    import datetime
+    today_str = datetime.date.today().strftime("%Y-%m-%d")
 
     urls = "".join(
         f"\n  <url>\n    <loc>{base}{u}</loc>"
+        f"\n    <lastmod>{today_str}</lastmod>"
         f"\n    <changefreq>{'weekly' if u in PRIORITY else 'monthly'}</changefreq>"
         f"\n    <priority>{PRIORITY.get(u, '0.7')}</priority>\n  </url>"
         for u in sorted(set(WRITTEN)))
@@ -231,7 +234,7 @@ def sync_blade_templates():
 
 
 MODULES = ["pages_solutions", "pages_products", "pages_services", "pages_projects",
-           "pages_about", "pages_lead", "pages_home"]
+           "pages_about", "pages_knowledge", "pages_lead", "pages_home"]
 
 
 def main():

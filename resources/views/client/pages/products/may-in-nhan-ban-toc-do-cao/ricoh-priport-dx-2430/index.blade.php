@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy In Siêu Tốc Ricoh Priport DX 2430 – Priport DX 2430 | Hương Sơn")
-@section('meta_description', "Ricoh Priport DX 2430 khổ B4, tốc độ 90 trang/phút, độ bền cao, giải pháp in sao tài liệu kinh tế cho trường học.")
+@section('title', "Máy In Siêu Tốc Ricoh Priport DX 2430 Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
+@section('meta_description', "Ricoh Priport DX 2430 khổ B4, tốc độ 90 trang/phút, độ bền cao, giải pháp in sao tài liệu kinh tế cho trường học. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/ricoh-priport-dx-2430/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/ricoh-priport-dx-2430/#product",
     "name": "Máy In Siêu Tốc Ricoh Priport DX 2430",
+    "image": "https://huongsonco.com.vn/assets/images/products/58-ricoh-dx2430.jpg",
     "model": "Priport DX 2430",
     "sku": "RICOH-DX2430",
     "category": "Máy in siêu tốc kỹ thuật số",
     "description": "Ricoh Priport DX 2430 khổ B4, tốc độ 90 trang/phút, độ bền cao, giải pháp in sao tài liệu kinh tế cho trường học.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Ricoh (Nhật Bản)"
@@ -190,14 +201,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/ricoh-priport-dx-2430/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }
@@ -413,6 +428,16 @@
       </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="pb-10 pt-0 bg-white ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="border-t border-gray-200 pt-8">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Giải pháp & Dịch vụ liên quan</h3>
+            <div class="flex flex-wrap items-center"><a href="/giai-phap/giao-duc/in-de-thi/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Giải pháp in sao đề thi tốt nghiệp THPT</span></a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/muc-master-duplo-chinh-hang/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Mực in và cuộn Master Duplo chính hãng</span></a></div>
+          </div>
+        
     </div>
   </section>
 

@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Bảng Tra Mã Mực & Master Máy In Duplo Đầy Đủ – Duplo Supplies Catalog | Hương Sơn")
-@section('meta_description', "Cẩm nang tra cứu mã mực in và master cho tất cả các thế hệ máy in nhân bản siêu tốc Duplo từ trước đến nay.")
+@section('title', "Bảng Tra Mã Mực & Master Máy In Duplo Đầy Đủ – Duplo Supplies Catalog Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Cẩm nang tra cứu mã mực in và master cho tất cả các thế hệ máy in nhân bản siêu tốc Duplo từ trước đến nay. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/bang-tra-ma-muc-master-duplo/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/bang-tra-ma-muc-master-duplo/#product",
     "name": "Bảng Tra Mã Mực & Master Máy In Duplo Đầy Đủ",
+    "image": "https://huongsonco.com.vn/assets/images/products/95-bang-tra-ma-muc-master-may-in-duplo.jpg",
     "model": "Duplo Supplies Catalog",
     "sku": "DUPLO-CODE-CATALOG",
     "category": "Cẩm nang vật tư",
     "description": "Cẩm nang tra cứu mã mực in và master cho tất cả các thế hệ máy in nhân bản siêu tốc Duplo từ trước đến nay.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Duplo (Nhật Bản)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/bang-tra-ma-muc-master-duplo/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

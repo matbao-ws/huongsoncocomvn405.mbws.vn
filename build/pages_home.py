@@ -274,8 +274,8 @@ def build(write):
         schema.itemlist("Giải pháp Hương Sơn", [(s["name"], s["url"]) for s in SOLUTIONS[:8]]),
     ]
     write("/", render.page(
-        title=f"{SITE['name']} – {SITE['positioning']}",
-        description="Hương Sơn cung cấp thiết bị, cho thuê, vật tư, kỹ thuật và giải pháp số hóa tài liệu cho Giáo dục, Cơ quan Nhà nước, Ngân hàng và Doanh nghiệp. Đại lý ủy quyền Duplo, Toshiba, Konica Minolta.",
-        keywords="Hương Sơn thuê máy photocopy, cho thuê máy in đề thi, máy in nhân bản Duplo, giải pháp in ấn giáo dục, số hóa tài liệu",
-        url="/", body=body, jsonld=ld, active="/"))
+        title="Công Ty Hương Sơn | Máy Photocopy, Máy In Siêu Tốc & Cho Thuê Thiết Bị",
+        description="Công ty Hương Sơn chuyên cung cấp và cho thuê máy photocopy Toshiba, Ricoh, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu cho trường học, cơ quan và doanh nghiệp.",
+        keywords="công ty Hương Sơn, máy photocopy, cho thuê máy photocopy, máy in nhân bản siêu tốc Duplo, máy in đề thi, máy scan Ricoh, số hóa tài liệu",
+        url="/", body=body, jsonld=ld, og_image="/assets/images/hero-office.jpg", active="/"))
     print("  trang chủ: 1 trang")

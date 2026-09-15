@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Máy photocopy Konica Minolta bizhub 360i – bizhub 360i | Hương Sơn")
-@section('meta_description', "Konica Minolta bizhub 360i dòng máy đa chức năng cao cấp chuẩn Nhật Bản — thiết kế tinh tế, màn hình tablet mượt mà và khả năng vận hành siêu ổn định.")
+@section('title', "Máy photocopy Konica Minolta bizhub 360i Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
+@section('meta_description', "Konica Minolta bizhub 360i dòng máy đa chức năng cao cấp chuẩn Nhật Bản — thiết kế tinh tế, màn hình tablet mượt mà và khả năng vận hành siêu ổn... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/#product",
     "name": "Máy photocopy Konica Minolta bizhub 360i",
+    "image": "https://huongsonco.com.vn/assets/images/products/konica-minolta-bizhub-360i.jpg",
     "model": "bizhub 360i",
     "sku": "KONICA-360I",
     "category": "Máy photocopy đa chức năng",
     "description": "Konica Minolta bizhub 360i dòng máy đa chức năng cao cấp chuẩn Nhật Bản — thiết kế tinh tế, màn hình tablet mượt mà và khả năng vận hành siêu ổn định.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Konica Minolta (Nhật Bản)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/konica-minolta-bizhub-360i/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }
@@ -409,6 +424,16 @@
       </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="pb-10 pt-0 bg-white ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="border-t border-gray-200 pt-8">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Giải pháp & Dịch vụ liên quan</h3>
+            <div class="flex flex-wrap items-center"><a href="/giai-phap/cho-thue-thiet-bi/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Dịch vụ cho thuê máy photocopy trọn gói</span></a><a href="/dich-vu/bao-tri-sua-chua/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Dịch vụ bảo trì và sửa chữa máy photocopy</span></a><a href="/cong-cu/tinh-chi-phi-thue-may/" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Công cụ tính chi phí thuê máy photocopy</span></a></div>
+          </div>
+        
     </div>
   </section>
 

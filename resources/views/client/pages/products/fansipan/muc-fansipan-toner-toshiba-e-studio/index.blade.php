@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Mực photocopy FANSIPAN Toner Black cho Toshiba e-STUDIO – FANSIPAN T-2309/2508 | Hương Sơn")
-@section('meta_description', "FANSIPAN Toner Black cho Toshiba là thương hiệu mực độc quyền của Hương Sơn — đem lại chất lượng bản in sắc nét, tiết kiệm tối đa chi phí cho trường học và")
+@section('title', "Mực photocopy FANSIPAN Toner Black cho Toshiba e-STUDIO – FANSIPAN T-2309/2508 Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "FANSIPAN Toner Black cho Toshiba là thương hiệu mực độc quyền của Hương Sơn — đem lại chất lượng bản in sắc nét, tiết kiệm tối đa chi phí cho... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-toshiba-e-studio/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-toshiba-e-studio/#product",
     "name": "Mực photocopy FANSIPAN Toner Black cho Toshiba e-STUDIO",
+    "image": "https://huongsonco.com.vn/assets/images/products/muc-fansipan-toner.jpg",
     "model": "FANSIPAN T-2309/2508",
     "sku": "FAN-TOSH-01",
     "category": "Mực photocopy FANSIPAN",
     "description": "FANSIPAN Toner Black cho Toshiba là thương hiệu mực độc quyền của Hương Sơn — đem lại chất lượng bản in sắc nét, tiết kiệm tối đa chi phí cho trường học và doanh nghiệp.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "FANSIPAN (Hương Sơn)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-toshiba-e-studio/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Trống Drum và Bột từ Developer cho máy photocopy – Drum & Developer Kit | Hương Sơn")
-@section('meta_description', "Bộ Trống Drum OPC và Bột từ Developer chất lượng cao — phục hồi độ sắc nét như mới cho các dòng máy photocopy Toshiba, Ricoh, Konica Minolta.")
+@section('title', "Trống Drum và Bột từ Developer cho máy photocopy – Drum & Developer Kit Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Bộ Trống Drum OPC và Bột từ Developer chất lượng cao — phục hồi độ sắc nét như mới cho các dòng máy photocopy Toshiba, Ricoh, Konica Minolta. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/trong-drum-bot-tu-photocopy/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/trong-drum-bot-tu-photocopy/#product",
     "name": "Trống Drum và Bột từ Developer cho máy photocopy",
+    "image": "https://huongsonco.com.vn/assets/images/products/drum-bot-tu-photocopy.jpg",
     "model": "Drum & Developer Kit",
     "sku": "DRUM-DEV-KIT",
     "category": "Linh kiện máy photocopy",
     "description": "Bộ Trống Drum OPC và Bột từ Developer chất lượng cao — phục hồi độ sắc nét như mới cho các dòng máy photocopy Toshiba, Ricoh, Konica Minolta.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Toshiba / Ricoh / OEM"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/vat-tu-linh-kien-tieu-hao/trong-drum-bot-tu-photocopy/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

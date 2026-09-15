@@ -62,8 +62,10 @@ def render_category(cat):
           schema.itemlist(cat["h1"], [(m["name"], m["url"]) for m in models]),
           schema.faqpage([(q, C.re.sub(r"<[^>]+>", "", a)) for q, a in cat["faqs"]])]
 
+    cat_og = models[0]["image"] if models and models[0].get("image") else None
     return render.page(title=cat["seo_title"], description=cat["seo_desc"], url=cat["url"],
-                       keywords=cat.get("keywords", ""), body=body, jsonld=ld, active="/san-pham/")
+                       keywords=cat.get("keywords", ""), body=body, jsonld=ld,
+                       og_image=cat_og, active="/san-pham/")
 
 
 def render_model(m):
@@ -140,6 +142,32 @@ def render_model(m):
         </div>
       </div>""")
 
+    # Cross-links / Silo SEO
+    related_links = []
+    if m["category"] == "may-scan-so-hoa":
+        related_links.append(("Giải pháp Scan – Số hóa hồ sơ tài liệu", "/giai-phap/scan-so-hoa/"))
+        related_links.append(("Bảng tra cứu linh kiện vật tư máy scan Ricoh", "/san-pham/vat-tu-linh-kien-tieu-hao/bang-tra-ma-linh-kien-vat-tu-may-scan-ricoh/"))
+    elif m["category"] == "may-in-nhan-ban-toc-do-cao":
+        related_links.append(("Giải pháp in sao đề thi tốt nghiệp THPT", "/giai-phap/giao-duc/in-de-thi/"))
+        related_links.append(("Mực in và cuộn Master Duplo chính hãng", "/san-pham/vat-tu-linh-kien-tieu-hao/muc-master-duplo-chinh-hang/"))
+    elif m["category"] == "photocopy-may-da-chuc-nang":
+        related_links.append(("Dịch vụ cho thuê máy photocopy trọn gói", "/giai-phap/cho-thue-thiet-bi/"))
+        related_links.append(("Dịch vụ bảo trì và sửa chữa máy photocopy", "/dich-vu/bao-tri-sua-chua/"))
+        related_links.append(("Công cụ tính chi phí thuê máy photocopy", "/cong-cu/tinh-chi-phi-thue-may/"))
+
+    if related_links:
+        links_html = "".join(
+            f'<a href="{url}" class="inline-flex items-center space-x-2 bg-white border border-gray-200 hover:border-[{BRAND}] hover:text-[{BRAND}] px-4 py-2.5 text-sm font-semibold transition rounded-sm shadow-xs mr-3 mb-3">'
+            f'<i class="fa-solid fa-arrow-right text-[{BRAND}] text-xs"></i><span>{title}</span></a>'
+            for title, url in related_links
+        )
+        body += C.section(f"""
+          <div class="border-t border-gray-200 pt-8">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Giải pháp & Dịch vụ liên quan</h3>
+            <div class="flex flex-wrap items-center">{links_html}</div>
+          </div>
+        """, pad="pb-10 pt-0")
+
     body += C.cta_band(
         title=f"Cần báo giá cho {m['name']}?",
         text="Gửi số lượng và thời điểm cần — Hương Sơn báo giá kèm phương án vận chuyển, lắp đặt và bảo hành.",
@@ -149,9 +177,25 @@ def render_model(m):
     if m.get("faqs"):
         ld.append(schema.faqpage([(q, C.re.sub(r"<[^>]+>", "", a)) for q, a in m["faqs"]]))
 
-    return render.page(title=f"{m['name']} – {m['model']} | Hương Sơn",
-                       description=m["summary"][:155], url=m["url"], body=body, jsonld=ld,
-                       og_type="product", active="/san-pham/")
+    model_str = m.get("model", "").strip()
+    name_str = m.get("name", "").strip()
+    if model_str and model_str.lower() in name_str.lower():
+        seo_title = f"{name_str} Chính Hãng | Thông Số & Báo Giá | Hương Sơn"
+    else:
+        seo_title = f"{name_str} – {model_str} Chính Hãng | Báo Giá | Hương Sơn"
+
+    summary_raw = m.get("summary", "").strip()
+    if len(summary_raw) > 145:
+        cut_summary = summary_raw[:145].rsplit(" ", 1)[0]
+        if not cut_summary.endswith((".", "!", "?")):
+            cut_summary += "..."
+        seo_desc = f"{cut_summary} Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành."
+    else:
+        seo_desc = f"{summary_raw} Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành."
+
+    return render.page(title=seo_title,
+                       description=seo_desc, url=m["url"], body=body, jsonld=ld,
+                       og_type="product", og_image=m.get("image"), active="/san-pham/")
 
 
 def render_hub():

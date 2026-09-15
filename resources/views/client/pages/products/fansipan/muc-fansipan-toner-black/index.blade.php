@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Mực In Laser & Photocopy FANSIPAN Toner Black – Fansipan Black Toner | Hương Sơn")
-@section('meta_description', "Mực tương thích FANSIPAN độc quyền Hương Sơn cho Toshiba, Ricoh, HP: độ đen đậm nét, mịn màng, bảo vệ tối đa trống gạt.")
+@section('title', "Mực In Laser & Photocopy FANSIPAN Toner Black – Fansipan Black Toner Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Mực tương thích FANSIPAN độc quyền Hương Sơn cho Toshiba, Ricoh, HP: độ đen đậm nét, mịn màng, bảo vệ tối đa trống gạt. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-black/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-black/#product",
     "name": "Mực In Laser & Photocopy FANSIPAN Toner Black",
+    "image": "https://huongsonco.com.vn/assets/images/products/84-muc-fansipan-tonner-black.jpg",
     "model": "Fansipan Black Toner",
     "sku": "FANSIPAN-BLACK",
     "category": "Mực in tương thích cao cấp",
     "description": "Mực tương thích FANSIPAN độc quyền Hương Sơn cho Toshiba, Ricoh, HP: độ đen đậm nét, mịn màng, bảo vệ tối đa trống gạt.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "FANSIPAN (Độc quyền Hương Sơn)"
@@ -177,14 +188,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/fansipan/muc-fansipan-toner-black/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

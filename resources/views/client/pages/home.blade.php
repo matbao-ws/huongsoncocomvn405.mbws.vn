@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Hương Sơn – Giải pháp thiết bị, in ấn, số hóa và dịch vụ cho Cơ quan Nhà nước – Giáo dục – Ngân hàng – Doanh nghiệp")
-@section('meta_description', "Hương Sơn cung cấp thiết bị, cho thuê, vật tư, kỹ thuật và giải pháp số hóa tài liệu cho Giáo dục, Cơ quan Nhà nước, Ngân hàng và Doanh nghiệp. Đại lý ủy quyền Duplo, Toshiba, Konica Minolta.")
+@section('title', "Công Ty Hương Sơn | Máy Photocopy, Máy In Siêu Tốc & Cho Thuê Thiết Bị")
+@section('meta_description', "Công ty Hương Sơn chuyên cung cấp và cho thuê máy photocopy Toshiba, Ricoh, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu cho trường học, cơ quan và doanh nghiệp.")
 @section('canonical', "https://huongsonco.com.vn/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"

@@ -45,6 +45,15 @@ def organization():
         "telephone": [h["label"] for h in SITE["hotlines"]],
         "email": SITE["email"],
         "openingHours": "Mo-Sa 08:00-17:30",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 20.9996,
+            "longitude": 105.8672,
+        },
+        "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+        "priceRange": "$$",
+        "currenciesAccepted": "VND",
+        "paymentAccepted": "Tiền mặt, Chuyển khoản",
         "areaServed": {"@type": "Country", "name": "Việt Nam"},
         "sameAs": [s["url"] for s in SITE["socials"] if s["url"] != "#"],
         "knowsAbout": [
@@ -108,15 +117,19 @@ def product(p, url):
                       "value": ", ".join(p["compatible_model"])})
     if p.get("source"):
         props.append({"@type": "PropertyValue", "name": "Xuất xứ / Nguồn", "value": p["source"]})
+    img = p.get("image")
+    img_url = abs_url(img) if img else abs_url(SITE["og_image"])
     obj = {
         "@context": "https://schema.org",
         "@type": "Product",
         "@id": abs_url(url) + "#product",
         "name": p["name"],
+        "image": img_url,
         "model": p["model"],
         "sku": p.get("sku", p["model"]),
         "category": p["category_label"],
         "description": p["summary"],
+        "itemCondition": "https://schema.org/NewCondition",
         "brand": {"@type": "Brand", "name": p["manufacturer"]},
         "manufacturer": {"@type": "Organization", "name": p["manufacturer"]},
         "url": abs_url(url),
@@ -126,12 +139,16 @@ def product(p, url):
         "offers": {
             "@type": "Offer",
             "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
             "priceCurrency": "VND",
+            "price": "0",
             "url": abs_url(url),
             "seller": {"@id": ORG_ID},
             "priceSpecification": {
                 "@type": "PriceSpecification",
-                "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá.",
+                "price": "0",
+                "priceCurrency": "VND",
+                "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng.",
             },
         },
     }

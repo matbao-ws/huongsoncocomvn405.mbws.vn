@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Camera vật thể trình chiếu đa năng AVer F17-8M – AVerVision F17-8M | Hương Sơn")
-@section('meta_description', "Camera vật thể AVer F17-8M cảm biến 8MP zoom 32x — công cụ hỗ trợ giảng dạy trực quan hàng đầu giúp giáo viên chấm chữa bài thi và minh họa thí nghiệm rõ n")
+@section('title', "Camera vật thể trình chiếu đa năng AVer F17-8M – AVerVision F17-8M Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Camera vật thể AVer F17-8M cảm biến 8MP zoom 32x — công cụ hỗ trợ giảng dạy trực quan hàng đầu giúp giáo viên chấm chữa bài thi và minh họa thí... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/#product",
     "name": "Camera vật thể trình chiếu đa năng AVer F17-8M",
+    "image": "https://huongsonco.com.vn/assets/images/products/camera-vat-the-aver.jpg",
     "model": "AVerVision F17-8M",
     "sku": "AVER-F178M",
     "category": "Thiết bị dạy học số",
     "description": "Camera vật thể AVer F17-8M cảm biến 8MP zoom 32x — công cụ hỗ trợ giảng dạy trực quan hàng đầu giúp giáo viên chấm chữa bài thi và minh họa thí nghiệm rõ nét đến từng chi tiết.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "AVer (Đài Loan)"
@@ -190,14 +201,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/camera-vat-the-aver-f17-8m/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

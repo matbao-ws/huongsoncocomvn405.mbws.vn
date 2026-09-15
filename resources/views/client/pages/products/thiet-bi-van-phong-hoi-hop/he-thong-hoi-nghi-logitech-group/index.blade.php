@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Hệ thống hội nghị truyền hình trực tuyến Logitech Group – Logitech GROUP ConferenceCam | Hương Sơn")
-@section('meta_description', "Logitech Group là hệ thống họp trực tuyến chuyên nghiệp chuẩn Full HD — âm thanh khử vọng trong trẻo, camera PTZ zoom 10x mượt mà, cắm là chạy qua USB.")
+@section('title', "Hệ thống hội nghị truyền hình trực tuyến Logitech Group – Logitech GROUP ConferenceCam Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Logitech Group là hệ thống họp trực tuyến chuyên nghiệp chuẩn Full HD — âm thanh khử vọng trong trẻo, camera PTZ zoom 10x mượt mà, cắm là chạy... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/he-thong-hoi-nghi-logitech-group/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/he-thong-hoi-nghi-logitech-group/#product",
     "name": "Hệ thống hội nghị truyền hình trực tuyến Logitech Group",
+    "image": "https://huongsonco.com.vn/assets/images/products/logitech-group.jpg",
     "model": "Logitech GROUP ConferenceCam",
     "sku": "LOGI-GROUP",
     "category": "Thiết bị họp trực tuyến",
     "description": "Logitech Group là hệ thống họp trực tuyến chuyên nghiệp chuẩn Full HD — âm thanh khử vọng trong trẻo, camera PTZ zoom 10x mượt mà, cắm là chạy qua USB.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Logitech (Thụy Sĩ)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/thiet-bi-van-phong-hoi-hop/he-thong-hoi-nghi-logitech-group/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Gói Cho Thuê Máy Photocopy Toshiba e-STUDIO 456 – e-STUDIO 456 | Hương Sơn")
-@section('meta_description', "Gói thuê máy photocopy 45 trang/phút giá rẻ trọn gói: miễn phí mực, linh kiện và kỹ thuật bảo trì định kỳ.")
+@section('title', "Gói Cho Thuê Máy Photocopy Toshiba e-STUDIO 456 Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
+@section('meta_description', "Gói thuê máy photocopy 45 trang/phút giá rẻ trọn gói: miễn phí mực, linh kiện và kỹ thuật bảo trì định kỳ. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-toshiba-e-studio-456/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-toshiba-e-studio-456/#product",
     "name": "Gói Cho Thuê Máy Photocopy Toshiba e-STUDIO 456",
+    "image": "https://huongsonco.com.vn/assets/images/products/98-cho-thue-toshiba-e-studio-456.jpg",
     "model": "e-STUDIO 456",
     "sku": "THUE-TOSH-456",
     "category": "Cho thuê thiết bị",
     "description": "Gói thuê máy photocopy 45 trang/phút giá rẻ trọn gói: miễn phí mực, linh kiện và kỹ thuật bảo trì định kỳ.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "Toshiba (Nhật Bản)"
@@ -185,14 +196,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/cho-thue-thiet-bi-giao-duc/cho-thue-toshiba-e-studio-456/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }

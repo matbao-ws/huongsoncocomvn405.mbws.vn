@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Màn hình tương tác thông minh ViewSonic IFP6550 4K (65 inch) – ViewSonic ViewBoard IFP6550-5 | Hương Sơn")
-@section('meta_description', "Màn hình tương tác ViewSonic IFP6550 65 inch 4K — trung tâm của lớp học số hiện đại, hỗ trợ cảm ứng đa điểm mượt mà và phần mềm giáo dục myViewBoard bản qu")
+@section('title', "Màn hình tương tác thông minh ViewSonic IFP6550 4K (65 inch) – ViewSonic ViewBoard IFP6550-5 Chính Hãng | Báo Giá | Hương Sơn")
+@section('meta_description', "Màn hình tương tác ViewSonic IFP6550 65 inch 4K — trung tâm của lớp học số hiện đại, hỗ trợ cảm ứng đa điểm mượt mà và phần mềm giáo dục... Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -41,6 +41,15 @@
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
+    "geo": {
+      "@@type": "GeoCoordinates",
+      "latitude": 20.9996,
+      "longitude": 105.8672
+    },
+    "hasMap": "https://maps.google.com/?q=27+ngo+523+Minh+Khai+Vinh+Tuy+Ha+Noi",
+    "priceRange": "$$",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": "Tiền mặt, Chuyển khoản",
     "areaServed": {
       "@@type": "Country",
       "name": "Việt Nam"
@@ -125,10 +134,12 @@
     "@@type": "Product",
     "@@id": "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/#product",
     "name": "Màn hình tương tác thông minh ViewSonic IFP6550 4K (65 inch)",
+    "image": "https://huongsonco.com.vn/assets/images/products/viewsonic-ifp6550.jpg",
     "model": "ViewSonic ViewBoard IFP6550-5",
     "sku": "VIEW-IFP6550",
     "category": "Thiết bị phòng học thông minh",
     "description": "Màn hình tương tác ViewSonic IFP6550 65 inch 4K — trung tâm của lớp học số hiện đại, hỗ trợ cảm ứng đa điểm mượt mà và phần mềm giáo dục myViewBoard bản quyền.",
+    "itemCondition": "https://schema.org/NewCondition",
     "brand": {
       "@@type": "Brand",
       "name": "ViewSonic (Hoa Kỳ)"
@@ -190,14 +201,18 @@
     "offers": {
       "@@type": "Offer",
       "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
       "priceCurrency": "VND",
+      "price": "0",
       "url": "https://huongsonco.com.vn/san-pham/thiet-bi-phong-hoc-giao-duc/man-hinh-tuong-tac-viewsonic-ifp6550/",
       "seller": {
         "@@id": "https://huongsonco.com.vn/#organization"
       },
       "priceSpecification": {
         "@@type": "PriceSpecification",
-        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá."
+        "price": "0",
+        "priceCurrency": "VND",
+        "description": "Giá theo cấu hình và số lượng — liên hệ nhận báo giá chính hãng."
       }
     }
   }
