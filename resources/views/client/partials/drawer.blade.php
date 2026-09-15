@@ -85,7 +85,3 @@
       <i class="fa-solid fa-arrow-up text-xs"></i>
     </button>
   </div>
-
-  <script src="/assets/js/main.js?v=2.0.1"></script>
-</body>
-</html>
