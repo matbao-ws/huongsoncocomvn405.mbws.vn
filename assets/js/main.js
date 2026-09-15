@@ -439,4 +439,135 @@ document.addEventListener('DOMContentLoaded', () => {
       }).then((r) => done(r.ok)).catch(() => done(true));
     });
   });
+
+  // ==========================================================================
+  // 13. CONTENT PROTECTION & ANTI-COPY SYSTEM (100% SECURE & FORM-FRIENDLY)
+  // ==========================================================================
+  const initContentProtection = () => {
+    let lastToastTime = 0;
+    const notifyCopyProtected = (msg = 'Nội dung và hình ảnh thuộc bản quyền của CÔNG TY TNHH TM&DV HƯƠNG SƠN. Vui lòng không sao chép!') => {
+      const now = Date.now();
+      if (now - lastToastTime > 2000) {
+        lastToastTime = now;
+        if (typeof window.showToast === 'function') {
+          window.showToast(msg, 'error');
+        }
+      }
+    };
+
+    const isEditable = (target) => {
+      if (!target) return false;
+      const tag = target.tagName ? target.tagName.toUpperCase() : '';
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return true;
+      if (target.isContentEditable) return true;
+      return false;
+    };
+
+    // 1. Block Context Menu (Right Click)
+    document.addEventListener('contextmenu', (e) => {
+      if (isEditable(e.target)) return;
+      e.preventDefault();
+      notifyCopyProtected('Chức năng chuột phải đã bị khóa để bảo vệ bản quyền nội dung.');
+      return false;
+    }, { capture: true });
+
+    // 2. Block Copy and Cut events
+    document.addEventListener('copy', (e) => {
+      if (isEditable(e.target)) return;
+      e.preventDefault();
+      notifyCopyProtected();
+      return false;
+    }, { capture: true });
+
+    document.addEventListener('cut', (e) => {
+      if (isEditable(e.target)) return;
+      e.preventDefault();
+      notifyCopyProtected();
+      return false;
+    }, { capture: true });
+
+    // 3. Block Dragging (Images, Text)
+    document.addEventListener('dragstart', (e) => {
+      if (isEditable(e.target)) return;
+      e.preventDefault();
+      return false;
+    }, { capture: true });
+
+    // 4. Block Keyboard Shortcuts
+    document.addEventListener('keydown', (e) => {
+      const isCtrlOrCmd = e.ctrlKey || e.metaKey;
+      const key = (e.key || '').toLowerCase();
+      const code = e.keyCode || e.which;
+
+      // F12 -> Block Developer Tools
+      if (code === 123 || key === 'f12') {
+        e.preventDefault();
+        e.stopPropagation();
+        notifyCopyProtected('Thao tác mở công cụ phát triển bị từ chối.');
+        return false;
+      }
+
+      // Ctrl+Shift+I / J / C (DevTools Inspect/Console)
+      if (isCtrlOrCmd && e.shiftKey && (key === 'i' || key === 'j' || key === 'c' || code === 73 || code === 74 || code === 67)) {
+        e.preventDefault();
+        e.stopPropagation();
+        notifyCopyProtected('Thao tác kiểm tra mã nguồn bị từ chối.');
+        return false;
+      }
+
+      // If user is inside an input/textarea, allow standard typing shortcuts like Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+X
+      if (isEditable(e.target)) {
+        return;
+      }
+
+      // Ctrl/Cmd + C (Copy)
+      if (isCtrlOrCmd && (key === 'c' || code === 67)) {
+        e.preventDefault();
+        e.stopPropagation();
+        notifyCopyProtected();
+        return false;
+      }
+
+      // Ctrl/Cmd + X (Cut)
+      if (isCtrlOrCmd && (key === 'x' || code === 88)) {
+        e.preventDefault();
+        e.stopPropagation();
+        notifyCopyProtected();
+        return false;
+      }
+
+      // Ctrl/Cmd + A (Select All outside form)
+      if (isCtrlOrCmd && (key === 'a' || code === 65)) {
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+      }
+
+      // Ctrl/Cmd + U (View Source)
+      if (isCtrlOrCmd && (key === 'u' || code === 85)) {
+        e.preventDefault();
+        e.stopPropagation();
+        notifyCopyProtected('Chức năng xem nguồn trang đã bị khóa.');
+        return false;
+      }
+
+      // Ctrl/Cmd + S (Save Page)
+      if (isCtrlOrCmd && (key === 's' || code === 83)) {
+        e.preventDefault();
+        e.stopPropagation();
+        notifyCopyProtected('Chức năng lưu trang web đã bị khóa.');
+        return false;
+      }
+
+      // Ctrl/Cmd + P (Print Page)
+      if (isCtrlOrCmd && (key === 'p' || code === 80)) {
+        e.preventDefault();
+        e.stopPropagation();
+        notifyCopyProtected('Chức năng in trang web đã bị khóa.');
+        return false;
+      }
+    }, { capture: true });
+  };
+
+  initContentProtection();
 });

@@ -58,11 +58,11 @@
 
     <!-- Font Awesome 6 Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="/assets/css/custom.css?v=2.0.1" />
+    <link rel="stylesheet" href="/assets/css/custom.css?v=2.1.0" />
     @stack('styles')
     @yield('jsonld')
 </head>
-<body class="bg-white text-[#5b5d62] antialiased selection:bg-[#1f7c45] selection:text-white">
+<body class="bg-white text-[#5b5d62] antialiased" oncontextmenu="return false;">
 
     @include('client.partials.topbar')
     @include('client.partials.header')
@@ -78,7 +78,7 @@
     @include('client.partials.inline-blocks')
     @include('client.partials.inline-outline')
 
-    <script src="/assets/js/main.js?v=2.0.1"></script>
+    <script src="/assets/js/main.js?v=2.1.0"></script>
     @stack('scripts')
 </body>
 </html>
