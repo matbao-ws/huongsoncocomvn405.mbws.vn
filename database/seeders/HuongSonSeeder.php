@@ -363,7 +363,7 @@ class HuongSonSeeder extends Seeder
                 'hotline_tech' => '0912.304.058',
                 'hotlines' => '091.113.8583 (Hotline) · 0912.304.058 (Kỹ thuật) · 024 3972 9484',
                 'email' => 'info@huongsonco.com.vn',
-                'zalo' => 'https://zalo.me/0911138583',
+                'zalo' => 'https://zalo.me/0913237302',
                 'address' => 'Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội',
                 'address_legal' => 'Số 2, ngõ 67 phố Đức Giang, tổ 21, phường Việt Hưng, quận Long Biên, TP. Hà Nội',
                 'mst' => '0102759269',

@@ -47,7 +47,7 @@
     },
     "sameAs": [
       "https://www.facebook.com/huonsonco/",
-      "https://zalo.me/0911138583",
+      "https://zalo.me/0913237302",
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [

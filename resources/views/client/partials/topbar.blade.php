@@ -25,7 +25,7 @@
         <a href="/ve-huong-son/tai-nguyen/" class="hover:text-[#1A9900] transition">
           <i class="fa-solid fa-download text-[#1A9900] mr-1.5"></i>Hồ sơ năng lực
         </a>
-        <div class="flex items-center space-x-3"><a href="https://www.facebook.com/huonsonco/" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Facebook"><i class="fa-brands fa-facebook-f text-xs"></i></a><a href="https://zalo.me/0911138583" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Zalo"><i class="fa-solid fa-comment-dots text-xs"></i></a><a href="https://www.messenger.com/t/thuan.nguyencong.330" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Messenger"><i class="fa-brands fa-facebook-messenger text-xs"></i></a></div>
+        <div class="flex items-center space-x-3"><a href="https://www.facebook.com/huonsonco/" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Facebook"><i class="fa-brands fa-facebook-f text-xs"></i></a><a href="https://zalo.me/0913237302" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Zalo"><i class="fa-solid fa-comment-dots text-xs"></i></a><a href="https://www.messenger.com/t/thuan.nguyencong.330" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Messenger"><i class="fa-brands fa-facebook-messenger text-xs"></i></a></div>
       </div>
     </div>
   </div>

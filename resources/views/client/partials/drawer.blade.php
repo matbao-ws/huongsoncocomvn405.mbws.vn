@@ -78,7 +78,7 @@
     <a href="tel:0911138583" data-ga="click_hotline" class="pointer-events-auto w-12 h-12 rounded-full bg-[#1A9900] hover:bg-[#147700] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-phone" title="Gọi Hotline: 091.113.8583">
       <i class="fa-solid fa-phone text-lg"></i>
     </a>
-    <a href="https://zalo.me/0911138583" target="_blank" rel="noopener" data-ga="click_zalo" class="pointer-events-auto w-12 h-12 rounded-full bg-[#0068FF] hover:bg-[#0052cc] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-zalo" title="Chat Zalo: 091.113.8583">
+    <a href="https://zalo.me/0913237302" target="_blank" rel="noopener" data-ga="click_zalo" class="pointer-events-auto w-12 h-12 rounded-full bg-[#0068FF] hover:bg-[#0052cc] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-zalo" title="Chat Zalo: 0913 237 302">
       <span class="font-bold text-xs">Zalo</span>
     </a>
     <button id="back-to-top" class="pointer-events-auto w-10 h-10 rounded-full bg-gray-900/90 hover:bg-[#1A9900] text-white flex items-center justify-center shadow-md transition-all duration-300 opacity-0 invisible translate-y-4 hover:scale-110" aria-label="Lên đầu trang">

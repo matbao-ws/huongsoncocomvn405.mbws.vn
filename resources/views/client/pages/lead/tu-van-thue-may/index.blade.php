@@ -47,7 +47,7 @@
     },
     "sameAs": [
       "https://www.facebook.com/huonsonco/",
-      "https://zalo.me/0911138583",
+      "https://zalo.me/0913237302",
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [
@@ -177,7 +177,7 @@
               <span>T2 – T6: sáng 8h00–11h30, chiều 13h30–17h00</span>
             </li>
           </ul>
-          <a href="https://zalo.me/0911138583" target="_blank" rel="noopener" data-ga="click_zalo" class="mt-6 bg-[#0068ff] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 w-full text-center block transition hover:opacity-90">
+          <a href="https://zalo.me/0913237302" target="_blank" rel="noopener" data-ga="click_zalo" class="mt-6 bg-[#0068ff] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 w-full text-center block transition hover:opacity-90">
             <i class="fa-solid fa-comment-dots mr-2"></i>Chat Zalo
           </a>
         </div>

@@ -280,7 +280,7 @@ def footer():
       </div>
 
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[14px] text-gray-500">
-        <p>© Copyright 2026 {SITE['legal_name']} · Thiết kế web bởi <a href="https://www.matbao.ws/" target="_blank" rel="noopener" class="text-[{BRAND}] font-medium hover:underline">Mắt Bão WS</a></p>
+        <p>© Copyright 2026 {SITE['legal_name']}</p>
         <div class="flex items-center space-x-6 mt-4 sm:mt-0">
           <a href="/dich-vu/" class="hover:text-[{BRAND}] transition">Dịch vụ</a>
           <span class="text-gray-400">•</span>
