@@ -31,6 +31,10 @@ def write(url, html):
 def write_raw(name, text):
     with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f:
         f.write(text)
+    pub_dir = os.path.join(ROOT, "public")
+    if os.path.exists(pub_dir):
+        with open(os.path.join(pub_dir, name), "w", encoding="utf-8") as f:
+            f.write(text)
 
 
 # ------------------------------------------------------------------ hạ tầng SEO/AI

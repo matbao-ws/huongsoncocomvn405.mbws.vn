@@ -38,6 +38,7 @@ Route::get('ve-huong-son/tin-tuc', [AboutController::class, 'subpage'])->default
 Route::get('tin-tuc', [AboutController::class, 'subpage'])->defaults('slug', 'tin-tuc')->name('news.index');
 Route::get('ve-huong-son/tin-tuc/{postSlug}', [AboutController::class, 'postDetail'])->name('about.post.show');
 Route::get('tin-tuc/{postSlug}', [AboutController::class, 'postDetail'])->name('post.show');
+Route::get('ve-huong-son/kien-thuc/{slug}', [AboutController::class, 'knowledgeArticle'])->name('about.knowledge.show');
 Route::get('ve-huong-son/{slug}', [AboutController::class, 'subpage'])->name('about.subpage');
 
 // Tools

@@ -62,5 +62,15 @@ class AboutController extends Controller
 
         return view('client.pages.about.tin-tuc.show', compact('post', 'relatedPosts'));
     }
+
+    public function knowledgeArticle(Request $request, string $slug): View
+    {
+        $slug = trim($slug, '/');
+        $viewName = 'client.pages.about.kien-thuc.' . $slug . '.index';
+        if (view()->exists($viewName)) {
+            return view($viewName);
+        }
+        abort(404);
+    }
 }
 
