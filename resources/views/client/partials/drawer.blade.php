@@ -47,9 +47,12 @@
       </div>
       <a href="/nhan-tu-van/" class="block text-gray-800 font-semibold py-2 border-b border-gray-100 hover:text-[#1A9900]">NHẬN TƯ VẤN</a>
     </div>
-    <div class="p-6 border-t border-gray-100 bg-gray-50">
-      <a href="tel:02439729484" data-ga="click_hotline" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block">
-        <i class="fa-solid fa-phone mr-2"></i> 024 3972 9484
+    <div class="p-6 border-t border-gray-100 bg-gray-50 space-y-2.5">
+      <a href="tel:0911138583" data-ga="click_hotline" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block rounded">
+        <i class="fa-solid fa-phone mr-2"></i> Hotline: 091.113.8583
+      </a>
+      <a href="tel:0912304058" data-ga="click_hotline" class="bg-[#10203C] hover:bg-[#181923] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block rounded">
+        <i class="fa-solid fa-screwdriver-wrench mr-2"></i> Kỹ thuật: 0912.304.058
       </a>
     </div>
   </div>
@@ -72,10 +75,10 @@
 
   <!-- FLOATING BUTTONS -->
   <div class="fixed bottom-6 right-6 z-40 flex flex-col items-center space-y-3 pointer-events-none">
-    <a href="tel:02439729484" data-ga="click_hotline" class="pointer-events-auto w-12 h-12 rounded-full bg-[#1A9900] hover:bg-[#147700] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-phone" title="Gọi ngay: 024 3972 9484">
+    <a href="tel:0911138583" data-ga="click_hotline" class="pointer-events-auto w-12 h-12 rounded-full bg-[#1A9900] hover:bg-[#147700] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-phone" title="Gọi Hotline: 091.113.8583">
       <i class="fa-solid fa-phone text-lg"></i>
     </a>
-    <a href="https://zalo.me/0913237302" target="_blank" rel="noopener" data-ga="click_zalo" class="pointer-events-auto w-12 h-12 rounded-full bg-[#0068FF] hover:bg-[#0052cc] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-zalo" title="Chat Zalo">
+    <a href="https://zalo.me/0911138583" target="_blank" rel="noopener" data-ga="click_zalo" class="pointer-events-auto w-12 h-12 rounded-full bg-[#0068FF] hover:bg-[#0052cc] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-zalo" title="Chat Zalo: 091.113.8583">
       <span class="font-bold text-xs">Zalo</span>
     </a>
     <button id="back-to-top" class="pointer-events-auto w-10 h-10 rounded-full bg-gray-900/90 hover:bg-[#1A9900] text-white flex items-center justify-center shadow-md transition-all duration-300 opacity-0 invisible translate-y-4 hover:scale-110" aria-label="Lên đầu trang">

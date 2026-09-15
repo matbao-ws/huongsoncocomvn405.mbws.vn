@@ -1,9 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
-  <rect width="300" height="80" rx="10" fill="#ffffff" fill-opacity="0.05"/>
-  <g transform="translate(15, 16)">
-    <polygon points="25,48 42,12 59,48" fill="#1A9900"/>
-    <polygon points="38,48 50,22 62,48" fill="#10203C"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="fsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A9900"/>
+      <stop offset="100%" stop-color="#127000"/>
+    </linearGradient>
+  </defs>
+  <!-- Mountain Emblem -->
+  <g transform="translate(6, 4)">
+    <!-- Back peak -->
+    <polygon points="24,46 36,18 48,46" fill="#CBD5E1"/>
+    <!-- Main Peak (Fansipan Summit) -->
+    <polygon points="6,46 22,6 38,46" fill="url(#fsGrad)"/>
+    <!-- Shadow slope -->
+    <polygon points="22,6 29,24 38,46 22,46" fill="#147700" opacity="0.4"/>
+    <!-- Front Right Peak -->
+    <polygon points="28,46 42,16 54,46" fill="#10203C"/>
+    <!-- Front accent -->
+    <polygon points="36,46 42,28 48,46" fill="#1E3A8A"/>
   </g>
-  <text x="180" y="47" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="34" fill="#10203C" text-anchor="middle" letter-spacing="3">FANSIPAN</text>
-  <text x="180" y="64" font-family="Arial, sans-serif" font-weight="700" font-size="10" fill="#1A9900" text-anchor="middle" letter-spacing="2">TONER &amp; CONSUMABLES</text>
+  <!-- Text Brand -->
+  <g transform="translate(70, 0)">
+    <text x="0" y="34" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="27" fill="#10203C" letter-spacing="2.5">FANSIPAN</text>
+    <text x="2" y="49" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="8.5" fill="#1A9900" letter-spacing="3.5">TONER &amp; CONSUMABLES</text>
+  </g>
 </svg>

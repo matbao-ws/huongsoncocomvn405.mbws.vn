@@ -36,7 +36,7 @@
     },
     "telephone": [
       "024 3972 9484",
-      "0913 237 302",
+      "091.113.8583",
       "091 113 8583"
     ],
     "email": "info@@huongsonco.com.vn",
@@ -47,7 +47,7 @@
     },
     "sameAs": [
       "https://www.facebook.com/huonsonco/",
-      "https://zalo.me/0913237302",
+      "https://zalo.me/0911138583",
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [

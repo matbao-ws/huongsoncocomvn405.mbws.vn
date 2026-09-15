@@ -123,7 +123,13 @@ def topbar():
         </div>
         <div class="flex items-center space-x-2 hover:text-[{BRAND}] transition">
           <i class="fa-solid fa-phone text-[{BRAND}]"></i>
-          <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline">{SITE['hotline_primary']}</a>
+          <span>Hotline:</span>
+          <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="font-bold text-white hover:text-[{BRAND}]">{SITE['hotline_primary']}</a>
+        </div>
+        <div class="flex items-center space-x-2 hover:text-[{BRAND}] transition">
+          <i class="fa-solid fa-screwdriver-wrench text-[{BRAND}]"></i>
+          <span>Kỹ thuật:</span>
+          <a href="tel:{SITE['hotline_tech_tel']}" data-ga="click_hotline" class="font-bold text-white hover:text-[{BRAND}]">{SITE['hotline_tech']}</a>
         </div>
       </div>
       <div class="flex items-center space-x-6">
@@ -210,12 +216,28 @@ def footer():
 
     products = [(c["label"], c["url"]) for c in NAV[0]["children"][:6]]
     solutions = [(c["label"], c["url"]) for c in NAV[1]["children"][:6]]
-    phones = "".join(
-        f'''<li class="flex items-center space-x-3">
-              <i class="fa-solid fa-phone text-[{BRAND}] text-sm flex-shrink-0"></i>
+    phone_items = []
+    for h in SITE["hotlines"]:
+        icon = "fa-screwdriver-wrench" if "Kỹ thuật" in h["note"] or "kỹ thuật" in h["note"] else "fa-phone"
+        phone_items.append(f'''<li class="flex items-center space-x-3">
+              <i class="fa-solid {icon} text-[{BRAND}] text-sm flex-shrink-0"></i>
               <a href="tel:{h["tel"]}" data-ga="click_hotline" class="hover:text-[{BRAND}] transition font-semibold text-gray-800">{h["label"]}</a>
               <span class="text-gray-500 text-[13px]">({h["note"]})</span>
-            </li>''' for h in SITE["hotlines"])
+            </li>''')
+    phones = "".join(phone_items)
+
+    brand_items = [
+        ("DUPLO", "/assets/images/brands/duplo.svg", "/san-pham/may-in-nhan-ban-toc-do-cao/", "h-4 w-auto object-contain max-w-[75px]"),
+        ("TOSHIBA", "/assets/images/brands/toshiba.svg", "/san-pham/photocopy-may-da-chuc-nang/", "h-3.5 w-auto object-contain max-w-[78px]"),
+        ("RICOH", "/assets/images/brands/ricoh.svg", "/san-pham/may-scan-so-hoa/", "h-3.5 w-auto object-contain max-w-[72px]"),
+        ("KONICA MINOLTA", "/assets/images/brands/konica-minolta.svg", "/san-pham/photocopy-may-da-chuc-nang/", "h-4 w-auto object-contain max-w-[105px]"),
+        ("HP", "/assets/images/brands/hp.svg", "/san-pham/may-in-laser/", "h-5 w-auto object-contain max-w-[36px]"),
+        ("FANSIPAN", "/assets/images/brands/fansipan.svg", "/san-pham/fansipan/", "h-4.5 w-auto object-contain max-w-[90px]"),
+    ]
+    brand_badges = "".join(
+        f'<a href="{url}" title="{name}" class="h-8 px-2.5 py-1 bg-white border border-gray-200 rounded flex items-center justify-center hover:border-[{BRAND}] hover:shadow-xs transition">'
+        f'<img src="{logo}" alt="{name}" class="{cls}" />'
+        f'</a>' for name, logo, url, cls in brand_items)
 
     return f"""
   <!-- FOOTER -->
@@ -230,8 +252,8 @@ def footer():
             {SITE['legal_name']} — {SITE['positioning']}.
           </p>
           <p class="text-[13.5px] text-gray-500">Mã số thuế: {SITE['mst']} · Thành lập {SITE['founded']}</p>
-          <div class="flex flex-wrap gap-2 pt-1">
-            {"".join(f'<span class="text-[11px] font-bold tracking-wider text-gray-700 border border-gray-300 bg-white px-2.5 py-1">{b}</span>' for b in SITE["brands"])}
+          <div class="flex flex-wrap items-center gap-2 pt-1">
+            {brand_badges}
           </div>
         </div>
 {col("Sản phẩm", products, 2)}
@@ -303,9 +325,12 @@ def drawer():
     </div>
     <div class="p-6 flex-1 overflow-y-auto space-y-3">{items}
     </div>
-    <div class="p-6 border-t border-gray-100 bg-gray-50">
-      <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block">
-        <i class="fa-solid fa-phone mr-2"></i> {SITE['hotline_primary']}
+    <div class="p-6 border-t border-gray-100 bg-gray-50 space-y-2.5">
+      <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block rounded">
+        <i class="fa-solid fa-phone mr-2"></i> Hotline: {SITE['hotline_primary']}
+      </a>
+      <a href="tel:{SITE['hotline_tech_tel']}" data-ga="click_hotline" class="bg-[#10203C] hover:bg-[#181923] text-white font-bold text-xs uppercase tracking-wider py-3 w-full text-center block rounded">
+        <i class="fa-solid fa-screwdriver-wrench mr-2"></i> Kỹ thuật: {SITE['hotline_tech']}
       </a>
     </div>
   </div>
@@ -328,7 +353,7 @@ def drawer():
 
   <!-- FLOATING BUTTONS -->
   <div class="fixed bottom-6 right-6 z-40 flex flex-col items-center space-y-3 pointer-events-none">
-    <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="pointer-events-auto w-12 h-12 rounded-full bg-[{BRAND}] hover:bg-[#147700] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-phone" title="Gọi ngay: {SITE['hotline_primary']}">
+    <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="pointer-events-auto w-12 h-12 rounded-full bg-[{BRAND}] hover:bg-[#147700] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-phone" title="Gọi Hotline: {SITE['hotline_primary']}">
       <i class="fa-solid fa-phone text-lg"></i>
     </a>
     <a href="{SITE['zalo']}" target="_blank" rel="noopener" data-ga="click_zalo" class="pointer-events-auto w-12 h-12 rounded-full bg-[#0068FF] hover:bg-[#0052cc] text-white flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 animate-pulse-zalo" title="Chat Zalo">

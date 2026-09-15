@@ -35,9 +35,9 @@
       "addressCountry": "VN"
     },
     "telephone": [
-      "024 3972 9484",
-      "0913 237 302",
-      "091 113 8583"
+      "091.113.8583",
+      "0912.304.058",
+      "024 3972 9484"
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
@@ -47,7 +47,7 @@
     },
     "sameAs": [
       "https://www.facebook.com/huonsonco/",
-      "https://zalo.me/0913237302",
+      "https://zalo.me/0911138583",
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [
@@ -179,7 +179,7 @@
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Trụ sở đăng ký kinh doanh</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Số 2, ngõ 67 phố Đức Giang, tổ 21, phường Việt Hưng, quận Long Biên, TP. Hà Nội</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Văn phòng giao dịch</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Tài khoản ngân hàng</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">0531100329005 – Ngân hàng TMCP Quân Đội (MB Bank), chi nhánh Long Biên</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Điện thoại</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">024 3972 9484 – 0913 237 302 – 091 113 8583</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Điện thoại</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">091.113.8583 – 0912.304.058 – 024 3972 9484</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Email</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">info@@huongsonco.com.vn</td></tr>
           </tbody>
         </table>
@@ -196,8 +196,8 @@
       <div class="flex flex-wrap items-center gap-4 flex-shrink-0">
         <a href="/ve-huong-son/nang-luc/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem hồ sơ năng lực</a>
         <a href="/du-an/" class="border border-gray-500 hover:border-[#1A9900] hover:text-[#1A9900] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem dự án</a>
-        <a href="tel:02439729484" data-ga="click_hotline" class="text-white font-bold text-sm hover:text-[#1A9900] transition">
-          <i class="fa-solid fa-phone text-[#1A9900] mr-2"></i>024 3972 9484
+        <a href="tel:0911138583" data-ga="click_hotline" class="text-white font-bold text-sm hover:text-[#1A9900] transition">
+          <i class="fa-solid fa-phone text-[#1A9900] mr-2"></i>091.113.8583
         </a>
       </div>
     </div>

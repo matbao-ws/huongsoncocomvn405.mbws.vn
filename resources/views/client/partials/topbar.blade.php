@@ -12,14 +12,20 @@
         </div>
         <div class="flex items-center space-x-2 hover:text-[#1A9900] transition">
           <i class="fa-solid fa-phone text-[#1A9900]"></i>
-          <a href="tel:02439729484" data-ga="click_hotline">024 3972 9484</a>
+          <span>Hotline:</span>
+          <a href="tel:0911138583" data-ga="click_hotline" class="font-bold text-white hover:text-[#1A9900]">091.113.8583</a>
+        </div>
+        <div class="flex items-center space-x-2 hover:text-[#1A9900] transition">
+          <i class="fa-solid fa-screwdriver-wrench text-[#1A9900]"></i>
+          <span>Kỹ thuật:</span>
+          <a href="tel:0912304058" data-ga="click_hotline" class="font-bold text-white hover:text-[#1A9900]">0912.304.058</a>
         </div>
       </div>
       <div class="flex items-center space-x-6">
         <a href="/ve-huong-son/tai-nguyen/" class="hover:text-[#1A9900] transition">
           <i class="fa-solid fa-download text-[#1A9900] mr-1.5"></i>Hồ sơ năng lực
         </a>
-        <div class="flex items-center space-x-3"><a href="https://www.facebook.com/huonsonco/" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Facebook"><i class="fa-brands fa-facebook-f text-xs"></i></a><a href="https://zalo.me/0913237302" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Zalo"><i class="fa-solid fa-comment-dots text-xs"></i></a><a href="https://www.messenger.com/t/thuan.nguyencong.330" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Messenger"><i class="fa-brands fa-facebook-messenger text-xs"></i></a></div>
+        <div class="flex items-center space-x-3"><a href="https://www.facebook.com/huonsonco/" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Facebook"><i class="fa-brands fa-facebook-f text-xs"></i></a><a href="https://zalo.me/0911138583" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Zalo"><i class="fa-solid fa-comment-dots text-xs"></i></a><a href="https://www.messenger.com/t/thuan.nguyencong.330" class="w-7 h-7 bg-gray-800 flex items-center justify-center hover:bg-[#1A9900] hover:text-white transition" title="Messenger"><i class="fa-brands fa-facebook-messenger text-xs"></i></a></div>
       </div>
     </div>
   </div>

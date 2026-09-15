@@ -153,15 +153,21 @@
             </div>
           </div>
 
-          <div class="mt-6 flex flex-col gap-3">
+          <div class="mt-6 flex flex-col gap-2.5">
             <a href="/nhan-tu-van/bao-gia/?product={{ urlencode($product->name) }}" 
                class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider py-3.5 px-6 rounded transition text-center shadow-md">
               <i class="fa-solid fa-file-invoice-dollar mr-2"></i> Nhận báo giá &amp; ưu đãi dự án
             </a>
-            <a href="tel:0913237302" 
-               class="border border-[#10203C] text-[#10203C] hover:bg-[#10203C] hover:text-white font-bold text-xs uppercase tracking-wider py-3 px-6 rounded transition text-center">
-              <i class="fa-solid fa-phone mr-2"></i> Hotline kỹ thuật: 0913 237 302
-            </a>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <a href="tel:0911138583" 
+                 class="border border-[#1A9900] text-[#1A9900] hover:bg-[#1A9900] hover:text-white font-bold text-xs uppercase tracking-wider py-2.5 px-3 rounded transition text-center flex items-center justify-center">
+                <i class="fa-solid fa-phone mr-1.5"></i> Hotline: 091.113.8583
+              </a>
+              <a href="tel:0912304058" 
+                 class="border border-[#10203C] text-[#10203C] hover:bg-[#10203C] hover:text-white font-bold text-xs uppercase tracking-wider py-2.5 px-3 rounded transition text-center flex items-center justify-center">
+                <i class="fa-solid fa-wrench mr-1.5"></i> Kỹ thuật: 0912.304.058
+              </a>
+            </div>
           </div>
         </div>
       </div>

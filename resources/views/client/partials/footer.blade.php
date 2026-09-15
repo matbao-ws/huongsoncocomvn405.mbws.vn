@@ -10,8 +10,25 @@
             CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN — Giải pháp thiết bị, in ấn, số hóa và dịch vụ cho Cơ quan Nhà nước – Giáo dục – Ngân hàng – Doanh nghiệp.
           </p>
           <p class="text-[13.5px] text-gray-500">Mã số thuế: 0102759269 · Thành lập 01/06/2008</p>
-          <div class="flex flex-wrap gap-2 pt-1">
-            <span class="text-[11px] font-bold tracking-wider text-gray-700 border border-gray-300 bg-white px-2.5 py-1">DUPLO</span><span class="text-[11px] font-bold tracking-wider text-gray-700 border border-gray-300 bg-white px-2.5 py-1">TOSHIBA</span><span class="text-[11px] font-bold tracking-wider text-gray-700 border border-gray-300 bg-white px-2.5 py-1">RICOH</span><span class="text-[11px] font-bold tracking-wider text-gray-700 border border-gray-300 bg-white px-2.5 py-1">KONICA MINOLTA</span><span class="text-[11px] font-bold tracking-wider text-gray-700 border border-gray-300 bg-white px-2.5 py-1">HP</span><span class="text-[11px] font-bold tracking-wider text-gray-700 border border-gray-300 bg-white px-2.5 py-1">FANSIPAN</span>
+          <div class="flex flex-wrap items-center gap-2 pt-1">
+            <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" title="DUPLO" class="h-8 px-2.5 py-1 bg-white border border-gray-200 rounded flex items-center justify-center hover:border-[#1A9900] hover:shadow-xs transition">
+              <img src="/assets/images/brands/duplo.svg" alt="DUPLO" class="h-4 w-auto object-contain max-w-[75px]" />
+            </a>
+            <a href="/san-pham/photocopy-may-da-chuc-nang/" title="TOSHIBA" class="h-8 px-2.5 py-1 bg-white border border-gray-200 rounded flex items-center justify-center hover:border-[#1A9900] hover:shadow-xs transition">
+              <img src="/assets/images/brands/toshiba.svg" alt="TOSHIBA" class="h-3.5 w-auto object-contain max-w-[78px]" />
+            </a>
+            <a href="/san-pham/may-scan-so-hoa/" title="RICOH" class="h-8 px-2.5 py-1 bg-white border border-gray-200 rounded flex items-center justify-center hover:border-[#1A9900] hover:shadow-xs transition">
+              <img src="/assets/images/brands/ricoh.svg" alt="RICOH" class="h-3.5 w-auto object-contain max-w-[72px]" />
+            </a>
+            <a href="/san-pham/photocopy-may-da-chuc-nang/" title="KONICA MINOLTA" class="h-8 px-2.5 py-1 bg-white border border-gray-200 rounded flex items-center justify-center hover:border-[#1A9900] hover:shadow-xs transition">
+              <img src="/assets/images/brands/konica-minolta.svg" alt="KONICA MINOLTA" class="h-4 w-auto object-contain max-w-[105px]" />
+            </a>
+            <a href="/san-pham/may-in-laser/" title="HP" class="h-8 px-2 py-1 bg-white border border-gray-200 rounded flex items-center justify-center hover:border-[#1A9900] hover:shadow-xs transition">
+              <img src="/assets/images/brands/hp.svg" alt="HP" class="h-5 w-auto object-contain max-w-[36px]" />
+            </a>
+            <a href="/san-pham/fansipan/" title="FANSIPAN" class="h-8 px-2.5 py-1 bg-white border border-gray-200 rounded flex items-center justify-center hover:border-[#1A9900] hover:shadow-xs transition">
+              <img src="/assets/images/brands/fansipan.svg" alt="FANSIPAN" class="h-4.5 w-auto object-contain max-w-[90px]" />
+            </a>
           </div>
         </div>
 
@@ -33,16 +50,18 @@
             </li>
             <li class="flex items-center space-x-3">
               <i class="fa-solid fa-phone text-[#1A9900] text-sm flex-shrink-0"></i>
+              <a href="tel:0911138583" data-ga="click_hotline" class="hover:text-[#1A9900] transition font-semibold text-gray-800">091.113.8583</a>
+              <span class="text-gray-500 text-[13px]">(Hotline công ty)</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fa-solid fa-screwdriver-wrench text-[#1A9900] text-sm flex-shrink-0"></i>
+              <a href="tel:0912304058" data-ga="click_hotline" class="hover:text-[#1A9900] transition font-semibold text-gray-800">0912.304.058</a>
+              <span class="text-gray-500 text-[13px]">(Kỹ thuật)</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fa-solid fa-phone text-[#1A9900] text-sm flex-shrink-0"></i>
               <a href="tel:02439729484" data-ga="click_hotline" class="hover:text-[#1A9900] transition font-semibold text-gray-800">024 3972 9484</a>
               <span class="text-gray-500 text-[13px]">(Văn phòng)</span>
-            </li><li class="flex items-center space-x-3">
-              <i class="fa-solid fa-phone text-[#1A9900] text-sm flex-shrink-0"></i>
-              <a href="tel:0913237302" data-ga="click_hotline" class="hover:text-[#1A9900] transition font-semibold text-gray-800">0913 237 302</a>
-              <span class="text-gray-500 text-[13px]">(Kinh doanh)</span>
-            </li><li class="flex items-center space-x-3">
-              <i class="fa-solid fa-phone text-[#1A9900] text-sm flex-shrink-0"></i>
-              <a href="tel:0911138583" data-ga="click_hotline" class="hover:text-[#1A9900] transition font-semibold text-gray-800">091 113 8583</a>
-              <span class="text-gray-500 text-[13px]">(Kỹ thuật)</span>
             </li>
             <li class="flex items-center space-x-3">
               <i class="fa-regular fa-clock text-[#1A9900] text-sm flex-shrink-0"></i>

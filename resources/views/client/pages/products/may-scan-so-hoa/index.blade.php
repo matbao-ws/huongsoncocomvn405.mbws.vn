@@ -35,9 +35,9 @@
       "addressCountry": "VN"
     },
     "telephone": [
-      "024 3972 9484",
-      "0913 237 302",
-      "091 113 8583"
+      "091.113.8583",
+      "0912.304.058",
+      "024 3972 9484"
     ],
     "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
@@ -47,7 +47,7 @@
     },
     "sameAs": [
       "https://www.facebook.com/huonsonco/",
-      "https://zalo.me/0913237302",
+      "https://zalo.me/0911138583",
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [
@@ -923,8 +923,8 @@
             <button type="submit" data-ga="generate_lead" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-9 py-4 transition w-full sm:w-auto">
               GỬI YÊU CẦU
             </button>
-            <a href="tel:02439729484" data-ga="click_hotline" class="text-[14.5px] font-bold text-[#181923] hover:text-[#1A9900] transition">
-              <i class="fa-solid fa-phone text-[#1A9900] mr-2"></i>Hoặc gọi 024 3972 9484
+            <a href="tel:0911138583" data-ga="click_hotline" class="text-[14.5px] font-bold text-[#181923] hover:text-[#1A9900] transition">
+              <i class="fa-solid fa-phone text-[#1A9900] mr-2"></i>Hoặc gọi 091.113.8583
             </a>
           </div>
         </form>
@@ -943,8 +943,8 @@
       <div class="flex flex-wrap items-center gap-4 flex-shrink-0">
         <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Yêu cầu báo giá</a>
         <a href="/san-pham/" class="border border-gray-500 hover:border-[#1A9900] hover:text-[#1A9900] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem tất cả sản phẩm</a>
-        <a href="tel:02439729484" data-ga="click_hotline" class="text-white font-bold text-sm hover:text-[#1A9900] transition">
-          <i class="fa-solid fa-phone text-[#1A9900] mr-2"></i>024 3972 9484
+        <a href="tel:0911138583" data-ga="click_hotline" class="text-white font-bold text-sm hover:text-[#1A9900] transition">
+          <i class="fa-solid fa-phone text-[#1A9900] mr-2"></i>091.113.8583
         </a>
       </div>
     </div>

@@ -190,8 +190,8 @@
       <a href="/nhan-tu-van/bao-gia/" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 rounded transition shadow-lg">
         <i class="fa-solid fa-file-invoice-dollar mr-2"></i> Yêu cầu báo giá
       </a>
-      <a href="tel:02439729484" class="border border-gray-400 hover:border-white text-white font-bold text-xs uppercase tracking-wider px-7 py-4 rounded transition">
-        <i class="fa-solid fa-phone mr-2 text-[#5eb74c]"></i> 024 3972 9484
+      <a href="tel:0911138583" class="border border-gray-400 hover:border-white text-white font-bold text-xs uppercase tracking-wider px-7 py-4 rounded transition">
+        <i class="fa-solid fa-phone mr-2 text-[#5eb74c]"></i> 091.113.8583
       </a>
     </div>
   </div>
