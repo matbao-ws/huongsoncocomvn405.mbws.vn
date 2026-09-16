@@ -55,6 +55,12 @@ Route::get('pages/{slug}', [PageController::class, 'show'])
     ->where('slug', '[A-Za-z0-9\-_]+')
     ->name('pages.show');
 
+// Google Search Console verification
+Route::get('google7b3f3eb378a761d3.html', function () {
+    return response('google-site-verification: google7b3f3eb378a761d3.html', 200)
+        ->header('Content-Type', 'text/html');
+});
+
 /*
  * Sandbox for the inline editing toolbar.
  */
