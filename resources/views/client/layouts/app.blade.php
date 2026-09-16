@@ -8,8 +8,11 @@
     @hasSection('meta_description')
         <meta name="description" content="@yield('meta_description')">
     @endif
-    @hasSection('canonical')
-        <link rel="canonical" href="@yield('canonical')">
+    <meta name="robots" content="@yield('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')">
+    <link rel="canonical" href="@yield('canonical', url()->current())">
+    <link rel="alternate" hreflang="vi-vn" href="@yield('canonical', url()->current())">
+    @if(env('GOOGLE_SITE_VERIFICATION'))
+        <meta name="google-site-verification" content="{{ env('GOOGLE_SITE_VERIFICATION') }}">
     @endif
 
     <!-- Open Graph / Facebook / Zalo -->

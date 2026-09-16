@@ -39,7 +39,7 @@
       "0912.304.058",
       "024 3972 9484"
     ],
-    "email": "info@@huongsonco.com.vn",
+    "email": "info@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "geo": {
       "@@type": "GeoCoordinates",
@@ -693,7 +693,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">

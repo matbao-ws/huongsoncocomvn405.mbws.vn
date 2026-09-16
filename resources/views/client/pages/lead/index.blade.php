@@ -39,7 +39,7 @@
       "0912.304.058",
       "024 3972 9484"
     ],
-    "email": "info@@huongsonco.com.vn",
+    "email": "info@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "geo": {
       "@@type": "GeoCoordinates",
@@ -279,7 +279,7 @@
           </li>
             <li class="flex items-start space-x-3">
               <i class="fa-solid fa-envelope text-[#1A9900] text-sm mt-1 flex-shrink-0"></i>
-              <a href="mailto:info@@huongsonco.com.vn" class="hover:text-[#1A9900] transition">info@@huongsonco.com.vn</a>
+              <a href="mailto:info@huongsonco.com.vn" class="hover:text-[#1A9900] transition">info@huongsonco.com.vn</a>
             </li>
             <li class="flex items-start space-x-3">
               <i class="fa-solid fa-location-dot text-[#1A9900] text-sm mt-1 flex-shrink-0"></i>
@@ -358,7 +358,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">
