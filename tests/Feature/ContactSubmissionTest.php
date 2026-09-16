@@ -31,6 +31,29 @@ class ContactSubmissionTest extends TestCase
         $this->assertSame('Nguyễn Văn A', $submission->name);
         $this->assertFalse($submission->is_read);
         $this->assertSame(['company' => 'Acme Corp', 'budget' => '10-20 triệu'], $submission->meta);
+
+        Mail::assertSent(\App\Mail\ContactInquiryMail::class, function ($mail) {
+            return $mail->hasTo('info@huongsonco.com.vn') && $mail->hasCc('thuannc72@gmail.com');
+        });
+    }
+
+    public function test_lead_controller_submission_sends_email_with_cc(): void
+    {
+        Mail::fake();
+
+        $this->post('/nhan-tu-van/submit', [
+            'ho_ten' => 'Trần Văn D',
+            'dien_thoai' => '0988888888',
+            'email' => 'd@example.com',
+            'noi_dung' => 'Cần thuê máy photocopy A3.',
+            'nhu_cau' => 'PRINT',
+            'don_vi' => 'Trường THPT Chu Văn An',
+        ])->assertSessionHasNoErrors();
+
+        $this->assertDatabaseCount('contact_submissions', 1);
+        Mail::assertSent(\App\Mail\ContactInquiryMail::class, function ($mail) {
+            return $mail->hasTo('info@huongsonco.com.vn') && $mail->hasCc('thuannc72@gmail.com');
+        });
     }
 
     public function test_public_contact_submission_without_extra_fields_has_null_meta(): void

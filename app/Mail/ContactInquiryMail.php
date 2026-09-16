@@ -24,8 +24,22 @@ class ContactInquiryMail extends Mailable
      */
     public function envelope(): Envelope
     {
+        $senderName = $this->inquiry['name'] ?? 'Khách hàng';
+        $phone = $this->inquiry['phone'] ?? '';
+        $subject = '[Hương Sơn] Yêu cầu báo giá / tư vấn mới từ: ' . $senderName . ($phone ? " ({$phone})" : '');
+
+        $ccConfig = config('mail.seller_cc', 'thuannc72@gmail.com');
+        $ccList = !empty($ccConfig) ? array_filter(array_map('trim', explode(',', (string) $ccConfig))) : [];
+
+        $replyTo = [];
+        if (!empty($this->inquiry['email']) && filter_var($this->inquiry['email'], FILTER_VALIDATE_EMAIL)) {
+            $replyTo[] = new \Illuminate\Mail\Mailables\Address($this->inquiry['email'], $senderName);
+        }
+
         return new Envelope(
-            subject: 'Yêu cầu báo giá mới từ khách hàng: ' . ($this->inquiry['name'] ?? ''),
+            subject: $subject,
+            cc: $ccList,
+            replyTo: $replyTo,
         );
     }
 
@@ -38,6 +52,7 @@ class ContactInquiryMail extends Mailable
             view: 'emails.contact-inquiry',
             with: [
                 'siteBranding' => app(\App\Services\SiteBranding::class)->current(),
+                'inquiry' => $this->inquiry,
             ],
         );
     }

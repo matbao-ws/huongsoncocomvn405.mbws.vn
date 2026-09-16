@@ -56,6 +56,26 @@ class LeadController extends Controller
             'is_read' => false,
         ]);
 
+        try {
+            $recipient = config('mail.seller') ?: 'info@huongsonco.com.vn';
+            $ccConfig = config('mail.seller_cc', 'thuannc72@gmail.com');
+            $ccList = !empty($ccConfig) ? array_filter(array_map('trim', explode(',', (string) $ccConfig))) : [];
+
+            $mailer = \Illuminate\Support\Facades\Mail::to($recipient);
+            if (!empty($ccList)) {
+                $mailer->cc($ccList);
+            }
+            $mailer->send(new \App\Mail\ContactInquiryMail([
+                'name' => $name,
+                'phone' => $phone,
+                'email' => $email,
+                'message' => $message,
+                'meta' => $meta,
+            ]));
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::warning('LeadController email notification failed: ' . $e->getMessage());
+        }
+
         if ($request->expectsJson() || $request->ajax()) {
             return response()->json([
                 'success' => true,

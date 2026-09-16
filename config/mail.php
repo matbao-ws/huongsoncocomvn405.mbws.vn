@@ -111,10 +111,11 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Laravel')),
+        'address' => env('MAIL_FROM_ADDRESS', 'info@huongsonco.com.vn'),
+        'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Công Ty Hương Sơn')),
     ],
 
-    'seller' => env('MAIL_SELLER', 'van.ai@abc-group.co.kr'),
+    'seller' => env('MAIL_SELLER', 'info@huongsonco.com.vn'),
+    'seller_cc' => env('MAIL_SELLER_CC', 'thuannc72@gmail.com'),
 
 ];

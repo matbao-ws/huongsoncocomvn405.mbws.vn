@@ -22,7 +22,7 @@
             border: 1px solid #eef2f6;
         }
         .header {
-            background: linear-gradient(135deg, #5d87ff, #39b3d7);
+            background: linear-gradient(135deg, #1f7c45, #147700);
             color: #ffffff;
             padding: 32px;
             text-align: center;
@@ -61,7 +61,7 @@
             color: #1e293b;
             margin-top: 24px;
             margin-bottom: 12px;
-            border-left: 4px solid #5d87ff;
+            border-left: 4px solid #1f7c45;
             padding-left: 8px;
         }
         .info-table {
@@ -86,7 +86,7 @@
         }
         .message-box {
             background-color: #f8fafc;
-            border-left: 4px solid #5d87ff;
+            border-left: 4px solid #1f7c45;
             padding: 15px;
             border-radius: 0 4px 4px 0;
             color: #334155;

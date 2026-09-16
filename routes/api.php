@@ -40,14 +40,21 @@ $leadHandler = function (Request $request) {
     ]);
 
     try {
-        if (config('mail.seller')) {
-            Mail::to(config('mail.seller'))->send(new ContactInquiryMail([
-                'name' => $name,
-                'phone' => $phone,
-                'email' => $email,
-                'message' => $message,
-            ]));
+        $recipient = config('mail.seller') ?: 'info@huongsonco.com.vn';
+        $ccConfig = config('mail.seller_cc', 'thuannc72@gmail.com');
+        $ccList = !empty($ccConfig) ? array_filter(array_map('trim', explode(',', (string) $ccConfig))) : [];
+
+        $mailer = Mail::to($recipient);
+        if (!empty($ccList)) {
+            $mailer->cc($ccList);
         }
+        $mailer->send(new ContactInquiryMail([
+            'name' => $name,
+            'phone' => $phone,
+            'email' => $email,
+            'message' => $message,
+            'meta' => $meta,
+        ]));
     } catch (\Throwable $e) {
         Log::warning('Contact form email notification failed: ' . $e->getMessage());
     }
