@@ -57,10 +57,70 @@ def organization():
         "areaServed": {"@type": "Country", "name": "Việt Nam"},
         "sameAs": [s["url"] for s in SITE["socials"] if s["url"] != "#"],
         "knowsAbout": [
-            "máy photocopy", "máy in nhân bản siêu tốc", "in sao đề thi", "máy scan tốc độ cao",
-            "số hóa tài liệu", "OCR", "cho thuê máy photocopy", "managed print service",
-            "vật tư in ấn", "máy phối trang", "bảo trì máy photocopy",
+            "Print, Document & Digital Solutions",
+            "Office Equipment",
+            "Máy photocopy", "Máy photocopy Toshiba", "Máy photocopy Ricoh", "Máy photocopy Konica Minolta",
+            "Production Print",
+            "In kỹ thuật số", "In tốc độ cao", "Máy in nhân bản siêu tốc Duplo", "Máy phối trang",
+            "MPS / Rental",
+            "Cho thuê máy photocopy", "Cho thuê máy photocopy màu", "Quản lý in ấn",
+            "Education Solutions",
+            "Giải pháp in ấn trường học",
+            "Exam Solutions",
+            "In đề thi", "In đề thi tốt nghiệp THPT", "Bảo mật tài liệu",
+            "Scan & Digital Document",
+            "Máy scan tốc độ cao", "Số hóa tài liệu", "OCR",
+            "FANSIPAN",
+            "Mực in FANSIPAN", "Vật tư máy photocopy", "Bảo trì sửa chữa máy photocopy"
         ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Print, Document & Digital Solutions",
+            "itemListElement": [
+                {
+                    "@type": "OfferCatalog",
+                    "name": "01. Office Equipment",
+                    "description": "Máy photocopy Toshiba, Ricoh, Konica Minolta, máy in đa chức năng, máy scan",
+                    "url": BASE + "/san-pham/photocopy-may-da-chuc-nang/"
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "02. Production Print",
+                    "description": "In kỹ thuật số, in tốc độ cao, máy in nhân bản siêu tốc Duplo, máy phối trang hoàn thiện sau in",
+                    "url": BASE + "/san-pham/may-in-nhan-ban-toc-do-cao/"
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "03. MPS / Rental",
+                    "description": "Cho thuê máy photocopy, máy in, quản lý in ấn toàn diện (MPS) tối ưu chi phí TCO",
+                    "url": BASE + "/giai-phap/cho-thue-thiet-bi/"
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "04. Education Solutions",
+                    "description": "Giải pháp in ấn và trang thiết bị cho Sở GD&ĐT, trường học, trường đại học",
+                    "url": BASE + "/giai-phap/giao-duc/"
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "05. Exam Solutions",
+                    "description": "In đề thi, sao in tài liệu bảo mật, máy in nhân bản siêu tốc 130-180 trang/phút, đóng quyển",
+                    "url": BASE + "/giai-phap/giao-duc/in-de-thi/"
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "06. Scan & Digital Document",
+                    "description": "Scan tốc độ cao, số hóa tài liệu lưu trữ theo Thông tư 02/2019/TT-BNV, OCR tiếng Việt",
+                    "url": BASE + "/giai-phap/scan-so-hoa/"
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "07. FANSIPAN",
+                    "description": "Toner, mực in, cụm mực, drum trống gạt và vật tư tiêu hao thương hiệu riêng FANSIPAN",
+                    "url": BASE + "/san-pham/fansipan/"
+                }
+            ]
+        },
         "brand": [{"@type": "Brand", "name": b} for b in SITE["brands"]],
     }
 
