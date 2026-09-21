@@ -180,7 +180,7 @@
     </div>
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
       <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Kiến thức chuyên môn</span>
-      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Cẩm nang thiết bị, in ấn &amp; số hóa tài liệu</h1>
+      <h1 class="text-2xl sm:text-[36px] lg:text-[40px] font-bold text-white mb-4 leading-[1.4] tracking-normal drop-shadow-sm">Cẩm nang thiết bị, in ấn &amp; số hóa tài liệu</h1>
       <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Tổng hợp kinh nghiệm chuyên sâu, bảng so sánh và phân tích chi phí giúp Quý khách ra quyết định chính xác nhất trước khi mua hoặc thuê thiết bị.</p>
       <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
         <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/ve-huong-son/" class="text-gray-300 hover:text-white transition">Về Hương Sơn</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Kiến thức</span>
@@ -304,7 +304,7 @@
             <i class="fa-solid fa-graduation-cap text-[#5eb74c]"></i>
             <span>Tài Liệu &amp; Cẩm Nang Kỹ Thuật Chuyên Sâu</span>
           </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight">
+          <h2 class="banner-heading text-2xl sm:text-3xl font-bold text-white mb-4 leading-[1.38]">
             Cần Tư Vấn Kỹ Thuật Trực Tiếp Từ Đội Ngũ Kỹ Sư Hương Sơn?
           </h2>
           <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">

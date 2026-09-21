@@ -261,7 +261,7 @@
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Độc quyền phân phối máy in Duplo Nhật Bản</span>
             </div>
-            <h1 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-4">
+            <h1 class="hero-heading text-2xl sm:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-white mb-4">
               HỆ THỐNG IN SAO ĐỀ THI BẢO MẬT & TỐC ĐỘ CAO DUPLO
             </h1>
             <p class="text-base sm:text-lg text-gray-200 mb-4 font-medium leading-relaxed">
@@ -322,7 +322,7 @@
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Dịch vụ trọn gói cho Doanh nghiệp & Cơ quan</span>
             </div>
-            <h2 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-4">
+            <h2 class="hero-heading text-2xl sm:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-white mb-4">
               THUÊ MÁY PHOTOCOPY CHÍNH HÃNG TOSHIBA & RICOH
             </h2>
             <p class="text-base sm:text-lg text-gray-200 mb-4 font-medium leading-relaxed">
@@ -383,7 +383,7 @@
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Chuyển đổi số & Lưu trữ điện tử an toàn</span>
             </div>
-            <h2 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-4">
+            <h2 class="hero-heading text-2xl sm:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-white mb-4">
               GIẢI PHÁP SCAN & SỐ HÓA HỒ SƠ TỰ ĐỘNG RICOH
             </h2>
             <p class="text-base sm:text-lg text-gray-200 mb-4 font-medium leading-relaxed">
@@ -444,7 +444,7 @@
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Thương hiệu mực & vật tư độc quyền Hương Sơn</span>
             </div>
-            <h2 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-4">
+            <h2 class="hero-heading text-2xl sm:text-3xl lg:text-[38px] xl:text-[42px] font-bold text-white mb-4">
               MỰC IN & VẬT TƯ TIÊU HAO CHẤT LƯỢNG CAO FANSIPAN
             </h2>
             <p class="text-base sm:text-lg text-gray-200 mb-4 font-medium leading-relaxed">
@@ -672,7 +672,7 @@
               <span class="w-2 h-2 bg-[#1A9900] animate-pulse"></span>
               <span>Đặc Quyền Khách Hàng Doanh Nghiệp</span>
             </div>
-            <h3 class="text-xl sm:text-2xl font-bold text-white mb-3 leading-snug">
+            <h3 class="banner-heading text-xl sm:text-2xl font-bold text-white mb-3 leading-[1.38]">
               Trải Nghiệm Máy Photocopy Toshiba & Ricoh 07 Ngày Miễn Phí
             </h3>
             <p class="text-gray-300 text-sm leading-relaxed mb-5">
@@ -711,7 +711,7 @@
               <span class="w-2 h-2 bg-[#5eb74c] animate-pulse"></span>
               <span>Hương Sơn Education Solutions</span>
             </div>
-            <h3 class="text-xl sm:text-2xl font-bold text-white mb-3 leading-snug">
+            <h3 class="banner-heading text-xl sm:text-2xl font-bold text-white mb-3 leading-[1.38]">
               Giải Pháp Phòng Học Thông Minh Chuẩn Quốc Gia ViewSonic & Duplo
             </h3>
             <p class="text-gray-300 text-sm leading-relaxed mb-5">
@@ -1001,7 +1001,7 @@
               <i class="fa-solid fa-shield-halved"></i>
               <span>Cam kết chất lượng dịch vụ kỹ thuật số 1</span>
             </span>
-            <h2 class="text-2xl sm:text-4xl font-bold text-white leading-tight mb-4">
+            <h2 class="banner-heading text-2xl sm:text-3xl lg:text-[34px] font-bold text-white mb-4 leading-[1.38]">
               DỊCH VỤ KỸ THUẬT PHẢN ỨNG NHANH: CÓ MẶT TRONG ≤ 2 GIỜ
             </h2>
             <p class="text-gray-300 text-sm sm:text-base leading-relaxed">

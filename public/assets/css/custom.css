@@ -33,12 +33,23 @@ body {
   font-size: 15px; /* Comfortable, readable base font size */
 }
 
-/* Balanced, clean headings (not overly heavy/chunky) */
+/* Balanced, clean headings with ample vertical breathing room for Vietnamese diacritics */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   color: var(--heading);
   font-weight: 700;
-  line-height: 1.35;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.hero-heading {
+  line-height: 1.42 !important;
+  letter-spacing: 0.015em !important;
+}
+
+.banner-heading {
+  line-height: 1.38 !important;
+  letter-spacing: 0.01em !important;
 }
 
 .font-handwriting {

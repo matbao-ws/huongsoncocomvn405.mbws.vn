@@ -186,7 +186,7 @@
     </div>
     <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
       <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Solutions</span>
-      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Giải pháp thiết bị, in ấn và số hóa theo ngành</h1>
+      <h1 class="text-2xl sm:text-[36px] lg:text-[40px] font-bold text-white mb-4 leading-[1.4] tracking-normal drop-shadow-sm">Giải pháp thiết bị, in ấn và số hóa theo ngành</h1>
       <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">8 giải pháp Hương Sơn xây dựng theo đúng bài toán từng ngành — mỗi giải pháp trình bày theo 6 bước: Problem → Solution → Equipment → Implementation → Service → ROI.</p>
       <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
         <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Giải pháp</span>
@@ -336,7 +336,7 @@
             <i class="fa-solid fa-chart-line text-[#5eb74c]"></i>
             <span>Dịch Vụ Khảo Sát Hiện Trường Miễn Phí</span>
           </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight">
+          <h2 class="banner-heading text-2xl sm:text-3xl font-bold text-white mb-4 leading-[1.38]">
             Khảo Sát Hiện Trạng &amp; Tối Ưu Hóa Chi Phí In Ấn Cho Đơn Vị Của Bạn
           </h2>
           <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">
