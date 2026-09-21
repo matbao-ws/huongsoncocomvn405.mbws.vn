@@ -324,6 +324,53 @@
     </div>
   </section>
 
+  <!-- PROMOTIONAL BANNER: CONSULTATION & ON-SITE AUDIT -->
+  <section class="py-12 bg-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative overflow-hidden bg-gradient-to-r from-[#0d1e34] via-[#102747] to-[#0d1e34] p-8 sm:p-12 text-white border-l-4 border-[#5eb74c] shadow-xl">
+        <div class="absolute right-0 top-0 bottom-0 w-1/3 opacity-15 hidden md:block pointer-events-none">
+          <img src="/assets/images/banners/hero_projects_1787899964984.jpg" alt="Tư vấn giải pháp thiết bị" class="w-full h-full object-cover" />
+        </div>
+        <div class="relative z-10 max-w-3xl">
+          <div class="inline-flex items-center space-x-2 bg-[#5eb74c]/25 border border-[#5eb74c]/50 px-3 py-1 mb-3 text-[#5eb74c] text-xs font-bold uppercase tracking-wider">
+            <i class="fa-solid fa-chart-line text-[#5eb74c]"></i>
+            <span>Dịch Vụ Khảo Sát Hiện Trường Miễn Phí</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight">
+            Khảo Sát Hiện Trạng &amp; Tối Ưu Hóa Chi Phí In Ấn Cho Đơn Vị Của Bạn
+          </h2>
+          <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">
+            Kỹ sư chuyên gia Hương Sơn sẽ trực tiếp đến đơn vị để khảo sát lưu lượng in ấn, công năng sử dụng và hiện trạng thiết bị hiện có; từ đó xây dựng bài toán cắt giảm chi phí (tiết kiệm đến 30–40%) kèm phương án máy dự phòng tối ưu.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 pt-4 border-t border-white/10 text-xs sm:text-sm">
+            <div class="flex items-center space-x-2">
+              <i class="fa-solid fa-calculator text-[#5eb74c] text-base"></i>
+              <span>Báo cáo TCO &amp; ROI chi tiết</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i class="fa-solid fa-clock-rotate-left text-[#5eb74c] text-base"></i>
+              <span>Khảo sát nhanh trong 24h</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i class="fa-solid fa-shield-check text-[#5eb74c] text-base"></i>
+              <span>100% Hoàn toàn miễn phí</span>
+            </div>
+          </div>
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition inline-flex items-center space-x-2 shadow-lg shadow-[#1A9900]/30">
+              <span>Đăng Ký Khảo Sát Miễn Phí</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="tel:0913237302" class="border border-white/40 hover:border-[#5eb74c] hover:text-[#5eb74c] text-white font-bold text-xs uppercase tracking-wider px-6 py-4 transition inline-flex items-center space-x-2">
+              <i class="fa-solid fa-phone text-[#5eb74c]"></i>
+              <span>Hotline: 0913.237.302</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">

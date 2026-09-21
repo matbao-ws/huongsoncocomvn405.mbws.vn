@@ -292,6 +292,39 @@
     </div>
   </section>
 
+  <!-- PROMOTIONAL BANNER: EXPERT TECHNICAL CONSULTATION -->
+  <section class="py-12 bg-white">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative overflow-hidden bg-gradient-to-r from-[#142238] via-[#1a3356] to-[#142238] p-8 sm:p-12 text-white border-l-4 border-[#1A9900] shadow-xl">
+        <div class="absolute right-0 top-0 bottom-0 w-1/3 opacity-15 hidden md:block pointer-events-none">
+          <img src="/assets/images/banners/highspeed_scanner_1787905830483.jpg" alt="Chuyên gia kỹ thuật Hương Sơn" class="w-full h-full object-cover" />
+        </div>
+        <div class="relative z-10 max-w-3xl">
+          <div class="inline-flex items-center space-x-2 bg-[#1A9900]/25 border border-[#1A9900]/50 px-3 py-1 mb-3 text-[#5eb74c] text-xs font-bold uppercase tracking-wider">
+            <i class="fa-solid fa-graduation-cap text-[#5eb74c]"></i>
+            <span>Tài Liệu &amp; Cẩm Nang Kỹ Thuật Chuyên Sâu</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight">
+            Cần Tư Vấn Kỹ Thuật Trực Tiếp Từ Đội Ngũ Kỹ Sư Hương Sơn?
+          </h2>
+          <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">
+            Đừng để sự cố in ấn làm gián đoạn công tác vận hành hoặc các kỳ thi quan trọng. Các kỹ sư có trên 15 năm kinh nghiệm về hệ thống Duplo, Toshiba và Ricoh của Hương Sơn luôn sẵn sàng giải đáp và hỗ trợ từ xa hoặc trực tiếp tại cơ sở của bạn.
+          </p>
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="tel:0913237302" data-ga="click_hotline" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition inline-flex items-center space-x-2 shadow-lg shadow-[#1A9900]/30">
+              <i class="fa-solid fa-phone-volume"></i>
+              <span>Hotline Kỹ Sư: 0913.237.302</span>
+            </a>
+            <a href="https://zalo.me/0913237302" target="_blank" rel="noopener noreferrer" class="border border-white/40 hover:border-[#5eb74c] hover:text-[#5eb74c] text-white font-bold text-xs uppercase tracking-wider px-6 py-4 transition inline-flex items-center space-x-2">
+              <i class="fa-solid fa-comment-dots text-sm"></i>
+              <span>Chat Zalo Hỏi Đáp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">
