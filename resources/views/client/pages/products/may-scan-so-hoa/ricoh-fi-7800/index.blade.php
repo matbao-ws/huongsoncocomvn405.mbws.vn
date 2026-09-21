@@ -243,19 +243,34 @@
 @endsection
 
 @section('content')
-<!-- PAGE HERO -->
-  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
+<!-- PAGE HERO (REDESIGNED BREADCRUMB BANNER) -->
+  <section class="relative bg-[#0d1626] py-10 sm:py-14 overflow-hidden border-b border-white/10">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/hero-office.jpg" alt="Máy quét Ricoh fi-7800" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
-      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
+      <img src="/assets/images/banners/highspeed_scanner_1787905830483.jpg" alt="Máy quét Ricoh fi-7800" class="w-full h-full object-cover object-center opacity-40 scale-105 transform motion-safe:transition-transform motion-safe:duration-1000" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0a1526]/95 via-[#0d1e38]/85 to-[#0e2a52]/80"></div>
+      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.25) 1px, transparent 1px); background-size: 24px 24px;"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 w-full text-center">
-      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Scan &amp; Digital Document</span>
-      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">Máy quét Ricoh fi-7800</h1>
-      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">Máy Quét công nghiệp 2 mặt A3 (ADF) Đèn quét: Color CCD Tốc độ quét: 110 ppm/220ipm (quét màu, 300dpi) Khay giấy: 500 tờ Công suất: 100,000 tờ/ngày Kết nối:  USB 2.0 / USB 1.1 Port (Type B Connector) Kích thước:  460 x 4...</p>
-      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/" class="text-gray-300 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <a href="/san-pham/may-scan-so-hoa/" class="text-gray-300 hover:text-white transition">Máy scan – thiết bị số hóa tài liệu</a> <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> <span class="text-[#5eb74c] font-semibold" aria-current="page">Máy quét Ricoh fi-7800</span>
-      </nav>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
+      <div class="flex justify-center mb-3">
+        <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm flex-wrap" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-white flex items-center gap-1.5 transition"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i><span>Trang chủ</span></a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/san-pham/" class="text-gray-200 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/san-pham/may-scan-so-hoa/" class="text-gray-200 hover:text-white transition">Máy scan – thiết bị số hóa tài liệu</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <span class="text-[#84e372] font-semibold" aria-current="page">Máy quét Ricoh fi-7800</span>
+        </nav>
+      </div>
+      <div class="inline-flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
+        Scan &amp; Digital Document
+      </div>
+      <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3 leading-[1.38] tracking-normal drop-shadow-md max-w-4xl mx-auto">
+        Máy quét Ricoh fi-7800
+      </h1>
+      <p class="max-w-2xl mx-auto text-gray-200 text-[14.5px] sm:text-[15.5px] leading-relaxed mb-6 font-normal">
+        Máy Quét công nghiệp 2 mặt A3 (ADF) Đèn quét: Color CCD Tốc độ quét: 110 ppm/220ipm (quét màu, 300dpi) Khay giấy: 500 tờ Công suất: 100,000 tờ/ngày Kết nối:  USB 2.0 / USB 1.1 Port (Type B Connector) Kích thước:  460 x 4...
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-xs sm:text-[13px]">
+        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm"><i class="fa-solid fa-folder-open text-[#5eb74c]"></i> <span>Khảo sát mẫu tài liệu tận nơi</span></div>
+        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm"><i class="fa-solid fa-bolt text-[#ffc107]"></i> <span>Scan siêu tốc 80 – 140 trang/phút</span></div>
+        <a href="tel:0911138583" class="inline-flex items-center gap-2 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3.5 py-1.5 transition font-semibold shadow-sm"><i class="fa-solid fa-phone"></i> <span>Hotline: 091.113.8583</span></a>
+      </div>
     </div>
   </section>
 

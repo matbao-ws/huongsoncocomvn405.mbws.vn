@@ -29,31 +29,137 @@ def slugify(t):
     return t.strip('-')
 
 
+DEFAULT_BADGES = {
+    "nhan-tu-van": [
+        ('fa-solid fa-bolt text-[#ffc107]', 'Phản hồi trong <strong>15 phút</strong>', None),
+        ('fa-solid fa-circle-check text-[#5eb74c]', 'Khảo sát &amp; Demo máy miễn phí', None),
+        ('fa-solid fa-phone text-white', 'Hotline 24/7: <strong>091.113.8583</strong>', 'tel:0911138583'),
+    ],
+    "san-pham": [
+        ('fa-solid fa-shield-check text-[#5eb74c]', '100% Thiết bị chính hãng CO/CQ', None),
+        ('fa-solid fa-truck-fast text-[#ffc107]', 'Giao hàng &amp; Lắp đặt toàn quốc', None),
+        ('fa-solid fa-headset text-[#5eb74c]', 'Hỗ trợ kỹ thuật 24/7', 'tel:0912304058'),
+    ],
+    "giai-phap": [
+        ('fa-solid fa-sliders text-[#5eb74c]', 'Giải pháp may đo theo từng ngành', None),
+        ('fa-solid fa-chart-line text-[#ffc107]', 'Tiết kiệm 25% – 40% chi phí', None),
+        ('fa-solid fa-clock-rotate-left text-cyan-400', 'SLA phản hồi kỹ thuật < 2h', None),
+    ],
+    "dich-vu": [
+        ('fa-solid fa-wrench text-[#ffc107]', 'Xử lý sự cố tận nơi trong 2 giờ', None),
+        ('fa-solid fa-rotate text-[#5eb74c]', 'Đổi máy dự phòng tương đương', None),
+        ('fa-solid fa-phone text-white', 'Kỹ thuật: <strong>0912.304.058</strong>', 'tel:0912304058'),
+    ],
+    "du-an": [
+        ('fa-solid fa-award text-[#ffc107]', '15+ năm phục vụ kỳ thi &amp; ngân hàng', None),
+        ('fa-solid fa-building-circle-check text-[#5eb74c]', '500+ dự án hoàn thành bàn giao', None),
+        ('fa-solid fa-user-shield text-cyan-400', 'Bảo mật 100% tài liệu &amp; đề thi', None),
+    ],
+    "ve-huong-son": [
+        ('fa-solid fa-calendar-check text-[#5eb74c]', 'Thành lập từ 2008 (16+ năm uy tín)', None),
+        ('fa-solid fa-certificate text-[#ffc107]', 'Đối tác phân phối Ricoh, Toshiba, Duplo', None),
+        ('fa-solid fa-location-dot text-cyan-400', 'Showroom &amp; Kho máy tại Hà Nội', None),
+    ],
+    "cong-cu": [
+        ('fa-solid fa-calculator text-[#5eb74c]', 'Ước tính chi phí thuê &amp; TCO chuẩn xác', None),
+        ('fa-solid fa-bolt text-[#ffc107]', 'Kết quả phân tích trong 30 giây', None),
+        ('fa-solid fa-file-invoice text-cyan-400', 'Đề xuất cấu hình máy tối ưu', None),
+    ],
+}
+
+
 # ------------------------------------------------------------------- page header
-def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg"):
-    """Banner đầu trang + breadcrumb hiển thị (schema BreadcrumbList sinh riêng)."""
-    crumbs = []
+def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg", badges=None):
+    """Banner đầu trang + breadcrumb hiển thị sắc nét, tương phản cao, kèm value badges."""
+    crumbs_html = []
     for i, (label, url) in enumerate(trail):
-        last = i == len(trail) - 1
-        if last:
-            crumbs.append(f'<span class="text-[#5eb74c] font-semibold" aria-current="page">{esc(label)}</span>')
+        if i == 0 and url == "/":
+            continue
+        is_last = (i == len(trail) - 1)
+        if is_last:
+            crumbs_html.append(f'<span class="text-[#84e372] font-semibold" aria-current="page">{esc(label)}</span>')
         else:
-            crumbs.append(f'<a href="{url}" class="text-gray-300 hover:text-white transition">{esc(label)}</a>')
-    sep = ' <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> '
+            crumbs_html.append(f'<a href="{url}" class="text-gray-200 hover:text-white transition">{esc(label)}</a>')
+
+    sep = ' <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> '
+    crumbs_rendered = sep.join(crumbs_html)
+    if crumbs_rendered:
+        crumbs_rendered = f' <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> {crumbs_rendered}'
+
+    # Auto pick high-res image if generic
+    if image == "/assets/images/hero-office.jpg":
+        for _, u in trail:
+            if "giai-phap" in u:
+                image = "/assets/images/banners/hero_office_solutions_1787899910391.jpg"
+                break
+            elif "du-an" in u:
+                image = "/assets/images/banners/hero_projects_1787899964984.jpg"
+                break
+            elif "san-pham" in u:
+                image = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+                break
+            elif "giao-duc" in u or "in-de-thi" in u:
+                image = "/assets/images/banners/hero_edu_tech_1787899932385.jpg"
+                break
+
+    # Resolve badges
+    chosen_badges = badges
+    if not chosen_badges:
+        for _, url in trail:
+            parts = url.strip("/").split("/")
+            if parts and parts[0] in DEFAULT_BADGES:
+                chosen_badges = DEFAULT_BADGES[parts[0]]
+                break
+    if not chosen_badges:
+        chosen_badges = DEFAULT_BADGES["nhan-tu-van"]
+
+    badges_items = []
+    for item in chosen_badges:
+        icon_cls = item[0]
+        txt = item[1]
+        link_href = item[2] if len(item) > 2 else None
+        if link_href:
+            badges_items.append(
+                f'<a href="{link_href}" class="inline-flex items-center gap-2 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3.5 py-1.5 transition font-semibold shadow-sm">'
+                f'<i class="{icon_cls}"></i> <span>{txt}</span></a>'
+            )
+        else:
+            badges_items.append(
+                f'<div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">'
+                f'<i class="{icon_cls}"></i> <span>{txt}</span></div>'
+            )
+    badges_rendered = "\n        ".join(badges_items)
+
     return f"""
-  <!-- PAGE HERO -->
-  <section class="relative min-h-[320px] sm:min-h-[380px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
+  <!-- PAGE HERO (REDESIGNED BREADCRUMB BANNER) -->
+  <section class="relative bg-[#0d1626] py-10 sm:py-14 overflow-hidden border-b border-white/10">
     <div class="absolute inset-0 z-0">
-      <img src="{image}" alt="{esc(h1)}" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
-      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
+      <img src="{image}" alt="{esc(h1)}" class="w-full h-full object-cover object-center opacity-40 scale-105 transform motion-safe:transition-transform motion-safe:duration-1000" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0a1526]/95 via-[#0d1e38]/85 to-[#0e2a52]/80"></div>
+      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.25) 1px, transparent 1px); background-size: 24px 24px;"></div>
     </div>
-    <div class="relative z-10 {WRAP} py-14 sm:py-16 w-full text-center">
-      <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">{esc(eyebrow)}</span>
-      <h1 class="text-2xl sm:text-[38px] lg:text-[42px] font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-sm">{esc(h1)}</h1>
-      <p class="max-w-3xl mx-auto text-gray-200 text-[15px] sm:text-[16px] leading-relaxed">{lead}</p>
-      <nav class="mt-6 text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-        {sep.join(crumbs)}
-      </nav>
+    <div class="relative z-10 {WRAP} w-full text-center">
+      <div class="flex justify-center mb-3">
+        <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-white flex items-center gap-1.5 transition">
+            <i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i>
+            <span>Trang chủ</span>
+          </a>{crumbs_rendered}
+        </nav>
+      </div>
+      <div class="inline-flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
+        {esc(eyebrow)}
+      </div>
+      <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3 leading-[1.38] tracking-normal drop-shadow-md max-w-4xl mx-auto">
+        {esc(h1)}
+      </h1>
+      <p class="max-w-2xl mx-auto text-gray-200 text-[14.5px] sm:text-[15.5px] leading-relaxed mb-6 font-normal">
+        {lead}
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-xs sm:text-[13px]">
+        {badges_rendered}
+      </div>
     </div>
   </section>
 """

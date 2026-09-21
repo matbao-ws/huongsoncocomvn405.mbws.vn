@@ -17,31 +17,33 @@
 @endif
 
 @section('content')
-<!-- PAGE HERO -->
-<section class="relative min-h-[320px] sm:min-h-[360px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #10203C 0%, #193877 60%, #204DA4 100%);">
-  <div class="absolute inset-0 z-0">
-    <img src="/assets/images/hero-office.jpg" alt="{{ $post->title }}" class="w-full h-full object-cover object-center opacity-25" loading="eager" />
-    <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16, 32, 60, 0.90) 0%, rgba(16, 32, 60, 0.82) 100%);"></div>
-  </div>
-  <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-14 w-full text-center">
-    <span class="font-handwriting text-2xl sm:text-3xl text-[#5eb74c] font-bold block mb-2">Tin tức &amp; Dự án</span>
-    <h1 class="text-2xl sm:text-[34px] lg:text-[38px] font-bold text-white mb-3 leading-tight tracking-tight drop-shadow-sm max-w-4xl mx-auto">
-      {{ $post->title }}
-    </h1>
-    <div class="flex items-center justify-center space-x-4 text-xs text-gray-300 mb-4">
-      <span><i class="fa-regular fa-calendar text-[#5eb74c] mr-1.5"></i> {{ $post->published_at ? $post->published_at->format('d/m/Y') : date('d/m/Y') }}</span>
-      <span>•</span>
-      <span><i class="fa-solid fa-user text-[#5eb74c] mr-1.5"></i> Ban biên tập Hương Sơn</span>
+<!-- PAGE HERO (REDESIGNED BREADCRUMB BANNER) -->
+  <section class="relative bg-[#0d1626] py-10 sm:py-14 overflow-hidden border-b border-white/10">
+    <div class="absolute inset-0 z-0">
+      <img src="/assets/images/hero-office.jpg" alt="{{ $post->title }}" class="w-full h-full object-cover object-center opacity-40 scale-105 transform motion-safe:transition-transform motion-safe:duration-1000" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0a1526]/95 via-[#0d1e38]/85 to-[#0e2a52]/80"></div>
+      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.25) 1px, transparent 1px); background-size: 24px 24px;"></div>
     </div>
-    <nav class="text-[13px] text-gray-300 flex items-center justify-center flex-wrap" aria-label="Breadcrumb">
-      <a href="/" class="text-gray-300 hover:text-white transition">Trang chủ</a> 
-      <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> 
-      <a href="/ve-huong-son/tin-tuc/" class="text-gray-300 hover:text-white transition">Tin tức</a>
-      <i class="fa-solid fa-angle-right text-[9px] mx-2 text-gray-400"></i> 
-      <span class="text-[#5eb74c] font-semibold truncate max-w-xs" aria-current="page">{{ $post->title }}</span>
-    </nav>
-  </div>
-</section>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
+      <div class="flex justify-center mb-3">
+        <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm flex-wrap" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-white flex items-center gap-1.5 transition"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i><span>Trang chủ</span></a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/ve-huong-son/tin-tuc/" class="text-gray-200 hover:text-white transition">Tin tức</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <span class="text-[#84e372] font-semibold" aria-current="page">{{ $post->title }}</span>
+        </nav>
+      </div>
+      <div class="inline-flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
+        Tin tức &amp; Dự án
+      </div>
+      <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3 leading-[1.38] tracking-normal drop-shadow-md max-w-4xl mx-auto">
+        {{ $post->title }}
+      </h1>
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-xs sm:text-[13px]">
+        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm"><i class="fa-solid fa-calendar-check text-[#5eb74c]"></i> <span>Thành lập từ 2008 (16+ năm uy tín)</span></div>
+        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm"><i class="fa-solid fa-certificate text-[#ffc107]"></i> <span>Đối tác Ricoh, Toshiba, Duplo</span></div>
+        <a href="tel:0911138583" class="inline-flex items-center gap-2 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3.5 py-1.5 transition font-semibold shadow-sm"><i class="fa-solid fa-phone"></i> <span>Hotline: 091.113.8583</span></a>
+      </div>
+    </div>
+  </section>
 
 <!-- ARTICLE CONTENT -->
 <article class="py-14 sm:py-16 bg-white">
