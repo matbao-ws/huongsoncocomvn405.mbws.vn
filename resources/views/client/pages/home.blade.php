@@ -255,8 +255,8 @@
         <div class="absolute inset-0 bg-gradient-to-r from-[#10203C] via-[#10203C]/90 to-[#10203C]/50"></div>
       </div>
       <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 w-full">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div class="lg:col-span-8 text-white">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          <div class="lg:col-span-7 text-white">
             <div class="inline-flex items-center space-x-2 bg-[#1A9900]/25 border border-[#1A9900]/60 px-3.5 py-1.5 mb-4 text-[#5eb74c] text-xs font-bold uppercase tracking-wider backdrop-blur">
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Độc quyền phân phối máy in Duplo Nhật Bản</span>
@@ -282,26 +282,44 @@
               </a>
             </div>
           </div>
-          <div class="hidden lg:block lg:col-span-4">
-            <div class="bg-gradient-to-b from-white/15 to-white/5 border border-white/20 p-6 backdrop-blur-md text-white shadow-2xl">
-              <div class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-3 pb-2 border-b border-white/10">Thông Số Khuyến Nghị In Thi</div>
-              <div class="space-y-4 text-sm">
-                <div>
-                  <div class="text-xs text-gray-300">Tốc độ in tối đa:</div>
-                  <div class="text-2xl font-black text-white">130 – 150 <span class="text-sm font-normal text-gray-300">bản/phút</span></div>
+          <!-- SLIDE 1 FOREGROUND PRODUCT SHOWCASE CARD -->
+          <div class="lg:col-span-5 relative mt-6 lg:mt-0">
+            <div class="relative mx-auto max-w-[440px] lg:max-w-none">
+              <div class="absolute -inset-2 bg-gradient-to-tr from-[#1A9900]/35 to-blue-500/25 rounded-2xl blur-xl opacity-75 pointer-events-none"></div>
+              <div class="relative bg-gradient-to-b from-[#0d1829]/95 via-[#10203c]/90 to-[#0b1524]/95 border-2 border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
+                <div class="flex items-center justify-between gap-2 mb-3 pb-3 border-b border-white/15">
+                  <span class="inline-flex items-center gap-1.5 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md border border-[#5eb74c]/50 uppercase tracking-wide">
+                    <i class="fa-solid fa-bolt text-[11px]"></i>
+                    <span>Tốc độ 130–150 bản/phút</span>
+                  </span>
+                  <span class="text-[11px] font-bold text-gray-300 flex items-center gap-1">
+                    <i class="fa-solid fa-shield-halved text-[#5eb74c]"></i>
+                    <span>Bảo mật đề thi 100%</span>
+                  </span>
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Độ phân giải bản in:</div>
-                  <div class="text-lg font-bold text-white">600 × 600 DPI <span class="text-xs text-gray-300">(nét chữ siêu mịn)</span></div>
+                <div class="relative py-4 px-2 flex items-center justify-center min-h-[220px] sm:min-h-[240px] bg-gradient-to-b from-white/[0.07] to-transparent border border-white/10">
+                  <img src="/assets/images/products/duplo-dp-x550.jpg" alt="Máy in nhân bản siêu tốc Duplo DP-X550" class="max-h-[200px] sm:max-h-[230px] w-auto object-contain mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.85)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Hỗ trợ kỹ thuật:</div>
-                  <div class="text-sm font-semibold text-[#5eb74c]">Kỹ sư cắm chốt tại địa điểm in sao</div>
+                <div class="mt-4 pt-3 border-t border-white/15 grid grid-cols-2 gap-2 text-xs">
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Độ nét bản in:</div>
+                    <div class="font-bold text-white text-[13px]">600 × 600 DPI</div>
+                  </div>
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Trực kỹ thuật thi:</div>
+                    <div class="font-bold text-[#5eb74c] text-[13px] flex items-center gap-1">
+                      <i class="fa-solid fa-headset text-[11px]"></i>
+                      <span>24/7 cắm chốt</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="mt-5 pt-4 border-t border-white/10 text-xs text-gray-300 flex items-center justify-between">
-                <span>Đối tác Sở GD&ĐT toàn quốc</span>
-                <i class="fa-solid fa-certificate text-[#5eb74c] text-base"></i>
+                <div class="mt-3 flex items-center justify-between text-[11px] text-gray-300">
+                  <span class="text-gray-400">Hội đồng thi THPT & Đại học</span>
+                  <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-[#5eb74c] hover:underline font-semibold flex items-center gap-1">
+                    <span>Xem thông số Duplo</span>
+                    <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -316,8 +334,8 @@
         <div class="absolute inset-0 bg-gradient-to-r from-[#10203C] via-[#10203C]/90 to-[#10203C]/50"></div>
       </div>
       <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 w-full">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div class="lg:col-span-8 text-white">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          <div class="lg:col-span-7 text-white">
             <div class="inline-flex items-center space-x-2 bg-[#1A9900]/25 border border-[#1A9900]/60 px-3.5 py-1.5 mb-4 text-[#5eb74c] text-xs font-bold uppercase tracking-wider backdrop-blur">
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Dịch vụ trọn gói cho Doanh nghiệp & Cơ quan</span>
@@ -343,26 +361,44 @@
               </a>
             </div>
           </div>
-          <div class="hidden lg:block lg:col-span-4">
-            <div class="bg-gradient-to-b from-white/15 to-white/5 border border-white/20 p-6 backdrop-blur-md text-white shadow-2xl">
-              <div class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-3 pb-2 border-b border-white/10">Cam Kết Dịch Vụ Thuê Máy</div>
-              <div class="space-y-4 text-sm">
-                <div>
-                  <div class="text-xs text-gray-300">Chi phí đặt cọc:</div>
-                  <div class="text-2xl font-black text-white">0 ĐỒNG <span class="text-sm font-normal text-gray-300">(linh hoạt)</span></div>
+          <!-- SLIDE 2 FOREGROUND PRODUCT SHOWCASE CARD -->
+          <div class="lg:col-span-5 relative mt-6 lg:mt-0">
+            <div class="relative mx-auto max-w-[440px] lg:max-w-none">
+              <div class="absolute -inset-2 bg-gradient-to-tr from-[#1A9900]/35 to-cyan-500/25 rounded-2xl blur-xl opacity-75 pointer-events-none"></div>
+              <div class="relative bg-gradient-to-b from-[#0d1829]/95 via-[#10203c]/90 to-[#0b1524]/95 border-2 border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
+                <div class="flex items-center justify-between gap-2 mb-3 pb-3 border-b border-white/15">
+                  <span class="inline-flex items-center gap-1.5 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md border border-[#5eb74c]/50 uppercase tracking-wide">
+                    <i class="fa-solid fa-tag text-[11px]"></i>
+                    <span>Chỉ từ 800k/tháng</span>
+                  </span>
+                  <span class="text-[11px] font-bold text-gray-300 flex items-center gap-1">
+                    <i class="fa-solid fa-arrows-rotate text-[#5eb74c]"></i>
+                    <span>Đổi mới sau 24h lỗi</span>
+                  </span>
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Thời gian kỹ thuật có mặt:</div>
-                  <div class="text-lg font-bold text-white">≤ 2 GIỜ <span class="text-xs text-gray-300">(nội thành Hà Nội)</span></div>
+                <div class="relative py-4 px-2 flex items-center justify-center min-h-[220px] sm:min-h-[240px] bg-gradient-to-b from-white/[0.07] to-transparent border border-white/10">
+                  <img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="Máy photocopy đa chức năng Toshiba e-Studio" class="max-h-[200px] sm:max-h-[230px] w-auto object-contain mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.85)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Vật tư & mực in:</div>
-                  <div class="text-sm font-semibold text-[#5eb74c]">Cấp miễn phí không giới hạn</div>
+                <div class="mt-4 pt-3 border-t border-white/15 grid grid-cols-2 gap-2 text-xs">
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Đặt cọc hợp đồng:</div>
+                    <div class="font-bold text-white text-[13px]">0 ĐỒNG (Linh hoạt)</div>
+                  </div>
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Sự cố kỹ thuật:</div>
+                    <div class="font-bold text-[#5eb74c] text-[13px] flex items-center gap-1">
+                      <i class="fa-solid fa-clock text-[11px]"></i>
+                      <span>≤ 2h có mặt</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="mt-5 pt-4 border-t border-white/10 text-xs text-gray-300 flex items-center justify-between">
-                <span>Phục vụ 500+ Doanh nghiệp & Ngân hàng</span>
-                <i class="fa-solid fa-building text-[#5eb74c] text-base"></i>
+                <div class="mt-3 flex items-center justify-between text-[11px] text-gray-300">
+                  <span class="text-gray-400">500+ Doanh nghiệp & Ngân hàng</span>
+                  <a href="/san-pham/photocopy-may-da-chuc-nang/" class="text-[#5eb74c] hover:underline font-semibold flex items-center gap-1">
+                    <span>Xem chi tiết máy</span>
+                    <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -377,8 +413,8 @@
         <div class="absolute inset-0 bg-gradient-to-r from-[#10203C] via-[#10203C]/90 to-[#10203C]/50"></div>
       </div>
       <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 w-full">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div class="lg:col-span-8 text-white">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          <div class="lg:col-span-7 text-white">
             <div class="inline-flex items-center space-x-2 bg-[#1A9900]/25 border border-[#1A9900]/60 px-3.5 py-1.5 mb-4 text-[#5eb74c] text-xs font-bold uppercase tracking-wider backdrop-blur">
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Chuyển đổi số & Lưu trữ điện tử an toàn</span>
@@ -404,26 +440,44 @@
               </a>
             </div>
           </div>
-          <div class="hidden lg:block lg:col-span-4">
-            <div class="bg-gradient-to-b from-white/15 to-white/5 border border-white/20 p-6 backdrop-blur-md text-white shadow-2xl">
-              <div class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-3 pb-2 border-b border-white/10">Hiệu Suất Số Hóa Hồ Sơ</div>
-              <div class="space-y-4 text-sm">
-                <div>
-                  <div class="text-xs text-gray-300">Tốc độ quét 2 mặt:</div>
-                  <div class="text-2xl font-black text-white">80 – 140 <span class="text-sm font-normal text-gray-300">bản/phút</span></div>
+          <!-- SLIDE 3 FOREGROUND PRODUCT SHOWCASE CARD -->
+          <div class="lg:col-span-5 relative mt-6 lg:mt-0">
+            <div class="relative mx-auto max-w-[440px] lg:max-w-none">
+              <div class="absolute -inset-2 bg-gradient-to-tr from-[#1A9900]/35 to-indigo-500/25 rounded-2xl blur-xl opacity-75 pointer-events-none"></div>
+              <div class="relative bg-gradient-to-b from-[#0d1829]/95 via-[#10203c]/90 to-[#0b1524]/95 border-2 border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
+                <div class="flex items-center justify-between gap-2 mb-3 pb-3 border-b border-white/15">
+                  <span class="inline-flex items-center gap-1.5 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md border border-[#5eb74c]/50 uppercase tracking-wide">
+                    <i class="fa-solid fa-bolt text-[11px]"></i>
+                    <span>Tốc độ 140 trang/phút</span>
+                  </span>
+                  <span class="text-[11px] font-bold text-gray-300 flex items-center gap-1">
+                    <i class="fa-solid fa-file-lines text-[#5eb74c]"></i>
+                    <span>OCR Tiếng Việt > 98.5%</span>
+                  </span>
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Độ chính xác OCR tiếng Việt:</div>
-                  <div class="text-lg font-bold text-white">&gt; 98.5% <span class="text-xs text-gray-300">(tự động bóc tách)</span></div>
+                <div class="relative py-4 px-2 flex items-center justify-center min-h-[220px] sm:min-h-[240px] bg-gradient-to-b from-white/[0.07] to-transparent border border-white/10">
+                  <img src="/assets/images/banners/highspeed_scanner_1787905830483.jpg" alt="Máy quét tài liệu công nghiệp tốc độ cao Ricoh fi-8170" class="max-h-[200px] sm:max-h-[230px] w-auto object-contain mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.85)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Ứng dụng mục tiêu:</div>
-                  <div class="text-sm font-semibold text-[#5eb74c]">Hành chính công, Ngân hàng, Y tế</div>
+                <div class="mt-4 pt-3 border-t border-white/15 grid grid-cols-2 gap-2 text-xs">
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Khay nạp ADF:</div>
+                    <div class="font-bold text-white text-[13px]">100 tờ liên tục</div>
+                  </div>
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Tiêu chuẩn số hóa:</div>
+                    <div class="font-bold text-[#5eb74c] text-[13px] flex items-center gap-1">
+                      <i class="fa-solid fa-certificate text-[11px]"></i>
+                      <span>Chuẩn QG lưu trữ</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="mt-5 pt-4 border-t border-white/10 text-xs text-gray-300 flex items-center justify-between">
-                <span>Tiết kiệm 70% không gian kho lưu trữ</span>
-                <i class="fa-solid fa-folder-tree text-[#5eb74c] text-base"></i>
+                <div class="mt-3 flex items-center justify-between text-[11px] text-gray-300">
+                  <span class="text-gray-400">Hành chính công · Ngân hàng · Y tế</span>
+                  <a href="/san-pham/may-scan-so-hoa/" class="text-[#5eb74c] hover:underline font-semibold flex items-center gap-1">
+                    <span>Xem các dòng máy Scan</span>
+                    <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -438,8 +492,8 @@
         <div class="absolute inset-0 bg-gradient-to-r from-[#10203C] via-[#10203C]/90 to-[#10203C]/50"></div>
       </div>
       <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 w-full">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div class="lg:col-span-8 text-white">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          <div class="lg:col-span-7 text-white">
             <div class="inline-flex items-center space-x-2 bg-[#1A9900]/25 border border-[#1A9900]/60 px-3.5 py-1.5 mb-4 text-[#5eb74c] text-xs font-bold uppercase tracking-wider backdrop-blur">
               <span class="w-2 h-2 rounded-full bg-[#5eb74c] animate-pulse"></span>
               <span>Thương hiệu mực & vật tư độc quyền Hương Sơn</span>
@@ -465,26 +519,44 @@
               </a>
             </div>
           </div>
-          <div class="hidden lg:block lg:col-span-4">
-            <div class="bg-gradient-to-b from-white/15 to-white/5 border border-white/20 p-6 backdrop-blur-md text-white shadow-2xl">
-              <div class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-3 pb-2 border-b border-white/10">Ưu Thế Vượt Trội FANSIPAN</div>
-              <div class="space-y-4 text-sm">
-                <div>
-                  <div class="text-xs text-gray-300">Tối ưu chi phí in ấn:</div>
-                  <div class="text-2xl font-black text-white">Giảm 40% <span class="text-sm font-normal text-gray-300">ngân sách</span></div>
+          <!-- SLIDE 4 FOREGROUND PRODUCT SHOWCASE CARD -->
+          <div class="lg:col-span-5 relative mt-6 lg:mt-0">
+            <div class="relative mx-auto max-w-[440px] lg:max-w-none">
+              <div class="absolute -inset-2 bg-gradient-to-tr from-[#1A9900]/35 to-emerald-500/25 rounded-2xl blur-xl opacity-75 pointer-events-none"></div>
+              <div class="relative bg-gradient-to-b from-[#0d1829]/95 via-[#10203c]/90 to-[#0b1524]/95 border-2 border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
+                <div class="flex items-center justify-between gap-2 mb-3 pb-3 border-b border-white/15">
+                  <span class="inline-flex items-center gap-1.5 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md border border-[#5eb74c]/50 uppercase tracking-wide">
+                    <i class="fa-solid fa-gem text-[11px]"></i>
+                    <span>Tiết kiệm 40% chi phí</span>
+                  </span>
+                  <span class="text-[11px] font-bold text-gray-300 flex items-center gap-1">
+                    <i class="fa-solid fa-check-double text-[#5eb74c]"></i>
+                    <span>Tương thích 100% hãng</span>
+                  </span>
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Tỷ lệ lỗi kỹ thuật:</div>
-                  <div class="text-lg font-bold text-white">&lt; 0.1% <span class="text-xs text-gray-300">(tiêu chuẩn xuất khẩu)</span></div>
+                <div class="relative py-4 px-2 flex items-center justify-center min-h-[220px] sm:min-h-[240px] bg-gradient-to-b from-white/[0.07] to-transparent border border-white/10">
+                  <img src="/assets/images/banners/toner_consumables_1787905882459.jpg" alt="Mực in và linh kiện vật tư tiêu hao cao cấp FANSIPAN" class="max-h-[200px] sm:max-h-[230px] w-auto object-contain mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.85)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
                 </div>
-                <div>
-                  <div class="text-xs text-gray-300">Cam kết chất lượng:</div>
-                  <div class="text-sm font-semibold text-[#5eb74c]">Đổi trả ngay nếu không hài lòng</div>
+                <div class="mt-4 pt-3 border-t border-white/15 grid grid-cols-2 gap-2 text-xs">
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Tỷ lệ lỗi kỹ thuật:</div>
+                    <div class="font-bold text-white text-[13px]">&lt; 0.1% tiêu chuẩn</div>
+                  </div>
+                  <div class="bg-white/5 border border-white/10 px-3 py-2">
+                    <div class="text-[10.5px] text-gray-400">Cam kết chất lượng:</div>
+                    <div class="font-bold text-[#5eb74c] text-[13px] flex items-center gap-1">
+                      <i class="fa-solid fa-rotate text-[11px]"></i>
+                      <span>1 đổi 1 tức thì</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="mt-5 pt-4 border-t border-white/10 text-xs text-gray-300 flex items-center justify-between">
-                <span>Kho vật tư quy mô lớn sẵn sàng giao</span>
-                <i class="fa-solid fa-cubes text-[#5eb74c] text-base"></i>
+                <div class="mt-3 flex items-center justify-between text-[11px] text-gray-300">
+                  <span class="text-gray-400">Kho vật tư sẵn sàng phục vụ 24/7</span>
+                  <a href="/san-pham/muc-vat-tu-fansipan/" class="text-[#5eb74c] hover:underline font-semibold flex items-center gap-1">
+                    <span>Xem danh mục FANSIPAN</span>
+                    <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -662,81 +734,117 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
-        <!-- PROMO BANNER 1: DÙNG THỬ MÁY PHOTOCOPY 07 NGÀY -->
-        <div class="relative overflow-hidden bg-gradient-to-br from-[#10203C] to-[#182848] text-white p-7 sm:p-9 flex flex-col justify-between border-t-4 border-[#1A9900] shadow-lg group">
-          <div class="absolute -right-8 -bottom-8 w-60 h-60 opacity-15 group-hover:opacity-25 group-hover:scale-105 transition-all duration-500 pointer-events-none">
-            <img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="Máy photocopy Toshiba" class="w-full h-full object-cover" />
-          </div>
-          <div class="relative z-10">
-            <div class="inline-flex items-center space-x-2 bg-[#1A9900]/25 border border-[#1A9900]/50 px-3 py-1 mb-3 text-[#5eb74c] text-[11px] font-bold uppercase tracking-wider">
-              <span class="w-2 h-2 bg-[#1A9900] animate-pulse"></span>
-              <span>Đặc Quyền Khách Hàng Doanh Nghiệp</span>
+        <!-- PROMO BANNER 1: DÙNG THỬ MÁY PHOTOCOPY 07 NGÀY (FOREGROUND SHOWCASE) -->
+        <div class="relative overflow-hidden bg-gradient-to-br from-[#0a1526] via-[#10203C] to-[#142646] text-white p-6 sm:p-8 border-t-4 border-[#1A9900] shadow-xl">
+          <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+            <div class="sm:col-span-7 flex flex-col justify-between">
+              <div>
+                <div class="inline-flex items-center space-x-2 bg-[#1A9900]/25 border border-[#1A9900]/60 px-3 py-1 mb-3 text-[#5eb74c] text-[11px] font-bold uppercase tracking-wider">
+                  <span class="w-2 h-2 bg-[#5eb74c] animate-pulse"></span>
+                  <span>Đặc Quyền Doanh Nghiệp</span>
+                </div>
+                <h3 class="banner-heading text-lg sm:text-xl xl:text-[22px] font-bold text-white mb-2.5 leading-[1.38]">
+                  Trải Nghiệm Máy Photocopy Toshiba & Ricoh 07 Ngày Miễn Phí
+                </h3>
+                <p class="text-gray-300 text-xs sm:text-[13.5px] leading-relaxed mb-4">
+                  Không cần đặt cọc. Hương Sơn giao máy, cài đặt in mạng tận nơi kèm 1.000 bản in chất lượng cao để quý khách thẩm định thực tế.
+                </p>
+                <ul class="space-y-1.5 mb-5 text-xs text-gray-200">
+                  <li class="flex items-center space-x-2">
+                    <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
+                    <span>Trọn gói mực in & bảo dưỡng 100% miễn phí</span>
+                  </li>
+                  <li class="flex items-center space-x-2">
+                    <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
+                    <span>Đổi sang máy tốc độ cao hơn bất kỳ lúc nào</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-wrap items-center gap-3 pt-3 border-t border-white/10">
+                <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-[11px] uppercase tracking-wider px-5 py-3 transition inline-flex items-center space-x-2 shadow-md shadow-[#1A9900]/30 border border-[#5eb74c]/50">
+                  <span>Dùng Thử 07 Ngày</span>
+                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </a>
+                <a href="tel:0913237302" class="text-white hover:text-[#5eb74c] font-bold text-xs transition flex items-center space-x-1.5">
+                  <i class="fa-solid fa-phone text-[#5eb74c]"></i>
+                  <span>0913.237.302</span>
+                </a>
+              </div>
             </div>
-            <h3 class="banner-heading text-xl sm:text-2xl font-bold text-white mb-3 leading-[1.38]">
-              Trải Nghiệm Máy Photocopy Toshiba & Ricoh 07 Ngày Miễn Phí
-            </h3>
-            <p class="text-gray-300 text-sm leading-relaxed mb-5">
-              Không cần đặt cọc. Hương Sơn vận chuyển, lắp đặt và cài đặt in mạng tận nơi. Tặng kèm 1.000 bản in chất lượng cao để doanh nghiệp thẩm định trước khi ký kết hợp đồng thuê.
-            </p>
-            <ul class="space-y-2 mb-6 text-xs sm:text-[13px] text-gray-200">
-              <li class="flex items-center space-x-2">
-                <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                <span>Trọn gói mực in, cụm trống và bảo trì định kỳ 100% miễn phí</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                <span>Quyền đổi sang dòng máy tốc độ cao hơn bất kỳ lúc nào</span>
-              </li>
-            </ul>
-          </div>
-          <div class="relative z-10 flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-white/10">
-            <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition inline-flex items-center space-x-2 shadow-md shadow-[#1A9900]/20">
-              <span>Đăng Ký Dùng Thử 07 Ngày</span>
-              <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-            <a href="tel:0913237302" class="text-white hover:text-[#5eb74c] font-bold text-sm transition flex items-center space-x-2">
-              <i class="fa-solid fa-phone text-[#1A9900]"></i>
-              <span>0913.237.302</span>
-            </a>
+
+            <!-- FOREGROUND PRODUCT CARD 1 -->
+            <div class="sm:col-span-5 relative">
+              <div class="relative bg-gradient-to-b from-white/[0.12] to-white/[0.04] border border-white/20 p-4 backdrop-blur-md shadow-2xl group text-center">
+                <div class="absolute top-2.5 left-2.5 bg-[#1A9900] text-white text-[10px] font-bold px-2.5 py-0.5 shadow-md flex items-center gap-1 border border-white/20 z-20">
+                  <i class="fa-solid fa-gift text-[9px]"></i>
+                  <span>0đ Đặt cọc · Dùng thử 7 ngày</span>
+                </div>
+                <div class="pt-6 pb-2 px-1 flex items-center justify-center min-h-[160px]">
+                  <img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="Máy photocopy đa chức năng Toshiba" class="max-h-[150px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.7)] transform group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                </div>
+                <div class="pt-2.5 border-t border-white/15 flex items-center justify-between text-[11px] text-gray-200">
+                  <span class="font-semibold text-white">Toshiba e-Studio</span>
+                  <span class="text-[#5eb74c] font-bold">Miễn phí 100% vật tư</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- PROMO BANNER 2: PHÒNG HỌC THÔNG MINH VIEWSONIC & DUPLO -->
-        <div class="relative overflow-hidden bg-gradient-to-br from-[#0c2417] to-[#143d26] text-white p-7 sm:p-9 flex flex-col justify-between border-t-4 border-[#5eb74c] shadow-lg group">
-          <div class="absolute -right-8 -bottom-8 w-60 h-60 opacity-15 group-hover:opacity-25 group-hover:scale-105 transition-all duration-500 pointer-events-none">
-            <img src="/assets/images/banners/interactive_smart_display_1787905863259.jpg" alt="Màn hình tương tác ViewSonic" class="w-full h-full object-cover" />
-          </div>
-          <div class="relative z-10">
-            <div class="inline-flex items-center space-x-2 bg-[#5eb74c]/25 border border-[#5eb74c]/50 px-3 py-1 mb-3 text-[#5eb74c] text-[11px] font-bold uppercase tracking-wider">
-              <span class="w-2 h-2 bg-[#5eb74c] animate-pulse"></span>
-              <span>Hương Sơn Education Solutions</span>
+        <!-- PROMO BANNER 2: PHÒNG HỌC THÔNG MINH VIEWSONIC & DUPLO (FOREGROUND SHOWCASE) -->
+        <div class="relative overflow-hidden bg-gradient-to-br from-[#081f14] via-[#0d2e1e] to-[#123e29] text-white p-6 sm:p-8 border-t-4 border-[#5eb74c] shadow-xl">
+          <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+            <div class="sm:col-span-7 flex flex-col justify-between">
+              <div>
+                <div class="inline-flex items-center space-x-2 bg-[#5eb74c]/25 border border-[#5eb74c]/60 px-3 py-1 mb-3 text-[#5eb74c] text-[11px] font-bold uppercase tracking-wider">
+                  <span class="w-2 h-2 bg-[#5eb74c] animate-pulse"></span>
+                  <span>Hương Sơn Education Solutions</span>
+                </div>
+                <h3 class="banner-heading text-lg sm:text-xl xl:text-[22px] font-bold text-white mb-2.5 leading-[1.38]">
+                  Giải Pháp Phòng Học Thông Minh Chuẩn Quốc Gia ViewSonic & Duplo
+                </h3>
+                <p class="text-gray-300 text-xs sm:text-[13.5px] leading-relaxed mb-4">
+                  Đồng bộ màn hình tương tác thông minh 4K ViewSonic cùng máy in siêu tốc Duplo. Tối ưu tiêu chuẩn cơ sở vật chất trường chuẩn quốc gia.
+                </p>
+                <ul class="space-y-1.5 mb-5 text-xs text-gray-200">
+                  <li class="flex items-center space-x-2">
+                    <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
+                    <span>Cảm ứng đa điểm, kính 7H, phần mềm myViewBoard</span>
+                  </li>
+                  <li class="flex items-center space-x-2">
+                    <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
+                    <span>Hỗ trợ trọn gói hồ sơ kỹ thuật & dự toán thầu</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-wrap items-center gap-3 pt-3 border-t border-white/10">
+                <a href="/giai-phap/giao-duc/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-[11px] uppercase tracking-wider px-5 py-3 transition inline-flex items-center space-x-2 shadow-md shadow-[#1A9900]/30 border border-[#5eb74c]/50">
+                  <span>Giải Pháp Giáo Dục</span>
+                  <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </a>
+                <a href="https://zalo.me/0913237302" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#5eb74c] font-bold text-xs transition flex items-center space-x-1.5">
+                  <i class="fa-solid fa-comment-dots text-[#5eb74c]"></i>
+                  <span>Tư Vấn Zalo</span>
+                </a>
+              </div>
             </div>
-            <h3 class="banner-heading text-xl sm:text-2xl font-bold text-white mb-3 leading-[1.38]">
-              Giải Pháp Phòng Học Thông Minh Chuẩn Quốc Gia ViewSonic & Duplo
-            </h3>
-            <p class="text-gray-300 text-sm leading-relaxed mb-5">
-              Đồng bộ màn hình tương tác thông minh 4K ViewSonic cùng máy in siêu tốc Duplo. Tối ưu theo đề án chuyển đổi số giáo dục & tiêu chuẩn cơ sở vật chất trường chuẩn quốc gia.
-            </p>
-            <ul class="space-y-2 mb-6 text-xs sm:text-[13px] text-gray-200">
-              <li class="flex items-center space-x-2">
-                <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                <span>Màn hình cảm ứng đa điểm, kính cường lực 7H, phần mềm myViewBoard</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                <span>Hỗ trợ trọn gói hồ sơ kỹ thuật, lập dự toán thầu và thẩm định giá</span>
-              </li>
-            </ul>
-          </div>
-          <div class="relative z-10 flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-white/10">
-            <a href="/giai-phap/giao-duc/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition inline-flex items-center space-x-2 shadow-md shadow-[#1A9900]/20">
-              <span>Xem Giải Pháp Giáo Dục</span>
-              <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </a>
-            <a href="https://zalo.me/0913237302" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#5eb74c] font-bold text-sm transition flex items-center space-x-2">
-              <i class="fa-solid fa-comment-dots text-[#5eb74c]"></i>
-              <span>Tư Vấn Zalo</span>
-            </a>
+
+            <!-- FOREGROUND PRODUCT CARD 2 -->
+            <div class="sm:col-span-5 relative">
+              <div class="relative bg-gradient-to-b from-white/[0.12] to-white/[0.04] border border-white/20 p-4 backdrop-blur-md shadow-2xl group text-center">
+                <div class="absolute top-2.5 left-2.5 bg-[#1A9900] text-white text-[10px] font-bold px-2.5 py-0.5 shadow-md flex items-center gap-1 border border-white/20 z-20">
+                  <i class="fa-solid fa-graduation-cap text-[9px]"></i>
+                  <span>Chuẩn Trường Quốc Gia</span>
+                </div>
+                <div class="pt-6 pb-2 px-1 flex items-center justify-center min-h-[160px]">
+                  <img src="/assets/images/banners/interactive_smart_display_1787905863259.jpg" alt="Màn hình tương tác thông minh ViewSonic 4K" class="max-h-[150px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.7)] transform group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                </div>
+                <div class="pt-2.5 border-t border-white/15 flex items-center justify-between text-[11px] text-gray-200">
+                  <span class="font-semibold text-white">ViewSonic 4K UHD</span>
+                  <span class="text-[#5eb74c] font-bold">Cảm ứng đa điểm</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

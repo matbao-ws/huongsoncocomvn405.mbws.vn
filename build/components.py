@@ -70,7 +70,7 @@ DEFAULT_BADGES = {
 
 # ------------------------------------------------------------------- page header
 def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg", badges=None):
-    """Banner đầu trang + breadcrumb hiển thị sắc nét, tương phản cao, kèm value badges."""
+    """Banner đầu trang 2 cột (Split-Hero): Nội dung bên trái + Showcase thiết bị tiền cảnh nổi bật bên phải."""
     crumbs_html = []
     for i, (label, url) in enumerate(trail):
         if i == 0 and url == "/":
@@ -86,32 +86,75 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
     if crumbs_rendered:
         crumbs_rendered = f' <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> {crumbs_rendered}'
 
-    # Auto pick high-res image if generic
-    if image == "/assets/images/hero-office.jpg":
-        for _, u in trail:
-            if "giai-phap" in u:
-                image = "/assets/images/banners/hero_office_solutions_1787899910391.jpg"
-                break
-            elif "du-an" in u:
-                image = "/assets/images/banners/hero_projects_1787899964984.jpg"
-                break
-            elif "san-pham" in u:
-                image = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
-                break
-            elif "giao-duc" in u or "in-de-thi" in u:
-                image = "/assets/images/banners/hero_edu_tech_1787899932385.jpg"
-                break
+    # Determine section key
+    sec_key = "nhan-tu-van"
+    for _, url in trail:
+        parts = url.strip("/").split("/")
+        if parts and parts[0] in DEFAULT_BADGES:
+            sec_key = parts[0]
+            break
+
+    # Resolve foreground showcase image and badges
+    foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+    top_badge_icon = "fa-solid fa-shield-check"
+    top_badge_text = "100% Chính Hãng CO/CQ"
+    bottom_badge_text = "Bảo hành 24T"
+    showcase_caption = "Thiết bị văn phòng & In ấn hiện đại"
+
+    trail_str = " ".join(u for _, u in trail).lower()
+    if "in-de-thi" in trail_str or "giao-duc" in trail_str:
+        foreground_img = "/assets/images/products/duplo-dp-x550.jpg"
+        top_badge_icon = "fa-solid fa-bolt text-[#ffc107]"
+        top_badge_text = "130 – 150 bản/phút"
+        bottom_badge_text = "Bảo mật 100%"
+        showcase_caption = "Máy in đề thi Duplo Nhật Bản"
+    elif "scan-so-hoa" in trail_str:
+        foreground_img = "/assets/images/banners/highspeed_scanner_1787905830483.jpg"
+        top_badge_icon = "fa-solid fa-bolt text-[#ffc107]"
+        top_badge_text = "Scan 80 – 140 trang/phút"
+        bottom_badge_text = "OCR Tiếng Việt"
+        showcase_caption = "Máy scan Ricoh Fujitsu chuyên dụng"
+    elif "thue-may" in trail_str or "cho-thue" in trail_str:
+        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        top_badge_icon = "fa-solid fa-tag text-[#ffc107]"
+        top_badge_text = "Chỉ từ 800k/tháng"
+        bottom_badge_text = "Dùng thử 7 ngày"
+        showcase_caption = "Thuê máy photocopy trọn gói"
+    elif sec_key == "nhan-tu-van":
+        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        top_badge_icon = "fa-solid fa-bolt text-[#ffc107]"
+        top_badge_text = "Phản hồi trong 15 phút"
+        bottom_badge_text = "Demo máy 0đ"
+        showcase_caption = "Tư vấn & khảo sát tận nơi miễn phí"
+    elif sec_key == "dich-vu":
+        foreground_img = "/assets/images/products/toshiba-e-studio-4528a.jpg"
+        top_badge_icon = "fa-solid fa-clock-rotate-left text-[#ffc107]"
+        top_badge_text = "Xử lý sự cố ≤ 2 giờ"
+        bottom_badge_text = "Đổi máy mới 1-1"
+        showcase_caption = "Kỹ thuật trực chiến tại địa điểm"
+    elif sec_key == "du-an":
+        foreground_img = "/assets/images/banners/hero_projects_1787899964984.jpg"
+        top_badge_icon = "fa-solid fa-award text-[#ffc107]"
+        top_badge_text = "15+ Năm Kinh Nghiệm"
+        bottom_badge_text = "500+ Dự án"
+        showcase_caption = "Hội đồng thi & Ngân hàng uy tín"
+    elif sec_key == "ve-huong-son":
+        foreground_img = "/assets/images/banners/hero_office_solutions_1787899910391.jpg"
+        top_badge_icon = "fa-solid fa-building text-[#5eb74c]"
+        top_badge_text = "Thành lập từ 2008"
+        bottom_badge_text = "Uy tín 16 năm"
+        showcase_caption = "Trụ sở & Showroom tại Hà Nội"
+    elif sec_key == "cong-cu":
+        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        top_badge_icon = "fa-solid fa-calculator text-[#ffc107]"
+        top_badge_text = "Kết quả trong 30 giây"
+        bottom_badge_text = "Tiết kiệm 35%"
+        showcase_caption = "Ước tính TCO & Chi phí tối ưu"
 
     # Resolve badges
     chosen_badges = badges
     if not chosen_badges:
-        for _, url in trail:
-            parts = url.strip("/").split("/")
-            if parts and parts[0] in DEFAULT_BADGES:
-                chosen_badges = DEFAULT_BADGES[parts[0]]
-                break
-    if not chosen_badges:
-        chosen_badges = DEFAULT_BADGES["nhan-tu-van"]
+        chosen_badges = DEFAULT_BADGES.get(sec_key, DEFAULT_BADGES["nhan-tu-van"])
 
     badges_items = []
     for item in chosen_badges:
@@ -120,45 +163,96 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
         link_href = item[2] if len(item) > 2 else None
         if link_href:
             badges_items.append(
-                f'<a href="{link_href}" class="inline-flex items-center gap-2 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3.5 py-1.5 transition font-semibold shadow-sm">'
+                f'<a href="{link_href}" class="inline-flex items-center gap-1.5 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3 py-1.5 transition font-semibold text-xs shadow-sm">'
                 f'<i class="{icon_cls}"></i> <span>{txt}</span></a>'
             )
         else:
             badges_items.append(
-                f'<div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">'
+                f'<div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm text-xs">'
                 f'<i class="{icon_cls}"></i> <span>{txt}</span></div>'
             )
-    badges_rendered = "\n        ".join(badges_items)
+    badges_rendered = "\n          ".join(badges_items)
+
+    lead_html = f'<p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">{lead}</p>' if lead else ""
 
     return f"""
-  <!-- PAGE HERO (REDESIGNED BREADCRUMB BANNER) -->
-  <section class="relative bg-[#0d1626] py-10 sm:py-14 overflow-hidden border-b border-white/10">
+  <!-- PAGE HERO (SPLIT-HERO FOREGROUND SHOWCASE BANNER) -->
+  <section class="relative bg-[#0d1626] py-10 sm:py-14 lg:py-16 overflow-hidden border-b border-white/10">
+    <!-- Ambient Tech Background -->
     <div class="absolute inset-0 z-0">
-      <img src="{image}" alt="{esc(h1)}" class="w-full h-full object-cover object-center opacity-40 scale-105 transform motion-safe:transition-transform motion-safe:duration-1000" loading="eager" />
-      <div class="absolute inset-0 bg-gradient-to-r from-[#0a1526]/95 via-[#0d1e38]/85 to-[#0e2a52]/80"></div>
-      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.25) 1px, transparent 1px); background-size: 24px 24px;"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-[#0a1526] via-[#0d1e38] to-[#12284c]"></div>
+      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.2) 1px, transparent 1px); background-size: 28px 28px;"></div>
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-[#1A9900]/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
     </div>
-    <div class="relative z-10 {WRAP} w-full text-center">
-      <div class="flex justify-center mb-3">
-        <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm" aria-label="Breadcrumb">
+
+    <div class="relative z-10 {WRAP} w-full">
+      <!-- Breadcrumb Pill on Top-Left -->
+      <div class="flex items-center justify-start mb-4">
+        <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm flex-wrap" aria-label="Breadcrumb">
           <a href="/" class="hover:text-white flex items-center gap-1.5 transition">
             <i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i>
             <span>Trang chủ</span>
           </a>{crumbs_rendered}
         </nav>
       </div>
-      <div class="inline-flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
-        {esc(eyebrow)}
-      </div>
-      <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3 leading-[1.38] tracking-normal drop-shadow-md max-w-4xl mx-auto">
-        {esc(h1)}
-      </h1>
-      <p class="max-w-2xl mx-auto text-gray-200 text-[14.5px] sm:text-[15.5px] leading-relaxed mb-6 font-normal">
-        {lead}
-      </p>
-      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-xs sm:text-[13px]">
-        {badges_rendered}
+
+      <!-- 2-COLUMN SPLIT HERO SHOWCASE -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <!-- LEFT COLUMN: Content & Action (7 cols) -->
+        <div class="lg:col-span-7 text-left">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2.5">
+            <span class="w-2 h-2 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
+            {esc(eyebrow)}
+          </div>
+          <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3.5 leading-[1.35] tracking-normal drop-shadow-md">
+            {esc(h1)}
+          </h1>
+          {lead_html}
+          <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-7">
+            {badges_rendered}
+          </div>
+          <div class="flex flex-wrap items-center gap-3.5 sm:gap-4">
+            <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-7 py-3.5 transition flex items-center gap-2 shadow-lg shadow-[#1A9900]/30 border border-[#5eb74c]/50">
+              <span>Yêu Cầu Báo Giá Nhanh</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+            <a href="tel:0911138583" class="border border-white/30 hover:border-[#5eb74c] hover:bg-white/10 text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition flex items-center gap-2 backdrop-blur-sm">
+              <i class="fa-solid fa-phone text-[#5eb74c]"></i>
+              <span>Hotline: 091.113.8583</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: THE FOREGROUND PRODUCT SHOWCASE (5 cols) -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-[420px] lg:max-w-none">
+            <div class="absolute -inset-2 bg-gradient-to-tr from-[#1A9900]/25 to-blue-500/20 rounded-2xl blur-xl opacity-70 pointer-events-none"></div>
+            <div class="relative bg-gradient-to-b from-white/[0.12] to-white/[0.04] border border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
+              <!-- Top Floating Badge -->
+              <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md flex items-center gap-1.5 border border-white/20 z-20">
+                <i class="{top_badge_icon}"></i>
+                <span>{top_badge_text}</span>
+              </div>
+
+              <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
+              <div class="pt-6 pb-2 px-2 flex items-center justify-center min-h-[200px] sm:min-h-[230px]">
+                <img src="{foreground_img}" alt="{esc(h1)}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
+              </div>
+
+              <!-- Bottom Caption Strip & Floating Badge -->
+              <div class="pt-3 border-t border-white/15 flex items-center justify-between text-xs text-gray-200">
+                <div class="flex items-center gap-1.5 font-medium">
+                  <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
+                  <span>{showcase_caption}</span>
+                </div>
+                <span class="bg-[#0d1626]/80 text-[#84e372] text-[10.5px] font-bold px-2 py-0.5 border border-[#5eb74c]/40">
+                  {bottom_badge_text}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
