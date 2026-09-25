@@ -213,30 +213,132 @@ def _knowledge_hub():
         url="/ve-huong-son/kien-thuc/", body=body, jsonld=ld, active="/ve-huong-son/")
 
 
+
 def _news_hub():
     trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Tin tức", "/ve-huong-son/tin-tuc/")]
-    body = C.page_hero(eyebrow="Tin tức", h1="Tin tức – Dự án và sự kiện",
-                       lead="Cập nhật hoạt động triển khai, bàn giao và các sự kiện liên quan của Hương Sơn.", trail=trail)
+    body = C.page_hero(eyebrow="Tin tức & Sự kiện", h1="Tin tức – Dự án & Cẩm nang chuyên môn",
+                       lead="Cập nhật hoạt động triển khai thực tế, dự án bàn giao và các bài viết cẩm nang kỹ thuật chuyên sâu của Hương Sơn.", trail=trail)
     body += C.answer_first([
-        ["Trang này là gì", "Chuyên mục tin tức về dự án, bàn giao thiết bị và sự kiện của Hương Sơn."],
-        ["Dành cho ai", "Khách hàng và đối tác muốn theo dõi hoạt động mới nhất của Hương Sơn."],
-        ["Hiện có gì", "Các dự án đã triển khai; tin tức mới sẽ được cập nhật khi có dự án hoặc hoạt động đáng chú ý."],
+        ["Trang này là gì", "Chuyên mục tin tức tổng hợp về các dự án thực tế và cẩm nang kiến thức chuyên sâu của Hương Sơn."],
+        ["Dành cho ai", "Khách hàng, đối tác và nhà quản lý muốn theo dõi hoạt động triển khai và học hỏi kinh nghiệm in ấn – số hóa."],
+        ["Nội dung nổi bật", "Các dự án cung cấp thiết bị cho Sở GD&ĐT, Ngân hàng Vietcombank và 16 cẩm nang hướng dẫn kỹ thuật chi tiết."],
     ])
-    body += C.section(C.card_grid([{
-        "title": p, "url": u, "tag": tag, "cta": "Xem chi tiết",
-        "text": desc,
-    } for p, u, tag, desc in [
-        ("Sở GD&ĐT Quảng Trị – Thuê máy in nhân bản siêu tốc Duplo 2026", "/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/", "Dự án GD", "Bàn giao và vận hành hệ thống máy in siêu tốc Duplo DP-X550 phục vụ kỳ thi tuyển sinh và tốt nghiệp THPT an toàn tuyệt đối."),
-        ("Sở GD&ĐT Vĩnh Phúc – Thuê hệ thống máy photocopy sao in đề thi", "/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/", "Dự án GD", "Cung cấp hệ thống máy photocopy công suất lớn và phương án máy dự phòng N+1 trong khu vực cách ly 3 vòng."),
-        ("Cung cấp máy photocopy cho hệ thống Vietcombank toàn quốc", "/du-an/vietcombank-cung-cap-may-photocopy/", "Ngân hàng", "Triển khai dịch vụ Managed Print Services và máy photocopy Toshiba e-STUDIO tại các chi nhánh và phòng giao dịch Vietcombank."),
-        ("Giải pháp in sao đề thi THPT cách ly 3 vòng tuyệt đối bảo mật", "/giai-phap/giao-duc/in-de-thi/", "Giải pháp", "Quy trình in sao đề thi khép kín tốc độ 130–180 trang/phút, bảo mật tuyệt đối, kỹ sư túc trực 24/24 trong khu vực cách ly."),
-        ("Giải pháp cho thuê máy photocopy thế hệ mới: Cam kết SLA 2 giờ", "/giai-phap/cho-thue-thiet-bi/", "Dịch vụ", "Tiết kiệm 40% chi phí TCO, 0đ vốn đầu tư ban đầu, bao trọn 100% mực và vật tư linh kiện FANSIPAN tiêu chuẩn Nhật Bản."),
-        ("Số hóa hồ sơ học bạ và tài liệu lưu trữ chuẩn Thông tư 02/2019/TT-BNV", "/giai-phap/scan-so-hoa/", "Chuyển đổi số", "Máy scan Ricoh Fujitsu chuyên dụng kết hợp OCR tiếng Việt bóc tách dữ liệu tìm kiếm tức thì cho trường học và cơ quan."),
-    ]], cols=3))
-    body += C.cta_band(title="Muốn nhận thông tin dự án mới của Hương Sơn?",
-                       text="Để lại thông tin liên hệ — Hương Sơn cập nhật khi có dự án và nội dung mới.")
+
+    # Section 1: Featured Knowledge Pillars (Cẩm nang kiến thức nổi bật) with REAL IMAGES!
+    featured_articles = [
+        {
+            "title": "Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học?",
+            "url": "/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/",
+            "tag": "Tư vấn đầu tư",
+            "image": "/assets/images/hero-office.jpg",
+            "text": "Phân tích bài toán chi phí dòng tiền TCO, khấu hao và rủi ro hỏng hóc giúp lãnh đạo đưa ra quyết định mua sắm tối ưu nhất.",
+            "cta": "Đọc cẩm nang",
+        },
+        {
+            "title": "Tiêu chuẩn máy in nhân bản siêu tốc phục vụ sao in đề thi THPT",
+            "url": "/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/",
+            "tag": "Thi cử & Bảo mật",
+            "image": "/assets/images/hero-education.jpg",
+            "text": "Yêu cầu kỹ thuật cách ly 3 vòng, tốc độ 130–150 bản/phút, bảo mật tuyệt đối và phương án máy dự phòng N+1 theo quy chế thi Bộ GD&ĐT.",
+            "cta": "Đọc cẩm nang",
+        },
+        {
+            "title": "Hướng dẫn chọn máy scan chuyên dụng số hóa tài liệu lưu trữ",
+            "url": "/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/",
+            "tag": "Chuyển đổi số",
+            "image": "/assets/images/banners/highspeed_scanner_1787905830483.jpg",
+            "text": "Tiêu chí chọn máy scan nạp tự động ADF, quét phẳng Flatbed, scan sách không phá gáy và công nghệ OCR bóc tách tiếng Việt chuẩn Thông tư 02.",
+            "cta": "Đọc cẩm nang",
+        },
+        {
+            "title": "So sánh chi tiết máy photocopy Toshiba và Konica Minolta",
+            "url": "/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/",
+            "tag": "So sánh thiết bị",
+            "image": "/assets/images/products/toshiba-e-studio-4528a.jpg",
+            "text": "So sánh chuyên sâu về độ bền cơ học, chi phí bản chụp, tính sẵn có linh kiện và tính năng bảo mật tài liệu ngân hàng.",
+            "cta": "Đọc cẩm nang",
+        },
+        {
+            "title": "Định mức tiêu hao mực in & cuộn Master máy in siêu tốc Duplo",
+            "url": "/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/",
+            "tag": "Định mức vật tư",
+            "image": "/assets/images/products/95-bang-tra-ma-muc-master-may-in-duplo.jpg",
+            "text": "Công thức tính chính xác số lượng cuộn master và bình mực 1.000ml cho kỳ thi tuyển sinh và tốt nghiệp THPT, dự toán không thừa thiếu.",
+            "cta": "Đọc cẩm nang",
+        },
+        {
+            "title": "Số hóa học bạ điện tử THPT đồng bộ CSDL ngành chuẩn MOET",
+            "url": "/ve-huong-son/kien-thuc/so-hoa-hoc-ba-dien-tu-thpt-chuan-moet/",
+            "tag": "Giáo dục số",
+            "image": "/assets/images/banners/hero_edu_tech_1787899932385.jpg",
+            "text": "Quy trình scan 2 mặt tự động học bạ, khử nhiễu nếp gấp giấy cũ và đồng bộ dữ liệu vào phần mềm quản lý trường học toàn quốc.",
+            "cta": "Đọc cẩm nang",
+        },
+    ]
+
+    body += C.section(
+        '<div class="flex items-center justify-between mb-8 flex-wrap gap-4">'
+        '<div>'
+        f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Cẩm nang chuyên sâu</span>'
+        '<h2 class="text-2xl sm:text-[30px] font-bold text-gray-900 leading-tight">Bài viết cẩm nang &amp; Hướng dẫn kỹ thuật</h2>'
+        '</div>'
+        '<a href="/ve-huong-son/kien-thuc/" class="inline-flex items-center gap-2 text-[#1A9900] hover:text-[#147700] font-bold text-xs uppercase tracking-wider transition border border-[#1A9900]/30 hover:border-[#1A9900] px-4 py-2 rounded-xs">'
+        '<span>Xem tất cả 16 bài cẩm nang</span>'
+        '<i class="fa-solid fa-arrow-right text-[11px]"></i>'
+        '</a>'
+        '</div>'
+        + C.card_grid(featured_articles, cols=3),
+        pad="py-16"
+    )
+
+    # Section 2: Case Studies & Projects with REAL IMAGES!
+    case_studies = [
+        {
+            "title": "Sở GD&ĐT Quảng Trị – Thuê máy in nhân bản siêu tốc Duplo 2026",
+            "url": "/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/",
+            "tag": "Dự án GD",
+            "image": "/assets/images/products/duplo-dp-x550.jpg",
+            "text": "Bàn giao và vận hành hệ thống máy in siêu tốc Duplo DP-X550 phục vụ kỳ thi tuyển sinh và tốt nghiệp THPT an toàn tuyệt đối.",
+            "cta": "Xem chi tiết",
+        },
+        {
+            "title": "Sở GD&ĐT Vĩnh Phúc – Thuê hệ thống máy photocopy sao in đề thi",
+            "url": "/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/",
+            "tag": "Dự án GD",
+            "image": "/assets/images/products/98-cho-thue-toshiba-e-studio-456.jpg",
+            "text": "Cung cấp hệ thống máy photocopy công suất lớn và phương án máy dự phòng N+1 trong khu vực cách ly 3 vòng.",
+            "cta": "Xem chi tiết",
+        },
+        {
+            "title": "Cung cấp máy photocopy cho hệ thống Vietcombank toàn quốc",
+            "url": "/du-an/vietcombank-cung-cap-may-photocopy/",
+            "tag": "Ngân hàng",
+            "image": "/assets/images/products/vietcombank-2024.jpg",
+            "text": "Triển khai dịch vụ Managed Print Services và máy photocopy Toshiba e-STUDIO tại các chi nhánh và phòng giao dịch Vietcombank.",
+            "cta": "Xem chi tiết",
+        },
+    ]
+
+    body += C.section(
+        '<div class="flex items-center justify-between mb-8 flex-wrap gap-4">'
+        '<div>'
+        f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Dự án tiêu biểu</span>'
+        '<h2 class="text-2xl sm:text-[30px] font-bold text-gray-900 leading-tight">Hoạt động triển khai &amp; Bàn giao thiết bị</h2>'
+        '</div>'
+        '<a href="/du-an/" class="inline-flex items-center gap-2 text-[#1A9900] hover:text-[#147700] font-bold text-xs uppercase tracking-wider transition border border-[#1A9900]/30 hover:border-[#1A9900] px-4 py-2 rounded-xs">'
+        '<span>Xem tất cả dự án</span>'
+        '<i class="fa-solid fa-arrow-right text-[11px]"></i>'
+        '</a>'
+        '</div>'
+        + C.card_grid(case_studies, cols=3),
+        bg="light",
+        pad="py-16"
+    )
+
+    body += C.cta_band(title="Muốn nhận thông tin dự án & cẩm nang mới nhất của Hương Sơn?",
+                       text="Để lại thông tin liên hệ — Đội ngũ Hương Sơn sẽ cập nhật tài liệu kỹ thuật và giải pháp mới nhất cho Quý vị.")
     ld = [schema.organization(), schema.breadcrumb(trail)]
     return render.page(
-        title="Tin tức – Dự án và sự kiện Hương Sơn | Hương Sơn",
-        description="Cập nhật dự án, bàn giao thiết bị và sự kiện của Hương Sơn.",
+        title="Tin Tức & Cẩm Nang Thiết Bị In Ấn, Số Hóa | Hương Sơn",
+        description="Cập nhật tin tức dự án bàn giao thiết bị, cẩm nang in ấn đề thi, hướng dẫn chọn máy photocopy và số hóa tài liệu tại Hương Sơn.",
         url="/ve-huong-son/tin-tuc/", body=body, jsonld=ld, active="/ve-huong-son/")

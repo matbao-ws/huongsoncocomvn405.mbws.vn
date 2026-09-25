@@ -250,21 +250,71 @@ def _sla():
         + C.matrix_table(["Cấp độ", "Tiếp nhận", "Mục tiêu xử lý"], rows), bg="light", pad="py-16")
 
 
-# ------------------------------------------------------- S13: Case study / kiến thức
+# ------------------------------------------------------- S13: Case study & Kiến thức chuyên môn
 def _news():
+    project_images = {
+        "so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi": "/assets/images/products/98-cho-thue-toshiba-e-studio-456.jpg",
+        "so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026": "/assets/images/products/duplo-dp-x550.jpg",
+        "vietcombank-cung-cap-may-photocopy": "/assets/images/products/vietcombank-2024.jpg",
+    }
     cards = [{"title": p["title"], "url": p["url"], "tag": p["eyebrow"],
-             "text": esc(p["summary"][:130] + "…"), "cta": "Xem case study"} for p in PROJECTS]
+              "image": project_images.get(p["slug"], "/assets/images/hero-projects.jpg"),
+              "text": esc(p["summary"][:130] + "…"), "cta": "Xem case study"} for p in PROJECTS]
     return C.section(
-        C.heading(eyebrow="Case Study", title="Dự án đã triển khai")
+        C.heading(eyebrow="Case Study Thực Tế", title="Dự án tiêu biểu đã triển khai")
         + C.card_grid(cards, cols=3)
         + f'<div class="text-center mt-10"><a href="/du-an/" class="inline-block border border-gray-300 hover:border-[{BRAND}] hover:text-[{BRAND}] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem tất cả dự án</a></div>',
         pad="py-16")
 
 
+def _knowledge_home():
+    knowledge_cards = [
+        {
+            "title": "Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học?",
+            "url": "/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/",
+            "tag": "Tư vấn đầu tư",
+            "image": "/assets/images/hero-office.jpg",
+            "text": "Phân tích bài toán chi phí dòng tiền TCO, khấu hao và rủi ro kỹ thuật giúp lãnh đạo ra quyết định mua sắm chính xác nhất.",
+            "cta": "Đọc cẩm nang (6 phút)",
+        },
+        {
+            "title": "Tiêu chuẩn máy in nhân bản siêu tốc phục vụ sao in đề thi THPT",
+            "url": "/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/",
+            "tag": "Thi cử & Bảo mật",
+            "image": "/assets/images/hero-education.jpg",
+            "text": "Yêu cầu kỹ thuật cách ly 3 vòng, tốc độ 130–150 bản/phút, bảo mật tuyệt đối và phương án máy dự phòng N+1 theo quy chế thi Bộ GD&ĐT.",
+            "cta": "Đọc cẩm nang (8 phút)",
+        },
+        {
+            "title": "Hướng dẫn lựa chọn máy scan số hóa tài liệu cho cơ quan, trường học",
+            "url": "/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/",
+            "tag": "Chuyển đổi số",
+            "image": "/assets/images/banners/highspeed_scanner_1787905830483.jpg",
+            "text": "Tiêu chí chọn máy scan nạp tự động ADF, quét phẳng Flatbed, scan sách không phá gáy và công nghệ OCR tiếng Việt chuẩn Thông tư 02.",
+            "cta": "Đọc cẩm nang (7 phút)",
+        },
+    ]
+    return C.section(
+        '<div class="flex items-center justify-between mb-8 flex-wrap gap-4">'
+        '<div>'
+        f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Cẩm nang &amp; Hướng dẫn chuyên môn</span>'
+        '<h2 class="text-2xl sm:text-[30px] font-bold text-gray-900 leading-tight">Kiến thức chuyên sâu từ chuyên gia Hương Sơn</h2>'
+        '</div>'
+        '<a href="/ve-huong-son/kien-thuc/" class="inline-flex items-center gap-2 text-[#1A9900] hover:text-[#147700] font-bold text-xs uppercase tracking-wider transition border border-[#1A9900]/30 hover:border-[#1A9900] px-4 py-2 rounded-xs">'
+        '<span>Xem toàn bộ 16 bài cẩm nang</span>'
+        '<i class="fa-solid fa-arrow-right text-[11px]"></i>'
+        '</a>'
+        '</div>'
+        + C.card_grid(knowledge_cards, cols=3),
+        bg="light",
+        pad="py-16"
+    )
+
+
 def build(write):
     body = (_hero() + _quick_cta() + _brands() + _why() + _counters() + _pillars()
             + _categories() + _marquee() + _cta_download() + _capability()
-            + _sla() + _news())
+            + _sla() + _news() + _knowledge_home())
 
     ld = [
         schema.organization(), schema.website(),

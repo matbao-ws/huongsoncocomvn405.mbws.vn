@@ -1501,6 +1501,89 @@ KNOWLEDGE_ARTICLES = [
 ]
 
 
+
+INLINE_FIGURES = {
+    "nen-thue-hay-mua-may-photocopy": {
+        "khi-nao-nen-thue": ("/assets/images/banners/toshiba_mfp_product_1787905812744.jpg", "Dịch vụ cho thuê máy photocopy trọn gói tại Hương Sơn: 0đ chi phí đầu tư ban đầu, bao trọn 100% mực và bảo trì kỹ thuật.", "Cho thuê máy photocopy trọn gói Hương Sơn"),
+        "cong-thuc-tco": ("/assets/images/products/toshiba-e-studio-2500ac.jpg", "Máy photocopy đa chức năng A3 hiện đại giúp doanh nghiệp tối ưu tổng chi phí sở hữu (TCO) trong 3 năm.", "Tối ưu TCO máy photocopy"),
+    },
+    "huong-dan-chon-may-scan-so-hoa-tai-lieu": {
+        "phan-loai-may-scan": ("/assets/images/products/ricoh-fi-8170.png", "Máy scan chuyên dụng Ricoh fi-8170: Tốc độ 70 ppm / 140 ipm, nạp tự động ADF 100 tờ và cảm biến cuốn giấy kép siêu âm.", "Máy scan Ricoh fi-8170 tốc độ cao"),
+        "danh-gia-model-ricoh": ("/assets/images/products/ricoh-sv600.jpg", "Máy scan chụp trên cao không phá gáy Ricoh SV600 chuyên số hóa sách cổ, tài liệu đóng quyển khổ A3.", "Máy scan chụp trên cao Ricoh SV600"),
+    },
+    "tieu-chuan-may-in-de-thi-thpt": {
+        "tieu-chuan-ky-thuat": ("/assets/images/products/duplo-dp-x550.jpg", "Máy in siêu tốc Duplo DP-X550: Tốc độ 130–150 bản/phút đáp ứng khối lượng in hàng trăm nghìn trang đề thi trong khu cách ly.", "Máy in đề thi Duplo DP-X550"),
+        "vi-sao-chon-duplo": ("/assets/images/products/muc-in-master-duplo.jpg", "Mực in và cuộn phim Master Duplo chính hãng: Độ đậm nét cao, khô ngay lập tức, không lem nhòe chữ số đề thi trắc nghiệm.", "Mực in và Master Duplo chính hãng"),
+    },
+    "so-sanh-may-photocopy-toshiba-va-konica-minolta": {
+        "uu-diem-toshiba": ("/assets/images/products/toshiba-e-studio-3028a.jpg", "Máy photocopy Toshiba e-STUDIO thế hệ mới: Bền bỉ, linh kiện phổ thông dễ thay thế, chi phí bản in cực thấp.", "Máy photocopy Toshiba e-STUDIO"),
+        "uu-diem-konica": ("/assets/images/products/konica-minolta-bizhub-360i.jpg", "Konica Minolta Bizhub 360i: Màn hình cảm ứng 10.1 inch, khả năng phân giải sắc nét và bảo mật tài liệu ngân hàng.", "Konica Minolta Bizhub 360i"),
+    },
+    "cach-chon-muc-in-linh-kien-may-photocopy-chinh-hang": {
+        "cac-linh-kien-quan-trong": ("/assets/images/products/59-muc-toshiba-2508a-3008a-3508a-4508a-500.jpg", "Mực máy photocopy Toshiba chính hãng có tem chống hàng giả và mã vạch định danh rõ ràng.", "Mực Toshiba e-STUDIO chính hãng"),
+        "giai-phap-fansipan": ("/assets/images/products/84-muc-fansipan-tonner-black.jpg", "Mực tương thích FANSIPAN sản xuất theo công nghệ Nhật Bản, tương thích hoàn hảo và tiết kiệm 50% chi phí.", "Mực in FANSIPAN công nghệ Nhật Bản"),
+    },
+    "quy-trinh-so-hoa-tai-lieu-luu-tru": {
+        "6-buoc-quy-trinh": ("/assets/images/banners/highspeed_scanner_1787905830483.jpg", "Quy trình quét bóc tách và nhận dạng ký tự quang học OCR tiếng Việt đạt chuẩn Thông tư 02/2019/TT-BNV.", "Quy trình scan và OCR tiếng Việt"),
+        "thiet-bi-phan-mem": ("/assets/images/products/ricoh-fi-7600.jpg", "Máy scan công nghiệp Ricoh fi-7600 công suất 44.000 trang/ngày phục vụ các dự án số hóa tài liệu lưu trữ khối lượng lớn.", "Máy scan công nghiệp Ricoh fi-7600"),
+    },
+    "dinh-muc-muc-in-cuon-master-duplo-in-de-thi": {
+        "cong-thuc-tinh-muc": ("/assets/images/products/45-muc-nen-dung-cho-duplo.jpg", "Bình mực Duplo 1.000ml in được từ 18.000 đến 35.000 bản tùy theo độ phủ mực và số lượng bản in trên mỗi master.", "Định mức mực in Duplo 1.000ml"),
+        "luu-y-du-phong-vat-tu": ("/assets/images/products/duplo-dp-x550.jpg", "Hệ thống máy in siêu tốc Duplo DP-X550 và kho vật tư dự phòng N+1 sẵn sàng phục vụ kỳ thi tuyển sinh và tốt nghiệp.", "Hệ thống máy in Duplo dự phòng thi"),
+    },
+    "so-sanh-duplo-dp-x550-va-dp-x850": {
+        "diem-manh-x550": ("/assets/images/products/duplo-dp-x550.jpg", "Duplo DP-X550 khổ in A3, độ phân giải 300x600 dpi — Dòng máy in đề thi phổ biến nhất tại các trường THPT và Sở GD&ĐT.", "Duplo DP-X550 khổ A3"),
+        "diem-manh-x850": ("/assets/images/products/30-duplo-dp-x850.png", "Duplo DP-X850 độ phân giải 600x600 dpi cao cấp — Tái hiện hình vẽ hình học, bản đồ và biểu đồ thi cử siêu sắc nét.", "Duplo DP-X850 600x600 dpi"),
+    },
+    "giai-phap-phoi-trang-gap-ghim-tu-dong-duplo": {
+        "nguyen-ly-hoat-dong": ("/assets/images/products/40-may-phoi-trang-dfc-120.png", "Hệ thống phối trang 12 tháp Duplo DFC-120: Tự động phát hiện nạp đúp, kẹt giấy và hết giấy từng khay riêng biệt.", "Máy phối trang Duplo DFC-120"),
+        "ung-dung-thuc-te": ("/assets/images/products/36-may-giap-ghim-duplo-dfc-sii-ket-noi-voi-dfc-100-101-120.jpg", "Máy dập ghim gập đôi Duplo DFC-S kết nối liên hoàn với tháp phối trang, tạo thành tập đề thi đóng quyển hoàn chỉnh tức thì.", "Máy gập ghim tự động Duplo DFC-S"),
+    },
+    "giai-phap-cho-thue-may-photocopy-ngan-hang-bao-mat": {
+        "thach-thuc-ngan-hang": ("/assets/images/products/vietcombank-2024.jpg", "Dự án triển khai máy photocopy và dịch vụ quản trị in ấn bảo mật tại các chi nhánh Ngân hàng Vietcombank trên toàn quốc.", "Dịch vụ in ấn ngân hàng Vietcombank"),
+        "4-tieu-chuan-bao-mat": ("/assets/images/products/toshiba-e-studio-4528a.jpg", "Dòng máy photocopy Toshiba e-STUDIO tích hợp ổ cứng mã hóa tự động SED và xác thực thẻ nhân viên bảo mật cao.", "Máy photocopy Toshiba bảo mật ngân hàng"),
+    },
+    "top-may-photocopy-van-phong-cho-thue-chay-nhat": {
+        "danh-gia-tung-model": ("/assets/images/products/toshiba-e-studio-3028a.jpg", "Toshiba e-STUDIO 2528A / 3028A: Model máy photocopy văn phòng được ưa chuộng nhất nhờ độ bền cao và tiết kiệm năng lượng.", "Toshiba e-STUDIO 2528A"),
+        "huong-dan-chon-theo-quy-mo": ("/assets/images/products/120-toshiba-e-studio-6528a.jpg", "Toshiba e-STUDIO 6528A: Công suất cực lớn 65 trang/phút phục vụ khối in ấn tập trung tại tổng công ty và tập đoàn.", "Toshiba e-STUDIO 6528A công suất lớn"),
+    },
+    "so-sanh-may-scan-ricoh-fi-8170-va-fi-8270": {
+        "diem-giong-nhau": ("/assets/images/products/ricoh-fi-8170.png", "Ricoh fi-8170 khay nạp tự động ADF 100 tờ: Nhỏ gọn, tốc độ 70 trang/phút, phù hợp số hóa tài liệu rời hàng loạt.", "Máy scan Ricoh fi-8170 ADF"),
+        "khi-nao-can-flatbed": ("/assets/images/products/ricoh-fi-8270.png", "Ricoh fi-8270 tích hợp mặt gương Flatbed phẳng: Giải pháp số hóa toàn diện cho cả hồ sơ rời và sổ sách đóng gáy.", "Máy scan phẳng Ricoh fi-8270 Flatbed"),
+    },
+    "so-hoa-hoc-ba-dien-tu-thpt-chuan-moet": {
+        "dac-thu-hoc-ba-giay": ("/assets/images/products/ricoh-fi-8170.png", "Máy scan chuyên dụng quét 2 mặt tự động học bạ, công nghệ xử lý ảnh khử nếp gấp và chữ viết mực lem.", "Scan học bạ điện tử 2 mặt"),
+        "thiet-bi-khuyen-nghi": ("/assets/images/hero-education.jpg", "Giải pháp số hóa toàn diện học bạ và chứng chỉ trường học, sẵn sàng đồng bộ lên Cơ sở dữ liệu ngành Giáo dục.", "Đồng bộ CSDL ngành giáo dục"),
+    },
+    "muc-in-fansipan-cong-nghe-nhat-ban-danh-gia": {
+        "xuat-xu-fansipan": ("/assets/images/products/84-muc-fansipan-tonner-black.jpg", "Mực in FANSIPAN sản xuất theo công nghệ Nhật Bản, hạt mực siêu nhỏ giúp bản in sắc nét và giảm thiểu hao mòn trống.", "Hạt mực công nghệ Nhật Bản FANSIPAN"),
+        "ket-qua-kiem-nghiem": ("/assets/images/products/muc-fansipan-toner.jpg", "Mực tương thích FANSIPAN đạt tiêu chuẩn bản in tương đương 98% mực chính hãng, tiết kiệm chi phí 50%.", "Chất lượng mực FANSIPAN"),
+    },
+    "khac-phuc-loi-may-photocopy-mua-nom-am": {
+        "tai-sao-mua-nom-hay-ket-giay": ("/assets/images/products/drum-bot-tu-photocopy.jpg", "Độ ẩm không khí trên 80% khiến bột từ và trống drum dễ hút ẩm gây ra hiện tượng vệt đen và kẹt giấy liên tục.", "Trống drum và bột từ hút ẩm mùa nồm"),
+        "5-bien-phap-chong-am": ("/assets/images/products/cum-say-fuser-roller.jpg", "Bảo dưỡng định kỳ cụm sấy và bật chế độ chống ẩm tự động giúp máy photocopy hoạt động ổn định trong mùa nồm Bắc Bộ.", "Cụm sấy fuser và chế độ chống ẩm máy photocopy"),
+    },
+    "bang-tra-ma-muc-master-may-in-duplo-toan-tap": {
+        "bang-tra-ma-du-x": ("/assets/images/products/95-bang-tra-ma-muc-master-may-in-duplo.jpg", "Bảng tra mã mực in và cuộn phim Master chính hãng dùng cho các thế hệ máy in siêu tốc Duplo.", "Bảng tra mã mực Master Duplo"),
+        "huong-dan-thay-the": ("/assets/images/products/duplo-dp-x550.jpg", "Sử dụng đúng chủng loại mực và master Duplo giúp bảo vệ đầu tạo ảnh nhiệt Thermal Head và tăng tuổi thọ máy trên 10 năm.", "Đầu tạo ảnh nhiệt máy in Duplo"),
+    },
+}
+
+def make_figure_html(img_url, caption, alt=None):
+    alt_text = alt or caption
+    return f"""
+              <figure class="my-8 rounded-lg overflow-hidden border border-gray-200/90 shadow-sm bg-white">
+                <div class="w-full bg-gray-50 flex items-center justify-center p-3 sm:p-5 min-h-[220px]">
+                  <img src="{img_url}" alt="{esc(alt_text)}" class="max-h-[380px] w-auto object-contain mx-auto transition duration-300 hover:scale-[1.02]" loading="lazy" />
+                </div>
+                <figcaption class="bg-gray-50 px-4 py-2.5 text-xs text-gray-500 italic text-center border-t border-gray-100 flex items-center justify-center gap-1.5">
+                  <i class="fa-solid fa-circle-info text-[{BRAND}] text-[11px]"></i>
+                  <span>{caption}</span>
+                </figcaption>
+              </figure>
+    """
+
+
 def render_article(a):
     trail = [
         ("Trang chủ", "/"),
@@ -1510,24 +1593,37 @@ def render_article(a):
     ]
 
     body = f"""
-  <section class="bg-[#181924] py-16 lg:py-20 text-white relative">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center space-x-2 text-xs text-gray-400 mb-4 flex-wrap">
-        <a href="/" class="hover:text-white transition">Trang chủ</a>
+  <!-- HERO BANNER (SPLIT TECH BANNER) -->
+  <section class="relative bg-[#0d1626] py-12 sm:py-16 overflow-hidden border-b border-white/10 text-white">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-gradient-to-br from-[#0a1526] via-[#0d1e38] to-[#12284c]"></div>
+      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.2) 1px, transparent 1px); background-size: 28px 28px;"></div>
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-[#1A9900]/15 rounded-full blur-3xl pointer-events-none"></div>
+    </div>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center space-x-2 text-xs text-gray-300 mb-4 flex-wrap">
+        <a href="/" class="hover:text-white transition flex items-center gap-1.5"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i>Trang chủ</a>
         <span>/</span>
         <a href="/ve-huong-son/" class="hover:text-white transition">Về Hương Sơn</a>
         <span>/</span>
         <a href="/ve-huong-son/kien-thuc/" class="text-[#5eb74c] font-semibold hover:underline">Kiến thức</a>
+        <span>/</span>
+        <span class="text-gray-300 truncate max-w-xs">{esc(a['title'])}</span>
       </div>
       <div class="max-w-4xl">
-        <span class="inline-block bg-[{BRAND}] text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 mb-4 rounded-xs">{esc(a['tag'])}</span>
-        <h1 class="text-2xl sm:text-4xl font-bold text-white leading-tight mb-4">{esc(a['title'])}</h1>
-        <div class="flex items-center space-x-4 text-xs text-gray-300 font-medium">
-          <span><i class="fa-regular fa-calendar text-[#5eb74c] mr-1.5"></i>{esc(a['date'])}</span>
+        <div class="inline-flex items-center gap-2 bg-[#1A9900] text-white text-[11px] font-bold uppercase tracking-wider px-3.5 py-1 mb-4 rounded-xs shadow-sm">
+          <i class="fa-solid fa-bookmark text-xs"></i>
+          <span>{esc(a['tag'])}</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-4 tracking-tight drop-shadow-md">{esc(a['title'])}</h1>
+        <div class="flex flex-wrap items-center gap-4 text-xs text-gray-300 font-medium pt-3 border-t border-white/10">
+          <span class="flex items-center gap-1.5"><i class="fa-regular fa-calendar text-[#5eb74c]"></i>{esc(a['date'])}</span>
           <span>•</span>
-          <span><i class="fa-regular fa-clock text-[#5eb74c] mr-1.5"></i>{esc(a['reading_time'])}</span>
+          <span class="flex items-center gap-1.5"><i class="fa-regular fa-clock text-[#5eb74c]"></i>{esc(a['reading_time'])}</span>
           <span>•</span>
-          <span><i class="fa-solid fa-shield-halved text-[#5eb74c] mr-1.5"></i>Ban Biên Tập Hương Sơn</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-user-check text-[#5eb74c]"></i>Kỹ sư Nguyễn Công Thuận (16+ năm KN)</span>
+          <span>•</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-[#5eb74c]"></i>Hương Sơn Co., Ltd kiểm duyệt</span>
         </div>
       </div>
     </div>
@@ -1539,15 +1635,22 @@ def render_article(a):
         for anchor, label in a.get("toc", [])
     )
 
-    # Content blocks
+    # Content blocks with INLINE FIGURES!
+    slug = a["slug"]
     blocks_html = ""
     for anchor, heading, html_content in a.get("content_blocks", []):
+        fig_html = ""
+        if slug in INLINE_FIGURES and anchor in INLINE_FIGURES[slug]:
+            f_img, f_cap, f_alt = INLINE_FIGURES[slug][anchor]
+            fig_html = make_figure_html(f_img, f_cap, f_alt)
+
         blocks_html += f"""
         <div id="{anchor}" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">{esc(heading)}</h2>
           <div class="prose max-w-none text-gray-700">
             {html_content}
           </div>
+          {fig_html}
         </div>"""
 
     # FAQs
@@ -1566,7 +1669,10 @@ def render_article(a):
         )
         faq_html = f"""
         <div class="mt-12 pt-8 border-t border-gray-200">
-          <h3 class="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm text-[{BRAND}]">Câu hỏi thường gặp</h3>
+          <div class="flex items-center gap-2 mb-6">
+            <span class="w-1.5 h-6 bg-[{BRAND}] inline-block"></span>
+            <h3 class="text-xl font-bold text-gray-900 uppercase tracking-wider text-sm text-[{BRAND}]">Câu hỏi thường gặp (FAQ)</h3>
+          </div>
           <div class="space-y-4">{faq_items}</div>
         </div>"""
 
@@ -1574,13 +1680,16 @@ def render_article(a):
     related_html = ""
     if a.get("related_links"):
         links_items = "".join(
-            f'<a href="{url}" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[{BRAND}] hover:text-[{BRAND}] text-sm font-semibold transition rounded-sm">'
+            f'<a href="{url}" class="flex items-center space-x-2 p-3.5 bg-gray-50 border border-gray-200 hover:border-[{BRAND}] hover:text-[{BRAND}] text-sm font-semibold transition rounded-sm">'
             f'<i class="fa-solid fa-arrow-right text-[{BRAND}] text-xs"></i><span>{esc(title)}</span></a>'
             for title, url in a["related_links"]
         )
         related_html = f"""
         <div class="mt-12 pt-8 border-t border-gray-200">
-          <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Bài viết & Dịch vụ liên quan</h3>
+          <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-link text-[{BRAND}]"></i>
+            <span>Bài viết &amp; Thiết bị liên quan</span>
+          </h3>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">{links_items}</div>
         </div>"""
 
@@ -1591,13 +1700,66 @@ def render_article(a):
           <div class="mb-10 p-5 sm:p-6 bg-gradient-to-r from-emerald-50/90 via-green-50/60 to-teal-50/40 border-l-4 border-[{BRAND}] rounded-r shadow-xs">
             <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[{BRAND}] mb-2.5">
               <i class="fa-solid fa-sparkles text-amber-500"></i>
-              <span>Tóm tắt cốt lõi theo chuẩn AEO (Dành cho AI &amp; Tìm kiếm nhanh)</span>
+              <span>Tóm tắt cốt lõi theo chuẩn AEO (Dành cho AI Overviews &amp; Tìm kiếm nhanh)</span>
             </div>
             <p class="text-[15.5px] font-semibold text-gray-900 leading-relaxed">
               {a['aeo_answer']}
             </p>
           </div>
         """
+
+    # Featured Image Figure
+    feat_img = a.get('image', '/assets/images/hero-office.jpg')
+    featured_img_html = f"""
+        <figure class="my-8 rounded-lg overflow-hidden border border-gray-200 shadow-md bg-white">
+          <div class="h-64 sm:h-80 md:h-[400px] w-full overflow-hidden bg-gray-900/5">
+            <img src="{feat_img}" alt="{esc(a['title'])}" class="w-full h-full object-cover" loading="eager" />
+          </div>
+          <figcaption class="bg-gray-50 px-5 py-3 text-xs text-gray-600 flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-t border-gray-200/80">
+            <span><i class="fa-solid fa-camera mr-1.5 text-[{BRAND}]"></i>Hình ảnh thiết bị &amp; giải pháp: <strong>{esc(a['title'])}</strong></span>
+            <span class="text-[11px] font-semibold text-gray-400">Nguồn: Công ty TNHH TM&amp;DV Hương Sơn</span>
+          </figcaption>
+        </figure>
+    """
+
+    # E-E-A-T Author Box
+    author_box_html = f"""
+        <div class="my-10 p-6 bg-gradient-to-r from-gray-50 via-white to-emerald-50/20 border border-gray-200 rounded-sm shadow-xs flex flex-col sm:flex-row items-center sm:items-start gap-5">
+          <img src="/assets/images/mbws-avatar-1-150x150.jpg" alt="Kỹ sư Nguyễn Công Thuận" class="w-20 h-20 rounded-full object-cover border-2 border-[{BRAND}] shadow-sm flex-shrink-0" />
+          <div class="text-center sm:text-left flex-1">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-1">
+              <h4 class="font-bold text-gray-900 text-base">Kỹ sư Nguyễn Công Thuận</h4>
+              <span class="text-[11px] bg-[{BRAND}]/10 text-[{BRAND}] font-bold px-2 py-0.5 rounded">Tác giả &amp; Chuyên gia kỹ thuật</span>
+            </div>
+            <p class="text-xs text-gray-500 mb-2 font-medium">Giám đốc Kỹ thuật &amp; Sáng lập Công ty TNHH Thương mại và Dịch vụ Hương Sơn (thành lập từ 2008).</p>
+            <p class="text-[13.5px] text-gray-600 leading-relaxed">
+              Hơn 16 năm kinh nghiệm thực chiến trong công tác lắp đặt, cấu hình, vận hành hệ thống máy in siêu tốc phục vụ sao in đề thi tuyệt đối bảo mật cho các Sở GD&amp;ĐT, triển khai dịch vụ Managed Print Services (MPS) cho hệ thống ngân hàng Vietcombank và số hóa hàng triệu trang tài liệu lưu trữ chuẩn Thông tư 02/2019/TT-BNV.
+            </p>
+            <div class="mt-3 flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs">
+              <a href="tel:{SITE['hotline_primary_tel']}" class="text-[{BRAND}] font-bold hover:underline flex items-center gap-1"><i class="fa-solid fa-phone"></i> 091.113.8583</a>
+              <span class="text-gray-300">•</span>
+              <a href="{SITE['zalo']}" target="_blank" rel="noopener" class="text-blue-600 font-bold hover:underline flex items-center gap-1"><i class="fa-solid fa-comment-dots"></i> Zalo chuyên gia</a>
+              <span class="text-gray-300">•</span>
+              <span class="text-gray-500"><i class="fa-solid fa-location-dot"></i> Hà Nội</span>
+            </div>
+          </div>
+        </div>
+    """
+
+    # Sidebar related articles with thumbnails
+    sidebar_articles = []
+    for other in KNOWLEDGE_ARTICLES:
+        if other["slug"] != a["slug"]:
+            sidebar_articles.append(f"""
+            <a href="{other['url']}" class="group flex gap-3 items-center py-2.5 border-b border-gray-100 last:border-0 hover:text-[{BRAND}] transition">
+              <img src="{other.get('image', '/assets/images/hero-office.jpg')}" alt="{esc(other['title'])}" class="w-16 h-12 rounded object-cover flex-shrink-0 group-hover:scale-105 transition duration-200 border border-gray-200" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <span class="text-[10px] font-bold text-[{BRAND}] uppercase tracking-wide block mb-0.5">{esc(other.get('tag', 'Kiến thức'))}</span>
+                <p class="text-xs font-semibold text-gray-800 group-hover:text-[{BRAND}] line-clamp-2 leading-snug">{esc(other['title'])}</p>
+              </div>
+            </a>
+            """)
+    sidebar_articles_html = "".join(sidebar_articles[:6])
 
     # Main layout
     body += f"""
@@ -1620,23 +1782,32 @@ def render_article(a):
 
           {aeo_box_html}
 
+          {featured_img_html}
+
           {blocks_html}
+
+          {author_box_html}
+
           {faq_html}
+
           {related_html}
         </article>
 
         <!-- Sidebar column -->
         <aside class="lg:col-span-4 space-y-8">
           <div class="bg-gray-50 border border-gray-200 p-6 sticky top-28 rounded-sm">
-            <h4 class="text-base font-bold text-gray-900 mb-4 uppercase tracking-wider text-xs text-[{BRAND}]">Cần tư vấn thiết bị & dịch vụ?</h4>
+            <h4 class="text-base font-bold text-gray-900 mb-4 uppercase tracking-wider text-xs text-[{BRAND}] flex items-center gap-2">
+              <i class="fa-solid fa-headset"></i>
+              <span>Cần tư vấn thiết bị &amp; dịch vụ?</span>
+            </h4>
             <p class="text-sm text-gray-600 mb-6 leading-relaxed">
               Hương Sơn hỗ trợ tư vấn chọn đúng cấu hình máy photocopy, máy scan, máy in siêu tốc và dự toán chi phí phù hợp nhất cho Quý đơn vị.
             </p>
             <div class="space-y-3">
-              <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="block w-full py-3 px-4 bg-[{BRAND}] hover:bg-[#147700] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm">
+              <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="block w-full py-3 px-4 bg-[{BRAND}] hover:bg-[#147700] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm shadow-sm">
                 <i class="fa-solid fa-phone mr-2"></i>Gọi Hotline: {SITE['hotline_primary']}
               </a>
-              <a href="{SITE['zalo']}" target="_blank" rel="noopener" class="block w-full py-3 px-4 bg-[#0068FF] hover:bg-[#0052cc] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm">
+              <a href="{SITE['zalo']}" target="_blank" rel="noopener" class="block w-full py-3 px-4 bg-[#0068FF] hover:bg-[#0052cc] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm shadow-sm">
                 <i class="fa-solid fa-comment-dots mr-2"></i>Chat Zalo tư vấn
               </a>
               <a href="/nhan-tu-van/bao-gia/" class="block w-full py-3 px-4 bg-white border border-gray-300 hover:border-[{BRAND}] text-gray-800 text-center font-bold text-xs uppercase tracking-wider transition rounded-sm">
@@ -1645,10 +1816,13 @@ def render_article(a):
             </div>
 
             <div class="mt-8 pt-6 border-t border-gray-200">
-              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Các cẩm nang liên quan</h5>
-              <ul class="space-y-2.5 text-xs text-gray-600">
-                {''.join(f'<li><a href="{other["url"]}" class="hover:text-[{BRAND}] transition block leading-snug">• {esc(other["title"])}</a></li>' for other in KNOWLEDGE_ARTICLES if other["slug"] != a["slug"][:7])}
-              </ul>
+              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3 flex items-center gap-1.5">
+                <i class="fa-solid fa-book-bookmark text-[{BRAND}]"></i>
+                <span>Cẩm nang nổi bật khác</span>
+              </h5>
+              <div class="space-y-1">
+                {sidebar_articles_html}
+              </div>
             </div>
           </div>
         </aside>
@@ -1698,16 +1872,39 @@ def render_hub():
         ("Kiến thức", "/ve-huong-son/kien-thuc/"),
     ]
     body = C.page_hero(
-        eyebrow="Kiến thức chuyên môn",
+        eyebrow="Trung tâm kiến thức chuyên sâu",
         h1="Cẩm nang thiết bị, in ấn & số hóa tài liệu",
-        lead="Tổng hợp kinh nghiệm chuyên sâu, bảng so sánh và phân tích chi phí giúp Quý khách ra quyết định chính xác nhất trước khi mua hoặc thuê thiết bị.",
+        lead="Tổng hợp kinh nghiệm thực chiến 16+ năm, bảng so sánh chi tiết và phân tích chi phí TCO giúp Quý khách ra quyết định chính xác nhất khi đầu tư hoặc thuê thiết bị.",
         trail=trail,
     )
     body += C.answer_first([
-        ["Chuyên mục này là gì", "Trung tâm kiến thức chuyên sâu gồm 16 bài viết chuẩn mực về máy photocopy, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu và vật tư FANSIPAN."],
-        ["Dành cho ai", "Lãnh đạo đơn vị, phòng Kế hoạch – Tài chính, Ban chỉ đạo thi Sở GD&ĐT, khối văn phòng Ngân hàng và chuyên viên quản trị thiết bị."],
-        ["Giúp giải quyết điều gì", "Nắm rõ chi phí thực tế TCO, so sánh ưu nhược điểm các dòng máy, định mức vật tư in đề thi, hiểu quy trình số hóa chuẩn quốc gia và chọn đúng mực in chính hãng."],
+        ["Chuyên mục này là gì", "Trung tâm tri thức B2B gồm 16 cẩm nang trụ cột phân tích chuyên sâu về máy photocopy, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu lưu trữ và vật tư FANSIPAN."],
+        ["Dành cho ai", "Lãnh đạo đơn vị, phòng Kế hoạch – Tài chính, Ban chỉ đạo kỳ thi Sở GD&ĐT, khối CNTT & Vận hành Ngân hàng và các trường học, bệnh viện, doanh nghiệp."],
+        ["Giá trị mang lại", "Hiểu rõ bài toán chi phí TCO thực tế, tối ưu ngân sách in ấn, chuẩn hóa quy trình in sao đề thi bảo mật tuyệt đối và số hóa hồ sơ theo đúng Thông tư 02/2019/TT-BNV."],
     ])
+
+    # Category Filter Bar (Visual Navigation)
+    body += f"""
+  <section class="py-6 bg-gray-50 border-b border-gray-200">
+    <div class="{C.WRAP}">
+      <div class="flex items-center justify-between flex-wrap gap-4">
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-xs font-bold uppercase tracking-wider text-gray-500 mr-2"><i class="fa-solid fa-filter text-[{BRAND}] mr-1"></i>Chủ đề cẩm nang:</span>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3.5 py-1.5 bg-[{BRAND}] text-white text-xs font-bold rounded-xs cursor-pointer shadow-xs">Tất cả ({len(KNOWLEDGE_ARTICLES)})</span>
+            <span class="px-3.5 py-1.5 bg-white border border-gray-200 text-gray-700 text-xs font-semibold rounded-xs">Photocopy &amp; Thuê máy (5)</span>
+            <span class="px-3.5 py-1.5 bg-white border border-gray-200 text-gray-700 text-xs font-semibold rounded-xs">In siêu tốc &amp; Đề thi (5)</span>
+            <span class="px-3.5 py-1.5 bg-white border border-gray-200 text-gray-700 text-xs font-semibold rounded-xs">Scan &amp; Số hóa (3)</span>
+            <span class="px-3.5 py-1.5 bg-white border border-gray-200 text-gray-700 text-xs font-semibold rounded-xs">Mực in &amp; FANSIPAN (3)</span>
+          </div>
+        </div>
+        <div class="text-xs text-gray-500 font-medium hidden sm:block">
+          <i class="fa-solid fa-check-double text-[{BRAND}] mr-1"></i>Cập nhật mới nhất: 2026
+        </div>
+      </div>
+    </div>
+  </section>
+    """
 
     article_cards = []
     for a in KNOWLEDGE_ARTICLES:
@@ -1715,20 +1912,24 @@ def render_hub():
             "title": a["title"],
             "url": a["url"],
             "tag": a["tag"],
-            "icon": "fa-solid fa-book-open",
-            "text": esc(a["summary"][:160] + "…"),
+            "image": a["image"],  # <<<< REAL IMAGES!
+            "text": esc(a["summary"][:150] + "…"),
             "cta": f"Đọc bài viết ({a['reading_time']})",
         })
 
     body += C.section(
-        '<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-8 uppercase tracking-wider text-center">Toàn bộ 16 bài viết cẩm nang chuyên sâu</h2>'
+        '<div class="text-center max-w-3xl mx-auto mb-12">'
+        f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-2">Tri thức chuyên gia</span>'
+        '<h2 class="text-2xl sm:text-[34px] font-bold text-gray-900 leading-tight mb-4">Toàn bộ 16 bài viết cẩm nang chuyên sâu</h2>'
+        '<p class="text-gray-600 text-sm sm:text-base leading-relaxed">Hình ảnh thiết bị thực tế, bảng so sánh trực quan và dữ liệu kỹ thuật được đội ngũ kỹ sư Hương Sơn biên soạn chuẩn xác.</p>'
+        '</div>'
         + C.card_grid(article_cards, cols=3),
         pad="py-16",
     )
 
     body += C.cta_band(
         title="Chưa tìm thấy câu trả lời cho vấn đề của Quý đơn vị?",
-        text="Gửi câu hỏi trực tiếp — đội ngũ kỹ thuật và chuyên gia của Hương Sơn sẽ tư vấn giải pháp phù hợp nhất.",
+        text="Gửi câu hỏi trực tiếp hoặc yêu cầu khảo sát hiện trạng — Đội ngũ kỹ thuật Hương Sơn sẵn sàng hỗ trợ 24/7.",
         primary=("Gửi câu hỏi tư vấn", "/nhan-tu-van/bao-gia/"),
         secondary=("Xem các giải pháp", "/giai-phap/"),
     )

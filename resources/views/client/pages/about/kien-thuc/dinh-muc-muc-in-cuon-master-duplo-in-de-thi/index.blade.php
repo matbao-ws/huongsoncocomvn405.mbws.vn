@@ -246,24 +246,37 @@
 @endsection
 
 @section('content')
-<section class="bg-[#181924] py-16 lg:py-20 text-white relative">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center space-x-2 text-xs text-gray-400 mb-4 flex-wrap">
-        <a href="/" class="hover:text-white transition">Trang chủ</a>
+<!-- HERO BANNER (SPLIT TECH BANNER) -->
+  <section class="relative bg-[#0d1626] py-12 sm:py-16 overflow-hidden border-b border-white/10 text-white">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-gradient-to-br from-[#0a1526] via-[#0d1e38] to-[#12284c]"></div>
+      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.2) 1px, transparent 1px); background-size: 28px 28px;"></div>
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-[#1A9900]/15 rounded-full blur-3xl pointer-events-none"></div>
+    </div>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center space-x-2 text-xs text-gray-300 mb-4 flex-wrap">
+        <a href="/" class="hover:text-white transition flex items-center gap-1.5"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i>Trang chủ</a>
         <span>/</span>
         <a href="/ve-huong-son/" class="hover:text-white transition">Về Hương Sơn</a>
         <span>/</span>
         <a href="/ve-huong-son/kien-thuc/" class="text-[#5eb74c] font-semibold hover:underline">Kiến thức</a>
+        <span>/</span>
+        <span class="text-gray-300 truncate max-w-xs">Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT</span>
       </div>
       <div class="max-w-4xl">
-        <span class="inline-block bg-[#1A9900] text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 mb-4 rounded-xs">Cẩm nang giáo dục</span>
-        <h1 class="text-2xl sm:text-4xl font-bold text-white leading-tight mb-4">Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT</h1>
-        <div class="flex items-center space-x-4 text-xs text-gray-300 font-medium">
-          <span><i class="fa-regular fa-calendar text-[#5eb74c] mr-1.5"></i>2026-09-18</span>
+        <div class="inline-flex items-center gap-2 bg-[#1A9900] text-white text-[11px] font-bold uppercase tracking-wider px-3.5 py-1 mb-4 rounded-xs shadow-sm">
+          <i class="fa-solid fa-bookmark text-xs"></i>
+          <span>Cẩm nang giáo dục</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-4 tracking-tight drop-shadow-md">Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT</h1>
+        <div class="flex flex-wrap items-center gap-4 text-xs text-gray-300 font-medium pt-3 border-t border-white/10">
+          <span class="flex items-center gap-1.5"><i class="fa-regular fa-calendar text-[#5eb74c]"></i>2026-09-18</span>
           <span>•</span>
-          <span><i class="fa-regular fa-clock text-[#5eb74c] mr-1.5"></i>7 phút đọc</span>
+          <span class="flex items-center gap-1.5"><i class="fa-regular fa-clock text-[#5eb74c]"></i>7 phút đọc</span>
           <span>•</span>
-          <span><i class="fa-solid fa-shield-halved text-[#5eb74c] mr-1.5"></i>Ban Biên Tập Hương Sơn</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-user-check text-[#5eb74c]"></i>Kỹ sư Nguyễn Công Thuận (16+ năm KN)</span>
+          <span>•</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-[#5eb74c]"></i>Hương Sơn Co., Ltd kiểm duyệt</span>
         </div>
       </div>
     </div>
@@ -289,13 +302,25 @@
           <div class="mb-10 p-5 sm:p-6 bg-gradient-to-r from-emerald-50/90 via-green-50/60 to-teal-50/40 border-l-4 border-[#1A9900] rounded-r shadow-xs">
             <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#1A9900] mb-2.5">
               <i class="fa-solid fa-sparkles text-amber-500"></i>
-              <span>Tóm tắt cốt lõi theo chuẩn AEO (Dành cho AI &amp; Tìm kiếm nhanh)</span>
+              <span>Tóm tắt cốt lõi theo chuẩn AEO (Dành cho AI Overviews &amp; Tìm kiếm nhanh)</span>
             </div>
             <p class="text-[15.5px] font-semibold text-gray-900 leading-relaxed">
               Để tính định mức vật tư in đề thi THPT bằng máy in siêu tốc Duplo: Số cuộn Master cần = (Tổng số môn thi x Số mã đề x Số trang/đề) / 220 bản master mỗi cuộn (cộng 20% dự phòng); Số bình mực Duplo cần = (Tổng số bản in x Tỷ lệ phủ mực trung bình 6%) / 15.000 trang mỗi bình 1.000ml. Với kỳ thi 20.000 thí sinh (khoảng 300.000 trang in), cần chuẩn bị trung bình 12–15 cuộn Master và 20–25 bình mực.
             </p>
           </div>
         
+
+          
+        <figure class="my-8 rounded-lg overflow-hidden border border-gray-200 shadow-md bg-white">
+          <div class="h-64 sm:h-80 md:h-[400px] w-full overflow-hidden bg-gray-900/5">
+            <img src="/assets/images/products/95-bang-tra-ma-muc-master-may-in-duplo.jpg" alt="Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT" class="w-full h-full object-cover" loading="eager" />
+          </div>
+          <figcaption class="bg-gray-50 px-5 py-3 text-xs text-gray-600 flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-t border-gray-200/80">
+            <span><i class="fa-solid fa-camera mr-1.5 text-[#1A9900]"></i>Hình ảnh thiết bị &amp; giải pháp: <strong>Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT</strong></span>
+            <span class="text-[11px] font-semibold text-gray-400">Nguồn: Công ty TNHH TM&amp;DV Hương Sơn</span>
+          </figcaption>
+        </figure>
+    
 
           
         <div id="tam-quan-trong-dinh-muc" class="mb-12 scroll-mt-28">
@@ -310,6 +335,7 @@
               </p>
             
           </div>
+          
         </div>
         <div id="cong-thuc-tinh-master" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">2. Công thức tính số lượng cuộn Master Duplo cần thiết</h2>
@@ -327,6 +353,7 @@
               </p>
             
           </div>
+          
         </div>
         <div id="cong-thuc-tinh-muc" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">3. Công thức tính số lượng bình mực in nhân bản Duplo</h2>
@@ -341,6 +368,17 @@
               </div>
             
           </div>
+          
+              <figure class="my-8 rounded-lg overflow-hidden border border-gray-200/90 shadow-sm bg-white">
+                <div class="w-full bg-gray-50 flex items-center justify-center p-3 sm:p-5 min-h-[220px]">
+                  <img src="/assets/images/products/45-muc-nen-dung-cho-duplo.jpg" alt="Định mức mực in Duplo 1.000ml" class="max-h-[380px] w-auto object-contain mx-auto transition duration-300 hover:scale-[1.02]" loading="lazy" />
+                </div>
+                <figcaption class="bg-gray-50 px-4 py-2.5 text-xs text-gray-500 italic text-center border-t border-gray-100 flex items-center justify-center gap-1.5">
+                  <i class="fa-solid fa-circle-info text-[#1A9900] text-[11px]"></i>
+                  <span>Bình mực Duplo 1.000ml in được từ 18.000 đến 35.000 bản tùy theo độ phủ mực và số lượng bản in trên mỗi master.</span>
+                </figcaption>
+              </figure>
+    
         </div>
         <div id="bang-tinh-mau-quy-mo" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">4. Bảng tính định mức mẫu theo từng quy mô thí sinh</h2>
@@ -367,6 +405,7 @@
               </div>
             
           </div>
+          
         </div>
         <div id="luu-y-du-phong-vat-tu" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">5. Quy tắc dự phòng vật tư trong khu vực cách ly 3 vòng</h2>
@@ -382,10 +421,48 @@
               </ul>
             
           </div>
+          
+              <figure class="my-8 rounded-lg overflow-hidden border border-gray-200/90 shadow-sm bg-white">
+                <div class="w-full bg-gray-50 flex items-center justify-center p-3 sm:p-5 min-h-[220px]">
+                  <img src="/assets/images/products/duplo-dp-x550.jpg" alt="Hệ thống máy in Duplo dự phòng thi" class="max-h-[380px] w-auto object-contain mx-auto transition duration-300 hover:scale-[1.02]" loading="lazy" />
+                </div>
+                <figcaption class="bg-gray-50 px-4 py-2.5 text-xs text-gray-500 italic text-center border-t border-gray-100 flex items-center justify-center gap-1.5">
+                  <i class="fa-solid fa-circle-info text-[#1A9900] text-[11px]"></i>
+                  <span>Hệ thống máy in siêu tốc Duplo DP-X550 và kho vật tư dự phòng N+1 sẵn sàng phục vụ kỳ thi tuyển sinh và tốt nghiệp.</span>
+                </figcaption>
+              </figure>
+    
         </div>
+
+          
+        <div class="my-10 p-6 bg-gradient-to-r from-gray-50 via-white to-emerald-50/20 border border-gray-200 rounded-sm shadow-xs flex flex-col sm:flex-row items-center sm:items-start gap-5">
+          <img src="/assets/images/mbws-avatar-1-150x150.jpg" alt="Kỹ sư Nguyễn Công Thuận" class="w-20 h-20 rounded-full object-cover border-2 border-[#1A9900] shadow-sm flex-shrink-0" />
+          <div class="text-center sm:text-left flex-1">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-1">
+              <h4 class="font-bold text-gray-900 text-base">Kỹ sư Nguyễn Công Thuận</h4>
+              <span class="text-[11px] bg-[#1A9900]/10 text-[#1A9900] font-bold px-2 py-0.5 rounded">Tác giả &amp; Chuyên gia kỹ thuật</span>
+            </div>
+            <p class="text-xs text-gray-500 mb-2 font-medium">Giám đốc Kỹ thuật &amp; Sáng lập Công ty TNHH Thương mại và Dịch vụ Hương Sơn (thành lập từ 2008).</p>
+            <p class="text-[13.5px] text-gray-600 leading-relaxed">
+              Hơn 16 năm kinh nghiệm thực chiến trong công tác lắp đặt, cấu hình, vận hành hệ thống máy in siêu tốc phục vụ sao in đề thi tuyệt đối bảo mật cho các Sở GD&amp;ĐT, triển khai dịch vụ Managed Print Services (MPS) cho hệ thống ngân hàng Vietcombank và số hóa hàng triệu trang tài liệu lưu trữ chuẩn Thông tư 02/2019/TT-BNV.
+            </p>
+            <div class="mt-3 flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs">
+              <a href="tel:0911138583" class="text-[#1A9900] font-bold hover:underline flex items-center gap-1"><i class="fa-solid fa-phone"></i> 091.113.8583</a>
+              <span class="text-gray-300">•</span>
+              <a href="https://zalo.me/0913237302" target="_blank" rel="noopener" class="text-blue-600 font-bold hover:underline flex items-center gap-1"><i class="fa-solid fa-comment-dots"></i> Zalo chuyên gia</a>
+              <span class="text-gray-300">•</span>
+              <span class="text-gray-500"><i class="fa-solid fa-location-dot"></i> Hà Nội</span>
+            </div>
+          </div>
+        </div>
+    
+
           
         <div class="mt-12 pt-8 border-t border-gray-200">
-          <h3 class="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm text-[#1A9900]">Câu hỏi thường gặp</h3>
+          <div class="flex items-center gap-2 mb-6">
+            <span class="w-1.5 h-6 bg-[#1A9900] inline-block"></span>
+            <h3 class="text-xl font-bold text-gray-900 uppercase tracking-wider text-sm text-[#1A9900]">Câu hỏi thường gặp (FAQ)</h3>
+          </div>
           <div class="space-y-4">
           <div class="border border-gray-200 bg-white p-5 rounded-sm">
             <h4 class="text-base font-bold text-gray-900 mb-2 flex items-start">
@@ -409,25 +486,32 @@
             <p class="text-[14.5px] text-gray-600 leading-relaxed pl-6">Có. Theo chính sách dịch vụ trọn gói EXAM PRO của Hương Sơn dành cho các Sở GD&amp;ĐT, chúng tôi luôn giao dư 30% cuộn Master và mực in để đảm bảo an toàn tuyệt đối. Sau khi kỳ thi kết thúc, Hương Sơn nhận thu hồi lại toàn bộ vật tư còn nguyên niêm phong chưa sử dụng.</p>
           </div></div>
         </div>
+
           
         <div class="mt-12 pt-8 border-t border-gray-200">
-          <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Bài viết & Dịch vụ liên quan</h3>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3"><a href="/giai-phap/giao-duc/in-de-thi/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Gói dịch vụ in sao đề thi tốt nghiệp EXAM PRO</span></a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/bang-tra-ma-muc-master-duplo/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Bảng tra mã mực và cuộn Master máy in Duplo</span></a><a href="/nhan-tu-van/phuong-an-in-de-thi/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Yêu cầu phương án in đề thi cho Sở GD&amp;ĐT</span></a></div>
+          <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-link text-[#1A9900]"></i>
+            <span>Bài viết &amp; Thiết bị liên quan</span>
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3"><a href="/giai-phap/giao-duc/in-de-thi/" class="flex items-center space-x-2 p-3.5 bg-gray-50 border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Gói dịch vụ in sao đề thi tốt nghiệp EXAM PRO</span></a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/bang-tra-ma-muc-master-duplo/" class="flex items-center space-x-2 p-3.5 bg-gray-50 border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Bảng tra mã mực và cuộn Master máy in Duplo</span></a><a href="/nhan-tu-van/phuong-an-in-de-thi/" class="flex items-center space-x-2 p-3.5 bg-gray-50 border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Yêu cầu phương án in đề thi cho Sở GD&amp;ĐT</span></a></div>
         </div>
         </article>
 
         <!-- Sidebar column -->
         <aside class="lg:col-span-4 space-y-8">
           <div class="bg-gray-50 border border-gray-200 p-6 sticky top-28 rounded-sm">
-            <h4 class="text-base font-bold text-gray-900 mb-4 uppercase tracking-wider text-xs text-[#1A9900]">Cần tư vấn thiết bị & dịch vụ?</h4>
+            <h4 class="text-base font-bold text-gray-900 mb-4 uppercase tracking-wider text-xs text-[#1A9900] flex items-center gap-2">
+              <i class="fa-solid fa-headset"></i>
+              <span>Cần tư vấn thiết bị &amp; dịch vụ?</span>
+            </h4>
             <p class="text-sm text-gray-600 mb-6 leading-relaxed">
               Hương Sơn hỗ trợ tư vấn chọn đúng cấu hình máy photocopy, máy scan, máy in siêu tốc và dự toán chi phí phù hợp nhất cho Quý đơn vị.
             </p>
             <div class="space-y-3">
-              <a href="tel:0911138583" data-ga="click_hotline" class="block w-full py-3 px-4 bg-[#1A9900] hover:bg-[#147700] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm">
+              <a href="tel:0911138583" data-ga="click_hotline" class="block w-full py-3 px-4 bg-[#1A9900] hover:bg-[#147700] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm shadow-sm">
                 <i class="fa-solid fa-phone mr-2"></i>Gọi Hotline: 091.113.8583
               </a>
-              <a href="https://zalo.me/0913237302" target="_blank" rel="noopener" class="block w-full py-3 px-4 bg-[#0068FF] hover:bg-[#0052cc] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm">
+              <a href="https://zalo.me/0913237302" target="_blank" rel="noopener" class="block w-full py-3 px-4 bg-[#0068FF] hover:bg-[#0052cc] text-white text-center font-bold text-xs uppercase tracking-wider transition rounded-sm shadow-sm">
                 <i class="fa-solid fa-comment-dots mr-2"></i>Chat Zalo tư vấn
               </a>
               <a href="/nhan-tu-van/bao-gia/" class="block w-full py-3 px-4 bg-white border border-gray-300 hover:border-[#1A9900] text-gray-800 text-center font-bold text-xs uppercase tracking-wider transition rounded-sm">
@@ -436,10 +520,61 @@
             </div>
 
             <div class="mt-8 pt-6 border-t border-gray-200">
-              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Các cẩm nang liên quan</h5>
-              <ul class="space-y-2.5 text-xs text-gray-600">
-                <li><a href="/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/" class="hover:text-[#1A9900] transition block leading-snug">• Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học? Phân tích chi phí &amp; hiệu quả</a></li><li><a href="/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/" class="hover:text-[#1A9900] transition block leading-snug">• Hướng dẫn lựa chọn máy scan số hóa tài liệu cho cơ quan, trường học &amp; ngân hàng</a></li><li><a href="/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/" class="hover:text-[#1A9900] transition block leading-snug">• Tiêu chuẩn lựa chọn và vận hành máy in sao đề thi tốt nghiệp THPT an toàn, bảo mật</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy photocopy đa chức năng Toshiba và Konica Minolta: Nên chọn hãng nào?</a></li><li><a href="/ve-huong-son/kien-thuc/cach-chon-muc-in-linh-kien-may-photocopy-chinh-hang/" class="hover:text-[#1A9900] transition block leading-snug">• Cách chọn mực in và linh kiện tiêu hao máy photocopy chính hãng tránh hỏng trống gạt</a></li><li><a href="/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/" class="hover:text-[#1A9900] transition block leading-snug">• Quy trình số hóa hồ sơ, tài liệu lưu trữ cơ quan Nhà nước và trường học từ A đến Z</a></li><li><a href="/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/" class="hover:text-[#1A9900] transition block leading-snug">• Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy in nhân bản siêu tốc Duplo DP-X550 và DP-X850: Lựa chọn nào tối ưu?</a></li><li><a href="/ve-huong-son/kien-thuc/giai-phap-phoi-trang-gap-ghim-tu-dong-duplo/" class="hover:text-[#1A9900] transition block leading-snug">• Giải pháp máy phối trang và giập ghim Duplo: Tự động hóa đóng tập đề thi và tài liệu</a></li><li><a href="/ve-huong-son/kien-thuc/giai-phap-cho-thue-may-photocopy-ngan-hang-bao-mat/" class="hover:text-[#1A9900] transition block leading-snug">• Giải pháp cho thuê máy photocopy cho Ngân hàng: Tiêu chuẩn bảo mật dữ liệu &amp; SLA 2h</a></li><li><a href="/ve-huong-son/kien-thuc/top-may-photocopy-van-phong-cho-thue-chay-nhat/" class="hover:text-[#1A9900] transition block leading-snug">• Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-scan-ricoh-fi-8170-va-fi-8270/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy scan Ricoh fi-8170 và Ricoh fi-8270: Khi nào cần thêm mặt kính phẳng Flatbed?</a></li><li><a href="/ve-huong-son/kien-thuc/so-hoa-hoc-ba-dien-tu-thpt-chuan-moet/" class="hover:text-[#1A9900] transition block leading-snug">• Hướng dẫn số hóa sổ điểm và học bạ điện tử trường học theo chuẩn Bộ GD&amp;ĐT</a></li><li><a href="/ve-huong-son/kien-thuc/muc-in-fansipan-cong-nghe-nhat-ban-danh-gia/" class="hover:text-[#1A9900] transition block leading-snug">• Đánh giá chất lượng mực in FANSIPAN công nghệ Nhật Bản: Tiết kiệm 40% chi phí bản in</a></li><li><a href="/ve-huong-son/kien-thuc/khac-phuc-loi-may-photocopy-mua-nom-am/" class="hover:text-[#1A9900] transition block leading-snug">• 5 cách chống ẩm và khắc phục lỗi kẹt giấy máy photocopy trong mùa nồm miền Bắc</a></li><li><a href="/ve-huong-son/kien-thuc/bang-tra-ma-muc-master-may-in-duplo-toan-tap/" class="hover:text-[#1A9900] transition block leading-snug">• Bảng tra cứu mã mực in và cuộn Master cho tất cả các dòng máy in siêu tốc Duplo</a></li>
-              </ul>
+              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3 flex items-center gap-1.5">
+                <i class="fa-solid fa-book-bookmark text-[#1A9900]"></i>
+                <span>Cẩm nang nổi bật khác</span>
+              </h5>
+              <div class="space-y-1">
+                
+            <a href="/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/" class="group flex gap-3 items-center py-2.5 border-b border-gray-100 last:border-0 hover:text-[#1A9900] transition">
+              <img src="/assets/images/hero-office.jpg" alt="Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học? Phân tích chi phí &amp; hiệu quả" class="w-16 h-12 rounded object-cover flex-shrink-0 group-hover:scale-105 transition duration-200 border border-gray-200" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <span class="text-[10px] font-bold text-[#1A9900] uppercase tracking-wide block mb-0.5">Cẩm nang tư vấn</span>
+                <p class="text-xs font-semibold text-gray-800 group-hover:text-[#1A9900] line-clamp-2 leading-snug">Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học? Phân tích chi phí &amp; hiệu quả</p>
+              </div>
+            </a>
+            
+            <a href="/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/" class="group flex gap-3 items-center py-2.5 border-b border-gray-100 last:border-0 hover:text-[#1A9900] transition">
+              <img src="/assets/images/banners/highspeed_scanner_1787905830483.jpg" alt="Hướng dẫn lựa chọn máy scan số hóa tài liệu cho cơ quan, trường học &amp; ngân hàng" class="w-16 h-12 rounded object-cover flex-shrink-0 group-hover:scale-105 transition duration-200 border border-gray-200" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <span class="text-[10px] font-bold text-[#1A9900] uppercase tracking-wide block mb-0.5">Cẩm nang thiết bị</span>
+                <p class="text-xs font-semibold text-gray-800 group-hover:text-[#1A9900] line-clamp-2 leading-snug">Hướng dẫn lựa chọn máy scan số hóa tài liệu cho cơ quan, trường học &amp; ngân hàng</p>
+              </div>
+            </a>
+            
+            <a href="/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/" class="group flex gap-3 items-center py-2.5 border-b border-gray-100 last:border-0 hover:text-[#1A9900] transition">
+              <img src="/assets/images/hero-education.jpg" alt="Tiêu chuẩn lựa chọn và vận hành máy in sao đề thi tốt nghiệp THPT an toàn, bảo mật" class="w-16 h-12 rounded object-cover flex-shrink-0 group-hover:scale-105 transition duration-200 border border-gray-200" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <span class="text-[10px] font-bold text-[#1A9900] uppercase tracking-wide block mb-0.5">Cẩm nang giáo dục</span>
+                <p class="text-xs font-semibold text-gray-800 group-hover:text-[#1A9900] line-clamp-2 leading-snug">Tiêu chuẩn lựa chọn và vận hành máy in sao đề thi tốt nghiệp THPT an toàn, bảo mật</p>
+              </div>
+            </a>
+            
+            <a href="/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/" class="group flex gap-3 items-center py-2.5 border-b border-gray-100 last:border-0 hover:text-[#1A9900] transition">
+              <img src="/assets/images/products/toshiba-e-studio-4528a.jpg" alt="So sánh máy photocopy đa chức năng Toshiba và Konica Minolta: Nên chọn hãng nào?" class="w-16 h-12 rounded object-cover flex-shrink-0 group-hover:scale-105 transition duration-200 border border-gray-200" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <span class="text-[10px] font-bold text-[#1A9900] uppercase tracking-wide block mb-0.5">So sánh thiết bị</span>
+                <p class="text-xs font-semibold text-gray-800 group-hover:text-[#1A9900] line-clamp-2 leading-snug">So sánh máy photocopy đa chức năng Toshiba và Konica Minolta: Nên chọn hãng nào?</p>
+              </div>
+            </a>
+            
+            <a href="/ve-huong-son/kien-thuc/cach-chon-muc-in-linh-kien-may-photocopy-chinh-hang/" class="group flex gap-3 items-center py-2.5 border-b border-gray-100 last:border-0 hover:text-[#1A9900] transition">
+              <img src="/assets/images/products/muc-fansipan-toner.jpg" alt="Cách chọn mực in và linh kiện tiêu hao máy photocopy chính hãng tránh hỏng trống gạt" class="w-16 h-12 rounded object-cover flex-shrink-0 group-hover:scale-105 transition duration-200 border border-gray-200" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <span class="text-[10px] font-bold text-[#1A9900] uppercase tracking-wide block mb-0.5">Kỹ thuật &amp; Vật tư</span>
+                <p class="text-xs font-semibold text-gray-800 group-hover:text-[#1A9900] line-clamp-2 leading-snug">Cách chọn mực in và linh kiện tiêu hao máy photocopy chính hãng tránh hỏng trống gạt</p>
+              </div>
+            </a>
+            
+            <a href="/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/" class="group flex gap-3 items-center py-2.5 border-b border-gray-100 last:border-0 hover:text-[#1A9900] transition">
+              <img src="/assets/images/hero-projects.jpg" alt="Quy trình số hóa hồ sơ, tài liệu lưu trữ cơ quan Nhà nước và trường học từ A đến Z" class="w-16 h-12 rounded object-cover flex-shrink-0 group-hover:scale-105 transition duration-200 border border-gray-200" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <span class="text-[10px] font-bold text-[#1A9900] uppercase tracking-wide block mb-0.5">Chuyển đổi số</span>
+                <p class="text-xs font-semibold text-gray-800 group-hover:text-[#1A9900] line-clamp-2 leading-snug">Quy trình số hóa hồ sơ, tài liệu lưu trữ cơ quan Nhà nước và trường học từ A đến Z</p>
+              </div>
+            </a>
+            
+              </div>
             </div>
           </div>
         </aside>
