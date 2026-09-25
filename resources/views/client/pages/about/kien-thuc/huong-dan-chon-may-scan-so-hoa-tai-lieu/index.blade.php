@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
-@section('title', "Kinh Nghiệm Chọn Máy Scan Số Hóa Tài Liệu Tốc Độ Cao | Hương Sơn")
-@section('meta_description', "Cẩm nang chọn máy scan tài liệu chuẩn nhất: so sánh máy scan ADF khay nạp tự động, máy scan phẳng Flatbed, scan sổ hộ chiếu và các dòng máy quét Ricoh cao cấp.")
+@section('title', "Hướng Dẫn Chọn Máy Scan Số Hóa Tài Liệu Chuyên Dụng | Hương Sơn")
+@section('meta_description', "Kinh nghiệm chọn máy quét scanner số hóa hồ sơ lưu trữ: so sánh máy scan ADF, Flatbed, máy scan công nghiệp A3 và đánh giá dòng máy bán chạy nhất của Ricoh.")
 @section('canonical', "https://huongsonco.com.vn/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -39,7 +39,7 @@
       "0912.304.058",
       "024 3972 9484"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "geo": {
       "@@type": "GeoCoordinates",
@@ -60,18 +60,84 @@
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [
-      "máy photocopy",
-      "máy in nhân bản siêu tốc",
-      "in sao đề thi",
-      "máy scan tốc độ cao",
-      "số hóa tài liệu",
+      "Print, Document & Digital Solutions",
+      "Office Equipment",
+      "Máy photocopy",
+      "Máy photocopy Toshiba",
+      "Máy photocopy Ricoh",
+      "Máy photocopy Konica Minolta",
+      "Production Print",
+      "In kỹ thuật số",
+      "In tốc độ cao",
+      "Máy in nhân bản siêu tốc Duplo",
+      "Máy phối trang",
+      "MPS / Rental",
+      "Cho thuê máy photocopy",
+      "Cho thuê máy photocopy màu",
+      "Quản lý in ấn",
+      "Education Solutions",
+      "Giải pháp in ấn trường học",
+      "Exam Solutions",
+      "In đề thi",
+      "In đề thi tốt nghiệp THPT",
+      "Bảo mật tài liệu",
+      "Scan & Digital Document",
+      "Máy scan tốc độ cao",
+      "Số hóa tài liệu",
       "OCR",
-      "cho thuê máy photocopy",
-      "managed print service",
-      "vật tư in ấn",
-      "máy phối trang",
-      "bảo trì máy photocopy"
+      "FANSIPAN",
+      "Mực in FANSIPAN",
+      "Vật tư máy photocopy",
+      "Bảo trì sửa chữa máy photocopy"
     ],
+    "hasOfferCatalog": {
+      "@@type": "OfferCatalog",
+      "name": "Print, Document & Digital Solutions",
+      "itemListElement": [
+        {
+          "@@type": "OfferCatalog",
+          "name": "01. Office Equipment",
+          "description": "Máy photocopy Toshiba, Ricoh, Konica Minolta, máy in đa chức năng, máy scan",
+          "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "02. Production Print",
+          "description": "In kỹ thuật số, in tốc độ cao, máy in nhân bản siêu tốc Duplo, máy phối trang hoàn thiện sau in",
+          "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "03. MPS / Rental",
+          "description": "Cho thuê máy photocopy, máy in, quản lý in ấn toàn diện (MPS) tối ưu chi phí TCO",
+          "url": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "04. Education Solutions",
+          "description": "Giải pháp in ấn và trang thiết bị cho Sở GD&ĐT, trường học, trường đại học",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "05. Exam Solutions",
+          "description": "In đề thi, sao in tài liệu bảo mật, máy in nhân bản siêu tốc 130-180 trang/phút, đóng quyển",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "06. Scan & Digital Document",
+          "description": "Scan tốc độ cao, số hóa tài liệu lưu trữ theo Thông tư 02/2019/TT-BNV, OCR tiếng Việt",
+          "url": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "07. FANSIPAN",
+          "description": "Toner, mực in, cụm mực, drum trống gạt và vật tư tiêu hao thương hiệu riêng FANSIPAN",
+          "url": "https://huongsonco.com.vn/san-pham/fansipan/"
+        }
+      ]
+    },
     "brand": [
       {
         "@@type": "Brand",
@@ -220,20 +286,35 @@
           </p>
 
           
+          <div class="mb-10 p-5 sm:p-6 bg-gradient-to-r from-emerald-50/90 via-green-50/60 to-teal-50/40 border-l-4 border-[#1A9900] rounded-r shadow-xs">
+            <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#1A9900] mb-2.5">
+              <i class="fa-solid fa-sparkles text-amber-500"></i>
+              <span>Tóm tắt cốt lõi theo chuẩn AEO (Dành cho AI &amp; Tìm kiếm nhanh)</span>
+            </div>
+            <p class="text-[15.5px] font-semibold text-gray-900 leading-relaxed">
+              Khi chọn máy scan số hóa tài liệu cho cơ quan, trường học và ngân hàng, cần ưu tiên: khay nạp tự động ADF tốc độ 70–90 tờ/phút (140–180 ảnh/phút), cảm biến sóng siêu âm chống cuốn giấy kép, khả năng tương thích phần mềm OCR tiếng Việt xuất file Searchable PDF/A, và công suất tối thiểu 10.000 tờ/ngày. Dòng máy Ricoh fi-8170 (hoặc fi-8270 có mặt kính phẳng) hiện là tiêu chuẩn vàng dẫn đầu phân khúc.
+            </p>
+          </div>
+        
+
+          
         <div id="tam-quan-trong" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">1. Tầm quan trọng của máy scan chuyên dụng trong chuyển đổi số</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
                 Trong tiến trình thực hiện Đề án chuyển đổi số quốc gia và số hóa dữ liệu lưu trữ ngành Giáo dục, các cơ quan và trường học đang phải xử lý khối lượng khổng lồ hồ sơ giấy: học bạ, sổ điểm, hồ sơ cán bộ, công văn đi đến, chứng từ tài chính. Sử dụng máy photocopy thông thường để scan tài liệu thường gặp các hạn chế: tốc độ chậm, dễ kẹt giấy khi giấy mỏng hoặc cũ, hình ảnh bị nghiêng lệch và dung lượng tệp lưu trữ quá lớn.
               </p>
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
                 Việc trang bị <strong>máy scan tài liệu chuyên dụng</strong> với công nghệ nạp giấy tự động ADF, cảm biến chống cuốn giấy kép bằng sóng siêu âm và phần mềm xử lý hình ảnh thông minh là bước then chốt quyết định tiến độ và chất lượng của toàn bộ dự án số hóa.
               </p>
-            </div>
+            
+          </div>
         </div>
         <div id="phan-loai-may-scan" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">2. Phân loại 4 dòng máy scan tài liệu trên thị trường</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
                 <div class="border border-gray-200 p-5 bg-white">
                   <h4 class="font-bold text-gray-900 mb-2 text-base text-[#1A9900]">1. Máy scan cá nhân / Để bàn (ScanSnap)</h4>
@@ -252,11 +333,13 @@
                   <p class="text-sm text-gray-600 leading-relaxed mb-2">Đại diện: Ricoh fi-7600, fi-7700, fi-8930, fi-8950. Tốc độ lên tới 100–150 tờ/phút, khay nạp 300–500 tờ khổ A3, công suất bền bỉ tới 100.000 tờ/ngày cho các trung tâm lưu trữ lớn.</p>
                 </div>
               </div>
-            </div>
+            
+          </div>
         </div>
         <div id="5-tieu-chi-chon-may" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">3. 5 tiêu chí kỹ thuật quyết định khi chọn máy scan</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <ul class="space-y-4 mb-6 text-[15px] text-gray-600">
                 <li class="p-4 bg-gray-50 border-l-4 border-[#1A9900]">
                   <strong>1. Tốc độ quét thực tế (ppm / ipm):</strong> Cần phân biệt rõ ppm (pages per minute - số tờ/phút) và ipm (images per minute - số mặt quét/phút khi quét 2 mặt). Máy scan tốt phải giữ nguyên tốc độ khi quét màu ở độ phân giải 300 dpi.
@@ -274,41 +357,44 @@
                   <strong>5. Kết nối mạng (Ethernet LAN / Wi-Fi):</strong> Giúp nhiều máy tính trong cùng phòng ban cùng quét dữ liệu về máy chủ chung mà không cần phụ thuộc vào một máy tính chủ gắn dây USB.
                 </li>
               </ul>
-            </div>
+            
+          </div>
         </div>
         <div id="danh-gia-model-ricoh" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">4. Đánh giá các dòng máy scan Ricoh nổi bật hiện nay</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
-                Thương hiệu Ricoh (trước đây là Fujitsu) chiếm tới hơn 55% thị phần máy scan tài liệu toàn cầu nhờ độ bền cơ khí huyền thoại:
+                Thương hiệu Ricoh (trước đây là Fujitsu) chiếm tới hơn 55% thị phần máy scan tài liệu toàn cầu nhờ độ bền cơ khí huyền thoại và bộ nạp giấy chống kẹt thông minh:
               </p>
-              <div class="space-y-4 mb-6">
-                <div class="border border-gray-200 p-5 bg-white flex flex-col md:flex-row gap-5 items-center">
-                  <div class="w-full md:w-1/4 flex-shrink-0 text-center">
-                    <img src="/assets/images/products/ricoh-fi-8170.png" alt="Ricoh fi-8170" class="h-28 mx-auto object-contain" />
-                  </div>
-                  <div class="flex-1">
-                    <h5 class="font-bold text-gray-900 text-base mb-1">Ricoh fi-8170 – Bestseller số 1 cho văn phòng và dự án</h5>
-                    <p class="text-sm text-gray-600 mb-2">Tốc độ 70 trang/phút (140 ảnh/phút), khay nạp 100 tờ, công suất 10.000 tờ/ngày. Tích hợp cổng LAN + USB 3.2, màn hình LCD trực quan. Dòng máy hoàn hảo nhất cho mọi nhu cầu số hóa hồ sơ.</p>
-                    <a href="/san-pham/may-scan-so-hoa/ricoh-fi-8170/" class="text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">Xem chi tiết Ricoh fi-8170 →</a>
-                  </div>
-                </div>
-                <div class="border border-gray-200 p-5 bg-white flex flex-col md:flex-row gap-5 items-center">
-                  <div class="w-full md:w-1/4 flex-shrink-0 text-center">
-                    <img src="/assets/images/products/ricoh-sp-1130n.jpg" alt="Ricoh SP-1130N" class="h-28 mx-auto object-contain" />
-                  </div>
-                  <div class="flex-1">
-                    <h5 class="font-bold text-gray-900 text-base mb-1">Ricoh SP-1130N – Giải pháp kinh tế cho văn thư trường học</h5>
-                    <p class="text-sm text-gray-600 mb-2">Tốc độ 30 trang/phút (60 ảnh/phút), khay nạp 50 tờ, có cổng mạng LAN. Giá thành cực kỳ hợp lý cho các trường THPT, THCS trang bị tại phòng văn thư.</p>
-                    <a href="/san-pham/may-scan-so-hoa/ricoh-sp-1130n/" class="text-[#1A9900] font-bold text-xs uppercase tracking-wider hover:underline">Xem chi tiết Ricoh SP-1130N →</a>
-                  </div>
-                </div>
+              <div class="overflow-x-auto my-6 border border-gray-200">
+                <table class="w-full text-left border-collapse text-sm">
+                  <thead>
+                    <tr class="bg-gray-100 text-gray-900 border-b font-bold">
+                      <th class="p-3.5">Thông số kỹ thuật</th>
+                      <th class="p-3.5">Ricoh SP-1130N</th>
+                      <th class="p-3.5 bg-green-50 text-[#1A9900]">Ricoh fi-8170 (Bestseller)</th>
+                      <th class="p-3.5">Ricoh fi-8270 (Kèm Flatbed)</th>
+                      <th class="p-3.5">Ricoh fi-7600 (A3 Công nghiệp)</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-gray-200 text-gray-700">
+                    <tr><td class="p-3.5 font-semibold">Tốc độ quét (A4, 300 dpi)</td><td class="p-3.5">30 ppm / 60 ipm</td><td class="p-3.5 font-bold text-[#1A9900]">70 ppm / 140 ipm</td><td class="p-3.5">70 ppm / 140 ipm</td><td class="p-3.5 font-bold text-blue-700">100 ppm / 200 ipm</td></tr>
+                    <tr><td class="p-3.5 font-semibold">Khay nạp tự động ADF</td><td class="p-3.5">50 tờ</td><td class="p-3.5 font-bold text-[#1A9900]">100 tờ</td><td class="p-3.5">100 tờ + Kính phẳng Flatbed</td><td class="p-3.5">300 tờ (Khổ A3)</td></tr>
+                    <tr><td class="p-3.5 font-semibold">Cảm biến chống cuốn đúp</td><td class="p-3.5">Cơ học tiêu chuẩn</td><td class="p-3.5 font-bold text-[#1A9900]">Sóng siêu âm đa điểm + Âm thanh iSOP</td><td class="p-3.5">Sóng siêu âm đa điểm + Âm thanh iSOP</td><td class="p-3.5">Sóng siêu âm chuyên sâu A3</td></tr>
+                    <tr><td class="p-3.5 font-semibold">Công suất ngày khuyến nghị</td><td class="p-3.5">4.500 tờ/ngày</td><td class="p-3.5 font-bold text-[#1A9900]">10.000 tờ/ngày</td><td class="p-3.5">10.000 tờ/ngày</td><td class="p-3.5 font-bold text-blue-700">44.000 tờ/ngày</td></tr>
+                    <tr><td class="p-3.5 font-semibold">Hỗ trợ OCR tiếng Việt</td><td class="p-3.5">Có (PaperStream IP)</td><td class="p-3.5 font-bold text-[#1A9900]">Xuất Word, Excel, Searchable PDF</td><td class="p-3.5">Xuất Word, Excel, Searchable PDF</td><td class="p-3.5">Chuyên dụng cho kho lưu trữ lớn</td></tr>
+                    <tr><td class="p-3.5 font-semibold">Mô hình ứng dụng tối ưu</td><td class="p-3.5">Văn thư trường học, UBND cấp xã</td><td class="p-3.5 font-bold text-[#1A9900]">Sở GD&ĐT, Ngân hàng, Bệnh viện, Doanh nghiệp</td><td class="p-3.5">Quét học bạ dập ghim, sổ bìa cứng, hộ chiếu</td><td class="p-3.5">Trung tâm lưu trữ lịch sử tỉnh, Thư viện lớn</td></tr>
+                  </tbody>
+                </table>
               </div>
-            </div>
+            
+          </div>
         </div>
         <div id="khuyen-nghi-cau-hinh" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">5. Khuyến nghị chọn máy theo từng mô hình sử dụng</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <div class="p-6 bg-green-50/50 border border-green-200 mb-6">
                 <ul class="space-y-3 text-sm text-gray-700">
                   <li>• <strong>Phòng văn thư trường học / UBND xã phường:</strong> Chọn <em>Ricoh SP-1130N</em> hoặc <em>Ricoh fi-800R</em> (vừa quét tài liệu vừa quét nhanh thẻ CCCD).</li>
@@ -316,7 +402,8 @@
                   <li>• <strong>Trung tâm lưu trữ lịch sử, doanh nghiệp số hóa chuyên nghiệp:</strong> Chọn các dòng công nghiệp A3 <em>Ricoh fi-7600</em> hoặc <em>fi-8930</em>.</li>
                 </ul>
               </div>
-            </div>
+            
+          </div>
         </div>
           
         <div class="mt-12 pt-8 border-t border-gray-200">
@@ -371,9 +458,9 @@
             </div>
 
             <div class="mt-8 pt-6 border-t border-gray-200">
-              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Các cẩm nang khác</h5>
+              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Các cẩm nang liên quan</h5>
               <ul class="space-y-2.5 text-xs text-gray-600">
-                <li><a href="/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/" class="hover:text-[#1A9900] transition block leading-snug">• Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học? Phân tích chi phí &amp; hiệu quả</a></li><li><a href="/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/" class="hover:text-[#1A9900] transition block leading-snug">• Tiêu chuẩn lựa chọn và vận hành máy in sao đề thi tốt nghiệp THPT an toàn, bảo mật</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy photocopy đa chức năng Toshiba và Konica Minolta: Nên chọn hãng nào?</a></li><li><a href="/ve-huong-son/kien-thuc/cach-chon-muc-in-linh-kien-may-photocopy-chinh-hang/" class="hover:text-[#1A9900] transition block leading-snug">• Cách chọn mực in và linh kiện tiêu hao máy photocopy chính hãng tránh hỏng trống gạt</a></li><li><a href="/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/" class="hover:text-[#1A9900] transition block leading-snug">• Quy trình số hóa hồ sơ, tài liệu lưu trữ cơ quan Nhà nước và trường học từ A đến Z</a></li>
+                <li><a href="/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/" class="hover:text-[#1A9900] transition block leading-snug">• Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học? Phân tích chi phí &amp; hiệu quả</a></li><li><a href="/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/" class="hover:text-[#1A9900] transition block leading-snug">• Hướng dẫn lựa chọn máy scan số hóa tài liệu cho cơ quan, trường học &amp; ngân hàng</a></li><li><a href="/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/" class="hover:text-[#1A9900] transition block leading-snug">• Tiêu chuẩn lựa chọn và vận hành máy in sao đề thi tốt nghiệp THPT an toàn, bảo mật</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy photocopy đa chức năng Toshiba và Konica Minolta: Nên chọn hãng nào?</a></li><li><a href="/ve-huong-son/kien-thuc/cach-chon-muc-in-linh-kien-may-photocopy-chinh-hang/" class="hover:text-[#1A9900] transition block leading-snug">• Cách chọn mực in và linh kiện tiêu hao máy photocopy chính hãng tránh hỏng trống gạt</a></li><li><a href="/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/" class="hover:text-[#1A9900] transition block leading-snug">• Quy trình số hóa hồ sơ, tài liệu lưu trữ cơ quan Nhà nước và trường học từ A đến Z</a></li><li><a href="/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/" class="hover:text-[#1A9900] transition block leading-snug">• Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy in nhân bản siêu tốc Duplo DP-X550 và DP-X850: Lựa chọn nào tối ưu?</a></li><li><a href="/ve-huong-son/kien-thuc/giai-phap-phoi-trang-gap-ghim-tu-dong-duplo/" class="hover:text-[#1A9900] transition block leading-snug">• Giải pháp máy phối trang và giập ghim Duplo: Tự động hóa đóng tập đề thi và tài liệu</a></li><li><a href="/ve-huong-son/kien-thuc/giai-phap-cho-thue-may-photocopy-ngan-hang-bao-mat/" class="hover:text-[#1A9900] transition block leading-snug">• Giải pháp cho thuê máy photocopy cho Ngân hàng: Tiêu chuẩn bảo mật dữ liệu &amp; SLA 2h</a></li><li><a href="/ve-huong-son/kien-thuc/top-may-photocopy-van-phong-cho-thue-chay-nhat/" class="hover:text-[#1A9900] transition block leading-snug">• Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-scan-ricoh-fi-8170-va-fi-8270/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy scan Ricoh fi-8170 và Ricoh fi-8270: Khi nào cần thêm mặt kính phẳng Flatbed?</a></li><li><a href="/ve-huong-son/kien-thuc/so-hoa-hoc-ba-dien-tu-thpt-chuan-moet/" class="hover:text-[#1A9900] transition block leading-snug">• Hướng dẫn số hóa sổ điểm và học bạ điện tử trường học theo chuẩn Bộ GD&amp;ĐT</a></li><li><a href="/ve-huong-son/kien-thuc/muc-in-fansipan-cong-nghe-nhat-ban-danh-gia/" class="hover:text-[#1A9900] transition block leading-snug">• Đánh giá chất lượng mực in FANSIPAN công nghệ Nhật Bản: Tiết kiệm 40% chi phí bản in</a></li><li><a href="/ve-huong-son/kien-thuc/khac-phuc-loi-may-photocopy-mua-nom-am/" class="hover:text-[#1A9900] transition block leading-snug">• 5 cách chống ẩm và khắc phục lỗi kẹt giấy máy photocopy trong mùa nồm miền Bắc</a></li><li><a href="/ve-huong-son/kien-thuc/bang-tra-ma-muc-master-may-in-duplo-toan-tap/" class="hover:text-[#1A9900] transition block leading-snug">• Bảng tra cứu mã mực in và cuộn Master cho tất cả các dòng máy in siêu tốc Duplo</a></li>
               </ul>
             </div>
           </div>
@@ -382,7 +469,7 @@
       </div>
     </div>
   </section>
-  <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
+  <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/banners/hero_office_solutions_1787899910391.jpg');">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">
         <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">Quý đơn vị cần giải pháp phù hợp với quy mô thực tế?</h2>

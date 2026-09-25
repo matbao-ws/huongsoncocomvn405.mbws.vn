@@ -29,13 +29,10 @@ def _hero():
       <div class="max-w-3xl text-white">
         <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-3">Hương Sơn từ 2008</span>
         <h1 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-5">
-          GIẢI PHÁP THIẾT BỊ – IN ẤN VÀ SỐ HÓA
+          Giải pháp Thiết bị, In ấn, Số hóa & Quản lý tài liệu
         </h1>
-        <p class="text-[15px] sm:text-base text-gray-200 mb-3 leading-relaxed font-medium">
-          Photocopy · In nhanh · In đề thi · Scan/Số hóa · Thiết bị Giáo dục · Cho thuê · Dịch vụ kỹ thuật
-        </p>
-        <p class="text-[14.5px] text-gray-300 mb-8 leading-relaxed max-w-2xl">
-          Đồng hành cùng Cơ quan Nhà nước – Sở Giáo dục & Đào tạo – Ngân hàng – Doanh nghiệp trong quản lý, xử lý và số hóa tài liệu.
+        <p class="text-[15px] sm:text-base text-gray-200 mb-8 leading-relaxed font-medium max-w-2xl">
+          Hương Sơn cung cấp thiết bị, cho thuê, bảo trì, in ấn số lượng lớn và số hóa tài liệu cho Cơ quan Nhà nước, Sở GD&ĐT, Trường học, Ngân hàng và Doanh nghiệp.
         </p>
         <div class="flex flex-wrap items-center gap-4">
           <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Yêu cầu báo giá</a>
@@ -206,7 +203,7 @@ def _categories():
 
 # ------------------------------------------------------------- S8: Marquee
 def _marquee():
-    text = " &nbsp;•&nbsp; ".join(["PRINT", "COPY", "SCAN", "DIGITAL", "RENT", "SERVICE"] * 4)
+    text = " &nbsp;•&nbsp; ".join(["PRINT", "COPY", "SCAN", "DIGITAL", "RENTAL", "SERVICE"] * 4)
     return f"""
   <section class="bg-[{BRAND}] py-4 overflow-hidden">
     <div class="whitespace-nowrap text-white font-bold text-sm uppercase tracking-[0.2em] marquee-track">{text}</div>

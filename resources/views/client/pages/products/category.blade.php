@@ -76,13 +76,78 @@
         </nav>
       </div>
 
+      @php
+        $cSlug = $category->slug ?? '';
+        $isCatRental = str_contains($cSlug, 'cho-thue');
+        $isCatFansipan = str_contains($cSlug, 'fansipan');
+        $isCatParts = str_contains($cSlug, 'vat-tu') || str_contains($cSlug, 'linh-kien');
+
+        if ($isCatRental) {
+            $catKicker = "Dịch vụ cho thuê thiết bị trọn gói";
+            $catBadge = "Trọn Gói Mực & Bảo Trì";
+            $catBadgeIcon = "fa-solid fa-handshake";
+            $catPillText = "Miễn phí mực in & bảo trì tận nơi";
+            $catSub = "Máy tuyển chọn chất lượng cao 90–95%";
+            $prop1Title = "Chất lượng máy tuyển chọn";
+            $prop1Desc = "Thiết bị tuyển chọn kỹ thuật cao 90–95%, vận hành ổn định, trọn gói mực & linh kiện, đổi máy dự phòng nhanh trong 24h.";
+        } elseif ($isCatFansipan) {
+            $catKicker = "Thương hiệu độc quyền FANSIPAN";
+            $catBadge = "Thương Hiệu Độc Quyền FANSIPAN";
+            $catBadgeIcon = "fa-solid fa-award";
+            $catPillText = "Mực in tương thích cao cấp — Tiết kiệm 50%";
+            $catSub = "Tiết kiệm 50% chi phí — Bản in sắc nét";
+            $prop1Title = "Tiêu chuẩn độc quyền FANSIPAN";
+            $prop1Desc = "Hạt mực siêu mịn, đậm nét, tiết kiệm 50% chi phí in ấn, an toàn tuyệt đối cho cụm sấy và trống gạt máy photocopy.";
+        } elseif ($isCatParts) {
+            $catKicker = "Vật tư & Linh kiện tiêu chuẩn";
+            $catBadge = "Linh Kiện Tiêu Chuẩn Cao";
+            $catBadgeIcon = "fa-solid fa-boxes-stacked";
+            $catPillText = "Linh kiện tiêu chuẩn — Bảo hành 1 đổi 1";
+            $catSub = "Tương thích tối ưu & Bảo hành 1 đổi 1";
+            $prop1Title = "Tiêu chuẩn kỹ thuật cao";
+            $prop1Desc = "Linh kiện thay thế chuẩn thông số, sẵn kho cung ứng tức thì, bảo hành kỹ thuật 1 đổi 1 chu đáo.";
+        } elseif (str_contains($cSlug, 'may-scan')) {
+            $catKicker = "Phân phối máy scan chính hãng";
+            $catBadge = "100% Chính Hãng CO/CQ";
+            $catBadgeIcon = "fa-solid fa-certificate";
+            $catPillText = "100% Thiết bị chính hãng CO/CQ";
+            $catSub = "Máy quét chuyên dụng Ricoh Fujitsu";
+            $prop1Title = "Chính hãng CO/CQ";
+            $prop1Desc = "Đầy đủ chứng nhận xuất xứ CO và chất lượng CQ từ nhà phân phối, bảo hành chính hãng.";
+        } elseif (str_contains($cSlug, 'may-in-nhan-ban')) {
+            $catKicker = "Máy in nhân bản & hoàn thiện sau in";
+            $catBadge = "In Siêu Tốc 130–180 Bản/Phút";
+            $catBadgeIcon = "fa-solid fa-print";
+            $catPillText = "Chuẩn in sao đề thi THPT & giáo trình";
+            $catSub = "Công nghệ Duplo Nhật Bản";
+            $prop1Title = "Công suất lớn & Bảo mật";
+            $prop1Desc = "Giải pháp in siêu tốc chi phí bản in cực rẻ, đáp ứng in ấn đề thi bảo mật và tài liệu số lượng lớn.";
+        } elseif (str_contains($cSlug, 'photocopy')) {
+            $catKicker = "Máy photocopy văn phòng đa chức năng";
+            $catBadge = "Chất Lượng Kiểm Định Tiêu Chuẩn";
+            $catBadgeIcon = "fa-solid fa-medal";
+            $catPillText = "Kiểm định kỹ thuật — Vận hành bền bỉ";
+            $catSub = "Đa chức năng A3/A4 Toshiba & Konica";
+            $prop1Title = "Tiêu chuẩn kỹ thuật cao";
+            $prop1Desc = "Máy được tuyển chọn và kiểm định chất lượng nghiêm ngặt, bản in sắc nét, bảo hành tận nơi.";
+        } else {
+            $catKicker = "Thiết bị văn phòng & giáo dục";
+            $catBadge = "Cam Kết Chất Lượng Tiêu Chuẩn";
+            $catBadgeIcon = "fa-solid fa-award";
+            $catPillText = "Thiết bị tiêu chuẩn chất lượng cao";
+            $catSub = "Thiết bị văn phòng & In ấn hiện đại";
+            $prop1Title = "Chất lượng tiêu chuẩn";
+            $prop1Desc = "Sản phẩm tuyển chọn kỹ thuật cao, bảo hành uy tín và hỗ trợ kỹ thuật tận nơi chu đáo.";
+        }
+      @endphp
+
       <!-- 2-COLUMN SPLIT HERO SHOWCASE -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
         <!-- LEFT COLUMN: Content & Action (7 cols) -->
         <div class="lg:col-span-7 text-left">
           <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2.5">
             <span class="w-2 h-2 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
-            Danh mục thiết bị chính hãng
+            {{ $catKicker }}
           </div>
           <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3.5 leading-[1.35] tracking-normal drop-shadow-md">
             {{ $category->name }}
@@ -90,8 +155,8 @@
           <p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">{{ $category->description }}</p>
           <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-7">
             <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">
-        <i class="fa-solid fa-shield-check text-[#5eb74c]"></i>
-        <span>100% Thiết bị chính hãng CO/CQ</span>
+        <i class="{{ $catBadgeIcon }} text-[#5eb74c]"></i>
+        <span>{{ $catPillText }}</span>
       </div>
       <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">
         <i class="fa-solid fa-truck-fast text-[#ffc107]"></i>
@@ -121,8 +186,8 @@
             <div class="relative bg-gradient-to-b from-white/[0.12] to-white/[0.04] border border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
               <!-- Top Floating Badge -->
               <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md flex items-center gap-1.5 border border-white/20 z-20">
-                <i class="fa-solid fa-shield-check text-[#5eb74c]"></i>
-                <span>100% Chính Hãng CO/CQ</span>
+                <i class="{{ $catBadgeIcon }} text-[#5eb74c]"></i>
+                <span>{{ $catBadge }}</span>
               </div>
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
@@ -134,10 +199,10 @@
               <div class="pt-3 border-t border-white/15 flex items-center justify-between text-xs text-gray-200">
                 <div class="flex items-center gap-1.5 font-medium">
                   <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                  <span>Thiết bị văn phòng & In ấn hiện đại</span>
+                  <span>{{ $catSub }}</span>
                 </div>
                 <span class="bg-[#0d1626]/80 text-[#84e372] text-[10.5px] font-bold px-2 py-0.5 border border-[#5eb74c]/40">
-                  Bảo hành 24T
+                  {{ $isCatRental ? 'Đổi máy 24h' : ($isCatFansipan ? 'Tiết kiệm 50%' : 'Bảo hành 24T') }}
                 </span>
               </div>
             </div>
@@ -152,8 +217,8 @@
   <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="border-l-2 border-[#1A9900] pl-4">
-        <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-1">Chất lượng chính hãng</p>
-        <p class="text-[14px] text-[#181923] leading-relaxed">Đầy đủ CO/CQ chứng nhận xuất xứ, bảo hành tiêu chuẩn từ nhà sản xuất.</p>
+        <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-1">{{ $prop1Title }}</p>
+        <p class="text-[14px] text-[#181923] leading-relaxed">{{ $prop1Desc }}</p>
       </div>
       <div class="border-l-2 border-[#1A9900] pl-4">
         <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-1">Phương thức linh hoạt</p>

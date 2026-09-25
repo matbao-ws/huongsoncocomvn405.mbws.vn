@@ -43,6 +43,13 @@ PRIORITY = {
     "/giai-phap/giao-duc/": "0.95",
     "/giai-phap/giao-duc/in-de-thi/": "0.95",
     "/nhan-tu-van/": "0.9",
+    "/ve-huong-son/kien-thuc/": "0.9",
+    "/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/": "0.85",
+    "/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/": "0.85",
+    "/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/": "0.85",
+    "/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/": "0.85",
+    "/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/": "0.85",
+    "/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/": "0.85",
 }
 
 
@@ -90,7 +97,7 @@ Sitemap: {base}/sitemap.xml
 ## Hương Sơn làm gì
 
 Hương Sơn cung cấp thiết bị, vật tư và giải pháp cho toàn bộ vòng đời tài liệu của
-một tổ chức: PRINT → COPY → SCAN → DIGITAL → RENT → SERVICE.
+một tổ chức: PRINT → COPY → SCAN → DIGITAL → RENTAL → SERVICE.
 
 Sáu nhóm năng lực:
 
@@ -120,7 +127,20 @@ siêu tốc, vật tư Master/mực, kỹ thuật trực và phương án máy d
 - Dịch vụ: {base}/dich-vu/
 - Dự án – Case study: {base}/du-an/
 - Về Hương Sơn: {base}/ve-huong-son/
+- Cẩm nang kiến thức chuyên sâu (Knowledge Hub): {base}/ve-huong-son/kien-thuc/
 - Nhận tư vấn: {base}/nhan-tu-van/
+
+## Cẩm nang kiến thức & Giải pháp chuyên sâu (Knowledge Hub)
+
+- Trung tâm kiến thức: {base}/ve-huong-son/kien-thuc/
+- So sánh Mua vs Thuê máy photocopy (TCO 3 năm): {base}/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/
+- Hướng dẫn chọn máy scan số hóa tài liệu: {base}/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/
+- Tiêu chuẩn máy in sao đề thi THPT cách ly 3 vòng: {base}/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/
+- Công thức định mức mực in & cuộn Master Duplo: {base}/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/
+- Quy trình số hóa tài liệu lưu trữ Thông tư 02/2019/TT-BNV: {base}/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/
+- So sánh máy in siêu tốc Duplo DP-X550 vs DP-X850: {base}/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/
+- So sánh máy photocopy Toshiba e-STUDIO vs Konica Minolta bizhub: {base}/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/
+- Đánh giá mực in FANSIPAN công nghệ Nhật Bản: {base}/ve-huong-son/kien-thuc/muc-in-fansipan-cong-nghe-nhat-ban-danh-gia/
 
 ## Liên hệ
 
@@ -228,7 +248,7 @@ def sync_blade_templates():
                     'du-an': 'projects',
                     've-huong-son': 'about',
                 }
-                parts = rel.split('/')
+                parts = rel.replace('\\', '/').split('/')
                 mapped_parts = [folder_map.get(parts[0], parts[0])] + parts[1:]
                 blade_rel = os.path.join(*mapped_parts, 'index.blade.php') if len(mapped_parts) > 1 or mapped_parts[0] in ['products', 'solutions', 'services', 'projects', 'about', 'tools', 'lead'] else f'{mapped_parts[0]}.blade.php'
                 

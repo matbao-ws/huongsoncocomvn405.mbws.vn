@@ -39,7 +39,7 @@
       "0912.304.058",
       "024 3972 9484"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "geo": {
       "@@type": "GeoCoordinates",
@@ -60,18 +60,84 @@
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [
-      "máy photocopy",
-      "máy in nhân bản siêu tốc",
-      "in sao đề thi",
-      "máy scan tốc độ cao",
-      "số hóa tài liệu",
+      "Print, Document & Digital Solutions",
+      "Office Equipment",
+      "Máy photocopy",
+      "Máy photocopy Toshiba",
+      "Máy photocopy Ricoh",
+      "Máy photocopy Konica Minolta",
+      "Production Print",
+      "In kỹ thuật số",
+      "In tốc độ cao",
+      "Máy in nhân bản siêu tốc Duplo",
+      "Máy phối trang",
+      "MPS / Rental",
+      "Cho thuê máy photocopy",
+      "Cho thuê máy photocopy màu",
+      "Quản lý in ấn",
+      "Education Solutions",
+      "Giải pháp in ấn trường học",
+      "Exam Solutions",
+      "In đề thi",
+      "In đề thi tốt nghiệp THPT",
+      "Bảo mật tài liệu",
+      "Scan & Digital Document",
+      "Máy scan tốc độ cao",
+      "Số hóa tài liệu",
       "OCR",
-      "cho thuê máy photocopy",
-      "managed print service",
-      "vật tư in ấn",
-      "máy phối trang",
-      "bảo trì máy photocopy"
+      "FANSIPAN",
+      "Mực in FANSIPAN",
+      "Vật tư máy photocopy",
+      "Bảo trì sửa chữa máy photocopy"
     ],
+    "hasOfferCatalog": {
+      "@@type": "OfferCatalog",
+      "name": "Print, Document & Digital Solutions",
+      "itemListElement": [
+        {
+          "@@type": "OfferCatalog",
+          "name": "01. Office Equipment",
+          "description": "Máy photocopy Toshiba, Ricoh, Konica Minolta, máy in đa chức năng, máy scan",
+          "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "02. Production Print",
+          "description": "In kỹ thuật số, in tốc độ cao, máy in nhân bản siêu tốc Duplo, máy phối trang hoàn thiện sau in",
+          "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "03. MPS / Rental",
+          "description": "Cho thuê máy photocopy, máy in, quản lý in ấn toàn diện (MPS) tối ưu chi phí TCO",
+          "url": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "04. Education Solutions",
+          "description": "Giải pháp in ấn và trang thiết bị cho Sở GD&ĐT, trường học, trường đại học",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "05. Exam Solutions",
+          "description": "In đề thi, sao in tài liệu bảo mật, máy in nhân bản siêu tốc 130-180 trang/phút, đóng quyển",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "06. Scan & Digital Document",
+          "description": "Scan tốc độ cao, số hóa tài liệu lưu trữ theo Thông tư 02/2019/TT-BNV, OCR tiếng Việt",
+          "url": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "07. FANSIPAN",
+          "description": "Toner, mực in, cụm mực, drum trống gạt và vật tư tiêu hao thương hiệu riêng FANSIPAN",
+          "url": "https://huongsonco.com.vn/san-pham/fansipan/"
+        }
+      ]
+    },
     "brand": [
       {
         "@@type": "Brand",
@@ -145,11 +211,7 @@
           <a href="/" class="hover:text-white flex items-center gap-1.5 transition">
             <i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i>
             <span>Trang chủ</span>
-          </a>
-          <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i>
-          <a href="/nhan-tu-van/" class="text-gray-200 hover:text-white transition">Nhận tư vấn</a>
-          <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i>
-          <span class="text-[#84e372] font-semibold" aria-current="page">Yêu cầu báo giá</span>
+          </a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/nhan-tu-van/" class="text-gray-200 hover:text-white transition">Nhận tư vấn</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <span class="text-[#84e372] font-semibold" aria-current="page">Yêu cầu báo giá</span>
         </nav>
       </div>
 
@@ -159,25 +221,16 @@
         <div class="lg:col-span-7 text-left">
           <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2.5">
             <span class="w-2 h-2 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
-            Báo giá thiết bị &amp; Dịch vụ
+            Nhận tư vấn
           </div>
           <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3.5 leading-[1.35] tracking-normal drop-shadow-md">
-            Yêu Cầu Báo Giá Nhanh
+            Yêu cầu báo giá
           </h1>
-          <p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">Gửi loại thiết bị, số lượng và thời điểm cần — Hương Sơn báo giá kèm cơ cấu giá minh bạch, tách rõ từng khoản thiết bị, vật tư và bảo trì.</p>
+          <p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">Gửi loại thiết bị, số lượng và thời điểm cần — Hương Sơn báo giá kèm cơ cấu giá tách rõ từng khoản, không nhồi một chữ 'trọn gói' gây hiểu nhầm phạm vi.</p>
           <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-7">
-            <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">
-          <i class="fa-solid fa-bolt text-[#ffc107]"></i>
-          <span>Báo giá chi tiết trong <strong>15 phút</strong></span>
-        </div>
-        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">
-          <i class="fa-solid fa-file-invoice-dollar text-[#5eb74c]"></i>
-          <span>Tách rõ đơn giá máy &amp; vật tư</span>
-        </div>
-        <a href="tel:0911138583" class="inline-flex items-center gap-2 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3.5 py-1.5 transition font-semibold shadow-sm">
-          <i class="fa-solid fa-phone"></i>
-          <span>Hotline: 091.113.8583</span>
-        </a>
+            <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm text-xs"><i class="fa-solid fa-bolt text-[#ffc107]"></i> <span>Phản hồi trong <strong>15 phút</strong></span></div>
+          <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm text-xs"><i class="fa-solid fa-circle-check text-[#5eb74c]"></i> <span>Khảo sát &amp; Demo máy miễn phí</span></div>
+          <a href="tel:0911138583" class="inline-flex items-center gap-1.5 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3 py-1.5 transition font-semibold text-xs shadow-sm"><i class="fa-solid fa-phone text-white"></i> <span>Hotline 24/7: <strong>091.113.8583</strong></span></a>
           </div>
           <div class="flex flex-wrap items-center gap-3.5 sm:gap-4">
             <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-7 py-3.5 transition flex items-center gap-2 shadow-lg shadow-[#1A9900]/30 border border-[#5eb74c]/50">
@@ -192,14 +245,14 @@
         </div>
 
         <!-- RIGHT COLUMN: THE FOREGROUND PRODUCT SHOWCASE (5 cols) -->
-        <div class="lg:col-span-5 relative mt-6 lg:mt-0">
+        <div class="lg:col-span-5 relative">
           <div class="relative mx-auto max-w-[420px] lg:max-w-none">
             <div class="absolute -inset-2 bg-gradient-to-tr from-[#1A9900]/25 to-blue-500/20 rounded-2xl blur-xl opacity-70 pointer-events-none"></div>
             <div class="relative bg-gradient-to-b from-white/[0.12] to-white/[0.04] border border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
               <!-- Top Floating Badge -->
               <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md flex items-center gap-1.5 border border-white/20 z-20">
-                <i class="fa-solid fa-shield-check text-[#5eb74c]"></i>
-                <span>100% Chính Hãng CO/CQ</span>
+                <i class="fa-solid fa-bolt text-[#ffc107]"></i>
+                <span>Phản hồi trong 15 phút</span>
               </div>
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
@@ -211,10 +264,10 @@
               <div class="pt-3 border-t border-white/15 flex items-center justify-between text-xs text-gray-200">
                 <div class="flex items-center gap-1.5 font-medium">
                   <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                  <span>Thiết bị văn phòng & In ấn hiện đại</span>
+                  <span>Tư vấn & khảo sát tận nơi miễn phí</span>
                 </div>
                 <span class="bg-[#0d1626]/80 text-[#84e372] text-[10.5px] font-bold px-2 py-0.5 border border-[#5eb74c]/40">
-                  Bảo hành 24T
+                  Demo máy 0đ
                 </span>
               </div>
             </div>
@@ -255,7 +308,7 @@
           </li>
             <li class="flex items-start space-x-3">
               <i class="fa-solid fa-envelope text-[#1A9900] text-sm mt-1 flex-shrink-0"></i>
-              <a href="mailto:info@huongsonco.com.vn" class="hover:text-[#1A9900] transition">info@huongsonco.com.vn</a>
+              <a href="mailto:info@@huongsonco.com.vn" class="hover:text-[#1A9900] transition">info@@huongsonco.com.vn</a>
             </li>
             <li class="flex items-start space-x-3">
               <i class="fa-solid fa-location-dot text-[#1A9900] text-sm mt-1 flex-shrink-0"></i>
@@ -335,7 +388,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">

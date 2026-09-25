@@ -220,17 +220,19 @@ class HuongSonSeeder extends Seeder
 
                 $specsTable = '';
                 if (!empty($m['specifications'])) {
-                    $specsTable = '<table class="table table-bordered mt-3"><tbody>';
+                    $modelTitle = htmlspecialchars((string)($m['model'] ?? $m['name']));
+                    $specsTable = '<div class="mt-8"><div class="overflow-x-auto border border-gray-200"><table class="w-full min-w-[520px] bg-white"><caption class="text-left px-5 py-4 bg-[#181924] text-white text-sm font-bold uppercase tracking-wider">Thông số kỹ thuật — ' . $modelTitle . '</caption><tbody class="px-5">';
                     foreach ($m['specifications'] as $k => $v) {
-                        $specsTable .= '<tr><th style="width:35%">' . htmlspecialchars((string) $k) . '</th><td>' . htmlspecialchars((string) $v) . '</td></tr>';
+                        $specsTable .= '<tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50/80 transition"><th scope="row" class="text-left align-top py-3.5 px-4 pr-6 w-[40%] text-[14px] font-semibold text-[#181923] bg-[#fbf9f6]">' . htmlspecialchars((string) $k) . '</th><td class="py-3.5 px-4 text-[14.5px] text-gray-700 leading-relaxed">' . htmlspecialchars((string) $v) . '</td></tr>';
                     }
-                    $specsTable .= '</tbody></table>';
+                    $specsTable .= '</tbody></table></div></div>';
                 }
 
-                $fullDescription = ($m['description'] ?? '') . $specsTable;
+                $fullDescription = ($m['description'] ?? '');
                 if (empty($fullDescription)) {
-                    $fullDescription = '<p>' . htmlspecialchars((string) ($m['summary'] ?? $m['name'])) . '</p>' . $specsTable;
+                    $fullDescription = '<p>' . htmlspecialchars((string) ($m['summary'] ?? $m['name'])) . '</p>';
                 }
+                $fullDescription .= $specsTable;
 
                 $cleanNameVi = trim($m['name']);
                 $metaTitleVi = str_contains(mb_strtolower($cleanNameVi), 'chính hãng')
@@ -243,9 +245,18 @@ class HuongSonSeeder extends Seeder
                 $metaDescVi = mb_substr($rawSummary, 0, 158);
                 $metaDescEn = mb_substr($rawSummary, 0, 158);
 
+                $prodCriteria = ['slug' => $m['slug']];
+                if (!empty($m['sku'])) {
+                    $foundBySku = Product::where('sku', $m['sku'])->first();
+                    if ($foundBySku) {
+                        $prodCriteria = ['id' => $foundBySku->id];
+                    }
+                }
+
                 Product::query()->updateOrCreate(
-                    ['slug' => $m['slug']],
+                    $prodCriteria,
                     [
+                        'slug' => $m['slug'],
                         'category_id' => $catId,
                         'brand_id' => $brandId,
                         'name' => ['vi' => $m['name'], 'en' => $cleanNameEn],

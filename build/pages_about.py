@@ -223,12 +223,15 @@ def _news_hub():
         ["Hiện có gì", "Các dự án đã triển khai; tin tức mới sẽ được cập nhật khi có dự án hoặc hoạt động đáng chú ý."],
     ])
     body += C.section(C.card_grid([{
-        "title": p, "url": u, "tag": "Case Study", "cta": "Xem chi tiết",
-        "text": "Dự án đã triển khai với hồ sơ hợp đồng, bàn giao và nghiệm thu đầy đủ.",
-    } for p, u in [
-        ("Sở GD&ĐT Quảng Trị – thuê máy in nhân bản siêu tốc 2026", "/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/"),
-        ("Sở GD&ĐT Vĩnh Phúc – thuê máy photocopy sao in đề thi", "/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/"),
-        ("Cung cấp máy photocopy cho hệ thống Vietcombank", "/du-an/vietcombank-cung-cap-may-photocopy/"),
+        "title": p, "url": u, "tag": tag, "cta": "Xem chi tiết",
+        "text": desc,
+    } for p, u, tag, desc in [
+        ("Sở GD&ĐT Quảng Trị – Thuê máy in nhân bản siêu tốc Duplo 2026", "/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/", "Dự án GD", "Bàn giao và vận hành hệ thống máy in siêu tốc Duplo DP-X550 phục vụ kỳ thi tuyển sinh và tốt nghiệp THPT an toàn tuyệt đối."),
+        ("Sở GD&ĐT Vĩnh Phúc – Thuê hệ thống máy photocopy sao in đề thi", "/du-an/so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi/", "Dự án GD", "Cung cấp hệ thống máy photocopy công suất lớn và phương án máy dự phòng N+1 trong khu vực cách ly 3 vòng."),
+        ("Cung cấp máy photocopy cho hệ thống Vietcombank toàn quốc", "/du-an/vietcombank-cung-cap-may-photocopy/", "Ngân hàng", "Triển khai dịch vụ Managed Print Services và máy photocopy Toshiba e-STUDIO tại các chi nhánh và phòng giao dịch Vietcombank."),
+        ("Giải pháp in sao đề thi THPT cách ly 3 vòng tuyệt đối bảo mật", "/giai-phap/giao-duc/in-de-thi/", "Giải pháp", "Quy trình in sao đề thi khép kín tốc độ 130–180 trang/phút, bảo mật tuyệt đối, kỹ sư túc trực 24/24 trong khu vực cách ly."),
+        ("Giải pháp cho thuê máy photocopy thế hệ mới: Cam kết SLA 2 giờ", "/giai-phap/cho-thue-thiet-bi/", "Dịch vụ", "Tiết kiệm 40% chi phí TCO, 0đ vốn đầu tư ban đầu, bao trọn 100% mực và vật tư linh kiện FANSIPAN tiêu chuẩn Nhật Bản."),
+        ("Số hóa hồ sơ học bạ và tài liệu lưu trữ chuẩn Thông tư 02/2019/TT-BNV", "/giai-phap/scan-so-hoa/", "Chuyển đổi số", "Máy scan Ricoh Fujitsu chuyên dụng kết hợp OCR tiếng Việt bóc tách dữ liệu tìm kiếm tức thì cho trường học và cơ quan."),
     ]], cols=3))
     body += C.cta_band(title="Muốn nhận thông tin dự án mới của Hương Sơn?",
                        text="Để lại thông tin liên hệ — Hương Sơn cập nhật khi có dự án và nội dung mới.")

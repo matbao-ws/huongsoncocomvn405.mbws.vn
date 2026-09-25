@@ -87,7 +87,7 @@
    {
     "name": "Máy phối trang – thiết bị hoàn thiện sau in",
     "note": "Phối đề, đóng bộ, hoàn thiện tài liệu",
-    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
    },
    {
     "name": "Máy scan tốc độ cao",
@@ -322,7 +322,7 @@
    {
     "name": "Máy phối trang – hoàn thiện sau in",
     "note": "Phối đề, đóng bộ, hoàn thiện tài liệu sau khi in",
-    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
    },
    {
     "name": "Vật tư Master – mực – linh kiện",
@@ -1643,7 +1643,7 @@
    {
     "name": "Máy phối trang – hoàn thiện sau in",
     "note": "Đóng bộ và hoàn thiện tài liệu sau in",
-    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
    },
    {
     "name": "Máy scan tốc độ cao",
@@ -1855,7 +1855,7 @@
    {
     "name": "Máy phối trang – hoàn thiện sau in",
     "note": "Phối trang, đóng bộ, hoàn thiện tài liệu",
-    "url": "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+    "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
    },
    {
     "name": "Vật tư – linh kiện – tiêu hao",
@@ -1987,7 +1987,7 @@
    ],
    [
     "Máy phối trang – sau in",
-    "/san-pham/may-phoi-trang-hoan-thien-sau-in/"
+    "/san-pham/may-in-nhan-ban-toc-do-cao/"
    ],
    [
     "Cho thuê thiết bị",

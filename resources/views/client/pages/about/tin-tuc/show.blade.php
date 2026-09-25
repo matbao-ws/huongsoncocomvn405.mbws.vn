@@ -16,6 +16,66 @@
 @section('og_image', str_starts_with($post->image_url, 'http') ? $post->image_url : url($post->image_url))
 @endif
 
+@section('jsonld')
+<script type="application/ld+json">
+[
+  {
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@@type": "ListItem",
+        "position": 1,
+        "name": "Trang chủ",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 2,
+        "name": "Về Hương Sơn",
+        "item": "{{ url('/ve-huong-son/') }}"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 3,
+        "name": "Tin tức",
+        "item": "{{ url('/ve-huong-son/tin-tuc/') }}"
+      },
+      {
+        "@@type": "ListItem",
+        "position": 4,
+        "name": "{{ addslashes($post->title) }}",
+        "item": "{{ url()->current() }}"
+      }
+    ]
+  },
+  {
+    "@@context": "https://schema.org",
+    "@@type": "Article",
+    "headline": "{{ addslashes($post->title) }}",
+    "description": "{{ addslashes($postDesc) }}",
+    "image": "{{ $post->image_url ? (str_starts_with($post->image_url, 'http') ? $post->image_url : url($post->image_url)) : url('/assets/images/brand/HUONG_SON_logo.svg') }}",
+    "datePublished": "{{ $post->published_at ? $post->published_at->toIso8601String() : now()->toIso8601String() }}",
+    "dateModified": "{{ $post->updated_at ? $post->updated_at->toIso8601String() : now()->toIso8601String() }}",
+    "author": {
+      "@@type": "Organization",
+      "name": "Hương Sơn",
+      "url": "https://huongsonco.com.vn/"
+    },
+    "publisher": {
+      "@@type": "Organization",
+      "name": "Hương Sơn",
+      "logo": {
+        "@@type": "ImageObject",
+        "url": "https://huongsonco.com.vn/assets/images/brand/HUONG_SON_logo.svg"
+      }
+    },
+    "mainEntityOfPage": "{{ url()->current() }}"
+  }
+]
+</script>
+@endsection
+
 @section('content')
 <!-- PAGE HERO (SPLIT-HERO FOREGROUND SHOWCASE BANNER) -->
   <section class="relative bg-[#0d1626] py-10 sm:py-14 lg:py-16 overflow-hidden border-b border-white/10">

@@ -36,9 +36,24 @@ DEFAULT_BADGES = {
         ('fa-solid fa-phone text-white', 'Hotline 24/7: <strong>091.113.8583</strong>', 'tel:0911138583'),
     ],
     "san-pham": [
-        ('fa-solid fa-shield-check text-[#5eb74c]', '100% Thiết bị chính hãng CO/CQ', None),
+        ('fa-solid fa-shield-check text-[#5eb74c]', 'Thiết bị &amp; Vật tư tiêu chuẩn chất lượng', None),
         ('fa-solid fa-truck-fast text-[#ffc107]', 'Giao hàng &amp; Lắp đặt toàn quốc', None),
         ('fa-solid fa-headset text-[#5eb74c]', 'Hỗ trợ kỹ thuật 24/7', 'tel:0912304058'),
+    ],
+    "cho-thue-thiet-bi-giao-duc": [
+        ('fa-solid fa-handshake text-[#5eb74c]', 'Trọn gói 100% Mực in &amp; Bảo trì', None),
+        ('fa-solid fa-rotate text-[#ffc107]', 'Đổi máy dự phòng trong 24 giờ', None),
+        ('fa-solid fa-phone text-white', 'Tư vấn thuê: <strong>091.113.8583</strong>', 'tel:0911138583'),
+    ],
+    "fansipan": [
+        ('fa-solid fa-award text-[#5eb74c]', 'Thương hiệu độc quyền FANSIPAN', None),
+        ('fa-solid fa-percent text-[#ffc107]', 'Tiết kiệm 50% chi phí mực in', None),
+        ('fa-solid fa-shield-check text-cyan-400', 'Bảo hành 1 đổi 1 bản in sắc nét', None),
+    ],
+    "vat-tu-linh-kien-tieu-hao": [
+        ('fa-solid fa-boxes-stacked text-[#5eb74c]', 'Linh kiện tiêu chuẩn kỹ thuật cao', None),
+        ('fa-solid fa-rotate text-[#ffc107]', 'Bảo hành đổi mới 1 đổi 1', None),
+        ('fa-solid fa-headset text-cyan-400', 'Hỗ trợ kỹ thuật thay thế', 'tel:0912304058'),
     ],
     "giai-phap": [
         ('fa-solid fa-sliders text-[#5eb74c]', 'Giải pháp may đo theo từng ngành', None),
@@ -96,8 +111,8 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
 
     # Resolve foreground showcase image and badges
     foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
-    top_badge_icon = "fa-solid fa-shield-check"
-    top_badge_text = "100% Chính Hãng CO/CQ"
+    top_badge_icon = "fa-solid fa-award text-[#5eb74c]"
+    top_badge_text = "Cam kết chất lượng tiêu chuẩn"
     bottom_badge_text = "Bảo hành 24T"
     showcase_caption = "Thiết bị văn phòng & In ấn hiện đại"
 
@@ -114,12 +129,36 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
         top_badge_text = "Scan 80 – 140 trang/phút"
         bottom_badge_text = "OCR Tiếng Việt"
         showcase_caption = "Máy scan Ricoh Fujitsu chuyên dụng"
+    elif "photocopy" in trail_str:
+        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        top_badge_icon = "fa-solid fa-medal text-[#ffc107]"
+        top_badge_text = "Chất lượng kiểm định tiêu chuẩn"
+        bottom_badge_text = "Bảo hành tận nơi"
+        showcase_caption = "Máy photocopy đa chức năng chuyên nghiệp"
+    elif "may-in-nhan-ban" in trail_str:
+        foreground_img = "/assets/images/products/duplo-dp-x550.jpg"
+        top_badge_icon = "fa-solid fa-print text-[#ffc107]"
+        top_badge_text = "Tốc độ 130 – 180 bản/phút"
+        bottom_badge_text = "Chuẩn in đề thi"
+        showcase_caption = "Máy in siêu tốc Duplo Nhật Bản"
     elif "thue-may" in trail_str or "cho-thue" in trail_str:
         foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
-        top_badge_icon = "fa-solid fa-tag text-[#ffc107]"
-        top_badge_text = "Chỉ từ 800k/tháng"
-        bottom_badge_text = "Dùng thử 7 ngày"
-        showcase_caption = "Thuê máy photocopy trọn gói"
+        top_badge_icon = "fa-solid fa-handshake text-[#ffc107]"
+        top_badge_text = "Trọn Gói Mực & Bảo Trì"
+        bottom_badge_text = "Đổi máy trong 24h"
+        showcase_caption = "Thuê máy photocopy trọn gói miễn phí mực"
+    elif "fansipan" in trail_str:
+        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        top_badge_icon = "fa-solid fa-award text-[#ffc107]"
+        top_badge_text = "Thương hiệu FANSIPAN"
+        bottom_badge_text = "Tiết kiệm 50%"
+        showcase_caption = "Mực in tương thích cao cấp FANSIPAN"
+    elif "vat-tu" in trail_str or "linh-kien" in trail_str:
+        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        top_badge_icon = "fa-solid fa-boxes-stacked text-[#ffc107]"
+        top_badge_text = "Linh Kiện Tiêu Chuẩn"
+        bottom_badge_text = "Bảo hành 1 đổi 1"
+        showcase_caption = "Vật tư & Linh kiện thay thế chuẩn xác"
     elif sec_key == "nhan-tu-van":
         foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
         top_badge_icon = "fa-solid fa-bolt text-[#ffc107]"
@@ -325,7 +364,7 @@ def cta_band(*, title, text, primary=("Yêu cầu báo giá", "/nhan-tu-van/bao-
                f'hover:text-[{BRAND}] text-white font-bold text-xs uppercase tracking-wider '
                f'px-8 py-4 transition">{esc(secondary[0])}</a>')
     return f"""
-  <section class="py-14 bg-[{DARK}] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
+  <section class="py-14 bg-[{DARK}] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/banners/hero_office_solutions_1787899910391.jpg');">
     <div class="{WRAP} flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">
         <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">{title}</h2>

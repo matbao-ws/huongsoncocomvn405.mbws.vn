@@ -95,6 +95,173 @@
         </nav>
       </div>
 
+      @php
+        $catSlug = $product->category?->slug ?? '';
+        $prodSlug = $product->slug ?? '';
+
+        $modelSlug = is_string($product->slug) ? $product->slug : (is_array($product->slug) ? ($product->slug['vi'] ?? reset($product->slug)) : '');
+        $routeSlug = (string)request()->route('slug');
+        $skuStr = (string)($product->sku ?? '');
+        $prodNameLower = mb_strtolower((string)$product->name);
+
+        $jsonSpecs = null;
+        $jsonDesc = null;
+        $jsonUseCases = null;
+        $jsonWarranty = null;
+        $jsonSource = null;
+        $jsonCompatible = null;
+        $jsonIndustry = null;
+        $matchedModel = null;
+
+        $jsonPath = base_path('build/data/products.json');
+        if (file_exists($jsonPath)) {
+            static $cachedProductsJson = null;
+            if ($cachedProductsJson === null) {
+                $cachedProductsJson = json_decode(file_get_contents($jsonPath), true);
+            }
+            if (!empty($cachedProductsJson['models'])) {
+                // Priority 1: Exact slug, route slug, aliases, or SKU match
+                foreach ($cachedProductsJson['models'] as $jm) {
+                    $jSlug = $jm['slug'] ?? '';
+                    $jSku = $jm['sku'] ?? '';
+                    $jAliases = $jm['aliases'] ?? [];
+
+                    if ($jSlug && ($jSlug === $modelSlug || $jSlug === $routeSlug)) {
+                        $matchedModel = $jm;
+                        break;
+                    }
+                    if (in_array($modelSlug, $jAliases) || in_array($routeSlug, $jAliases)) {
+                        $matchedModel = $jm;
+                        break;
+                    }
+                    if ($skuStr && $jSku && strcasecmp($jSku, $skuStr) === 0) {
+                        $matchedModel = $jm;
+                        break;
+                    }
+                }
+
+                // Priority 2: Fuzzy / SKU substring / model name match
+                if (!$matchedModel) {
+                    foreach ($cachedProductsJson['models'] as $jm) {
+                        $jSlug = $jm['slug'] ?? '';
+                        $jSku = $jm['sku'] ?? '';
+                        $jModel = mb_strtolower($jm['model'] ?? '');
+
+                        if ($jSlug && ($modelSlug && (str_contains($modelSlug, $jSlug) || str_contains($jSlug, $modelSlug)))) {
+                            $matchedModel = $jm;
+                            break;
+                        }
+                        if ($jModel && (str_contains($prodNameLower, $jModel) || ($skuStr && str_contains(mb_strtolower($skuStr), $jModel)))) {
+                            $matchedModel = $jm;
+                            break;
+                        }
+                    }
+                }
+
+                if ($matchedModel) {
+                    $jsonSpecs = $matchedModel['specifications'] ?? null;
+                    $jsonDesc = $matchedModel['description'] ?? null;
+                    $jsonUseCases = $matchedModel['use_case'] ?? null;
+                    $jsonWarranty = $matchedModel['warranty'] ?? null;
+                    $jsonSource = $matchedModel['source'] ?? null;
+                    $jsonCompatible = $matchedModel['compatible_model'] ?? null;
+                    $jsonIndustry = $matchedModel['industry'] ?? null;
+                }
+            }
+        }
+
+        // Fallback: extract table rows from $product->description if $jsonSpecs is still empty
+        if (empty($jsonSpecs) && !empty($product->description)) {
+            if (preg_match_all('/<tr[^>]*>\s*<th[^>]*>(.*?)<\/th>\s*<td[^>]*>(.*?)<\/td>\s*<\/tr>/is', $product->description, $tableMatches, PREG_SET_ORDER)) {
+                $extracted = [];
+                foreach ($tableMatches as $tm) {
+                    $k = trim(strip_tags($tm[1]));
+                    $v = trim(strip_tags($tm[2]));
+                    if ($k && $v) {
+                        $extracted[$k] = $v;
+                    }
+                }
+                if (!empty($extracted)) {
+                    $jsonSpecs = $extracted;
+                }
+            }
+        }
+
+        $cleanDesc = (string)($product->description ?? '');
+        $cleanDesc = preg_replace('/<table[\s\S]*?<\/table>/i', '', $cleanDesc);
+
+        $isRental = str_contains($catSlug, 'cho-thue') || str_contains($prodSlug, 'cho-thue') || str_contains($prodSlug, 'goi-thue');
+        $isFansipan = str_contains($catSlug, 'fansipan') || str_contains($prodSlug, 'fansipan');
+        $isGuide = str_contains($prodSlug, 'bang-tra-ma');
+        $isParts = str_contains($catSlug, 'vat-tu') || str_contains($prodSlug, 'trong-drum') || str_contains($prodSlug, 'spare-drum');
+
+        if ($isRental) {
+            $badgeText = "Trọn Gói Mực & Bảo Trì";
+            $badgeIcon = "fa-solid fa-handshake";
+            $badgeSub = "Máy tuyển chọn chất lượng cao";
+            $badgePillText = "Trọn gói mực & bảo trì tận nơi";
+            $commitmentTitle = "Thiết bị tuyển chọn chất lượng cao";
+            $commitmentDesc = "Máy hoạt động bền bỉ, độ mới 90–95%, trọn gói 100% mực in, linh kiện và kỹ thuật bảo trì tận nơi; đổi máy dự phòng nhanh trong 24h.";
+            $warrantyText = "Bảo trì trọn đời hợp đồng thuê";
+        } elseif ($isFansipan) {
+            $badgeText = "Thương Hiệu FANSIPAN";
+            $badgeIcon = "fa-solid fa-award";
+            $badgeSub = "Mực tương thích cao cấp";
+            $badgePillText = "Độc quyền FANSIPAN — Tiết kiệm 50%";
+            $commitmentTitle = "Tiêu chuẩn chất lượng FANSIPAN";
+            $commitmentDesc = "Thương hiệu độc quyền của Hương Sơn, hạt mực siêu mịn, đậm nét, tiết kiệm 50% chi phí, an toàn tuyệt đối cho cụm sấy và trống gạt.";
+            $warrantyText = "Bảo hành 1 đổi 1 đến giọt mực cuối cùng";
+        } elseif ($isGuide) {
+            $badgeText = "Cẩm Nang Kỹ Thuật";
+            $badgeIcon = "fa-solid fa-book-open";
+            $badgeSub = "Tài liệu chuyên ngành";
+            $badgePillText = "Cẩm nang tra mã chuẩn xác";
+            $commitmentTitle = "Thông tin kỹ thuật chuẩn xác";
+            $commitmentDesc = "Biên soạn và tổng hợp bởi đội ngũ kỹ sư dày dạn kinh nghiệm Hương Sơn, hỗ trợ kỹ thuật viên và cơ quan tra cứu chuẩn xác nhất.";
+            $warrantyText = "Hỗ trợ tư vấn kỹ thuật miễn phí";
+        } elseif ($isParts) {
+            $badgeText = "Linh Kiện Tiêu Chuẩn Cao";
+            $badgeIcon = "fa-solid fa-gear";
+            $badgeSub = "Tương thích tối ưu";
+            $badgePillText = "Linh kiện tiêu chuẩn — Bảo hành 1 đổi 1";
+            $commitmentTitle = "Linh kiện thay thế tiêu chuẩn";
+            $commitmentDesc = "Vật tư linh kiện tuyển chọn đạt tiêu chuẩn kỹ thuật cao, tương thích hoàn hảo, bảo hành đổi mới nếu phát sinh lỗi kỹ thuật.";
+            $warrantyText = "Bảo hành tiêu chuẩn kỹ thuật 1 đổi 1";
+        } elseif (str_contains($catSlug, 'may-scan')) {
+            $badgeText = "100% Chính Hãng CO/CQ";
+            $badgeIcon = "fa-solid fa-certificate";
+            $badgeSub = "Máy quét chuyên dụng chính hãng";
+            $badgePillText = "100% Phân phối chính hãng & CO/CQ";
+            $commitmentTitle = "Phân phối chính hãng CO/CQ";
+            $commitmentDesc = "Đầy đủ chứng nhận xuất xứ CO và chất lượng CQ từ nhà phân phối chính thức, bảo hành chính hãng.";
+            $warrantyText = "12 – 24 tháng chính hãng";
+        } elseif (str_contains($catSlug, 'may-in-nhan-ban') || str_contains($prodSlug, 'duplo')) {
+            $badgeText = "In Siêu Tốc 130–180 ppm";
+            $badgeIcon = "fa-solid fa-print";
+            $badgeSub = "Chuẩn in sao đề thi THPT";
+            $badgePillText = "Công nghệ Duplo Nhật Bản";
+            $commitmentTitle = "Giải pháp in ấn tốc độ cao";
+            $commitmentDesc = "Hệ thống máy in nhân bản kỹ thuật số và phối trang đóng tập tốc độ cao, đáp ứng in ấn tài liệu số lượng lớn và in đề thi bảo mật.";
+            $warrantyText = "Bảo hành & bảo trì tận nơi";
+        } elseif (str_contains($catSlug, 'photocopy')) {
+            $badgeText = "Kiểm Định Chất Lượng Tiêu Chuẩn";
+            $badgeIcon = "fa-solid fa-medal";
+            $badgeSub = "Độ bền bỉ & vận hành ổn định";
+            $badgePillText = "Tiêu chuẩn kỹ thuật kiểm định";
+            $commitmentTitle = "Thiết bị tiêu chuẩn kỹ thuật cao";
+            $commitmentDesc = "Hương Sơn cam kết chất lượng máy vận hành ổn định, bản in sắc nét, đầy đủ linh kiện thay thế và hỗ trợ kỹ thuật tận nơi.";
+            $warrantyText = "12 – 24 tháng hoặc theo hợp đồng";
+        } else {
+            $badgeText = "Cam Kết Chất Lượng Tiêu Chuẩn";
+            $badgeIcon = "fa-solid fa-award";
+            $badgeSub = "Thiết bị văn phòng & In ấn hiện đại";
+            $badgePillText = "Chất lượng tiêu chuẩn & Bảo hành uy tín";
+            $commitmentTitle = "Cam kết chất lượng tiêu chuẩn";
+            $commitmentDesc = "Sản phẩm được tuyển chọn và kiểm định chất lượng kỹ thuật nghiêm ngặt trước khi bàn giao cho Quý cơ quan, trường học và doanh nghiệp.";
+            $warrantyText = "12 – 24 tháng theo tiêu chuẩn";
+        }
+      @endphp
+
       <!-- 2-COLUMN SPLIT HERO SHOWCASE -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
         <!-- LEFT COLUMN: Content & Action (7 cols) -->
@@ -109,8 +276,8 @@
           <p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">{{ $product->short_description }}</p>
           <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-7">
             <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">
-        <i class="fa-solid fa-shield-check text-[#5eb74c]"></i>
-        <span>100% Chính hãng &amp; CO/CQ</span>
+        <i class="{{ $badgeIcon }} text-[#5eb74c]"></i>
+        <span>{{ $badgePillText }}</span>
       </div>
       <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm">
         <i class="fa-solid fa-screwdriver-wrench text-[#ffc107]"></i>
@@ -140,27 +307,59 @@
             <div class="relative bg-gradient-to-b from-white/[0.12] to-white/[0.04] border border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
               <!-- Top Floating Badge -->
               <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md flex items-center gap-1.5 border border-white/20 z-20">
-                <i class="fa-solid fa-shield-check text-[#5eb74c]"></i>
-                <span>100% Chính Hãng CO/CQ</span>
+                <i class="{{ $badgeIcon }} text-[#5eb74c]"></i>
+                <span>{{ $badgeText }}</span>
               </div>
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
               <div class="pt-6 pb-2 px-2 flex items-center justify-center min-h-[200px] sm:min-h-[230px]">
-                <img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="{{ $product->name }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
+                <img src="{{ $product->image ?: '/assets/images/banners/toshiba_mfp_product_1787905812744.jpg' }}" alt="{{ $product->name }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
               </div>
 
               <!-- Bottom Caption Strip & Floating Badge -->
               <div class="pt-3 border-t border-white/15 flex items-center justify-between text-xs text-gray-200">
                 <div class="flex items-center gap-1.5 font-medium">
                   <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                  <span>Thiết bị văn phòng & In ấn hiện đại</span>
+                  <span>{{ $badgeSub }}</span>
                 </div>
                 <span class="bg-[#0d1626]/80 text-[#84e372] text-[10.5px] font-bold px-2 py-0.5 border border-[#5eb74c]/40">
-                  Bảo hành 24T
+                  {{ $isRental ? 'Đổi máy 24h' : ($isFansipan ? 'Tiết kiệm 50%' : 'Bảo hành 24T') }}
                 </span>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-COLUMN QUICK HIGHLIGHT STRIP (Chuẩn máy Scan) -->
+  <section class="py-8 border-b border-gray-200" style="background-color: rgb(247, 243, 238);">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+        <div class="border-l-2 border-[#1A9900] pl-5">
+          <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-1.5">Model</p>
+          <p class="text-[15px] text-[#181923] leading-relaxed">
+            <strong>{{ $matchedModel['model'] ?? ($product->sku ?: $product->name) }}</strong> — {{ $product->brand ? ('sản xuất bởi ' . $product->brand->name) : 'phân phối bởi Hương Sơn' }}
+          </p>
+        </div>
+        <div class="border-l-2 border-[#1A9900] pl-5">
+          <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-1.5">Dành cho</p>
+          <p class="text-[15px] text-[#181923] leading-relaxed">
+            @if(!empty($jsonIndustry))
+              {{ is_array($jsonIndustry) ? implode(', ', $jsonIndustry) : $jsonIndustry }}
+            @elseif(!empty($matchedModel['industry']))
+              {{ is_array($matchedModel['industry']) ? implode(', ', $matchedModel['industry']) : $matchedModel['industry'] }}
+            @else
+              Sở GD&amp;ĐT, Trường học, Ngân hàng, Bệnh viện, Cơ quan Nhà nước &amp; Doanh nghiệp
+            @endif
+          </p>
+        </div>
+        <div class="border-l-2 border-[#1A9900] pl-5">
+          <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-1.5">Dịch vụ &amp; Bảo hành</p>
+          <p class="text-[15px] text-[#181923] leading-relaxed">
+            {{ $jsonWarranty ?: $warrantyText }} — Lắp đặt &amp; Hỗ trợ kỹ thuật 24/7 tận nơi
+          </p>
         </div>
       </div>
     </div>
@@ -210,7 +409,7 @@
             </div>
             <div class="flex justify-between text-[14px]">
               <span class="text-gray-500">Bảo hành:</span>
-              <span class="font-medium text-gray-700">12 – 24 tháng chính hãng</span>
+              <span class="font-medium text-gray-700">{{ $jsonWarranty ?: $warrantyText }}</span>
             </div>
           </div>
 
@@ -236,11 +435,33 @@
       <!-- Product Description & Specifications -->
       <div class="lg:col-span-7">
         <div class="product-description-container">
-          <h2 class="text-2xl font-bold text-[#10203C] border-b pb-3 mb-6">Mô tả &amp; Thông số kỹ thuật</h2>
+
+          @if(!empty($jsonUseCases) && is_array($jsonUseCases) && count($jsonUseCases) > 0)
+            <div class="mb-8 p-6 bg-[#fbf9f6] border border-gray-200/90 rounded-lg">
+              <h2 class="text-xs font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-3.5 flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-[#1A9900]"></i>
+                <span>Ứng dụng thực tế &amp; Đối tượng phục vụ</span>
+              </h2>
+              <ul class="space-y-3">
+                @foreach($jsonUseCases as $uc)
+                  <li class="flex items-start gap-3 text-[14.5px] text-[#181923] leading-relaxed">
+                    <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
+                    <span>{{ $uc }}</span>
+                  </li>
+                @endforeach
+              </ul>
+            </div>
+          @endif
+
+          <h2 class="text-2xl font-bold text-[#10203C] border-b pb-3 mb-6">Mô tả sản phẩm</h2>
           
-          @if($product->description)
+          @if($jsonDesc)
             <div class="text-[15px] leading-[1.8] text-[#181923] space-y-4">
-              {!! $product->description !!}
+              {!! $jsonDesc !!}
+            </div>
+          @elseif(trim($cleanDesc) !== '')
+            <div class="text-[15px] leading-[1.8] text-[#181923] space-y-4">
+              {!! $cleanDesc !!}
             </div>
           @else
             <p class="text-[15.5px] leading-[1.8] text-gray-700">
@@ -248,13 +469,76 @@
             </p>
           @endif
 
+          @if(!empty($jsonSpecs))
+            <div class="mt-10">
+              <div class="overflow-x-auto border border-gray-200">
+                <table class="w-full min-w-[520px] bg-white">
+                  <caption class="text-left px-5 py-4 bg-[#181924] text-white text-sm font-bold uppercase tracking-wider">
+                    Thông số kỹ thuật — {{ $matchedModel['model'] ?? ($product->sku ?: $product->name) }}
+                  </caption>
+                  <tbody class="px-5">
+                    @foreach($jsonSpecs as $k => $v)
+                      <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50/80 transition">
+                        <th scope="row" class="text-left align-top py-3.5 px-4 pr-6 w-[40%] text-[14px] font-semibold text-[#181923] bg-[#fbf9f6]">
+                          {{ $k }}
+                        </th>
+                        <td class="py-3.5 px-4 text-[14.5px] text-gray-700 leading-relaxed">
+                          {{ $v }}
+                        </td>
+                      </tr>
+                    @endforeach
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          @endif
+
+          <!-- Nguồn gốc và bảo hành (Chuẩn thiết kế máy Scan) -->
+          <div class="mt-8">
+            <div class="overflow-x-auto">
+              <table class="w-full min-w-[520px] border border-gray-200 bg-white">
+                <caption class="text-left px-5 py-4 bg-white border border-b-0 border-gray-200 text-sm font-bold text-[#181923] uppercase tracking-wider">
+                  Nguồn gốc và bảo hành
+                </caption>
+                <thead class="bg-[#181924]">
+                  <tr>
+                    <th scope="col" class="text-left px-5 py-3 text-[13px] font-bold uppercase tracking-wider text-white w-[35%]">Thông tin</th>
+                    <th scope="col" class="text-left px-5 py-3 text-[13px] font-bold uppercase tracking-wider text-white">Chi tiết</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50">
+                    <th scope="row" class="text-left px-5 py-3 text-[14px] font-semibold text-[#181923] align-top bg-[#fbf9f6]">Xuất xứ / Nguồn</th>
+                    <td class="px-5 py-3 text-[14.5px] text-gray-700 align-top">
+                      {{ $jsonSource ?: ($product->brand ? ('Chính hãng ' . $product->brand->name . ', nhập khẩu mới, đầy đủ hóa đơn chứng từ.') : 'Phân phối chính thức bởi Công ty TNHH Thương mại và Dịch vụ Hương Sơn.') }}
+                    </td>
+                  </tr>
+                  <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50">
+                    <th scope="row" class="text-left px-5 py-3 text-[14px] font-semibold text-[#181923] align-top bg-[#fbf9f6]">Chính sách bảo hành</th>
+                    <td class="px-5 py-3 text-[14.5px] text-gray-700 align-top">
+                      {{ $jsonWarranty ?: $warrantyText }} — Đội ngũ kỹ sư chuyên trách Hương Sơn vận chuyển, lắp đặt và bảo trì định kỳ tận nơi.
+                    </td>
+                  </tr>
+                  @if(!empty($jsonCompatible))
+                    <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50">
+                      <th scope="row" class="text-left px-5 py-3 text-[14px] font-semibold text-[#181923] align-top bg-[#fbf9f6]">Model tương thích / Thay thế</th>
+                      <td class="px-5 py-3 text-[14.5px] text-gray-700 align-top">
+                        {{ is_array($jsonCompatible) ? implode(', ', $jsonCompatible) : $jsonCompatible }}
+                      </td>
+                    </tr>
+                  @endif
+                </tbody>
+              </table>
+            </div>
+          </div>
+
           <h3 class="text-xl font-bold text-[#10203C] border-b pb-3 mt-10 mb-5">Cam kết dịch vụ từ Hương Sơn</h3>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="p-4 rounded border border-gray-200 bg-[#fbf9f6] flex items-start space-x-3">
               <i class="fa-solid fa-shield-halved text-[#1A9900] text-lg mt-1 flex-shrink-0"></i>
               <div>
-                <h4 class="font-bold text-[15px] text-[#181923] mb-1">Thiết bị chuẩn chính hãng</h4>
-                <p class="text-xs text-gray-600">Đầy đủ chứng nhận xuất xứ CO/CQ, bảo hành theo quy chuẩn nhà sản xuất.</p>
+                <h4 class="font-bold text-[15px] text-[#181923] mb-1">{{ $commitmentTitle }}</h4>
+                <p class="text-xs text-gray-600">{{ $commitmentDesc }}</p>
               </div>
             </div>
             <div class="p-4 rounded border border-gray-200 bg-[#fbf9f6] flex items-start space-x-3">
@@ -335,10 +619,20 @@
 .product-description-container table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.25rem 0;
+  margin: 1.5rem 0;
   border: 1px solid #e5e7eb;
-  border-radius: 6px;
+  border-radius: 0px !important;
   overflow: hidden;
+}
+.product-description-container table caption {
+  background-color: #181924;
+  color: #ffffff;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.85rem 1.25rem;
+  text-align: left;
 }
 .product-description-container table th,
 .product-description-container table td {
@@ -355,7 +649,7 @@
   color: #10203C;
   font-weight: 600;
   text-align: left;
-  width: 32%;
+  width: 35%;
 }
 .product-description-container h2, 
 .product-description-container h3 {

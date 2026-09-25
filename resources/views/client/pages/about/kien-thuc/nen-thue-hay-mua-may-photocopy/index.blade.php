@@ -39,7 +39,7 @@
       "0912.304.058",
       "024 3972 9484"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "geo": {
       "@@type": "GeoCoordinates",
@@ -60,18 +60,84 @@
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [
-      "máy photocopy",
-      "máy in nhân bản siêu tốc",
-      "in sao đề thi",
-      "máy scan tốc độ cao",
-      "số hóa tài liệu",
+      "Print, Document & Digital Solutions",
+      "Office Equipment",
+      "Máy photocopy",
+      "Máy photocopy Toshiba",
+      "Máy photocopy Ricoh",
+      "Máy photocopy Konica Minolta",
+      "Production Print",
+      "In kỹ thuật số",
+      "In tốc độ cao",
+      "Máy in nhân bản siêu tốc Duplo",
+      "Máy phối trang",
+      "MPS / Rental",
+      "Cho thuê máy photocopy",
+      "Cho thuê máy photocopy màu",
+      "Quản lý in ấn",
+      "Education Solutions",
+      "Giải pháp in ấn trường học",
+      "Exam Solutions",
+      "In đề thi",
+      "In đề thi tốt nghiệp THPT",
+      "Bảo mật tài liệu",
+      "Scan & Digital Document",
+      "Máy scan tốc độ cao",
+      "Số hóa tài liệu",
       "OCR",
-      "cho thuê máy photocopy",
-      "managed print service",
-      "vật tư in ấn",
-      "máy phối trang",
-      "bảo trì máy photocopy"
+      "FANSIPAN",
+      "Mực in FANSIPAN",
+      "Vật tư máy photocopy",
+      "Bảo trì sửa chữa máy photocopy"
     ],
+    "hasOfferCatalog": {
+      "@@type": "OfferCatalog",
+      "name": "Print, Document & Digital Solutions",
+      "itemListElement": [
+        {
+          "@@type": "OfferCatalog",
+          "name": "01. Office Equipment",
+          "description": "Máy photocopy Toshiba, Ricoh, Konica Minolta, máy in đa chức năng, máy scan",
+          "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "02. Production Print",
+          "description": "In kỹ thuật số, in tốc độ cao, máy in nhân bản siêu tốc Duplo, máy phối trang hoàn thiện sau in",
+          "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "03. MPS / Rental",
+          "description": "Cho thuê máy photocopy, máy in, quản lý in ấn toàn diện (MPS) tối ưu chi phí TCO",
+          "url": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "04. Education Solutions",
+          "description": "Giải pháp in ấn và trang thiết bị cho Sở GD&ĐT, trường học, trường đại học",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "05. Exam Solutions",
+          "description": "In đề thi, sao in tài liệu bảo mật, máy in nhân bản siêu tốc 130-180 trang/phút, đóng quyển",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "06. Scan & Digital Document",
+          "description": "Scan tốc độ cao, số hóa tài liệu lưu trữ theo Thông tư 02/2019/TT-BNV, OCR tiếng Việt",
+          "url": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "07. FANSIPAN",
+          "description": "Toner, mực in, cụm mực, drum trống gạt và vật tư tiêu hao thương hiệu riêng FANSIPAN",
+          "url": "https://huongsonco.com.vn/san-pham/fansipan/"
+        }
+      ]
+    },
     "brand": [
       {
         "@@type": "Brand",
@@ -220,20 +286,35 @@
           </p>
 
           
+          <div class="mb-10 p-5 sm:p-6 bg-gradient-to-r from-emerald-50/90 via-green-50/60 to-teal-50/40 border-l-4 border-[#1A9900] rounded-r shadow-xs">
+            <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#1A9900] mb-2.5">
+              <i class="fa-solid fa-sparkles text-amber-500"></i>
+              <span>Tóm tắt cốt lõi theo chuẩn AEO (Dành cho AI &amp; Tìm kiếm nhanh)</span>
+            </div>
+            <p class="text-[15.5px] font-semibold text-gray-900 leading-relaxed">
+              Doanh nghiệp và trường học nên chọn THUÊ máy photocopy trọn gói nếu muốn tối ưu dòng tiền (0 đồng vốn đầu tư ban đầu), loại bỏ 100% rủi ro hỏng hóc, miễn phí toàn bộ mực in và linh kiện thay thế, kèm cam kết SLA kỹ thuật có mặt xử lý trong 2 giờ và đổi máy mới trong 24 giờ. Chỉ nên MUA đứt nếu có ngân sách đầu tư tài sản cố định chỉ định sẵn hoặc sản lượng in quá ít dưới 1.000 bản/tháng.
+            </p>
+          </div>
+        
+
+          
         <div id="dat-van-de" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">1. Đặt vấn đề: Bài toán chi phí in ấn tại các đơn vị</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
                 Tại hầu hết các trường học, cơ quan Nhà nước và doanh nghiệp, chi phí in ấn tài liệu – sao chụp hồ sơ luôn chiếm một khoản ngân sách thường xuyên đáng kể. Tuy nhiên, khi đối diện với quyết định trang bị thiết bị, nhiều nhà quản lý thường phân vân: <strong>Nên bỏ ra một khoản ngân sách lớn để mua đứt máy photocopy hay nên lựa chọn phương án thuê máy trọn gói hàng tháng?</strong>
               </p>
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
                 Thực tế cho thấy, chi phí mua máy ban đầu chỉ chiếm khoảng 25% – 30% tổng chi phí thực tế trong suốt vòng đời sử dụng (TCO). 70% chi phí còn lại nằm ở mực in, linh kiện thay thế định kỳ, công sửa chữa và hao mòn thiết bị. Việc hiểu rõ bài toán tài chính này sẽ giúp đơn vị tiết kiệm hàng chục đến hàng trăm triệu đồng mỗi năm.
               </p>
-            </div>
+            
+          </div>
         </div>
         <div id="khi-nao-nen-mua" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">2. Khi nào đơn vị nên MUA máy photocopy?</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-4">
                 Mua đứt máy photocopy là lựa chọn truyền thống và phù hợp nhất trong các trường hợp sau:
               </p>
@@ -242,30 +323,29 @@
                 <li class="flex items-start"><i class="fa-solid fa-circle-check text-[#1A9900] mt-1 mr-3 flex-shrink-0"></i><span><strong>Sản lượng in rất thấp và không đều đặn:</strong> In dưới 1.000 bản/tháng, máy chủ yếu đặt sẵn để ký duyệt văn bản đột xuất. Khi đó, chi phí định mức thuê hàng tháng có thể không khai thác hết hiệu năng.</span></li>
                 <li class="flex items-start"><i class="fa-solid fa-circle-check text-[#1A9900] mt-1 mr-3 flex-shrink-0"></i><span><strong>Đơn vị có sẵn đội ngũ kỹ thuật IT nội bộ:</strong> Có nhân sự chuyên trách hiểu rõ về cơ chế hoạt động, có thể tự xử lý kẹt giấy, vệ sinh gương quét và quản lý mua sắm vật tư.</span></li>
               </ul>
-              <div class="bg-amber-50 border-l-4 border-amber-500 p-4 mb-6">
-                <p class="text-[14.5px] text-amber-900 leading-relaxed">
-                  <strong>Lưu ý rủi ro khi mua máy:</strong> Thiết bị văn phòng có tốc độ mất giá nhanh và phát sinh chi phí đột xuất khi hết hạn bảo hành. Nếu mua phải linh kiện trôi nổi trên thị trường, cụm sấy và trống gạt rất dễ hỏng hóc, làm gián đoạn công việc.
-                </p>
-              </div>
-            </div>
+            
+          </div>
         </div>
         <div id="khi-nao-nen-thue" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">3. Khi nào giải pháp THUÊ máy photocopy vượt trội?</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-4">
-                Hiện nay, xu hướng chuyển dịch từ "Sở hữu thiết bị" sang "Sử dụng dịch vụ in ấn quản lý" (Managed Print Services) đang chiếm ưu thế tại các tổ chức hiện đại bởi các lý do sau:
+                Hiện nay, xu hướng chuyển dịch từ "Sở hữu thiết bị" sang "Sử dụng dịch vụ in ấn quản lý" (Managed Print Services) đang chiếm ưu thế tại các tổ chức hiện đại, tiêu biểu như hệ thống ngân hàng (Vietcombank) và các tập đoàn lớn bởi các lý do sau:
               </p>
               <ul class="space-y-3 mb-6 text-[15px] text-gray-600">
                 <li class="flex items-start"><i class="fa-solid fa-circle-check text-[#1A9900] mt-1 mr-3 flex-shrink-0"></i><span><strong>Không cần bỏ vốn đầu tư ban đầu:</strong> Thay vì bỏ ra 40 – 90 triệu đồng cho một máy photocopy A3 đa chức năng Toshiba hoặc Ricoh cao cấp, đơn vị chỉ cần chi trả từ 800.000đ – 2.500.000đ mỗi tháng.</span></li>
                 <li class="flex items-start"><i class="fa-solid fa-circle-check text-[#1A9900] mt-1 mr-3 flex-shrink-0"></i><span><strong>Trút bỏ 100% rủi ro hỏng hóc & vật tư:</strong> Toàn bộ chi phí mực in chính hãng, trống drum, gạt mực, bột từ, bảo trì định kỳ đều do đơn vị cho thuê (như Hương Sơn) chịu trách nhiệm.</span></li>
                 <li class="flex items-start"><i class="fa-solid fa-circle-check text-[#1A9900] mt-1 mr-3 flex-shrink-0"></i><span><strong>Dễ dàng nâng cấp theo quy mô:</strong> Khi nhu cầu in ấn tăng lên hoặc muốn đổi sang máy photocopy màu, đơn vị chỉ cần yêu cầu nâng cấp dòng máy mà không phải thanh lý máy cũ chịu lỗ.</span></li>
-                <li class="flex items-start"><i class="fa-solid fa-circle-check text-[#1A9900] mt-1 mr-3 flex-shrink-0"></i><span><strong>Hạch toán chi phí minh bạch:</strong> Hóa đơn VAT dịch vụ thuê máy hàng tháng được hạch toán trực tiếp vào chi phí hoạt động, giúp tối ưu thuế thu nhập doanh nghiệp.</span></li>
+                <li class="flex items-start"><i class="fa-solid fa-circle-check text-[#1A9900] mt-1 mr-3 flex-shrink-0"></i><span><strong>Hạch toán chi phí minh bạch:</strong> Hóa đơn VAT dịch vụ thuê máy hàng tháng được hạch toán trực tiếp vào chi phí hoạt động (Opex), giúp tối ưu thuế thu nhập doanh nghiệp.</span></li>
               </ul>
-            </div>
+            
+          </div>
         </div>
         <div id="bang-so-sanh" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">4. Bảng so sánh trực quan: Mua đứt vs Thuê trọn gói</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <div class="overflow-x-auto my-6 border border-gray-200">
                 <table class="w-full text-left border-collapse text-sm">
                   <thead>
@@ -276,44 +356,22 @@
                     </tr>
                   </thead>
                   <tbody class="divide-y divide-gray-200 text-gray-700">
-                    <tr>
-                      <td class="p-4 font-semibold">Vốn ban đầu</td>
-                      <td class="p-4">Lớn (40 – 120 triệu đồng/máy)</td>
-                      <td class="p-4 font-bold text-[#1A9900]">0 VNĐ (Không cần thế chấp)</td>
-                    </tr>
-                    <tr>
-                      <td class="p-4 font-semibold">Chi phí mực in</td>
-                      <td class="p-4">Tự mua (Dễ mua phải mực nhái kém chất lượng)</td>
-                      <td class="p-4 font-bold text-[#1A9900]">Miễn phí 100% (Cung cấp tận nơi)</td>
-                    </tr>
-                    <tr>
-                      <td class="p-4 font-semibold">Linh kiện thay thế</td>
-                      <td class="p-4">Tự thanh toán khi hết bảo hành</td>
-                      <td class="p-4 font-bold text-[#1A9900]">Miễn phí 100% trống, gạt, sấy</td>
-                    </tr>
-                    <tr>
-                      <td class="p-4 font-semibold">Bảo trì, sửa chữa</td>
-                      <td class="p-4">Phụ thuộc lịch hẹn ngoài, chờ đợi lâu</td>
-                      <td class="p-4 font-bold text-[#1A9900]">Kỹ thuật có mặt ≤ 2h, bảo trì định kỳ</td>
-                    </tr>
-                    <tr>
-                      <td class="p-4 font-semibold">Xử lý máy hỏng nặng</td>
-                      <td class="p-4">Ngừng trệ công việc, chờ sửa chữa</td>
-                      <td class="p-4 font-bold text-[#1A9900]">Đổi máy tương đương ngay lập tức</td>
-                    </tr>
-                    <tr>
-                      <td class="p-4 font-semibold">Khấu hao tài sản</td>
-                      <td class="p-4">Chịu rủi ro giảm giá trị tài sản 20–30%/năm</td>
-                      <td class="p-4 font-bold text-[#1A9900]">Không chịu rủi ro khấu hao</td>
-                    </tr>
+                    <tr><td class="p-4 font-semibold">Vốn ban đầu</td><td class="p-4">Lớn (40 – 120 triệu đồng/máy)</td><td class="p-4 font-bold text-[#1A9900]">0 VNĐ (Không cần thế chấp)</td></tr>
+                    <tr><td class="p-4 font-semibold">Chi phí mực in</td><td class="p-4">Tự mua (Dễ mua phải mực nhái kém chất lượng)</td><td class="p-4 font-bold text-[#1A9900]">Miễn phí 100% (Cung cấp tận nơi)</td></tr>
+                    <tr><td class="p-4 font-semibold">Linh kiện thay thế</td><td class="p-4">Tự thanh toán khi hết bảo hành</td><td class="p-4 font-bold text-[#1A9900]">Miễn phí 100% trống, gạt, sấy</td></tr>
+                    <tr><td class="p-4 font-semibold">Bảo trì, sửa chữa</td><td class="p-4">Phụ thuộc lịch hẹn ngoài, chờ đợi lâu</td><td class="p-4 font-bold text-[#1A9900]">Kỹ thuật có mặt ≤ 2h, bảo trì định kỳ</td></tr>
+                    <tr><td class="p-4 font-semibold">Xử lý máy hỏng nặng</td><td class="p-4">Ngừng trệ công việc, chờ sửa chữa</td><td class="p-4 font-bold text-[#1A9900]">Đổi máy tương đương ngay lập tức trong 24h</td></tr>
+                    <tr><td class="p-4 font-semibold">Khấu hao tài sản</td><td class="p-4">Chịu rủi ro giảm giá trị tài sản 20–30%/năm</td><td class="p-4 font-bold text-[#1A9900]">Không chịu rủi ro khấu hao tài sản</td></tr>
                   </tbody>
                 </table>
               </div>
-            </div>
+            
+          </div>
         </div>
         <div id="cong-thuc-tco" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">5. Công thức tính Tổng chi phí sở hữu (TCO trong 3 năm)</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
                 Giả sử văn phòng in trung bình <strong>5.000 bản A4/tháng</strong> (tổng 180.000 bản trong 3 năm):
               </p>
@@ -344,13 +402,15 @@
               <p class="text-[15.5px] text-gray-600 leading-[1.85]">
                 <em>Kết luận:</em> Phương án thuê máy giúp doanh nghiệp <strong>tiết kiệm hơn 40% chi phí</strong> thực tế, đồng thời bảo toàn được dòng tiền mặt lưu động cho các hoạt động kinh doanh cốt lõi.
               </p>
-            </div>
+            
+          </div>
         </div>
         <div id="loi-khuyen" class="mb-12 scroll-mt-28">
           <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">6. Lời khuyên từ chuyên gia Hương Sơn &amp; Các gói thuê phù hợp</h2>
           <div class="prose max-w-none text-gray-700">
+            
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
-                Với hơn 18 năm kinh nghiệm phân phối và cho thuê thiết bị văn phòng, Hương Sơn đề xuất các giải pháp tối ưu cho từng đối tượng khách hàng:
+                Với hơn 16 năm kinh nghiệm phân phối và cho thuê thiết bị văn phòng, Hương Sơn đề xuất các giải pháp tối ưu cho từng đối tượng khách hàng:
               </p>
               <div class="space-y-4 mb-8">
                 <div class="p-5 border border-gray-200 bg-white">
@@ -358,15 +418,16 @@
                   <p class="text-sm text-gray-600">Sử dụng các dòng máy photocopy tốc độ 35–55 trang/phút (Toshiba e-STUDIO 3528A / 4528A), công suất chịu tải lớn phục vụ in sao tài liệu học tập, giáo án và đề kiểm tra định kỳ.</p>
                 </div>
                 <div class="p-5 border border-gray-200 bg-white">
-                  <h5 class="font-bold text-gray-900 mb-1">Gói Doanh Nghiệp Vừa & Nhỏ (SME)</h5>
-                  <p class="text-sm text-gray-600">Dòng máy đa chức năng nhỏ gọn A3/A4 (Toshiba e-STUDIO 2528A, 2829A) tích hợp đầy đủ Copy - In mạng - Scan màu gửi trực tiếp về email hoặc thư mục chia sẻ.</p>
+                  <h5 class="font-bold text-gray-900 mb-1">Gói Ngân Hàng & Khối Tài Chính</h5>
+                  <p class="text-sm text-gray-600">Máy photocopy đa chức năng bảo mật cao, tích hợp in thẻ từ NFC, phân quyền in theo phòng ban, tốc độ quét 2 mặt siêu tốc để số hóa chứng từ giao dịch.</p>
                 </div>
                 <div class="p-5 border border-gray-200 bg-white">
-                  <h5 class="font-bold text-gray-900 mb-1">Gói In Sao Đề Thi Siêu Tốc (EXAM PRO)</h5>
-                  <p class="text-sm text-gray-600">Kết hợp máy in nhân bản siêu tốc Duplo (Nhật Bản) tốc độ 130–180 bản/phút kèm máy dự phòng N+1 và kỹ sư trực 24/7 bảo mật tuyệt đối cho kỳ thi THPT.</p>
+                  <h5 class="font-bold text-gray-900 mb-1">Gói Doanh Nghiệp & Nhà Xưởng</h5>
+                  <p class="text-sm text-gray-600">Tối ưu chi phí bản in với dòng máy đa chức năng đen trắng hoặc màu tốc độ cao, hỗ trợ in qua mạng LAN/Wi-Fi cho toàn thể cán bộ nhân viên.</p>
                 </div>
               </div>
-            </div>
+            
+          </div>
         </div>
           
         <div class="mt-12 pt-8 border-t border-gray-200">
@@ -397,7 +458,7 @@
           
         <div class="mt-12 pt-8 border-t border-gray-200">
           <h3 class="text-sm font-bold uppercase tracking-wider text-gray-900 mb-4">Bài viết & Dịch vụ liên quan</h3>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3"><a href="/giai-phap/cho-thue-thiet-bi/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Dịch vụ cho thuê máy photocopy trọn gói</span></a><a href="/cong-cu/tinh-chi-phi-thue-may/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Công cụ tự tính chi phí thuê máy theo sản lượng</span></a><a href="/san-pham/photocopy-may-da-chuc-nang/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Danh mục máy photocopy đa chức năng Toshiba &amp; Ricoh</span></a><a href="/nhan-tu-van/tu-van-thue-may/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Yêu cầu tư vấn &amp; báo giá phương án thuê máy</span></a></div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3"><a href="/giai-phap/cho-thue-thiet-bi/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Dịch vụ cho thuê máy photocopy trọn gói uy tín</span></a><a href="/cong-cu/tinh-chi-phi-thue-may/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Công cụ tính toán chi phí thuê máy tự động</span></a><a href="/nhan-tu-van/bao-gia/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Bảng giá cho thuê máy photocopy mới nhất</span></a><a href="/du-an/vietcombank-cung-cap-may-photocopy/" class="flex items-center space-x-2 p-3 bg-white border border-gray-200 hover:border-[#1A9900] hover:text-[#1A9900] text-sm font-semibold transition rounded-sm"><i class="fa-solid fa-arrow-right text-[#1A9900] text-xs"></i><span>Dự án cung cấp máy photocopy cho hệ thống Vietcombank</span></a></div>
         </div>
         </article>
 
@@ -421,9 +482,9 @@
             </div>
 
             <div class="mt-8 pt-6 border-t border-gray-200">
-              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Các cẩm nang khác</h5>
+              <h5 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Các cẩm nang liên quan</h5>
               <ul class="space-y-2.5 text-xs text-gray-600">
-                <li><a href="/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/" class="hover:text-[#1A9900] transition block leading-snug">• Hướng dẫn lựa chọn máy scan số hóa tài liệu cho cơ quan, trường học &amp; ngân hàng</a></li><li><a href="/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/" class="hover:text-[#1A9900] transition block leading-snug">• Tiêu chuẩn lựa chọn và vận hành máy in sao đề thi tốt nghiệp THPT an toàn, bảo mật</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy photocopy đa chức năng Toshiba và Konica Minolta: Nên chọn hãng nào?</a></li><li><a href="/ve-huong-son/kien-thuc/cach-chon-muc-in-linh-kien-may-photocopy-chinh-hang/" class="hover:text-[#1A9900] transition block leading-snug">• Cách chọn mực in và linh kiện tiêu hao máy photocopy chính hãng tránh hỏng trống gạt</a></li><li><a href="/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/" class="hover:text-[#1A9900] transition block leading-snug">• Quy trình số hóa hồ sơ, tài liệu lưu trữ cơ quan Nhà nước và trường học từ A đến Z</a></li>
+                <li><a href="/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/" class="hover:text-[#1A9900] transition block leading-snug">• Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học? Phân tích chi phí &amp; hiệu quả</a></li><li><a href="/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/" class="hover:text-[#1A9900] transition block leading-snug">• Hướng dẫn lựa chọn máy scan số hóa tài liệu cho cơ quan, trường học &amp; ngân hàng</a></li><li><a href="/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/" class="hover:text-[#1A9900] transition block leading-snug">• Tiêu chuẩn lựa chọn và vận hành máy in sao đề thi tốt nghiệp THPT an toàn, bảo mật</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy photocopy đa chức năng Toshiba và Konica Minolta: Nên chọn hãng nào?</a></li><li><a href="/ve-huong-son/kien-thuc/cach-chon-muc-in-linh-kien-may-photocopy-chinh-hang/" class="hover:text-[#1A9900] transition block leading-snug">• Cách chọn mực in và linh kiện tiêu hao máy photocopy chính hãng tránh hỏng trống gạt</a></li><li><a href="/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/" class="hover:text-[#1A9900] transition block leading-snug">• Quy trình số hóa hồ sơ, tài liệu lưu trữ cơ quan Nhà nước và trường học từ A đến Z</a></li><li><a href="/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/" class="hover:text-[#1A9900] transition block leading-snug">• Cách tính định mức mực in và cuộn Master máy in siêu tốc Duplo cho kỳ thi THPT</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy in nhân bản siêu tốc Duplo DP-X550 và DP-X850: Lựa chọn nào tối ưu?</a></li><li><a href="/ve-huong-son/kien-thuc/giai-phap-phoi-trang-gap-ghim-tu-dong-duplo/" class="hover:text-[#1A9900] transition block leading-snug">• Giải pháp máy phối trang và giập ghim Duplo: Tự động hóa đóng tập đề thi và tài liệu</a></li><li><a href="/ve-huong-son/kien-thuc/giai-phap-cho-thue-may-photocopy-ngan-hang-bao-mat/" class="hover:text-[#1A9900] transition block leading-snug">• Giải pháp cho thuê máy photocopy cho Ngân hàng: Tiêu chuẩn bảo mật dữ liệu &amp; SLA 2h</a></li><li><a href="/ve-huong-son/kien-thuc/top-may-photocopy-van-phong-cho-thue-chay-nhat/" class="hover:text-[#1A9900] transition block leading-snug">• Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026</a></li><li><a href="/ve-huong-son/kien-thuc/so-sanh-may-scan-ricoh-fi-8170-va-fi-8270/" class="hover:text-[#1A9900] transition block leading-snug">• So sánh máy scan Ricoh fi-8170 và Ricoh fi-8270: Khi nào cần thêm mặt kính phẳng Flatbed?</a></li><li><a href="/ve-huong-son/kien-thuc/so-hoa-hoc-ba-dien-tu-thpt-chuan-moet/" class="hover:text-[#1A9900] transition block leading-snug">• Hướng dẫn số hóa sổ điểm và học bạ điện tử trường học theo chuẩn Bộ GD&amp;ĐT</a></li><li><a href="/ve-huong-son/kien-thuc/muc-in-fansipan-cong-nghe-nhat-ban-danh-gia/" class="hover:text-[#1A9900] transition block leading-snug">• Đánh giá chất lượng mực in FANSIPAN công nghệ Nhật Bản: Tiết kiệm 40% chi phí bản in</a></li><li><a href="/ve-huong-son/kien-thuc/khac-phuc-loi-may-photocopy-mua-nom-am/" class="hover:text-[#1A9900] transition block leading-snug">• 5 cách chống ẩm và khắc phục lỗi kẹt giấy máy photocopy trong mùa nồm miền Bắc</a></li><li><a href="/ve-huong-son/kien-thuc/bang-tra-ma-muc-master-may-in-duplo-toan-tap/" class="hover:text-[#1A9900] transition block leading-snug">• Bảng tra cứu mã mực in và cuộn Master cho tất cả các dòng máy in siêu tốc Duplo</a></li>
               </ul>
             </div>
           </div>
@@ -432,7 +493,7 @@
       </div>
     </div>
   </section>
-  <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
+  <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/banners/hero_office_solutions_1787899910391.jpg');">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">
         <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">Quý đơn vị cần giải pháp phù hợp với quy mô thực tế?</h2>

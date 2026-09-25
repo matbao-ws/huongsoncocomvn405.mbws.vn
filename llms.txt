@@ -1,47 +1,58 @@
 # CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN
-# HƯƠNG SƠN = PRINT, DOCUMENT & DIGITAL SOLUTIONS
 
-> Giải pháp thiết bị, in ấn, số hóa và dịch vụ cho Cơ quan Nhà nước – Giáo dục – Ngân hàng – Doanh nghiệp. Thành lập 01/06/2008, văn phòng tại Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội.
+> Giải pháp thiết bị, in ấn, số hóa và dịch vụ cho Cơ quan Nhà nước – Giáo dục – Ngân hàng – Doanh nghiệp. Thành lập 01/06/2008, trụ sở tại Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội.
 > Mã số thuế 0102759269. Website: https://huongsonco.com.vn/
 
-## Hương Sơn làm gì (7 Nhóm Năng Lực Cốt Lõi)
+## Hương Sơn làm gì
 
-Hương Sơn cung cấp thiết bị, vật tư và giải pháp cho toàn bộ vòng đời tài liệu của một tổ chức:
-PRINT → COPY → SCAN → DIGITAL → RENT → SERVICE.
+Hương Sơn cung cấp thiết bị, vật tư và giải pháp cho toàn bộ vòng đời tài liệu của
+một tổ chức: PRINT → COPY → SCAN → DIGITAL → RENTAL → SERVICE.
 
-01. Office Equipment: Máy photocopy (Toshiba, Ricoh, Konica Minolta), máy in đa chức năng A3/A4, máy in laser, máy scan.
-02. Production Print: In kỹ thuật số, in tốc độ cao, máy in nhân bản siêu tốc (Duplo, Riso), máy phối trang và thiết bị hoàn thiện sau in.
-03. MPS / Rental: Dịch vụ cho thuê máy photocopy, máy in, quản lý in ấn toàn diện (MPS), kiểm soát chi phí TCO và bảo trì định kỳ.
-04. Education Solutions: Giải pháp in ấn cho Sở GD&ĐT, trường học, trường đại học – cao đẳng, trang thiết bị phòng học thông minh.
-05. Exam Solutions: Giải pháp in sao đề thi tốt nghiệp THPT, in tài liệu bảo mật, tốc độ cao 130–180 trang/phút, đóng quyển và phương án dự phòng N+1.
-06. Scan & Digital Document: Máy scan tốc độ cao Ricoh/Fujitsu, giải pháp số hóa hồ sơ lưu trữ theo chuẩn Thông tư 02/2019/TT-BNV, nhận dạng ký tự quang học OCR tiếng Việt.
-07. FANSIPAN: Toner, mực in, cụm sấy, trống gạt drum và vật tư tiêu hao thương hiệu độc quyền FANSIPAN tối ưu chi phí cho máy photocopy và máy in siêu tốc.
+Sáu nhóm năng lực:
+
+1. Office Equipment — máy photocopy, máy in đa chức năng A3/A4, máy in laser, thiết bị văn phòng.
+2. Production Print — máy in nhân bản siêu tốc (Duplo, Riso), máy phối trang và thiết bị hoàn thiện sau in.
+3. Scan & Digital Document — máy scan tốc độ cao, OCR, chuẩn hóa dữ liệu, số hóa hồ sơ.
+4. Managed Print & Rental — cho thuê thiết bị, quản lý fleet, vật tư, bảo trì, SLA, báo cáo sản lượng.
+5. Consumables & FANSIPAN — mực, cụm mực, drum, linh kiện, vật tư tiêu hao (nhãn riêng FANSIPAN).
+6. Digital Business — website, CRM và AI phục vụ tư vấn và chăm sóc khách hàng.
 
 ## Khách hàng phục vụ
 
-Sở Giáo dục và Đào tạo, trường THPT/THCS, trường đại học – cao đẳng, cơ quan Nhà nước, ngân hàng – tài chính, tập đoàn – tổng công ty và doanh nghiệp.
+Sở Giáo dục và Đào tạo, trường THPT/THCS, trường đại học – cao đẳng, cơ quan Nhà nước,
+ngân hàng – tài chính, tập đoàn – tổng công ty và doanh nghiệp.
 
-Chuyên môn sâu nhất: in sao đề thi và vận hành điểm in cho kỳ thi (thuê máy in nhân bản siêu tốc, vật tư Master/mực, kỹ thuật trực 24/7 và máy dự phòng).
+Chuyên môn sâu nhất: in sao đề thi và vận hành điểm in cho kỳ thi (thuê máy in nhân bản
+siêu tốc, vật tư Master/mực, kỹ thuật trực và phương án máy dự phòng).
 
-## Cấu trúc Trang chính (PAGES)
+## Trang chính
 
-- Trang chủ: https://huongsonco.com.vn/
-- 01. Office Equipment: https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/
-- 02. Production Print: https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/
-- 03. MPS / Rental: https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/
-- 04. Education Solutions: https://huongsonco.com.vn/giai-phap/giao-duc/
-- 05. Exam Solutions: https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/
-- 06. Scan & Digital Document: https://huongsonco.com.vn/giai-phap/scan-so-hoa/
-- 07. FANSIPAN: https://huongsonco.com.vn/san-pham/fansipan/
-- Dịch vụ kỹ thuật & bảo trì: https://huongsonco.com.vn/dich-vu/
-- Cẩm nang & Kiến thức chuyên sâu: https://huongsonco.com.vn/ve-huong-son/kien-thuc/
-- Dự án tiêu biểu: https://huongsonco.com.vn/du-an/
-- Báo giá & Tư vấn: https://huongsonco.com.vn/nhan-tu-van/
+- Sản phẩm: https://huongsonco.com.vn/san-pham/
+- Giải pháp: https://huongsonco.com.vn/giai-phap/
+- Giải pháp Giáo dục: https://huongsonco.com.vn/giai-phap/giao-duc/
+- Cho thuê máy in đề thi: https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/
+- Scan – Số hóa tài liệu: https://huongsonco.com.vn/giai-phap/scan-so-hoa/
+- Cho thuê thiết bị: https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/
+- Dịch vụ: https://huongsonco.com.vn/dich-vu/
+- Dự án – Case study: https://huongsonco.com.vn/du-an/
+- Về Hương Sơn: https://huongsonco.com.vn/ve-huong-son/
+- Cẩm nang kiến thức chuyên sâu (Knowledge Hub): https://huongsonco.com.vn/ve-huong-son/kien-thuc/
+- Nhận tư vấn: https://huongsonco.com.vn/nhan-tu-van/
+
+## Cẩm nang kiến thức & Giải pháp chuyên sâu (Knowledge Hub)
+
+- Trung tâm kiến thức: https://huongsonco.com.vn/ve-huong-son/kien-thuc/
+- So sánh Mua vs Thuê máy photocopy (TCO 3 năm): https://huongsonco.com.vn/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/
+- Hướng dẫn chọn máy scan số hóa tài liệu: https://huongsonco.com.vn/ve-huong-son/kien-thuc/huong-dan-chon-may-scan-so-hoa-tai-lieu/
+- Tiêu chuẩn máy in sao đề thi THPT cách ly 3 vòng: https://huongsonco.com.vn/ve-huong-son/kien-thuc/tieu-chuan-may-in-de-thi-thpt/
+- Công thức định mức mực in & cuộn Master Duplo: https://huongsonco.com.vn/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/
+- Quy trình số hóa tài liệu lưu trữ Thông tư 02/2019/TT-BNV: https://huongsonco.com.vn/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/
+- So sánh máy in siêu tốc Duplo DP-X550 vs DP-X850: https://huongsonco.com.vn/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/
+- So sánh máy photocopy Toshiba e-STUDIO vs Konica Minolta bizhub: https://huongsonco.com.vn/ve-huong-son/kien-thuc/so-sanh-may-photocopy-toshiba-va-konica-minolta/
+- Đánh giá mực in FANSIPAN công nghệ Nhật Bản: https://huongsonco.com.vn/ve-huong-son/kien-thuc/muc-in-fansipan-cong-nghe-nhat-ban-danh-gia/
 
 ## Liên hệ
 
-- Hotline công ty: 091.113.8583
-- Kỹ thuật: 0912.304.058
-- Zalo: https://zalo.me/0913237302
+- Hotline: 091.113.8583 (Hotline công ty) · 0912.304.058 (Kỹ thuật) · 024 3972 9484 (Văn phòng)
 - Email: info@huongsonco.com.vn
-- Địa chỉ: Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội
+- Giờ làm việc: T2 – T6: sáng 8h00–11h30, chiều 13h30–17h00

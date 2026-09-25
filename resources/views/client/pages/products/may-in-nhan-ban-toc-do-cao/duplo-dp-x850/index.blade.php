@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
 @section('title', "Máy In Nhân Bản Siêu Tốc DUPLO DP-X850 Chính Hãng | Thông Số & Báo Giá | Hương Sơn")
-@section('meta_description', "Dòng máy in nhân bản khổ A3 đỉnh cao nhất của Duplo, tốc độ lên đến 200 bản/phút, độ nét 600x600 dpi chân thực. Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành.")
+@section('meta_description', "Dòng máy in nhân bản khổ A3 đỉnh cao nhất của Duplo, tốc độ lên đến 200 bản/phút, độ nét 600x600 dpi chân thực. Cung cấp bởi Hương Sơn, cam kết chất lượng tiêu chuẩn, bảo hành và hỗ trợ kỹ thuật tận nơi.")
 @section('canonical', "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/duplo-dp-x850/")
 @section('jsonld')
 <script type="application/ld+json">
@@ -39,7 +39,7 @@
       "0912.304.058",
       "024 3972 9484"
     ],
-    "email": "info@huongsonco.com.vn",
+    "email": "info@@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "geo": {
       "@@type": "GeoCoordinates",
@@ -60,18 +60,84 @@
       "https://www.messenger.com/t/thuan.nguyencong.330"
     ],
     "knowsAbout": [
-      "máy photocopy",
-      "máy in nhân bản siêu tốc",
-      "in sao đề thi",
-      "máy scan tốc độ cao",
-      "số hóa tài liệu",
+      "Print, Document & Digital Solutions",
+      "Office Equipment",
+      "Máy photocopy",
+      "Máy photocopy Toshiba",
+      "Máy photocopy Ricoh",
+      "Máy photocopy Konica Minolta",
+      "Production Print",
+      "In kỹ thuật số",
+      "In tốc độ cao",
+      "Máy in nhân bản siêu tốc Duplo",
+      "Máy phối trang",
+      "MPS / Rental",
+      "Cho thuê máy photocopy",
+      "Cho thuê máy photocopy màu",
+      "Quản lý in ấn",
+      "Education Solutions",
+      "Giải pháp in ấn trường học",
+      "Exam Solutions",
+      "In đề thi",
+      "In đề thi tốt nghiệp THPT",
+      "Bảo mật tài liệu",
+      "Scan & Digital Document",
+      "Máy scan tốc độ cao",
+      "Số hóa tài liệu",
       "OCR",
-      "cho thuê máy photocopy",
-      "managed print service",
-      "vật tư in ấn",
-      "máy phối trang",
-      "bảo trì máy photocopy"
+      "FANSIPAN",
+      "Mực in FANSIPAN",
+      "Vật tư máy photocopy",
+      "Bảo trì sửa chữa máy photocopy"
     ],
+    "hasOfferCatalog": {
+      "@@type": "OfferCatalog",
+      "name": "Print, Document & Digital Solutions",
+      "itemListElement": [
+        {
+          "@@type": "OfferCatalog",
+          "name": "01. Office Equipment",
+          "description": "Máy photocopy Toshiba, Ricoh, Konica Minolta, máy in đa chức năng, máy scan",
+          "url": "https://huongsonco.com.vn/san-pham/photocopy-may-da-chuc-nang/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "02. Production Print",
+          "description": "In kỹ thuật số, in tốc độ cao, máy in nhân bản siêu tốc Duplo, máy phối trang hoàn thiện sau in",
+          "url": "https://huongsonco.com.vn/san-pham/may-in-nhan-ban-toc-do-cao/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "03. MPS / Rental",
+          "description": "Cho thuê máy photocopy, máy in, quản lý in ấn toàn diện (MPS) tối ưu chi phí TCO",
+          "url": "https://huongsonco.com.vn/giai-phap/cho-thue-thiet-bi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "04. Education Solutions",
+          "description": "Giải pháp in ấn và trang thiết bị cho Sở GD&ĐT, trường học, trường đại học",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "05. Exam Solutions",
+          "description": "In đề thi, sao in tài liệu bảo mật, máy in nhân bản siêu tốc 130-180 trang/phút, đóng quyển",
+          "url": "https://huongsonco.com.vn/giai-phap/giao-duc/in-de-thi/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "06. Scan & Digital Document",
+          "description": "Scan tốc độ cao, số hóa tài liệu lưu trữ theo Thông tư 02/2019/TT-BNV, OCR tiếng Việt",
+          "url": "https://huongsonco.com.vn/giai-phap/scan-so-hoa/"
+        },
+        {
+          "@@type": "OfferCatalog",
+          "name": "07. FANSIPAN",
+          "description": "Toner, mực in, cụm mực, drum trống gạt và vật tư tiêu hao thương hiệu riêng FANSIPAN",
+          "url": "https://huongsonco.com.vn/san-pham/fansipan/"
+        }
+      ]
+    },
     "brand": [
       {
         "@@type": "Brand",
@@ -153,32 +219,97 @@
       {
         "@@type": "PropertyValue",
         "name": "Tốc độ in tối đa",
-        "value": "200 trang/phút (Cao nhất phân khúc)"
-      },
-      {
-        "@@type": "PropertyValue",
-        "name": "Khổ giấy tối đa",
-        "value": "A3 (297 x 420 mm)"
+        "value": "200 trang/phút (Tốc độ in cao nhất phân khúc toàn cầu)"
       },
       {
         "@@type": "PropertyValue",
         "name": "Độ phân giải",
-        "value": "600 x 600 dpi"
+        "value": "600 x 600 dpi HD Master Maker"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Khổ bản gốc tối đa",
+        "value": "Mặt kính A3 phẳng (297 x 432 mm) + Tùy chọn khay nạp tự động ADF 100 tờ"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Khổ giấy in hỗ trợ",
+        "value": "Tối đa 297 x 432 mm (A3), Tối thiểu 100 x 148 mm"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Định lượng giấy in",
+        "value": "45 g/m² – 250 g/m² (Hỗ trợ từ giấy mỏng đề thi đến bìa dày, thiệp mời)"
       },
       {
         "@@type": "PropertyValue",
         "name": "Công nghệ chế bản",
-        "value": "Chế bản nhiệt kỹ thuật số (Thermal Digital)"
+        "value": "Chế bản nhiệt kỹ thuật số công suất công nghiệp (Industrial Thermal Master Maker)"
       },
       {
         "@@type": "PropertyValue",
-        "name": "Khay nạp và nhận giấy",
-        "value": "Sức chứa 1.500 tờ"
+        "name": "Thời gian tạo bản Master",
+        "value": "Khoảng 18 giây (khổ A4) / 19 giây (khổ A3)"
       },
       {
         "@@type": "PropertyValue",
-        "name": "Màn hình hiển thị",
-        "value": "Cảm ứng LCD màu lớn thông minh"
+        "name": "Thời gian in bản đầu tiên",
+        "value": "Khoảng 21 giây (khổ A4)"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Sức chứa khay nạp giấy",
+        "value": "1.500 tờ (định lượng 64 g/m²) / Chiều cao xấp giấy 150 mm"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Sức chứa khay nhận giấy",
+        "value": "1.500 tờ (định lượng 64 g/m²) / Chiều cao xấp giấy 150 mm"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Thu phóng hình ảnh (Zoom)",
+        "value": "50% – 200% (bước nhảy 1%), 7 mức cài sẵn tiêu chuẩn"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Màn hình bảng điều khiển",
+        "value": "Cảm ứng LCD màu lớn thông minh, hiển thị tiến độ và định mức vật tư"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Chế độ in màu rời",
+        "value": "Hỗ trợ đổi hộp trống màu (Spare Color Drum) đỏ, xanh, vàng chỉ trong 10 giây"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Dung lượng cuộn Master",
+        "value": "Cuộn Master DR-X85 HD (khoảng 220 bản A3)"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Dung lượng hộp mực",
+        "value": "Hộp mực Duplo HD Black / Color Ink 1.000 ml"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Kết nối & Giao tiếp",
+        "value": "USB 2.0, Gigabit Ethernet 10/100/1000 Base-T, in trực tiếp từ máy tính"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Kích thước & Trọng lượng",
+        "value": "1.405 x 688 x 1.080 mm | Trọng lượng: 108 kg"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Xuất xứ & Chứng nhận",
+        "value": "Chính hãng Duplo (Nhật Bản), đầy đủ chứng nhận CO/CQ"
+      },
+      {
+        "@@type": "PropertyValue",
+        "name": "Bảo hành & Hỗ trợ",
+        "value": "12 – 24 tháng chính hãng, bảo dưỡng định kỳ miễn phí"
       },
       {
         "@@type": "PropertyValue",
@@ -240,7 +371,10 @@
       <!-- Breadcrumb Pill on Top-Left -->
       <div class="flex items-center justify-start mb-4">
         <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm flex-wrap" aria-label="Breadcrumb">
-          <a href="/" class="hover:text-white flex items-center gap-1.5 transition"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i><span>Trang chủ</span></a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/san-pham/" class="text-gray-200 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-gray-200 hover:text-white transition">Máy in nhân bản tốc độ cao &amp; Thiết bị hoàn thiện sau in Duplo</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <span class="text-[#84e372] font-semibold" aria-current="page">Máy In Nhân Bản Siêu Tốc DUPLO DP-X850</span>
+          <a href="/" class="hover:text-white flex items-center gap-1.5 transition">
+            <i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i>
+            <span>Trang chủ</span>
+          </a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/san-pham/" class="text-gray-200 hover:text-white transition">Sản phẩm</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-gray-200 hover:text-white transition">Máy in nhân bản tốc độ cao &amp; Thiết bị hoàn thiện sau in Duplo</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <span class="text-[#84e372] font-semibold" aria-current="page">Máy In Nhân Bản Siêu Tốc DUPLO DP-X850</span>
         </nav>
       </div>
 
@@ -257,9 +391,9 @@
           </h1>
           <p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">Dòng máy in nhân bản khổ A3 đỉnh cao nhất của Duplo, tốc độ lên đến 200 bản/phút, độ nét 600x600 dpi chân thực.</p>
           <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-7">
-            <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm"><i class="fa-solid fa-shield-check text-[#5eb74c]"></i> <span>100% Thiết bị chính hãng CO/CQ</span></div>
-        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm"><i class="fa-solid fa-truck-fast text-[#ffc107]"></i> <span>Giao hàng & Lắp đặt toàn quốc</span></div>
-        <a href="tel:0911138583" class="inline-flex items-center gap-2 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3.5 py-1.5 transition font-semibold shadow-sm"><i class="fa-solid fa-phone"></i> <span>Hotline: 091.113.8583</span></a>
+            <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm text-xs"><i class="fa-solid fa-shield-check text-[#5eb74c]"></i> <span>Thiết bị &amp; Vật tư tiêu chuẩn chất lượng</span></div>
+          <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm text-xs"><i class="fa-solid fa-truck-fast text-[#ffc107]"></i> <span>Giao hàng &amp; Lắp đặt toàn quốc</span></div>
+          <a href="tel:0912304058" class="inline-flex items-center gap-1.5 bg-[#1A9900]/90 hover:bg-[#1A9900] text-white border border-[#5eb74c]/50 px-3 py-1.5 transition font-semibold text-xs shadow-sm"><i class="fa-solid fa-headset text-[#5eb74c]"></i> <span>Hỗ trợ kỹ thuật 24/7</span></a>
           </div>
           <div class="flex flex-wrap items-center gap-3.5 sm:gap-4">
             <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-7 py-3.5 transition flex items-center gap-2 shadow-lg shadow-[#1A9900]/30 border border-[#5eb74c]/50">
@@ -274,14 +408,14 @@
         </div>
 
         <!-- RIGHT COLUMN: THE FOREGROUND PRODUCT SHOWCASE (5 cols) -->
-        <div class="lg:col-span-5 relative mt-6 lg:mt-0">
+        <div class="lg:col-span-5 relative">
           <div class="relative mx-auto max-w-[420px] lg:max-w-none">
             <div class="absolute -inset-2 bg-gradient-to-tr from-[#1A9900]/25 to-blue-500/20 rounded-2xl blur-xl opacity-70 pointer-events-none"></div>
             <div class="relative bg-gradient-to-b from-white/[0.12] to-white/[0.04] border border-white/20 p-5 sm:p-6 backdrop-blur-xl shadow-2xl overflow-hidden group">
               <!-- Top Floating Badge -->
               <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md flex items-center gap-1.5 border border-white/20 z-20">
-                <i class="fa-solid fa-bolt text-[#ffc107]"></i>
-                <span>130 – 150 bản/phút</span>
+                <i class="fa-solid fa-print text-[#ffc107]"></i>
+                <span>Tốc độ 130 – 180 bản/phút</span>
               </div>
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
@@ -293,10 +427,10 @@
               <div class="pt-3 border-t border-white/15 flex items-center justify-between text-xs text-gray-200">
                 <div class="flex items-center gap-1.5 font-medium">
                   <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                  <span>Máy in đề thi Duplo Nhật Bản</span>
+                  <span>Máy in siêu tốc Duplo Nhật Bản</span>
                 </div>
                 <span class="bg-[#0d1626]/80 text-[#84e372] text-[10.5px] font-bold px-2 py-0.5 border border-[#5eb74c]/40">
-                  Bảo mật 100%
+                  Chuẩn in đề thi
                 </span>
               </div>
             </div>
@@ -360,27 +494,79 @@
           <tbody class="px-5">
             <tr class="border-b border-gray-200 last:border-0">
               <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Tốc độ in tối đa</th>
-              <td class="py-3 text-[14.5px] text-gray-600">200 trang/phút (Cao nhất phân khúc)</td>
-            </tr>
-            <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Khổ giấy tối đa</th>
-              <td class="py-3 text-[14.5px] text-gray-600">A3 (297 x 420 mm)</td>
+              <td class="py-3 text-[14.5px] text-gray-600">200 trang/phút (Tốc độ in cao nhất phân khúc toàn cầu)</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
               <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Độ phân giải</th>
-              <td class="py-3 text-[14.5px] text-gray-600">600 x 600 dpi</td>
+              <td class="py-3 text-[14.5px] text-gray-600">600 x 600 dpi HD Master Maker</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Khổ bản gốc tối đa</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Mặt kính A3 phẳng (297 x 432 mm) + Tùy chọn khay nạp tự động ADF 100 tờ</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Khổ giấy in hỗ trợ</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Tối đa 297 x 432 mm (A3), Tối thiểu 100 x 148 mm</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Định lượng giấy in</th>
+              <td class="py-3 text-[14.5px] text-gray-600">45 g/m² – 250 g/m² (Hỗ trợ từ giấy mỏng đề thi đến bìa dày, thiệp mời)</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
               <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Công nghệ chế bản</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Chế bản nhiệt kỹ thuật số (Thermal Digital)</td>
+              <td class="py-3 text-[14.5px] text-gray-600">Chế bản nhiệt kỹ thuật số công suất công nghiệp (Industrial Thermal Master Maker)</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Khay nạp và nhận giấy</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Sức chứa 1.500 tờ</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Thời gian tạo bản Master</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Khoảng 18 giây (khổ A4) / 19 giây (khổ A3)</td>
             </tr>
             <tr class="border-b border-gray-200 last:border-0">
-              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Màn hình hiển thị</th>
-              <td class="py-3 text-[14.5px] text-gray-600">Cảm ứng LCD màu lớn thông minh</td>
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Thời gian in bản đầu tiên</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Khoảng 21 giây (khổ A4)</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Sức chứa khay nạp giấy</th>
+              <td class="py-3 text-[14.5px] text-gray-600">1.500 tờ (định lượng 64 g/m²) / Chiều cao xấp giấy 150 mm</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Sức chứa khay nhận giấy</th>
+              <td class="py-3 text-[14.5px] text-gray-600">1.500 tờ (định lượng 64 g/m²) / Chiều cao xấp giấy 150 mm</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Thu phóng hình ảnh (Zoom)</th>
+              <td class="py-3 text-[14.5px] text-gray-600">50% – 200% (bước nhảy 1%), 7 mức cài sẵn tiêu chuẩn</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Màn hình bảng điều khiển</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Cảm ứng LCD màu lớn thông minh, hiển thị tiến độ và định mức vật tư</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Chế độ in màu rời</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Hỗ trợ đổi hộp trống màu (Spare Color Drum) đỏ, xanh, vàng chỉ trong 10 giây</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Dung lượng cuộn Master</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Cuộn Master DR-X85 HD (khoảng 220 bản A3)</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Dung lượng hộp mực</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Hộp mực Duplo HD Black / Color Ink 1.000 ml</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Kết nối &amp; Giao tiếp</th>
+              <td class="py-3 text-[14.5px] text-gray-600">USB 2.0, Gigabit Ethernet 10/100/1000 Base-T, in trực tiếp từ máy tính</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Kích thước &amp; Trọng lượng</th>
+              <td class="py-3 text-[14.5px] text-gray-600">1.405 x 688 x 1.080 mm | Trọng lượng: 108 kg</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Xuất xứ &amp; Chứng nhận</th>
+              <td class="py-3 text-[14.5px] text-gray-600">Chính hãng Duplo (Nhật Bản), đầy đủ chứng nhận CO/CQ</td>
+            </tr>
+            <tr class="border-b border-gray-200 last:border-0">
+              <th scope="row" class="text-left align-top py-3 pr-6 w-[42%] text-[14px] font-semibold text-[#181923]">Bảo hành &amp; Hỗ trợ</th>
+              <td class="py-3 text-[14.5px] text-gray-600">12 – 24 tháng chính hãng, bảo dưỡng định kỳ miễn phí</td>
             </tr>
           </tbody>
         </table>
@@ -465,7 +651,7 @@
           </div>
           <div class="sm:col-span-1">
             <label for="f-email" class="block text-[13px] font-semibold text-[#181923] mb-2">Email</label>
-            <input type="email" id="f-email" name="email" placeholder="ten@donvi.gov.vn"
+            <input type="email" id="f-email" name="email" placeholder="ten@@donvi.gov.vn"
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[#1A9900] transition" />
           </div>
           <div class="sm:col-span-1">
@@ -514,7 +700,7 @@
     </div>
   </section>
 
-  <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/xxx_home-bg_xxx.jpg');">
+  <section class="py-14 bg-[#181924] bg-cover bg-center" style="background-image: linear-gradient(rgba(24,25,36,0.92), rgba(24,25,36,0.96)), url('/assets/images/banners/hero_office_solutions_1787899910391.jpg');">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
       <div class="max-w-2xl text-center lg:text-left">
         <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">Cần báo giá cho Máy In Nhân Bản Siêu Tốc DUPLO DP-X850?</h2>

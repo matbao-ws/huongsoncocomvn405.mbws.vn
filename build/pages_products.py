@@ -185,13 +185,15 @@ def render_model(m):
         seo_title = f"{name_str} – {model_str} Chính Hãng | Báo Giá | Hương Sơn"
 
     summary_raw = m.get("summary", "").strip()
-    if len(summary_raw) > 145:
-        cut_summary = summary_raw[:145].rsplit(" ", 1)[0]
+    is_scan = m.get("category") == "may-scan-so-hoa"
+    trust_suffix = "Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành." if is_scan else "Cung cấp bởi Hương Sơn, cam kết chất lượng tiêu chuẩn, bảo hành và hỗ trợ kỹ thuật tận nơi."
+    if len(summary_raw) > 135:
+        cut_summary = summary_raw[:135].rsplit(" ", 1)[0]
         if not cut_summary.endswith((".", "!", "?")):
             cut_summary += "..."
-        seo_desc = f"{cut_summary} Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành."
+        seo_desc = f"{cut_summary} {trust_suffix}"
     else:
-        seo_desc = f"{summary_raw} Phân phối chính hãng bởi Hương Sơn, đầy đủ CO/CQ và bảo hành."
+        seo_desc = f"{summary_raw} {trust_suffix}"
 
     return render.page(title=seo_title,
                        description=seo_desc, url=m["url"], body=body, jsonld=ld,
