@@ -133,7 +133,7 @@ KNOWLEDGE_ARTICLES = [
             """),
             ("loi-khuyen", "6. Lời khuyên từ chuyên gia Hương Sơn & Các gói thuê phù hợp", """
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
-                Với hơn 16 năm kinh nghiệm phân phối và cho thuê thiết bị văn phòng, Hương Sơn đề xuất các giải pháp tối ưu cho từng đối tượng khách hàng:
+                Với bề dày kinh nghiệm phân phối và cho thuê thiết bị văn phòng từ năm 2008 đến nay, Hương Sơn đề xuất các giải pháp tối ưu cho từng đối tượng khách hàng:
               </p>
               <div class="space-y-4 mb-8">
                 <div class="p-5 border border-gray-200 bg-white">

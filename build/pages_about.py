@@ -153,28 +153,33 @@ def _resources():
     body = C.page_hero(eyebrow="Tài liệu", h1="Tài nguyên – Catalogue – Hồ sơ năng lực",
                        lead="Tài liệu Hương Sơn cung cấp để Quý khách tham khảo và đưa vào hồ sơ dự toán.", trail=trail)
     body += C.answer_first([
-        ["Trang này là gì", "Nơi tải tài liệu, catalogue và hồ sơ năng lực của Hương Sơn."],
+        ["Trang này là gì", "Nơi tải trực tiếp tài liệu, catalogue và hồ sơ năng lực của Hương Sơn."],
         ["Dành cho ai", "Khách hàng cần tài liệu để lập dự toán, hồ sơ mời thầu hoặc trình lãnh đạo phê duyệt."],
-        ["Cách nhận tài liệu", "Bấm 'Yêu cầu' ở tài liệu cần — Hương Sơn gửi qua email trong ngày làm việc."],
+        ["Cách nhận tài liệu", "Quý khách có thể bấm 'Tải PDF trực tiếp' cho Hồ sơ năng lực, hoặc đăng ký form bên dưới để nhận trọn bộ Catalogue qua email."],
     ])
     items = [
-        ("Hồ sơ năng lực Hương Sơn (PDF)", "Giới thiệu công ty, năng lực thiết bị, kỹ thuật, logistics và dự án."),
-        ("Catalogue thiết bị Duplo", "Danh mục máy in nhân bản siêu tốc và thiết bị hoàn thiện sau in."),
-        ("Catalogue máy photocopy Toshiba", "Thông số các dòng máy đa chức năng A3."),
-        ("Bảng giá thuê máy tham khảo", "Các gói thuê Basic / Standard / Business / Enterprise."),
-        ("Mẫu hồ sơ hợp đồng – nghiệm thu", "Dùng tham khảo khi lập dự toán và hồ sơ mời thầu."),
+        ("Hồ sơ năng lực Hương Sơn 2026 (PDF)", "Giới thiệu công ty, năng lực thiết bị, kỹ thuật, logistics và dự án tiêu biểu.", "/assets/docs/ho-so-nang-luc-huong-son.pdf", True),
+        ("Catalogue thiết bị in siêu tốc Duplo", "Danh mục máy in nhân bản kỹ thuật số và thiết bị hoàn thiện sau in Nhật Bản.", "#nhan-tai-lieu", False),
+        ("Catalogue máy photocopy Toshiba A3", "Thông số kỹ thuật chi tiết các dòng máy đa chức năng e-STUDIO.", "#nhan-tai-lieu", False),
+        ("Bảng giá thuê máy photocopy & in đề thi", "Báo giá tham khảo các gói Basic / Standard / Business / Enterprise.", "/nhan-tu-van/tu-van-thue-may/", False),
+        ("Mẫu hồ sơ hợp đồng – nghiệm thu", "Tài liệu mẫu phục vụ lập dự toán và hồ sơ mời thầu B2B/B2G.", "#nhan-tai-lieu", False),
     ]
-    cards = "".join(f"""
-      <div class="flex items-center justify-between border border-gray-200 bg-white p-6">
+    cards = []
+    for t, d, link, is_direct in items:
+        if is_direct:
+            btn = f'<a href="{link}" download class="flex-shrink-0 ml-4 bg-[{BRAND}] hover:bg-[#147700] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition inline-flex items-center gap-1.5"><i class="fa-solid fa-download"></i><span>Tải PDF trực tiếp</span></a>'
+        else:
+            btn = f'<a href="{link}" class="flex-shrink-0 ml-4 border border-gray-300 hover:border-[{BRAND}] hover:text-[{BRAND}] text-[#181923] px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition inline-flex items-center gap-1.5"><i class="fa-solid fa-envelope"></i><span>Nhận qua Email</span></a>'
+        cards.append(f"""
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between border border-gray-200 bg-white p-6 gap-4">
         <div class="flex items-start space-x-4">
           <span class="w-11 h-11 bg-[{DARK}] text-white flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-file-pdf"></i></span>
           <div><p class="font-bold text-[#181923] mb-1">{esc(t)}</p><p class="text-[13.5px] text-gray-500">{esc(d)}</p></div>
         </div>
-        <a href="/nhan-tu-van/bao-gia/" class="flex-shrink-0 ml-4 border border-gray-300 hover:border-[{BRAND}] hover:text-[{BRAND}] px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition">Yêu cầu</a>
-      </div>""" for t, d in items)
-    body += C.section(f'<div class="space-y-4">{cards}</div>', pad="py-16")
-    body += C.section(forms.lead_form(form_id="resources", page_type="resources",
-                                      title="Nhận tài liệu qua email", compact=False), bg="light")
+        {btn}
+      </div>""")
+    body += C.section(f'<div class="space-y-4">{"".join(cards)}</div>', pad="py-16")
+    body += f'<div id="nhan-tai-lieu"></div>' + C.section(forms.resource_form(), bg="light")
     ld = [schema.organization(), schema.breadcrumb(trail)]
     return render.page(
         title="Tài nguyên – Catalogue, hồ sơ năng lực Hương Sơn | Hương Sơn",

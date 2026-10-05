@@ -1,7 +1,6 @@
 import os
 import re
-
-WORKSPACE_DIR = r"d:\Workspace\matbao-ws\huongsoncocomvn405.mbws.vn"
+WORKSPACE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 1. Check Hub
 hub_file = os.path.join(WORKSPACE_DIR, "ve-huong-son/kien-thuc/index.html")

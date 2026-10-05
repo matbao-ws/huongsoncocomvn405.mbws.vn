@@ -199,7 +199,7 @@ def sync_blade_templates():
         if jsonlds:
             escaped_jsonld = '@section(\x27jsonld\x27)\n'
             for ld in jsonlds:
-                clean_ld = ld.strip().replace('@', '@@')
+                clean_ld = re.sub(r'(?<![a-zA-Z0-9._%+-])@([a-zA-Z_]+)\b(?![.@])', r'@@\1', ld.strip())
                 escaped_jsonld += f'<script type=\"application/ld+json\">\n{clean_ld}\n</script>\n'
             escaped_jsonld += '@endsection\n'
 
@@ -210,7 +210,7 @@ def sync_blade_templates():
             content_m = re.search(r'</header>(.*?)(?:<!-- FOOTER -->|<footer)', html, re.DOTALL)
             content = content_m.group(1).strip() if content_m else ''
 
-        content = content.replace('@', '@@')
+        content = re.sub(r'(?<![a-zA-Z0-9._%+-])@([a-zA-Z_]+)\b(?![.@])', r'@@\1', content)
 
         safe_title = title.replace('\"', '\\\"')
         safe_desc = desc.replace('\"', '\\\"')

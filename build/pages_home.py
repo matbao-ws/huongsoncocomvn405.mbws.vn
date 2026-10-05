@@ -257,9 +257,15 @@ def _news():
         "so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026": "/assets/images/products/duplo-dp-x550.jpg",
         "vietcombank-cung-cap-may-photocopy": "/assets/images/products/vietcombank-2024.jpg",
     }
+    project_custom_text = {
+        "vietcombank-cung-cap-may-photocopy": "Triển khai 02 đợt quy mô lớn cho hệ thống Vietcombank toàn quốc: lô máy Konica Minolta (2022–2023) và lô 127 máy photocopy Toshiba đa chức năng (2024).",
+        "so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi": "Cung cấp dịch vụ thuê 02 máy photocopy Toshiba 7518A/8518A phục vụ in sao đề thi, hồ sơ nghiệm thu thực tế minh bạch.",
+        "so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026": "Thuê 02 máy in nhân bản siêu tốc Duplo tốc độ 150–155 bản/phút phục vụ Kỳ thi Tốt nghiệp THPT 2026.",
+    }
     cards = [{"title": p["title"], "url": p["url"], "tag": p["eyebrow"],
               "image": project_images.get(p["slug"], "/assets/images/hero-projects.jpg"),
-              "text": esc(p["summary"][:130] + "…"), "cta": "Xem case study"} for p in PROJECTS]
+              "text": esc(project_custom_text.get(p["slug"], p["summary"][:130] + "…")),
+              "cta": "Xem case study"} for p in PROJECTS]
     return C.section(
         C.heading(eyebrow="Case Study Thực Tế", title="Dự án tiêu biểu đã triển khai")
         + C.card_grid(cards, cols=3)

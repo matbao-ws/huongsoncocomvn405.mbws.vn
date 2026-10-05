@@ -31,9 +31,9 @@ def slugify(t):
 
 DEFAULT_BADGES = {
     "nhan-tu-van": [
-        ('fa-solid fa-bolt text-[#ffc107]', 'Phản hồi trong <strong>15 phút</strong>', None),
-        ('fa-solid fa-circle-check text-[#5eb74c]', 'Khảo sát &amp; Demo máy miễn phí', None),
-        ('fa-solid fa-phone text-white', 'Hotline 24/7: <strong>091.113.8583</strong>', 'tel:0911138583'),
+        ('fa-solid fa-clock text-[#ffc107]', 'Phản hồi trong <strong>giờ làm việc</strong>', None),
+        ('fa-solid fa-phone text-white', 'Tư vấn bán hàng: <strong>091.113.8583</strong>', 'tel:0911138583'),
+        ('fa-solid fa-headset text-[#5eb74c]', 'Hotline Kỹ thuật: <strong>0912.304.058</strong> (24/7)', 'tel:0912304058'),
     ],
     "san-pham": [
         ('fa-solid fa-shield-check text-[#5eb74c]', 'Thiết bị &amp; Vật tư tiêu chuẩn chất lượng', None),
@@ -161,9 +161,9 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
         showcase_caption = "Vật tư & Linh kiện thay thế chuẩn xác"
     elif sec_key == "nhan-tu-van":
         foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
-        top_badge_icon = "fa-solid fa-bolt text-[#ffc107]"
-        top_badge_text = "Phản hồi trong 15 phút"
-        bottom_badge_text = "Demo máy 0đ"
+        top_badge_icon = "fa-solid fa-clock text-[#ffc107]"
+        top_badge_text = "Phản hồi trong giờ làm việc"
+        bottom_badge_text = "Hotline kỹ thuật 24/7"
         showcase_caption = "Tư vấn & khảo sát tận nơi miễn phí"
     elif sec_key == "dich-vu":
         foreground_img = "/assets/images/products/toshiba-e-studio-4528a.jpg"
@@ -174,14 +174,14 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
     elif sec_key == "du-an":
         foreground_img = "/assets/images/banners/hero_projects_1787899964984.jpg"
         top_badge_icon = "fa-solid fa-award text-[#ffc107]"
-        top_badge_text = "15+ Năm Kinh Nghiệm"
+        top_badge_text = "Từ năm 2008"
         bottom_badge_text = "500+ Dự án"
         showcase_caption = "Hội đồng thi & Ngân hàng uy tín"
     elif sec_key == "ve-huong-son":
         foreground_img = "/assets/images/banners/hero_office_solutions_1787899910391.jpg"
         top_badge_icon = "fa-solid fa-building text-[#5eb74c]"
         top_badge_text = "Thành lập từ 2008"
-        bottom_badge_text = "Uy tín 16 năm"
+        bottom_badge_text = "Từ năm 2008"
         showcase_caption = "Trụ sở & Showroom tại Hà Nội"
     elif sec_key == "cong-cu":
         foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"

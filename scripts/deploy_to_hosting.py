@@ -7,8 +7,7 @@ import urllib.error
 import time
 
 sys.stdout.reconfigure(encoding='utf-8')
-
-WORKSPACE_DIR = r"d:\Workspace\matbao-ws\huongsoncocomvn405.mbws.vn"
+WORKSPACE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ZIP_FILENAME = "deploy_update.zip"
 ZIP_FILEPATH = os.path.join(WORKSPACE_DIR, ZIP_FILENAME)
 

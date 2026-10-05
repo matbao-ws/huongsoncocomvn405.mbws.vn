@@ -125,7 +125,7 @@ KNOWLEDGE_ARTICLES = [
             """),
             ("loi-khuyen", "6. Lời khuyên từ chuyên gia Hương Sơn & Các gói thuê phù hợp", """
               <p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">
-                Với hơn 16 năm kinh nghiệm phân phối và cho thuê thiết bị văn phòng, Hương Sơn đề xuất các giải pháp tối ưu cho từng đối tượng khách hàng:
+                Với bề dày kinh nghiệm phân phối và cho thuê thiết bị văn phòng từ năm 2008 đến nay, Hương Sơn đề xuất các giải pháp tối ưu cho từng đối tượng khách hàng:
               </p>
               <div class="space-y-4 mb-8">
                 <div class="p-5 border border-gray-200 bg-white">
@@ -1733,7 +1733,7 @@ def render_article(a):
             </div>
             <p class="text-xs text-gray-500 mb-2 font-medium">Giám đốc Kỹ thuật &amp; Sáng lập Công ty TNHH Thương mại và Dịch vụ Hương Sơn (thành lập từ 2008).</p>
             <p class="text-[13.5px] text-gray-600 leading-relaxed">
-              Hơn 16 năm kinh nghiệm thực chiến trong công tác lắp đặt, cấu hình, vận hành hệ thống máy in siêu tốc phục vụ sao in đề thi tuyệt đối bảo mật cho các Sở GD&amp;ĐT, triển khai dịch vụ Managed Print Services (MPS) cho hệ thống ngân hàng Vietcombank và số hóa hàng triệu trang tài liệu lưu trữ chuẩn Thông tư 02/2019/TT-BNV.
+              Kinh nghiệm thực chiến từ năm 2008 trong công tác lắp đặt, cấu hình, vận hành hệ thống máy in siêu tốc phục vụ sao in đề thi tuyệt đối bảo mật cho các Sở GD&amp;ĐT, triển khai dịch vụ Managed Print Services (MPS) cho hệ thống ngân hàng Vietcombank và số hóa hàng triệu trang tài liệu lưu trữ chuẩn Thông tư 02/2019/TT-BNV.
             </p>
             <div class="mt-3 flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs">
               <a href="tel:{SITE['hotline_primary_tel']}" class="text-[{BRAND}] font-bold hover:underline flex items-center gap-1"><i class="fa-solid fa-phone"></i> 091.113.8583</a>

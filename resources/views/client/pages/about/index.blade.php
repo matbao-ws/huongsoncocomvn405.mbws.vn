@@ -39,7 +39,7 @@
       "0912.304.058",
       "024 3972 9484"
     ],
-    "email": "info@@huongsonco.com.vn",
+    "email": "info@huongsonco.com.vn",
     "openingHours": "Mo-Sa 08:00-17:30",
     "geo": {
       "@@type": "GeoCoordinates",
@@ -261,7 +261,7 @@
                   <span>Trụ sở & Showroom tại Hà Nội</span>
                 </div>
                 <span class="bg-[#0d1626]/80 text-[#84e372] text-[10.5px] font-bold px-2 py-0.5 border border-[#5eb74c]/40">
-                  Uy tín 16 năm
+                  Từ năm 2008
                 </span>
               </div>
             </div>
@@ -322,7 +322,7 @@
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Văn phòng giao dịch</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, TP. Hà Nội</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Tài khoản ngân hàng</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">0531100329005 – Ngân hàng TMCP Quân Đội (MB Bank), chi nhánh Long Biên</td></tr>
             <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Điện thoại</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">091.113.8583 – 0912.304.058 – 024 3972 9484</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Email</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">info@@huongsonco.com.vn</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top">Email</th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">info@huongsonco.com.vn</td></tr>
           </tbody>
         </table>
       </div>

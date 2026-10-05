@@ -83,28 +83,36 @@ def lead_form(*, form_id="lead", page_type="", preset_nhu_cau="", product_model=
             <input type="text" id="f-{form_id}-hp" name="_hp" tabindex="-1" autocomplete="off" />
           </div>"""
 
-    fields = (_inp("ho_ten", "Họ và tên", required=True, placeholder="Nguyễn Văn A")
-              + _inp("chuc_vu", "Chức vụ", placeholder="Trưởng phòng")
-              + _inp("don_vi", "Tên đơn vị", required=True, placeholder="Sở GD&ĐT / Trường / Công ty", half=False)
-              + _sel("loai_don_vi", "Loại đơn vị", LOAI_DON_VI, required=True)
-              + _sel("cua", "Bộ phận phụ trách", CUA)
-              + _inp("dien_thoai", "Điện thoại / Zalo", type="tel", required=True, placeholder="09xx xxx xxx")
-              + _inp("email", "Email", type="email", placeholder="ten@donvi.gov.vn")
-              + _inp("tinh_thanh", "Tỉnh / Thành phố", required=True, placeholder="Hà Nội")
-              + _sel("thoi_diem_can", "Thời điểm cần", THOI_DIEM))
+    # Form rút gọn tối ưu chuyển đổi theo đánh giá thực tế
+    fields = (
+        _inp("ho_ten", "Họ và tên", required=True, placeholder="Nguyễn Văn A")
+        + _inp("dien_thoai", "Điện thoại / Zalo", type="tel", required=True, placeholder="09xx xxx xxx")
+        + _inp("don_vi", "Tên đơn vị / Trường / Doanh nghiệp", required=True, placeholder="Sở GD&ĐT / Trường THPT / Doanh nghiệp...", half=False)
+        + _inp("tinh_thanh", "Tỉnh / Thành phố", required=True, placeholder="Hà Nội, Vĩnh Phúc, Quảng Trị...")
+        + _inp("email", "Email nhận báo giá", type="email", placeholder="ten@donvi.gov.vn")
+    )
 
     if not compact:
-        fields += (_sel("nhu_cau", "Nhu cầu chính", nhu_cau_opts, required=True, half=False)
-                   + _inp("so_luong_thiet_bi", "Số lượng thiết bị dự kiến", placeholder="VD: 02 máy")
-                   + _inp("ngan_sach", "Ngân sách dự kiến", placeholder="VD: 60 triệu/máy"))
+        fields += _sel("nhu_cau", "Nhu cầu cần tư vấn chính", nhu_cau_opts, required=True, half=False)
     else:
-        fields += (f'<input type="hidden" name="nhu_cau" value="{esc(preset_nhu_cau)}" />'
-                   + _inp("so_luong_thiet_bi", "Số lượng thiết bị dự kiến", placeholder="VD: 02 máy"))
+        fields += f'<input type="hidden" name="nhu_cau" value="{esc(preset_nhu_cau)}" />'
+
+    # Câu hỏi gợi ý theo ngữ cảnh nếu có
+    if preset_nhu_cau in ("PRINT", "THUÊ"):
+        fields += _inp("so_luong_thiet_bi", "Số lượng máy hoặc sản lượng dự kiến", placeholder="VD: 02 máy photo A3 hoặc ~5.000 bản/tháng", half=False)
+    elif preset_nhu_cau == "EXAM":
+        fields += _inp("so_diem_in", "Quy mô kỳ thi / Số điểm in dự kiến", placeholder="VD: 03 điểm thi, Kỳ thi Tốt nghiệp THPT", half=False)
+    elif preset_nhu_cau == "DIGITAL":
+        fields += _inp("khoi_luong_tai_lieu", "Khối lượng hồ sơ cần số hóa dự kiến", placeholder="VD: Học bạ, sổ điểm, hồ sơ lưu trữ...", half=False)
+    elif preset_nhu_cau == "KYTHUAT":
+        fields += _inp("model_may", "Thiết bị đang sử dụng & tình trạng", placeholder="VD: Máy Toshiba báo lỗi kỹ thuật/kẹt giấy...", half=False)
+    elif not compact:
+        fields += _inp("so_luong_thiet_bi", "Số lượng hoặc thời điểm cần", placeholder="VD: 01 máy trong tháng này", half=False)
 
     fields += f"""
           <div class="sm:col-span-2">
-            <label for="f-ghi_chu" class="block text-[13px] font-semibold text-[#181923] mb-2">Mô tả nhu cầu</label>
-            <textarea id="f-ghi_chu" name="ghi_chu" rows="4" placeholder="Số điểm in, sản lượng dự kiến, khổ giấy, thời gian thuê, yêu cầu dự phòng, yêu cầu kỹ thuật..."
+            <label for="f-ghi_chu" class="block text-[13px] font-semibold text-[#181923] mb-2">Mô tả chi tiết nhu cầu <span class="text-gray-400 font-normal">(Không bắt buộc)</span></label>
+            <textarea id="f-ghi_chu" name="ghi_chu" rows="3" placeholder="Ghi chú thêm về yêu cầu kỹ thuật, thời gian giao máy hoặc câu hỏi cần giải đáp..."
               class="w-full border border-gray-300 px-4 py-3 text-[14.5px] focus:outline-none focus:border-[{BRAND}] transition"></textarea>
           </div>"""
 
@@ -121,8 +129,81 @@ def lead_form(*, form_id="lead", page_type="", preset_nhu_cau="", product_model=
               {esc(submit)}
             </button>
             <a href="tel:{SITE['hotline_primary_tel']}" data-ga="click_hotline" class="text-[14.5px] font-bold text-[#181923] hover:text-[{BRAND}] transition">
-              <i class="fa-solid fa-phone text-[{BRAND}] mr-2"></i>Hoặc gọi {SITE['hotline_primary']}
+              <i class="fa-solid fa-phone text-[{BRAND}] mr-2"></i>Tư vấn trực tiếp: {SITE['hotline_primary']}
             </a>
+          </div>
+        </form>
+      </div>"""
+
+
+def resource_form(*, form_id="resource", title="Đăng ký nhận bộ tài liệu qua Email",
+                  intro="Quý khách có thể tải trực tiếp Hồ sơ năng lực (PDF) ở trên, hoặc điền form ngắn dưới đây để nhận bộ Catalogue thiết bị và Bảng giá chi tiết qua email."):
+    """Biểu mẫu siêu ngắn dành riêng cho trang tài nguyên: chỉ hỏi thông tin liên hệ và tài liệu cần nhận."""
+    hidden = f"""
+          <input type="hidden" name="page_type" value="resource_download" />
+          <input type="hidden" name="nhu_cau" value="TAILIEU" />
+          <input type="hidden" name="source_url" value="" data-autofill="url" />
+          <input type="hidden" name="referrer" value="" data-autofill="referrer" />
+          <input type="hidden" name="utm_source" value="" data-autofill="utm_source" />
+          <input type="hidden" name="utm_medium" value="" data-autofill="utm_medium" />
+          <input type="hidden" name="utm_campaign" value="" data-autofill="utm_campaign" />
+          <div class="hidden" aria-hidden="true">
+            <label for="f-{form_id}-hp">Bỏ trống ô này</label>
+            <input type="text" id="f-{form_id}-hp" name="_hp" tabindex="-1" autocomplete="off" />
+          </div>"""
+
+    docs = [
+        "Hồ sơ năng lực Hương Sơn 2026 (PDF đầy đủ)",
+        "Catalogue Máy in siêu tốc Duplo (Nhật Bản)",
+        "Catalogue Máy photocopy đa chức năng Toshiba",
+        "Bảng giá thuê máy photocopy & máy in đề thi",
+        "Mẫu hồ sơ thầu, hợp đồng & biên bản nghiệm thu tham khảo",
+    ]
+    doc_checks = "".join(f"""
+        <label class="flex items-center space-x-3 text-[14px] text-gray-700 cursor-pointer">
+          <input type="checkbox" name="tai_lieu[]" value="{esc(d)}" checked class="rounded text-[{BRAND}] focus:ring-[{BRAND}]" />
+          <span>{esc(d)}</span>
+        </label>""" for d in docs)
+
+    return f"""
+      <div class="bg-white border border-gray-200 p-6 sm:p-9 max-w-3xl mx-auto">
+        <h2 class="text-xl sm:text-[24px] font-bold text-[#181923] mb-2">{esc(title)}</h2>
+        <p class="text-[14px] text-gray-500 leading-relaxed mb-6">{intro}</p>
+        <form class="lead-form" id="{form_id}-form" method="post" action="/api/lead" novalidate>
+          {hidden}
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+            <div>
+              <label for="f-res-email" class="block text-[13px] font-semibold text-[#181923] mb-1.5">Email nhận tài liệu <span class="text-[{BRAND}]">*</span></label>
+              <input type="email" id="f-res-email" name="email" required placeholder="email@donvi.gov.vn"
+                class="w-full border border-gray-300 px-4 py-2.5 text-[14px] focus:outline-none focus:border-[{BRAND}]" />
+            </div>
+            <div>
+              <label for="f-res-phone" class="block text-[13px] font-semibold text-[#181923] mb-1.5">Số điện thoại / Zalo <span class="text-[{BRAND}]">*</span></label>
+              <input type="tel" id="f-res-phone" name="dien_thoai" required placeholder="09xx xxx xxx"
+                class="w-full border border-gray-300 px-4 py-2.5 text-[14px] focus:outline-none focus:border-[{BRAND}]" />
+            </div>
+            <div>
+              <label for="f-res-name" class="block text-[13px] font-semibold text-[#181923] mb-1.5">Họ và tên <span class="text-[{BRAND}]">*</span></label>
+              <input type="text" id="f-res-name" name="ho_ten" required placeholder="Nguyễn Văn A"
+                class="w-full border border-gray-300 px-4 py-2.5 text-[14px] focus:outline-none focus:border-[{BRAND}]" />
+            </div>
+            <div>
+              <label for="f-res-donvi" class="block text-[13px] font-semibold text-[#181923] mb-1.5">Đơn vị công tác <span class="text-[{BRAND}]">*</span></label>
+              <input type="text" id="f-res-donvi" name="don_vi" required placeholder="Sở GD&ĐT / Trường / Doanh nghiệp"
+                class="w-full border border-gray-300 px-4 py-2.5 text-[14px] focus:outline-none focus:border-[{BRAND}]" />
+            </div>
+          </div>
+          <div class="mb-6">
+            <p class="text-[13px] font-semibold text-[#181923] mb-2.5">Chọn tài liệu muốn nhận:</p>
+            <div class="space-y-2 bg-[#f8fafc] p-4 border border-gray-200">
+              {doc_checks}
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <button type="submit" data-ga="generate_lead" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-3.5 transition w-full sm:w-auto">
+              GỬI TÀI LIỆU CHO TÔI
+            </button>
+            <span class="text-xs text-gray-500">Tài liệu gửi tự động qua email trong giờ làm việc.</span>
           </div>
         </form>
       </div>"""
@@ -153,7 +234,7 @@ def contact_aside():
             </li>
             <li class="flex items-start space-x-3">
               <i class="fa-regular fa-clock text-[{BRAND}] text-sm mt-1 flex-shrink-0"></i>
-              <span>{SITE['hours']}</span>
+              <span>{SITE['hours']} (Tư vấn bán hàng)<br><strong class="text-[#1A9900]">Hotline kỹ thuật trực 24/7</strong></span>
             </li>
           </ul>
           <a href="{SITE['zalo']}" target="_blank" rel="noopener" data-ga="click_zalo" class="mt-6 bg-[#0068ff] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 w-full text-center block transition hover:opacity-90">
@@ -161,12 +242,16 @@ def contact_aside():
           </a>
         </div>
         <div class="p-6 bg-[{DARK}]">
-          <h3 class="text-[15px] font-bold uppercase tracking-wider text-white mb-3">Hồ sơ năng lực</h3>
+          <h3 class="text-[15px] font-bold uppercase tracking-wider text-white mb-3">Hồ sơ năng lực Hương Sơn</h3>
           <p class="text-[14px] text-gray-300 leading-relaxed mb-5">
-            Catalogue thiết bị, hồ sơ năng lực và datasheet của Hương Sơn.
+            Tải trực tiếp bản PDF hồ sơ năng lực thiết bị, kỹ thuật và các dự án tiêu biểu của Hương Sơn.
           </p>
-          <a href="/ve-huong-son/tai-nguyen/" data-ga="download_datasheet" class="border border-gray-600 hover:border-[{BRAND}] hover:text-[{BRAND}] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 w-full text-center block transition">
-            <i class="fa-solid fa-download mr-2"></i>Tải hồ sơ
+          <a href="/assets/docs/ho-so-nang-luc-huong-son.pdf" download data-ga="download_datasheet" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 w-full text-center block transition mb-2">
+            <i class="fa-solid fa-download mr-2"></i>Tải trực tiếp PDF
+          </a>
+          <a href="/ve-huong-son/tai-nguyen/" class="text-xs text-gray-400 hover:text-white text-center block underline mt-2">
+            Xem tất cả tài nguyên &amp; catalogue
           </a>
         </div>
       </div>"""
+
