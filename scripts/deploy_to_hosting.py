@@ -42,6 +42,8 @@ DIRECTORIES_TO_INCLUDE = [
     "build",
     "database/seeders",
     "scripts",
+    "app/Http/Controllers/Client",
+    "routes",
 ]
 
 ROOT_FILES_TO_INCLUDE = [

@@ -61,6 +61,11 @@ Route::get('google7b3f3eb378a761d3.html', function () {
         ->header('Content-Type', 'text/html');
 });
 
+// Legacy 301 Redirects for old website URLs (*.html, *-cid*.html, *-id*.html)
+Route::get('{legacyUrl}', [\App\Http\Controllers\Client\LegacyRedirectController::class, 'handle'])
+    ->where('legacyUrl', '.*\.html$')
+    ->name('legacy.redirect');
+
 /*
  * Sandbox for the inline editing toolbar.
  */
