@@ -330,7 +330,7 @@
           <h1 class="text-2xl sm:text-[34px] lg:text-[40px] font-extrabold text-white mb-3.5 leading-[1.35] tracking-normal drop-shadow-md">
             Cẩm nang thiết bị, in ấn &amp; số hóa tài liệu
           </h1>
-          <p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">Tổng hợp kinh nghiệm thực chiến 16+ năm, bảng so sánh chi tiết và phân tích chi phí TCO giúp Quý khách ra quyết định chính xác nhất khi đầu tư hoặc thuê thiết bị.</p>
+          <p class="text-gray-200 text-[14.5px] sm:text-base leading-relaxed mb-6 font-normal max-w-2xl">Tổng hợp kinh nghiệm thực chiến từ năm 2008, bảng so sánh chi tiết và phân tích chi phí TCO giúp Quý khách ra quyết định chính xác nhất khi đầu tư hoặc thuê thiết bị.</p>
           <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-7">
             <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm text-xs"><i class="fa-solid fa-calendar-check text-[#5eb74c]"></i> <span>Thành lập từ 2008 (16+ năm uy tín)</span></div>
           <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 text-gray-100 backdrop-blur-sm text-xs"><i class="fa-solid fa-certificate text-[#ffc107]"></i> <span>Đối tác phân phối Ricoh, Toshiba, Duplo</span></div>
@@ -385,15 +385,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Chuyên mục này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Chuyên Mục Cẩm Nang Chuyên Sâu</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Trung tâm tri thức B2B gồm 16 cẩm nang trụ cột phân tích chuyên sâu về máy photocopy, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu lưu trữ và vật tư FANSIPAN.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng Áp Dụng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Lãnh đạo đơn vị, phòng Kế hoạch – Tài chính, Ban chỉ đạo kỳ thi Sở GD&ĐT, khối CNTT & Vận hành Ngân hàng và các trường học, bệnh viện, doanh nghiệp.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giá trị mang lại</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giá Trị Thực Tiễn</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Hiểu rõ bài toán chi phí TCO thực tế, tối ưu ngân sách in ấn, chuẩn hóa quy trình in sao đề thi bảo mật tuyệt đối và số hóa hồ sơ theo đúng Thông tư 02/2019/TT-BNV.</p>
           </div>
       </div>

@@ -567,25 +567,29 @@
         <span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-3">Năng lực triển khai</span>
         <h2 class="text-2xl sm:text-[34px] font-bold text-[#181923] leading-tight">Sẵn sàng cho cả nhu cầu theo mùa và dài hạn</h2>
       </div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="p-7 text-center" style="background-color: rgb(247, 243, 238);">
-          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-5"><i class="fa-solid fa-warehouse text-xl"></i></div>
-          <h3 class="font-bold text-[#181923] mb-2">Kho thiết bị</h3>
-          <p class="text-[13.5px] text-gray-500 leading-relaxed">Kho Toshiba, HP MFP, Duplo sẵn sàng triển khai theo hợp đồng.</p>
+        <div class="p-7 text-center flex flex-col items-center justify-between border border-gray-200/80 bg-white hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-4"><i class="fa-solid fa-warehouse text-xl"></i></div>
+          <span class="inline-block bg-[#1A9900]/10 text-[#1A9900] text-[10.5px] font-bold px-2 py-0.5 uppercase tracking-wider mb-2">> 200 Thiết bị sẵn sàng</span>
+          <h3 class="font-bold text-[#181923] mb-2">Kho thiết bị sẵn có</h3>
+          <p class="text-[13px] text-gray-500 leading-relaxed">Lưu kho &gt; 200 model máy photocopy Toshiba, Ricoh, Duplo tại Hà Nội sẵn sàng xuất kho trong 24h.</p>
         </div>
-        <div class="p-7 text-center" style="background-color: rgb(247, 243, 238);">
-          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-5"><i class="fa-solid fa-user-gear text-xl"></i></div>
-          <h3 class="font-bold text-[#181923] mb-2">Đội kỹ thuật</h3>
-          <p class="text-[13.5px] text-gray-500 leading-relaxed">Kỹ thuật trực hiện trường, hỗ trợ từ xa, xử lý theo cấp độ SLA.</p>
+        <div class="p-7 text-center flex flex-col items-center justify-between border border-gray-200/80 bg-white hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-4"><i class="fa-solid fa-user-gear text-xl"></i></div>
+          <span class="inline-block bg-[#1A9900]/10 text-[#1A9900] text-[10.5px] font-bold px-2 py-0.5 uppercase tracking-wider mb-2">Chứng chỉ hãng chính thức</span>
+          <h3 class="font-bold text-[#181923] mb-2">Kỹ sư chứng nhận hãng</h3>
+          <p class="text-[13px] text-gray-500 leading-relaxed">100% kỹ thuật viên đạt chứng chỉ từ Duplo Nhật Bản, Toshiba, Konica Minolta; hỗ trợ 24/7.</p>
         </div>
-        <div class="p-7 text-center" style="background-color: rgb(247, 243, 238);">
-          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-5"><i class="fa-solid fa-truck text-xl"></i></div>
-          <h3 class="font-bold text-[#181923] mb-2">Logistics</h3>
-          <p class="text-[13.5px] text-gray-500 leading-relaxed">Vận chuyển, lắp đặt, thu hồi thiết bị đúng tiến độ hợp đồng.</p>
+        <div class="p-7 text-center flex flex-col items-center justify-between border border-gray-200/80 bg-white hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-4"><i class="fa-solid fa-truck-fast text-xl"></i></div>
+          <span class="inline-block bg-[#1A9900]/10 text-[#1A9900] text-[10.5px] font-bold px-2 py-0.5 uppercase tracking-wider mb-2">Giao lắp an toàn 2h</span>
+          <h3 class="font-bold text-[#181923] mb-2">Logistics an toàn 2H</h3>
+          <p class="text-[13px] text-gray-500 leading-relaxed">Đội xe chuyên dụng có giảm chấn, cam kết vận chuyển và lắp đặt tận nơi trong 2–4 giờ.</p>
         </div>
-        <div class="p-7 text-center" style="background-color: rgb(247, 243, 238);">
-          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-5"><i class="fa-solid fa-shield-halved text-xl"></i></div>
-          <h3 class="font-bold text-[#181923] mb-2">Máy dự phòng</h3>
-          <p class="text-[13.5px] text-gray-500 leading-relaxed">Tối thiểu 01 máy dự phòng cho mỗi cụm in của kỳ thi lớn.</p>
+        <div class="p-7 text-center flex flex-col items-center justify-between border border-gray-200/80 bg-white hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="w-14 h-14 bg-[#181924] text-white flex items-center justify-center mx-auto mb-4"><i class="fa-solid fa-shield-halved text-xl"></i></div>
+          <span class="inline-block bg-[#1A9900]/10 text-[#1A9900] text-[10.5px] font-bold px-2 py-0.5 uppercase tracking-wider mb-2">Dự phòng N+1 tại chỗ</span>
+          <h3 class="font-bold text-[#181923] mb-2">Máy dự phòng N+1</h3>
+          <p class="text-[13px] text-gray-500 leading-relaxed">Tối thiểu 01 máy dự phòng sẵn sàng tại chỗ cho kỳ thi lớn, loại bỏ hoàn toàn rủi ro dừng máy.</p>
         </div></div>
     </div>
   </section>

@@ -503,15 +503,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Điểm Nổi Bật &amp; Đặc Trưng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Danh mục máy scan tốc độ cao Hương Sơn tư vấn và cung cấp cho nhu cầu số hóa tài liệu.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng &amp; Quy Mô Phù Hợp</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Sở GD&ĐT, trường học, cơ quan Nhà nước, ngân hàng và doanh nghiệp có khối lượng hồ sơ cần số hóa.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hiệu Quả &amp; Cam Kết Vận Hành</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Chọn đúng dòng máy scan theo khối lượng và loại tài liệu, tránh đầu tư sai công suất hoặc sai tính năng cần thiết.</p>
           </div>
       </div>

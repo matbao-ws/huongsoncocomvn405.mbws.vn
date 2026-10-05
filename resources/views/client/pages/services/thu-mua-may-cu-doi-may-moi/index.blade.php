@@ -359,15 +359,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Điểm Nổi Bật &amp; Đặc Trưng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Dịch vụ thu mua thiết bị cũ và hỗ trợ đổi sang thiết bị mới hoặc chuyển sang mô hình thuê.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng &amp; Quy Mô Phù Hợp</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Đơn vị đang có thiết bị cũ, lỗi thời hoặc chi phí vận hành cao, muốn nâng cấp.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hiệu Quả &amp; Cam Kết Vận Hành</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Giảm chi phí đầu tư ban đầu cho thiết bị mới nhờ giá trị thu mua thiết bị cũ được trừ vào hợp đồng.</p>
           </div>
       </div>

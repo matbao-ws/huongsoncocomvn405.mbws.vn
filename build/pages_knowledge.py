@@ -1874,14 +1874,15 @@ def render_hub():
     body = C.page_hero(
         eyebrow="Trung tâm kiến thức chuyên sâu",
         h1="Cẩm nang thiết bị, in ấn & số hóa tài liệu",
-        lead="Tổng hợp kinh nghiệm thực chiến 16+ năm, bảng so sánh chi tiết và phân tích chi phí TCO giúp Quý khách ra quyết định chính xác nhất khi đầu tư hoặc thuê thiết bị.",
+        lead="Tổng hợp kinh nghiệm thực chiến từ năm 2008, bảng so sánh chi tiết và phân tích chi phí TCO giúp Quý khách ra quyết định chính xác nhất khi đầu tư hoặc thuê thiết bị.",
         trail=trail,
     )
     body += C.answer_first([
-        ["Chuyên mục này là gì", "Trung tâm tri thức B2B gồm 16 cẩm nang trụ cột phân tích chuyên sâu về máy photocopy, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu lưu trữ và vật tư FANSIPAN."],
-        ["Dành cho ai", "Lãnh đạo đơn vị, phòng Kế hoạch – Tài chính, Ban chỉ đạo kỳ thi Sở GD&ĐT, khối CNTT & Vận hành Ngân hàng và các trường học, bệnh viện, doanh nghiệp."],
-        ["Giá trị mang lại", "Hiểu rõ bài toán chi phí TCO thực tế, tối ưu ngân sách in ấn, chuẩn hóa quy trình in sao đề thi bảo mật tuyệt đối và số hóa hồ sơ theo đúng Thông tư 02/2019/TT-BNV."],
+        ["Chuyên Mục Cẩm Nang Chuyên Sâu", "Trung tâm tri thức B2B gồm 16 cẩm nang trụ cột phân tích chuyên sâu về máy photocopy, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu lưu trữ và vật tư FANSIPAN."],
+        ["Đối Tượng Áp Dụng", "Lãnh đạo đơn vị, phòng Kế hoạch – Tài chính, Ban chỉ đạo kỳ thi Sở GD&ĐT, khối CNTT & Vận hành Ngân hàng và các trường học, bệnh viện, doanh nghiệp."],
+        ["Giá Trị Thực Tiễn", "Hiểu rõ bài toán chi phí TCO thực tế, tối ưu ngân sách in ấn, chuẩn hóa quy trình in sao đề thi bảo mật tuyệt đối và số hóa hồ sơ theo đúng Thông tư 02/2019/TT-BNV."],
     ])
+
 
     # Category Filter Bar (Visual Navigation)
     body += f"""

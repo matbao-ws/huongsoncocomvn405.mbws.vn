@@ -365,15 +365,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Điểm Nổi Bật &amp; Đặc Trưng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Dịch vụ bảo trì định kỳ và sửa chữa máy photocopy, máy in, máy in nhân bản của Hương Sơn.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng &amp; Quy Mô Phù Hợp</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Đơn vị đang sở hữu hoặc thuê thiết bị in ấn, cần bảo trì định kỳ hoặc xử lý sự cố.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hiệu Quả &amp; Cam Kết Vận Hành</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Giữ thiết bị hoạt động ổn định, giảm thời gian dừng máy và kéo dài tuổi thọ thiết bị bằng bảo trì phòng ngừa thay vì chỉ sửa khi hỏng.</p>
           </div>
       </div>

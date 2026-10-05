@@ -208,9 +208,9 @@ def render_hub():
         lead="9 nhóm thiết bị Hương Sơn cung cấp: từ máy photocopy đa chức năng đến vật tư tiêu hao — bán, cho thuê và bảo trì.",
         trail=trail)
     body += C.answer_first([
-        ["Trang này là gì", "Trang tổng hợp 9 danh mục sản phẩm mà Hương Sơn cung cấp: thiết bị, vật tư và linh kiện cho in ấn và văn phòng."],
-        ["Dành cho ai", "Khách hàng cần tra cứu nhanh nhóm thiết bị phù hợp trước khi xem chi tiết từng model."],
-        ["Giải quyết vấn đề gì", "Định hướng đúng danh mục theo nhu cầu: photocopy, in nhân bản, scan, sau in, in laser, thiết bị phòng học, vật tư hay thiết bị văn phòng."],
+        ["Danh Mục Thiết Bị Chính Hãng", "Hương Sơn phân phối và cho thuê 9 nhóm thiết bị chủ lực: máy photocopy đa chức năng, máy in siêu tốc, máy scan tốc độ cao, máy in laser và vật tư chính hãng."],
+        ["Lựa Chọn Đa Dạng & Linh Hoạt", "Cung cấp giải pháp bán mới 100%, cho thuê trọn gói hoặc quản lý vận hành theo sản lượng thực tế (MPS) cho cơ quan, trường học và doanh nghiệp."],
+        ["Hỗ Trợ Kỹ Thuật Trọn Đời", "Cam kết linh kiện thay thế chính hãng sẵn có, đội kỹ thuật chuyên môn cao xử lý sự cố tại chỗ và chính sách máy dự phòng tương đương."],
     ])
     cards = [{
         "title": c["h1"], "url": c["url"], "icon": "fa-solid fa-box",

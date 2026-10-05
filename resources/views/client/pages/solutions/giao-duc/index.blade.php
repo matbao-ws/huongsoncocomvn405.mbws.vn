@@ -496,15 +496,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Điểm Nổi Bật &amp; Đặc Trưng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Trang trụ cột tập hợp toàn bộ giải pháp thiết bị, in ấn và số hóa mà Hương Sơn cung cấp cho ngành Giáo dục, chia thành 4 nhóm theo đúng đầu việc của đơn vị.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng &amp; Quy Mô Phù Hợp</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Sở GD&ĐT (Lãnh đạo, Phòng Khảo thí/QLCLGD, Phòng Kế hoạch – Tài chính), trường THPT/THCS, trường đại học – cao đẳng và các đơn vị trực thuộc.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hiệu Quả &amp; Cam Kết Vận Hành</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Đảm bảo năng lực in ấn cho kỳ thi và hoạt động thường xuyên, kiểm soát chi phí in, và chuyển hồ sơ giấy sang dữ liệu số – không cần đơn vị tự đầu tư và tự vận hành thiết bị.</p>
           </div>
       </div>

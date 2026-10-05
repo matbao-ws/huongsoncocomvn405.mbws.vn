@@ -301,16 +301,16 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Danh sách dự án Hương Sơn đã triển khai, mỗi dự án có bằng chứng hồ sơ cụ thể.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dự Án Quy Mô Lớn</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Hương Sơn đã triển khai thành công nhiều dự án lớn: cung cấp thiết bị cho toàn hệ thống Vietcombank toàn quốc, phục vụ in sao đề thi THPT cho các Sở GD&ĐT.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Khách hàng muốn xem năng lực triển khai thực tế của Hương Sơn trước khi quyết định hợp tác.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Bằng Chứng Thực Tế</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Mỗi dự án đều có đầy đủ hợp đồng kinh tế, biên bản bàn giao, nhật ký kỹ thuật vận hành và nghiệm thu thanh lý minh bạch.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Chứng minh năng lực bằng dự án cụ thể thay vì chỉ mô tả chung chung.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Năng Lực Đảm Bảo</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Cam kết đáp ứng chuẩn xác tiến độ khắt khe, an ninh bảo mật và luôn có phương án máy dự phòng N+1 sẵn sàng tại hiện trường.</p>
           </div>
       </div>
     </div>

@@ -468,15 +468,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Điểm Nổi Bật &amp; Đặc Trưng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Dịch vụ cho thuê thiết bị in ấn và văn phòng với 4 gói từ thuê máy cơ bản tới quản lý toàn bộ đội máy có SLA và báo cáo.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng &amp; Quy Mô Phù Hợp</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Sở GD&ĐT, trường học, cơ quan Nhà nước, ngân hàng, doanh nghiệp và mọi đơn vị có nhu cầu theo đợt hoặc chưa muốn đầu tư tài sản.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hiệu Quả &amp; Cam Kết Vận Hành</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Có thiết bị dùng ngay mà không cần vốn đầu tư và không phải tự lo mực, linh kiện, sửa chữa hay phương án thay máy.</p>
           </div>
       </div>
@@ -731,6 +731,114 @@
       <div class="border-l-4 border-[#1A9900] bg-[#f5f8fb] px-6 py-5">
         <p class="text-[14.5px] text-gray-600 leading-relaxed">Ba cách báo giá tùy cách lập dự toán của đơn vị: (A) thuê máy khô – vật tư theo thực tế; (B) máy kèm định mức vật tư; (C) trọn gói một đơn giá theo phạm vi hợp đồng. Báo giá luôn ghi rõ VAT, vận chuyển – lắp đặt, vật tư, kỹ thuật, thời gian thuê và điều kiện phát sinh.</p>
       </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-[#f5f8fb] ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="my-6 border border-gray-200 bg-white p-6 sm:p-8 shadow-xs">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-gray-200">
+          <div>
+            <span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Bảng giá minh bạch 2026</span>
+            <h3 class="text-xl sm:text-2xl font-bold text-[#181923]">Bảng so sánh các gói cho thuê máy photocopy văn phòng</h3>
+          </div>
+          <span class="inline-flex items-center gap-1.5 text-xs font-bold text-[#1A9900] bg-[#1A9900]/10 px-3 py-1.5">
+            <i class="fa-solid fa-check-circle"></i> 100% Máy mới / Chuẩn chính hãng
+          </span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse border border-gray-200 text-sm">
+            <thead>
+              <tr class="bg-[#181924] text-white">
+                <th class="p-3.5 font-bold uppercase tracking-wider text-xs">Gói dịch vụ</th>
+                <th class="p-3.5 font-bold uppercase tracking-wider text-xs">Giá thuê tham khảo</th>
+                <th class="p-3.5 font-bold uppercase tracking-wider text-xs">Định mức bản in</th>
+                <th class="p-3.5 font-bold uppercase tracking-wider text-xs">Phí vượt định mức</th>
+                <th class="p-3.5 font-bold uppercase tracking-wider text-xs">Thiết bị & Tốc độ</th>
+                <th class="p-3.5 font-bold uppercase tracking-wider text-xs">Quy mô phù hợp</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              <tr class="hover:bg-gray-50 transition">
+                <td class="p-3.5 font-bold text-[#181923]">
+                  <div class="text-[15px]">Gói Khởi Nghiệp (Basic)</div>
+                  <span class="text-xs text-gray-500 font-normal">Cho văn phòng nhỏ, start-up</span>
+                </td>
+                <td class="p-3.5 font-bold text-[#1A9900] text-base">Từ 800.000 đ<span class="text-xs text-gray-500 font-normal">/tháng</span></td>
+                <td class="p-3.5 font-semibold text-gray-700">3.000 trang A4/tháng</td>
+                <td class="p-3.5 text-gray-600">100 đ/trang</td>
+                <td class="p-3.5 text-gray-700">Toshiba / Ricoh A3-A4 (23–25 ppm), In-Copy-Scan</td>
+                <td class="p-3.5 text-gray-600">5 – 15 nhân sự</td>
+              </tr>
+              <tr class="bg-[#1A9900]/5 hover:bg-[#1A9900]/10 transition">
+                <td class="p-3.5 font-bold text-[#181923]">
+                  <div class="text-[15px] flex items-center gap-2">Gói Tiêu Chuẩn (Standard) <span class="bg-[#1A9900] text-white text-[10px] px-2 py-0.5 font-bold">Phổ biến nhất</span></div>
+                  <span class="text-xs text-gray-500 font-normal">Doanh nghiệp vừa, trường học</span>
+                </td>
+                <td class="p-3.5 font-bold text-[#1A9900] text-base">Từ 1.200.000 đ<span class="text-xs text-gray-500 font-normal">/tháng</span></td>
+                <td class="p-3.5 font-semibold text-gray-700">5.000 trang A4/tháng</td>
+                <td class="p-3.5 text-gray-600">90 đ/trang</td>
+                <td class="p-3.5 text-gray-700">Toshiba e-STUDIO thế hệ mới (28–35 ppm), đảo 2 mặt tự động</td>
+                <td class="p-3.5 text-gray-600">15 – 40 nhân sự</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition">
+                <td class="p-3.5 font-bold text-[#181923]">
+                  <div class="text-[15px]">Gói Chuyên Nghiệp (Business)</div>
+                  <span class="text-xs text-gray-500 font-normal">Cơ quan, ngân hàng, công ty lớn</span>
+                </td>
+                <td class="p-3.5 font-bold text-[#1A9900] text-base">Từ 1.800.000 đ<span class="text-xs text-gray-500 font-normal">/tháng</span></td>
+                <td class="p-3.5 font-semibold text-gray-700">10.000 trang A4/tháng</td>
+                <td class="p-3.5 text-gray-600">80 đ/trang</td>
+                <td class="p-3.5 text-gray-700">Toshiba / Konica Minolta (45–55 ppm), khay nạp 2.000 tờ</td>
+                <td class="p-3.5 text-gray-600">40 – 100 nhân sự</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition">
+                <td class="p-3.5 font-bold text-[#181923]">
+                  <div class="text-[15px]">Gói Quản Lý Trọn Gói (Enterprise MPS)</div>
+                  <span class="text-xs text-gray-500 font-normal">Hệ thống nhiều chi nhánh, Sở GD&ĐT</span>
+                </td>
+                <td class="p-3.5 font-bold text-[#181923] text-base">Theo sản lượng <span class="text-xs text-gray-500 font-normal">(Pay-per-page)</span></td>
+                <td class="p-3.5 font-semibold text-gray-700">Không giới hạn định mức</td>
+                <td class="p-3.5 text-gray-600">Thỏa thuận theo khối lượng</td>
+                <td class="p-3.5 text-gray-700">Đội máy phân tán, kết nối quản lý counter tự động (như Vietcombank)</td>
+                <td class="p-3.5 text-gray-600">> 100 nhân sự / Nhiều điểm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6 pt-6 border-t border-gray-200">
+          <div class="flex items-start gap-3">
+            <i class="fa-solid fa-certificate text-[#1A9900] text-lg mt-0.5"></i>
+            <div>
+              <h5 class="text-xs font-bold text-[#181923] uppercase">Máy Mới 100% / Chính Hãng</h5>
+              <p class="text-[12.5px] text-gray-500">Đầy đủ CO/CQ, cam kết không cho thuê máy bãi, máy cũ nát.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <i class="fa-solid fa-droplet-slash text-[#1A9900] text-lg mt-0.5"></i>
+            <div>
+              <h5 class="text-xs font-bold text-[#181923] uppercase">0đ Phí Mực & Linh Kiện</h5>
+              <p class="text-[12.5px] text-gray-500">Miễn phí 100% mực in, trống, cụm sấy và linh kiện hao mòn.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <i class="fa-solid fa-rotate text-[#1A9900] text-lg mt-0.5"></i>
+            <div>
+              <h5 class="text-xs font-bold text-[#181923] uppercase">Đổi Máy Trong 24 Giờ</h5>
+              <p class="text-[12.5px] text-gray-500">Đổi máy tương đương ngay nếu sự cố không khắc phục tại chỗ trong 2h.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <i class="fa-solid fa-handshake text-[#1A9900] text-lg mt-0.5"></i>
+            <div>
+              <h5 class="text-xs font-bold text-[#181923] uppercase">Dùng Thử Miễn Phí</h5>
+              <p class="text-[12.5px] text-gray-500">Hỗ trợ trải nghiệm máy thực tế tại văn phòng trước khi ký hợp đồng.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

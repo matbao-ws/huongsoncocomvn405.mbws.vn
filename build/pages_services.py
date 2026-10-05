@@ -67,9 +67,9 @@ def render_hub():
                        lead="Bốn nhóm dịch vụ đi kèm mọi hợp đồng thiết bị của Hương Sơn — từ bảo trì, kỹ thuật, vận hành đến đổi máy cũ lấy máy mới.",
                        trail=trail)
     body += C.answer_first([
-        ["Trang này là gì", "Trang tổng hợp 4 nhóm dịch vụ của Hương Sơn đi kèm với thiết bị đã bán, cho thuê hoặc quản lý."],
-        ["Dành cho ai", "Khách hàng đang sử dụng thiết bị in ấn của Hương Sơn hoặc hãng khác, cần bảo trì, kỹ thuật, vận hành hoặc nâng cấp thiết bị."],
-        ["Giải quyết vấn đề gì", "Một đầu mối dịch vụ cho toàn bộ vòng đời thiết bị, thay vì phải tìm nhiều nhà cung cấp riêng lẻ."],
+        ["Dịch Vụ Đồng Hành Trọn Vòng Đời", "Hương Sơn cung cấp trọn gói 4 dịch vụ cốt lõi: bảo trì – sửa chữa tận nơi, kỹ thuật trực sự cố, vận hành thiết bị điểm in và thu cũ đổi mới."],
+        ["Hỗ Trợ Mọi Dòng Máy Đa Thương Hiệu", "Đáp ứng nhu cầu kỹ thuật cho cả thiết bị Hương Sơn cung cấp và các dòng máy hiện có của khách hàng (Toshiba, Ricoh, Duplo, Konica Minolta, HP)."],
+        ["Cam Kết SLA Xử Lý Nhanh", "Tiếp nhận thông tin ≤ 30 phút, kỹ thuật có mặt ≤ 2 giờ đối với sự cố nghiêm trọng, hỗ trợ kỹ thuật trực tuyến 24/7."],
     ])
     cards = [{
         "title": s["h1"], "url": s["url"], "icon": "fa-solid fa-screwdriver-wrench",

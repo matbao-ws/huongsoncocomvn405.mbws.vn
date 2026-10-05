@@ -281,16 +281,16 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Nơi tải trực tiếp tài liệu, catalogue và hồ sơ năng lực của Hương Sơn.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trung Tâm Tài Nguyên Doanh Nghiệp</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Nơi cung cấp và tải trực tiếp hồ sơ năng lực (PDF) 2026, catalogue chi tiết thiết bị Duplo, Toshiba và mẫu hồ sơ dự toán thầu.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Khách hàng cần tài liệu để lập dự toán, hồ sơ mời thầu hoặc trình lãnh đạo phê duyệt.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Tải Về Nhanh Chóng</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Bấm 'Tải PDF trực tiếp' để nhận ngay Hồ sơ năng lực (15.6 MB) mà không cần đăng ký, hoặc điền form ngắn để nhận trọn bộ Catalogue qua email.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Cách nhận tài liệu</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Quý khách có thể bấm 'Tải PDF trực tiếp' cho Hồ sơ năng lực, hoặc đăng ký form bên dưới để nhận trọn bộ Catalogue qua email.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hỗ Trợ Dự Toán &amp; Hồ Sơ Thầu</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Cung cấp đầy đủ thông số kỹ thuật chuẩn hóa, bảng tính tiêu hao vật tư phục vụ xây dựng hồ sơ mời thầu B2B/B2G minh bạch.</p>
           </div>
       </div>
     </div>

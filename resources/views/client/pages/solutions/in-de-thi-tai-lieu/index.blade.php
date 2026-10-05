@@ -449,15 +449,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Điểm Nổi Bật &amp; Đặc Trưng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Giải pháp thiết bị cho công việc in sản lượng lớn dồn vào thời gian ngắn, gồm cả công đoạn hoàn thiện sau in như phối trang và đóng bộ.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng &amp; Quy Mô Phù Hợp</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Sở GD&ĐT, trường học, cơ quan Nhà nước, trung tâm in của tổ chức và doanh nghiệp có phòng in nội bộ.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hiệu Quả &amp; Cam Kết Vận Hành</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Chọn đúng thiết bị theo sản lượng và tiến độ, thay vì dùng máy văn phòng cho công việc vượt xa công suất thiết kế của nó.</p>
           </div>
       </div>
@@ -706,6 +706,54 @@
       <div class="border-l-4 border-[#1A9900] bg-[#f5f8fb] px-6 py-5">
         <p class="text-[14.5px] text-gray-600 leading-relaxed">Nếu nhu cầu chỉ phát sinh vài đợt mỗi năm, phương án thuê theo đợt thường hiệu quả hơn mua. Xem &lt;a class="text-[#1A9900] font-medium hover:underline" href="/giai-phap/giao-duc/in-de-thi/"&gt;gói thuê máy in đề thi theo kỳ&lt;/a&gt; hoặc &lt;a class="text-[#1A9900] font-medium hover:underline" href="/giai-phap/cho-thue-thiet-bi/"&gt;giải pháp cho thuê thiết bị&lt;/a&gt;.</p>
       </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-[#f5f8fb] ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="my-6 border border-gray-200 bg-white p-6 sm:p-8 shadow-xs">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-gray-200">
+          <div>
+            <span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Chuyên môn khác biệt</span>
+            <h3 class="text-xl sm:text-2xl font-bold text-[#181923]">Ưu thế tuyệt đối của máy in nhân bản siêu tốc Duplo trong in sao đề thi</h3>
+          </div>
+          <span class="inline-flex items-center gap-1.5 text-xs font-bold text-[#1A9900] bg-[#1A9900]/10 px-3 py-1.5">
+            <i class="fa-solid fa-lock"></i> Chuẩn cách ly 3 vòng Bộ GD&ĐT
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="border border-gray-200 p-5 flex flex-col bg-gray-50/50">
+            <span class="text-2xl font-bold text-[#1A9900] mb-1">130 – 150</span>
+            <h4 class="text-sm font-bold text-[#181923] mb-2">Bản in / Phút</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Tốc độ in vượt trội, hoàn thành hàng chục nghìn trang đề thi chỉ trong vài giờ làm việc, nhanh gấp 3–5 lần máy photocopy.</p>
+          </div>
+          <div class="border border-gray-200 p-5 flex flex-col bg-gray-50/50">
+            <span class="text-2xl font-bold text-[#1A9900] mb-1">25 – 40 đ</span>
+            <h4 class="text-sm font-bold text-[#181923] mb-2">Chi phí / Trang in</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Càng in nhiều chi phí càng giảm. Tiết kiệm tới 70–80% ngân sách sao in đề thi so với công nghệ in laser thông thường.</p>
+          </div>
+          <div class="border border-gray-200 p-5 flex flex-col bg-gray-50/50">
+            <span class="text-2xl font-bold text-[#1A9900] mb-1">Dự phòng N+1</span>
+            <h4 class="text-sm font-bold text-[#181923] mb-2">Máy dự phòng tại chỗ</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Luôn bố trí tối thiểu 01 máy dự phòng sẵn sàng tại điểm in, kèm kỹ thuật viên trực hiện trường, bảo đảm không gián đoạn kỳ thi.</p>
+          </div>
+          <div class="border border-gray-200 p-5 flex flex-col bg-gray-50/50">
+            <span class="text-2xl font-bold text-[#1A9900] mb-1">Bảo mật 100%</span>
+            <h4 class="text-sm font-bold text-[#181923] mb-2">Cách ly tuyệt đối</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Thiết bị hoạt động độc lập, không kết nối internet, tuân thủ nghiêm ngặt quy chế an ninh sao in đề thi của Bộ Giáo dục và Đào tạo.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="text-xs text-gray-500">
+            <strong class="text-gray-700">Dự án đã kiểm chứng:</strong> Đã triển khai thành công cho Sở GD&ĐT Vĩnh Phúc (2025) và Sở GD&ĐT Quảng Trị (Kỳ thi Tốt nghiệp THPT 2026).
+          </div>
+          <a href="/du-an/so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026/" class="text-xs font-bold text-[#1A9900] hover:underline uppercase tracking-wider inline-flex items-center gap-1">
+            <span>Xem chi tiết hợp đồng Quảng Trị</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </a>
         </div>
       </div>
     </div>

@@ -222,20 +222,22 @@ def _cta_download():
 # --------------------------------------------------- S11: Năng lực triển khai
 def _capability():
     items = [
-        ("fa-solid fa-warehouse", "Kho thiết bị", "Kho Toshiba, HP MFP, Duplo sẵn sàng triển khai theo hợp đồng."),
-        ("fa-solid fa-user-gear", "Đội kỹ thuật", "Kỹ thuật trực hiện trường, hỗ trợ từ xa, xử lý theo cấp độ SLA."),
-        ("fa-solid fa-truck", "Logistics", "Vận chuyển, lắp đặt, thu hồi thiết bị đúng tiến độ hợp đồng."),
-        ("fa-solid fa-shield-halved", "Máy dự phòng", "Tối thiểu 01 máy dự phòng cho mỗi cụm in của kỳ thi lớn."),
+        ("fa-solid fa-warehouse", "Kho thiết bị sẵn có", "Lưu kho > 200 model máy photocopy Toshiba, Ricoh, Duplo tại Hà Nội sẵn sàng xuất kho trong 24h.", "> 200 Thiết bị sẵn sàng"),
+        ("fa-solid fa-user-gear", "Kỹ sư chứng nhận hãng", "100% kỹ thuật viên đạt chứng chỉ từ Duplo Nhật Bản, Toshiba, Konica Minolta; hỗ trợ 24/7.", "Chứng chỉ hãng chính thức"),
+        ("fa-solid fa-truck-fast", "Logistics an toàn 2H", "Đội xe chuyên dụng có giảm chấn, cam kết vận chuyển và lắp đặt tận nơi trong 2–4 giờ.", "Giao lắp an toàn 2h"),
+        ("fa-solid fa-shield-halved", "Máy dự phòng N+1", "Tối thiểu 01 máy dự phòng sẵn sàng tại chỗ cho kỳ thi lớn, loại bỏ hoàn toàn rủi ro dừng máy.", "Dự phòng N+1 tại chỗ"),
     ]
     cards = "".join(f"""
-        <div class="p-7 text-center" style="background-color: {BEIGE};">
-          <div class="w-14 h-14 bg-[{DARK}] text-white flex items-center justify-center mx-auto mb-5"><i class="{icon} text-xl"></i></div>
+        <div class="p-7 text-center flex flex-col items-center justify-between border border-gray-200/80 bg-white hover:border-[{BRAND}] transition duration-300 shadow-xs">
+          <div class="w-14 h-14 bg-[{DARK}] text-white flex items-center justify-center mx-auto mb-4"><i class="{icon} text-xl"></i></div>
+          <span class="inline-block bg-[#1A9900]/10 text-[#1A9900] text-[10.5px] font-bold px-2 py-0.5 uppercase tracking-wider mb-2">{badge}</span>
           <h3 class="font-bold text-[#181923] mb-2">{esc(t)}</h3>
-          <p class="text-[13.5px] text-gray-500 leading-relaxed">{esc(d)}</p>
-        </div>""" for icon, t, d in items)
+          <p class="text-[13px] text-gray-500 leading-relaxed">{esc(d)}</p>
+        </div>""" for icon, t, d, badge in items)
     return C.section(
         C.heading(eyebrow="Năng lực triển khai", title="Sẵn sàng cho cả nhu cầu theo mùa và dài hạn")
         + f'<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">{cards}</div>', pad="py-16")
+
 
 
 # --------------------------------------------------------------- S12: SLA

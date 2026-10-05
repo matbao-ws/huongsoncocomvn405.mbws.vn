@@ -457,15 +457,15 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Điểm Nổi Bật &amp; Đặc Trưng</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Giải pháp chuyển tài liệu giấy thành dữ liệu số tra cứu được, gồm cả thiết bị, quy trình và dịch vụ thực hiện – không chỉ là bán máy scan.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Đối Tượng &amp; Quy Mô Phù Hợp</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Cơ quan Nhà nước, Sở GD&ĐT, trường học, ngân hàng, doanh nghiệp và các bộ phận văn thư – lưu trữ, thư viện.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Giải quyết vấn đề gì</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hiệu Quả &amp; Cam Kết Vận Hành</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">Đưa khối hồ sơ giấy đang tăng theo năm về dạng dữ liệu tìm được, chia sẻ được và sao lưu được, theo một quy ước thống nhất.</p>
           </div>
       </div>
@@ -718,6 +718,87 @@
       <div class="border-l-4 border-[#1A9900] bg-[#f5f8fb] px-6 py-5">
         <p class="text-[14.5px] text-gray-600 leading-relaxed">Hương Sơn không tự phát triển phần mềm OCR hay hệ thống quản lý tài liệu. Hương Sơn chọn mô hình đối tác để đơn vị có thể dùng công cụ phù hợp nhất với mình, thay vì bị bó vào một sản phẩm duy nhất.</p>
       </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-[#f5f8fb] ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="my-6 border border-gray-200 bg-white p-6 sm:p-8 shadow-xs">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-gray-200">
+          <div>
+            <span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Mẫu dữ liệu thực tế</span>
+            <h3 class="text-xl sm:text-2xl font-bold text-[#181923]">Quy cách & Mẫu dữ liệu bàn giao số hóa tài liệu</h3>
+          </div>
+          <span class="inline-flex items-center gap-1.5 text-xs font-bold text-[#1A9900] bg-[#1A9900]/10 px-3 py-1.5">
+            <i class="fa-solid fa-shield-check"></i> Chuẩn Thông tư 02/2019/TT-BNV
+          </span>
+        </div>
+
+        <p class="text-[14.5px] text-gray-600 leading-relaxed mb-6">
+          Để Quý cơ quan, trường học và doanh nghiệp hoàn toàn an tâm trước khi lựa chọn, Hương Sơn minh bạch 100% quy cách đóng gói và mẫu dữ liệu bàn giao số hóa thực tế theo đúng tiêu chuẩn lưu trữ quốc gia:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div class="border border-gray-200 p-5 bg-gray-50/60 flex flex-col">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="w-10 h-10 bg-[#181924] text-white flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-file-pdf text-base"></i></span>
+              <div>
+                <h4 class="text-sm font-bold text-[#181923]">1. File PDF Searchable OCR Tiếng Việt</h4>
+                <span class="text-xs text-gray-500">Chuẩn lưu trữ ISO 19005-1 (PDF/A-1b)</span>
+              </div>
+            </div>
+            <ul class="text-[13px] text-gray-600 space-y-2 leading-relaxed flex-1">
+              <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[#1A9900] mt-1"></i><span><strong>Độ chính xác OCR:</strong> Đạt ≥ 98% tiếng Việt có dấu, tìm kiếm toàn văn trực tiếp trên Adobe / Foxit Reader.</span></li>
+              <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[#1A9900] mt-1"></i><span><strong>Độ phân giải chuẩn:</strong> 300 DPI (Màu 24-bit hoặc Grayscale), chống cong góc và khử bóng mờ trang giấy.</span></li>
+              <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[#1A9900] mt-1"></i><span><strong>Dung lượng tối ưu:</strong> Nén chuẩn CCITT Group 4 / JBIG2, chỉ khoảng 300KB – 800KB/trang mà vẫn sắc nét.</span></li>
+            </ul>
+          </div>
+
+          <div class="border border-gray-200 p-5 bg-gray-50/60 flex flex-col">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="w-10 h-10 bg-[#181924] text-white flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-file-excel text-base"></i></span>
+              <div>
+                <h4 class="text-sm font-bold text-[#181923]">2. Bảng Chỉ Mục Siêu Dữ Liệu (Metadata Index)</h4>
+                <span class="text-xs text-gray-500">File Excel / CSV / JSON tương thích hệ thống QLVB</span>
+              </div>
+            </div>
+            <ul class="text-[13px] text-gray-600 space-y-2 leading-relaxed flex-1">
+              <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[#1A9900] mt-1"></i><span><strong>Đầy đủ 10 trường tra cứu:</strong> STT, Mã định danh hồ sơ, Tên văn bản, Số hiệu, Ngày ban hành, Cơ quan ban hành, Trích yếu, Số trang, Dung lượng, Mã Hash.</span></li>
+              <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[#1A9900] mt-1"></i><span><strong>Tương thích phần mềm:</strong> Dễ dàng import vào VNPT-iOffice, Viettel vOffice, CSDL Giáo dục MOET và phần mềm lưu trữ nội bộ.</span></li>
+              <li class="flex items-start gap-2"><i class="fa-solid fa-check text-[#1A9900] mt-1"></i><span><strong>Liên kết trực tiếp:</strong> Cột Hyperlink bấm là mở trực tiếp file PDF tương ứng.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border border-gray-200 bg-white p-5 mb-6">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#181923] mb-3 flex items-center gap-2">
+            <i class="fa-solid fa-folder-tree text-[#1A9900]"></i> Cấu trúc cây thư mục bàn giao chuẩn hóa:
+          </h4>
+          <pre class="bg-gray-900 text-gray-200 p-4 text-xs font-mono rounded-xs overflow-x-auto leading-relaxed">
+[DU_LIEU_SO_HOA_HUONG_SON_2026]/
+├── 01_BANG_KE_CHI_MUC_METADATA/
+│   ├── Danh_muc_ho_so_so_hoa_tong_hop.xlsx  (Bảng tra cứu 10 trường dữ liệu)
+│   └── Bang_kiem_tra_ma_bam_SHA256.txt     (Đối soát tính toàn vẹn 100%)
+├── 02_TAI_LIEU_PDF_SEARCHABLE/
+│   ├── [2025_HOC_BA_THPT]/
+│   │   ├── HB_001_NGUYEN_VAN_AN.pdf        (PDF/A-1b 300DPI Searchable)
+│   │   └── HB_002_TRAN_THI_BINH.pdf
+│   └── [2024_HO_SO_CAN_BO]/
+│       ├── HSCB_0142_LE_VAN_CUONG.pdf
+│       └── HSCB_0143_PHAM_THI_DUNG.pdf
+└── 03_BIEN_BAN_NGHIEM_THU_VA_BAN_GIAO/
+    ├── Bien_ban_ban_giao_ho_so_goc.pdf
+    └── Bien_ban_nghiem_thu_chat_luong_so_hoa.pdf</pre>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 bg-[#1A9900]/10 border border-[#1A9900]/30">
+          <div class="flex items-center gap-3">
+            <i class="fa-solid fa-shield-halved text-[#1A9900] text-xl"></i>
+            <span class="text-[13.5px] text-[#181923] font-medium">Cam kết bảo mật dữ liệu tuyệt đối (Ký NDA) và thực hiện số hóa On-site trực tiếp tại trụ sở Quý cơ quan.</span>
+          </div>
+          <a href="/nhan-tu-van/khao-sat-so-hoa/" class="bg-[#1A9900] hover:bg-[#147700] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition whitespace-nowrap">Yêu cầu demo mẫu dữ liệu</a>
         </div>
       </div>
     </div>

@@ -281,16 +281,16 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Chuyên mục tin tức tổng hợp về các dự án thực tế và cẩm nang kiến thức chuyên sâu của Hương Sơn.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Bản Tin Dự Án &amp; Chuyên Môn</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Cập nhật các hoạt động triển khai thực tế, dự án bàn giao thiết bị quy mô lớn và cẩm nang kỹ thuật chuyên sâu của Hương Sơn.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Dành cho ai</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Khách hàng, đối tác và nhà quản lý muốn theo dõi hoạt động triển khai và học hỏi kinh nghiệm in ấn – số hóa.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Bằng Chứng Thực Tế</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Theo dõi chi tiết các hợp đồng cung ứng 127 máy photocopy Vietcombank toàn quốc, dịch vụ thuê máy in sao đề thi THPT của các Sở GD&ĐT.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Nội dung nổi bật</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Các dự án cung cấp thiết bị cho Sở GD&ĐT, Ngân hàng Vietcombank và 16 cẩm nang hướng dẫn kỹ thuật chi tiết.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Kiến Thức Thực Chiến</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Tổng hợp kinh nghiệm bảo mật in ấn cách ly 3 vòng, quy trình số hóa chuẩn Thông tư 02 và bí quyết tối ưu hóa chi phí in ấn văn phòng.</p>
           </div>
       </div>
     </div>

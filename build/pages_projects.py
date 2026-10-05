@@ -75,9 +75,9 @@ def render_hub():
                        trail=trail,
                        image="/assets/images/hero-projects.jpg")
     body += C.answer_first([
-        ["Trang này là gì", "Danh sách dự án Hương Sơn đã triển khai, mỗi dự án có bằng chứng hồ sơ cụ thể."],
-        ["Dành cho ai", "Khách hàng muốn xem năng lực triển khai thực tế của Hương Sơn trước khi quyết định hợp tác."],
-        ["Giải quyết vấn đề gì", "Chứng minh năng lực bằng dự án cụ thể thay vì chỉ mô tả chung chung."],
+        ["Dự Án Quy Mô Lớn", "Hương Sơn đã triển khai thành công nhiều dự án lớn: cung cấp thiết bị cho toàn hệ thống Vietcombank toàn quốc, phục vụ in sao đề thi THPT cho các Sở GD&ĐT."],
+        ["Bằng Chứng Thực Tế", "Mỗi dự án đều có đầy đủ hợp đồng kinh tế, biên bản bàn giao, nhật ký kỹ thuật vận hành và nghiệm thu thanh lý minh bạch."],
+        ["Năng Lực Đảm Bảo", "Cam kết đáp ứng chuẩn xác tiến độ khắt khe, an ninh bảo mật và luôn có phương án máy dự phòng N+1 sẵn sàng tại hiện trường."],
     ])
     cards = [{
         "title": p["title"], "url": p["url"], "tag": p["eyebrow"],

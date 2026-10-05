@@ -275,16 +275,16 @@
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trang này là gì</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Giới thiệu Công ty TNHH Thương mại và Dịch vụ Hương Sơn: lịch sử, lĩnh vực kinh doanh và định hướng phát triển.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Tổng Quan Doanh Nghiệp</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Công ty TNHH Thương mại và Dịch vụ Hương Sơn: lịch sử phát triển từ 2008, đại lý ủy quyền Duplo, Toshiba, Konica Minolta và định hướng cung cấp giải pháp trọn gói 2026–2030.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Thành lập khi nào</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Ngày 01/06/2008, hoạt động trong lĩnh vực thiết bị văn phòng, in ấn, sao chụp, số hóa tài liệu, vật tư và dịch vụ kỹ thuật.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Kinh Nghiệm Thực Tế</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Thành lập ngày 01/06/2008, chuyên sâu trong lĩnh vực thiết bị văn phòng, in sao đề thi giáo dục, số hóa tài liệu lưu trữ và bảo trì kỹ thuật.</p>
           </div>
           <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Định hướng</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Từ doanh nghiệp cung cấp thiết bị chuyển sang đơn vị cung cấp giải pháp thiết bị – in ấn – số hóa – dịch vụ giai đoạn 2026–2030.</p>
+            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Định Hướng Phát Triển</p>
+            <p class="text-[15px] text-[#181923] leading-relaxed">Từ đơn vị cung cấp thiết bị chuyển mình thành nhà cung cấp giải pháp toàn diện: thiết bị – in ấn – số hóa – dịch vụ trọn vòng đời sản phẩm.</p>
           </div>
       </div>
     </div>

@@ -322,15 +322,33 @@ def heading(*, eyebrow, title, sub="", center=True, dark=False):
       </div>"""
 
 
-# --------------------------------------------------------------- answer-first block
+# --------------------------------------------------------------- answer-first / Value Highlight block
+LABEL_NORMALIZATION = {
+    "Trang này là gì": "Điểm Nổi Bật & Đặc Trưng",
+    "Chuyên mục này là gì": "Chuyên Mục Cẩm Nang Chuyên Sâu",
+    "Dành cho ai": "Đối Tượng & Quy Mô Phù Hợp",
+    "Giải quyết vấn đề gì": "Hiệu Quả & Cam Kết Vận Hành",
+    "Điều gì xảy ra sau khi gửi": "Cam Kết Phản Hồi Nhanh Chóng",
+}
+
+
 def answer_first(items):
-    """3 câu trả lời nhanh đầu trang: trang này là gì – cho ai – giải quyết gì.
-    Đây là đoạn AI trích dẫn, nên đặt ngay sau hero và luôn có text thật."""
+    """Khối làm nổi bật 3 giá trị cốt lõi / cam kết dịch vụ đầu trang:
+    Được chuẩn hóa theo ngôn ngữ thương mại B2B, loại bỏ hoàn toàn các tiêu đề khuôn mẫu."""
+    clean_items = []
+    for item in items:
+        if isinstance(item, (list, tuple)) and len(item) == 2:
+            k, v = item
+            clean_k = LABEL_NORMALIZATION.get(k, k)
+            clean_items.append((clean_k, v))
+        else:
+            clean_items.append(item)
+
     rows = "".join(f"""
           <div class="border-l-2 border-[{BRAND}] pl-5">
             <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[{BRAND}] mb-2">{esc(k)}</p>
             <p class="text-[15px] text-[#181923] leading-relaxed">{v}</p>
-          </div>""" for k, v in items)
+          </div>""" for k, v in clean_items)
     return f"""
   <section class="py-10 border-b border-gray-200" style="background-color: {BEIGE};">
     <div class="{WRAP}">
@@ -339,6 +357,7 @@ def answer_first(items):
     </div>
   </section>
 """
+
 
 
 # ------------------------------------------------------------------------ CTA
