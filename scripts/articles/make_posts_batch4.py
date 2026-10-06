@@ -11,7 +11,7 @@ AUTHOR_BOX_HTML = """
     <div class="flex-1 text-center sm:text-left">
       <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-1">
         <h4 class="text-base font-bold text-gray-900 m-0">Nguyễn Công Thuận</h4>
-        <span class="bg-[#1A9900]/10 text-[#1A9900] text-xs font-semibold px-2.5 py-0.5 rounded">Tác giả chuyên môn & Founder</span>
+        <span class="bg-[#1A9900]/10 text-[#1A9900] text-xs font-semibold px-2.5 py-0.5 rounded">Tác giả chuyên gia (E-E-A-T)</span>
       </div>
       <p class="text-xs text-gray-500 font-medium mb-2">Giám đốc Điều hành Công ty TNHH Thiết bị Văn phòng Hương Sơn (Kinh nghiệm thực chiến từ năm 2008)</p>
       <p class="text-sm text-gray-600 leading-relaxed mb-3">Hơn 18 năm kinh nghiệm trực tiếp chỉ đạo, tư vấn và chuyển giao các giải pháp thiết bị in ấn nhân bản siêu tốc Duplo, máy photocopy bảo mật cho các kỳ thi tuyển sinh, tốt nghiệp THPT của các Sở GD&ĐT miền Bắc và hệ thống ngân hàng TMCP hàng đầu Việt Nam.</p>

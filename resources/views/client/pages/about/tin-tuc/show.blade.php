@@ -207,11 +207,6 @@
 <!-- ARTICLE CONTENT -->
 <article class="py-14 sm:py-16 bg-white">
   <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
-    @if($post->image_url)
-      <div class="mb-10 rounded-lg overflow-hidden border border-gray-200 shadow-sm max-h-[480px]">
-        <img src="{{ $post->image_url }}" alt="{{ $post->title }}" class="w-full h-full object-cover" />
-      </div>
-    @endif
 
     @if($post->summary)
       <div class="bg-[#f7f3ee] border-l-4 border-[#1A9900] p-5 sm:p-6 mb-8 rounded-r">
