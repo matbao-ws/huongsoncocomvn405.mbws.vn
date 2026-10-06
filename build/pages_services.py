@@ -15,7 +15,7 @@ SERVICES = render.load("services.json")
 def render_service(s):
     trail = [("Trang chủ", "/"), ("Dịch vụ", "/dich-vu/"), (s["h1"], s["url"])]
     body = C.page_hero(eyebrow=s["eyebrow"], h1=s["h1"], lead=esc(s["lead"]), trail=trail)
-    body += C.answer_first([(k, v) for k, v in s["answer_first"]])
+    body += C.trust_strip()
 
     inner = (f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">{esc(s["summary"])}</p>'
              + '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Phạm vi dịch vụ</h2>'
@@ -66,16 +66,16 @@ def render_hub():
                        h1="Dịch vụ kỹ thuật, bảo trì và vận hành thiết bị",
                        lead="Bốn nhóm dịch vụ đi kèm mọi hợp đồng thiết bị của Hương Sơn — từ bảo trì, kỹ thuật, vận hành đến đổi máy cũ lấy máy mới.",
                        trail=trail)
-    body += C.answer_first([
-        ["Dịch Vụ Đồng Hành Trọn Vòng Đời", "Hương Sơn cung cấp trọn gói 4 dịch vụ cốt lõi: bảo trì – sửa chữa tận nơi, kỹ thuật trực sự cố, vận hành thiết bị điểm in và thu cũ đổi mới."],
-        ["Hỗ Trợ Mọi Dòng Máy Đa Thương Hiệu", "Đáp ứng nhu cầu kỹ thuật cho cả thiết bị Hương Sơn cung cấp và các dòng máy hiện có của khách hàng (Toshiba, Ricoh, Duplo, Konica Minolta, HP)."],
-        ["Cam Kết SLA Xử Lý Nhanh", "Tiếp nhận thông tin ≤ 30 phút, kỹ thuật có mặt ≤ 2 giờ đối với sự cố nghiêm trọng, hỗ trợ kỹ thuật trực tuyến 24/7."],
-    ])
+    body += C.trust_strip()
     cards = [{
         "title": s["h1"], "url": s["url"], "icon": "fa-solid fa-screwdriver-wrench",
         "tag": s["eyebrow"], "text": esc(s["summary"][:150] + "…"),
     } for s in SERVICES]
     body += C.section(C.card_grid(cards, cols=2), pad="py-16")
+    body += C.visual_proof_showcase(title="Quy Trình Kiểm Định PDI & Đội Ngũ Kỹ Sư Thực Tế",
+                                    eyebrow="Năng lực kỹ thuật",
+                                    lead="Mọi thiết bị xuất kho đều qua kiểm định tiêu chuẩn hãng. Kỹ thuật viên có mặt tận nơi xử lý sự cố trong vòng 2 giờ.",
+                                    bg="white")
     body += C.cta_band(title="Cần hỗ trợ dịch vụ ngay?",
                        text="Gọi hotline kỹ thuật hoặc gửi yêu cầu — Hương Sơn tiếp nhận và phân loại mức độ xử lý.")
     ld = [schema.organization(), schema.breadcrumb(trail),

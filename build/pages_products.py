@@ -20,7 +20,7 @@ CAT_BY_SLUG = {c["slug"]: c for c in CATEGORIES}
 def render_category(cat):
     trail = [("Trang chủ", "/"), ("Sản phẩm", "/san-pham/"), (cat["h1"], cat["url"])]
     body = C.page_hero(eyebrow=cat["eyebrow"], h1=cat["h1"], lead=esc(cat["lead"]), trail=trail)
-    body += C.answer_first([(k, v) for k, v in cat["answer_first"]])
+    body += C.trust_strip()
 
     inner = f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">{esc(cat["summary"])}</p>'
     if cat.get("sub_notes"):
@@ -74,11 +74,7 @@ def render_model(m):
 
     body = C.page_hero(eyebrow=cat["eyebrow"], h1=m["name"], lead=esc(m["summary"]), trail=trail,
                        image="/assets/images/hero-office.jpg")
-    body += C.answer_first([
-        ("Model", f'<strong>{esc(m["model"])}</strong> — sản xuất bởi {esc(m["manufacturer"])}'),
-        ("Dùng cho", ", ".join(esc(i) for i in m.get("industry", []))),
-        ("Model tương thích", ", ".join(esc(i) for i in m.get("compatible_model", [])) or "Không áp dụng"),
-    ])
+    body += C.trust_strip()
 
     # ảnh + thông tin nhanh
     quick = f"""
@@ -207,16 +203,16 @@ def render_hub():
         h1="Sản phẩm thiết bị văn phòng, in ấn và số hóa",
         lead="9 nhóm thiết bị Hương Sơn cung cấp: từ máy photocopy đa chức năng đến vật tư tiêu hao — bán, cho thuê và bảo trì.",
         trail=trail)
-    body += C.answer_first([
-        ["Danh Mục Thiết Bị Chính Hãng", "Hương Sơn phân phối và cho thuê 9 nhóm thiết bị chủ lực: máy photocopy đa chức năng, máy in siêu tốc, máy scan tốc độ cao, máy in laser và vật tư chính hãng."],
-        ["Lựa Chọn Đa Dạng & Linh Hoạt", "Cung cấp giải pháp bán mới 100%, cho thuê trọn gói hoặc quản lý vận hành theo sản lượng thực tế (MPS) cho cơ quan, trường học và doanh nghiệp."],
-        ["Hỗ Trợ Kỹ Thuật Trọn Đời", "Cam kết linh kiện thay thế chính hãng sẵn có, đội kỹ thuật chuyên môn cao xử lý sự cố tại chỗ và chính sách máy dự phòng tương đương."],
-    ])
+    body += C.trust_strip()
     cards = [{
         "title": c["h1"], "url": c["url"], "icon": "fa-solid fa-box",
         "tag": c["eyebrow"], "text": esc(c["summary"][:140] + "…"),
     } for c in CATEGORIES]
     body += C.section(C.card_grid(cards, cols=4), pad="py-16")
+    body += C.visual_proof_showcase(title="Năng Lực Kho Bãi & Thiết Bị Sẵn Hàng",
+                                    eyebrow="Kho thiết bị thực tế",
+                                    lead="Kho hàng luôn sẵn có > 200 model máy photocopy Toshiba, Ricoh, máy in nhân bản siêu tốc Duplo và kho phụ tùng chính hãng FANSIPAN.",
+                                    bg="white")
     body += C.cta_band(title="Chưa chắc nên chọn nhóm nào?",
                        text="Mô tả nhu cầu sử dụng — Hương Sơn tư vấn đúng danh mục và model phù hợp.")
     ld = [schema.organization(), schema.breadcrumb(trail),

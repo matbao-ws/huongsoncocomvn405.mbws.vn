@@ -333,21 +333,46 @@
     </div>
   </section>
 
-  <section class="py-10 border-b border-gray-200" style="background-color: rgb(247, 243, 238);">
+  <section class="py-5 border-b border-gray-200 bg-white shadow-xs">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Danh Mục Thiết Bị Chính Hãng</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Hương Sơn phân phối và cho thuê 9 nhóm thiết bị chủ lực: máy photocopy đa chức năng, máy in siêu tốc, máy scan tốc độ cao, máy in laser và vật tư chính hãng.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-shield-halved"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">100% Máy Mới Chính Hãng</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Đầy đủ CO/CQ, nguyên đai nguyên kiện từ Toshiba, Duplo, Konica Minolta.</p>
           </div>
-          <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Lựa Chọn Đa Dạng &amp; Linh Hoạt</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Cung cấp giải pháp bán mới 100%, cho thuê trọn gói hoặc quản lý vận hành theo sản lượng thực tế (MPS) cho cơ quan, trường học và doanh nghiệp.</p>
+        </div>
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">Phản Hồi ≤ 30p · Có Mặt ≤ 2h</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Kỹ sư túc trực hỗ trợ kỹ thuật tận nơi tại Hà Nội &amp; các tỉnh miền Bắc.</p>
           </div>
-          <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hỗ Trợ Kỹ Thuật Trọn Đời</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Cam kết linh kiện thay thế chính hãng sẵn có, đội kỹ thuật chuyên môn cao xử lý sự cố tại chỗ và chính sách máy dự phòng tương đương.</p>
+        </div>
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">Đổi Máy Mới Trong 24 Giờ</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Khắc phục triệt để sự cố phần cứng, cam kết không làm gián đoạn công việc.</p>
           </div>
+        </div>
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">0đ Chi Phí Linh Kiện &amp; Mực</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Trọn gói vật tư tiêu hao, drum, gạt và bảo dưỡng kỹ thuật định kỳ.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -472,6 +497,67 @@
             </a>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16" class="bg-white border-b border-gray-200">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-2">Kho thiết bị thực tế</span>
+        <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] leading-tight mb-3">Năng Lực Kho Bãi &amp; Thiết Bị Sẵn Hàng</h2>
+        <p class="text-[15.5px] text-gray-600 leading-relaxed">Kho hàng luôn sẵn có &gt; 200 model máy photocopy Toshiba, Ricoh, máy in nhân bản siêu tốc Duplo và kho phụ tùng chính hãng FANSIPAN.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="border border-gray-200 bg-white flex flex-col group hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="relative overflow-hidden aspect-[16/10] bg-gray-100">
+            <img src="/assets/images/proof/kho-thiet-bi-huong-son.jpg" alt="Hệ Thống Kho Bãi &amp; Thiết Bị Sẵn Sàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <span class="absolute top-3 left-3 bg-[#181924]/90 text-white text-[10.5px] font-bold uppercase tracking-wider px-2.5 py-1 backdrop-blur-xs">
+              Kho Hàng Sẵn Có &gt; 200 Máy
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col">
+            <h4 class="text-[15.5px] font-bold text-[#181923] mb-2 leading-snug group-hover:text-[#1A9900] transition">Hệ Thống Kho Bãi &amp; Thiết Bị Sẵn Sàng</h4>
+            <p class="text-[13px] text-gray-600 leading-relaxed flex-1">Kho hàng trung tâm lưu trữ hàng trăm máy photocopy Toshiba, Duplo và vật tư FANSIPAN chính hãng, sẵn sàng điều động trong 24–48h.</p>
+          </div>
+        </div>
+        <div class="border border-gray-200 bg-white flex flex-col group hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="relative overflow-hidden aspect-[16/10] bg-gray-100">
+            <img src="/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg" alt="Đội Ngũ Kỹ Sư Đào Tạo Chính Hãng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <span class="absolute top-3 left-3 bg-[#181924]/90 text-white text-[10.5px] font-bold uppercase tracking-wider px-2.5 py-1 backdrop-blur-xs">
+              Quy Trình Kiểm Định PDI
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col">
+            <h4 class="text-[15.5px] font-bold text-[#181923] mb-2 leading-snug group-hover:text-[#1A9900] transition">Đội Ngũ Kỹ Sư Đào Tạo Chính Hãng</h4>
+            <p class="text-[13px] text-gray-600 leading-relaxed flex-1">100% thiết bị trải qua quy trình kiểm tra chất lượng PDI nghiêm ngặt. Kỹ sư được chứng nhận trực tiếp bởi Duplo (Nhật Bản) và Toshiba.</p>
+          </div>
+        </div>
+        <div class="border border-gray-200 bg-white flex flex-col group hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="relative overflow-hidden aspect-[16/10] bg-gray-100">
+            <img src="/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg" alt="Giao Hàng Tận Nơi &amp; Hướng Dẫn Vận Hành" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <span class="absolute top-3 left-3 bg-[#181924]/90 text-white text-[10.5px] font-bold uppercase tracking-wider px-2.5 py-1 backdrop-blur-xs">
+              Bàn Giao Chuyên Nghiệp
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col">
+            <h4 class="text-[15.5px] font-bold text-[#181923] mb-2 leading-snug group-hover:text-[#1A9900] transition">Giao Hàng Tận Nơi &amp; Hướng Dẫn Vận Hành</h4>
+            <p class="text-[13px] text-gray-600 leading-relaxed flex-1">Logistics chuyên dụng, lắp đặt tận bàn giao việc, bàn giao biên bản kiểm tra kỹ thuật và đào tạo nhân sự sử dụng thành thạo.</p>
+          </div>
+        </div>
+        <div class="border border-gray-200 bg-white flex flex-col group hover:border-[#1A9900] transition duration-300 shadow-xs">
+          <div class="relative overflow-hidden aspect-[16/10] bg-gray-100">
+            <img src="/assets/images/proof/ban-giao-vietcombank.jpg" alt="Cung Ứng 127 Máy Cho Vietcombank" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <span class="absolute top-3 left-3 bg-[#181924]/90 text-white text-[10.5px] font-bold uppercase tracking-wider px-2.5 py-1 backdrop-blur-xs">
+              Khách Hàng Tiêu Biểu
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col">
+            <h4 class="text-[15.5px] font-bold text-[#181923] mb-2 leading-snug group-hover:text-[#1A9900] transition">Cung Ứng 127 Máy Cho Vietcombank</h4>
+            <p class="text-[13px] text-gray-600 leading-relaxed flex-1">Triển khai thành công hợp đồng cung cấp 127 máy photocopy cho Vietcombank toàn quốc và phục vụ in sao đề thi THPT các Sở GD&amp;ĐT.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>

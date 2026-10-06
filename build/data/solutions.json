@@ -20,20 +20,6 @@
    "Trường Đại học – Cao đẳng",
    "Trung tâm và đơn vị trực thuộc"
   ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Trang trụ cột tập hợp toàn bộ giải pháp thiết bị, in ấn và số hóa mà Hương Sơn cung cấp cho ngành Giáo dục, chia thành 4 nhóm theo đúng đầu việc của đơn vị."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Sở GD&ĐT (Lãnh đạo, Phòng Khảo thí/QLCLGD, Phòng Kế hoạch – Tài chính), trường THPT/THCS, trường đại học – cao đẳng và các đơn vị trực thuộc."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Đảm bảo năng lực in ấn cho kỳ thi và hoạt động thường xuyên, kiểm soát chi phí in, và chuyển hồ sơ giấy sang dữ liệu số – không cần đơn vị tự đầu tư và tự vận hành thiết bị."
-   ]
-  ],
   "problem": [
    "Kỳ thi có sản lượng in rất lớn dồn vào vài ngày, trong khi thiết bị sẵn có của đơn vị không đủ công suất và không có máy dự phòng.",
    "Đầu tư mua máy cho nhu cầu theo mùa gây tồn đọng tài sản, khấu hao và chi phí bảo trì cả năm cho vài ngày sử dụng.",
@@ -275,20 +261,6 @@
    "Điểm sao in đề thi",
    "Trường THPT"
   ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Dịch vụ cho thuê máy in đề thi và vận hành điểm sao in theo kỳ thi: máy in nhân bản siêu tốc, máy photocopy tốc độ cao, vật tư, kỹ thuật trực và máy dự phòng."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Sở GD&ĐT, Phòng Khảo thí – QLCLGD, Hội đồng thi và các điểm sao in đề thi có nhu cầu in sản lượng lớn trong thời gian ngắn."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Đảm bảo kỳ thi in đủ, in đúng tiến độ và không bị phụ thuộc vào một thiết bị duy nhất – không cần đơn vị đầu tư mua máy cho nhu cầu chỉ dùng theo mùa."
-   ]
-  ],
   "problem": [
    "Sản lượng in của kỳ thi dồn vào một vài ngày, vượt xa công suất thiết bị thường ngày của đơn vị.",
    "Kỳ thi phụ thuộc vào một máy duy nhất: máy dừng là toàn bộ tiến độ sao in dừng theo.",
@@ -500,20 +472,6 @@
    "Văn phòng trường",
    "Đơn vị trực thuộc Sở GD&ĐT"
   ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Dịch vụ cho thuê máy photocopy và máy in A3/A4 phục vụ công việc in ấn thường xuyên của trường học, tính phí theo tháng hoặc theo sản lượng bản in."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Trường THPT, THCS, Tiểu học, phòng giáo vụ, phòng đào tạo, văn phòng trường và các đơn vị trực thuộc Sở GD&ĐT."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Đảm bảo máy luôn hoạt động và chi phí in ấn dự đoán được theo tháng, thay vì đầu tư mua máy rồi tự lo mực, linh kiện và sửa chữa."
-   ]
-  ],
   "problem": [
    "Máy photocopy cũ hỏng liên tục vào đúng đầu năm học và mùa kiểm tra, không có phương án thay thế nhanh.",
    "Chi phí mực, drum, linh kiện và sửa chữa phát sinh rời rạc, khó dự toán cho cả năm học.",
@@ -716,20 +674,6 @@
    "Trường Đại học – Cao đẳng",
    "Trường có nhiều phòng ban",
    "Trung tâm in của đơn vị giáo dục"
-  ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Dịch vụ quản lý in ấn trọn gói: Hương Sơn quản lý thiết bị, vật tư, bảo trì, counter và cam kết SLA cho toàn bộ hệ thống in của đơn vị."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Sở GD&ĐT, trường đại học – cao đẳng, trường lớn nhiều phòng ban và các đơn vị có trung tâm in riêng."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Biến chi phí in rời rạc và khó kiểm soát thành một khoản dịch vụ có số liệu, có cam kết và có báo cáo – đồng thời giảm tải công việc kỹ thuật cho nhân sự của đơn vị."
-   ]
   ],
   "problem": [
    "Nhiều máy của nhiều hãng, nhiều đời, mỗi máy một loại vật tư – việc mua và quản tồn rất phức tạp.",
@@ -944,20 +888,6 @@
    "Thư viện",
    "Bộ phận văn thư – lưu trữ"
   ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Dịch vụ số hóa tài liệu theo quy trình: Hương Sơn không chỉ bán máy scan mà nhận cả công đoạn tiếp nhận, scan, kiểm soát chất lượng, OCR, chuẩn hóa tên và metadata rồi bàn giao dữ liệu."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Sở GD&ĐT và các đơn vị quản lý văn bằng – chứng chỉ, phòng chuyên môn có khối lượng hồ sơ lớn, trường THPT, trung tâm giáo dục, thư viện và bộ phận văn thư – lưu trữ."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Chuyển khối hồ sơ giấy đang tăng liên tục thành dữ liệu tra cứu được, đáp ứng yêu cầu số hóa dữ liệu văn bằng – chứng chỉ của Bộ GD&ĐT, mà không cần đơn vị tự đầu tư thiết bị và tự tổ chức nhân sự scan."
-   ]
-  ],
   "problem": [
    "Khối lượng hồ sơ giấy về văn bằng, chứng chỉ, hồ sơ học sinh, hồ sơ giáo viên và tài liệu lưu trữ tăng liên tục.",
    "Tra cứu một hồ sơ cũ mất nhiều thời gian và phụ thuộc vào người nắm cách sắp xếp.",
@@ -1159,20 +1089,6 @@
    "UBND các cấp",
    "Đơn vị sự nghiệp công lập",
    "Cơ quan hành chính"
-  ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Giải pháp thiết bị, in ấn, scan và số hóa dành riêng cho khu vực công, trong đó phần hồ sơ và quy trình nghiệm thu được coi là một phần của giải pháp chứ không phải việc phát sinh."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Bộ, Sở – ban – ngành, UBND các cấp, đơn vị sự nghiệp công lập và cơ quan hành chính."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Đáp ứng nhu cầu thiết bị và in ấn trong khuôn khổ dự toán và thủ tục của khu vực công, đồng thời chuyển khối hồ sơ lưu trữ giấy sang dữ liệu tra cứu được."
-   ]
   ],
   "problem": [
    "Nhu cầu thiết bị phải được đưa vào dự toán trước, trong khi công việc thực tế lại phát sinh theo đợt và theo mùa.",
@@ -1378,20 +1294,6 @@
    "Công ty bảo hiểm",
    "Công ty chứng khoán"
   ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Giải pháp thiết bị in ấn, scan và quản lý in cho ngân hàng – tổ chức tài chính, tập trung vào tính liên tục của hoạt động và khả năng phục vụ nhiều điểm giao dịch."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Ngân hàng thương mại, chi nhánh và phòng giao dịch, công ty tài chính, bảo hiểm và chứng khoán."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Đảm bảo thiết bị in – copy – scan tại các điểm giao dịch hoạt động liên tục, vật tư không bị thiếu, và chi phí in được quản lý theo từng đơn vị."
-   ]
-  ],
   "problem": [
    "Nhiều điểm giao dịch phân tán, mỗi nơi một số lượng nhỏ thiết bị nhưng đòi hỏi hoạt động liên tục.",
    "Thiết bị dừng tại quầy giao dịch ảnh hưởng trực tiếp đến khách hàng, không có thời gian chờ xử lý dài.",
@@ -1590,20 +1492,6 @@
    "Doanh nghiệp logistics",
    "Công ty bảo hiểm – tài chính",
    "Doanh nghiệp thương mại – dịch vụ"
-  ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Giải pháp in ấn, quản lý tài liệu và số hóa cho doanh nghiệp có nhiều phòng ban, nhiều chi nhánh hoặc nhiều nhà máy."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Tập đoàn, tổng công ty, nhà máy, doanh nghiệp logistics, bảo hiểm – tài chính, thương mại và dịch vụ."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Đưa chi phí in phân tán về một cơ chế quản lý có số liệu và cam kết, đồng thời chuyển hồ sơ giấy sang dữ liệu số dùng chung được."
-   ]
   ],
   "problem": [
    "Thiết bị in mua rải rác qua nhiều năm, nhiều hãng và nhiều đời – không có chuẩn chung.",
@@ -1809,20 +1697,6 @@
    "Trung tâm in của tổ chức",
    "Doanh nghiệp có phòng in nội bộ"
   ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Giải pháp thiết bị cho công việc in sản lượng lớn dồn vào thời gian ngắn, gồm cả công đoạn hoàn thiện sau in như phối trang và đóng bộ."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Sở GD&ĐT, trường học, cơ quan Nhà nước, trung tâm in của tổ chức và doanh nghiệp có phòng in nội bộ."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Chọn đúng thiết bị theo sản lượng và tiến độ, thay vì dùng máy văn phòng cho công việc vượt xa công suất thiết kế của nó."
-   ]
-  ],
   "problem": [
    "Máy photocopy văn phòng không được thiết kế cho sản lượng hàng chục nghìn bản dồn vào vài ngày.",
    "Chi phí một bản in trên máy văn phòng cao hơn nhiều so với máy in nhân bản khi sản lượng lớn.",
@@ -2018,20 +1892,6 @@
    "Bộ phận văn thư – lưu trữ",
    "Thư viện"
   ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Giải pháp chuyển tài liệu giấy thành dữ liệu số tra cứu được, gồm cả thiết bị, quy trình và dịch vụ thực hiện – không chỉ là bán máy scan."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Cơ quan Nhà nước, Sở GD&ĐT, trường học, ngân hàng, doanh nghiệp và các bộ phận văn thư – lưu trữ, thư viện."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Đưa khối hồ sơ giấy đang tăng theo năm về dạng dữ liệu tìm được, chia sẻ được và sao lưu được, theo một quy ước thống nhất."
-   ]
-  ],
   "problem": [
    "Hồ sơ giấy tăng theo năm, chiếm diện tích và xuống cấp theo thời gian.",
    "Tra cứu một hồ sơ cũ phụ thuộc vào người biết cách sắp xếp.",
@@ -2226,20 +2086,6 @@
    "Ngân hàng",
    "Doanh nghiệp",
    "Đơn vị có nhu cầu theo đợt hoặc theo mùa"
-  ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Dịch vụ cho thuê thiết bị in ấn và văn phòng với 4 gói từ thuê máy cơ bản tới quản lý toàn bộ đội máy có SLA và báo cáo."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Sở GD&ĐT, trường học, cơ quan Nhà nước, ngân hàng, doanh nghiệp và mọi đơn vị có nhu cầu theo đợt hoặc chưa muốn đầu tư tài sản."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Có thiết bị dùng ngay mà không cần vốn đầu tư và không phải tự lo mực, linh kiện, sửa chữa hay phương án thay máy."
-   ]
   ],
   "problem": [
    "Nhu cầu thiết bị phát sinh ngay nhưng kinh phí đầu tư chưa có hoặc phải chờ chu kỳ ngân sách.",
@@ -2449,20 +2295,6 @@
    "Ngân hàng",
    "Tập đoàn – tổng công ty",
    "Doanh nghiệp nhiều địa điểm"
-  ],
-  "answer_first": [
-   [
-    "Điểm Nổi Bật & Đặc Trưng",
-    "Dịch vụ quản lý và vận hành toàn bộ hệ thống thiết bị in ấn của một tổ chức, tính theo sản lượng và mức dịch vụ, có số liệu và báo cáo."
-   ],
-   [
-    "Đối Tượng & Quy Mô Phù Hợp",
-    "Tổ chức có nhiều thiết bị ở nhiều phòng ban hoặc nhiều địa điểm: cơ quan Nhà nước, Sở GD&ĐT, trường đại học, ngân hàng, tập đoàn và doanh nghiệp lớn."
-   ],
-   [
-    "Hiệu Quả & Cam Kết Vận Hành",
-    "Chấm dứt tình trạng chi phí in phân tán, không có số liệu và không có cam kết – thay bằng một cơ chế quản lý có counter, có SLA và có báo cáo."
-   ]
   ],
   "problem": [
    "Nhiều máy, nhiều hãng, nhiều đời – mỗi máy một loại vật tư và một cách xử lý.",

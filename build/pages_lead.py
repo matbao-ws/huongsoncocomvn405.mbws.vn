@@ -86,11 +86,7 @@ def _hub():
     body = C.page_hero(eyebrow="Nhận tư vấn", h1="Nhận tư vấn từ Hương Sơn",
                        lead="Chọn đúng nhu cầu để được tư vấn nhanh nhất, hoặc gửi yêu cầu chung để Hương Sơn liên hệ.",
                        trail=trail)
-    body += C.answer_first([
-        ["Kênh Tiếp Nhận Nhu Cầu", "Bộ phận chuyên trách của Hương Sơn tiếp nhận trực tiếp theo 6 nhóm giải pháp trọng tâm: báo giá, thuê máy, in đề thi, số hóa, dịch vụ kỹ thuật và tài liệu."],
-        ["Cam Kết Phản Hồi", "Phản hồi nhanh trong giờ làm việc (T2–T6). Đội ngũ chuyên gia kỹ thuật hỗ trợ trực tuyến 24/7 đối với sự cố khẩn cấp."],
-        ["Bảo Mật Thông Tin", "Mọi thông tin liên hệ và yêu cầu kỹ thuật của Quý đơn vị được bảo mật tuyệt đối, chỉ sử dụng để khảo sát và báo giá phương án tối ưu."],
-    ])
+    body += C.trust_strip()
     cards = "".join(f"""
         <a href="{c['url']}" class="group border border-gray-200 bg-white p-7 flex flex-col items-start hover:border-[{BRAND}] transition">
           <span class="w-12 h-12 bg-[{DARK}] group-hover:bg-[{BRAND}] text-white flex items-center justify-center mb-5 transition"><i class="{c['icon']} text-lg"></i></span>

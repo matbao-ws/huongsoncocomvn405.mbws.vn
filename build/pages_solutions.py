@@ -275,7 +275,7 @@ def render_solution(s):
 
     hero_img = "/assets/images/hero-education.jpg" if "giao-duc" in s.get("url", "") or s.get("slug") == "in-de-thi-tai-lieu" else "/assets/images/hero-solutions.jpg"
     body = C.page_hero(eyebrow=s["eyebrow"], h1=s["h1"], lead=esc(s["lead"]), trail=trail, image=hero_img)
-    body += C.answer_first([(k, v) for k, v in s["answer_first"]])
+    body += C.trust_strip()
 
     # 1. PROBLEM
     b1 = C.bullets([esc(p) for p in s["problem"]], cols=1, icon="fa-solid fa-circle-exclamation")
@@ -386,17 +386,14 @@ def render_hub():
         lead="8 giải pháp Hương Sơn xây dựng theo đúng bài toán từng ngành — mỗi giải pháp trình bày theo 6 bước: Problem → Solution → Equipment → Implementation → Service → ROI.",
         trail=trail,
         image="/assets/images/hero-solutions.jpg")
-    body += C.answer_first([
-        ["Giải Pháp Thiết Kế Theo Ngành", "Tổng hợp 8 gói giải pháp chuyên sâu được thiết kế tối ưu cho Giáo dục, Cơ quan Nhà nước, Ngân hàng – Tài chính và Doanh nghiệp lớn."],
-        ["Khảo Sát Thực Tế & May Đo", "Định cấu hình thiết bị và phương án dịch vụ chính xác theo sản lượng in ấn, yêu cầu bảo mật và ngân sách dự toán của từng đơn vị."],
-        ["Hiệu Quả Đầu Tư & Tối Ưu Chi Phí", "Giúp khách hàng giảm 30–50% chi phí vận hành, loại bỏ rủi ro gián đoạn công việc và chủ động kiểm soát vòng đời tài liệu."],
-    ])
+    body += C.trust_strip()
     top_level = [s for s in SOLUTIONS if not s.get("parent")]
     cards = [{
         "title": s["h1"], "url": s["url"], "icon": "fa-solid fa-diagram-project",
         "tag": s["eyebrow"], "text": esc(s["summary"][:150] + "…"),
     } for s in top_level]
     body += C.section(C.card_grid(cards, cols=4), pad="py-16")
+    body += C.visual_proof_showcase(title="Năng Lực Thiết Bị & Bằng Chứng Triển Khai Thực Tế", bg="beige")
     body += C.cta_band(title="Chưa chắc giải pháp nào phù hợp?",
                        text="Mô tả ngành và nhu cầu cụ thể — Hương Sơn tư vấn đúng giải pháp và gói dịch vụ.")
     ld = [schema.organization(), schema.breadcrumb(trail),

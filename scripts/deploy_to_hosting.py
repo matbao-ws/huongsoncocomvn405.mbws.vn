@@ -30,6 +30,8 @@ FTP_PASS = _env.get("FTP_PASS", "AKdmec3$E6v2fjt$")
 DB_PASS = _env.get("DB_PASSWORD", "b0zZfEZ2~mz_eap7")
 
 DIRECTORIES_TO_INCLUDE = [
+    "assets",
+    "public/assets",
     "ve-huong-son",
     "san-pham",
     "giai-phap",
@@ -215,7 +217,7 @@ if ($phpCli) {
     try {
         require $baseDir . '/vendor/autoload.php';
         $app = require_once $baseDir . '/bootstrap/app.php';
-        $kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
+        $kernel = $app->make(Illuminate\\Contracts\\Console\\Kernel::class);
         $kernel->call('optimize:clear');
         echo "In-process optimize:clear executed successfully.\\n";
     } catch (Throwable $e) {

@@ -74,16 +74,23 @@ def render_hub():
                        lead="Các dự án Hương Sơn đã thực hiện, có hồ sơ hợp đồng, bàn giao và nghiệm thu làm bằng chứng năng lực.",
                        trail=trail,
                        image="/assets/images/hero-projects.jpg")
-    body += C.answer_first([
-        ["Dự Án Quy Mô Lớn", "Hương Sơn đã triển khai thành công nhiều dự án lớn: cung cấp thiết bị cho toàn hệ thống Vietcombank toàn quốc, phục vụ in sao đề thi THPT cho các Sở GD&ĐT."],
-        ["Bằng Chứng Thực Tế", "Mỗi dự án đều có đầy đủ hợp đồng kinh tế, biên bản bàn giao, nhật ký kỹ thuật vận hành và nghiệm thu thanh lý minh bạch."],
-        ["Năng Lực Đảm Bảo", "Cam kết đáp ứng chuẩn xác tiến độ khắt khe, an ninh bảo mật và luôn có phương án máy dự phòng N+1 sẵn sàng tại hiện trường."],
-    ])
+    body += C.trust_strip()
+
+    project_images = {
+        "vietcombank-cung-cap-may-photocopy": "/assets/images/proof/ban-giao-vietcombank.jpg",
+        "so-gddt-quang-tri-thue-may-in-nhan-ban-sieu-toc-2026": "/assets/images/proof/in-sao-de-thi-duplo.jpg",
+        "so-gddt-vinh-phuc-thue-may-photocopy-sao-in-de-thi": "/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg",
+    }
     cards = [{
         "title": p["title"], "url": p["url"], "tag": p["eyebrow"],
+        "image": project_images.get(p["slug"]),
         "text": esc(p["summary"][:160] + "…"), "cta": "Xem case study",
     } for p in PROJECTS]
     body += C.section(C.card_grid(cards, cols=3), pad="py-16")
+    body += C.visual_proof_showcase(title="Năng Lực Thiết Bị & Đội Ngũ Kỹ Sư Triển Khai",
+                                    eyebrow="Bằng chứng uy tín",
+                                    lead="Mọi dự án bàn giao đều có đầy đủ biên bản kiểm định kỹ thuật, nhật ký vận hành và nghiệm thu thanh lý minh bạch.",
+                                    bg="white")
     body += C.cta_band(title="Cần xem thêm năng lực triển khai của Hương Sơn?",
                        text="Tải hồ sơ năng lực đầy đủ hoặc liên hệ trực tiếp để trao đổi chi tiết.",
                        primary=("Tải hồ sơ năng lực", "/ve-huong-son/tai-nguyen/"),

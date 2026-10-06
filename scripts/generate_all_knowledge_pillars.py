@@ -1711,11 +1711,7 @@ def render_hub():
         lead="Tổng hợp kinh nghiệm chuyên sâu, bảng so sánh và phân tích chi phí giúp Quý khách ra quyết định chính xác nhất trước khi mua hoặc thuê thiết bị.",
         trail=trail,
     )
-    body += C.answer_first([
-        ["Chuyên mục này là gì", "Trung tâm kiến thức chuyên sâu gồm 16 bài viết chuẩn mực về máy photocopy, máy in nhân bản siêu tốc Duplo, máy scan số hóa tài liệu và vật tư FANSIPAN."],
-        ["Dành cho ai", "Lãnh đạo đơn vị, phòng Kế hoạch – Tài chính, Ban chỉ đạo thi Sở GD&ĐT, khối văn phòng Ngân hàng và chuyên viên quản trị thiết bị."],
-        ["Giúp giải quyết điều gì", "Nắm rõ chi phí thực tế TCO, so sánh ưu nhược điểm các dòng máy, định mức vật tư in đề thi, hiểu quy trình số hóa chuẩn quốc gia và chọn đúng mực in chính hãng."],
-    ])
+    body += C.trust_strip()
 
     article_cards = []
     for a in KNOWLEDGE_ARTICLES:

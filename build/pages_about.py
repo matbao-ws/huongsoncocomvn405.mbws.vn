@@ -31,11 +31,7 @@ def _about():
         h1="Giới thiệu Công ty Hương Sơn",
         lead="Thiết bị cho hiện tại, giải pháp cho tương lai.",
         trail=trail)
-    body += C.answer_first([
-        ["Tổng Quan Doanh Nghiệp", "Công ty TNHH Thương mại và Dịch vụ Hương Sơn: lịch sử phát triển từ 2008, đại lý ủy quyền Duplo, Toshiba, Konica Minolta và định hướng cung cấp giải pháp trọn gói 2026–2030."],
-        ["Kinh Nghiệm Thực Tế", f"Thành lập ngày {SITE['founded']}, chuyên sâu trong lĩnh vực thiết bị văn phòng, in sao đề thi giáo dục, số hóa tài liệu lưu trữ và bảo trì kỹ thuật."],
-        ["Định Hướng Phát Triển", "Từ đơn vị cung cấp thiết bị chuyển mình thành nhà cung cấp giải pháp toàn diện: thiết bị – in ấn – số hóa – dịch vụ trọn vòng đời sản phẩm."],
-    ])
+    body += C.trust_strip()
 
     paras = [
         f"{SITE['legal_name']} được thành lập ngày {SITE['founded']}, hoạt động trong lĩnh vực thiết bị văn phòng, in ấn, sao chụp, số hóa tài liệu, vật tư và dịch vụ kỹ thuật.",
@@ -45,6 +41,10 @@ def _about():
         "Từ nền tảng kinh nghiệm và năng lực thực tế, giai đoạn 2026–2030, Hương Sơn định hướng phát triển từ doanh nghiệp cung cấp thiết bị thành đơn vị cung cấp giải pháp thiết bị – in ấn – số hóa – dịch vụ. Hương Sơn hướng tới cung cấp giải pháp trọn vòng đời sản phẩm: từ tư vấn, cung cấp và lắp đặt thiết bị đến vật tư, bảo trì, cho thuê, quản lý vận hành và số hóa tài liệu — lấy chất lượng, tính ổn định, hiệu quả đầu tư và dịch vụ đồng hành lâu dài làm nền tảng phát triển.",
     ]
     body += C.section(f'<div class="max-w-4xl">{C.prose(paras)}</div>', pad="py-16")
+    body += C.visual_proof_showcase(title="Năng Lực Thiết Bị & Đội Ngũ Kỹ Sư Thực Tế",
+                                    eyebrow="Bằng chứng năng lực",
+                                    lead="Hương Sơn chứng minh uy tín bằng hệ thống kho hàng quy mô lớn, đội ngũ kỹ sư đào tạo chính hãng và các hợp đồng triển khai thành công.",
+                                    bg="beige")
 
     body += C.section(f"""
       <blockquote class="border-l-4 border-[{BRAND}] pl-8 py-2">
@@ -82,47 +82,45 @@ def _capability():
     trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Hồ sơ năng lực", "/ve-huong-son/nang-luc/")]
     body = C.page_hero(eyebrow="Năng lực triển khai", h1="Hồ sơ năng lực Hương Sơn",
                        lead="Năng lực thiết bị, kho bãi sẵn có, đội ngũ kỹ thuật chính hãng, logistics chuyên dụng và các dự án thực tế.", trail=trail)
-    body += C.answer_first([
-        ["Hệ Thống Kho Bãi Sẵn Có", "Kho hàng trung tâm tại Hà Nội và mạng lưới miền Bắc, luôn sẵn sàng >200 máy photocopy Toshiba, Duplo, Ricoh và kho linh kiện Fansipan chính hãng."],
-        ["Đội Ngũ Kỹ Sư Đào Tạo Chính Hãng", "100% kỹ thuật viên đạt chứng chỉ kỹ thuật trực tiếp từ Duplo (Nhật Bản), Toshiba, Konica Minolta; túc trực hỗ trợ sự cố 24/7."],
-        ["Minh Bạch Hợp Đồng Thực Tế", "Triển khai thành công các hợp đồng quy mô lớn: 127 máy photocopy Vietcombank toàn quốc, phục vụ in sao đề thi THPT Sở GD&ĐT Vĩnh Phúc, Quảng Trị."],
-    ])
+    body += C.trust_strip()
 
     cap_cards = [
         {
-            "icon": "fa-solid fa-warehouse",
+            "image": "/assets/images/proof/kho-thiet-bi-huong-son.jpg",
             "title": "Hệ thống Kho Bãi & Sẵn Sàng Thiết Bị",
-            "text": "Kho hàng rộng tại Hà Nội lưu trữ sẵn hàng trăm model máy photocopy đa chức năng Toshiba, Konica Minolta và máy in nhân bản siêu tốc Duplo. Sẵn sàng điều động thiết bị lớn trong vòng 24–48 giờ cho các dự án và kỳ thi đột xuất.",
+            "text": "Kho hàng rộng tại Hà Nội và mạng lưới miền Bắc luôn sẵn sàng hàng trăm model máy photocopy đa chức năng Toshiba, Konica Minolta và máy in nhân bản siêu tốc Duplo. Sẵn sàng điều động thiết bị lớn trong vòng 24–48 giờ.",
             "badge": "> 200 Thiết bị sẵn có",
         },
         {
-            "icon": "fa-solid fa-user-gear",
+            "image": "/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg",
             "title": "Kỹ Sư Được Đào Tạo Trực Tiếp Từ Hãng",
             "text": "Đội ngũ kỹ thuật viên lành nghề với thâm niên lâu năm, được đào tạo chuyên sâu và cấp chứng chỉ trực tiếp từ Duplo (Nhật Bản), Toshiba và Konica Minolta. Thành thạo cân chỉnh quang học, bo mạch điện tử và bảo dưỡng định kỳ.",
             "badge": "Chứng chỉ hãng chính thức",
         },
         {
-            "icon": "fa-solid fa-clipboard-check",
-            "title": "Quy Trình Kiểm Định PDI Nghiêm Ngặt",
-            "text": "100% thiết bị trước khi xuất kho giao khách hàng đều trải qua quy trình 5 bước kiểm định Pre-Delivery Inspection (PDI): vệ sinh quang học, nạp bản firmware mới nhất, in test độ mịn và độ tương phản đạt chuẩn, niêm phong kiểm soát.",
-            "badge": "100% Kiểm định PDI",
+            "image": "/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg",
+            "title": "Giao Hàng & Hướng Dẫn Vận Hành Tận Nơi",
+            "text": "Đội ngũ kỹ thuật vận chuyển chuyên dụng lắp đặt tận bàn giao việc, bàn giao biên bản kiểm tra kỹ thuật, nạp firmware chuẩn và hướng dẫn cán bộ sử dụng thành thạo mọi tính năng sao in bảo mật.",
+            "badge": "Bàn giao chuẩn B2B",
         },
         {
-            "icon": "fa-solid fa-truck-fast",
-            "title": "Logistics Chuyên Dụng & Giao Lắp Trong 2H",
-            "text": "Đội xe tải giao vận chuyên dụng trang bị giảm xóc khí nén và kích nâng thủy lực, bảo vệ tuyệt đối cụm quang học và gương phản xạ của máy. Cam kết giao nhận và lắp đặt tận nơi trong vòng 2 giờ tại Hà Nội và các tỉnh phía Bắc.",
-            "badge": "Giao lắp an toàn 2h",
+            "image": "/assets/images/proof/in-sao-de-thi-duplo.jpg",
+            "title": "Quy Trình Kiểm Định PDI & Trực Kỹ Thuật 24/7",
+            "text": "100% thiết bị trải qua quy trình 5 bước kiểm định Pre-Delivery Inspection (PDI) nghiêm ngặt trước khi xuất xưởng. Luôn có phương án máy dự phòng N+1 sẵn sàng tại hiện trường.",
+            "badge": "100% Kiểm định PDI",
         },
     ]
 
     cards_html = "".join(f"""
-        <div class="border border-gray-200 bg-white p-7 flex flex-col hover:border-[{BRAND}] transition duration-300 shadow-xs">
-          <div class="flex items-center justify-between mb-4">
-            <span class="w-12 h-12 bg-[{DARK}] text-white flex items-center justify-center"><i class="{c['icon']} text-lg"></i></span>
-            <span class="inline-block bg-[#1A9900]/10 text-[#1A9900] text-[11px] font-bold px-2.5 py-1 uppercase tracking-wider">{c['badge']}</span>
+        <div class="border border-gray-200 bg-white flex flex-col hover:border-[{BRAND}] transition duration-300 shadow-xs group">
+          <div class="relative overflow-hidden aspect-[16/10] bg-gray-100">
+            <img src="{c['image']}" alt="{esc(c['title'])}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <span class="absolute top-3 left-3 bg-[{DARK}]/90 text-white text-[10.5px] font-bold px-2.5 py-1 uppercase tracking-wider backdrop-blur-xs">{c['badge']}</span>
           </div>
-          <h3 class="text-[17px] font-bold text-[#181923] mb-2.5">{c['title']}</h3>
-          <p class="text-[14px] text-gray-500 leading-relaxed flex-1">{c['text']}</p>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[{BRAND}] transition">{c['title']}</h3>
+            <p class="text-[14px] text-gray-600 leading-relaxed flex-1">{c['text']}</p>
+          </div>
         </div>""" for c in cap_cards)
 
     body += C.section(
@@ -201,11 +199,7 @@ def _brands():
     trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Đối tác – Thương hiệu", "/ve-huong-son/doi-tac-thuong-hieu/")]
     body = C.page_hero(eyebrow="Đối tác", h1="Đối tác – Thương hiệu",
                        lead="Các thương hiệu thiết bị Hương Sơn phân phối và hợp tác triển khai.", trail=trail)
-    body += C.answer_first([
-        ["Mạng Lưới Đối Tác Hãng", "Hương Sơn là đại lý ủy quyền phân phối chính thức của DUPLO (Nhật Bản) và TOSHIBA tại miền Bắc từ năm 2017, đại lý Konica Minolta từ 2021."],
-        ["Cam Kết Xuất Xứ Chính Hãng", "100% thiết bị có chứng nhận CO/CQ, chính sách bảo hành chính hãng và bảo đảm linh kiện thay thế trong 5–10 năm."],
-        ["Mô Hình Đa Thương Hiệu", "Tư vấn khách quan theo mô hình Multi-brand: lựa chọn chính xác dòng máy tối ưu nhất theo nhu cầu và ngân sách, không gò bó vào một thương hiệu."],
-    ])
+    body += C.trust_strip()
     rows = [
         ["DUPLO (Nhật Bản)", "Đại lý ủy quyền phân phối chính thức tại miền Bắc Việt Nam", "Từ năm 2017"],
         ["TOSHIBA", "Đại lý ủy quyền phân phối chính thức tại miền Bắc Việt Nam", "Từ năm 2017"],
@@ -230,11 +224,7 @@ def _resources():
     trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Tài nguyên", "/ve-huong-son/tai-nguyen/")]
     body = C.page_hero(eyebrow="Tài liệu", h1="Tài nguyên – Catalogue – Hồ sơ năng lực",
                        lead="Tài liệu Hương Sơn cung cấp để Quý khách tham khảo và đưa vào hồ sơ dự toán.", trail=trail)
-    body += C.answer_first([
-        ["Trung Tâm Tài Nguyên Doanh Nghiệp", "Nơi cung cấp và tải trực tiếp hồ sơ năng lực (PDF) 2026, catalogue chi tiết thiết bị Duplo, Toshiba và mẫu hồ sơ dự toán thầu."],
-        ["Tải Về Nhanh Chóng", "Bấm 'Tải PDF trực tiếp' để nhận ngay Hồ sơ năng lực (15.6 MB) mà không cần đăng ký, hoặc điền form ngắn để nhận trọn bộ Catalogue qua email."],
-        ["Hỗ Trợ Dự Toán & Hồ Sơ Thầu", "Cung cấp đầy đủ thông số kỹ thuật chuẩn hóa, bảng tính tiêu hao vật tư phục vụ xây dựng hồ sơ mời thầu B2B/B2G minh bạch."],
-    ])
+    body += C.trust_strip()
 
     items = [
         ("Hồ sơ năng lực Hương Sơn 2026 (PDF)", "Giới thiệu công ty, năng lực thiết bị, kỹ thuật, logistics và dự án tiêu biểu.", "/assets/docs/ho-so-nang-luc-huong-son.pdf", True),
@@ -271,11 +261,7 @@ def _knowledge_hub():
     trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Kiến thức", "/ve-huong-son/kien-thuc/")]
     body = C.page_hero(eyebrow="Kiến thức", h1="Kiến thức – Tư vấn mua và thuê thiết bị",
                        lead="Nội dung giúp Quý khách ra quyết định: nên thuê hay mua, chọn cấu hình nào, chi phí thực tế ra sao.", trail=trail)
-    body += C.answer_first([
-        ["Cẩm Nang & Tư Vấn Chuyên Sâu", "Chuyên mục hướng dẫn giải đáp các bài toán đầu tư: so sánh thuê vs mua máy, chọn cấu hình máy photocopy, định mức chi phí trang in."],
-        ["Đối Tượng Tham Khảo", "Dành cho lãnh đạo đơn vị, phòng Kế hoạch – Tài chính, bộ phận Mua sắm và đội ngũ kỹ thuật vận hành."],
-        ["Giá Trị Thực Tiễn", "Phân tích số liệu thực tế dựa trên kinh nghiệm triển khai hàng nghìn thiết bị cho khối Giáo dục, Ngân hàng và Doanh nghiệp."],
-    ])
+    body += C.trust_strip()
     topics = [
         "Nên thuê hay mua máy photocopy cho doanh nghiệp?",
         "Chi phí thực tế của một phòng in trường học?",
@@ -302,11 +288,7 @@ def _news_hub():
     trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Tin tức", "/ve-huong-son/tin-tuc/")]
     body = C.page_hero(eyebrow="Tin tức & Sự kiện", h1="Tin tức – Dự án & Cẩm nang chuyên môn",
                        lead="Cập nhật hoạt động triển khai thực tế, dự án bàn giao và các bài viết cẩm nang kỹ thuật chuyên sâu của Hương Sơn.", trail=trail)
-    body += C.answer_first([
-        ["Bản Tin Dự Án & Chuyên Môn", "Cập nhật các hoạt động triển khai thực tế, dự án bàn giao thiết bị quy mô lớn và cẩm nang kỹ thuật chuyên sâu của Hương Sơn."],
-        ["Bằng Chứng Thực Tế", "Theo dõi chi tiết các hợp đồng cung ứng 127 máy photocopy Vietcombank toàn quốc, dịch vụ thuê máy in sao đề thi THPT của các Sở GD&ĐT."],
-        ["Kiến Thức Thực Chiến", "Tổng hợp kinh nghiệm bảo mật in ấn cách ly 3 vòng, quy trình số hóa chuẩn Thông tư 02 và bí quyết tối ưu hóa chi phí in ấn văn phòng."],
-    ])
+    body += C.trust_strip()
 
 
     # Section 1: Featured Knowledge Pillars (Cẩm nang kiến thức nổi bật) with REAL IMAGES!

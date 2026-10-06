@@ -322,41 +322,105 @@ def heading(*, eyebrow, title, sub="", center=True, dark=False):
       </div>"""
 
 
-# --------------------------------------------------------------- answer-first / Value Highlight block
-LABEL_NORMALIZATION = {
-    "Trang này là gì": "Điểm Nổi Bật & Đặc Trưng",
-    "Chuyên mục này là gì": "Chuyên Mục Cẩm Nang Chuyên Sâu",
-    "Dành cho ai": "Đối Tượng & Quy Mô Phù Hợp",
-    "Giải quyết vấn đề gì": "Hiệu Quả & Cam Kết Vận Hành",
-    "Điều gì xảy ra sau khi gửi": "Cam Kết Phản Hồi Nhanh Chóng",
-}
-
-
-def answer_first(items):
-    """Khối làm nổi bật 3 giá trị cốt lõi / cam kết dịch vụ đầu trang:
-    Được chuẩn hóa theo ngôn ngữ thương mại B2B, loại bỏ hoàn toàn các tiêu đề khuôn mẫu."""
-    clean_items = []
-    for item in items:
-        if isinstance(item, (list, tuple)) and len(item) == 2:
-            k, v = item
-            clean_k = LABEL_NORMALIZATION.get(k, k)
-            clean_items.append((clean_k, v))
-        else:
-            clean_items.append(item)
-
-    rows = "".join(f"""
-          <div class="border-l-2 border-[{BRAND}] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[{BRAND}] mb-2">{esc(k)}</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">{v}</p>
-          </div>""" for k, v in clean_items)
+# --------------------------------------------------------------- B2B Trust Proof & SLA Commitments
+def trust_strip():
+    """Thanh cam kết chất lượng dịch vụ & SLA vận hành B2B ngắn gọn, nổi bật:
+    Thay thế toàn bộ khối chữ khuôn mẫu bằng các cam kết kinh doanh cốt lõi."""
+    pillars = [
+        ("fa-solid fa-shield-halved", "100% Máy Mới Chính Hãng", "Đầy đủ CO/CQ, nguyên đai nguyên kiện từ Toshiba, Duplo, Konica Minolta."),
+        ("fa-solid fa-clock-rotate-left", "Phản Hồi ≤ 30p · Có Mặt ≤ 2h", "Kỹ sư túc trực hỗ trợ kỹ thuật tận nơi tại Hà Nội & các tỉnh miền Bắc."),
+        ("fa-solid fa-arrows-rotate", "Đổi Máy Mới Trong 24 Giờ", "Khắc phục triệt để sự cố phần cứng, cam kết không làm gián đoạn công việc."),
+        ("fa-solid fa-hand-holding-dollar", "0đ Chi Phí Linh Kiện & Mực", "Trọn gói vật tư tiêu hao, drum, gạt và bảo dưỡng kỹ thuật định kỳ."),
+    ]
+    cards = "".join(f"""
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[{BRAND}]/10 text-[{BRAND}] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="{icon}"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">{esc(title)}</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">{esc(desc)}</p>
+          </div>
+        </div>""" for icon, title, desc in pillars)
     return f"""
-  <section class="py-10 border-b border-gray-200" style="background-color: {BEIGE};">
+  <section class="py-5 border-b border-gray-200 bg-white shadow-xs">
     <div class="{WRAP}">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">{rows}
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        {cards}
       </div>
     </div>
   </section>
 """
+
+
+def visual_proof_showcase(*, title="Năng Lực Thiết Bị & Bằng Chứng Triển Khai Thực Tế",
+                          eyebrow="Bằng chứng năng lực",
+                          lead="Khẳng định uy tín từ năm 2008 bằng hệ thống kho bãi quy mô lớn, quy trình kiểm định PDI chính hãng và các dự án cung ứng thực tế.",
+                          bg="light"):
+    """Khối hình ảnh thực tế chất lượng cao chứng minh năng lực:
+    Thay thế hoàn toàn nội dung khuôn mẫu dạng tài liệu bằng hình ảnh thực tế."""
+    items = [
+        {
+            "img": "/assets/images/proof/kho-thiet-bi-huong-son.jpg",
+            "tag": "Kho Hàng Sẵn Có > 200 Máy",
+            "title": "Hệ Thống Kho Bãi & Thiết Bị Sẵn Sàng",
+            "desc": "Kho hàng trung tâm lưu trữ hàng trăm máy photocopy Toshiba, Duplo và vật tư FANSIPAN chính hãng, sẵn sàng điều động trong 24–48h.",
+        },
+        {
+            "img": "/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg",
+            "tag": "Quy Trình Kiểm Định PDI",
+            "title": "Đội Ngũ Kỹ Sư Đào Tạo Chính Hãng",
+            "desc": "100% thiết bị trải qua quy trình kiểm tra chất lượng PDI nghiêm ngặt. Kỹ sư được chứng nhận trực tiếp bởi Duplo (Nhật Bản) và Toshiba.",
+        },
+        {
+            "img": "/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg",
+            "tag": "Bàn Giao Chuyên Nghiệp",
+            "title": "Giao Hàng Tận Nơi & Hướng Dẫn Vận Hành",
+            "desc": "Logistics chuyên dụng, lắp đặt tận bàn giao việc, bàn giao biên bản kiểm tra kỹ thuật và đào tạo nhân sự sử dụng thành thạo.",
+        },
+        {
+            "img": "/assets/images/proof/ban-giao-vietcombank.jpg",
+            "tag": "Khách Hàng Tiêu Biểu",
+            "title": "Cung Ứng 127 Máy Cho Vietcombank",
+            "desc": "Triển khai thành công hợp đồng cung cấp 127 máy photocopy cho Vietcombank toàn quốc và phục vụ in sao đề thi THPT các Sở GD&ĐT.",
+        },
+    ]
+
+    cards = "".join(f"""
+        <div class="border border-gray-200 bg-white flex flex-col group hover:border-[{BRAND}] transition duration-300 shadow-xs">
+          <div class="relative overflow-hidden aspect-[16/10] bg-gray-100">
+            <img src="{it['img']}" alt="{esc(it['title'])}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <span class="absolute top-3 left-3 bg-[{DARK}]/90 text-white text-[10.5px] font-bold uppercase tracking-wider px-2.5 py-1 backdrop-blur-xs">
+              {esc(it['tag'])}
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col">
+            <h4 class="text-[15.5px] font-bold text-[#181923] mb-2 leading-snug group-hover:text-[{BRAND}] transition">{esc(it['title'])}</h4>
+            <p class="text-[13px] text-gray-600 leading-relaxed flex-1">{esc(it['desc'])}</p>
+          </div>
+        </div>""" for it in items)
+
+    bg_cls = f'style="background-color: {BEIGE};"' if bg == "beige" else ('class="bg-gray-50 border-b border-gray-200"' if bg == "light" else 'class="bg-white border-b border-gray-200"')
+
+    return f"""
+  <section class="py-16" {bg_cls}>
+    <div class="{WRAP}">
+      <div class="max-w-3xl mb-12">
+        <span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-2">{esc(eyebrow)}</span>
+        <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] leading-tight mb-3">{esc(title)}</h2>
+        <p class="text-[15.5px] text-gray-600 leading-relaxed">{esc(lead)}</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {cards}
+      </div>
+    </div>
+  </section>
+"""
+
+
+def answer_first(items=None):
+    """Hàm tương thích ngược: thay thế hoàn toàn cấu trúc khuôn mẫu bằng thanh cam kết vận hành B2B."""
+    return trust_strip()
 
 
 

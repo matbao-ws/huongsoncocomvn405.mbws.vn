@@ -277,21 +277,46 @@
     </div>
   </section>
 
-  <section class="py-10 border-b border-gray-200" style="background-color: rgb(247, 243, 238);">
+  <section class="py-5 border-b border-gray-200 bg-white shadow-xs">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Trung Tâm Tài Nguyên Doanh Nghiệp</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Nơi cung cấp và tải trực tiếp hồ sơ năng lực (PDF) 2026, catalogue chi tiết thiết bị Duplo, Toshiba và mẫu hồ sơ dự toán thầu.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-shield-halved"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">100% Máy Mới Chính Hãng</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Đầy đủ CO/CQ, nguyên đai nguyên kiện từ Toshiba, Duplo, Konica Minolta.</p>
           </div>
-          <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Tải Về Nhanh Chóng</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Bấm 'Tải PDF trực tiếp' để nhận ngay Hồ sơ năng lực (15.6 MB) mà không cần đăng ký, hoặc điền form ngắn để nhận trọn bộ Catalogue qua email.</p>
+        </div>
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">Phản Hồi ≤ 30p · Có Mặt ≤ 2h</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Kỹ sư túc trực hỗ trợ kỹ thuật tận nơi tại Hà Nội &amp; các tỉnh miền Bắc.</p>
           </div>
-          <div class="border-l-2 border-[#1A9900] pl-5">
-            <p class="text-[11px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">Hỗ Trợ Dự Toán &amp; Hồ Sơ Thầu</p>
-            <p class="text-[15px] text-[#181923] leading-relaxed">Cung cấp đầy đủ thông số kỹ thuật chuẩn hóa, bảng tính tiêu hao vật tư phục vụ xây dựng hồ sơ mời thầu B2B/B2G minh bạch.</p>
+        </div>
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">Đổi Máy Mới Trong 24 Giờ</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Khắc phục triệt để sự cố phần cứng, cam kết không làm gián đoạn công việc.</p>
           </div>
+        </div>
+        <div class="flex items-start space-x-3.5">
+          <span class="w-10 h-10 rounded-xs bg-[#1A9900]/10 text-[#1A9900] flex items-center justify-center flex-shrink-0 text-base">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </span>
+          <div>
+            <h4 class="text-[13px] font-bold text-[#181923] uppercase tracking-wide mb-1 leading-snug">0đ Chi Phí Linh Kiện &amp; Mực</h4>
+            <p class="text-[12px] text-gray-600 leading-relaxed">Trọn gói vật tư tiêu hao, drum, gạt và bảo dưỡng kỹ thuật định kỳ.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
