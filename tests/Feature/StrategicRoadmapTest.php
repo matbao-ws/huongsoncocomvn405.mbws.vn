@@ -115,4 +115,20 @@ class StrategicRoadmapTest extends TestCase
         $response->assertSee('CHO THUÊ &amp; DỊCH VỤ', false);
         $response->assertSee('THIẾT BỊ &amp; VẬT TƯ', false);
     }
+
+    /**
+     * Test homepage Hero displays the problem-solving question and 5 distinct gateways.
+     */
+    public function test_hero_problem_gateway_and_five_doors(): void
+    {
+        $response = $this->get('/');
+        $response->assertOk();
+        $response->assertSee('Anh/Chị Đang Cần Giải Quyết Bài Toán Gì?');
+        $response->assertSee('Tôi cần THUÊ MÁY');
+        $response->assertSee('Tôi cần IN ĐỀ THI / IN SỐ LƯỢNG LỚN');
+        $response->assertSee('Tôi cần SỐ HÓA TÀI LIỆU');
+        $response->assertSee('Tôi cần THIẾT BỊ CHO CƠ QUAN / TRƯỜNG HỌC / DOANH NGHIỆP');
+        $response->assertSee('Tôi cần BẢO TRÌ / VẬN HÀNH / QUẢN LÝ THIẾT BỊ');
+        $response->assertSee('Hương Sơn — từ thiết bị đến giải pháp vận hành tài liệu.');
+    }
 }

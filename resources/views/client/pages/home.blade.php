@@ -245,44 +245,181 @@
 @endsection
 
 @section('content')
-<section class="relative bg-[#181924] min-h-[560px] lg:min-h-[640px] flex items-center overflow-hidden">
+<section class="relative bg-[#181924] pt-14 pb-14 lg:pt-18 lg:pb-18 overflow-hidden">
     <div class="absolute inset-0 z-0">
-      <img src="/assets/images/products/duplo-dp-x550.jpg" alt="Thiết bị Hương Sơn" class="w-full h-full object-cover object-center opacity-40" />
-      <div class="absolute inset-0 bg-gradient-to-r from-[#181924] via-[#181924]/95 to-[#181924]/70"></div>
+      <img src="/assets/images/products/duplo-dp-x550.jpg" alt="Hương Sơn" class="w-full h-full object-cover object-center opacity-25" />
+      <div class="absolute inset-0 bg-gradient-to-b from-[#181924]/90 via-[#181924]/95 to-[#181924]"></div>
     </div>
-    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
-      <div class="max-w-3xl text-white">
-        <span class="font-handwriting text-3xl text-[#5eb74c] font-bold block mb-3">Hương Sơn từ 2008</span>
-        <h1 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-5">
-          Giải pháp Thiết bị, In ấn, Số hóa & Quản lý tài liệu
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <!-- TIÊU ĐỀ: ĐẶT BÀI TOÁN KHÁCH HÀNG LÊN HÀNG ĐẦU -->
+      <div class="max-w-4xl text-center mx-auto mb-10 sm:mb-12">
+        <span class="inline-flex items-center gap-2 bg-[#5eb74c]/15 text-[#5eb74c] text-xs font-bold uppercase tracking-[0.2em] px-4 py-1.5 mb-4 border border-[#5eb74c]/30">
+          <i class="fa-solid fa-circle-question"></i> Tư vấn đúng bài toán thực tế
+        </span>
+        <h1 class="text-3xl sm:text-4xl lg:text-[46px] font-bold text-white leading-tight mb-4">
+          Anh/Chị Đang Cần Giải Quyết Bài Toán Gì?
         </h1>
-        <p class="text-[15px] sm:text-base text-gray-200 mb-8 leading-relaxed font-medium max-w-2xl">
-          Hương Sơn cung cấp thiết bị, cho thuê, bảo trì, in ấn số lượng lớn và số hóa tài liệu cho Cơ quan Nhà nước, Sở GD&ĐT, Trường học, Ngân hàng và Doanh nghiệp.
+        <p class="text-gray-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+          Hãy chọn 1 trong 5 cửa vào chuyên biệt dưới đây để Hương Sơn phân công đúng chuyên gia và gửi phương án chính xác nhất:
         </p>
-        <div class="flex flex-wrap items-center gap-4">
-          <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Yêu cầu báo giá</a>
-          <a href="/giai-phap/giao-duc/in-de-thi/" data-ga="cta_click" class="border border-gray-400 hover:border-white text-white font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Phương án in đề thi</a>
+      </div>
+
+      <!-- 5 CỬA VÀO RẤT RÕ -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-3.5 mb-10">
+        
+        <a href="/thue-may-photocopy-ha-noi/" data-ga="gateway_click" class="bg-[#1e202e] hover:bg-[#1A9900] border border-gray-700/80 hover:border-white/40 p-5 text-white transition-all duration-300 group flex flex-col justify-between shadow-lg relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-14 h-14 bg-white/5 rounded-bl-full pointer-events-none group-hover:scale-110 transition-transform"></div>
+          <div>
+            <div class="flex items-center justify-between mb-3.5">
+              <span class="w-8 h-8 rounded-full bg-white/10 group-hover:bg-white text-white group-hover:text-[#181924] text-sm font-bold flex items-center justify-center transition-colors">
+                ①
+              </span>
+              <span class="text-[10.5px] font-bold uppercase tracking-wider text-gray-400 group-hover:text-white/80 transition-colors">
+                CỬA 01
+              </span>
+            </div>
+            <div class="w-10 h-10 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-3 text-white transition-colors">
+              <i class="fa-solid fa-copy text-lg"></i>
+            </div>
+            <h3 class="text-[14.5px] font-bold text-white mb-2 leading-snug group-hover:text-white transition-colors">
+              Tôi cần THUÊ MÁY
+            </h3>
+            <p class="text-gray-300 group-hover:text-white/90 text-[12px] leading-relaxed mb-4">
+              Máy photocopy &amp; máy in mới 100%, giá từ 800k/tháng, 0đ tiền cọc, miễn phí mực &amp; linh kiện.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gray-700/60 group-hover:border-white/20 flex items-center justify-between text-xs font-bold text-[#5eb74c] group-hover:text-white transition-colors">
+            <span class="text-[11px] truncate mr-1">0đ cọc • Từ 800k</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform flex-shrink-0"></i>
+          </div>
+        </a>
+        <a href="/giai-phap/giao-duc/in-de-thi/" data-ga="gateway_click" class="bg-[#1e202e] hover:bg-[#1A9900] border border-gray-700/80 hover:border-white/40 p-5 text-white transition-all duration-300 group flex flex-col justify-between shadow-lg relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-14 h-14 bg-white/5 rounded-bl-full pointer-events-none group-hover:scale-110 transition-transform"></div>
+          <div>
+            <div class="flex items-center justify-between mb-3.5">
+              <span class="w-8 h-8 rounded-full bg-white/10 group-hover:bg-white text-white group-hover:text-[#181924] text-sm font-bold flex items-center justify-center transition-colors">
+                ②
+              </span>
+              <span class="text-[10.5px] font-bold uppercase tracking-wider text-gray-400 group-hover:text-white/80 transition-colors">
+                CỬA 02
+              </span>
+            </div>
+            <div class="w-10 h-10 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-3 text-white transition-colors">
+              <i class="fa-solid fa-print text-lg"></i>
+            </div>
+            <h3 class="text-[14.5px] font-bold text-white mb-2 leading-snug group-hover:text-white transition-colors">
+              Tôi cần IN ĐỀ THI / IN SỐ LƯỢNG LỚN
+            </h3>
+            <p class="text-gray-300 group-hover:text-white/90 text-[12px] leading-relaxed mb-4">
+              Máy in siêu tốc Duplo ép lạnh 130–180 ppm, bảo mật cách ly 3 vòng, dự phòng N+1.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gray-700/60 group-hover:border-white/20 flex items-center justify-between text-xs font-bold text-[#5eb74c] group-hover:text-white transition-colors">
+            <span class="text-[11px] truncate mr-1">Duplo 180 ppm • N+1</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform flex-shrink-0"></i>
+          </div>
+        </a>
+        <a href="/giai-phap/scan-so-hoa/" data-ga="gateway_click" class="bg-[#1e202e] hover:bg-[#1A9900] border border-gray-700/80 hover:border-white/40 p-5 text-white transition-all duration-300 group flex flex-col justify-between shadow-lg relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-14 h-14 bg-white/5 rounded-bl-full pointer-events-none group-hover:scale-110 transition-transform"></div>
+          <div>
+            <div class="flex items-center justify-between mb-3.5">
+              <span class="w-8 h-8 rounded-full bg-white/10 group-hover:bg-white text-white group-hover:text-[#181924] text-sm font-bold flex items-center justify-center transition-colors">
+                ③
+              </span>
+              <span class="text-[10.5px] font-bold uppercase tracking-wider text-gray-400 group-hover:text-white/80 transition-colors">
+                CỬA 03
+              </span>
+            </div>
+            <div class="w-10 h-10 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-3 text-white transition-colors">
+              <i class="fa-solid fa-file-arrow-up text-lg"></i>
+            </div>
+            <h3 class="text-[14.5px] font-bold text-white mb-2 leading-snug group-hover:text-white transition-colors">
+              Tôi cần SỐ HÓA TÀI LIỆU
+            </h3>
+            <p class="text-gray-300 group-hover:text-white/90 text-[12px] leading-relaxed mb-4">
+              Scan ADF &amp; Flatbed tốc độ cao, OCR tiếng Việt ≥ 98%, lưu trữ PDF/A chuẩn TT 02 &amp; học bạ MOET.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gray-700/60 group-hover:border-white/20 flex items-center justify-between text-xs font-bold text-[#5eb74c] group-hover:text-white transition-colors">
+            <span class="text-[11px] truncate mr-1">OCR ≥ 98% • PDF/A</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform flex-shrink-0"></i>
+          </div>
+        </a>
+        <a href="/san-pham/" data-ga="gateway_click" class="bg-[#1e202e] hover:bg-[#1A9900] border border-gray-700/80 hover:border-white/40 p-5 text-white transition-all duration-300 group flex flex-col justify-between shadow-lg relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-14 h-14 bg-white/5 rounded-bl-full pointer-events-none group-hover:scale-110 transition-transform"></div>
+          <div>
+            <div class="flex items-center justify-between mb-3.5">
+              <span class="w-8 h-8 rounded-full bg-white/10 group-hover:bg-white text-white group-hover:text-[#181924] text-sm font-bold flex items-center justify-center transition-colors">
+                ④
+              </span>
+              <span class="text-[10.5px] font-bold uppercase tracking-wider text-gray-400 group-hover:text-white/80 transition-colors">
+                CỬA 04
+              </span>
+            </div>
+            <div class="w-10 h-10 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-3 text-white transition-colors">
+              <i class="fa-solid fa-building-columns text-lg"></i>
+            </div>
+            <h3 class="text-[14.5px] font-bold text-white mb-2 leading-snug group-hover:text-white transition-colors">
+              Tôi cần THIẾT BỊ CHO CƠ QUAN / TRƯỜNG HỌC / DOANH NGHIỆP
+            </h3>
+            <p class="text-gray-300 group-hover:text-white/90 text-[12px] leading-relaxed mb-4">
+              Máy photocopy đa năng, máy in laser, màn hình tương tác ViewSonic đầy đủ chứng chỉ CO/CQ.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gray-700/60 group-hover:border-white/20 flex items-center justify-between text-xs font-bold text-[#5eb74c] group-hover:text-white transition-colors">
+            <span class="text-[11px] truncate mr-1">Đầy đủ CO/CQ • Dự thầu</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform flex-shrink-0"></i>
+          </div>
+        </a>
+        <a href="/dich-vu/bao-tri-sua-chua/" data-ga="gateway_click" class="bg-[#1e202e] hover:bg-[#1A9900] border border-gray-700/80 hover:border-white/40 p-5 text-white transition-all duration-300 group flex flex-col justify-between shadow-lg relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-14 h-14 bg-white/5 rounded-bl-full pointer-events-none group-hover:scale-110 transition-transform"></div>
+          <div>
+            <div class="flex items-center justify-between mb-3.5">
+              <span class="w-8 h-8 rounded-full bg-white/10 group-hover:bg-white text-white group-hover:text-[#181924] text-sm font-bold flex items-center justify-center transition-colors">
+                ⑤
+              </span>
+              <span class="text-[10.5px] font-bold uppercase tracking-wider text-gray-400 group-hover:text-white/80 transition-colors">
+                CỬA 05
+              </span>
+            </div>
+            <div class="w-10 h-10 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-3 text-white transition-colors">
+              <i class="fa-solid fa-screwdriver-wrench text-lg"></i>
+            </div>
+            <h3 class="text-[14.5px] font-bold text-white mb-2 leading-snug group-hover:text-white transition-colors">
+              Tôi cần BẢO TRÌ / VẬN HÀNH / QUẢN LÝ THIẾT BỊ
+            </h3>
+            <p class="text-gray-300 group-hover:text-white/90 text-[12px] leading-relaxed mb-4">
+              Bảo dưỡng định kỳ, cứu hộ kỹ thuật SLA ≤ 2h, quản lý sản lượng in ấn MPS trọn gói vật tư.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gray-700/60 group-hover:border-white/20 flex items-center justify-between text-xs font-bold text-[#5eb74c] group-hover:text-white transition-colors">
+            <span class="text-[11px] truncate mr-1">SLA ≤ 2h • Đổi máy 24h</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform flex-shrink-0"></i>
+          </div>
+        </a>
+      </div>
+
+      <!-- RỒI PHÍA DƯỚI MỚI: HƯƠNG SƠN — TỪ THIẾT BỊ ĐẾN GIẢI PHÁP VẬN HÀNH TÀI LIỆU -->
+      <div class="pt-7 border-t border-gray-800/80 flex flex-col md:flex-row items-center justify-between gap-6 bg-white/[0.02] p-6 sm:p-7 border border-white/5">
+        <div class="text-center md:text-left">
+          <span class="font-handwriting text-2xl text-[#5eb74c] font-bold block mb-1">Hương Sơn từ 2008</span>
+          <h2 class="text-base sm:text-lg lg:text-xl font-bold text-white tracking-wide">
+            Hương Sơn — từ thiết bị đến giải pháp vận hành tài liệu.
+          </h2>
+          <p class="text-xs text-gray-400 mt-1 max-w-2xl leading-relaxed">
+            Đại lý ủy quyền Duplo, Toshiba, Konica Minolta tại miền Bắc • Kinh nghiệm 127 máy Vietcombank, in sao đề thi Sở GD&amp;ĐT Vĩnh Phúc, Quảng Trị • SLA cứu hộ ≤ 2 giờ.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center md:justify-end gap-3 flex-shrink-0">
+          <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition shadow-sm">
+            Yêu cầu báo giá
+          </a>
+          <a href="tel:0911138583" class="border border-gray-600 hover:border-white text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition flex items-center gap-2">
+            <i class="fa-solid fa-phone text-[#5eb74c]"></i> 091.113.8583
+          </a>
         </div>
       </div>
     </div>
-  </section>
-  <section class="bg-[#181924] pb-12 pt-0">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 md:grid-cols-3 gap-6 -mt-14 relative z-20">
-        <a href="/giai-phap/giao-duc/in-de-thi/" data-ga="cta_click" class="bg-[#181924] hover:bg-[#1A9900] border border-gray-700/80 p-8 text-white transition-colors duration-300 group">
-          <div class="w-11 h-11 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-6"><i class="fa-solid fa-print text-lg"></i></div>
-          <h3 class="text-lg font-bold text-white mb-2 uppercase tracking-wider">Thuê máy in đề thi</h3>
-          <p class="text-gray-300 group-hover:text-white/90 text-sm leading-relaxed">Duplo tốc độ cao, kèm máy dự phòng và kỹ thuật trực.</p>
-        </a>
-        <a href="/giai-phap/cho-thue-thiet-bi/" data-ga="cta_click" class="bg-[#181924] hover:bg-[#1A9900] border border-gray-700/80 p-8 text-white transition-colors duration-300 group">
-          <div class="w-11 h-11 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-6"><i class="fa-solid fa-copy text-lg"></i></div>
-          <h3 class="text-lg font-bold text-white mb-2 uppercase tracking-wider">Thuê máy photocopy</h3>
-          <p class="text-gray-300 group-hover:text-white/90 text-sm leading-relaxed">Theo tháng hoặc theo sản lượng, có bảo trì và vật tư.</p>
-        </a>
-        <a href="/giai-phap/scan-so-hoa/" data-ga="cta_click" class="bg-[#181924] hover:bg-[#1A9900] border border-gray-700/80 p-8 text-white transition-colors duration-300 group">
-          <div class="w-11 h-11 bg-white/10 group-hover:bg-white/20 flex items-center justify-center mb-6"><i class="fa-solid fa-file-arrow-up text-lg"></i></div>
-          <h3 class="text-lg font-bold text-white mb-2 uppercase tracking-wider">Khảo sát số hóa</h3>
-          <p class="text-gray-300 group-hover:text-white/90 text-sm leading-relaxed">Scan – OCR – chuẩn hóa dữ liệu cho hồ sơ, văn bằng.</p>
-        </a></div></div>
   </section>
   <section class="py-8 bg-white border-b border-gray-200">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="flex flex-wrap items-center justify-center md:justify-between gap-8"><span class="text-sm md:text-base font-extrabold tracking-wider text-gray-400 hover:text-[#181924] transition">DUPLO</span><span class="text-sm md:text-base font-extrabold tracking-wider text-gray-400 hover:text-[#181924] transition">TOSHIBA</span><span class="text-sm md:text-base font-extrabold tracking-wider text-gray-400 hover:text-[#181924] transition">RICOH</span><span class="text-sm md:text-base font-extrabold tracking-wider text-gray-400 hover:text-[#181924] transition">KONICA MINOLTA</span><span class="text-sm md:text-base font-extrabold tracking-wider text-gray-400 hover:text-[#181924] transition">HP</span><span class="text-sm md:text-base font-extrabold tracking-wider text-gray-400 hover:text-[#181924] transition">FANSIPAN</span></div></div>
