@@ -6,12 +6,20 @@ Nguyên tắc (Bộ hồ sơ §Nguyên tắc xây dựng): phần "năng lực h
 thông tin đã chứng minh được (website cũ, hồ sơ hợp đồng); phần "định hướng
 2027-2028" là chiến lược đề xuất, không viết như thành tích đã đạt.
 """
+import os
+import sys
 import render
 import schema
 import components as C
 import forms
 from render import SITE, BRAND, DARK
 from components import esc, BEIGE
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+from scripts.articles.data_strategic_posts import STRATEGIC_POSTS
 
 
 def build(write):
@@ -20,7 +28,13 @@ def build(write):
     write("/ve-huong-son/doi-tac-thuong-hieu/", _brands())
     write("/ve-huong-son/tai-nguyen/", _resources())
     write("/ve-huong-son/tin-tuc/", _news_hub())
-    print("  về Hương Sơn: 5 trang")
+    for p in STRATEGIC_POSTS:
+        slug = p["slug"]
+        page_html = _strategic_post_page(p)
+        write(f"/ve-huong-son/tin-tuc/{slug}/", page_html)
+        write(f"/tin-tuc/{slug}/", page_html)
+    print(f"  về Hương Sơn: 5 trang + {len(STRATEGIC_POSTS)} bài viết chiến lược (2 URL/bài)")
+
 
 
 # ------------------------------------------------------------------- 1. Giới thiệu
@@ -290,8 +304,100 @@ def _news_hub():
                        lead="Cập nhật hoạt động triển khai thực tế, dự án bàn giao và các bài viết cẩm nang kỹ thuật chuyên sâu của Hương Sơn.", trail=trail)
     body += C.trust_strip()
 
+    # Section 1: Strategic In-Depth Solution Pillars (Chuyên đề giải pháp chiến lược)
+    strategic_cards = []
+    for p in STRATEGIC_POSTS:
+        slug = p["slug"]
+        url = f"/ve-huong-son/tin-tuc/{slug}/"
+        tag = p.get("tag", "Chiến lược")
+        reading = p.get("reading_time", "10 phút đọc")
+        img = p.get("image_url", "/assets/images/proof/in-sao-de-thi-duplo.jpg")
+        title = p["title"]
+        summary = p["summary"]
+        strategic_cards.append(f"""
+        <article class="border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[{BRAND}] hover:shadow-lg transition-all duration-300" data-category="{tag}">
+          <div class="h-56 overflow-hidden relative">
+            <img src="{img}" alt="{esc(title)}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[{BRAND}] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md">
+              {tag}
+            </div>
+            <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-xs text-white text-[10.5px] font-medium px-2.5 py-0.5 rounded">
+              <i class="fa-regular fa-clock mr-1 text-[#5eb74c]"></i>{reading}
+            </div>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+              <i class="fa-solid fa-calendar-days text-[#1A9900]"></i>
+              <span>{p.get('published_at', '')[:10]}</span>
+              <span class="text-gray-300">•</span>
+              <span class="font-medium text-gray-600">Hương Sơn</span>
+            </div>
+            <h3 class="text-[17px] sm:text-[18px] font-bold text-[#181923] mb-3 group-hover:text-[{BRAND}] transition leading-snug line-clamp-2">
+              <a href="{url}">{esc(title)}</a>
+            </h3>
+            <p class="text-gray-600 text-[14px] leading-relaxed mb-5 flex-1 line-clamp-3">
+              {esc(summary)}
+            </p>
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+              <a href="{url}" class="inline-flex items-center space-x-1.5 text-[{BRAND}] font-bold text-xs uppercase tracking-wider group-hover:underline">
+                <span>Đọc bài viết</span>
+                <i class="fa-solid fa-arrow-right text-[11px]"></i>
+              </a>
+              <span class="text-xs text-gray-400 font-medium">Chi tiết giải pháp</span>
+            </div>
+          </div>
+        </article>
+        """)
 
-    # Section 1: Featured Knowledge Pillars (Cẩm nang kiến thức nổi bật) with REAL IMAGES!
+    filter_tabs = f"""
+    <div class="flex flex-wrap items-center gap-2 mb-8" id="article-filter-tabs">
+      <button type="button" class="filter-btn active bg-[{BRAND}] text-white px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="all">Tất cả bài viết</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Giáo Dục & In Đề Thi">Giáo Dục & In Đề Thi</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Ngân Hàng & Bảo Mật">Ngân Hàng & Bảo Mật</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Chiến Lược & Dịch Vụ">Chiến Lược & Dịch Vụ</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Số Hóa & OCR">Số Hóa & OCR</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Hoàn Thiện Sau In">Hoàn Thiện Sau In</button>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {{
+      const btns = document.querySelectorAll('#article-filter-tabs .filter-btn');
+      const cards = document.querySelectorAll('#strategic-articles-grid article');
+      btns.forEach(btn => {{
+        btn.addEventListener('click', function() {{
+          btns.forEach(b => {{
+            b.classList.remove('bg-[' + '{BRAND}' + ']', 'text-white', 'active');
+            b.classList.add('bg-gray-100', 'text-gray-700');
+          }});
+          this.classList.remove('bg-gray-100', 'text-gray-700');
+          this.classList.add('bg-[' + '{BRAND}' + ']', 'text-white', 'active');
+          const filter = this.getAttribute('data-filter');
+          cards.forEach(c => {{
+            if (filter === 'all' || c.getAttribute('data-category') === filter) {{
+              c.style.display = '';
+            }} else {{
+              c.style.display = 'none';
+            }}
+          }});
+        }});
+      }});
+    }});
+    </script>
+    """
+
+    body += C.section(
+        '<div class="flex items-center justify-between mb-4 flex-wrap gap-4">'
+        '<div>'
+        f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Chuyên đề chiến lược</span>'
+        '<h2 class="text-2xl sm:text-[32px] font-bold text-gray-900 leading-tight">Giải pháp thiết bị in ấn &amp; Chuyển đổi số toàn diện</h2>'
+        '</div>'
+        '<span class="text-xs text-gray-500 font-medium">Bám sát chiến lược &amp; Năng lực thực tế của Hương Sơn</span>'
+        '</div>'
+        + filter_tabs
+        + f'<div id="strategic-articles-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">{"".join(strategic_cards)}</div>',
+        pad="py-16"
+    )
+
+    # Section 2: Featured Knowledge Pillars (Cẩm nang kiến thức nổi bật) with REAL IMAGES!
     featured_articles = [
         {
             "title": "Nên thuê hay mua máy photocopy cho doanh nghiệp, trường học?",
@@ -358,7 +464,7 @@ def _news_hub():
         pad="py-16"
     )
 
-    # Section 2: Case Studies & Projects with REAL IMAGES!
+    # Section 3: Case Studies & Projects with REAL IMAGES!
     case_studies = [
         {
             "title": "Sở GD&ĐT Quảng Trị – Thuê máy in nhân bản siêu tốc Duplo 2026",
@@ -409,3 +515,187 @@ def _news_hub():
         title="Tin Tức & Cẩm Nang Thiết Bị In Ấn, Số Hóa | Hương Sơn",
         description="Cập nhật tin tức dự án bàn giao thiết bị, cẩm nang in ấn đề thi, hướng dẫn chọn máy photocopy và số hóa tài liệu tại Hương Sơn.",
         url="/ve-huong-son/tin-tuc/", body=body, jsonld=ld, active="/ve-huong-son/")
+
+
+def _strategic_post_page(post):
+    slug = post["slug"]
+    title = post["title"]
+    url = f"/ve-huong-son/tin-tuc/{slug}/"
+    tag = post.get("tag", "Chiến lược")
+    reading = post.get("reading_time", "12 phút đọc")
+    published = post.get("published_at", "2026-10-06 08:00:00")
+    img = post.get("image_url", "/assets/images/proof/in-sao-de-thi-duplo.jpg")
+
+    trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Tin tức", "/ve-huong-son/tin-tuc/"), (title, url)]
+
+    # Page Hero
+    hero = f"""
+  <section class="relative bg-[#0d1626] py-10 sm:py-14 lg:py-16 overflow-hidden border-b border-white/10">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-gradient-to-br from-[#0a1526] via-[#0d1e38] to-[#12284c]"></div>
+      <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(rgba(255,255,255,0.2) 1px, transparent 1px); background-size: 28px 28px;"></div>
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-[{BRAND}]/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+    </div>
+    <div class="relative z-10 max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div class="flex items-center justify-start mb-4">
+        <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm flex-wrap" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-white flex items-center gap-1.5 transition"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i><span>Trang chủ</span></a>
+          <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i>
+          <a href="/ve-huong-son/tin-tuc/" class="text-gray-200 hover:text-white transition">Tin tức</a>
+          <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i>
+          <span class="text-[#84e372] font-semibold">{esc(title)}</span>
+        </nav>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div class="lg:col-span-8 text-left">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#5eb74c] mb-2.5">
+            <span class="w-2 h-2 rounded-full bg-[#5eb74c] inline-block animate-pulse"></span>
+            Chuyên đề giải pháp · {tag}
+          </div>
+          <h1 class="text-2xl sm:text-[32px] lg:text-[38px] font-extrabold text-white mb-3.5 leading-[1.35] tracking-normal drop-shadow-md">
+            {esc(title)}
+          </h1>
+          <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-6 text-xs text-gray-200">
+            <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 backdrop-blur-sm"><i class="fa-solid fa-calendar-check text-[#5eb74c]"></i> <span>{published[:10]}</span></div>
+            <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 backdrop-blur-sm"><i class="fa-solid fa-user-tie text-[#ffc107]"></i> <span>Tác giả: Nguyễn Công Thuận</span></div>
+            <div class="inline-flex items-center gap-1.5 bg-white/10 border border-white/15 px-3 py-1.5 backdrop-blur-sm"><i class="fa-solid fa-clock text-cyan-400"></i> <span>{reading}</span></div>
+          </div>
+          <div class="flex flex-wrap items-center gap-3.5 sm:gap-4">
+            <a href="/nhan-tu-van/bao-gia/" data-ga="cta_click" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-7 py-3.5 transition flex items-center gap-2 shadow-lg shadow-[{BRAND}]/30 border border-[#5eb74c]/50">
+              <span>Yêu Cầu Báo Giá Nhanh</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+            <a href="tel:{SITE['hotline_primary_tel']}" class="border border-white/30 hover:border-[#5eb74c] hover:bg-white/10 text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition flex items-center gap-2 backdrop-blur-sm">
+              <i class="fa-solid fa-phone text-[#5eb74c]"></i>
+              <span>Hotline: {SITE['hotline_primary']}</span>
+            </a>
+          </div>
+        </div>
+        <div class="lg:col-span-4 relative mt-4 lg:mt-0">
+          <div class="relative mx-auto max-w-[380px] lg:max-w-none rounded-xl overflow-hidden border border-white/20 shadow-2xl group">
+            <img src="{img}" alt="{esc(title)}" class="w-full h-auto object-cover max-h-[280px] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 left-3 right-3 text-white text-xs flex items-center justify-between">
+              <span class="font-bold flex items-center gap-1.5"><i class="fa-solid fa-certificate text-[#5eb74c]"></i> Hương Sơn Solutions</span>
+              <span class="bg-[{BRAND}] text-white text-[10px] font-bold px-2 py-0.5 rounded">Chính Hãng</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  """
+
+    # Body Content
+    article_html = f"""
+  <article class="py-14 sm:py-16 bg-white">
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
+      {post['content_html']}
+
+      <!-- Share and tags -->
+      <div class="mt-12 pt-6 border-t border-gray-200 flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-2">
+          <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Chia sẻ bài viết:</span>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://huongsonco.com.vn{url}" target="_blank" rel="noopener" class="w-8 h-8 rounded bg-[#1877F2] text-white flex items-center justify-center hover:opacity-90 transition">
+            <i class="fa-brands fa-facebook-f text-xs"></i>
+          </a>
+          <a href="https://zalo.me" target="_blank" rel="noopener" class="w-8 h-8 rounded bg-[#0068ff] text-white flex items-center justify-center hover:opacity-90 transition font-bold text-[10px]">
+            Zalo
+          </a>
+        </div>
+        <div>
+          <a href="/ve-huong-son/tin-tuc/" class="text-sm font-bold text-[{BRAND}] hover:underline inline-flex items-center">
+            <i class="fa-solid fa-arrow-left mr-2 text-xs"></i> Trở lại danh sách tin tức
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+  """
+
+    # Related posts
+    related = [p for p in STRATEGIC_POSTS if p["id"] != post["id"]][:3]
+    rel_cards = []
+    for r in related:
+        r_slug = r["slug"]
+        r_url = f"/ve-huong-son/tin-tuc/{r_slug}/"
+        r_img = r.get("image_url", "/assets/images/proof/in-sao-de-thi-duplo.jpg")
+        rel_cards.append(f"""
+      <article class="bg-white border border-gray-200 rounded overflow-hidden flex flex-col group hover:shadow-md transition">
+        <div class="h-44 overflow-hidden relative">
+          <img src="{r_img}" alt="{esc(r['title'])}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+          <div class="absolute top-2.5 left-2.5 bg-[{BRAND}] text-white text-[10px] font-bold px-2 py-0.5 rounded">
+            {r.get('tag', '')}
+          </div>
+        </div>
+        <div class="p-5 flex flex-col flex-1">
+          <span class="text-[11px] text-gray-400 mb-1 block">{r.get('published_at', '')[:10]}</span>
+          <h4 class="font-bold text-[15px] text-[#181923] group-hover:text-[{BRAND}] transition line-clamp-2 mb-2">
+            <a href="{r_url}">{esc(r['title'])}</a>
+          </h4>
+          <p class="text-xs text-gray-500 line-clamp-2 mb-3 flex-1">{esc(r['summary'])}</p>
+          <a href="{r_url}" class="text-xs font-bold text-[{BRAND}] hover:underline">
+            Đọc tiếp &rarr;
+          </a>
+        </div>
+      </article>
+      """)
+
+    related_section = f"""
+  <section class="py-12 bg-[#f7f3ee] border-t border-gray-200">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8">
+      <h3 class="text-xl font-bold text-[#10203C] mb-6">Chuyên đề giải pháp liên quan</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {''.join(rel_cards)}
+      </div>
+    </div>
+  </section>
+  """
+
+    body = hero + article_html + related_section
+
+    ld = [
+        schema.organization(),
+        schema.breadcrumb(trail),
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": title,
+            "description": post.get("seo_desc", post.get("summary", "")),
+            "image": f"https://huongsonco.com.vn{img}" if img.startswith("/") else img,
+            "datePublished": published,
+            "dateModified": published,
+            "author": {
+                "@type": "Person",
+                "name": "Nguyễn Công Thuận",
+                "jobTitle": "Giám đốc",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Hương Sơn",
+                    "url": "https://huongsonco.com.vn/"
+                }
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Hương Sơn",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://huongsonco.com.vn/assets/images/brand/HUONG_SON_logo.svg"
+                }
+            },
+            "mainEntityOfPage": f"https://huongsonco.com.vn{url}"
+        }
+    ]
+
+    return render.page(
+        title=f"{post.get('seo_title', title)} | Hương Sơn",
+        description=post.get("seo_desc", post.get("summary", "")),
+        url=url,
+        body=body,
+        jsonld=ld,
+        active="/ve-huong-son/",
+        og_type="article",
+        og_image=img
+    )
+

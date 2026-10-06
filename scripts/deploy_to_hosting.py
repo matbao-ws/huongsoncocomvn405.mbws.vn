@@ -33,6 +33,7 @@ DIRECTORIES_TO_INCLUDE = [
     "assets",
     "public/assets",
     "ve-huong-son",
+    "tin-tuc",
     "san-pham",
     "giai-phap",
     "dich-vu",

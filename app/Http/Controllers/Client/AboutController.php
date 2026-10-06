@@ -42,11 +42,14 @@ class AboutController extends Controller
             ->where('is_active', true)
             ->where(function ($q) use ($postSlug) {
                 $q->where('slug', $postSlug)
-                  ->orWhere('slug->vi', $postSlug)
-                  ->orWhere('slug->en', $postSlug)
                   ->orWhereHas('localizedSlugs', function ($lq) use ($postSlug) {
                       $lq->where('slug', $postSlug);
                   });
+
+                if (config('database.default') !== 'sqlite') {
+                    $q->orWhere('slug->vi', $postSlug)
+                      ->orWhere('slug->en', $postSlug);
+                }
             })
             ->first();
 

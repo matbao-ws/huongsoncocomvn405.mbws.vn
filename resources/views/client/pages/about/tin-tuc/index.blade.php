@@ -322,6 +322,209 @@
   </section>
 
   <section class="py-16 bg-white ">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center justify-between mb-4 flex-wrap gap-4"><div><span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Chuyên đề chiến lược</span><h2 class="text-2xl sm:text-[32px] font-bold text-gray-900 leading-tight">Giải pháp thiết bị in ấn &amp; Chuyển đổi số toàn diện</h2></div><span class="text-xs text-gray-500 font-medium">Bám sát chiến lược &amp; Năng lực thực tế của Hương Sơn</span></div>
+    <div class="flex flex-wrap items-center gap-2 mb-8" id="article-filter-tabs">
+      <button type="button" class="filter-btn active bg-[#1A9900] text-white px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="all">Tất cả bài viết</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Giáo Dục & In Đề Thi">Giáo Dục & In Đề Thi</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Ngân Hàng & Bảo Mật">Ngân Hàng & Bảo Mật</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Chiến Lược & Dịch Vụ">Chiến Lược & Dịch Vụ</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Số Hóa & OCR">Số Hóa & OCR</button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Hoàn Thiện Sau In">Hoàn Thiện Sau In</button>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const btns = document.querySelectorAll('#article-filter-tabs .filter-btn');
+      const cards = document.querySelectorAll('#strategic-articles-grid article');
+      btns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          btns.forEach(b => {
+            b.classList.remove('bg-[' + '#1A9900' + ']', 'text-white', 'active');
+            b.classList.add('bg-gray-100', 'text-gray-700');
+          });
+          this.classList.remove('bg-gray-100', 'text-gray-700');
+          this.classList.add('bg-[' + '#1A9900' + ']', 'text-white', 'active');
+          const filter = this.getAttribute('data-filter');
+          cards.forEach(c => {
+            if (filter === 'all' || c.getAttribute('data-category') === filter) {
+              c.style.display = '';
+            } else {
+              c.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+    </script>
+    <div id="strategic-articles-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <article class="border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-lg transition-all duration-300" data-category="Giáo Dục & In Đề Thi">
+          <div class="h-56 overflow-hidden relative">
+            <img src="/assets/images/proof/in-sao-de-thi-duplo.jpg" alt="Giải Pháp Máy In Nhân Bản Siêu Tốc Duplo In Sao Đề Thi THPT &amp; Tuyển Sinh Cho Các Sở GD&amp;ĐT" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md">
+              Giáo Dục & In Đề Thi
+            </div>
+            <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-xs text-white text-[10.5px] font-medium px-2.5 py-0.5 rounded">
+              <i class="fa-regular fa-clock mr-1 text-[#5eb74c]"></i>12 phút đọc
+            </div>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+              <i class="fa-solid fa-calendar-days text-[#1A9900]"></i>
+              <span>2026-10-06</span>
+              <span class="text-gray-300">•</span>
+              <span class="font-medium text-gray-600">Hương Sơn</span>
+            </div>
+            <h3 class="text-[17px] sm:text-[18px] font-bold text-[#181923] mb-3 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              <a href="/ve-huong-son/tin-tuc/giai-phap-may-in-sieu-toc-duplo-in-sao-de-thi-thpt-so-gddt/">Giải Pháp Máy In Nhân Bản Siêu Tốc Duplo In Sao Đề Thi THPT &amp; Tuyển Sinh Cho Các Sở GD&amp;ĐT</a>
+            </h3>
+            <p class="text-gray-600 text-[14px] leading-relaxed mb-5 flex-1 line-clamp-3">
+              Giải pháp toàn diện ứng dụng máy in nhân bản siêu tốc Duplo (Nhật Bản) trong công tác in sao đề thi tốt nghiệp THPT và tuyển sinh lớp 10 tại các Sở GD&amp;ĐT: đáp ứng nghiêm ngặt quy chế cách ly 3 vòng, tốc độ 150–180 bản/phút, cơ chế in rulo lạnh không sinh nhiệt, loại bỏ nguy cơ kẹt giấy kèm phương án máy dự phòng N+1.
+            </p>
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+              <a href="/ve-huong-son/tin-tuc/giai-phap-may-in-sieu-toc-duplo-in-sao-de-thi-thpt-so-gddt/" class="inline-flex items-center space-x-1.5 text-[#1A9900] font-bold text-xs uppercase tracking-wider group-hover:underline">
+                <span>Đọc bài viết</span>
+                <i class="fa-solid fa-arrow-right text-[11px]"></i>
+              </a>
+              <span class="text-xs text-gray-400 font-medium">Chi tiết giải pháp</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-lg transition-all duration-300" data-category="Ngân Hàng & Doanh Nghiệp">
+          <div class="h-56 overflow-hidden relative">
+            <img src="/assets/images/proof/ban-giao-vietcombank.jpg" alt="Giải Pháp Cho Thuê Máy Photocopy &amp; Quản Lý In Ấn Bảo Mật Toàn Diện Cho Hệ Thống Ngân Hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md">
+              Ngân Hàng & Doanh Nghiệp
+            </div>
+            <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-xs text-white text-[10.5px] font-medium px-2.5 py-0.5 rounded">
+              <i class="fa-regular fa-clock mr-1 text-[#5eb74c]"></i>11 phút đọc
+            </div>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+              <i class="fa-solid fa-calendar-days text-[#1A9900]"></i>
+              <span>2026-10-06</span>
+              <span class="text-gray-300">•</span>
+              <span class="font-medium text-gray-600">Hương Sơn</span>
+            </div>
+            <h3 class="text-[17px] sm:text-[18px] font-bold text-[#181923] mb-3 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              <a href="/ve-huong-son/tin-tuc/giai-phap-cho-thue-may-photocopy-bao-mat-ngan-hang-doanh-nghiep/">Giải Pháp Cho Thuê Máy Photocopy &amp; Quản Lý In Ấn Bảo Mật Toàn Diện Cho Hệ Thống Ngân Hàng</a>
+            </h3>
+            <p class="text-gray-600 text-[14px] leading-relaxed mb-5 flex-1 line-clamp-3">
+              Giải pháp cho thuê máy photocopy đa chức năng Toshiba và Ricoh đáp ứng các tiêu chuẩn bảo mật dữ liệu tài chính khắt khe nhất của hệ thống ngân hàng: mã hóa ổ cứng SED 256-bit AES, xóa dữ liệu tự động Data Overwrite Security, in phân quyền xác thực thẻ từ RFID và cam kết phản ứng kỹ thuật SLA có mặt trong 2 giờ.
+            </p>
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+              <a href="/ve-huong-son/tin-tuc/giai-phap-cho-thue-may-photocopy-bao-mat-ngan-hang-doanh-nghiep/" class="inline-flex items-center space-x-1.5 text-[#1A9900] font-bold text-xs uppercase tracking-wider group-hover:underline">
+                <span>Đọc bài viết</span>
+                <i class="fa-solid fa-arrow-right text-[11px]"></i>
+              </a>
+              <span class="text-xs text-gray-400 font-medium">Chi tiết giải pháp</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-lg transition-all duration-300" data-category="Chiến Lược Doanh Nghiệp">
+          <div class="h-56 overflow-hidden relative">
+            <img src="/assets/images/proof/kho-thiet-bi-huong-son.jpg" alt="Chiến Lược Chuyển Dịch Từ "Bán Máy Truyền Thống" Sang "Cho Thuê Kèm Giải Pháp &amp; Dịch Vụ" – Khác Biệt Hóa Thời Kỳ Thế Giới Phẳng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md">
+              Chiến Lược Doanh Nghiệp
+            </div>
+            <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-xs text-white text-[10.5px] font-medium px-2.5 py-0.5 rounded">
+              <i class="fa-regular fa-clock mr-1 text-[#5eb74c]"></i>12 phút đọc
+            </div>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+              <i class="fa-solid fa-calendar-days text-[#1A9900]"></i>
+              <span>2026-10-06</span>
+              <span class="text-gray-300">•</span>
+              <span class="font-medium text-gray-600">Hương Sơn</span>
+            </div>
+            <h3 class="text-[17px] sm:text-[18px] font-bold text-[#181923] mb-3 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              <a href="/ve-huong-son/tin-tuc/chuyen-dich-mo-hinh-tu-ban-may-sang-cho-thue-va-dich-vu-tron-goi/">Chiến Lược Chuyển Dịch Từ "Bán Máy Truyền Thống" Sang "Cho Thuê Kèm Giải Pháp &amp; Dịch Vụ" – Khác Biệt Hóa Thời Kỳ Thế Giới Phẳng</a>
+            </h3>
+            <p class="text-gray-600 text-[14px] leading-relaxed mb-5 flex-1 line-clamp-3">
+              Trong một 'thế giới phẳng' nơi giá bán phần cứng máy photocopy ngày càng bão hòa, Công ty Hương Sơn tạo lập lợi thế cạnh tranh bền vững bằng chiến lược dịch chuyển sang mô hình Cho thuê trọn gói kèm Giải pháp chuyển đổi số và Dịch vụ đồng hành: Khách hàng chỉ chi trả cho hiệu quả bản in, 0đ vốn đầu tư, 0đ rủi ro kỹ thuật.
+            </p>
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+              <a href="/ve-huong-son/tin-tuc/chuyen-dich-mo-hinh-tu-ban-may-sang-cho-thue-va-dich-vu-tron-goi/" class="inline-flex items-center space-x-1.5 text-[#1A9900] font-bold text-xs uppercase tracking-wider group-hover:underline">
+                <span>Đọc bài viết</span>
+                <i class="fa-solid fa-arrow-right text-[11px]"></i>
+              </a>
+              <span class="text-xs text-gray-400 font-medium">Chi tiết giải pháp</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-lg transition-all duration-300" data-category="Chuyển Đổi Số & Số Hóa">
+          <div class="h-56 overflow-hidden relative">
+            <img src="/assets/images/banners/highspeed_scanner_1787905830483.jpg" alt="Quy Trình Số Hóa Hồ Sơ Tài Liệu Theo Thông Tư 02/2019/TT-BNV &amp; Học Bạ Điện Tử Chuẩn MOET" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md">
+              Chuyển Đổi Số & Số Hóa
+            </div>
+            <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-xs text-white text-[10.5px] font-medium px-2.5 py-0.5 rounded">
+              <i class="fa-regular fa-clock mr-1 text-[#5eb74c]"></i>10 phút đọc
+            </div>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+              <i class="fa-solid fa-calendar-days text-[#1A9900]"></i>
+              <span>2026-10-06</span>
+              <span class="text-gray-300">•</span>
+              <span class="font-medium text-gray-600">Hương Sơn</span>
+            </div>
+            <h3 class="text-[17px] sm:text-[18px] font-bold text-[#181923] mb-3 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              <a href="/ve-huong-son/tin-tuc/quy-trinh-so-hoa-tai-lieu-thong-tu-02-va-hoc-ba-dien-tu-moet/">Quy Trình Số Hóa Hồ Sơ Tài Liệu Theo Thông Tư 02/2019/TT-BNV &amp; Học Bạ Điện Tử Chuẩn MOET</a>
+            </h3>
+            <p class="text-gray-600 text-[14px] leading-relaxed mb-5 flex-1 line-clamp-3">
+              Hướng dẫn chi tiết quy trình 6 bước số hóa hồ sơ tài liệu lưu trữ vĩnh viễn theo Thông tư 02/2019/TT-BNV của Bộ Nội Vụ và học bạ điện tử trường học chuẩn Bộ GD&amp;ĐT: tiêu chuẩn kỹ thuật máy scan tốc độ cao Ricoh fi-8170, độ phân giải 300–400 DPI, chuẩn định dạng PDF/A-1a và công nghệ bóc tách dữ liệu OCR tiếng Việt.
+            </p>
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+              <a href="/ve-huong-son/tin-tuc/quy-trinh-so-hoa-tai-lieu-thong-tu-02-va-hoc-ba-dien-tu-moet/" class="inline-flex items-center space-x-1.5 text-[#1A9900] font-bold text-xs uppercase tracking-wider group-hover:underline">
+                <span>Đọc bài viết</span>
+                <i class="fa-solid fa-arrow-right text-[11px]"></i>
+              </a>
+              <span class="text-xs text-gray-400 font-medium">Chi tiết giải pháp</span>
+            </div>
+          </div>
+        </article>
+        
+        <article class="border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-lg transition-all duration-300" data-category="Thiết Bị Hoàn Thiện Sau In">
+          <div class="h-56 overflow-hidden relative">
+            <img src="/assets/images/products/duplo-dfc-122.jpg" alt="Giải Pháp Máy Phối Trang, Gập Ghim Tự Động Duplo DFC: Tối Ưu 80% Thời Gian Đóng Tập Đề Thi &amp; Tài Liệu" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md">
+              Thiết Bị Hoàn Thiện Sau In
+            </div>
+            <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-xs text-white text-[10.5px] font-medium px-2.5 py-0.5 rounded">
+              <i class="fa-regular fa-clock mr-1 text-[#5eb74c]"></i>10 phút đọc
+            </div>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+              <i class="fa-solid fa-calendar-days text-[#1A9900]"></i>
+              <span>2026-10-06</span>
+              <span class="text-gray-300">•</span>
+              <span class="font-medium text-gray-600">Hương Sơn</span>
+            </div>
+            <h3 class="text-[17px] sm:text-[18px] font-bold text-[#181923] mb-3 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              <a href="/ve-huong-son/tin-tuc/giai-phap-may-phoi-trang-gap-ghim-tu-dong-duplo-dfc-hoan-thien-sau-in/">Giải Pháp Máy Phối Trang, Gập Ghim Tự Động Duplo DFC: Tối Ưu 80% Thời Gian Đóng Tập Đề Thi &amp; Tài Liệu</a>
+            </h3>
+            <p class="text-gray-600 text-[14px] leading-relaxed mb-5 flex-1 line-clamp-3">
+              Giải pháp máy phối trang và dập ghim tự động liên hoàn Duplo DFC Series (Nhật Bản): Giải quyết triệt để nút thắt cổ chai sau in ấn, tự động chia trang, gấp đôi và đóng tập đề thi, tài liệu hội nghị với tốc độ lên đến 4.200 bộ/giờ, trang bị cảm biến phát hiện đúp tờ và sót trang tuyệt đối chính xác.
+            </p>
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+              <a href="/ve-huong-son/tin-tuc/giai-phap-may-phoi-trang-gap-ghim-tu-dong-duplo-dfc-hoan-thien-sau-in/" class="inline-flex items-center space-x-1.5 text-[#1A9900] font-bold text-xs uppercase tracking-wider group-hover:underline">
+                <span>Đọc bài viết</span>
+                <i class="fa-solid fa-arrow-right text-[11px]"></i>
+              </a>
+              <span class="text-xs text-gray-400 font-medium">Chi tiết giải pháp</span>
+            </div>
+          </div>
+        </article>
+        </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-white ">
     <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center justify-between mb-8 flex-wrap gap-4"><div><span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Cẩm nang chuyên sâu</span><h2 class="text-2xl sm:text-[30px] font-bold text-gray-900 leading-tight">Bài viết cẩm nang &amp; Hướng dẫn kỹ thuật</h2></div><a href="/ve-huong-son/kien-thuc/" class="inline-flex items-center gap-2 text-[#1A9900] hover:text-[#147700] font-bold text-xs uppercase tracking-wider transition border border-[#1A9900]/30 hover:border-[#1A9900] px-4 py-2 rounded-xs"><span>Xem tất cả 16 bài cẩm nang</span><i class="fa-solid fa-arrow-right text-[11px]"></i></a></div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
