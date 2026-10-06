@@ -105,4 +105,22 @@ class StrategicArticlesTest extends TestCase
         $response->assertSee('Gập Ghim');
         $response->assertSee('Nguyễn Công Thuận');
     }
+
+    public function test_all_15_strategic_articles_return_ok(): void
+    {
+        $jsonPath = base_path('scripts/articles/strategic_posts.json');
+        $postsData = json_decode(file_get_contents($jsonPath), true);
+        $this->assertCount(15, $postsData);
+
+        foreach ($postsData as $p) {
+            $slug = $p['slug'];
+            $res = $this->get("/ve-huong-son/tin-tuc/{$slug}");
+            $res->assertOk();
+            $res->assertSee($p['title']);
+            $res->assertSee('Nguyễn Công Thuận');
+
+            $aliasRes = $this->get("/tin-tuc/{$slug}");
+            $aliasRes->assertOk();
+        }
+    }
 }

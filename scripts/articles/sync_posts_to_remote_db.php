@@ -24,11 +24,11 @@ if (file_exists($envFile)) {
     }
 }
 
-$host = $env['DB_HOST'] ?? '203.205.31.252';
+$host = (isset($env['DB_HOST']) && $env['DB_HOST'] !== 'localhost' && $env['DB_HOST'] !== '127.0.0.1') ? $env['DB_HOST'] : '203.205.31.252';
 $port = (int)($env['DB_PORT'] ?? 3306);
 $db   = $env['DB_DATABASE'] ?? 'db_fe7be79e';
 $user = $env['DB_USERNAME'] ?? 'db_fe7be79e';
-$pass = $env['DB_PASSWORD'] ?? 'b0zZfEZ2~mz_eap7';
+$pass = 'b0zZfEZ2~mz_eap7';
 
 try {
     $pdo = new PDO("mysql:host=$host;port=$port;dbname=$db;charset=utf8mb4", $user, $pass, [

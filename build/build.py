@@ -11,6 +11,7 @@ import shutil
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
+sys.path.insert(0, ROOT)
 
 import render  # noqa: E402
 import schema  # noqa: E402
@@ -37,17 +38,13 @@ def write_raw(name, text):
             f.write(text)
 
 
-# ------------------------------------------------------------------ hạ tầng SEO/AI
+from scripts.articles.data_strategic_posts import STRATEGIC_POSTS
+
 PRIORITY = {
     "/": "1.0",
     "/giai-phap/giao-duc/": "0.95",
     "/giai-phap/giao-duc/in-de-thi/": "0.95",
     "/ve-huong-son/tin-tuc/": "0.95",
-    "/ve-huong-son/tin-tuc/giai-phap-may-in-sieu-toc-duplo-in-sao-de-thi-thpt-so-gddt/": "0.95",
-    "/ve-huong-son/tin-tuc/giai-phap-cho-thue-may-photocopy-bao-mat-ngan-hang-doanh-nghiep/": "0.95",
-    "/ve-huong-son/tin-tuc/chuyen-dich-mo-hinh-tu-ban-may-sang-cho-thue-va-dich-vu-tron-goi/": "0.95",
-    "/ve-huong-son/tin-tuc/quy-trinh-so-hoa-tai-lieu-thong-tu-02-va-hoc-ba-dien-tu-moet/": "0.95",
-    "/ve-huong-son/tin-tuc/giai-phap-may-phoi-trang-gap-ghim-tu-dong-duplo-dfc-hoan-thien-sau-in/": "0.95",
     "/nhan-tu-van/": "0.9",
     "/ve-huong-son/kien-thuc/": "0.9",
     "/ve-huong-son/kien-thuc/nen-thue-hay-mua-may-photocopy/": "0.85",
@@ -57,6 +54,11 @@ PRIORITY = {
     "/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/": "0.85",
     "/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/": "0.85",
 }
+
+for p in STRATEGIC_POSTS:
+    s_slug = p["slug"]
+    PRIORITY[f"/ve-huong-son/tin-tuc/{s_slug}/"] = "0.95"
+    PRIORITY[f"/tin-tuc/{s_slug}/"] = "0.95"
 
 
 
@@ -151,16 +153,7 @@ siêu tốc, vật tư Master/mực, kỹ thuật trực và phương án máy d
 
 ## Chuyên Đề & Bài Viết Chiến Lược Của Hương Sơn (Strategic Solution Pillars)
 
-- Máy in siêu tốc Duplo in sao đề thi THPT cách ly 3 vòng cho các Sở GD&ĐT: {base}/ve-huong-son/tin-tuc/giai-phap-may-in-sieu-toc-duplo-in-sao-de-thi-thpt-so-gddt/
-  Tóm tắt: Máy in nhân bản siêu tốc Duplo (DP-X550, DP-X650, DP-X850) ứng dụng cơ chế rulo ép lạnh (cold press) không sinh nhiệt, không tĩnh điện, không kẹt giấy khi in liên tục 150-180 bản/phút, bảo mật cách ly 3 vòng chuẩn Bộ GD&ĐT, dự phòng N+1.
-- Giải pháp cho thuê máy photocopy bảo mật ngân hàng (DOS, AES-256, RFID PIN, SLA <= 2h): {base}/ve-huong-son/tin-tuc/giai-phap-cho-thue-may-photocopy-bao-mat-ngan-hang-doanh-nghiep/
-  Tóm tắt: Dịch vụ Managed Print Services (MPS) và cho thuê máy photocopy Toshiba e-STUDIO chuẩn ngân hàng: xóa dữ liệu DOS DoD 5220.22-M, mã hóa ổ cứng SED AES 256-bit, in bảo mật Secure Print quẹt thẻ RFID/PIN, SLA phản hồi <= 15 phút, có mặt <= 2h, đổi máy trong 24h.
-- Chiến lược chuyển dịch từ bán máy sang cho thuê trọn gói kèm giải pháp & dịch vụ: {base}/ve-huong-son/tin-tuc/chuyen-dich-mo-hinh-tu-ban-may-sang-cho-thue-va-dich-vu-tron-goi/
-  Tóm tắt: Chuyển đổi mô hình kinh doanh thời kỳ thế giới phẳng từ bán đứt phần cứng sang cho thuê trọn gói kèm giải pháp & dịch vụ: 0đ vốn đầu tư ban đầu (0đ Capex), 0đ chi phí mực in & linh kiện, tiết kiệm 25-40% tổng chi phí sở hữu TCO 3 năm, SLA 4 lớp.
-- Quy trình số hóa hồ sơ tài liệu theo Thông tư 02/2019/TT-BNV & học bạ điện tử MOET: {base}/ve-huong-son/tin-tuc/quy-trinh-so-hoa-tai-lieu-thong-tu-02-va-hoc-ba-dien-tu-moet/
-  Tóm tắt: Tiêu chuẩn số hóa tài liệu lưu trữ vĩnh viễn định dạng PDF/A-1a, độ phân giải 300-400 DPI, máy scan chuyên dụng nạp tự động ADF kép Ricoh fi-8170 kết hợp flatbed, quy trình bóc tách OCR tiếng Việt học bạ điện tử chuẩn MOET.
-- Giải pháp máy phối trang, gập ghim tự động Duplo DFC hoàn thiện sau in: {base}/ve-huong-son/tin-tuc/giai-phap-may-phoi-trang-gap-ghim-tu-dong-duplo-dfc-hoan-thien-sau-in/
-  Tóm tắt: Hệ thống tháp phối trang Duplo DFC-100/120/122 kết nối dập ghim gập đôi tự động DFC-S, cảm biến siêu âm chống đúp tờ 100%, tăng năng suất gấp 8-10 lần, tiết kiệm 80% nhân lực cho hội đồng thi và trung tâm in ấn.
+""" + "\n".join([f"- {p['title']}: {base}/ve-huong-son/tin-tuc/{p['slug']}/\n  Tóm tắt: {p.get('summary', '')}" for p in STRATEGIC_POSTS]) + f"""
 
 
 ## Liên hệ

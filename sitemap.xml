@@ -745,34 +745,94 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/bao-mat-in-an-xac-thuc-the-rfid-va-chong-that-thoat-du-lieu-ngan-hang/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/cam-nang-van-hanh-can-chinh-va-bao-duong-may-phoi-trang-duplo-dfc/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/tin-tuc/chuyen-dich-mo-hinh-tu-ban-may-sang-cho-thue-va-dich-vu-tron-goi/</loc>
     <lastmod>2026-10-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/danh-gia-may-scan-ricoh-fi-series-va-cong-nghe-ocr-tieng-viet/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/dich-vu-quan-ly-in-an-mps-cho-chuoi-chi-nhanh-ngan-hang-tai-chinh/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/dinh-muc-vat-tu-muc-in-cuon-master-va-giay-in-de-thi-thpt/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://huongsonco.com.vn/tin-tuc/giai-phap-cho-thue-may-photocopy-bao-mat-ngan-hang-doanh-nghiep/</loc>
     <lastmod>2026-10-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://huongsonco.com.vn/tin-tuc/giai-phap-may-in-sieu-toc-duplo-in-sao-de-thi-thpt-so-gddt/</loc>
     <lastmod>2026-10-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://huongsonco.com.vn/tin-tuc/giai-phap-may-phoi-trang-gap-ghim-tu-dong-duplo-dfc-hoan-thien-sau-in/</loc>
     <lastmod>2026-10-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/quy-trinh-bao-tri-ngan-ngua-va-cam-ket-sla-ky-thuat-duoi-2-gio/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://huongsonco.com.vn/tin-tuc/quy-trinh-so-hoa-tai-lieu-thong-tu-02-va-hoc-ba-dien-tu-moet/</loc>
     <lastmod>2026-10-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/so-hoa-ho-so-dia-chinh-dat-dai-va-tu-phap-cong-chung-chuan-quoc-gia/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/so-sanh-thue-va-mua-may-photocopy-bai-toan-tai-chinh-doanh-nghiep/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/tieu-chuan-khu-vuc-in-sao-de-thi-cach-ly-3-vong-va-du-phong-n-1/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/tin-tuc/tu-dong-hoa-khau-dong-tap-de-thi-giao-trinh-phong-in-truong-hoc/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://huongsonco.com.vn/ve-huong-son/</loc>
@@ -907,7 +967,37 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/bao-mat-in-an-xac-thuc-the-rfid-va-chong-that-thoat-du-lieu-ngan-hang/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/cam-nang-van-hanh-can-chinh-va-bao-duong-may-phoi-trang-duplo-dfc/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/chuyen-dich-mo-hinh-tu-ban-may-sang-cho-thue-va-dich-vu-tron-goi/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/danh-gia-may-scan-ricoh-fi-series-va-cong-nghe-ocr-tieng-viet/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/dich-vu-quan-ly-in-an-mps-cho-chuoi-chi-nhanh-ngan-hang-tai-chinh/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/dinh-muc-vat-tu-muc-in-cuon-master-va-giay-in-de-thi-thpt/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -931,7 +1021,37 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/quy-trinh-bao-tri-ngan-ngua-va-cam-ket-sla-ky-thuat-duoi-2-gio/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/quy-trinh-so-hoa-tai-lieu-thong-tu-02-va-hoc-ba-dien-tu-moet/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/so-hoa-ho-so-dia-chinh-dat-dai-va-tu-phap-cong-chung-chuan-quoc-gia/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/so-sanh-thue-va-mua-may-photocopy-bai-toan-tai-chinh-doanh-nghiep/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/tieu-chuan-khu-vuc-in-sao-de-thi-cach-ly-3-vong-va-du-phong-n-1/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/ve-huong-son/tin-tuc/tu-dong-hoa-khau-dong-tap-de-thi-giao-trinh-phong-in-truong-hoc/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>

@@ -6,6 +6,20 @@
         $postTitle .= ' | Hương Sơn';
     }
     $postDesc = $post->seo_description ?: ($post->summary ?: \Illuminate\Support\Str::limit(strip_tags($post->content), 155));
+
+    $strategicJson = base_path('scripts/articles/strategic_posts.json');
+    $currentFaqs = [];
+    if (file_exists($strategicJson)) {
+        $allStrategic = json_decode(file_get_contents($strategicJson), true);
+        if (is_array($allStrategic)) {
+            foreach ($allStrategic as $sp) {
+                if (($sp['slug'] ?? '') === $post->slug) {
+                    $currentFaqs = $sp['faqs'] ?? [];
+                    break;
+                }
+            }
+        }
+    }
 @endphp
 
 @section('title', $postTitle)
@@ -58,9 +72,14 @@
     "datePublished": "{{ $post->published_at ? $post->published_at->toIso8601String() : now()->toIso8601String() }}",
     "dateModified": "{{ $post->updated_at ? $post->updated_at->toIso8601String() : now()->toIso8601String() }}",
     "author": {
-      "@@type": "Organization",
-      "name": "Hương Sơn",
-      "url": "https://huongsonco.com.vn/"
+      "@@type": "Person",
+      "name": "Nguyễn Công Thuận",
+      "jobTitle": "Giám đốc",
+      "worksFor": {
+        "@@type": "Organization",
+        "name": "Hương Sơn",
+        "url": "https://huongsonco.com.vn/"
+      }
     },
     "publisher": {
       "@@type": "Organization",
@@ -72,6 +91,33 @@
     },
     "mainEntityOfPage": "{{ url()->current() }}"
   }
+@if(!empty($currentFaqs))
+  ,
+  {
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
+    "mainEntity": [
+      @php $validFaqs = []; @endphp
+      @foreach($currentFaqs as $f)
+        @php
+            $q = is_array($f) ? ($f['q'] ?? $f[0] ?? '') : '';
+            $a = is_array($f) ? ($f['a'] ?? $f[1] ?? '') : '';
+            if ($q && $a) { $validFaqs[] = ['q' => $q, 'a' => $a]; }
+        @endphp
+      @endforeach
+      @foreach($validFaqs as $idx => $vf)
+        {
+          "@@type": "Question",
+          "name": "{{ addslashes($vf['q']) }}",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "{{ addslashes(strip_tags($vf['a'])) }}"
+          }
+        }{{ $idx < count($validFaqs) - 1 ? ',' : '' }}
+      @endforeach
+    ]
+  }
+@endif
 ]
 </script>
 @endsection

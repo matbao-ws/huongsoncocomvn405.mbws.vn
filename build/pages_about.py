@@ -351,12 +351,30 @@ def _news_hub():
 
     filter_tabs = f"""
     <div class="flex flex-wrap items-center gap-2 mb-8" id="article-filter-tabs">
-      <button type="button" class="filter-btn active bg-[{BRAND}] text-white px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="all">Tất cả bài viết</button>
-      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Giáo Dục & In Đề Thi">Giáo Dục & In Đề Thi</button>
-      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Ngân Hàng & Bảo Mật">Ngân Hàng & Bảo Mật</button>
-      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Chiến Lược & Dịch Vụ">Chiến Lược & Dịch Vụ</button>
-      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Số Hóa & OCR">Số Hóa & OCR</button>
-      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition" data-filter="Hoàn Thiện Sau In">Hoàn Thiện Sau In</button>
+      <button type="button" class="filter-btn active bg-[{BRAND}] text-white px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="all">
+        <span>Tất cả bài viết</span>
+        <span class="bg-white/20 text-white text-[10px] px-1.5 py-0.2 rounded-full font-mono">15</span>
+      </button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Giáo Dục & In Đề Thi">
+        <span>Giáo Dục & In Đề Thi</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+      </button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Ngân Hàng & Bảo Mật">
+        <span>Ngân Hàng & Bảo Mật</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+      </button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Chiến Lược & Dịch Vụ">
+        <span>Chiến Lược & Dịch Vụ</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+      </button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Số Hóa & OCR">
+        <span>Số Hóa & OCR</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+      </button>
+      <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Hoàn Thiện Sau In">
+        <span>Hoàn Thiện Sau In</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+      </button>
     </div>
     <script>
     document.addEventListener('DOMContentLoaded', function() {{
@@ -367,12 +385,21 @@ def _news_hub():
           btns.forEach(b => {{
             b.classList.remove('bg-[' + '{BRAND}' + ']', 'text-white', 'active');
             b.classList.add('bg-gray-100', 'text-gray-700');
+            const bBadge = b.querySelector('span:last-child');
+            if (bBadge) {{
+              bBadge.className = 'bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono';
+            }}
           }});
           this.classList.remove('bg-gray-100', 'text-gray-700');
           this.classList.add('bg-[' + '{BRAND}' + ']', 'text-white', 'active');
+          const badge = this.querySelector('span:last-child');
+          if (badge) {{
+            badge.className = 'bg-white/20 text-white text-[10px] px-1.5 py-0.2 rounded-full font-mono';
+          }}
           const filter = this.getAttribute('data-filter');
           cards.forEach(c => {{
-            if (filter === 'all' || c.getAttribute('data-category') === filter) {{
+            const cat = c.getAttribute('data-category');
+            if (filter === 'all' || cat === filter) {{
               c.style.display = '';
             }} else {{
               c.style.display = 'none';
@@ -614,8 +641,10 @@ def _strategic_post_page(post):
   </article>
   """
 
-    # Related posts
-    related = [p for p in STRATEGIC_POSTS if p["id"] != post["id"]][:3]
+    # Related posts: ưu tiên cùng chuyên đề
+    same_cat = [p for p in STRATEGIC_POSTS if p["id"] != post["id"] and p.get("tag") == post.get("tag")]
+    other_cat = [p for p in STRATEGIC_POSTS if p["id"] != post["id"] and p.get("tag") != post.get("tag")]
+    related = (same_cat + other_cat)[:3]
     rel_cards = []
     for r in related:
         r_slug = r["slug"]
@@ -687,6 +716,32 @@ def _strategic_post_page(post):
             "mainEntityOfPage": f"https://huongsonco.com.vn{url}"
         }
     ]
+
+    if post.get("faqs"):
+        faq_entities = []
+        for f in post["faqs"]:
+            if isinstance(f, dict):
+                q_text = f.get("q") or f.get("question", "")
+                a_text = f.get("a") or f.get("answer", "")
+            elif isinstance(f, (list, tuple)) and len(f) >= 2:
+                q_text, a_text = f[0], f[1]
+            else:
+                continue
+            if q_text and a_text:
+                faq_entities.append({
+                    "@type": "Question",
+                    "name": q_text,
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": a_text
+                    }
+                })
+        if faq_entities:
+            ld.append({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": faq_entities
+            })
 
     return render.page(
         title=f"{post.get('seo_title', title)} | Hương Sơn",
