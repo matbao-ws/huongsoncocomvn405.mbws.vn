@@ -349,31 +349,40 @@ def _news_hub():
         </article>
         """)
 
+    from collections import Counter
+    cat_counts = Counter([p.get("tag") or p.get("category_name") or "Chung" for p in STRATEGIC_POSTS])
+    total_count = len(STRATEGIC_POSTS)
+    gd_count = cat_counts.get("Giáo Dục & In Đề Thi", 0)
+    nh_count = cat_counts.get("Ngân Hàng & Bảo Mật", 0)
+    cl_count = cat_counts.get("Chiến Lược & Dịch Vụ", 0)
+    sh_count = cat_counts.get("Số Hóa & OCR", 0)
+    ht_count = cat_counts.get("Hoàn Thiện Sau In", 0)
+
     filter_tabs = f"""
     <div class="flex flex-wrap items-center gap-2 mb-8" id="article-filter-tabs">
       <button type="button" class="filter-btn active bg-[{BRAND}] text-white px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="all">
         <span>Tất cả bài viết</span>
-        <span class="bg-white/20 text-white text-[10px] px-1.5 py-0.2 rounded-full font-mono">15</span>
+        <span class="bg-white/20 text-white text-[10px] px-1.5 py-0.2 rounded-full font-mono">{total_count}</span>
       </button>
       <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Giáo Dục & In Đề Thi">
         <span>Giáo Dục & In Đề Thi</span>
-        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">{gd_count}</span>
       </button>
       <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Ngân Hàng & Bảo Mật">
         <span>Ngân Hàng & Bảo Mật</span>
-        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">{nh_count}</span>
       </button>
       <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Chiến Lược & Dịch Vụ">
         <span>Chiến Lược & Dịch Vụ</span>
-        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">{cl_count}</span>
       </button>
       <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Số Hóa & OCR">
         <span>Số Hóa & OCR</span>
-        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">{sh_count}</span>
       </button>
       <button type="button" class="filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5" data-filter="Hoàn Thiện Sau In">
         <span>Hoàn Thiện Sau In</span>
-        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">3</span>
+        <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">{ht_count}</span>
       </button>
     </div>
     <script>
