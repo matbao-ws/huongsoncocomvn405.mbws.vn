@@ -6,6 +6,7 @@ use App\Http\Controllers\Client\LeadController;
 use App\Http\Controllers\Client\PageController;
 use App\Http\Controllers\Client\ProductController;
 use App\Http\Controllers\Client\ProjectController;
+use App\Http\Controllers\Client\RentalController;
 use App\Http\Controllers\Client\ServiceController;
 use App\Http\Controllers\Client\SolutionController;
 use App\Http\Controllers\Client\ToolController;
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 
 // Home
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+// Strategic Rental Landing Pages (SEO / GEO / AEO)
+Route::get('thue-may-photocopy-ha-noi', [RentalController::class, 'show'])->defaults('slug', 'thue-may-photocopy-ha-noi')->name('rental.hanoi');
+Route::get('thue-may-in', [RentalController::class, 'show'])->defaults('slug', 'thue-may-in')->name('rental.printer');
+Route::get('thue-may-photocopy-truong-hoc', [RentalController::class, 'show'])->defaults('slug', 'thue-may-photocopy-truong-hoc')->name('rental.school');
+Route::get('thue-may-photocopy-so-gd', [RentalController::class, 'show'])->defaults('slug', 'thue-may-photocopy-so-gd')->name('rental.sogd');
+Route::get('thue-may-in-de-thi', [RentalController::class, 'show'])->defaults('slug', 'thue-may-in-de-thi')->name('rental.exam');
+Route::get('thue-may-photocopy-ngan-hang', [RentalController::class, 'show'])->defaults('slug', 'thue-may-photocopy-ngan-hang')->name('rental.bank');
 
 // Products
 Route::get('san-pham', [ProductController::class, 'index'])->name('products.index');

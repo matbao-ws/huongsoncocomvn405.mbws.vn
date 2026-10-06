@@ -590,9 +590,18 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
           <a href="/giai-phap/giao-duc/in-de-thi/" class="group border border-gray-200 p-6 flex flex-col transition hover:border-[#1A9900]" style="background-color: rgb(247, 243, 238);">
             <span class="w-11 h-11 bg-[#181924] group-hover:bg-[#1A9900] text-white flex items-center justify-center mb-4 transition"><i class="fa-solid fa-print"></i></span>
-            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">EXAM PRO</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Cho thuê máy in đề thi – vận hành điểm sao in</h3>
-            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Máy in nhân bản siêu tốc và máy photocopy tốc độ cao phục vụ in sao đề thi, kèm Master/mực, vận chuyển, lắp đặt, kỹ thuật trực và máy dự phòng theo quy mô kỳ thi.</p>
+            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">EXAM PRINT</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">In sao đề thi siêu tốc (Duplo ép lạnh)</h3>
+            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Máy in nhân bản Duplo công suất 130–180 ppm ép lạnh không nhiệt, không tĩnh điện, bảo mật cách ly 3 vòng.</p>
+            <span class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider mt-4">
+              <span>Xem giải pháp</span><i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </span>
+          </a>
+          <a href="/giai-phap/giao-duc/thue-may-phuc-vu-ky-thi/" class="group border border-gray-200 p-6 flex flex-col transition hover:border-[#1A9900]" style="background-color: rgb(247, 243, 238);">
+            <span class="w-11 h-11 bg-[#181924] group-hover:bg-[#1A9900] text-white flex items-center justify-center mb-4 transition"><i class="fa-solid fa-stopwatch"></i></span>
+            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">EXAM RENTAL</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Thuê máy phục vụ kỳ thi tuyển sinh &amp; tốt nghiệp</h3>
+            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Gói thuê ngắn hạn 7–15 ngày, bao trọn Master/mực, kỹ sư trực hiện trường và máy dự phòng nóng N+1.</p>
             <span class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider mt-4">
               <span>Xem giải pháp</span><i class="fa-solid fa-arrow-right text-[10px]"></i>
             </span>
@@ -600,26 +609,35 @@
           <a href="/giai-phap/giao-duc/cho-thue-may-truong-hoc/" class="group border border-gray-200 p-6 flex flex-col transition hover:border-[#1A9900]" style="background-color: rgb(247, 243, 238);">
             <span class="w-11 h-11 bg-[#181924] group-hover:bg-[#1A9900] text-white flex items-center justify-center mb-4 transition"><i class="fa-solid fa-copy"></i></span>
             <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">SCHOOL PRINT</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Cho thuê máy photocopy, máy in A3/A4 cho trường học</h3>
-            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Thuê máy theo tháng hoặc theo định mức bản in cho văn phòng trường, phòng giáo vụ và phòng đào tạo; có gói bao mực và bảo trì.</p>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Thuê máy photocopy trường học theo niên khóa</h3>
+            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Hợp đồng linh hoạt 9 tháng học kỳ (miễn tính 3 tháng hè), bao trọn gói mực in đề kiểm tra và giáo án.</p>
             <span class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider mt-4">
               <span>Xem giải pháp</span><i class="fa-solid fa-arrow-right text-[10px]"></i>
             </span>
           </a>
-          <a href="/giai-phap/giao-duc/quan-ly-in-an-truong-hoc/" class="group border border-gray-200 p-6 flex flex-col transition hover:border-[#1A9900]" style="background-color: rgb(247, 243, 238);">
-            <span class="w-11 h-11 bg-[#181924] group-hover:bg-[#1A9900] text-white flex items-center justify-center mb-4 transition"><i class="fa-solid fa-gauge-high"></i></span>
-            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">SCHOOL PRO</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Quản lý in ấn trọn gói – Managed Print Service</h3>
-            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Hương Sơn quản lý toàn bộ thiết bị, vật tư, bảo trì, counter và SLA; đơn vị chỉ trả theo sản lượng và mức dịch vụ đã thống nhất.</p>
+          <a href="/giai-phap/giao-duc/so-hoa-hoc-ba/" class="group border border-gray-200 p-6 flex flex-col transition hover:border-[#1A9900]" style="background-color: rgb(247, 243, 238);">
+            <span class="w-11 h-11 bg-[#181924] group-hover:bg-[#1A9900] text-white flex items-center justify-center mb-4 transition"><i class="fa-solid fa-graduation-cap"></i></span>
+            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">EDUSCAN HỌC BẠ</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Số hóa học bạ điện tử chuẩn Bộ GD&amp;ĐT</h3>
+            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Scan ADF tốc độ cao Ricoh fi-series, OCR bóc tách dữ liệu điểm số, tích hợp cơ sở dữ liệu ngành MOET.</p>
             <span class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider mt-4">
               <span>Xem giải pháp</span><i class="fa-solid fa-arrow-right text-[10px]"></i>
             </span>
           </a>
           <a href="/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/" class="group border border-gray-200 p-6 flex flex-col transition hover:border-[#1A9900]" style="background-color: rgb(247, 243, 238);">
             <span class="w-11 h-11 bg-[#181924] group-hover:bg-[#1A9900] text-white flex items-center justify-center mb-4 transition"><i class="fa-solid fa-file-arrow-up"></i></span>
-            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">DIGITAL DOCUMENT</span>
-            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Scan, OCR và số hóa hồ sơ – tài liệu</h3>
-            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Từ tiếp nhận hồ sơ giấy, scan tốc độ cao, kiểm soát chất lượng, OCR, đặt tên và metadata đến bàn giao dữ liệu số.</p>
+            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">EDUSCAN HỒ SƠ</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Scan số hóa hồ sơ giáo dục &amp; văn bằng</h3>
+            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Số hóa hồ sơ cán bộ, giáo viên, đề án nghiên cứu khoa học chuẩn Thông tư 02/2019/TT-BNV.</p>
+            <span class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider mt-4">
+              <span>Xem giải pháp</span><i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </span>
+          </a>
+          <a href="/giai-phap/giao-duc/thiet-bi-phong-hoc/" class="group border border-gray-200 p-6 flex flex-col transition hover:border-[#1A9900]" style="background-color: rgb(247, 243, 238);">
+            <span class="w-11 h-11 bg-[#181924] group-hover:bg-[#1A9900] text-white flex items-center justify-center mb-4 transition"><i class="fa-solid fa-chalkboard-user"></i></span>
+            <span class="text-[10.5px] font-bold uppercase tracking-[0.18em] text-[#1A9900] mb-2">SMART CLASS</span>
+            <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">Thiết bị phòng học &amp; Lớp học thông minh</h3>
+            <p class="text-[14.5px] text-gray-500 leading-relaxed flex-1">Màn hình tương tác ViewSonic, camera vật thể AVer, bục giảng điện tử và hệ thống âm thanh giảng dạy.</p>
             <span class="inline-flex items-center space-x-1 text-[#1A9900] font-bold text-xs uppercase tracking-wider mt-4">
               <span>Xem giải pháp</span><i class="fa-solid fa-arrow-right text-[10px]"></i>
             </span>
@@ -643,13 +661,13 @@
           
           <thead class="bg-[#181924]"><tr><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Nhóm thiết bị</th><th scope="col" class="text-left px-5 py-3.5 text-[13px] font-bold uppercase tracking-wider text-white">Vai trò trong giải pháp</th></tr></thead>
           <tbody>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-[#181923] hover:text-[#1A9900] transition">Máy in nhân bản tốc độ cao</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo, Riso – in sao đề thi sản lượng lớn</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/photocopy-may-da-chuc-nang/" class="text-[#181923] hover:text-[#1A9900] transition">Máy photocopy – máy đa chức năng A3/A4</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Toshiba, Ricoh, Konica Minolta – copy, in, scan hồ sơ</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-[#181923] hover:text-[#1A9900] transition">Máy phối trang – thiết bị hoàn thiện sau in</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Phối đề, đóng bộ, hoàn thiện tài liệu</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-scan-so-hoa/" class="text-[#181923] hover:text-[#1A9900] transition">Máy scan tốc độ cao</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Số hóa hồ sơ, văn bằng, chứng chỉ, tài liệu lưu trữ</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-in-laser/" class="text-[#181923] hover:text-[#1A9900] transition">Máy in laser A4</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Phòng chuyên môn, phòng giáo vụ, văn thư</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="text-[#181923] hover:text-[#1A9900] transition">Thiết bị phòng học – thiết bị dạy học</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Trang bị phòng học, phòng chức năng</td></tr>
-            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="text-[#181923] hover:text-[#1A9900] transition">Vật tư – linh kiện – tiêu hao</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Master, mực, drum, bột từ, linh kiện; mực Fansipan</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-[#181923] hover:text-[#1A9900] transition font-bold">Máy in nhân bản tốc độ cao</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Duplo, Riso – in sao đề thi sản lượng lớn</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/photocopy-may-da-chuc-nang/" class="text-[#181923] hover:text-[#1A9900] transition font-bold">Máy photocopy – máy đa chức năng A3/A4</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Toshiba, Ricoh, Konica Minolta – copy, in, scan hồ sơ</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="text-[#181923] hover:text-[#1A9900] transition font-bold">Máy phối trang – thiết bị hoàn thiện sau in</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Phối đề, đóng bộ, hoàn thiện tài liệu</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-scan-so-hoa/" class="text-[#181923] hover:text-[#1A9900] transition font-bold">Máy scan tốc độ cao</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Số hóa hồ sơ, văn bằng, chứng chỉ, tài liệu lưu trữ</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/may-in-laser/" class="text-[#181923] hover:text-[#1A9900] transition font-bold">Máy in laser A4</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Phòng chuyên môn, phòng giáo vụ, văn thư</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="text-[#181923] hover:text-[#1A9900] transition font-bold">Thiết bị phòng học – thiết bị dạy học</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Trang bị phòng học, phòng chức năng</td></tr>
+            <tr class="border-b border-gray-200 last:border-0 hover:bg-gray-50"><th scope="row" class="text-left px-5 py-3.5 text-[14px] font-semibold text-[#181923] align-top"><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="text-[#181923] hover:text-[#1A9900] transition font-bold">Vật tư – linh kiện – tiêu hao</a></th><td class="px-5 py-3.5 text-[14.5px] text-gray-600 align-top">Master, mực, drum, bột từ, linh kiện; mực Fansipan</td></tr>
           </tbody>
         </table>
       </div>

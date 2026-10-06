@@ -8,31 +8,57 @@
       </button>
     </div>
     <div class="p-6 flex-1 overflow-y-auto space-y-3">
-      <div>
-        <button class="mobile-dropdown-btn w-full flex items-center justify-between text-gray-800 font-semibold py-2 border-b border-gray-100 hover:text-[#1A9900]">
-          <span>SẢN PHẨM</span>
-          <i class="fa-solid fa-chevron-down text-xs"></i>
-        </button>
-        <div class="hidden pl-4 py-2 space-y-2 text-sm text-gray-600">
-          <a href="/san-pham/" class="block py-1 text-[#1A9900] font-semibold">Tổng quan</a><a href="/san-pham/photocopy-may-da-chuc-nang/" class="block py-1 hover:text-[#1A9900]">Photocopy – Máy đa chức năng</a><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block py-1 hover:text-[#1A9900]">Máy in nhân bản & Hoàn thiện sau in</a><a href="/san-pham/cho-thue-thiet-bi-giao-duc/" class="block py-1 hover:text-[#1A9900]">Cho thuê thiết bị Giáo dục (HƯƠNG SƠN EDUCATION SOLUTIONS)</a><a href="/san-pham/may-scan-so-hoa/" class="block py-1 hover:text-[#1A9900]">Máy Scan – Số hóa</a><a href="/san-pham/may-in-laser/" class="block py-1 hover:text-[#1A9900]">Máy in Laser – Thiết bị in</a><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block py-1 hover:text-[#1A9900]">Thiết bị phòng học – Giáo dục</a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block py-1 hover:text-[#1A9900]">Vật tư – Linh kiện – Tiêu hao</a><a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block py-1 hover:text-[#1A9900]">Thiết bị văn phòng – Hội họp</a><a href="/san-pham/fansipan/" class="block py-1 hover:text-[#1A9900]">FANSIPAN – Vật tư tương thích</a>
-        </div>
-      </div>
+      <!-- 1. GIẢI PHÁP -->
       <div>
         <button class="mobile-dropdown-btn w-full flex items-center justify-between text-gray-800 font-semibold py-2 border-b border-gray-100 hover:text-[#1A9900]">
           <span>GIẢI PHÁP</span>
           <i class="fa-solid fa-chevron-down text-xs"></i>
         </button>
         <div class="hidden pl-4 py-2 space-y-2 text-sm text-gray-600">
-          <a href="/giai-phap/" class="block py-1 text-[#1A9900] font-semibold">Tổng quan</a><a href="/giai-phap/giao-duc/" class="block py-1 hover:text-[#1A9900]">Giáo dục</a><a href="/giai-phap/co-quan-nha-nuoc/" class="block py-1 hover:text-[#1A9900]">Cơ quan Nhà nước</a><a href="/giai-phap/ngan-hang-tai-chinh/" class="block py-1 hover:text-[#1A9900]">Ngân hàng – Tài chính</a><a href="/giai-phap/tap-doan-tong-cong-ty/" class="block py-1 hover:text-[#1A9900]">Tập đoàn – Tổng công ty</a><a href="/giai-phap/in-de-thi-tai-lieu/" class="block py-1 hover:text-[#1A9900]">In đề thi – Tài liệu</a><a href="/giai-phap/scan-so-hoa/" class="block py-1 hover:text-[#1A9900]">Scan – Số hóa</a><a href="/giai-phap/cho-thue-thiet-bi/" class="block py-1 hover:text-[#1A9900]">Cho thuê thiết bị</a><a href="/giai-phap/quan-ly-van-hanh/" class="block py-1 hover:text-[#1A9900]">Quản lý – Vận hành</a>
+          <a href="/giai-phap/" class="block py-1 text-[#1A9900] font-semibold">Tất cả giải pháp</a>
+          <a href="/giai-phap/co-quan-nha-nuoc/" class="block py-1 hover:text-[#1A9900]">Cơ quan Nhà nước (B2G)</a>
+          <a href="/giai-phap/ngan-hang-tai-chinh/" class="block py-1 hover:text-[#1A9900]">Doanh nghiệp – Ngân hàng</a>
+          <a href="/giai-phap/giao-duc/" class="block py-1 hover:text-[#1A9900]">Khối Giáo dục – Trường học</a>
+          <a href="/giai-phap/in-de-thi-tai-lieu/" class="block py-1 hover:text-[#1A9900]">In đề thi &amp; Tài liệu bảo mật</a>
+          <a href="/giai-phap/scan-so-hoa/" class="block py-1 hover:text-[#1A9900]">Scan – Số hóa hồ sơ tài liệu</a>
+          <a href="/giai-phap/quan-ly-van-hanh/" class="block py-1 hover:text-[#1A9900]">Quản lý in ấn trọn gói (MPS)</a>
         </div>
       </div>
+
+      <!-- 2. CHO THUÊ & DỊCH VỤ -->
       <div>
         <button class="mobile-dropdown-btn w-full flex items-center justify-between text-gray-800 font-semibold py-2 border-b border-gray-100 hover:text-[#1A9900]">
-          <span>DỊCH VỤ</span>
+          <span>CHO THUÊ &amp; DỊCH VỤ</span>
           <i class="fa-solid fa-chevron-down text-xs"></i>
         </button>
         <div class="hidden pl-4 py-2 space-y-2 text-sm text-gray-600">
-          <a href="/dich-vu/" class="block py-1 text-[#1A9900] font-semibold">Tổng quan</a><a href="/dich-vu/bao-tri-sua-chua/" class="block py-1 hover:text-[#1A9900]">Bảo trì – Sửa chữa</a><a href="/dich-vu/dich-vu-ky-thuat/" class="block py-1 hover:text-[#1A9900]">Dịch vụ kỹ thuật</a><a href="/dich-vu/van-hanh-thiet-bi/" class="block py-1 hover:text-[#1A9900]">Vận hành thiết bị</a><a href="/dich-vu/thu-mua-may-cu-doi-may-moi/" class="block py-1 hover:text-[#1A9900]">Thu mua máy cũ – Đổi máy mới</a>
+          <a href="/thue-may-photocopy-ha-noi/" class="block py-1 font-bold text-[#1A9900]">Thuê máy photocopy Hà Nội (Bảng giá 2026)</a>
+          <a href="/thue-may-in/" class="block py-1 hover:text-[#1A9900]">Thuê máy in Laser &amp; Đa năng</a>
+          <a href="/thue-may-photocopy-truong-hoc/" class="block py-1 hover:text-[#1A9900]">Thuê máy cho Trường học</a>
+          <a href="/thue-may-photocopy-so-gd/" class="block py-1 hover:text-[#1A9900]">Thuê máy cho Sở GD&amp;ĐT – Cơ quan</a>
+          <a href="/thue-may-in-de-thi/" class="block py-1 hover:text-[#1A9900]">Thuê máy in đề thi siêu tốc (Duplo)</a>
+          <a href="/thue-may-photocopy-ngan-hang/" class="block py-1 hover:text-[#1A9900]">Thuê máy photocopy Ngân hàng</a>
+          <a href="/dich-vu/bao-tri-sua-chua/" class="block py-1 hover:text-[#1A9900]">Bảo trì &amp; Cứu hộ SLA 2H</a>
+          <a href="/dich-vu/thu-mua-may-cu-doi-may-moi/" class="block py-1 hover:text-[#1A9900]">Thu mua máy cũ – Đổi máy mới</a>
+        </div>
+      </div>
+
+      <!-- 3. THIẾT BỊ & VẬT TƯ -->
+      <div>
+        <button class="mobile-dropdown-btn w-full flex items-center justify-between text-gray-800 font-semibold py-2 border-b border-gray-100 hover:text-[#1A9900]">
+          <span>THIẾT BỊ &amp; VẬT TƯ</span>
+          <i class="fa-solid fa-chevron-down text-xs"></i>
+        </button>
+        <div class="hidden pl-4 py-2 space-y-2 text-sm text-gray-600">
+          <a href="/san-pham/" class="block py-1 text-[#1A9900] font-semibold">Tất cả sản phẩm</a>
+          <a href="/san-pham/photocopy-may-da-chuc-nang/" class="block py-1 hover:text-[#1A9900]">Photocopy – Máy đa chức năng</a>
+          <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block py-1 hover:text-[#1A9900]">Máy in nhân bản &amp; Hoàn thiện Duplo</a>
+          <a href="/san-pham/may-scan-so-hoa/" class="block py-1 hover:text-[#1A9900]">Máy Scan – Số hóa tài liệu</a>
+          <a href="/san-pham/may-in-laser/" class="block py-1 hover:text-[#1A9900]">Máy in Laser văn phòng</a>
+          <a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block py-1 hover:text-[#1A9900]">Thiết bị phòng học – Giáo dục</a>
+          <a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block py-1 hover:text-[#1A9900]">Vật tư – Linh kiện chính hãng</a>
+          <a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block py-1 hover:text-[#1A9900]">Thiết bị văn phòng – Hội họp</a>
+          <a href="/san-pham/fansipan/" class="block py-1 text-amber-700 font-semibold">FANSIPAN – Vật tư tương thích (Đại lý)</a>
         </div>
       </div>
       <a href="/du-an/" class="block text-gray-800 font-semibold py-2 border-b border-gray-100 hover:text-[#1A9900]">DỰ ÁN</a>

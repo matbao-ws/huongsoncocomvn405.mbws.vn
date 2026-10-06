@@ -1,6 +1,78 @@
 [
   {
-    "label": "SẢN PHẨM",
+    "label": "GIẢI PHÁP",
+    "url": "/giai-phap/",
+    "children": [
+      {
+        "label": "Cơ quan Nhà nước (B2G)",
+        "url": "/giai-phap/co-quan-nha-nuoc/"
+      },
+      {
+        "label": "Doanh nghiệp – Ngân hàng",
+        "url": "/giai-phap/ngan-hang-tai-chinh/"
+      },
+      {
+        "label": "Khối Giáo dục – Trường học",
+        "url": "/giai-phap/giao-duc/"
+      },
+      {
+        "label": "Tập đoàn – Tổng công ty",
+        "url": "/giai-phap/tap-doan-tong-cong-ty/"
+      },
+      {
+        "label": "In đề thi & Tài liệu bảo mật",
+        "url": "/giai-phap/in-de-thi-tai-lieu/"
+      },
+      {
+        "label": "Scan – Số hóa tài liệu",
+        "url": "/giai-phap/scan-so-hoa/"
+      },
+      {
+        "label": "Quản lý in ấn trọn gói (MPS)",
+        "url": "/giai-phap/quan-ly-van-hanh/"
+      }
+    ]
+  },
+  {
+    "label": "CHO THUÊ & DỊCH VỤ",
+    "url": "/dich-vu/",
+    "children": [
+      {
+        "label": "Thuê máy photocopy Hà Nội (Bảng giá 2026)",
+        "url": "/thue-may-photocopy-ha-noi/"
+      },
+      {
+        "label": "Thuê máy in Laser & Đa năng",
+        "url": "/thue-may-in/"
+      },
+      {
+        "label": "Thuê máy cho Trường học",
+        "url": "/thue-may-photocopy-truong-hoc/"
+      },
+      {
+        "label": "Thuê máy cho Sở GD&ĐT – Cơ quan",
+        "url": "/thue-may-photocopy-so-gd/"
+      },
+      {
+        "label": "Thuê máy in đề thi siêu tốc (Duplo)",
+        "url": "/thue-may-in-de-thi/"
+      },
+      {
+        "label": "Thuê máy photocopy Ngân hàng",
+        "url": "/thue-may-photocopy-ngan-hang/"
+      },
+      {
+        "label": "Bảo trì & Cứu hộ kỹ thuật SLA 2H",
+        "url": "/dich-vu/bao-tri-sua-chua/"
+      },
+      {
+        "label": "Thu mua máy cũ – Đổi máy mới",
+        "url": "/dich-vu/thu-mua-may-cu-doi-may-moi/"
+      }
+    ]
+  },
+  {
+    "label": "THIẾT BỊ & VẬT TƯ",
     "url": "/san-pham/",
     "children": [
       {
@@ -8,19 +80,15 @@
         "url": "/san-pham/photocopy-may-da-chuc-nang/"
       },
       {
-        "label": "Máy in nhân bản & Hoàn thiện sau in",
+        "label": "Máy in nhân bản & Hoàn thiện sau in Duplo",
         "url": "/san-pham/may-in-nhan-ban-toc-do-cao/"
       },
       {
-        "label": "Cho thuê thiết bị Giáo dục (HƯƠNG SƠN EDUCATION SOLUTIONS)",
-        "url": "/san-pham/cho-thue-thiet-bi-giao-duc/"
-      },
-      {
-        "label": "Máy Scan – Số hóa",
+        "label": "Máy Scan – Số hóa tài liệu",
         "url": "/san-pham/may-scan-so-hoa/"
       },
       {
-        "label": "Máy in Laser – Thiết bị in",
+        "label": "Máy in Laser văn phòng",
         "url": "/san-pham/may-in-laser/"
       },
       {
@@ -36,68 +104,8 @@
         "url": "/san-pham/thiet-bi-van-phong-hoi-hop/"
       },
       {
-        "label": "FANSIPAN – Vật tư tương thích",
+        "label": "FANSIPAN – Mực in & Vật tư tương thích (Đại lý & Đối tác)",
         "url": "/san-pham/fansipan/"
-      }
-    ]
-  },
-  {
-    "label": "GIẢI PHÁP",
-    "url": "/giai-phap/",
-    "children": [
-      {
-        "label": "Giáo dục",
-        "url": "/giai-phap/giao-duc/"
-      },
-      {
-        "label": "Cơ quan Nhà nước",
-        "url": "/giai-phap/co-quan-nha-nuoc/"
-      },
-      {
-        "label": "Ngân hàng – Tài chính",
-        "url": "/giai-phap/ngan-hang-tai-chinh/"
-      },
-      {
-        "label": "Tập đoàn – Tổng công ty",
-        "url": "/giai-phap/tap-doan-tong-cong-ty/"
-      },
-      {
-        "label": "In đề thi – Tài liệu",
-        "url": "/giai-phap/in-de-thi-tai-lieu/"
-      },
-      {
-        "label": "Scan – Số hóa",
-        "url": "/giai-phap/scan-so-hoa/"
-      },
-      {
-        "label": "Cho thuê thiết bị",
-        "url": "/giai-phap/cho-thue-thiet-bi/"
-      },
-      {
-        "label": "Quản lý – Vận hành",
-        "url": "/giai-phap/quan-ly-van-hanh/"
-      }
-    ]
-  },
-  {
-    "label": "DỊCH VỤ",
-    "url": "/dich-vu/",
-    "children": [
-      {
-        "label": "Bảo trì – Sửa chữa",
-        "url": "/dich-vu/bao-tri-sua-chua/"
-      },
-      {
-        "label": "Dịch vụ kỹ thuật",
-        "url": "/dich-vu/dich-vu-ky-thuat/"
-      },
-      {
-        "label": "Vận hành thiết bị",
-        "url": "/dich-vu/van-hanh-thiet-bi/"
-      },
-      {
-        "label": "Thu mua máy cũ – Đổi máy mới",
-        "url": "/dich-vu/thu-mua-may-cu-doi-may-moi/"
       }
     ]
   },
@@ -130,7 +138,7 @@
         "url": "/ve-huong-son/kien-thuc/"
       },
       {
-        "label": "Tin tức",
+        "label": "Tin tức & Sự kiện",
         "url": "/ve-huong-son/tin-tuc/"
       }
     ]

@@ -295,19 +295,41 @@ def render_solution(s):
         b2 = (f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-7">{esc(s["solution_intro"])}</p>'
               f'\n        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">{cards}\n        </div>')
     else:
+        points = s.get("solution_points")
+        if not points and s.get("problem"):
+            points = [f"Khắc phục triệt để: {p}" for p in s["problem"]]
         b2 = (f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-6">{esc(s["solution_intro"])}</p>'
-              + C.bullets([esc(x) for x in s["solution_points"]], cols=1))
+              + C.bullets([esc(x) for x in (points or [])], cols=1))
 
     # 3. EQUIPMENT
-    rows = [[f'<a href="{e["url"]}" class="text-[#181923] hover:text-[{BRAND}] transition">{esc(e["name"])}</a>',
-             esc(e["note"])] for e in s["equipment"]]
-    b3 = C.matrix_table(["Nhóm thiết bị", "Vai trò trong giải pháp"], rows)
+    eq_rows = []
+    for e in s.get("equipment", []):
+        if e.get("url"):
+            name_html = f'<a href="{e["url"]}" class="text-[#181923] hover:text-[{BRAND}] transition font-bold">{esc(e["name"])}</a>'
+        else:
+            name_html = f'<span class="text-[#181923] font-bold">{esc(e["name"])}</span>'
+        note_text = e.get("note") or f"{e.get('role', '')} — {e.get('spec', '')}".strip(" —")
+        eq_rows.append([name_html, esc(note_text)])
+    b3 = C.matrix_table(["Nhóm thiết bị", "Vai trò trong giải pháp"], eq_rows)
 
-    # 4. IMPLEMENTATION
-    b4 = C.timeline([(m, w, esc(c)) for m, w, c in s["implementation"]])
+    # 4. IMPLEMENTATION / WORKFLOW
+    if s.get("implementation"):
+        timeline_items = [(m, w, esc(c)) for m, w, c in s["implementation"]]
+    elif s.get("workflow"):
+        timeline_items = [(w["step"], w["title"], esc(w["desc"])) for w in s["workflow"]]
+    else:
+        timeline_items = [("01", "Khảo sát & Lập phương án", "Tiếp nhận nhu cầu và khảo sát hạ tầng"),
+                          ("02", "Bàn giao & Vận hành", "Lắp đặt, chuyển giao và cam kết hỗ trợ")]
+    b4 = C.timeline(timeline_items)
 
     # 5. SERVICE
-    b5 = C.bullets([esc(x) for x in s["service"]], cols=1)
+    service_items = s.get("service") or [
+        "Đội ngũ kỹ sư chính hãng có mặt tận nơi xử lý sự cố trong vòng 2 giờ.",
+        "Cung cấp 100% vật tư tiêu hao, linh kiện thay thế chính hãng không phát sinh chi phí.",
+        "Sẵn sàng thiết bị dự phòng nóng N+1 đảm bảo không gián đoạn tiến độ công việc.",
+        "Bảo hành, bảo trì định kỳ và hỗ trợ kỹ thuật 24/7."
+    ]
+    b5 = C.bullets([esc(x) for x in service_items], cols=1)
     if s.get("sla"):
         b5 += ('\n        <div class="mt-8">'
                + C.matrix_table(["Cấp độ sự cố", "Tiếp nhận", "Mục tiêu xử lý"],
@@ -316,10 +338,19 @@ def render_solution(s):
                + "</div>")
 
     # 6. ROI
-    b6 = f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-7">{esc(s["roi_intro"])}</p>'
-    b6 += C.matrix_table(["Hạng mục chi phí", "Phương án mua", "Phương án thuê / dịch vụ"],
-                         [[esc(a), esc(b), esc(c)] for a, b, c in s["roi"]])
-    b6 += '\n        <div class="mt-7">' + C.note(esc(s["roi_note"])) + "</div>"
+    if s.get("roi"):
+        b6 = f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-7">{esc(s.get("roi_intro", ""))}</p>'
+        b6 += C.matrix_table(["Hạng mục chi phí", "Phương án mua", "Phương án thuê / dịch vụ"],
+                             [[esc(a), esc(b), esc(c)] for a, b, c in s["roi"]])
+        if s.get("roi_note"):
+            b6 += '\n        <div class="mt-7">' + C.note(esc(s["roi_note"])) + "</div>"
+    else:
+        b6 = f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-5">{esc(s.get("roi_intro", "Tối ưu ngân sách đầu tư và chi phí vận hành cho đơn vị."))}</p>'
+        b6 += C.bullets([
+            "0đ chi phí đầu tư thiết bị ban đầu, không lo khấu hao tài sản cố định.",
+            "Tiết kiệm 30% – 50% chi phí in ấn và số hóa so với vận hành thiết bị rời rạc.",
+            "Chuyển đổi hoàn toàn chi phí đầu tư (CapEx) sang chi phí vận hành (OpEx) linh hoạt."
+        ], cols=1)
 
     inner = (_block(1, "Problem", "Bài toán của đơn vị", b1)
              + _block(2, "Solution", "Giải pháp Hương Sơn", b2)
@@ -340,7 +371,7 @@ def render_solution(s):
     # FAQ + form
     body += C.section(f"""
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14">
-        <div class="lg:col-span-7">{C.faq_block([(q, a) for q, a in s["faqs"]])}
+        <div class="lg:col-span-7">{C.faq_block([(q, a) for q, a in s.get("faqs", [])])}
         </div>
         <div class="lg:col-span-5" id="tu-van">
           {forms.lead_form(form_id="sol-" + s["slug"], page_type="solution",
@@ -368,10 +399,15 @@ def render_solution(s):
         secondary=("Xem dự án đã triển khai", "/du-an/"))
 
     ld = [schema.organization(), schema.breadcrumb(trail),
-          schema.service(s, s["url"]), schema.faqpage([(q, C.re.sub(r"<[^>]+>", "", a)) for q, a in s["faqs"]]),
-          schema.howto(f"Quy trình triển khai: {s['name']}",
-                       [(w, c) for _, w, c in s["implementation"]],
-                       description=s["summary"])]
+          schema.service(s, s["url"]), schema.faqpage([(q, C.re.sub(r"<[^>]+>", "", a)) for q, a in s.get("faqs", [])])]
+    if s.get("implementation"):
+        ld.append(schema.howto(f"Quy trình triển khai: {s['name']}",
+                               [(w, c) for _, w, c in s["implementation"]],
+                               description=s["summary"]))
+    elif s.get("workflow"):
+        ld.append(schema.howto(f"Quy trình triển khai: {s['name']}",
+                               [(w["title"], w["desc"]) for w in s["workflow"]],
+                               description=s["summary"]))
 
     return render.page(title=s["seo_title"], description=s["seo_desc"], url=s["url"],
                        keywords=s.get("keywords", ""), body=body, jsonld=ld,

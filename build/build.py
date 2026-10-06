@@ -53,6 +53,12 @@ PRIORITY = {
     "/ve-huong-son/kien-thuc/dinh-muc-muc-in-cuon-master-duplo-in-de-thi/": "0.85",
     "/ve-huong-son/kien-thuc/quy-trinh-so-hoa-tai-lieu-luu-tru/": "0.85",
     "/ve-huong-son/kien-thuc/so-sanh-duplo-dp-x550-va-dp-x850/": "0.85",
+    "/thue-may-photocopy-ha-noi/": "0.9",
+    "/thue-may-in/": "0.9",
+    "/thue-may-photocopy-truong-hoc/": "0.9",
+    "/thue-may-photocopy-so-gd/": "0.9",
+    "/thue-may-in-de-thi/": "0.9",
+    "/thue-may-photocopy-ngan-hang/": "0.9",
 }
 
 for p in STRATEGIC_POSTS:
@@ -134,6 +140,12 @@ siêu tốc, vật tư Master/mực, kỹ thuật trực và phương án máy d
 - Scan – Số hóa tài liệu: {base}/giai-phap/scan-so-hoa/
 - Cho thuê thiết bị: {base}/giai-phap/cho-thue-thiet-bi/
 - Dịch vụ: {base}/dich-vu/
+- Cho thuê máy photocopy tại Hà Nội: {base}/thue-may-photocopy-ha-noi/
+- Cho thuê máy in văn phòng: {base}/thue-may-in/
+- Cho thuê máy photocopy trường học: {base}/thue-may-photocopy-truong-hoc/
+- Cho thuê máy photocopy Sở GD&ĐT & cơ quan: {base}/thue-may-photocopy-so-gd/
+- Cho thuê máy in đề thi kỳ thi: {base}/thue-may-in-de-thi/
+- Cho thuê máy photocopy ngân hàng & doanh nghiệp: {base}/thue-may-photocopy-ngan-hang/
 - Dự án – Case study: {base}/du-an/
 - Về Hương Sơn: {base}/ve-huong-son/
 - Cẩm nang kiến thức chuyên sâu (Knowledge Hub): {base}/ve-huong-son/kien-thuc/
@@ -273,9 +285,23 @@ def sync_blade_templates():
                 blade_file = os.path.join(CLIENT_PAGES, blade_rel)
                 convert_html_file(html_file, blade_file)
 
+    # Đồng bộ 6 landing page chuyên sâu mảng cho thuê (Rental SEO)
+    rental_slugs = [
+        "thue-may-photocopy-ha-noi",
+        "thue-may-in",
+        "thue-may-photocopy-truong-hoc",
+        "thue-may-photocopy-so-gd",
+        "thue-may-in-de-thi",
+        "thue-may-photocopy-ngan-hang",
+    ]
+    for r_slug in rental_slugs:
+        r_html = os.path.join(ROOT, r_slug, 'index.html')
+        r_blade = os.path.join(CLIENT_PAGES, 'rental', f'{r_slug}.blade.php')
+        convert_html_file(r_html, r_blade)
+
 
 MODULES = ["pages_solutions", "pages_products", "pages_services", "pages_projects",
-           "pages_about", "pages_knowledge", "pages_lead", "pages_home"]
+           "pages_about", "pages_knowledge", "pages_lead", "pages_rental", "pages_home"]
 
 
 def main():

@@ -5,39 +5,85 @@
       <a href="/" class="flex items-center" aria-label="Hương Sơn – Trang chủ"><img src="/assets/images/brand/HUONG_SON_logo.svg" alt="Hương Sơn" class="h-11 sm:h-12 w-auto object-contain" /></a>
 
       <nav class="hidden xl:flex items-center space-x-6" aria-label="Điều hướng chính">
-        <div class="relative has-dropdown group py-2">
-          <a href="/san-pham/" class="nav-link text-gray-800 hover:text-[#1A9900] font-semibold text-sm flex items-center space-x-1 group-hover:text-[#1A9900] transition">
-            <span>SẢN PHẨM</span>
-            <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
-          </a>
-          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md"><a href="/san-pham/photocopy-may-da-chuc-nang/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Photocopy – Máy đa chức năng</a><a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in nhân bản & Hoàn thiện sau in</a><a href="/san-pham/cho-thue-thiet-bi-giao-duc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Cho thuê thiết bị Giáo dục (HƯƠNG SƠN EDUCATION SOLUTIONS)</a><a href="/san-pham/may-scan-so-hoa/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy Scan – Số hóa</a><a href="/san-pham/may-in-laser/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in Laser – Thiết bị in</a><a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị phòng học – Giáo dục</a><a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Vật tư – Linh kiện – Tiêu hao</a><a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị văn phòng – Hội họp</a><a href="/san-pham/fansipan/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">FANSIPAN – Vật tư tương thích</a>
-          </div>
-        </div>
+        <!-- 1. GIẢI PHÁP (SOLUTION-FIRST) -->
         <div class="relative has-dropdown group py-2">
           <a href="/giai-phap/" class="nav-link text-gray-800 hover:text-[#1A9900] font-semibold text-sm flex items-center space-x-1 group-hover:text-[#1A9900] transition">
             <span>GIẢI PHÁP</span>
             <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
           </a>
-          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md"><a href="/giai-phap/giao-duc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Giáo dục</a><a href="/giai-phap/co-quan-nha-nuoc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Cơ quan Nhà nước</a><a href="/giai-phap/ngan-hang-tai-chinh/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Ngân hàng – Tài chính</a><a href="/giai-phap/tap-doan-tong-cong-ty/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Tập đoàn – Tổng công ty</a><a href="/giai-phap/in-de-thi-tai-lieu/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">In đề thi – Tài liệu</a><a href="/giai-phap/scan-so-hoa/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Scan – Số hóa</a><a href="/giai-phap/cho-thue-thiet-bi/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Cho thuê thiết bị</a><a href="/giai-phap/quan-ly-van-hanh/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Quản lý – Vận hành</a>
+          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md">
+            <div class="px-4 py-1 text-[11px] font-bold text-gray-400 uppercase tracking-wider">Theo nhóm khách hàng</div>
+            <a href="/giai-phap/co-quan-nha-nuoc/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium flex items-center gap-2"><i class="fa-solid fa-landmark text-xs text-[#1A9900]"></i>Cơ quan Nhà nước (B2G)</a>
+            <a href="/giai-phap/ngan-hang-tai-chinh/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium flex items-center gap-2"><i class="fa-solid fa-building-columns text-xs text-[#1A9900]"></i>Doanh nghiệp – Ngân hàng</a>
+            <a href="/giai-phap/giao-duc/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium flex items-center gap-2"><i class="fa-solid fa-graduation-cap text-xs text-[#1A9900]"></i>Khối Giáo dục – Trường học</a>
+            <div class="border-t border-gray-100 my-1"></div>
+            <div class="px-4 py-1 text-[11px] font-bold text-gray-400 uppercase tracking-wider">Bài toán nghiệp vụ</div>
+            <a href="/giai-phap/in-de-thi-tai-lieu/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">In đề thi & Tài liệu bảo mật</a>
+            <a href="/giai-phap/scan-so-hoa/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Scan – Số hóa hồ sơ tài liệu</a>
+            <a href="/giai-phap/quan-ly-van-hanh/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Quản lý in ấn trọn gói (MPS)</a>
           </div>
         </div>
+
+        <!-- 2. CHO THUÊ & DỊCH VỤ (RENTAL PILLAR) -->
         <div class="relative has-dropdown group py-2">
           <a href="/dich-vu/" class="nav-link text-gray-800 hover:text-[#1A9900] font-semibold text-sm flex items-center space-x-1 group-hover:text-[#1A9900] transition">
-            <span>DỊCH VỤ</span>
+            <span>CHO THUÊ &amp; DỊCH VỤ</span>
             <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
           </a>
-          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md"><a href="/dich-vu/bao-tri-sua-chua/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Bảo trì – Sửa chữa</a><a href="/dich-vu/dich-vu-ky-thuat/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Dịch vụ kỹ thuật</a><a href="/dich-vu/van-hanh-thiet-bi/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Vận hành thiết bị</a><a href="/dich-vu/thu-mua-may-cu-doi-may-moi/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thu mua máy cũ – Đổi máy mới</a>
+          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md">
+            <div class="px-4 py-1 text-[11px] font-bold text-gray-400 uppercase tracking-wider">Dịch vụ cho thuê chuyên sâu</div>
+            <a href="/thue-may-photocopy-ha-noi/" class="block px-4 py-2 text-sm font-bold text-[#1A9900] hover:bg-emerald-50 transition flex items-center gap-2"><i class="fa-solid fa-fire text-amber-500"></i>Thuê máy photocopy Hà Nội (Bảng giá 2026)</a>
+            <a href="/thue-may-in/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thuê máy in Laser &amp; Đa năng</a>
+            <a href="/thue-may-photocopy-truong-hoc/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thuê máy cho Trường học</a>
+            <a href="/thue-may-photocopy-so-gd/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thuê máy cho Sở GD&amp;ĐT – Cơ quan</a>
+            <a href="/thue-may-in-de-thi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thuê máy in đề thi siêu tốc (Duplo)</a>
+            <a href="/thue-may-photocopy-ngan-hang/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thuê máy photocopy Ngân hàng</a>
+            <div class="border-t border-gray-100 my-1"></div>
+            <div class="px-4 py-1 text-[11px] font-bold text-gray-400 uppercase tracking-wider">Dịch vụ kỹ thuật</div>
+            <a href="/dich-vu/bao-tri-sua-chua/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Bảo trì &amp; Cứu hộ SLA 2H</a>
+            <a href="/dich-vu/thu-mua-may-cu-doi-may-moi/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thu mua máy cũ – Đổi máy mới</a>
           </div>
         </div>
+
+        <!-- 3. THIẾT BỊ & VẬT TƯ -->
+        <div class="relative has-dropdown group py-2">
+          <a href="/san-pham/" class="nav-link text-gray-800 hover:text-[#1A9900] font-semibold text-sm flex items-center space-x-1 group-hover:text-[#1A9900] transition">
+            <span>THIẾT BỊ &amp; VẬT TƯ</span>
+            <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
+          </a>
+          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md">
+            <a href="/san-pham/photocopy-may-da-chuc-nang/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Photocopy – Máy đa chức năng</a>
+            <a href="/san-pham/may-in-nhan-ban-toc-do-cao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in nhân bản &amp; Hoàn thiện Duplo</a>
+            <a href="/san-pham/may-scan-so-hoa/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy Scan – Số hóa tài liệu</a>
+            <a href="/san-pham/may-in-laser/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Máy in Laser văn phòng</a>
+            <a href="/san-pham/thiet-bi-phong-hoc-giao-duc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị phòng học – Giáo dục</a>
+            <a href="/san-pham/vat-tu-linh-kien-tieu-hao/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Vật tư – Linh kiện chính hãng</a>
+            <a href="/san-pham/thiet-bi-van-phong-hoi-hop/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Thiết bị văn phòng – Hội họp</a>
+            <div class="border-t border-gray-100 my-1"></div>
+            <a href="/san-pham/fansipan/" class="block px-4 py-2.5 text-sm text-amber-800 bg-amber-50/50 hover:bg-amber-100/70 transition font-medium"><i class="fa-solid fa-boxes-stacked mr-1.5 text-amber-600"></i>FANSIPAN – Vật tư tương thích (Đại lý)</a>
+          </div>
+        </div>
+
+        <!-- 4. DỰ ÁN -->
         <a href="/du-an/" class="nav-link text-gray-800 hover:text-[#1A9900] font-semibold text-sm transition py-2">DỰ ÁN</a>
+
+        <!-- 5. VỀ HƯƠNG SƠN -->
         <div class="relative has-dropdown group py-2">
           <a href="/ve-huong-son/" class="nav-link text-gray-800 hover:text-[#1A9900] font-semibold text-sm flex items-center space-x-1 group-hover:text-[#1A9900] transition">
             <span>VỀ HƯƠNG SƠN</span>
             <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 group-hover:rotate-180"></i>
           </a>
-          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md"><a href="/ve-huong-son/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Giới thiệu Hương Sơn</a><a href="/ve-huong-son/nang-luc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Hồ sơ năng lực</a><a href="/ve-huong-son/doi-tac-thuong-hieu/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Đối tác – Thương hiệu</a><a href="/ve-huong-son/tai-nguyen/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Tài nguyên – Catalogue</a><a href="/ve-huong-son/kien-thuc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Kiến thức</a><a href="/ve-huong-son/tin-tuc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Tin tức</a>
+          <div class="dropdown-menu absolute top-full left-0 w-80 bg-white border border-gray-100 shadow-xl py-2 z-50 rounded-b-md">
+            <a href="/ve-huong-son/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Giới thiệu Hương Sơn</a>
+            <a href="/ve-huong-son/nang-luc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Hồ sơ năng lực</a>
+            <a href="/ve-huong-son/doi-tac-thuong-hieu/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Đối tác – Thương hiệu</a>
+            <a href="/ve-huong-son/tai-nguyen/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Tài nguyên – Catalogue</a>
+            <a href="/ve-huong-son/kien-thuc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Kiến thức chuyên môn</a>
+            <a href="/ve-huong-son/tin-tuc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Tin tức &amp; Sự kiện</a>
           </div>
         </div>
+
+        <!-- 6. NHẬN TƯ VẤN -->
         <a href="/nhan-tu-van/" class="nav-link text-gray-800 hover:text-[#1A9900] font-semibold text-sm transition py-2">NHẬN TƯ VẤN</a>
       </nav>
 

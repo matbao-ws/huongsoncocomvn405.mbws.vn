@@ -73,6 +73,169 @@ def _brands():
   </section>"""
 
 
+# ----------------------------------------------- S3B: 3 Nhóm Khách Hàng Chiến Lược
+def _strategic_customer_segments():
+    segments = [
+        {
+            "badge": "Khối Cơ Quan Nhà Nước & Sở GD&ĐT",
+            "icon": "fa-solid fa-landmark",
+            "title": "Bảo Mật Cấp Độ Cao & Dự Phòng N+1 Cho Đợt Thi",
+            "desc": "Thiết kế riêng cho các cơ quan hành chính công, Sở GD&ĐT và Hội đồng in sao đề thi: Đáp ứng nghiêm ngặt quy chế cách ly 3 vòng, vận hành offline 100%, bảo mật tuyệt đối, đầy đủ chứng chỉ hợp quy CO/CQ và hóa đơn tài chính chuẩn kho bạc Nhà nước.",
+            "points": [
+                "Quy trình cách ly 3 vòng tuyệt đối, vận hành offline 100% bảo mật đề thi.",
+                "Hồ sơ pháp lý, hóa đơn VAT, chứng chỉ xuất xứ CO/CQ đầy đủ chuẩn kho bạc.",
+                "Phương án máy dự phòng nóng N+1 và kỹ sư thường trực tại chỗ trong kỳ thi.",
+                "Đã triển khai thực tế cho Sở GD&ĐT Vĩnh Phúc và Sở GD&ĐT Quảng Trị."
+            ],
+            "links": [
+                ("Thuê máy Sở GD&ĐT", "/thue-may-photocopy-so-gd/"),
+                ("Giải pháp in đề thi", "/giai-phap/giao-duc/in-de-thi/"),
+            ]
+        },
+        {
+            "badge": "Khối Doanh Nghiệp & Ngân Hàng",
+            "icon": "fa-solid fa-building-columns",
+            "title": "Tối Ưu Chi Phí TCO & Bảo Mật Dữ Liệu In Ấn Doanh Nghiệp",
+            "desc": "Giải pháp Managed Print Services (MPS) toàn diện cho doanh nghiệp và hệ thống ngân hàng thương mại: Tiết kiệm 30–40% chi phí vận hành, bảo mật in ấn quẹt thẻ RFID/PIN, xóa sạch dữ liệu ổ cứng theo tiêu chuẩn quốc tế DoD 5220.22-M.",
+            "points": [
+                "0đ chi phí đầu tư ban đầu, 0đ tiền cọc thiết bị, bảo dưỡng định kỳ trọn gói.",
+                "Bảo mật tài liệu với pull-printing mã PIN/RFID, chuẩn xóa dữ liệu ổ cứng an toàn.",
+                "Cam kết dịch vụ SLA P1 có mặt tận nơi xử lý sự cố trong vòng 2 giờ.",
+                "Năng lực đã chứng minh qua hợp đồng 127 máy photocopy Toshiba cho Vietcombank."
+            ],
+            "links": [
+                ("Thuê máy ngân hàng", "/thue-may-photocopy-ngan-hang/"),
+                ("Bảng giá thuê Hà Nội", "/thue-may-photocopy-ha-noi/"),
+            ]
+        },
+        {
+            "badge": "Khối Trường Học & Cơ Sở Giáo Dục",
+            "icon": "fa-solid fa-graduation-cap",
+            "title": "Hợp Đồng Theo Niên Khóa & Hệ Thống Số Hóa Học Bạ",
+            "desc": "Đồng hành cùng các trường Đại học, Cao đẳng, THPT và THCS với chính sách thuê máy linh hoạt 9 tháng học kỳ, miễn phí hoàn toàn cước thuê 3 tháng hè và hỗ trợ số hóa toàn diện học bạ điện tử chuẩn Bộ Giáo dục & Đào tạo.",
+            "points": [
+                "Chính sách độc quyền: Miễn phí tiền thuê trong 3 tháng nghỉ hè (tháng 6, 7, 8).",
+                "Máy photocopy công suất lớn 35–55 ppm đáp ứng in đề kiểm tra và giáo án tập trung.",
+                "Số hóa học bạ điện tử chuẩn Thông tư 26/2020 & 22/2021/TT-BGDĐT bằng máy scan Ricoh.",
+                "Cung cấp thiết bị phòng học thông minh (màn hình tương tác ViewSonic, camera vật thể)."
+            ],
+            "links": [
+                ("Thuê máy trường học", "/thue-may-photocopy-truong-hoc/"),
+                ("Education Hub 6 trụ cột", "/giai-phap/giao-duc/"),
+            ]
+        }
+    ]
+
+    cards = []
+    for s in segments:
+        pt_html = "".join(f'<li class="flex items-start gap-2.5 text-[13px] text-gray-700"><i class="fa-solid fa-check text-[{BRAND}] mt-1 flex-shrink-0"></i><span>{esc(p)}</span></li>' for p in s["points"])
+        link_html = "".join(f'<a href="{u}" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#181923] hover:text-[{BRAND}] border-b border-gray-300 hover:border-[{BRAND}] pb-0.5 transition"><span>{esc(t)}</span><i class="fa-solid fa-arrow-right text-[10px]"></i></a>' for t, u in s["links"])
+        cards.append(f"""
+        <div class="bg-white border border-gray-200 hover:border-[{BRAND}] p-7 flex flex-col justify-between transition-all duration-300 shadow-xs hover:shadow-md group">
+          <div>
+            <div class="w-12 h-12 bg-[{DARK}] text-white group-hover:bg-[{BRAND}] transition-colors flex items-center justify-center mb-5">
+              <i class="{s['icon']} text-xl"></i>
+            </div>
+            <span class="text-[11px] font-bold text-[{BRAND}] uppercase tracking-[0.18em] block mb-1.5">{esc(s['badge'])}</span>
+            <h3 class="text-xl font-bold text-[#181923] leading-snug mb-3">{esc(s['title'])}</h3>
+            <p class="text-[13.5px] text-gray-600 leading-relaxed mb-5">{esc(s['desc'])}</p>
+            <ul class="space-y-2.5 mb-6 pb-6 border-b border-gray-100">{pt_html}</ul>
+          </div>
+          <div class="flex flex-wrap items-center gap-4 pt-2">{link_html}</div>
+        </div>""")
+
+    return C.section(
+        C.heading(
+            eyebrow="Khách hàng chiến lược",
+            title="Giải Pháp May Đo Riêng Cho 3 Nhóm Khách Hàng Trọng Tâm"
+        )
+        + '<p class="text-center text-gray-600 text-sm sm:text-base max-w-3xl mx-auto -mt-6 mb-12 leading-relaxed">Hương Sơn không áp dụng chung một khuôn mẫu cho mọi đơn vị. Mỗi nhóm khách hàng có bài toán đặc thù về an toàn dữ liệu, tính pháp lý, cơ chế ngân sách và yêu cầu kỹ thuật riêng biệt:</p>'
+        + f'<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">{ "".join(cards) }</div>',
+        bg="light", pad="py-16"
+    )
+
+
+# ----------------------------------------------- S3C: Education Hub 6 Trụ Cột
+def _education_vertical_showcase():
+    pillars = [
+        ("fa-solid fa-print", "Trụ cột 1", "In Sao Đề Thi Siêu Tốc", "Máy in Duplo ép lạnh 130–180 ppm không tĩnh điện, cách ly 3 vòng tuyệt đối theo quy chế thi.", "/giai-phap/giao-duc/in-de-thi/"),
+        ("fa-solid fa-stopwatch", "Trụ cột 2", "Thuê Máy Kỳ Thi Tuyển Sinh", "Gói thuê ngắn hạn 7–15 ngày, bao trọn Master/mực, kỹ sư trực hiện trường và máy dự phòng N+1.", "/giai-phap/giao-duc/thue-may-phuc-vu-ky-thi/"),
+        ("fa-solid fa-copy", "Trụ cột 3", "Thuê Máy Photocopy Trường Học", "Hợp đồng 9 tháng theo năm học (miễn cước 3 tháng hè), bao trọn mực in đề kiểm tra và giáo án.", "/thue-may-photocopy-truong-hoc/"),
+        ("fa-solid fa-graduation-cap", "Trụ cột 4", "Số Hóa Học Bạ Điện Tử", "Scan ADF tốc độ cao Ricoh fi-series, OCR bóc tách dữ liệu chuẩn Bộ GD&ĐT đẩy lên CSDL ngành.", "/giai-phap/giao-duc/so-hoa-hoc-ba/"),
+        ("fa-solid fa-file-arrow-up", "Trụ cột 5", "Scan Hồ Sơ Giáo Dục", "Số hóa hồ sơ cán bộ, giáo viên, đề án nghiên cứu khoa học chuẩn Thông tư 02/2019/TT-BNV.", "/giai-phap/giao-duc/so-hoa-ho-so-truong-hoc/"),
+        ("fa-solid fa-chalkboard-user", "Trụ cột 6", "Thiết Bị Phòng Học", "Màn hình tương tác ViewSonic 65–86 inch, camera vật thể AVer và hệ thống âm thanh giảng dạy.", "/giai-phap/giao-duc/thiet-bi-phong-hoc/"),
+    ]
+    cards = "".join(f"""
+        <a href="{u}" class="bg-white border border-gray-200 hover:border-[{BRAND}] p-6 flex flex-col justify-between transition-all duration-300 shadow-xs hover:shadow-md group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-10 h-10 bg-[{DARK}] text-white group-hover:bg-[{BRAND}] transition-colors flex items-center justify-center">
+                <i class="{icon} text-base"></i>
+              </div>
+              <span class="text-[11px] font-bold text-gray-400 group-hover:text-[{BRAND}] uppercase tracking-wider transition">{tag}</span>
+            </div>
+            <h3 class="text-base font-bold text-[#181923] group-hover:text-[{BRAND}] transition mb-2">{esc(t)}</h3>
+            <p class="text-[13px] text-gray-500 leading-relaxed mb-4">{esc(d)}</p>
+          </div>
+          <span class="inline-flex items-center gap-1.5 text-xs font-bold text-[{BRAND}] group-hover:translate-x-1 transition-transform">
+            <span>Chi tiết giải pháp</span><i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </span>
+        </a>""" for icon, tag, t, d, u in pillars)
+
+    return C.section(
+        '<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">'
+        '<div>'
+        f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1.5">Hương Sơn Education Hub</span>'
+        '<h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#181923] leading-tight">Cụm Giải Pháp Giáo Dục Toàn Diện 6 Trụ Cột</h2>'
+        '</div>'
+        f'<a href="/giai-phap/giao-duc/" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[{BRAND}] hover:text-[#147700] transition border border-[{BRAND}]/40 hover:border-[{BRAND}] px-5 py-2.5">'
+        '<span>Xem trung tâm giải pháp giáo dục</span><i class="fa-solid fa-arrow-right text-[10px]"></i></a>'
+        '</div>'
+        + f'<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">{cards}</div>',
+        pad="py-16"
+    )
+
+
+# ----------------------------------------------- S3D: Cho Thuê Thiết Bị (Rental SEO)
+def _rental_seo_hub():
+    rental_items = [
+        ("fa-solid fa-location-dot", "Hà Nội Trọng Điểm", "Cho Thuê Máy Photocopy Tại Hà Nội", "Từ 800.000 đ/tháng", "Toshiba & Ricoh mới 100%, 0đ tiền cọc, bao trọn mực in và linh kiện, giao lắp trong 2h tại 30 quận huyện.", "/thue-may-photocopy-ha-noi/"),
+        ("fa-solid fa-print", "Văn Phòng & Doanh Nghiệp", "Cho Thuê Máy In Văn Phòng Trọn Gói", "Từ 500.000 đ/tháng", "Máy in laser đa chức năng HP, Toshiba A3/A4. Không lo hết mực, bố trí phân tán theo phòng ban.", "/thue-may-in/"),
+        ("fa-solid fa-school", "Trường Học K-12 & ĐH", "Cho Thuê Máy Photocopy Cho Trường Học", "Hợp đồng 9 tháng niên khóa", "Miễn phí 3 tháng hè, bao trọn gói mực in làm đề kiểm tra, công suất lớn 35–55 bản/phút chống kẹt giấy.", "/thue-may-photocopy-truong-hoc/"),
+        ("fa-solid fa-landmark", "Cơ Quan Nhà Nước & B2G", "Cho Thuê Máy Photocopy Cho Sở GD&ĐT", "Chuẩn B2G & Kho Bạc", "Đầy đủ CO/CQ, hóa đơn tài chính VAT, năng lực dự thầu, phương án dự phòng N+1 không rủi ro.", "/thue-may-photocopy-so-gd/"),
+        ("fa-solid fa-file-circle-check", "Hội Đồng In Sao Đề", "Cho Thuê Máy In Sao Đề Thi Siêu Tốc", "Gói ngắn hạn 7–15 ngày", "Máy in Duplo ép lạnh chống cong giấy, cam kết kỹ thuật viên cách ly cùng hội đồng in sao 24/7.", "/thue-may-in-de-thi/"),
+        ("fa-solid fa-building-columns", "Ngân Hàng & Tập Đoàn", "Cho Thuê Máy Photocopy Cho Ngân Hàng", "Bảo mật RFID & DoD", "In ấn quẹt thẻ nhân viên RFID, chuẩn an ninh xóa dữ liệu ổ cứng, kinh nghiệm 127 máy cho Vietcombank.", "/thue-may-photocopy-ngan-hang/"),
+    ]
+    cards = "".join(f"""
+        <a href="{u}" class="bg-[#fbfbfb] hover:bg-white border border-gray-200 hover:border-[{BRAND}] p-6 flex flex-col justify-between transition-all duration-300 shadow-xs hover:shadow-md group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[11px] font-bold text-[{BRAND}] uppercase tracking-wider">{esc(cat)}</span>
+              <span class="text-[11px] font-bold text-gray-700 bg-gray-100 px-2.5 py-1">{esc(price)}</span>
+            </div>
+            <h3 class="text-base font-bold text-[#181923] group-hover:text-[{BRAND}] transition mb-2 leading-snug">{esc(t)}</h3>
+            <p class="text-[13px] text-gray-500 leading-relaxed mb-4">{esc(d)}</p>
+          </div>
+          <div class="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-[{BRAND}]">
+            <span>Xem bảng giá &amp; ưu đãi</span>
+            <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </a>""" for icon, cat, t, price, d, u in rental_items)
+
+    return C.section(
+        '<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">'
+        '<div>'
+        f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1.5">Dịch vụ cho thuê thiết bị</span>'
+        '<h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#181923] leading-tight">6 Gói Thuê Thiết Bị Chuyên Sâu Tối Ưu TCO Cho Đơn Vị</h2>'
+        '</div>'
+        '<span class="inline-flex items-center gap-1.5 text-xs font-bold text-[#1A9900] bg-[#1A9900]/10 px-3.5 py-2">'
+        '<i class="fa-solid fa-shield-check"></i> Cam kết SLA ≤ 2h • 0đ Tiền Cọc</span>'
+        '</div>'
+        + f'<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">{cards}</div>',
+        bg="light", pad="py-16"
+    )
+
+
 # ------------------------------------------------------- S4: Why choose us
 def _why():
     items = [
@@ -80,7 +243,7 @@ def _why():
         ("fa-solid fa-headset", "Dịch vụ đi cùng thiết bị", "Bảo trì, kỹ thuật trực, máy dự phòng và cam kết thời gian xử lý theo cấp độ sự cố."),
         ("fa-solid fa-graduation-cap", "Chuyên sâu Giáo dục", "Kinh nghiệm thực tế in sao đề thi cho Sở GD&ĐT Vĩnh Phúc và Quảng Trị, có hồ sơ hợp đồng đầy đủ."),
         ("fa-solid fa-truck-fast", "Cho thuê & Managed Print", "Từ thuê máy theo đợt đến quản lý trọn gói đội thiết bị, tính theo sản lượng và SLA."),
-        ("fa-solid fa-boxes-stacked", "Vật tư Fansipan", "Thương hiệu vật tư riêng — mực, cụm mực, linh kiện tương thích nhiều dòng máy."),
+        ("fa-solid fa-boxes-stacked", "Hệ sinh thái vật tư Fansipan", "Thương hiệu vật tư tương thích do Hương Sơn phát triển từ 2008 — cung cấp mực in Toner chất lượng cao, cartridge, trống drum cho đại lý và đối tác kỹ thuật toàn miền Bắc."),
     ]
     rows = "".join(f"""
         <div class="flex items-start space-x-4">
@@ -327,8 +490,8 @@ def _categories():
     cards = [{"title": c["h1"], "url": c["url"], "icon": "fa-solid fa-box",
              "tag": c["eyebrow"], "text": esc(c["summary"][:110] + "…")} for c in PRODUCTS["categories"]]
     return C.section(
-        C.heading(eyebrow="Danh mục thiết bị bổ trợ", title="Hệ sinh thái sản phẩm bổ trợ đa thương hiệu")
-        + '<p class="text-center text-gray-600 text-sm max-w-2xl mx-auto -mt-6 mb-10 leading-relaxed">Bên cạnh 3 dịch vụ mũi nhọn, Hương Sơn cung cấp đầy đủ các dòng máy in laser, máy đếm tiền, mực in Fansipan chính hãng và vật tư thay thế tương thích:</p>'
+        C.heading(eyebrow="Danh mục thiết bị bổ trợ", title="Hệ sinh thái sản phẩm bổ trợ & Vật tư FANSIPAN")
+        + '<p class="text-center text-gray-600 text-sm max-w-2xl mx-auto -mt-6 mb-10 leading-relaxed">Bên cạnh các giải pháp vận hành in ấn mũi nhọn, Hương Sơn cung cấp đầy đủ các dòng máy in laser, máy đếm tiền, và hệ sinh thái mực in, cartridge FANSIPAN tương thích chất lượng cao cho đại lý &amp; đối tác:</p>'
         + C.card_grid(cards, cols=4)
         + f'<div class="text-center mt-10"><a href="/san-pham/" class="inline-block border border-gray-300 hover:border-[{BRAND}] hover:text-[{BRAND}] text-[#181923] font-bold text-xs uppercase tracking-wider px-8 py-4 transition">Xem tất cả 9 danh mục sản phẩm</a></div>',
         bg="light", pad="py-16")
@@ -453,7 +616,11 @@ def _knowledge_home():
 
 
 def build(write):
-    body = (_hero() + _quick_cta() + _brands() + _three_flagship_services()
+    body = (_hero() + _quick_cta() + _brands()
+            + _strategic_customer_segments()
+            + _education_vertical_showcase()
+            + _rental_seo_hub()
+            + _three_flagship_services()
             + _why() + _counters() + _capability()
             + _categories() + _marquee() + _cta_download()
             + _sla() + _news() + _knowledge_home())

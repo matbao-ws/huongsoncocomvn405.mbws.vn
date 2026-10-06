@@ -127,6 +127,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://huongsonco.com.vn/giai-phap/giao-duc/so-hoa-hoc-ba/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/giai-phap/giao-duc/thiet-bi-phong-hoc/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/giai-phap/giao-duc/thue-may-phuc-vu-ky-thi/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://huongsonco.com.vn/giai-phap/in-de-thi-tai-lieu/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -743,6 +761,42 @@
     <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/thue-may-in-de-thi/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/thue-may-in/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/thue-may-photocopy-ha-noi/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/thue-may-photocopy-ngan-hang/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/thue-may-photocopy-so-gd/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://huongsonco.com.vn/thue-may-photocopy-truong-hoc/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://huongsonco.com.vn/tin-tuc/10-loi-thuong-gap-khien-may-photocopy-nhanh-hong-va-cach-phong-ngua/</loc>
