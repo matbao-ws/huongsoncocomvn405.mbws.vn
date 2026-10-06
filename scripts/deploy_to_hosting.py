@@ -26,7 +26,7 @@ def load_env_dict():
 _env = load_env_dict()
 FTP_HOST = _env.get("FTP_HOST", "203.205.31.252")
 FTP_USER = _env.get("FTP_USER", "u08cb5313")
-FTP_PASS = _env.get("FTP_PASS", "AKdmec3$E6v2fjt$")
+FTP_PASS = _env.get("FTP_PASS", "YjNzz?d04L8o?pdz")
 DB_PASS = _env.get("DB_PASSWORD", "b0zZfEZ2~mz_eap7")
 
 DIRECTORIES_TO_INCLUDE = [
@@ -42,9 +42,11 @@ DIRECTORIES_TO_INCLUDE = [
     "theme",
     "resources/views",
     "build",
+    "config",
     "database/seeders",
     "scripts",
     "app/Http/Controllers/Client",
+    "app/Mail",
     "routes",
 ]
 
@@ -167,8 +169,20 @@ if (file_exists($envPath)) {
         $envContent = preg_replace('/^APP_URL=.*$/m', 'APP_URL=https://huongsonco.com.vn', $envContent);
     }
 
+    // Ensure MAIL_SELLER and MAIL_SELLER_CC are strictly locked
+    if (preg_match('/^MAIL_SELLER=.*$/m', $envContent)) {
+        $envContent = preg_replace('/^MAIL_SELLER=.*$/m', 'MAIL_SELLER=info@huongsonco.com.vn', $envContent);
+    } else {
+        $envContent .= "\\nMAIL_SELLER=info@huongsonco.com.vn\\n";
+    }
+    if (preg_match('/^MAIL_SELLER_CC=.*$/m', $envContent)) {
+        $envContent = preg_replace('/^MAIL_SELLER_CC=.*$/m', 'MAIL_SELLER_CC=thuannc72@gmail.com', $envContent);
+    } else {
+        $envContent .= "\\nMAIL_SELLER_CC=thuannc72@gmail.com\\n";
+    }
+
     file_put_contents($envPath, $envContent);
-    echo "SUCCESS: .env updated (DB_PASSWORD and APP_URL set).\\n";
+    echo "SUCCESS: .env updated (DB_PASSWORD, APP_URL, MAIL_SELLER, MAIL_SELLER_CC set).\\n";
 } else {
     echo "WARNING: .env not found at $envPath\\n";
 }
