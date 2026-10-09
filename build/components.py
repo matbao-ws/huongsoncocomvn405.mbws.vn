@@ -172,17 +172,36 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
         bottom_badge_text = "Đổi máy mới 1-1"
         showcase_caption = "Kỹ thuật trực chiến tại địa điểm"
     elif sec_key == "du-an":
-        foreground_img = "/assets/images/banners/hero_projects_1787899964984.jpg"
-        top_badge_icon = "fa-solid fa-award text-[#ffc107]"
-        top_badge_text = "Từ năm 2008"
-        bottom_badge_text = "500+ Dự án"
-        showcase_caption = "Hội đồng thi & Ngân hàng uy tín"
+        if "vietcombank" in trail_str:
+            foreground_img = "/assets/images/proof/ban-giao-vietcombank.jpg"
+            top_badge_icon = "fa-solid fa-building-columns text-[#ffc107]"
+            top_badge_text = "Hệ thống Vietcombank"
+            bottom_badge_text = "Lô 127 máy Toshiba"
+            showcase_caption = "Ảnh bàn giao thực tế tại Vietcombank"
+        elif "quang-tri" in trail_str:
+            foreground_img = "/assets/images/proof/in-sao-de-thi-duplo.jpg"
+            top_badge_icon = "fa-solid fa-print text-[#ffc107]"
+            top_badge_text = "Sở GD&ĐT Quảng Trị"
+            bottom_badge_text = "Chuẩn thi THPT"
+            showcase_caption = "Hệ thống in sao đề thi Duplo"
+        elif "vinh-phuc" in trail_str:
+            foreground_img = "/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg"
+            top_badge_icon = "fa-solid fa-handshake text-[#ffc107]"
+            top_badge_text = "Sở GD&ĐT Vĩnh Phúc"
+            bottom_badge_text = "Bàn giao tận nơi"
+            showcase_caption = "Nghiệm thu máy photocopy Toshiba"
+        else:
+            foreground_img = "/assets/images/proof/ban-giao-vietcombank.jpg"
+            top_badge_icon = "fa-solid fa-award text-[#ffc107]"
+            top_badge_text = "Từ năm 2008"
+            bottom_badge_text = "500+ Dự án"
+            showcase_caption = "Bàn giao thiết bị thực tế tại khách hàng"
     elif sec_key == "ve-huong-son":
-        foreground_img = "/assets/images/banners/hero_office_solutions_1787899910391.jpg"
+        foreground_img = "/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg"
         top_badge_icon = "fa-solid fa-building text-[#5eb74c]"
         top_badge_text = "Thành lập từ 2008"
         bottom_badge_text = "Từ năm 2008"
-        showcase_caption = "Trụ sở & Showroom tại Hà Nội"
+        showcase_caption = "Bàn giao & Nghiệm thu thiết bị tận nơi"
     elif sec_key == "cong-cu":
         foreground_img = "/assets/images/products/120-toshiba-e-studio-6528a.jpg"
         top_badge_icon = "fa-solid fa-calculator text-[#ffc107]"
