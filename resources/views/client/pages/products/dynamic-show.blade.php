@@ -257,7 +257,11 @@
             $badgeSub = "Thiết bị văn phòng & In ấn hiện đại";
             $badgePillText = "Chất lượng tiêu chuẩn & Bảo hành uy tín";
             $commitmentTitle = "Cam kết chất lượng tiêu chuẩn";
-            $prodDisplayImg = $product->image_url ?: ($product->image ?: null);
+            $commitmentDesc = "Hương Sơn cung cấp thiết bị và vật tư tiêu chuẩn, đáp ứng nhu cầu in ấn văn phòng chuyên nghiệp.";
+            $warrantyText = "12 tháng theo tiêu chuẩn nhà sản xuất";
+        }
+
+        $prodDisplayImg = $product->image_url ?: ($product->image ?: null);
         if (!$prodDisplayImg || str_contains($prodDisplayImg, 'toshiba_mfp_product')) {
             if (str_contains($catSlug, 'may-in-nhan-ban')) {
                 $prodDisplayImg = '/assets/images/products/duplo-dp-x550.jpg';
