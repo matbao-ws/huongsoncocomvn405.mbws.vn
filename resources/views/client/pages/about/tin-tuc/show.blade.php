@@ -1,11 +1,12 @@
 @extends('client.layouts.app')
 
 @php
-    $postTitle = $post->seo_title ?: $post->title;
+    $actualTitle = $post->getTranslation('title', 'vi') ?: ($post->title ?: '');
+    $postTitle = $post->getTranslation('seo_title', 'vi') ?: ($post->seo_title ?: $actualTitle);
     if (!str_contains($postTitle, 'Hương Sơn') && !str_contains($postTitle, 'Huong Son')) {
         $postTitle .= ' | Hương Sơn';
     }
-    $postDesc = $post->seo_description ?: ($post->summary ?: \Illuminate\Support\Str::limit(strip_tags($post->content), 155));
+    $postDesc = $post->getTranslation('seo_description', 'vi') ?: ($post->seo_description ?: ($post->getTranslation('summary', 'vi') ?: ($post->summary ?: \Illuminate\Support\Str::limit(strip_tags($post->getTranslation('content', 'vi') ?: ($post->content ?: '')), 155))));
 
     $strategicJson = base_path('scripts/articles/strategic_posts.json');
     $currentFaqs = [];
@@ -137,7 +138,7 @@
       <!-- Breadcrumb Pill on Top-Left -->
       <div class="flex items-center justify-start mb-4">
         <nav class="inline-flex items-center gap-1.5 sm:gap-2 bg-white/10 hover:bg-white/15 border border-white/20 px-3.5 sm:px-4 py-1.5 backdrop-blur-md text-xs text-white/90 transition shadow-sm flex-wrap" aria-label="Breadcrumb">
-          <a href="/" class="hover:text-white flex items-center gap-1.5 transition"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i><span>Trang chủ</span></a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/ve-huong-son/tin-tuc/" class="text-gray-200 hover:text-white transition">Tin tức</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <span class="text-[#84e372] font-semibold" aria-current="page">{{ $post->title }}</span>
+          <a href="/" class="hover:text-white flex items-center gap-1.5 transition"><i class="fa-solid fa-house text-[#5eb74c] text-[11px]"></i><span>Trang chủ</span></a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <a href="/ve-huong-son/tin-tuc/" class="text-gray-200 hover:text-white transition">Tin tức</a> <i class="fa-solid fa-angle-right text-[9px] text-gray-400"></i> <span class="text-[#84e372] font-semibold" aria-current="page">{{ $actualTitle }}</span>
         </nav>
       </div>
 
@@ -150,7 +151,7 @@
             Chuyên đề giải pháp · {{ $post->category ? $post->category->name : 'Tin tức' }}
           </div>
           <h1 class="text-2xl sm:text-[34px] lg:text-[38px] font-extrabold text-white mb-3.5 leading-[1.35] tracking-normal drop-shadow-md">
-            {{ $post->title }}
+            {{ $actualTitle }}
           </h1>
           
           <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-6 text-xs text-gray-200">
@@ -184,7 +185,7 @@
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
               <div class="pt-6 pb-2 px-2 flex items-center justify-center min-h-[200px] sm:min-h-[230px]">
-                <img src="{{ $post->image_url ?: '/assets/images/banners/hero_office_solutions_1787899910391.jpg' }}" alt="{{ $post->title }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
+                <img src="{{ $post->image_url ?: '/assets/images/banners/hero_office_solutions_1787899910391.jpg' }}" alt="{{ $actualTitle }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
               </div>
 
               <!-- Bottom Caption Strip & Floating Badge -->
@@ -208,16 +209,21 @@
 <article class="py-14 sm:py-16 bg-white">
   <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
 
-    @if($post->summary)
+    @php
+        $contentHtml = $post->getTranslation('content', 'vi') ?: ($post->content ?: '');
+        $summaryText = trim($post->getTranslation('summary', 'vi') ?: ($post->summary ?: ''));
+    @endphp
+
+    @if(!empty($summaryText))
       <div class="bg-[#f7f3ee] border-l-4 border-[#1A9900] p-5 sm:p-6 mb-8 rounded-r">
         <p class="text-[16px] sm:text-[17px] font-medium text-[#181923] italic leading-relaxed">
-          {{ $post->summary }}
+          {{ $summaryText }}
         </p>
       </div>
     @endif
 
     <div class="prose prose-lg max-w-none text-[#181923] leading-[1.85] space-y-5">
-      {!! $post->content !!}
+      {!! $contentHtml !!}
     </div>
 
     <!-- Share and tags -->

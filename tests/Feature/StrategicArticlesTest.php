@@ -106,6 +106,19 @@ class StrategicArticlesTest extends TestCase
         $response->assertSee('Nguyễn Công Thuận');
     }
 
+    public function test_strategic_article_30_deacidification_returns_ok_with_deep_content(): void
+    {
+        $response = $this->get('/ve-huong-son/tin-tuc/quy-trinh-khu-axit-lam-phang-va-bao-quan-tai-lieu-giay-truoc-khi-scan');
+        $response->assertOk();
+        $response->assertSee('Quy Trình Khử Axit, Làm Phẳng &amp; Vệ Sinh Tài Liệu Giấy Cũ', false);
+        $response->assertSee('AEO Direct Answer');
+        $response->assertSee('1. Bản Chất Khoa Học');
+        $response->assertSee('Máy scan văn phòng thông thường');
+        $response->assertSee('Thông tư 02/2019/TT-BNV');
+        $response->assertSee('Nguyễn Công Thuận');
+        $response->assertSee('GEO Local Authority Card');
+    }
+
     public function test_all_32_strategic_articles_return_ok(): void
     {
         $jsonPath = base_path('scripts/articles/strategic_posts.json');
