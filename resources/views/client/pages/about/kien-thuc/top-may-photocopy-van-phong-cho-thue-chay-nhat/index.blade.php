@@ -313,7 +313,7 @@
           
         <figure class="my-8 rounded-lg overflow-hidden border border-gray-200 shadow-md bg-white">
           <div class="h-64 sm:h-80 md:h-[400px] w-full overflow-hidden bg-gray-900/5">
-            <img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026" class="w-full h-full object-cover" loading="eager" />
+            <img src="/assets/images/products/120-toshiba-e-studio-6528a.jpg" alt="Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026" class="w-full h-full object-cover" loading="eager" />
           </div>
           <figcaption class="bg-gray-50 px-5 py-3 text-xs text-gray-600 flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-t border-gray-200/80">
             <span><i class="fa-solid fa-camera mr-1.5 text-[#1A9900]"></i>Hình ảnh thiết bị &amp; giải pháp: <strong>Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026</strong></span>

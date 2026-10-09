@@ -110,11 +110,11 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
             break
 
     # Resolve foreground showcase image and badges
-    foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+    foreground_img = "/assets/images/products/120-toshiba-e-studio-6528a.jpg"
     top_badge_icon = "fa-solid fa-award text-[#5eb74c]"
     top_badge_text = "Cam kết chất lượng tiêu chuẩn"
     bottom_badge_text = "Bảo hành 24T"
-    showcase_caption = "Thiết bị văn phòng & In ấn hiện đại"
+    showcase_caption = "Đại lý ủy quyền Toshiba & Duplo Nhật Bản"
 
     trail_str = " ".join(u for _, u in trail).lower()
     if "in-de-thi" in trail_str or "giao-duc" in trail_str:
@@ -124,17 +124,17 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
         bottom_badge_text = "Bảo mật 100%"
         showcase_caption = "Máy in đề thi Duplo Nhật Bản"
     elif "scan-so-hoa" in trail_str:
-        foreground_img = "/assets/images/banners/highspeed_scanner_1787905830483.jpg"
+        foreground_img = "/assets/images/products/ricoh-fi-8170.png"
         top_badge_icon = "fa-solid fa-bolt text-[#ffc107]"
         top_badge_text = "Scan 80 – 140 trang/phút"
         bottom_badge_text = "OCR Tiếng Việt"
         showcase_caption = "Máy scan Ricoh Fujitsu chuyên dụng"
     elif "photocopy" in trail_str:
-        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        foreground_img = "/assets/images/products/120-toshiba-e-studio-6528a.jpg"
         top_badge_icon = "fa-solid fa-medal text-[#ffc107]"
         top_badge_text = "Chất lượng kiểm định tiêu chuẩn"
         bottom_badge_text = "Bảo hành tận nơi"
-        showcase_caption = "Máy photocopy đa chức năng chuyên nghiệp"
+        showcase_caption = "Máy photocopy Toshiba chính hãng"
     elif "may-in-nhan-ban" in trail_str:
         foreground_img = "/assets/images/products/duplo-dp-x550.jpg"
         top_badge_icon = "fa-solid fa-print text-[#ffc107]"
@@ -142,25 +142,25 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
         bottom_badge_text = "Chuẩn in đề thi"
         showcase_caption = "Máy in siêu tốc Duplo Nhật Bản"
     elif "thue-may" in trail_str or "cho-thue" in trail_str:
-        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        foreground_img = "/assets/images/products/120-toshiba-e-studio-6528a.jpg"
         top_badge_icon = "fa-solid fa-handshake text-[#ffc107]"
         top_badge_text = "Trọn Gói Mực & Bảo Trì"
         bottom_badge_text = "Đổi máy trong 24h"
-        showcase_caption = "Thuê máy photocopy trọn gói miễn phí mực"
+        showcase_caption = "Thuê máy photocopy Toshiba trọn gói"
     elif "fansipan" in trail_str:
-        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        foreground_img = "/assets/images/products/84-muc-fansipan-tonner-black.jpg"
         top_badge_icon = "fa-solid fa-award text-[#ffc107]"
         top_badge_text = "Thương hiệu FANSIPAN"
         bottom_badge_text = "Tiết kiệm 50%"
         showcase_caption = "Mực in tương thích cao cấp FANSIPAN"
     elif "vat-tu" in trail_str or "linh-kien" in trail_str:
-        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        foreground_img = "/assets/images/products/45-muc-nen-dung-cho-duplo.jpg"
         top_badge_icon = "fa-solid fa-boxes-stacked text-[#ffc107]"
         top_badge_text = "Linh Kiện Tiêu Chuẩn"
         bottom_badge_text = "Bảo hành 1 đổi 1"
         showcase_caption = "Vật tư & Linh kiện thay thế chuẩn xác"
     elif sec_key == "nhan-tu-van":
-        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        foreground_img = "/assets/images/products/120-toshiba-e-studio-6528a.jpg"
         top_badge_icon = "fa-solid fa-clock text-[#ffc107]"
         top_badge_text = "Phản hồi trong giờ làm việc"
         bottom_badge_text = "Hotline kỹ thuật 24/7"
@@ -184,7 +184,7 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
         bottom_badge_text = "Từ năm 2008"
         showcase_caption = "Trụ sở & Showroom tại Hà Nội"
     elif sec_key == "cong-cu":
-        foreground_img = "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg"
+        foreground_img = "/assets/images/products/120-toshiba-e-studio-6528a.jpg"
         top_badge_icon = "fa-solid fa-calculator text-[#ffc107]"
         top_badge_text = "Kết quả trong 30 giây"
         bottom_badge_text = "Tiết kiệm 35%"

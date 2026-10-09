@@ -88,6 +88,7 @@
             $catBadgeIcon = "fa-solid fa-handshake";
             $catPillText = "Miễn phí mực in & bảo trì tận nơi";
             $catSub = "Máy tuyển chọn chất lượng cao 90–95%";
+            $catHeroImg = "/assets/images/products/duplo-dp-x550.jpg";
             $prop1Title = "Chất lượng máy tuyển chọn";
             $prop1Desc = "Thiết bị tuyển chọn kỹ thuật cao 90–95%, vận hành ổn định, trọn gói mực & linh kiện, đổi máy dự phòng nhanh trong 24h.";
         } elseif ($isCatFansipan) {
@@ -96,6 +97,7 @@
             $catBadgeIcon = "fa-solid fa-award";
             $catPillText = "Mực in tương thích cao cấp — Tiết kiệm 50%";
             $catSub = "Tiết kiệm 50% chi phí — Bản in sắc nét";
+            $catHeroImg = "/assets/images/products/84-muc-fansipan-tonner-black.jpg";
             $prop1Title = "Tiêu chuẩn độc quyền FANSIPAN";
             $prop1Desc = "Hạt mực siêu mịn, đậm nét, tiết kiệm 50% chi phí in ấn, an toàn tuyệt đối cho cụm sấy và trống gạt máy photocopy.";
         } elseif ($isCatParts) {
@@ -104,6 +106,7 @@
             $catBadgeIcon = "fa-solid fa-boxes-stacked";
             $catPillText = "Linh kiện tiêu chuẩn — Bảo hành 1 đổi 1";
             $catSub = "Tương thích tối ưu & Bảo hành 1 đổi 1";
+            $catHeroImg = "/assets/images/products/45-muc-nen-dung-cho-duplo.jpg";
             $prop1Title = "Tiêu chuẩn kỹ thuật cao";
             $prop1Desc = "Linh kiện thay thế chuẩn thông số, sẵn kho cung ứng tức thì, bảo hành kỹ thuật 1 đổi 1 chu đáo.";
         } elseif (str_contains($cSlug, 'may-scan')) {
@@ -112,6 +115,7 @@
             $catBadgeIcon = "fa-solid fa-certificate";
             $catPillText = "100% Thiết bị chính hãng CO/CQ";
             $catSub = "Máy quét chuyên dụng Ricoh Fujitsu";
+            $catHeroImg = "/assets/images/products/ricoh-fi-8170.png";
             $prop1Title = "Chính hãng CO/CQ";
             $prop1Desc = "Đầy đủ chứng nhận xuất xứ CO và chất lượng CQ từ nhà phân phối, bảo hành chính hãng.";
         } elseif (str_contains($cSlug, 'may-in-nhan-ban')) {
@@ -120,6 +124,7 @@
             $catBadgeIcon = "fa-solid fa-print";
             $catPillText = "Chuẩn in sao đề thi THPT & giáo trình";
             $catSub = "Công nghệ Duplo Nhật Bản";
+            $catHeroImg = "/assets/images/products/duplo-dp-x550.jpg";
             $prop1Title = "Công suất lớn & Bảo mật";
             $prop1Desc = "Giải pháp in siêu tốc chi phí bản in cực rẻ, đáp ứng in ấn đề thi bảo mật và tài liệu số lượng lớn.";
         } elseif (str_contains($cSlug, 'photocopy')) {
@@ -128,14 +133,34 @@
             $catBadgeIcon = "fa-solid fa-medal";
             $catPillText = "Kiểm định kỹ thuật — Vận hành bền bỉ";
             $catSub = "Đa chức năng A3/A4 Toshiba & Konica";
+            $catHeroImg = "/assets/images/products/120-toshiba-e-studio-6528a.jpg";
             $prop1Title = "Tiêu chuẩn kỹ thuật cao";
             $prop1Desc = "Máy được tuyển chọn và kiểm định chất lượng nghiêm ngặt, bản in sắc nét, bảo hành tận nơi.";
+        } elseif (str_contains($cSlug, 'may-in-laser')) {
+            $catKicker = "Máy in laser văn phòng";
+            $catBadge = "Laser Tốc Độ Cao 40 Trang/Phút";
+            $catBadgeIcon = "fa-solid fa-print";
+            $catPillText = "Máy in HP LaserJet Pro chính hãng";
+            $catSub = "Chính hãng CO/CQ — Bảo hành tận nơi";
+            $catHeroImg = "/assets/images/products/55-may-in-laser-den-trang-hp-laserjet-pro-mfp-4103fdw-2z629a.jpg";
+            $prop1Title = "Chính hãng CO/CQ";
+            $prop1Desc = "Đầy đủ chứng nhận xuất xứ CO và chất lượng CQ từ HP, bảo hành chính hãng.";
+        } elseif (str_contains($cSlug, 'thiet-bi-phong-hoc')) {
+            $catKicker = "Thiết bị phòng học thông minh";
+            $catBadge = "Tương Tác Thông Minh 4K";
+            $catBadgeIcon = "fa-solid fa-chalkboard-user";
+            $catPillText = "Màn hình tương tác ViewSonic & Camera vật thể";
+            $catSub = "Thiết bị trường học hiện đại";
+            $catHeroImg = "/assets/images/products/viewsonic-ifp6550.jpg";
+            $prop1Title = "Tiêu chuẩn sư phạm";
+            $prop1Desc = "Màn hình tương tác 4K chống lóa, cảm ứng đa điểm mượt mà, độ bền cao phục vụ giảng dạy.";
         } else {
             $catKicker = "Thiết bị văn phòng & giáo dục";
             $catBadge = "Cam Kết Chất Lượng Tiêu Chuẩn";
             $catBadgeIcon = "fa-solid fa-award";
             $catPillText = "Thiết bị tiêu chuẩn chất lượng cao";
             $catSub = "Thiết bị văn phòng & In ấn hiện đại";
+            $catHeroImg = $category->image_url ?: "/assets/images/products/120-toshiba-e-studio-6528a.jpg";
             $prop1Title = "Chất lượng tiêu chuẩn";
             $prop1Desc = "Sản phẩm tuyển chọn kỹ thuật cao, bảo hành uy tín và hỗ trợ kỹ thuật tận nơi chu đáo.";
         }
@@ -192,7 +217,7 @@
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
               <div class="pt-6 pb-2 px-2 flex items-center justify-center min-h-[200px] sm:min-h-[230px]">
-                <img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="{{ $category->name }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
+                <img src="{{ $catHeroImg }}" alt="{{ $category->name }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
               </div>
 
               <!-- Bottom Caption Strip & Floating Badge -->

@@ -1005,7 +1005,7 @@ KNOWLEDGE_ARTICLES = [
         "tag": "Cẩm nang tư vấn",
         "aeo_answer": "Top 5 dòng máy photocopy cho thuê phổ biến nhất năm 2026 gồm: (1) Toshiba e-STUDIO 2528A (25 ppm, văn phòng nhỏ 10-30 người); (2) Toshiba e-STUDIO 3528A (35 ppm, văn phòng vừa 30-70 người); (3) Toshiba e-STUDIO 4528A (45 ppm, trường học và phòng hành chính); (4) Toshiba e-STUDIO 6528A (65 ppm, công suất lớn cho trung tâm in ấn); (5) Konica Minolta bizhub 360i (36 ppm, doanh nghiệp cần đồ họa sắc nét và bảo mật cao).",
         "summary": "Bảng tổng hợp và so sánh chi tiết ưu nhược điểm của 5 dòng máy photocopy khổ A3 được các công ty và trường học lựa chọn thuê nhiều nhất: phân tích cấu hình, tốc độ và ngân sách phù hợp.",
-        "image": "/assets/images/banners/toshiba_mfp_product_1787905812744.jpg",
+        "image": "/assets/images/products/120-toshiba-e-studio-6528a.jpg",
         "toc": [
             ("tieu-chi-danh-gia", "1. Tiêu chí lựa chọn top 5 dòng máy photocopy cho thuê"),
             ("danh-gia-tung-model", "2. Đánh giá chi tiết 5 dòng máy bán chạy nhất"),
@@ -1504,7 +1504,7 @@ KNOWLEDGE_ARTICLES = [
 
 INLINE_FIGURES = {
     "nen-thue-hay-mua-may-photocopy": {
-        "khi-nao-nen-thue": ("/assets/images/banners/toshiba_mfp_product_1787905812744.jpg", "Dịch vụ cho thuê máy photocopy trọn gói tại Hương Sơn: 0đ chi phí đầu tư ban đầu, bao trọn 100% mực và bảo trì kỹ thuật.", "Cho thuê máy photocopy trọn gói Hương Sơn"),
+        "khi-nao-nen-thue": ("/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg", "Dịch vụ cho thuê máy photocopy trọn gói tại Hương Sơn: 0đ chi phí đầu tư ban đầu, bao trọn 100% mực và bảo trì kỹ thuật.", "Cho thuê máy photocopy trọn gói Hương Sơn"),
         "cong-thuc-tco": ("/assets/images/products/toshiba-e-studio-2500ac.jpg", "Máy photocopy đa chức năng A3 hiện đại giúp doanh nghiệp tối ưu tổng chi phí sở hữu (TCO) trong 3 năm.", "Tối ưu TCO máy photocopy"),
     },
     "huong-dan-chon-may-scan-so-hoa-tai-lieu": {

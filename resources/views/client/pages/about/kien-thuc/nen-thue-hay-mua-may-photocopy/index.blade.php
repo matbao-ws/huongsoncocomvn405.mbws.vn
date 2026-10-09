@@ -371,7 +371,7 @@
           
               <figure class="my-8 rounded-lg overflow-hidden border border-gray-200/90 shadow-sm bg-white">
                 <div class="w-full bg-gray-50 flex items-center justify-center p-3 sm:p-5 min-h-[220px]">
-                  <img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="Cho thuê máy photocopy trọn gói Hương Sơn" class="max-h-[380px] w-auto object-contain mx-auto transition duration-300 hover:scale-[1.02]" loading="lazy" />
+                  <img src="/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg" alt="Cho thuê máy photocopy trọn gói Hương Sơn" class="max-h-[380px] w-auto object-contain mx-auto transition duration-300 hover:scale-[1.02]" loading="lazy" />
                 </div>
                 <figcaption class="bg-gray-50 px-4 py-2.5 text-xs text-gray-500 italic text-center border-t border-gray-100 flex items-center justify-center gap-1.5">
                   <i class="fa-solid fa-circle-info text-[#1A9900] text-[11px]"></i>

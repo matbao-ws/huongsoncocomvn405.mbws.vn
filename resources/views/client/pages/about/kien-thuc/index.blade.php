@@ -579,7 +579,7 @@
           </div>
         </article>
         <article class="border border-gray-200/80 group flex flex-col" style="background-color: rgb(247, 243, 238);">
-          <div class="h-52 overflow-hidden"><img src="/assets/images/banners/toshiba_mfp_product_1787905812744.jpg" alt="Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
+          <div class="h-52 overflow-hidden"><img src="/assets/images/products/120-toshiba-e-studio-6528a.jpg" alt="Top 5 dòng máy photocopy cho thuê được các doanh nghiệp lựa chọn nhiều nhất 2026" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" /></div>
           <div class="p-6 flex flex-col flex-1">
             <span class="inline-block text-[10.5px] font-bold uppercase tracking-[0.15em] text-[#1A9900] mb-2">Cẩm nang tư vấn</span>
             <h3 class="text-[17px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug">

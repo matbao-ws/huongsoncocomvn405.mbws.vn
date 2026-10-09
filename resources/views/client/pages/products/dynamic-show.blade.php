@@ -257,8 +257,25 @@
             $badgeSub = "Thiết bị văn phòng & In ấn hiện đại";
             $badgePillText = "Chất lượng tiêu chuẩn & Bảo hành uy tín";
             $commitmentTitle = "Cam kết chất lượng tiêu chuẩn";
-            $commitmentDesc = "Sản phẩm được tuyển chọn và kiểm định chất lượng kỹ thuật nghiêm ngặt trước khi bàn giao cho Quý cơ quan, trường học và doanh nghiệp.";
-            $warrantyText = "12 – 24 tháng theo tiêu chuẩn";
+            $prodDisplayImg = $product->image_url ?: ($product->image ?: null);
+        if (!$prodDisplayImg || str_contains($prodDisplayImg, 'toshiba_mfp_product')) {
+            if (str_contains($catSlug, 'may-in-nhan-ban')) {
+                $prodDisplayImg = '/assets/images/products/duplo-dp-x550.jpg';
+            } elseif (str_contains($catSlug, 'photocopy')) {
+                $prodDisplayImg = '/assets/images/products/120-toshiba-e-studio-6528a.jpg';
+            } elseif (str_contains($catSlug, 'giao-duc')) {
+                $prodDisplayImg = '/assets/images/products/duplo-dp-x550.jpg';
+            } elseif (str_contains($catSlug, 'may-scan')) {
+                $prodDisplayImg = '/assets/images/products/ricoh-fi-8170.png';
+            } elseif (str_contains($catSlug, 'may-in-laser')) {
+                $prodDisplayImg = '/assets/images/products/55-may-in-laser-den-trang-hp-laserjet-pro-mfp-4103fdw-2z629a.jpg';
+            } elseif (str_contains($catSlug, 'fansipan')) {
+                $prodDisplayImg = '/assets/images/products/84-muc-fansipan-tonner-black.jpg';
+            } elseif (str_contains($catSlug, 'vat-tu') || str_contains($catSlug, 'linh-kien')) {
+                $prodDisplayImg = '/assets/images/products/45-muc-nen-dung-cho-duplo.jpg';
+            } else {
+                $prodDisplayImg = '/assets/images/products/120-toshiba-e-studio-6528a.jpg';
+            }
         }
       @endphp
 
@@ -313,7 +330,7 @@
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
               <div class="pt-6 pb-2 px-2 flex items-center justify-center min-h-[200px] sm:min-h-[230px]">
-                <img src="{{ $product->image ?: '/assets/images/banners/toshiba_mfp_product_1787905812744.jpg' }}" alt="{{ $product->name }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
+                <img src="{{ $prodDisplayImg }}" alt="{{ $product->name }}" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
               </div>
 
               <!-- Bottom Caption Strip & Floating Badge -->
