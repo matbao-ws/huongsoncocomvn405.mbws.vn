@@ -117,7 +117,25 @@ def page_hero(*, eyebrow, h1, lead, trail, image="/assets/images/hero-office.jpg
     showcase_caption = "Đại lý ủy quyền Toshiba & Duplo Nhật Bản"
 
     trail_str = " ".join(u for _, u in trail).lower()
-    if "in-de-thi" in trail_str or "giao-duc" in trail_str:
+    if "vietcombank" in trail_str:
+        foreground_img = "/assets/images/proof/ban-giao-vietcombank.jpg"
+        top_badge_icon = "fa-solid fa-building-columns text-[#ffc107]"
+        top_badge_text = "Hệ thống Vietcombank"
+        bottom_badge_text = "Lô 127 máy Toshiba"
+        showcase_caption = "Ảnh bàn giao thực tế tại Vietcombank"
+    elif "quang-tri" in trail_str:
+        foreground_img = "/assets/images/proof/in-sao-de-thi-duplo.jpg"
+        top_badge_icon = "fa-solid fa-print text-[#ffc107]"
+        top_badge_text = "Sở GD&ĐT Quảng Trị"
+        bottom_badge_text = "Chuẩn thi THPT"
+        showcase_caption = "Hệ thống in sao đề thi Duplo"
+    elif "vinh-phuc" in trail_str:
+        foreground_img = "/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg"
+        top_badge_icon = "fa-solid fa-handshake text-[#ffc107]"
+        top_badge_text = "Sở GD&ĐT Vĩnh Phúc"
+        bottom_badge_text = "Bàn giao tận nơi"
+        showcase_caption = "Nghiệm thu máy photocopy Toshiba"
+    elif "in-de-thi" in trail_str or "giao-duc" in trail_str:
         foreground_img = "/assets/images/products/duplo-dp-x550.jpg"
         top_badge_icon = "fa-solid fa-bolt text-[#ffc107]"
         top_badge_text = "130 – 150 bản/phút"

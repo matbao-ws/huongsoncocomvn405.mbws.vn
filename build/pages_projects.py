@@ -32,7 +32,19 @@ def render_project(p):
     body += C.section(f'<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">{fact_html}</div>',
                       bg="beige", pad="py-12")
 
+    proof_img_html = ""
+    if p.get("image"):
+        proof_img_html = f"""
+    <div class="my-8 rounded-lg overflow-hidden border border-gray-200 shadow-md max-w-3xl">
+      <img src="{p['image']}" alt="{esc(p['title'])} - Hương Sơn" class="w-full h-auto object-cover" />
+      <div class="p-3.5 bg-gray-50 text-xs text-gray-600 flex items-center gap-2 border-t border-gray-200">
+        <i class="fa-solid fa-camera text-[{BRAND}]"></i>
+        <span>Hình ảnh thực tế: Bàn giao, lắp đặt và nghiệm thu thiết bị tại đơn vị khách hàng</span>
+      </div>
+    </div>"""
+
     inner = (f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-10 max-w-4xl">{esc(p["summary"])}</p>'
+             + proof_img_html
              + '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Bài toán</h2>'
              + f'<p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">{esc(p["problem"])}</p>'
              + '<h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Giải pháp</h2>'

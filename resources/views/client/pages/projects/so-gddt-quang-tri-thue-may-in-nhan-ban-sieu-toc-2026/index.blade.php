@@ -268,22 +268,22 @@
               <!-- Top Floating Badge -->
               <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 shadow-md flex items-center gap-1.5 border border-white/20 z-20">
                 <i class="fa-solid fa-print text-[#ffc107]"></i>
-                <span>Tốc độ 130 – 180 bản/phút</span>
+                <span>Sở GD&ĐT Quảng Trị</span>
               </div>
 
               <!-- Foreground Product Image (100% Crisp, High Res, Unobscured!) -->
               <div class="pt-6 pb-2 px-2 flex items-center justify-center min-h-[200px] sm:min-h-[230px]">
-                <img src="/assets/images/products/duplo-dp-x550.jpg" alt="Thuê máy in nhân bản siêu tốc Duplo phục vụ Kỳ thi Tốt nghiệp THPT 2026" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
+                <img src="/assets/images/proof/in-sao-de-thi-duplo.jpg" alt="Thuê máy in nhân bản siêu tốc Duplo phục vụ Kỳ thi Tốt nghiệp THPT 2026" class="max-h-[190px] sm:max-h-[220px] w-auto object-contain mx-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-500" loading="eager" />
               </div>
 
               <!-- Bottom Caption Strip & Floating Badge -->
               <div class="pt-3 border-t border-white/15 flex items-center justify-between text-xs text-gray-200">
                 <div class="flex items-center gap-1.5 font-medium">
                   <i class="fa-solid fa-circle-check text-[#5eb74c]"></i>
-                  <span>Máy in siêu tốc Duplo Nhật Bản</span>
+                  <span>Hệ thống in sao đề thi Duplo</span>
                 </div>
                 <span class="bg-[#0d1626]/80 text-[#84e372] text-[10.5px] font-bold px-2 py-0.5 border border-[#5eb74c]/40">
-                  Chuẩn in đề thi
+                  Chuẩn thi THPT
                 </span>
               </div>
             </div>
@@ -323,7 +323,14 @@
   </section>
 
   <section class="py-16 bg-white ">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><p class="text-[15.5px] text-gray-600 leading-[1.85] mb-10 max-w-4xl">Theo Hợp đồng kinh tế số 200426/HĐKT/TTB/HS-SGDĐT ngày 12/5/2026, Hương Sơn cung cấp dịch vụ thuê 02 máy in nhân bản siêu tốc phục vụ sao đề thi Kỳ thi Tốt nghiệp THPT năm 2026 cho Sở GD&amp;ĐT Quảng Trị. Hợp đồng yêu cầu máy đạt tốc độ khoảng 150–155 bản/phút và giao máy trước thời điểm sử dụng để đơn vị làm quen.</p><h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Bài toán</h2><p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">Sở GD&amp;ĐT Quảng Trị cần thiết bị in sao đề thi tốc độ cao, ổn định trong suốt kỳ thi tốt nghiệp THPT — một nhiệm vụ không được phép gián đoạn.</p><h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Giải pháp</h2><p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">Hương Sơn cung cấp 02 máy in nhân bản siêu tốc Duplo đạt 150–155 bản/phút, giao trước thời điểm sử dụng chính thức để Sở kiểm tra và làm quen thiết bị, đúng theo nguyên tắc điều hành EXAM PRO của Hương Sơn.</p><h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Kết quả</h2><ul class="grid grid-cols-1 md:grid-cols-1 gap-x-10 gap-y-3.5">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><p class="text-[15.5px] text-gray-600 leading-[1.85] mb-10 max-w-4xl">Theo Hợp đồng kinh tế số 200426/HĐKT/TTB/HS-SGDĐT ngày 12/5/2026, Hương Sơn cung cấp dịch vụ thuê 02 máy in nhân bản siêu tốc phục vụ sao đề thi Kỳ thi Tốt nghiệp THPT năm 2026 cho Sở GD&amp;ĐT Quảng Trị. Hợp đồng yêu cầu máy đạt tốc độ khoảng 150–155 bản/phút và giao máy trước thời điểm sử dụng để đơn vị làm quen.</p>
+    <div class="my-8 rounded-lg overflow-hidden border border-gray-200 shadow-md max-w-3xl">
+      <img src="/assets/images/proof/in-sao-de-thi-duplo.jpg" alt="Thuê máy in nhân bản siêu tốc Duplo phục vụ Kỳ thi Tốt nghiệp THPT 2026 - Hương Sơn" class="w-full h-auto object-cover" />
+      <div class="p-3.5 bg-gray-50 text-xs text-gray-600 flex items-center gap-2 border-t border-gray-200">
+        <i class="fa-solid fa-camera text-[#1A9900]"></i>
+        <span>Hình ảnh thực tế: Bàn giao, lắp đặt và nghiệm thu thiết bị tại đơn vị khách hàng</span>
+      </div>
+    </div><h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Bài toán</h2><p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">Sở GD&amp;ĐT Quảng Trị cần thiết bị in sao đề thi tốc độ cao, ổn định trong suốt kỳ thi tốt nghiệp THPT — một nhiệm vụ không được phép gián đoạn.</p><h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-3">Giải pháp</h2><p class="text-[15.5px] text-gray-600 leading-[1.85] mb-8 max-w-4xl">Hương Sơn cung cấp 02 máy in nhân bản siêu tốc Duplo đạt 150–155 bản/phút, giao trước thời điểm sử dụng chính thức để Sở kiểm tra và làm quen thiết bị, đúng theo nguyên tắc điều hành EXAM PRO của Hương Sơn.</p><h2 class="text-[13px] font-bold uppercase tracking-[0.16em] text-[#181923] mb-4">Kết quả</h2><ul class="grid grid-cols-1 md:grid-cols-1 gap-x-10 gap-y-3.5">
         <li class="flex items-start space-x-3">
           <i class="fa-solid fa-check text-[#1A9900] text-xs mt-1.5 flex-shrink-0"></i>
           <span class="text-[15px] text-gray-600 leading-relaxed">Máy đạt yêu cầu kỹ thuật về tốc độ (150–155 bản/phút) theo đúng hợp đồng.</span>
