@@ -80,6 +80,43 @@
         </div>
     </div>
 
+    <!-- Banner Cẩm Nang Quản Trị & Bàn Giao Hệ Thống -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 mb-0" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; border-radius: 12px; overflow: hidden; border-left: 5px solid #1a9900 !important;">
+                <div class="card-body p-4 d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="rounded-3 p-3 d-flex align-items-center justify-content-center flex-shrink-0" style="background: rgba(26, 153, 0, 0.2); border: 1px solid rgba(26, 153, 0, 0.4); width: 56px; height: 56px;">
+                            <iconify-icon icon="solar:book-bookmark-bold-duotone" class="fs-7 text-success"></iconify-icon>
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-center gap-2 mb-1">
+                                <span class="badge bg-success text-white px-2 py-0.5 fw-bold text-uppercase" style="font-size: 10.5px; letter-spacing: 0.5px;">Bàn Giao Nghiệm Thu</span>
+                                <span class="text-white-50 small">Phiên bản v1.0.0 (18 Chương nghiệp vụ toàn diện)</span>
+                            </div>
+                            <h5 class="text-white fw-bold mb-1" style="font-size: 17px;">Cẩm Nang Vận Hành Quản Trị Website & Biên Bản Bàn Giao</h5>
+                            <p class="text-white-50 mb-0 small">Dành riêng cho Ban Quản trị Hương Sơn: Hướng dẫn chi tiết từng bước vận hành 18 phân hệ, bảng tra cứu thao tác và hồ sơ nghiệm thu kỹ thuật.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap align-items-center gap-2 flex-shrink-0">
+                        <a href="{{ route('admin.user-manual') }}" target="_blank" class="btn btn-success fw-bold d-flex align-items-center gap-2 px-3 py-2 shadow-sm">
+                            <iconify-icon icon="solar:eye-bold-duotone" class="fs-5"></iconify-icon>
+                            <span>Xem Cẩm Nang Quản Trị</span>
+                        </a>
+                        <a href="{{ route('admin.handover-doc') }}" target="_blank" class="btn btn-outline-light fw-semibold d-flex align-items-center gap-2 px-3 py-2">
+                            <iconify-icon icon="solar:document-text-bold-duotone" class="fs-5"></iconify-icon>
+                            <span>Biên Bản Bàn Giao</span>
+                        </a>
+                        <a href="{{ route('admin.user-manual.pdf') }}" target="_blank" class="btn btn-outline-success fw-semibold d-flex align-items-center gap-2 px-3 py-2 text-white" style="border-color: rgba(26, 153, 0, 0.6); background: rgba(26, 153, 0, 0.15);">
+                            <iconify-icon icon="solar:download-square-bold-duotone" class="fs-5"></iconify-icon>
+                            <span>Tải PDF (100 trang)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     @if(!$canViewOrders)
         <div class="card shadow-sm">
             <div class="card-body p-4">

@@ -371,11 +371,22 @@
                           </li>
                           @endcan
 
-                          <!-- User Guide / Cẩm nang quản trị -->
+                          <!-- User Guide & Handover / Cẩm nang quản trị & Bàn giao -->
+                          <li class="nav-small-cap mt-3">
+                              <iconify-icon icon="solar:menu-dots-bold" class="nav-small-cap-icon fs-5"></iconify-icon>
+                              <span class="hide-menu text-uppercase fw-bold" style="font-size: 11px; letter-spacing: 0.5px; color: #1a9900;">Tài Liệu Bàn Giao</span>
+                          </li>
                           <li class="sidebar-item">
-                              <a class="sidebar-link text-success" href="/huong-dan-su-dung" target="_blank" aria-expanded="false">
-                                  <iconify-icon icon="solar:book-bookmark-line-duotone" class="text-success"></iconify-icon>
+                              <a class="sidebar-link text-success" href="{{ route('admin.user-manual') }}" target="_blank" aria-expanded="false">
+                                  <iconify-icon icon="solar:book-bookmark-bold-duotone" class="text-success fs-6"></iconify-icon>
                                   <span class="hide-menu fw-bold text-success">Cẩm nang quản trị</span>
+                                  <span class="badge bg-success-subtle text-success ms-auto" style="font-size: 10px; font-weight: 700;">18 CHƯƠNG</span>
+                              </a>
+                          </li>
+                          <li class="sidebar-item">
+                              <a class="sidebar-link" href="{{ route('admin.handover-doc') }}" target="_blank" aria-expanded="false">
+                                  <iconify-icon icon="solar:document-text-bold-duotone" class="text-primary fs-6"></iconify-icon>
+                                  <span class="hide-menu fw-semibold">Biên bản bàn giao</span>
                               </a>
                           </li>
                       </ul>

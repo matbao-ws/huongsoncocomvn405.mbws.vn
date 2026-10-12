@@ -8,24 +8,15 @@ Route::get('/admin/{any}', fn ($any) => redirect('/'.app(\App\Services\LanguageR
 
 Route::get('/api/docs', [\App\Http\Controllers\Api\PublicController::class, 'docs'])->name('api.docs');
 
-// Admin User Guide & Documentation Portal
-Route::get('/docs/user-manual.html', function() {
-    return response()->file(base_path('docs/user-manual.html'), ['Content-Type' => 'text/html; charset=UTF-8']);
-});
-Route::get('/docs/user-manual-print.html', function() {
-    return response()->file(base_path('docs/user-manual-print.html'), ['Content-Type' => 'text/html; charset=UTF-8']);
-});
-Route::get('/docs/Huong_Dan_Su_Dung_Admin_Huong_Son.pdf', function() {
-    return response()->file(base_path('docs/Huong_Dan_Su_Dung_Admin_Huong_Son.pdf'), ['Content-Type' => 'application/pdf']);
-});
-Route::get('/huong-dan-su-dung', function() {
-    return response()->file(base_path('docs/user-manual.html'), ['Content-Type' => 'text/html; charset=UTF-8']);
-})->name('user-manual');
-Route::get('/bien-ban-ban-giao', function() {
-    return response()->file(base_path('docs/BIEN_BAN_BAN_GIAO_VA_NGHIEM_THU_WEBSITE_HUONG_SON.md'), ['Content-Type' => 'text/markdown; charset=UTF-8']);
-})->name('handover-doc');
-Route::get('/docs/BIEN_BAN_BAN_GIAO_VA_NGHIEM_THU_WEBSITE_HUONG_SON.md', function() {
-    return response()->file(base_path('docs/BIEN_BAN_BAN_GIAO_VA_NGHIEM_THU_WEBSITE_HUONG_SON.md'), ['Content-Type' => 'text/markdown; charset=UTF-8']);
+// Admin User Guide & Documentation Portal (CHỈ ADMIN ĐÃ ĐĂNG NHẬP MỚI ĐƯỢC XEM)
+Route::middleware(['web', 'auth', 'admin'])->group(function() {
+    Route::get('/huong-dan-su-dung', [\App\Http\Controllers\Admin\DocumentationController::class, 'userManual'])->name('user-manual.legacy');
+    Route::get('/bien-ban-ban-giao', [\App\Http\Controllers\Admin\DocumentationController::class, 'handover'])->name('handover-doc.legacy');
+    Route::get('/docs/user-manual.html', [\App\Http\Controllers\Admin\DocumentationController::class, 'userManual']);
+    Route::get('/docs/user-manual-print.html', [\App\Http\Controllers\Admin\DocumentationController::class, 'printManual']);
+    Route::get('/docs/Huong_Dan_Su_Dung_Admin_Huong_Son.pdf', [\App\Http\Controllers\Admin\DocumentationController::class, 'pdf']);
+    Route::get('/docs/BIEN_BAN_BAN_GIAO_VA_NGHIEM_THU_WEBSITE_HUONG_SON.md', [\App\Http\Controllers\Admin\DocumentationController::class, 'handover']);
+    Route::get('/docs/HUONG_DAN_SU_DUNG_ADMIN_HUONG_SON.md', [\App\Http\Controllers\Admin\DocumentationController::class, 'markdown']);
 });
 Route::get('/docs/assets/screenshots/{filename}', function($filename) {
     $path = base_path('public/docs/assets/screenshots/' . $filename);

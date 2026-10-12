@@ -147,15 +147,24 @@ if ($zip->open($zipPath) === TRUE) {
 }
 
 // 2. Synchronize root SEO files into public/
-echo "2. Syncing SEO files to public/ ...\\n";
+echo "2. Syncing SEO files to public/ ...\n";
 $seoFiles = ['sitemap.xml', 'robots.txt', 'llms.txt'];
 foreach ($seoFiles as $f) {
     $src = $baseDir . '/' . $f;
     $dst = $publicDir . '/' . $f;
     if (file_exists($src)) {
         copy($src, $dst);
-        echo "  Copied $f to public/\\n";
+        echo "  Copied $f to public/\n";
     }
+}
+
+// 2b. Clean up static docs from public/docs/ to enforce Laravel Auth protection
+echo "2b. Cleaning public/docs/ to enforce Laravel Auth protection ...\n";
+$publicDocs = $publicDir . '/docs';
+if (is_dir($publicDocs)) {
+    foreach (glob($publicDocs . '/*.html') as $hf) { @unlink($hf); echo "  Removed: " . basename($hf) . "\n"; }
+    foreach (glob($publicDocs . '/*.pdf') as $pf) { @unlink($pf); echo "  Removed: " . basename($pf) . "\n"; }
+    foreach (glob($publicDocs . '/*.md') as $mf) { @unlink($mf); echo "  Removed: " . basename($mf) . "\n"; }
 }
 
 // 3. Update .env

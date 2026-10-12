@@ -720,6 +720,10 @@ spa_template = """<!DOCTYPE html>
             __NAV__
         </div>
         <div class="sidebar-footer">
+            <a href="/vi/admin" class="btn-action btn-dashboard" style="background: #0f172a; color: #ffffff; text-decoration: none;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+                Bảng Điều Khiển Admin
+            </a>
             <a href="/docs/Huong_Dan_Su_Dung_Admin_Huong_Son.pdf" target="_blank" class="btn-action btn-pdf">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 Tải File PDF Bàn Giao
@@ -1200,18 +1204,8 @@ try:
 except Exception as e:
     print(f"Lỗi PDF: {e}")
 
-# 5. SYNC TO PUBLIC/DOCS/
-for fname in ['user-manual.html', 'user-manual-print.html', 'HUONG_DAN_SU_DUNG_ADMIN_HUONG_SON.md']:
-    src = os.path.join(DOCS_DIR, fname)
-    dst = os.path.join(PUBLIC_DOCS_DIR, fname)
-    if os.path.exists(src):
-        shutil.copy2(src, dst)
-        print(f"  + Đã chép {fname} sang public/docs/")
-
-if os.path.exists(pdf_path):
-    dst_pdf = os.path.join(PUBLIC_DOCS_DIR, 'Huong_Dan_Su_Dung_Admin_Huong_Son.pdf')
-    shutil.copy2(pdf_path, dst_pdf)
-    print("  + Đã chép Huong_Dan_Su_Dung_Admin_Huong_Son.pdf sang public/docs/")
+# 5. SYNC SCREENSHOTS TO PUBLIC/DOCS/ (HTML/PDF/MD ĐƯỢC BẢO VỆ CHẶT CHẼ BẰNG LARAVEL AUTH TRONG DOCS/)
+print("  + Tài liệu HTML/PDF/MD được bảo mật trong docs/, chỉ phục vụ qua route admin có xác thực.")
 
 # Copy screenshots
 docs_img_dir = os.path.join(DOCS_DIR, 'assets', 'screenshots')

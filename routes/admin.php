@@ -278,4 +278,10 @@ Route::middleware(['auth', 'admin'])->group(function () {
         Route::resource('products.variants', ProductVariantController::class)->only(['edit', 'update'])->middleware('can:products.update');
         Route::resource('products.variants', ProductVariantController::class)->only(['destroy'])->middleware('can:products.delete');
     });
+
+    // Cẩm nang Quản trị Hệ thống & Tài liệu bàn giao (Chỉ Admin đã đăng nhập mới được xem)
+    Route::get('huong-dan-su-dung', [\App\Http\Controllers\Admin\DocumentationController::class, 'userManual'])->name('user-manual');
+    Route::get('huong-dan-su-dung/in-a4', [\App\Http\Controllers\Admin\DocumentationController::class, 'printManual'])->name('user-manual.print');
+    Route::get('huong-dan-su-dung/pdf', [\App\Http\Controllers\Admin\DocumentationController::class, 'pdf'])->name('user-manual.pdf');
+    Route::get('bien-ban-ban-giao', [\App\Http\Controllers\Admin\DocumentationController::class, 'handover'])->name('handover-doc');
 });
