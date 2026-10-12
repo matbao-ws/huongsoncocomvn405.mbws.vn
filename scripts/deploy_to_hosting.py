@@ -53,6 +53,7 @@ DIRECTORIES_TO_INCLUDE = [
     "database/seeders",
     "scripts",
     "app/Http/Controllers/Client",
+    "app/Http/Controllers/Admin",
     "app/Mail",
     "routes",
     "docs",
