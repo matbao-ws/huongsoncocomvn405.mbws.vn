@@ -539,7 +539,7 @@ IMAGES_CONFIG = {
             {
                 "src": "/assets/images/proof/ban-giao-thiet-bi-tan-noi.jpg",
                 "alt": "Bàn giao tài liệu hướng dẫn và dán hotline cứu hộ kỹ thuật",
-                "caption": "Hương Sơn dán tem hotline kỹ thuật 0913.222.003 trên thân máy để hỗ trợ nhân viên hành chính 24/7."
+                "caption": "Hương Sơn dán tem hotline kỹ thuật 091.113.8583 trên thân máy để hỗ trợ nhân viên hành chính 24/7."
             }
         ]
     },

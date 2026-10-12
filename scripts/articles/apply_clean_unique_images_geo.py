@@ -5,7 +5,7 @@ Chuẩn hóa 100% bài viết:
 2. Xóa sạch mọi figure cũ để không còn tàn dư ảnh cũ.
 3. Chèn 2 figure độc bản vào 2 section riêng biệt.
 4. Chuẩn hóa tiêu đề AEO Direct Answer cho cả 32 bài.
-5. Thêm GEO Local Authority Card (Trụ sở Cầu Giấy, Xưởng Đống Đa, Hotline 0913.222.003) cho cả 32 bài.
+5. Thêm GEO Local Authority Card (Trụ sở Cầu Giấy, Xưởng Đống Đa, Hotline 091.113.8583) cho cả 32 bài.
 """
 import os
 import json

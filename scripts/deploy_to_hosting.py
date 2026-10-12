@@ -62,6 +62,7 @@ DIRECTORIES_TO_INCLUDE = [
 
 ROOT_FILES_TO_INCLUDE = [
     "sitemap.xml",
+    "public/sitemap.xml",
     "robots.txt",
     "llms.txt",
     "index.html",

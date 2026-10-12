@@ -281,8 +281,8 @@ def _education_vertical_showcase():
 # ----------------------------------------------- S3D: Cho Thuê Thiết Bị (Rental SEO)
 def _rental_seo_hub():
     rental_items = [
-        ("fa-solid fa-location-dot", "Hà Nội Trọng Điểm", "Cho Thuê Máy Photocopy Tại Hà Nội", "Từ 800.000 đ/tháng", "Toshiba & Ricoh mới 100%, 0đ tiền cọc, bao trọn mực in và linh kiện, giao lắp trong 2h tại 30 quận huyện.", "/thue-may-photocopy-ha-noi/"),
-        ("fa-solid fa-print", "Văn Phòng & Doanh Nghiệp", "Cho Thuê Máy In Văn Phòng Trọn Gói", "Từ 500.000 đ/tháng", "Máy in laser đa chức năng HP, Toshiba A3/A4. Không lo hết mực, bố trí phân tán theo phòng ban.", "/thue-may-in/"),
+        ("fa-solid fa-location-dot", "Hà Nội Trọng Điểm", "Cho Thuê Máy Photocopy A3 Tại Hà Nội", "Khổ A3 từ 800.000 đ/tháng", "Máy photocopy đa chức năng A3/A4 Toshiba & Ricoh mới 100% (25–65 ppm), 0đ tiền cọc, bao trọn mực in và linh kiện, giao lắp trong 2h.", "/thue-may-photocopy-ha-noi/"),
+        ("fa-solid fa-print", "Văn Phòng & Doanh Nghiệp", "Cho Thuê Máy In A4 Văn Phòng Để Bàn", "Khổ A4 từ 500.000 đ/tháng", "Máy in laser đa chức năng HP, Toshiba A4 nhỏ gọn để bàn. Không lo hết mực, bố trí linh hoạt phân tán theo phòng ban.", "/thue-may-in/"),
         ("fa-solid fa-school", "Trường Học K-12 & ĐH", "Cho Thuê Máy Photocopy Cho Trường Học", "Hợp đồng 9 tháng niên khóa", "Miễn phí 3 tháng hè, bao trọn gói mực in làm đề kiểm tra, công suất lớn 35–55 bản/phút chống kẹt giấy.", "/thue-may-photocopy-truong-hoc/"),
         ("fa-solid fa-landmark", "Cơ Quan Nhà Nước & B2G", "Cho Thuê Máy Photocopy Cho Sở GD&ĐT", "Chuẩn B2G & Kho Bạc", "Đầy đủ CO/CQ, hóa đơn tài chính VAT, năng lực dự thầu, phương án dự phòng N+1 không rủi ro.", "/thue-may-photocopy-so-gd/"),
         ("fa-solid fa-file-circle-check", "Hội Đồng In Sao Đề", "Cho Thuê Máy In Sao Đề Thi Siêu Tốc", "Gói ngắn hạn 7–15 ngày", "Máy in Duplo ép lạnh chống cong giấy, cam kết kỹ thuật viên cách ly cùng hội đồng in sao 24/7.", "/thue-may-in-de-thi/"),
@@ -305,13 +305,20 @@ def _rental_seo_hub():
         </a>""" for icon, cat, t, price, d, u in rental_items)
 
     return C.section(
-        '<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">'
+        '<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">'
         '<div>'
         f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1.5">Dịch vụ cho thuê thiết bị</span>'
         '<h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#181923] leading-tight">6 Gói Thuê Thiết Bị Chuyên Sâu Tối Ưu TCO Cho Đơn Vị</h2>'
         '</div>'
         '<span class="inline-flex items-center gap-1.5 text-xs font-bold text-[#1A9900] bg-[#1A9900]/10 px-3.5 py-2">'
         '<i class="fa-solid fa-shield-check"></i> Cam kết SLA ≤ 2h • 0đ Tiền Cọc</span>'
+        '</div>'
+        '<div class="mb-10 p-4 bg-emerald-50/80 border-l-4 border-[#1A9900] rounded-r-lg flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-gray-700 shadow-xs">'
+        '<div class="flex items-center gap-2 text-[#1A9900] font-bold text-sm"><i class="fa-solid fa-circle-info text-base"></i><span>Phân định minh bạch định mức & phân khúc giá thuê:</span></div>'
+        '<div class="flex flex-wrap items-center gap-x-6 gap-y-2">'
+        '<span><strong class="text-gray-900">• Thuê máy in A4 đa năng để bàn:</strong> Từ <span class="text-[#1A9900] font-bold text-sm">500.000 đ/tháng</span> (Laser tốc độ cao, 2.000 – 5.000 bản, phù hợp phòng ban nhỏ)</span>'
+        '<span><strong class="text-gray-900">• Thuê máy photocopy A3 công suất lớn:</strong> Từ <span class="text-[#1A9900] font-bold text-sm">800.000 đ/tháng</span> (In/Copy/Scan A3 tự động ARDF, 3.000 – 15.000 bản văn phòng & cơ quan)</span>'
+        '</div>'
         '</div>'
         + f'<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">{cards}</div>',
         bg="light", pad="py-16"

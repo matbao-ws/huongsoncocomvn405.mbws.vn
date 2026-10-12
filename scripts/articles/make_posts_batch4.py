@@ -18,7 +18,7 @@ AUTHOR_BOX_HTML = """
       <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4 text-xs text-gray-500 pt-2 border-t border-emerald-100">
         <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-certificate text-[#1A9900]"></i>Chứng chỉ kỹ thuật Duplo Nhật Bản</span>
         <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-[#1A9900]"></i>Chuyên gia an ninh in ấn B2G/B2B</span>
-        <a href="tel:0913222003" class="inline-flex items-center gap-1.5 text-[#1A9900] font-bold hover:underline"><i class="fa-solid fa-phone"></i>Hotline: 0913.222.003</a>
+        <a href="tel:0911138583" class="inline-flex items-center gap-1.5 text-[#1A9900] font-bold hover:underline"><i class="fa-solid fa-phone"></i>Hotline: 091.113.8583</a>
       </div>
     </div>
   </div>

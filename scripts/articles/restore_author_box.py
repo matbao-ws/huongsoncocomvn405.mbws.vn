@@ -16,7 +16,7 @@ fixed_count = 0
 for p in posts:
     html = p.get("content_html", "")
     # Xóa khối Author Card cũ nếu có vết tích
-    html = re.sub(r'<!-- E-E-A-T Author Card -->.*?Hotline: 0913\.222\.003.*?</div>\s*</div>\s*</div>', '', html, flags=re.DOTALL)
+    html = re.sub(r'<!-- E-E-A-T Author Card -->.*?Hotline: (?:0913\.222\.003|091\.113\.8583).*?</div>\s*</div>\s*</div>', '', html, flags=re.DOTALL)
     html = re.sub(r'<!-- E-E-A-T Author Card -->.*', '', html, flags=re.DOTALL)
     
     # Đóng các thẻ section/div còn mở nếu có

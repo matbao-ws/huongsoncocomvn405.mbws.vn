@@ -23,9 +23,9 @@ GEO_BOX_HTML = """
       <i class="fa-solid fa-location-dot text-[#1A9900]"></i>
       <span>Công Ty TNHH Thiết Bị Văn Phòng Hương Sơn – Đối Tác Độc Quyền & Ủy Quyền Miền Bắc</span>
     </div>
-    <p><strong>Trụ sở chính:</strong> 28 Nguyễn Phong Sắc, P. Dịch Vọng Hậu, Q. Cầu Giấy, TP. Hà Nội</p>
-    <p><strong>Trung tâm kỹ thuật & Kho thiết bị:</strong> Số 12 Ngõ 19 Trần Quang Diệu, P. Ô Chợ Dừa, Q. Đống Đa, TP. Hà Nội</p>
-    <p><strong>Hotline tư vấn & Cứu hộ SLA 2h:</strong> <a href="tel:0913222003" class="text-[#1A9900] font-bold">0913.222.003</a> – Phục vụ thần tốc tại Hà Nội, KCN Bắc Ninh, Vĩnh Phúc, Hưng Yên, Hải Phòng, Thái Nguyên và các Sở GD&ĐT miền Bắc.</p>
+    <p><strong>Trụ sở chính:</strong> Số 27, ngõ 523 phố Minh Khai, P. Vĩnh Tuy, Q. Hai Bà Trưng, TP. Hà Nội</p>
+    <p><strong>Trung tâm kỹ thuật & Kho thiết bị:</strong> Số 27, ngõ 523 phố Minh Khai, P. Vĩnh Tuy, Q. Hai Bà Trưng, TP. Hà Nội</p>
+    <p><strong>Hotline tư vấn & Cứu hộ SLA 2h:</strong> <a href="tel:0911138583" class="text-[#1A9900] font-bold">091.113.8583</a> – Phục vụ thần tốc tại Hà Nội, KCN Bắc Ninh, Vĩnh Phúc, Hưng Yên, Hải Phòng, Thái Nguyên và các Sở GD&ĐT miền Bắc.</p>
   </div>
 """
 

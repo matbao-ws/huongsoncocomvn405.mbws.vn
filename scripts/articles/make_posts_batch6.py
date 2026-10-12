@@ -18,7 +18,7 @@ AUTHOR_BOX_HTML = """
       <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4 text-xs text-gray-500 pt-2 border-t border-emerald-100">
         <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-certificate text-[#1A9900]"></i>Chứng chỉ Số hóa Chuyên nghiệp Kodak Alaris / Ricoh</span>
         <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-gears text-[#1A9900]"></i>Chuyên gia Dây chuyền Gia công Duplo DFC</span>
-        <a href="tel:0913222003" class="inline-flex items-center gap-1.5 text-[#1A9900] font-bold hover:underline"><i class="fa-solid fa-phone"></i>Hotline: 0913.222.003</a>
+        <a href="tel:0911138583" class="inline-flex items-center gap-1.5 text-[#1A9900] font-bold hover:underline"><i class="fa-solid fa-phone"></i>Hotline: 091.113.8583</a>
       </div>
     </div>
   </div>

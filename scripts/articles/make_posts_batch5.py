@@ -18,7 +18,7 @@ AUTHOR_BOX_HTML = """
       <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4 text-xs text-gray-500 pt-2 border-t border-emerald-100">
         <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-certificate text-[#1A9900]"></i>Chứng chỉ Chuyên gia Thiết bị Văn phòng</span>
         <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-handshake text-[#1A9900]"></i>Đối tác chiến lược Ricoh, Toshiba, Duplo</span>
-        <a href="tel:0913222003" class="inline-flex items-center gap-1.5 text-[#1A9900] font-bold hover:underline"><i class="fa-solid fa-phone"></i>Hotline: 0913.222.003</a>
+        <a href="tel:0911138583" class="inline-flex items-center gap-1.5 text-[#1A9900] font-bold hover:underline"><i class="fa-solid fa-phone"></i>Hotline: 091.113.8583</a>
       </div>
     </div>
   </div>
@@ -296,7 +296,7 @@ POST_25 = {
       <li><strong>Bước 1 - Định cấu hình mạng:</strong> Gán địa chỉ IP tĩnh (Static IP), thiết lập tên miền máy chủ DNS và kết nối máy photocopy vào mạng nội bộ công ty.</li>
       <li><strong>Bước 2 - Tạo sổ địa chỉ Scan SMB:</strong> Tạo thư mục chia sẻ 'Scans' trên máy chủ file hoặc máy tính kế toán, phân quyền bảo mật 'Read/Write' và lưu phím tắt trên màn hình cảm ứng máy photo.</li>
       <li><strong>Bước 3 - Cấp mã người dùng (User Code):</strong> Phân quyền mã PIN cho từng phòng ban (Marketing, Kế toán, Nhân sự) để kiểm soát hạn ngạch in hàng tháng.</li>
-      <li><strong>Bước 4 - Hướng dẫn quy trình cứu hộ:</strong> Lưu số điện thoại hotline kỹ thuật Hương Sơn (0913.222.003) dán trực tiếp trên thân máy để được hỗ trợ trong 60 phút.</li>
+      <li><strong>Bước 4 - Hướng dẫn quy trình cứu hộ:</strong> Lưu số điện thoại hotline kỹ thuật Hương Sơn (091.113.8583) dán trực tiếp trên thân máy để được hỗ trợ trong 60 phút.</li>
     </ul>
   </section>
 

@@ -162,8 +162,8 @@ def render_rental_landing(p):
           <a href="#bao-gia-nhanh" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-7 py-3.5 transition shadow-lg flex items-center gap-2">
             <i class="fa-solid fa-calculator"></i> Nhận Báo Giá Nhanh 2026
           </a>
-          <a href="tel:0913222003" class="border border-white/30 hover:border-white text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition flex items-center gap-2">
-            <i class="fa-solid fa-phone text-[#5eb74c]"></i> Hotline: 0913.222.003
+          <a href="tel:0911138583" class="border border-white/30 hover:border-white text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 transition flex items-center gap-2">
+            <i class="fa-solid fa-phone text-[#5eb74c]"></i> Hotline: 091.113.8583
           </a>
         </div>
       </div>
@@ -326,11 +326,11 @@ def render_rental_landing(p):
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-gray-700 pt-2">
           <div>
-            <p class="mb-1.5"><strong>Trụ sở chính & Showroom:</strong> 28 Nguyễn Phong Sắc, P. Dịch Vọng Hậu, Q. Cầu Giấy, TP. Hà Nội</p>
-            <p class="mb-1.5"><strong>Trung tâm kỹ thuật & Kho thiết bị:</strong> Số 12 Ngõ 19 Trần Quang Diệu, P. Ô Chợ Dừa, Q. Đống Đa, TP. Hà Nội</p>
+            <p class="mb-1.5"><strong>Trụ sở chính & Showroom:</strong> Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, TP. Hà Nội</p>
+            <p class="mb-1.5"><strong>Trung tâm kỹ thuật & Kho thiết bị:</strong> Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, TP. Hà Nội</p>
           </div>
           <div>
-            <p class="mb-1.5"><strong>Hotline tư vấn & Cứu hộ SLA 2h:</strong> <a href="tel:0913222003" class="text-[{BRAND}] font-bold text-sm hover:underline">0913.222.003</a> (Zalo / Call 24/7)</p>
+            <p class="mb-1.5"><strong>Hotline tư vấn & Cứu hộ SLA 2h:</strong> <a href="tel:0911138583" class="text-[{BRAND}] font-bold text-sm hover:underline">091.113.8583</a> (Công ty) · <a href="tel:0912304058" class="text-[{BRAND}] font-bold text-sm hover:underline">0912.304.058</a> (Kỹ thuật PDI 24/7) · <a href="tel:02439729484" class="text-[{BRAND}] font-bold text-sm hover:underline">024 3972 9484</a> (Văn phòng)</p>
             <p class="mb-1.5"><strong>Địa bàn phục vụ thần tốc 2H:</strong> 30 quận huyện Hà Nội, các KCN Bắc Ninh, Hưng Yên, Vĩnh Phúc, Thái Nguyên, Hải Phòng và các Sở GD&ĐT miền Bắc.</p>
           </div>
         </div>
@@ -396,10 +396,10 @@ def render_rental_landing(p):
             "@type": "LocalBusiness",
             "name": "Công Ty TNHH Thương Mại & Dịch Vụ Hương Sơn",
             "image": "https://huongsonco.com.vn/assets/images/brand/HUONG_SON_logo.svg",
-            "telephone": "0913222003",
+            "telephone": "0911138583",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "28 Nguyễn Phong Sắc, P. Dịch Vọng Hậu, Q. Cầu Giấy",
+                "streetAddress": "Số 27, ngõ 523 phố Minh Khai, P. Vĩnh Tuy, Q. Hai Bà Trưng",
                 "addressLocality": "Hà Nội",
                 "addressCountry": "VN"
             },

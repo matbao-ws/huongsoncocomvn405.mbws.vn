@@ -565,15 +565,15 @@
   </section>
 
   <section class="py-16 bg-[#f5f8fb] ">
-    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12"><div><span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-1.5">Dịch vụ cho thuê thiết bị</span><h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#181923] leading-tight">6 Gói Thuê Thiết Bị Chuyên Sâu Tối Ưu TCO Cho Đơn Vị</h2></div><span class="inline-flex items-center gap-1.5 text-xs font-bold text-[#1A9900] bg-[#1A9900]/10 px-3.5 py-2"><i class="fa-solid fa-shield-check"></i> Cam kết SLA ≤ 2h • 0đ Tiền Cọc</span></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="max-w-[1370px] mx-auto px-4 sm:px-6 lg:px-8"><div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8"><div><span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-1.5">Dịch vụ cho thuê thiết bị</span><h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#181923] leading-tight">6 Gói Thuê Thiết Bị Chuyên Sâu Tối Ưu TCO Cho Đơn Vị</h2></div><span class="inline-flex items-center gap-1.5 text-xs font-bold text-[#1A9900] bg-[#1A9900]/10 px-3.5 py-2"><i class="fa-solid fa-shield-check"></i> Cam kết SLA ≤ 2h • 0đ Tiền Cọc</span></div><div class="mb-10 p-4 bg-emerald-50/80 border-l-4 border-[#1A9900] rounded-r-lg flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-gray-700 shadow-xs"><div class="flex items-center gap-2 text-[#1A9900] font-bold text-sm"><i class="fa-solid fa-circle-info text-base"></i><span>Phân định minh bạch định mức & phân khúc giá thuê:</span></div><div class="flex flex-wrap items-center gap-x-6 gap-y-2"><span><strong class="text-gray-900">• Thuê máy in A4 đa năng để bàn:</strong> Từ <span class="text-[#1A9900] font-bold text-sm">500.000 đ/tháng</span> (Laser tốc độ cao, 2.000 – 5.000 bản, phù hợp phòng ban nhỏ)</span><span><strong class="text-gray-900">• Thuê máy photocopy A3 công suất lớn:</strong> Từ <span class="text-[#1A9900] font-bold text-sm">800.000 đ/tháng</span> (In/Copy/Scan A3 tự động ARDF, 3.000 – 15.000 bản văn phòng & cơ quan)</span></div></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <a href="/thue-may-photocopy-ha-noi/" class="bg-[#fbfbfb] hover:bg-white border border-gray-200 hover:border-[#1A9900] p-6 flex flex-col justify-between transition-all duration-300 shadow-xs hover:shadow-md group">
           <div>
             <div class="flex items-center justify-between mb-3">
               <span class="text-[11px] font-bold text-[#1A9900] uppercase tracking-wider">Hà Nội Trọng Điểm</span>
-              <span class="text-[11px] font-bold text-gray-700 bg-gray-100 px-2.5 py-1">Từ 800.000 đ/tháng</span>
+              <span class="text-[11px] font-bold text-gray-700 bg-gray-100 px-2.5 py-1">Khổ A3 từ 800.000 đ/tháng</span>
             </div>
-            <h3 class="text-base font-bold text-[#181923] group-hover:text-[#1A9900] transition mb-2 leading-snug">Cho Thuê Máy Photocopy Tại Hà Nội</h3>
-            <p class="text-[13px] text-gray-500 leading-relaxed mb-4">Toshiba &amp; Ricoh mới 100%, 0đ tiền cọc, bao trọn mực in và linh kiện, giao lắp trong 2h tại 30 quận huyện.</p>
+            <h3 class="text-base font-bold text-[#181923] group-hover:text-[#1A9900] transition mb-2 leading-snug">Cho Thuê Máy Photocopy A3 Tại Hà Nội</h3>
+            <p class="text-[13px] text-gray-500 leading-relaxed mb-4">Máy photocopy đa chức năng A3/A4 Toshiba &amp; Ricoh mới 100% (25–65 ppm), 0đ tiền cọc, bao trọn mực in và linh kiện, giao lắp trong 2h.</p>
           </div>
           <div class="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-[#1A9900]">
             <span>Xem bảng giá &amp; ưu đãi</span>
@@ -584,10 +584,10 @@
           <div>
             <div class="flex items-center justify-between mb-3">
               <span class="text-[11px] font-bold text-[#1A9900] uppercase tracking-wider">Văn Phòng &amp; Doanh Nghiệp</span>
-              <span class="text-[11px] font-bold text-gray-700 bg-gray-100 px-2.5 py-1">Từ 500.000 đ/tháng</span>
+              <span class="text-[11px] font-bold text-gray-700 bg-gray-100 px-2.5 py-1">Khổ A4 từ 500.000 đ/tháng</span>
             </div>
-            <h3 class="text-base font-bold text-[#181923] group-hover:text-[#1A9900] transition mb-2 leading-snug">Cho Thuê Máy In Văn Phòng Trọn Gói</h3>
-            <p class="text-[13px] text-gray-500 leading-relaxed mb-4">Máy in laser đa chức năng HP, Toshiba A3/A4. Không lo hết mực, bố trí phân tán theo phòng ban.</p>
+            <h3 class="text-base font-bold text-[#181923] group-hover:text-[#1A9900] transition mb-2 leading-snug">Cho Thuê Máy In A4 Văn Phòng Để Bàn</h3>
+            <p class="text-[13px] text-gray-500 leading-relaxed mb-4">Máy in laser đa chức năng HP, Toshiba A4 nhỏ gọn để bàn. Không lo hết mực, bố trí linh hoạt phân tán theo phòng ban.</p>
           </div>
           <div class="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-[#1A9900]">
             <span>Xem bảng giá &amp; ưu đãi</span>
