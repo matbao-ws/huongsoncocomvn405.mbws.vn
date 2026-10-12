@@ -592,28 +592,26 @@
 **Mô tả tổng quan:** Cẩm nang hướng dẫn sử dụng và kiểm tra công cụ tính toán chi phí thuê máy photocopy trực tuyến và công cụ so sánh tổng chi phí sở hữu TCO (Total Cost of Ownership) độc quyền của Hương Sơn trên website storefront.
 
 ### 1. Quy trình thao tác chuẩn từng bước
-- Truy cập công cụ trên website storefront tại đường dẫn: `https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may` (hoặc `https://huongsonco.com.vn/cong-cu/tinh-tco`).
-- Bước 1: Chọn Khổ giấy in chủ yếu (Khổ A4 tiêu chuẩn hoặc Khổ A3 / A4 hỗn hợp).
-- Bước 2: Chọn Loại bản in: Chỉ in đen trắng (Monochrome) hoặc Có in màu (Color).
-- Bước 3: Kéo thanh trượt hoặc nhập Sản lượng in dự kiến mỗi tháng (VD: 3.000 bản, 5.000 bản hoặc 15.000 bản/tháng).
-- Bước 4: Chọn Thời hạn dự kiến thuê máy (6 tháng, 12 tháng, 24 tháng hoặc 36 tháng).
-- Quan sát kết quả tức thời: Hệ thống tính toán chính xác Giá thuê trọn gói hàng tháng (đã bao gồm định mức bản in miễn phí), Chi phí phụ trội trên mỗi bản in vượt mức, và Đề xuất dòng máy photocopy Toshiba/Konica tối ưu nhất.
-- Khách hàng bấm 'Đăng ký thuê gói này ngay' để gửi thẳng dữ liệu cấu hình về hệ thống quản trị Hương Sơn.
+- Truy cập công cụ trên website storefront tại đường dẫn: `https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may/` (hoặc `https://huongsonco.com.vn/cong-cu/tinh-tco/`).
+- 1. Công cụ Tính Chi Phí Thuê Máy: Nhập Sản lượng in bình quân mỗi tháng (mặc định 5.000 bản), Đơn giá tham khảo mỗi bản in (mặc định 350đ), Phí thuê cố định mỗi tháng (mặc định 800.000đ), và Thời hạn thuê dự kiến (mặc định 24 tháng).
+- Quan sát kết quả tức thời: Hệ thống tính toán chính xác Ước tính chi phí mỗi tháng (2.550.000 đ) và Ước tính tổng chi phí cả thời hạn thuê (61.200.000 đ).
+- 2. Công cụ So Sánh TCO (Tổng Chi Phí Sở Hữu): So sánh trực quan giữa Phương án mua đứt máy (Giá thiết bị + Chi phí vật tư bảo trì mỗi tháng) và Phương án thuê trọn gói (Phí thuê tháng x Số tháng sử dụng) giúp chứng minh tiết kiệm 35% chi phí.
+- Khách hàng bấm nút 'Tư vấn thuê máy' hoặc 'Yêu cầu báo giá' để chuyển tiếp sang form liên hệ chính thức, hoặc gọi trực tiếp Hotline 091.113.8583.
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
-> 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may`
+> 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may/`
 ![Giao diện thực tế Công Cụ Ước Tính Chi Phí Thuê Máy Photocopy & TCO (Storefront Tools)](/docs/assets/screenshots/18_rental_calculator_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
 | :---: | :--- | :--- |
-| **①** | **Bộ chọn cấu hình in ấn** | Giao diện trực quan gồm các icon khổ giấy A4/A3 và tùy chọn in đen trắng/màu sinh động. |
-| **②** | **Thanh trượt sản lượng bản in thông minh** | Người dùng dễ dàng kéo thả để điều chỉnh số lượng bản in từ 1.000 đến 30.000 bản/tháng. |
-| **③** | **Thẻ kết quả báo giá dự toán** | Tính toán chi phí thuê tháng, chi phí bản chụp phụ trội và số tiền tiết kiệm được so với mua máy mới. |
-| **④** | **Gợi ý model máy phù hợp** | Tự động hiển thị model máy tối ưu kèm hình ảnh và thông số kỹ thuật (VD: Toshiba 3028A cho văn phòng 5.000 bản/tháng). |
+| **①** | **Trường nhập Sản lượng & Đơn giá** | Nhập số lượng bản in thực tế mỗi tháng và đơn giá mỗi bản in dự kiến để hệ thống tính toán chi phí biến đổi. |
+| **②** | **Trường Phí thuê cố định & Thời hạn** | Cấu hình chi phí sàn hàng tháng và thời gian hợp đồng thuê máy (thường từ 12 đến 36 tháng). |
+| **③** | **Khu vực hiển thị kết quả tự động** | Bảng kết quả nổi bật tính toán tức thời chi phí thuê mỗi tháng và tổng ngân sách cần chi trả cả kỳ hợp đồng. |
+| **④** | **Nút kêu gọi hành động (CTA)** | Dẫn hướng khách hàng sang biểu mẫu gửi yêu cầu báo giá chính thức kèm hotline tư vấn trực tiếp 091.113.8583. |
 
 ### 4. Lưu ý nghiệp vụ quan trọng
 - 💡 **Lưu ý nghiệp vụ:** Công cụ ước tính chi phí thuê máy là 'vũ khí' chốt sale tự động mạnh mẽ nhất trên website Hương Sơn, giúp khách hàng tự tin đưa ra quyết định mà không cần chờ báo giá thủ công.
-- 💡 **Lưu ý nghiệp vụ:** Tất cả các thông số định mức (giá gói gốc, định mức bản miễn phí, giá bản phụ trội 100đ - 150đ) được đồng bộ trực tiếp từ bảng giá dịch vụ cho thuê của công ty.
+- 💡 **Lưu ý nghiệp vụ:** Tất cả các thông số định mức (giá gói gốc, định mức bản miễn phí, giá bản phụ trội) được đồng bộ trực tiếp từ bảng giá dịch vụ cho thuê của công ty.
 
 ---

@@ -151,7 +151,7 @@ async function run() {
         { name: '15_payment', url: 'https://huongsonco.com.vn/vi/admin/payment-methods' },
         { name: '16_languages', url: 'https://huongsonco.com.vn/vi/admin/languages' },
         { name: '17_activity_logs', url: 'https://huongsonco.com.vn/vi/admin/activity-logs' },
-        { name: '18_rental_calculator', url: 'https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may-photocopy' }
+        { name: '18_rental_calculator', url: 'https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may/' }
     ];
 
     console.log(`3. Bắt đầu chụp ${PAGES_TO_CAPTURE.length} màn hình thực tế...`);
