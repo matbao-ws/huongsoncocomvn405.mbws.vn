@@ -92,10 +92,10 @@
                         <div>
                             <div class="d-flex align-items-center gap-2 mb-1">
                                 <span class="badge bg-success text-white px-2 py-0.5 fw-bold text-uppercase" style="font-size: 10.5px; letter-spacing: 0.5px;">Bàn Giao Nghiệm Thu</span>
-                                <span class="text-white-50 small">Phiên bản v1.0.0 (18 Chương nghiệp vụ toàn diện)</span>
+                                <span class="small" style="color: #94a3b8 !important;">Phiên bản v1.0.0 (18 Chương nghiệp vụ toàn diện)</span>
                             </div>
-                            <h5 class="text-white fw-bold mb-1" style="font-size: 17px;">Cẩm Nang Vận Hành Quản Trị Website & Biên Bản Bàn Giao</h5>
-                            <p class="text-white-50 mb-0 small">Dành riêng cho Ban Quản trị Hương Sơn: Hướng dẫn chi tiết từng bước vận hành 18 phân hệ, bảng tra cứu thao tác và hồ sơ nghiệm thu kỹ thuật.</p>
+                            <h5 class="fw-bold mb-1" style="font-size: 17px; color: #ffffff !important;">Cẩm Nang Vận Hành Quản Trị Website & Biên Bản Bàn Giao</h5>
+                            <p class="mb-0 small" style="color: #e2e8f0 !important; font-size: 13.5px !important;">Dành riêng cho Ban Quản trị Hương Sơn: Hướng dẫn chi tiết từng bước vận hành 18 phân hệ, bảng tra cứu thao tác và hồ sơ nghiệm thu kỹ thuật.</p>
                         </div>
                     </div>
                     <div class="d-flex flex-wrap align-items-center gap-2 flex-shrink-0">
