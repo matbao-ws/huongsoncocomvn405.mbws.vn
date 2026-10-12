@@ -1,9 +1,9 @@
 # CẨM NANG QUẢN TRỊ HỆ THỐNG WEBSITE HUONGSONCO.COM.VN
-> **Đơn vị chủ quản:** CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ HƯƠNG SƠN (Thành lập năm 1993)
+> **Đơn vị chủ quản:** CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN (MST: 0102759269 · Thành lập 01/06/2008)
 > **Lĩnh vực:** Máy photocopy Toshiba / Konica Minolta, Máy in nhân bản kỹ thuật số Duplo Nhật Bản, Máy scan Ricoh, Vật tư & Mực in chính hãng Fansipan.
-> **Địa chỉ:** Tầng 4, Tòa nhà 29T1 Hoàng Đạo Thúy, Cầu Giấy, Hà Nội | Showroom & Kho: Số 40 ngõ 106 Hoàng Quốc Việt, Cầu Giấy, Hà Nội
-> **Hotline hỗ trợ:** 0903.229.828 - 0968.229.828 | **Website:** https://huongsonco.com.vn
-> **Phiên bản:** Release v1.0.0 (2026) | Ngôn ngữ: 100% Tiếng Việt chuẩn hóa
+> **Trụ sở & Văn phòng:** Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, TP. Hà Nội
+> **Hotline hỗ trợ:** 091.113.8583 (Công ty) · 0912.304.058 (Kỹ thuật) · 024 3972 9484 (Văn phòng) | **Email:** info@huongsonco.com.vn (Cc: thuannc72@gmail.com)
+> **Hệ thống website:** https://huongsonco.com.vn | **Phiên bản:** Release v1.0.0 (2026) | Ngôn ngữ: 100% Tiếng Việt chuẩn hóa
 > **File PDF bàn giao in ấn:** `docs/Huong_Dan_Su_Dung_Admin_Huong_Son.pdf`
 
 ---
@@ -156,6 +156,7 @@
 ### 4. Lưu ý nghiệp vụ quan trọng
 - 💡 **Lưu ý nghiệp vụ:** Hình ảnh máy chụp thực tế tại kho Hương Sơn cần có độ phân giải tối thiểu 800x800px, phông nền sáng rõ ràng để khách hàng tin tưởng.
 - 💡 **Lưu ý nghiệp vụ:** Tên sản phẩm nên chứa model chính xác (VD: Duplo DP-F850, Toshiba 4528A) để tối ưu tìm kiếm Google (SEO).
+- 💡 **Lưu ý nghiệp vụ:** QUY CHUẨN HÌNH ẢNH CHUẨN HÃNG (LƯU Ý NGHIÊM NGẶT THEO PHẢN ÁNH CỦA KHÁCH): Máy photocopy bắt buộc dùng đúng ảnh Toshiba e-STUDIO hoặc Konica Minolta; Máy in nhân bản siêu tốc bắt buộc dùng đúng ảnh Duplo Nhật Bản (DP-X550, DP-X850, DP-F550...); Máy scan dùng ảnh Ricoh Fujitsu; Mực in dùng ảnh Fansipan. TUYỆT ĐỐI KHÔNG dùng ảnh máy photocopy văn phòng để minh họa cho máy Duplo, và TUYỆT ĐỐI KHÔNG tải ảnh xe cộ, ô tô hoặc ảnh mạng không rõ nguồn gốc.
 
 ---
 
@@ -253,6 +254,7 @@
 ### 4. Lưu ý nghiệp vụ quan trọng
 - 💡 **Lưu ý nghiệp vụ:** Cam kết dịch vụ của Hương Sơn: Khách hàng gửi yêu cầu tư vấn trên website phải được chuyên viên liên hệ lại trong vòng 15 - 30 phút trong giờ hành chính.
 - 💡 **Lưu ý nghiệp vụ:** Tích hợp thông báo tức thời qua Zalo OA quản trị giúp không bao giờ bị bỏ sót khách hàng tiềm năng.
+- 💡 **Lưu ý nghiệp vụ:** Cơ chế gửi Email thông báo tự động (Tuân thủ chỉ đạo của ban lãnh đạo): Mọi yêu cầu báo giá/thuê máy mới từ khách hàng đều được gửi trực tiếp về email chính `info@huongsonco.com.vn` và đồng thời CC cho `thuannc72@gmail.com` để giám sát tiến độ xử lý.
 
 ---
 
@@ -286,6 +288,7 @@
 ### 4. Lưu ý nghiệp vụ quan trọng
 - 💡 **Lưu ý nghiệp vụ:** Các bài viết kỹ thuật thực tế (như bảng tra cứu mã lỗi SC của máy photocopy) mang lại lượng truy cập tự nhiên cực lớn từ các trường học và văn phòng doanh nghiệp.
 - 💡 **Lưu ý nghiệp vụ:** Tuyệt đối không sao chép nội dung nguyên văn từ website khác để bảo vệ điểm uy tín SEO của domain huongsonco.com.vn.
+- 💡 **Lưu ý nghiệp vụ:** QUY ĐỊNH HÌNH ẢNH MINH HỌA TRONG BÀI VIẾT: Mỗi bài viết chuyên sâu cần có từ 3-4 hình ảnh thực tế (kho thiết bị, kỹ thuật viên thực hiện quy trình PDI kiểm định máy, ảnh bàn giao máy thực tế tại khách hàng như Vietcombank, Sở GD&ĐT Vĩnh Phúc, Quảng Trị...). TUYỆT ĐỐI KHÔNG chèn hình ảnh xe cộ, ô tô tải, phong cảnh tuyết rơi hay ảnh không liên quan đến ngành thiết bị văn phòng (đã từng bị khách hàng phản ánh gắt gao).
 
 ---
 
@@ -448,6 +451,7 @@
 ### 4. Lưu ý nghiệp vụ quan trọng
 - 💡 **Lưu ý nghiệp vụ:** Nên đặt tên file ảnh không dấu, cách nhau bằng dấu gạch ngang (VD: <code>may-photocopy-toshiba-3528a.jpg</code>) để tối ưu Google Image SEO.
 - 💡 **Lưu ý nghiệp vụ:** Thư viện đã được cấu hình CDN và bộ nhớ đệm trình duyệt giúp tải ảnh siêu tốc.
+- 💡 **Lưu ý nghiệp vụ:** QUY CHUẨN MEDIA CHÍNH HÃNG: Thư viện chỉ lưu trữ hình ảnh sản phẩm chính hãng (Toshiba e-STUDIO, Duplo Nhật Bản, Ricoh Fujitsu, Fansipan) và ảnh chụp thực tế tại kho hoặc các dự án bàn giao (Vietcombank, Sở GD&ĐT Quảng Trị, Vĩnh Phúc...). TUYỆT ĐỐI KHÔNG lưu trữ hoặc sử dụng các hình ảnh xe cộ, ô tô, phong cảnh hoặc ảnh máy sai thương hiệu.
 
 ---
 
@@ -456,12 +460,12 @@
 
 **Phân loại:** `GIAO DIỆN & TRẢI NGHIỆM` | **Đặc tả nhãn:** `SITE BLOCKS`
 
-**Mô tả tổng quan:** Chỉnh sửa trực tiếp nội dung các khối thông tin cố định trên trang chủ và các trang giới thiệu: 30 năm kinh nghiệm thành lập từ 1993, 6 cam kết dịch vụ vàng của Hương Sơn, quy trình thuê máy 4 bước, chính sách bảo hành.
+**Mô tả tổng quan:** Chỉnh sửa trực tiếp nội dung các khối thông tin cố định trên trang chủ và các trang giới thiệu: Gần 20 năm phát triển thành lập từ 01/06/2008 (MST: 0102759269), 6 cam kết dịch vụ vàng của Hương Sơn, quy trình thuê máy 4 bước, chính sách bảo hành.
 
 ### 1. Quy trình thao tác chuẩn từng bước
 - Truy cập menu 'Trang CMS' > 'Khối nội dung' (`/vi/admin/pages`).
 - Chọn trang cần chỉnh sửa (VD: Trang chủ, Trang Về Hương Sơn, Trang Dịch vụ cho thuê máy).
-- Chỉnh sửa các khối text tĩnh: Thay đổi số liệu thống kê (30+ năm kinh nghiệm, 5.000+ máy đang vận hành, 1.200+ trường học & cơ quan tin dùng).
+- Chỉnh sửa các khối text tĩnh: Thay đổi số liệu thống kê (Gần 20 năm uy tín từ 2008, 5.000+ máy đang vận hành, 1.200+ trường học & cơ quan tin dùng).
 - Cập nhật nội dung các thẻ 'Cam kết dịch vụ': Cam kết đổi máy trong 24h nếu sự cố không thể khắc phục, Cam kết 100% mực in và linh kiện chính hãng.
 - Bấm 'Lưu thay đổi' và kiểm tra hiển thị ngay trên website mà không cần can thiệp code.
 
@@ -478,8 +482,9 @@
 | **④** | **Lịch sử phiên bản (Revisions)** | Hỗ trợ khôi phục lại nội dung phiên bản cũ nếu nhân viên lỡ chỉnh sửa sai. |
 
 ### 4. Lưu ý nghiệp vụ quan trọng
-- 💡 **Lưu ý nghiệp vụ:** Các số liệu uy tín (năm thành lập 1993, số lượng khách hàng thân thiết) là điểm then chốt tạo niềm tin cho các đơn vị hành chính sự nghiệp khi đấu thầu.
+- 💡 **Lưu ý nghiệp vụ:** Các số liệu uy tín (năm thành lập 01/06/2008 - MST: 0102759269, số lượng khách hàng thân thiết) là điểm then chốt tạo niềm tin cho các đơn vị hành chính sự nghiệp khi đấu thầu.
 - 💡 **Lưu ý nghiệp vụ:** Giữ nguyên các thẻ định dạng in đậm/nghiêng để bảo toàn tính thẩm mỹ của thiết kế giao diện.
+- 💡 **Lưu ý nghiệp vụ:** TƯ DUY 5 CỬA VÀO BÀI TOÁN KHÁCH HÀNG: Giữ vững cấu trúc 5 cửa vào chuyên biệt trên trang chủ (1. Thuê máy; 2. In đề thi; 3. Số hóa tài liệu; 4. Thiết bị trường học/ngân hàng; 5. Bảo trì vận hành SLA ≤ 2h) và 6 landing page SEO cho thuê thiết bị (Hà Nội, máy in, trường học, sở GD, in đề thi, ngân hàng) để tối ưu hóa SEO/GEO/AEO.
 
 ---
 
@@ -491,7 +496,7 @@
 **Mô tả tổng quan:** Cấu hình thông tin pháp nhân Công ty TNHH TM&DV Hương Sơn, địa chỉ trụ sở & showroom, hotline hỗ trợ kỹ thuật, cấu hình Zalo OA nhận thông báo lead, thiết lập đối tác vận chuyển và tài khoản thanh toán.
 
 ### 1. Quy trình thao tác chuẩn từng bước
-- Truy cập menu 'Cài đặt' > 'Cài đặt chung' (`/vi/admin/settings`): Cập nhật Tên doanh nghiệp, Mã số thuế, Hotline kỹ thuật (0903.229.828 - 0968.229.828), Email tiếp nhận thông tin (`info@huongsonco.com.vn`).
+- Truy cập menu 'Cài đặt' > 'Cài đặt chung' (`/vi/admin/settings`): Cập nhật Tên doanh nghiệp (Công ty TNHH TM&DV Hương Sơn), Mã số thuế (0102759269), Trụ sở (Số 27 ngõ 523 phố Minh Khai, P. Vĩnh Tuy, TP. Hà Nội), Hotline công ty (091.113.8583), Kỹ thuật (0912.304.058), Email chính (`info@huongsonco.com.vn`) và CC (`thuannc72@gmail.com`).
 - Cài đặt Thông báo (`/vi/admin/notification-settings`): Cấu hình Zalo Chat ID để hệ thống tự động bắn tin nhắn về điện thoại của quản lý khi có đơn hàng hoặc yêu cầu thuê máy mới.
 - Đối tác vận chuyển (`/vi/admin/shipping-partners`): Bật/tắt các hình thức vận chuyển: Viettel Post, GHTK và Tự giao hàng bởi đội xe Hương Sơn.
 - Phương thức thanh toán (`/vi/admin/payment-methods`): Cấu hình thanh toán khi nhận hàng (COD), Chuyển khoản ngân hàng Vietcombank (quét mã QR VietQR tự động điền nội dung) hoặc thanh toán online.
@@ -510,7 +515,8 @@
 | **④** | **Cấu hình tài khoản Vietcombank** | Tự động sinh mã VietQR chuẩn NAPAS giúp khách hàng thanh toán chính xác 100%. |
 
 ### 4. Lưu ý nghiệp vụ quan trọng
-- 💡 **Lưu ý nghiệp vụ:** Hotline và địa chỉ văn phòng phải luôn được cập nhật chính xác để khách hàng có thể liên hệ hỗ trợ kỹ thuật 24/7.
+- 💡 **Lưu ý nghiệp vụ:** Hotline (091.113.8583) và địa chỉ văn phòng phải luôn được cập nhật chính xác để khách hàng có thể liên hệ hỗ trợ kỹ thuật 24/7.
+- 💡 **Lưu ý nghiệp vụ:** Mọi email thông báo lead phải đảm bảo tới được cả info@huongsonco.com.vn và thuannc72@gmail.com.
 - 💡 **Lưu ý nghiệp vụ:** Tuyệt đối bảo mật các khóa API tích hợp Zalo và cổng thanh toán.
 
 ---

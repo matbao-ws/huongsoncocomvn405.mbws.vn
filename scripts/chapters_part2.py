@@ -110,7 +110,8 @@ CHAPTERS_10_18 = [
         ],
         "notes": [
             "Nên đặt tên file ảnh không dấu, cách nhau bằng dấu gạch ngang (VD: <code>may-photocopy-toshiba-3528a.jpg</code>) để tối ưu Google Image SEO.",
-            "Thư viện đã được cấu hình CDN và bộ nhớ đệm trình duyệt giúp tải ảnh siêu tốc."
+            "Thư viện đã được cấu hình CDN và bộ nhớ đệm trình duyệt giúp tải ảnh siêu tốc.",
+            "QUY CHUẨN MEDIA CHÍNH HÃNG: Thư viện chỉ lưu trữ hình ảnh sản phẩm chính hãng (Toshiba e-STUDIO, Duplo Nhật Bản, Ricoh Fujitsu, Fansipan) và ảnh chụp thực tế tại kho hoặc các dự án bàn giao (Vietcombank, Sở GD&ĐT Quảng Trị, Vĩnh Phúc...). TUYỆT ĐỐI KHÔNG lưu trữ hoặc sử dụng các hình ảnh xe cộ, ô tô, phong cảnh hoặc ảnh máy sai thương hiệu."
         ]
     },
     {
@@ -120,11 +121,11 @@ CHAPTERS_10_18 = [
         "code": "SITE BLOCKS",
         "category": "GIAO DIỆN & TRẢI NGHIỆM",
         "tag": "PAGES",
-        "desc": "Chỉnh sửa trực tiếp nội dung các khối thông tin cố định trên trang chủ và các trang giới thiệu: 30 năm kinh nghiệm thành lập từ 1993, 6 cam kết dịch vụ vàng của Hương Sơn, quy trình thuê máy 4 bước, chính sách bảo hành.",
+        "desc": "Chỉnh sửa trực tiếp nội dung các khối thông tin cố định trên trang chủ và các trang giới thiệu: Gần 20 năm phát triển thành lập từ 01/06/2008 (MST: 0102759269), 6 cam kết dịch vụ vàng của Hương Sơn, quy trình thuê máy 4 bước, chính sách bảo hành.",
         "steps": [
             "Truy cập menu 'Trang CMS' > 'Khối nội dung' (<code>/vi/admin/pages</code>).",
             "Chọn trang cần chỉnh sửa (VD: Trang chủ, Trang Về Hương Sơn, Trang Dịch vụ cho thuê máy).",
-            "Chỉnh sửa các khối text tĩnh: Thay đổi số liệu thống kê (30+ năm kinh nghiệm, 5.000+ máy đang vận hành, 1.200+ trường học & cơ quan tin dùng).",
+            "Chỉnh sửa các khối text tĩnh: Thay đổi số liệu thống kê (Gần 20 năm uy tín từ 2008, 5.000+ máy đang vận hành, 1.200+ trường học & cơ quan tin dùng).",
             "Cập nhật nội dung các thẻ 'Cam kết dịch vụ': Cam kết đổi máy trong 24h nếu sự cố không thể khắc phục, Cam kết 100% mực in và linh kiện chính hãng.",
             "Bấm 'Lưu thay đổi' và kiểm tra hiển thị ngay trên website mà không cần can thiệp code."
         ],
@@ -137,8 +138,9 @@ CHAPTERS_10_18 = [
             ("④", "Lịch sử phiên bản (Revisions)", "Hỗ trợ khôi phục lại nội dung phiên bản cũ nếu nhân viên lỡ chỉnh sửa sai.")
         ],
         "notes": [
-            "Các số liệu uy tín (năm thành lập 1993, số lượng khách hàng thân thiết) là điểm then chốt tạo niềm tin cho các đơn vị hành chính sự nghiệp khi đấu thầu.",
-            "Giữ nguyên các thẻ định dạng in đậm/nghiêng để bảo toàn tính thẩm mỹ của thiết kế giao diện."
+            "Các số liệu uy tín (năm thành lập 01/06/2008 - MST: 0102759269, số lượng khách hàng thân thiết) là điểm then chốt tạo niềm tin cho các đơn vị hành chính sự nghiệp khi đấu thầu.",
+            "Giữ nguyên các thẻ định dạng in đậm/nghiêng để bảo toàn tính thẩm mỹ của thiết kế giao diện.",
+            "TƯ DUY 5 CỬA VÀO BÀI TOÁN KHÁCH HÀNG: Giữ vững cấu trúc 5 cửa vào chuyên biệt trên trang chủ (1. Thuê máy; 2. In đề thi; 3. Số hóa tài liệu; 4. Thiết bị trường học/ngân hàng; 5. Bảo trì vận hành SLA ≤ 2h) và 6 landing page SEO cho thuê thiết bị (Hà Nội, máy in, trường học, sở GD, in đề thi, ngân hàng) để tối ưu hóa SEO/GEO/AEO."
         ]
     },
     {
@@ -150,7 +152,7 @@ CHAPTERS_10_18 = [
         "tag": "SYSTEM",
         "desc": "Cấu hình thông tin pháp nhân Công ty TNHH TM&DV Hương Sơn, địa chỉ trụ sở & showroom, hotline hỗ trợ kỹ thuật, cấu hình Zalo OA nhận thông báo lead, thiết lập đối tác vận chuyển và tài khoản thanh toán.",
         "steps": [
-            "Truy cập menu 'Cài đặt' > 'Cài đặt chung' (<code>/vi/admin/settings</code>): Cập nhật Tên doanh nghiệp, Mã số thuế, Hotline kỹ thuật (0903.229.828 - 0968.229.828), Email tiếp nhận thông tin (<code>info@huongsonco.com.vn</code>).",
+            "Truy cập menu 'Cài đặt' > 'Cài đặt chung' (<code>/vi/admin/settings</code>): Cập nhật Tên doanh nghiệp (Công ty TNHH TM&DV Hương Sơn), Mã số thuế (0102759269), Trụ sở (Số 27 ngõ 523 phố Minh Khai, P. Vĩnh Tuy, TP. Hà Nội), Hotline công ty (091.113.8583), Kỹ thuật (0912.304.058), Email chính (<code>info@huongsonco.com.vn</code>) và CC (<code>thuannc72@gmail.com</code>).",
             "Cài đặt Thông báo (<code>/vi/admin/notification-settings</code>): Cấu hình Zalo Chat ID để hệ thống tự động bắn tin nhắn về điện thoại của quản lý khi có đơn hàng hoặc yêu cầu thuê máy mới.",
             "Đối tác vận chuyển (<code>/vi/admin/shipping-partners</code>): Bật/tắt các hình thức vận chuyển: Viettel Post, GHTK và Tự giao hàng bởi đội xe Hương Sơn.",
             "Phương thức thanh toán (<code>/vi/admin/payment-methods</code>): Cấu hình thanh toán khi nhận hàng (COD), Chuyển khoản ngân hàng Vietcombank (quét mã QR VietQR tự động điền nội dung) hoặc thanh toán online.",
@@ -165,7 +167,8 @@ CHAPTERS_10_18 = [
             ("④", "Cấu hình tài khoản Vietcombank", "Tự động sinh mã VietQR chuẩn NAPAS giúp khách hàng thanh toán chính xác 100%.")
         ],
         "notes": [
-            "Hotline và địa chỉ văn phòng phải luôn được cập nhật chính xác để khách hàng có thể liên hệ hỗ trợ kỹ thuật 24/7.",
+            "Hotline (091.113.8583) và địa chỉ văn phòng phải luôn được cập nhật chính xác để khách hàng có thể liên hệ hỗ trợ kỹ thuật 24/7.",
+            "Mọi email thông báo lead phải đảm bảo tới được cả info@huongsonco.com.vn và thuannc72@gmail.com.",
             "Tuyệt đối bảo mật các khóa API tích hợp Zalo và cổng thanh toán."
         ]
     },

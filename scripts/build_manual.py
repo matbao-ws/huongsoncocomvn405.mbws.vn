@@ -19,11 +19,11 @@ os.makedirs(PUBLIC_DOCS_DIR, exist_ok=True)
 # 1. MARKDOWN
 md_lines = [
     "# CẨM NANG QUẢN TRỊ HỆ THỐNG WEBSITE HUONGSONCO.COM.VN",
-    "> **Đơn vị chủ quản:** CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ HƯƠNG SƠN (Thành lập năm 1993)",
+    "> **Đơn vị chủ quản:** CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HƯƠNG SƠN (MST: 0102759269 · Thành lập 01/06/2008)",
     "> **Lĩnh vực:** Máy photocopy Toshiba / Konica Minolta, Máy in nhân bản kỹ thuật số Duplo Nhật Bản, Máy scan Ricoh, Vật tư & Mực in chính hãng Fansipan.",
-    "> **Địa chỉ:** Tầng 4, Tòa nhà 29T1 Hoàng Đạo Thúy, Cầu Giấy, Hà Nội | Showroom & Kho: Số 40 ngõ 106 Hoàng Quốc Việt, Cầu Giấy, Hà Nội",
-    "> **Hotline hỗ trợ:** 0903.229.828 - 0968.229.828 | **Website:** https://huongsonco.com.vn",
-    "> **Phiên bản:** Release v1.0.0 (2026) | Ngôn ngữ: 100% Tiếng Việt chuẩn hóa",
+    "> **Trụ sở & Văn phòng:** Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, TP. Hà Nội",
+    "> **Hotline hỗ trợ:** 091.113.8583 (Công ty) · 0912.304.058 (Kỹ thuật) · 024 3972 9484 (Văn phòng) | **Email:** info@huongsonco.com.vn (Cc: thuannc72@gmail.com)",
+    "> **Hệ thống website:** https://huongsonco.com.vn | **Phiên bản:** Release v1.0.0 (2026) | Ngôn ngữ: 100% Tiếng Việt chuẩn hóa",
     "> **File PDF bàn giao in ấn:** `docs/Huong_Dan_Su_Dung_Admin_Huong_Son.pdf`",
     "",
     "---",
@@ -709,7 +709,7 @@ spa_template = """<!DOCTYPE html>
 <body>
     <aside id="sidebar">
         <div class="sidebar-brand">
-            <span class="brand-badge">HƯƠNG SƠN SINCE 1993</span>
+            <span class="brand-badge">HƯƠNG SƠN TỪ 2008</span>
             <div class="brand-title">CẨM NANG QUẢN TRỊ</div>
             <div class="brand-sub">Hệ thống quản lý huongsonco.com.vn</div>
         </div>
@@ -1146,7 +1146,7 @@ print_template = """<!DOCTYPE html>
             </div>
             <div class="cover-meta-item">
                 <strong>Năm thành lập</strong>
-                1993 (30+ năm uy tín)
+                01/06/2008 (MST: 0102759269)
             </div>
             <div class="cover-meta-item">
                 <strong>Hệ thống website</strong>
@@ -1159,8 +1159,8 @@ print_template = """<!DOCTYPE html>
         </div>
 
         <div class="cover-footer">
-            Hotline Kỹ Thuật: 0903.229.828 - 0968.229.828 | Email: info@huongsonco.com.vn<br>
-            Trụ sở: Tầng 4, Tòa 29T1 Hoàng Đạo Thúy, Cầu Giấy, Hà Nội | Kho: 40 ngõ 106 Hoàng Quốc Việt, Cầu Giấy, Hà Nội
+            Hotline: 091.113.8583 (Công ty) · 0912.304.058 (Kỹ thuật) · 024 3972 9484 (Văn phòng) | Email: info@huongsonco.com.vn (Cc: thuannc72@gmail.com)<br>
+            Trụ sở & Văn phòng: Số 27, ngõ 523 phố Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, TP. Hà Nội
         </div>
     </div>
 

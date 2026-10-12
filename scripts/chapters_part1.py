@@ -109,7 +109,8 @@ CHAPTERS_1_9 = [
         ],
         "notes": [
             "Hình ảnh máy chụp thực tế tại kho Hương Sơn cần có độ phân giải tối thiểu 800x800px, phông nền sáng rõ ràng để khách hàng tin tưởng.",
-            "Tên sản phẩm nên chứa model chính xác (VD: Duplo DP-F850, Toshiba 4528A) để tối ưu tìm kiếm Google (SEO)."
+            "Tên sản phẩm nên chứa model chính xác (VD: Duplo DP-F850, Toshiba 4528A) để tối ưu tìm kiếm Google (SEO).",
+            "QUY CHUẨN HÌNH ẢNH CHUẨN HÃNG (LƯU Ý NGHIÊM NGẶT THEO PHẢN ÁNH CỦA KHÁCH): Máy photocopy bắt buộc dùng đúng ảnh Toshiba e-STUDIO hoặc Konica Minolta; Máy in nhân bản siêu tốc bắt buộc dùng đúng ảnh Duplo Nhật Bản (DP-X550, DP-X850, DP-F550...); Máy scan dùng ảnh Ricoh Fujitsu; Mực in dùng ảnh Fansipan. TUYỆT ĐỐI KHÔNG dùng ảnh máy photocopy văn phòng để minh họa cho máy Duplo, và TUYỆT ĐỐI KHÔNG tải ảnh xe cộ, ô tô hoặc ảnh mạng không rõ nguồn gốc."
         ]
     },
     {
@@ -194,7 +195,8 @@ CHAPTERS_1_9 = [
         ],
         "notes": [
             "Cam kết dịch vụ của Hương Sơn: Khách hàng gửi yêu cầu tư vấn trên website phải được chuyên viên liên hệ lại trong vòng 15 - 30 phút trong giờ hành chính.",
-            "Tích hợp thông báo tức thời qua Zalo OA quản trị giúp không bao giờ bị bỏ sót khách hàng tiềm năng."
+            "Tích hợp thông báo tức thời qua Zalo OA quản trị giúp không bao giờ bị bỏ sót khách hàng tiềm năng.",
+            "Cơ chế gửi Email thông báo tự động (Tuân thủ chỉ đạo của ban lãnh đạo): Mọi yêu cầu báo giá/thuê máy mới từ khách hàng đều được gửi trực tiếp về email chính `info@huongsonco.com.vn` và đồng thời CC cho `thuannc72@gmail.com` để giám sát tiến độ xử lý."
         ]
     },
     {
@@ -223,7 +225,8 @@ CHAPTERS_1_9 = [
         ],
         "notes": [
             "Các bài viết kỹ thuật thực tế (như bảng tra cứu mã lỗi SC của máy photocopy) mang lại lượng truy cập tự nhiên cực lớn từ các trường học và văn phòng doanh nghiệp.",
-            "Tuyệt đối không sao chép nội dung nguyên văn từ website khác để bảo vệ điểm uy tín SEO của domain huongsonco.com.vn."
+            "Tuyệt đối không sao chép nội dung nguyên văn từ website khác để bảo vệ điểm uy tín SEO của domain huongsonco.com.vn.",
+            "QUY ĐỊNH HÌNH ẢNH MINH HỌA TRONG BÀI VIẾT: Mỗi bài viết chuyên sâu cần có từ 3-4 hình ảnh thực tế (kho thiết bị, kỹ thuật viên thực hiện quy trình PDI kiểm định máy, ảnh bàn giao máy thực tế tại khách hàng như Vietcombank, Sở GD&ĐT Vĩnh Phúc, Quảng Trị...). TUYỆT ĐỐI KHÔNG chèn hình ảnh xe cộ, ô tô tải, phong cảnh tuyết rơi hay ảnh không liên quan đến ngành thiết bị văn phòng (đã từng bị khách hàng phản ánh gắt gao)."
         ]
     },
     {
