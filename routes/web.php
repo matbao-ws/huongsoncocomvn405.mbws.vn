@@ -27,6 +27,26 @@ Route::get('/bien-ban-ban-giao', function() {
 Route::get('/docs/BIEN_BAN_BAN_GIAO_VA_NGHIEM_THU_WEBSITE_HUONG_SON.md', function() {
     return response()->file(base_path('docs/BIEN_BAN_BAN_GIAO_VA_NGHIEM_THU_WEBSITE_HUONG_SON.md'), ['Content-Type' => 'text/markdown; charset=UTF-8']);
 });
+Route::get('/docs/assets/screenshots/{filename}', function($filename) {
+    $path = base_path('public/docs/assets/screenshots/' . $filename);
+    if (!file_exists($path)) {
+        $path = base_path('docs/assets/screenshots/' . $filename);
+    }
+    if (file_exists($path)) {
+        return response()->file($path, ['Content-Type' => 'image/png']);
+    }
+    abort(404);
+});
+Route::get('/assets/screenshots/{filename}', function($filename) {
+    $path = base_path('public/assets/screenshots/' . $filename);
+    if (!file_exists($path)) {
+        $path = base_path('docs/assets/screenshots/' . $filename);
+    }
+    if (file_exists($path)) {
+        return response()->file($path, ['Content-Type' => 'image/png']);
+    }
+    abort(404);
+});
 
 Route::get('/customer/reset-password/{token}', [\App\Http\Controllers\Auth\CustomerResetPasswordController::class, 'create'])->name('customer.password.reset');
 Route::post('/customer/reset-password', [\App\Http\Controllers\Auth\CustomerResetPasswordController::class, 'store'])

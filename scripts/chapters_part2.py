@@ -16,7 +16,7 @@ CHAPTERS_10_18 = [
             "Trường hợp phản ánh sự cố kỹ thuật: Chuyển thông tin ngay cho phòng kỹ thuật bảo trì liên hệ khắc phục, sau đó phản hồi lại khách hàng."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/reviews",
-        "image": "assets/screenshots/10_reviews_annotated.png",
+        "image": "/docs/assets/screenshots/10_reviews_annotated.png",
         "actions": [
             ("①", "Bảng kiểm duyệt phản hồi", "Phân loại đánh giá theo số sao (1-5 sao) và trạng thái hiển thị."),
             ("②", "Công tắc phê duyệt (Visibility)", "Chỉ những đánh giá được quản trị viên duyệt mới xuất hiện trên website storefront."),
@@ -45,7 +45,7 @@ CHAPTERS_10_18 = [
             "Bật trạng thái 'Hoạt động' và nhấn 'Lưu banner'."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/banners",
-        "image": "assets/screenshots/11_banners_annotated.png",
+        "image": "/docs/assets/screenshots/11_banners_annotated.png",
         "actions": [
             ("①", "Bảng danh sách banner chiến dịch", "Xem trước ảnh thumbnail banner, vị trí hiển thị, số lượt click và trạng thái."),
             ("②", "Kéo thả sắp xếp thứ tự", "Dễ dàng thay đổi thứ tự trượt của slider trang chủ mà không cần nhập số thủ công."),
@@ -73,7 +73,7 @@ CHAPTERS_10_18 = [
             "Bấm 'Lưu sắp xếp' để cập nhật menu hiển thị ra ngoài website."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/menus",
-        "image": "assets/screenshots/12_menus_annotated.png",
+        "image": "/docs/assets/screenshots/12_menus_annotated.png",
         "actions": [
             ("①", "Danh sách cây phân cấp menu", "Cấu trúc dạng cây trực quan, hiển thị rõ quan hệ menu cha - menu con."),
             ("②", "Kéo thả sắp xếp (Drag & Drop)", "Thao tác sắp xếp thứ tự và cấp độ lồng nhau cực kỳ mượt mà."),
@@ -101,7 +101,7 @@ CHAPTERS_10_18 = [
             "Xóa file thừa: Chọn các file không còn sử dụng và bấm 'Xóa' để giải phóng dung lượng hosting."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/media",
-        "image": "assets/screenshots/13_media_annotated.png",
+        "image": "/docs/assets/screenshots/13_media_annotated.png",
         "actions": [
             ("①", "Lưới hiển thị Media trực quan", "Xem trước hình ảnh dạng lưới thumbnail hoặc danh sách chi tiết kèm dung lượng file."),
             ("②", "Khu vực kéo thả Upload thông minh", "Hỗ trợ tải lên nhiều file cùng lúc, tự động tối ưu hóa và sinh thumbnail."),
@@ -130,7 +130,7 @@ CHAPTERS_10_18 = [
             "Bấm 'Lưu thay đổi' và kiểm tra hiển thị ngay trên website mà không cần can thiệp code."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/pages",
-        "image": "assets/screenshots/14_pages_annotated.png",
+        "image": "/docs/assets/screenshots/14_pages_annotated.png",
         "actions": [
             ("①", "Danh sách các trang tĩnh hệ thống", "Quản lý nội dung trang Giới thiệu, Chính sách bảo mật, Điều khoản dịch vụ, Bảng giá."),
             ("②", "Khối nội dung lặp lại (Site Lists)", "Thêm/sửa/xóa các mục danh sách cam kết, ưu đãi hoặc bước quy trình."),
@@ -159,7 +159,7 @@ CHAPTERS_10_18 = [
             "Nhấn 'Lưu cấu hình' để áp dụng toàn hệ thống."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/settings",
-        "image": "assets/screenshots/15_settings_annotated.png",
+        "image": "/docs/assets/screenshots/15_settings_annotated.png",
         "actions": [
             ("①", "Cấu hình thông tin doanh nghiệp", "Thông tin hiển thị tại chân trang website và trên các hóa đơn/biên bản bàn giao thiết bị."),
             ("②", "Tích hợp Zalo OA Webhook", "Cảnh báo đơn hàng & yêu cầu báo giá khẩn cấp tới nhóm kinh doanh theo thời gian thực."),
@@ -188,7 +188,7 @@ CHAPTERS_10_18 = [
             "Kiểm tra chuyển đổi ngôn ngữ trên Header storefront qua công tắc cờ ngôn ngữ."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/languages",
-        "image": "assets/screenshots/16_languages_annotated.png",
+        "image": "/docs/assets/screenshots/16_languages_annotated.png",
         "actions": [
             ("①", "Bảng quản lý ngôn ngữ", "Hiển thị mã ngôn ngữ (vi/en), cờ quốc gia, trạng thái hoạt động và cờ mặc định."),
             ("②", "Công tắc chuyển đổi Locale", "Cho phép chuyển đổi giao diện quản trị viên sang tiếng Anh nếu có nhân sự nước ngoài."),
@@ -215,7 +215,7 @@ CHAPTERS_10_18 = [
             "Sử dụng bộ lọc tìm kiếm theo nhân sự hoặc theo khoảng thời gian để phục vụ công tác thanh tra nội bộ khi có sự cố dữ liệu."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/activity-logs",
-        "image": "assets/screenshots/17_activity_logs_annotated.png",
+        "image": "/docs/assets/screenshots/17_activity_logs_annotated.png",
         "actions": [
             ("①", "Bảng nhật ký kiểm toán bất biến", "Dữ liệu nhật ký được bảo vệ chỉ đọc (Read-only), không ai kể cả admin có thể sửa đổi hay xóa."),
             ("②", "So sánh chênh lệch dữ liệu (Diff Viewer)", "Hiển thị trực quan trường dữ liệu nào bị thay đổi giá trị và giá trị cũ là gì."),
@@ -245,7 +245,7 @@ CHAPTERS_10_18 = [
             "Khách hàng bấm 'Đăng ký thuê gói này ngay' để gửi thẳng dữ liệu cấu hình về hệ thống quản trị Hương Sơn."
         ],
         "route": "https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may",
-        "image": "assets/screenshots/18_rental_calculator_annotated.png",
+        "image": "/docs/assets/screenshots/18_rental_calculator_annotated.png",
         "actions": [
             ("①", "Bộ chọn cấu hình in ấn", "Giao diện trực quan gồm các icon khổ giấy A4/A3 và tùy chọn in đen trắng/màu sinh động."),
             ("②", "Thanh trượt sản lượng bản in thông minh", "Người dùng dễ dàng kéo thả để điều chỉnh số lượng bản in từ 1.000 đến 30.000 bản/tháng."),

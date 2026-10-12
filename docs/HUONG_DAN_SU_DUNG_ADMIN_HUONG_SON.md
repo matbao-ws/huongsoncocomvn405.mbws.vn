@@ -47,7 +47,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/login`
-![Giao diện thực tế Giới Thiệu & Đăng Nhập Bảo Mật](assets/screenshots/01_login_annotated.png)
+![Giao diện thực tế Giới Thiệu & Đăng Nhập Bảo Mật](/docs/assets/screenshots/01_login_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -78,7 +78,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin`
-![Giao diện thực tế Bảng Điều Khiển & Thống Kê Kinh Doanh (Dashboard)](assets/screenshots/02_dashboard_annotated.png)
+![Giao diện thực tế Bảng Điều Khiển & Thống Kê Kinh Doanh (Dashboard)](/docs/assets/screenshots/02_dashboard_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -109,7 +109,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/users`
-![Giao diện thực tế Phân Quyền & Quản Lý Thành Viên (Users & Roles)](assets/screenshots/03_users_list_annotated.png)
+![Giao diện thực tế Phân Quyền & Quản Lý Thành Viên (Users & Roles)](/docs/assets/screenshots/03_users_list_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -143,7 +143,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/products`
-![Giao diện thực tế Quản Lý Thiết Bị Photocopy, Máy In & Vật Tư (Catalog Products)](assets/screenshots/04_products_list_annotated.png)
+![Giao diện thực tế Quản Lý Thiết Bị Photocopy, Máy In & Vật Tư (Catalog Products)](/docs/assets/screenshots/04_products_list_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -176,7 +176,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/products/1/options`
-![Giao diện thực tế Cấu Hình Tùy Chọn & Biến Thể Thiết Bị (Options & Variants)](assets/screenshots/05_product_options_annotated.png)
+![Giao diện thực tế Cấu Hình Tùy Chọn & Biến Thể Thiết Bị (Options & Variants)](/docs/assets/screenshots/05_product_options_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -209,7 +209,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/orders`
-![Giao diện thực tế Quản Lý & Xử Lý Đơn Hàng (Orders Processing & Shipping)](assets/screenshots/06_orders_list_annotated.png)
+![Giao diện thực tế Quản Lý & Xử Lý Đơn Hàng (Orders Processing & Shipping)](/docs/assets/screenshots/06_orders_list_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -241,7 +241,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/contact-submissions`
-![Giao diện thực tế Tiếp Nhận & Xử Lý Yêu Cầu Báo Giá / Thuê Máy (RFQ & Leads)](assets/screenshots/07_rfq_contacts_annotated.png)
+![Giao diện thực tế Tiếp Nhận & Xử Lý Yêu Cầu Báo Giá / Thuê Máy (RFQ & Leads)](/docs/assets/screenshots/07_rfq_contacts_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -275,7 +275,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/posts`
-![Giao diện thực tế Cẩm Nang Kỹ Thuật, Hướng Dẫn Sửa Lỗi & Chuẩn SEO (Posts & SEO)](assets/screenshots/08_posts_list_annotated.png)
+![Giao diện thực tế Cẩm Nang Kỹ Thuật, Hướng Dẫn Sửa Lỗi & Chuẩn SEO (Posts & SEO)](/docs/assets/screenshots/08_posts_list_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -309,7 +309,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/vouchers`
-![Giao diện thực tế Mã Giảm Giá & Chương Trình Khuyến Mãi (Vouchers & Promotions)](assets/screenshots/09_vouchers_annotated.png)
+![Giao diện thực tế Mã Giảm Giá & Chương Trình Khuyến Mãi (Vouchers & Promotions)](/docs/assets/screenshots/09_vouchers_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -341,7 +341,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/reviews`
-![Giao diện thực tế Kiểm Duyệt Đánh Giá Khách Hàng (Customer Reviews Moderation)](assets/screenshots/10_reviews_annotated.png)
+![Giao diện thực tế Kiểm Duyệt Đánh Giá Khách Hàng (Customer Reviews Moderation)](/docs/assets/screenshots/10_reviews_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -374,7 +374,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/banners`
-![Giao diện thực tế Quản Lý Banner & Chiến Dịch Trưng Bày (Banners & Hero Sliders)](assets/screenshots/11_banners_annotated.png)
+![Giao diện thực tế Quản Lý Banner & Chiến Dịch Trưng Bày (Banners & Hero Sliders)](/docs/assets/screenshots/11_banners_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -406,7 +406,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/menus`
-![Giao diện thực tế Quản Lý Menu Điều Hướng Website (Navigation Menus)](assets/screenshots/12_menus_annotated.png)
+![Giao diện thực tế Quản Lý Menu Điều Hướng Website (Navigation Menus)](/docs/assets/screenshots/12_menus_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -438,7 +438,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/media`
-![Giao diện thực tế Thư Viện File, Driver & Tài Liệu PDF (Media Library)](assets/screenshots/13_media_annotated.png)
+![Giao diện thực tế Thư Viện File, Driver & Tài Liệu PDF (Media Library)](/docs/assets/screenshots/13_media_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -471,7 +471,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/pages`
-![Giao diện thực tế Quản Trị Khối Tĩnh & Trang Nội Dung (Site Blocks & CMS Pages)](assets/screenshots/14_pages_annotated.png)
+![Giao diện thực tế Quản Trị Khối Tĩnh & Trang Nội Dung (Site Blocks & CMS Pages)](/docs/assets/screenshots/14_pages_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -504,7 +504,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/settings`
-![Giao diện thực tế Cài Đặt Hệ Thống, Cổng Thanh Toán & Vận Chuyển (System Settings)](assets/screenshots/15_settings_annotated.png)
+![Giao diện thực tế Cài Đặt Hệ Thống, Cổng Thanh Toán & Vận Chuyển (System Settings)](/docs/assets/screenshots/15_settings_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -537,7 +537,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/languages`
-![Giao diện thực tế Quản Lý Đa Ngôn Ngữ Song Ngữ (Localization & Languages)](assets/screenshots/16_languages_annotated.png)
+![Giao diện thực tế Quản Lý Đa Ngôn Ngữ Song Ngữ (Localization & Languages)](/docs/assets/screenshots/16_languages_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -568,7 +568,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/vi/admin/activity-logs`
-![Giao diện thực tế Nhật Ký Kiểm Toán & Truy Vết Bảo Mật (Activity Audit Logs)](assets/screenshots/17_activity_logs_annotated.png)
+![Giao diện thực tế Nhật Ký Kiểm Toán & Truy Vết Bảo Mật (Activity Audit Logs)](/docs/assets/screenshots/17_activity_logs_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |
@@ -602,7 +602,7 @@
 
 ### 2. Giao diện thực tế & Đường dẫn màn hình (Screenshots)
 > 🌐 **Đường dẫn màn hình:** `https://huongsonco.com.vn/cong-cu/tinh-chi-phi-thue-may`
-![Giao diện thực tế Công Cụ Ước Tính Chi Phí Thuê Máy Photocopy & TCO (Storefront Tools)](assets/screenshots/18_rental_calculator_annotated.png)
+![Giao diện thực tế Công Cụ Ước Tính Chi Phí Thuê Máy Photocopy & TCO (Storefront Tools)](/docs/assets/screenshots/18_rental_calculator_annotated.png)
 
 ### 3. Bảng tra cứu hành động & Ký hiệu thao tác
 | Ký hiệu | Khu vực / Tên trường | Hướng dẫn thao tác & Lưu ý nghiệp vụ |

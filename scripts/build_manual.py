@@ -161,7 +161,7 @@ for idx, ch in enumerate(CHAPTERS):
                 </div>
             </div>
             <div class="screenshot-canvas">
-                <img src="{ch['image']}" alt="{ch['title']}" loading="lazy" class="img-screenshot">
+                <img src="/docs/assets/screenshots/{os.path.basename(ch['image'])}" alt="{ch['title']}" loading="lazy" class="img-screenshot">
             </div>
             <div class="screenshot-caption">
                 <strong>Hình {ch['num']}:</strong> Giao diện thực tế module <em>{ch['title']}</em> trên hệ thống Hương Sơn.
@@ -841,7 +841,7 @@ for ch in CHAPTERS:
         <h3 class="print-h3">2. Giao Diện Thực Tế Module</h3>
         <div class="print-screenshot-box no-break">
             <div class="print-url">URL: {ch['route']}</div>
-            <img src="{ch['image']}" alt="{ch['title']}" class="print-img">
+            <img src="assets/screenshots/{os.path.basename(ch['image'])}" alt="{ch['title']}" class="print-img">
             <div class="print-caption">Hình {ch['num']}: Giao diện thực tế module {ch['title']}</div>
         </div>
 

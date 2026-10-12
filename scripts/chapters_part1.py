@@ -16,7 +16,7 @@ CHAPTERS_1_9 = [
             "Trường hợp quên mật khẩu: Bấm liên kết 'Quên mật khẩu?', điền email quản trị và kiểm tra hòm thư để nhận liên kết đặt lại mật khẩu an toàn."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/login",
-        "image": "assets/screenshots/01_login_annotated.png",
+        "image": "/docs/assets/screenshots/01_login_annotated.png",
         "actions": [
             ("①", "Ô nhập Email quản trị", "Nhập email tài khoản quản trị viên do công ty cấp. Tài khoản phải ở trạng thái hoạt động (is_active = 1)."),
             ("②", "Ô nhập Mật khẩu", "Mật khẩu quản trị được mã hóa chuẩn Bcrypt. Hỗ trợ nút con mắt để kiểm tra ký tự trước khi xác nhận."),
@@ -43,7 +43,7 @@ CHAPTERS_1_9 = [
             "Theo dõi danh sách 'Đơn hàng gần đây' và 'Yêu cầu tư vấn/Báo giá mới' nằm ở nửa dưới màn hình để xử lý ngay trong ngày."
         ],
         "route": "https://huongsonco.com.vn/vi/admin",
-        "image": "assets/screenshots/02_dashboard_annotated.png",
+        "image": "/docs/assets/screenshots/02_dashboard_annotated.png",
         "actions": [
             ("①", "Thanh Menu dọc (Sidebar)", "Điều hướng nhanh đến 15+ module nghiệp vụ: Máy photocopy, Máy in Duplo, Đơn hàng, RFQ, Vouchers, Cài đặt..."),
             ("②", "Thanh công cụ đỉnh (Header)", "Tìm kiếm nhanh toàn hệ thống, chuyển đổi giao diện Tiếng Việt/English, chuông thông báo đơn hàng/lead mới phát sinh."),
@@ -70,7 +70,7 @@ CHAPTERS_1_9 = [
             "Đăng nhập phân thân (Superadmin): Nhấn nút 'Đăng nhập với tư cách...' bên cạnh tài khoản nhân viên để kiểm tra góc nhìn giao diện của nhân sự đó, nhấn 'Rời phân thân' ở góc trên để quay lại tài khoản chính."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/users",
-        "image": "assets/screenshots/03_users_list_annotated.png",
+        "image": "/docs/assets/screenshots/03_users_list_annotated.png",
         "actions": [
             ("①", "Bảng danh sách thành viên", "Hiển thị tên nhân sự, email, vai trò hiện tại, trạng thái hoạt động và ngày tham gia."),
             ("②", "Nút bật/tắt trạng thái", "Khóa nhanh tài khoản nhân sự nghỉ việc chỉ với 1 click mà không cần xóa dữ liệu lịch sử."),
@@ -100,7 +100,7 @@ CHAPTERS_1_9 = [
             "Lưu và kiểm tra hiển thị trên website storefront."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/products",
-        "image": "assets/screenshots/04_products_list_annotated.png",
+        "image": "/docs/assets/screenshots/04_products_list_annotated.png",
         "actions": [
             ("①", "Bộ lọc danh mục & thương hiệu", "Lọc nhanh theo dòng máy Toshiba, Duplo, Konica hoặc vật tư Fansipan, lọc theo trạng thái còn hàng/hết hàng."),
             ("②", "Nhập / Xuất dữ liệu Excel", "Hỗ trợ xuất báo cáo bảng giá toàn bộ máy và nhập sản phẩm hàng loạt qua file mẫu Excel."),
@@ -129,7 +129,7 @@ CHAPTERS_1_9 = [
             "Thiết lập giá chênh lệch và mã tồn kho cho từng cấu hình máy."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/products/1/options",
-        "image": "assets/screenshots/05_product_options_annotated.png",
+        "image": "/docs/assets/screenshots/05_product_options_annotated.png",
         "actions": [
             ("①", "Bảng nhóm tùy chọn thiết bị", "Quản lý các option phần cứng mở rộng của máy photocopy và máy in nhân bản."),
             ("②", "Giá trị tùy chọn (Option Values)", "Các lựa chọn phần cứng cụ thể kèm mức giá cộng thêm tương ứng."),
@@ -158,7 +158,7 @@ CHAPTERS_1_9 = [
             "Chuyển trạng thái sang 'Hoàn tất' sau khi khách hàng đã nghiệm thu và thanh toán."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/orders",
-        "image": "assets/screenshots/06_orders_list_annotated.png",
+        "image": "/docs/assets/screenshots/06_orders_list_annotated.png",
         "actions": [
             ("①", "Bộ lọc trạng thái đơn", "Lọc nhanh: Chờ xử lý, Đã xác nhận, Đang vận chuyển, Đã giao thành công, Đã hủy."),
             ("②", "Thông tin khách hàng & VAT", "Hiển thị đầy đủ Tên đơn vị, Mã số thuế, Địa chỉ giao hàng và Số điện thoại người nhận máy."),
@@ -186,7 +186,7 @@ CHAPTERS_1_9 = [
             "Có thể phân loại lead vào nhóm khách hàng tiềm năng hoặc xuất danh sách ra file Excel phục vụ chăm sóc định kỳ."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/contact-submissions",
-        "image": "assets/screenshots/07_rfq_contacts_annotated.png",
+        "image": "/docs/assets/screenshots/07_rfq_contacts_annotated.png",
         "actions": [
             ("①", "Bảng danh sách Lead liên hệ", "Sắp xếp theo thứ tự mới nhất, hiển thị nhãn dịch vụ khách quan tâm."),
             ("②", "Nút đánh dấu Đã liên hệ / Chưa liên hệ", "Chuyển trạng thái trực quan để tránh trùng lặp giữa các nhân viên sale."),
@@ -216,7 +216,7 @@ CHAPTERS_1_9 = [
             "Tích chọn 'Xuất bản' và bấm 'Lưu bài viết'."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/posts",
-        "image": "assets/screenshots/08_posts_list_annotated.png",
+        "image": "/docs/assets/screenshots/08_posts_list_annotated.png",
         "actions": [
             ("①", "Bảng quản lý bài viết", "Hiển thị tiêu đề, chuyên mục, tác giả, lượt xem, trạng thái xuất bản và ngày đăng bài."),
             ("②", "Trình soạn thảo trực quan Rich Text", "Hỗ trợ định dạng văn bản chuyên nghiệp, chèn bảng mã lỗi kỹ thuật, nhúng video YouTube."),
@@ -246,7 +246,7 @@ CHAPTERS_1_9 = [
             "Kích hoạt trạng thái 'Hoạt động' và lưu cấu hình."
         ],
         "route": "https://huongsonco.com.vn/vi/admin/vouchers",
-        "image": "assets/screenshots/09_vouchers_annotated.png",
+        "image": "/docs/assets/screenshots/09_vouchers_annotated.png",
         "actions": [
             ("①", "Bảng danh sách Voucher", "Theo dõi mã code, mức giảm, số lượt đã sử dụng / tổng số lượt phát hành, thời hạn."),
             ("②", "Công tắc bật/tắt tức thời", "Tạm dừng chương trình khuyến mãi bất kỳ lúc nào khi hết ngân sách dự kiến."),
