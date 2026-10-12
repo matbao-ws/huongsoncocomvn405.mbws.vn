@@ -370,6 +370,14 @@
                               </a>
                           </li>
                           @endcan
+
+                          <!-- User Guide / Cẩm nang quản trị -->
+                          <li class="sidebar-item">
+                              <a class="sidebar-link text-success" href="/huong-dan-su-dung" target="_blank" aria-expanded="false">
+                                  <iconify-icon icon="solar:book-bookmark-line-duotone" class="text-success"></iconify-icon>
+                                  <span class="hide-menu fw-bold text-success">Cẩm nang quản trị</span>
+                              </a>
+                          </li>
                       </ul>
                   </nav>
               </div>

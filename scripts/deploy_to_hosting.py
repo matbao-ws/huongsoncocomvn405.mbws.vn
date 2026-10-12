@@ -55,6 +55,8 @@ DIRECTORIES_TO_INCLUDE = [
     "app/Http/Controllers/Client",
     "app/Mail",
     "routes",
+    "docs",
+    "public/docs",
 ]
 
 ROOT_FILES_TO_INCLUDE = [
