@@ -59,6 +59,8 @@ PRIORITY = {
     "/thue-may-photocopy-so-gd/": "0.9",
     "/thue-may-in-de-thi/": "0.9",
     "/thue-may-photocopy-ngan-hang/": "0.9",
+    "/ve-huong-son/tu-lieu-thuc-te/": "0.95",
+    "/tin-tuc/tu-lieu-thuc-te/": "0.95",
 }
 
 for p in STRATEGIC_POSTS:
@@ -148,6 +150,7 @@ siêu tốc, vật tư Master/mực, kỹ thuật trực và phương án máy d
 - Cho thuê máy photocopy ngân hàng & doanh nghiệp: {base}/thue-may-photocopy-ngan-hang/
 - Dự án – Case study: {base}/du-an/
 - Về Hương Sơn: {base}/ve-huong-son/
+- Tư liệu ảnh & video thực tế: {base}/ve-huong-son/tu-lieu-thuc-te/
 - Cẩm nang kiến thức chuyên sâu (Knowledge Hub): {base}/ve-huong-son/kien-thuc/
 - Nhận tư vấn: {base}/nhan-tu-van/
 

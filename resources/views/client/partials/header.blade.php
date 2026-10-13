@@ -80,6 +80,10 @@
             <a href="/ve-huong-son/tai-nguyen/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Tài nguyên – Catalogue</a>
             <a href="/ve-huong-son/kien-thuc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Kiến thức chuyên môn</a>
             <a href="/ve-huong-son/tin-tuc/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium">Tin tức &amp; Sự kiện</a>
+            <a href="/ve-huong-son/tu-lieu-thuc-te/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1A9900] transition font-medium flex items-center justify-between">
+              <span>Tư liệu ảnh &amp; video thực tế</span>
+              <span class="text-[10px] font-bold bg-[#1A9900]/10 text-[#1A9900] px-1.5 py-0.5 rounded">Mới</span>
+            </a>
           </div>
         </div>
 

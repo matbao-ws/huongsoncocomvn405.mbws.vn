@@ -43,6 +43,8 @@ Route::get('du-an/{slug}', [ProjectController::class, 'show'])->name('projects.s
 
 // About & News
 Route::get('ve-huong-son', [AboutController::class, 'index'])->name('about.index');
+Route::get('ve-huong-son/tu-lieu-thuc-te', [AboutController::class, 'subpage'])->defaults('slug', 'tu-lieu-thuc-te')->name('about.gallery');
+Route::get('tin-tuc/tu-lieu-thuc-te', [AboutController::class, 'subpage'])->defaults('slug', 'tu-lieu-thuc-te')->name('news.gallery');
 Route::get('ve-huong-son/tin-tuc', [AboutController::class, 'subpage'])->defaults('slug', 'tin-tuc')->name('about.tin-tuc');
 Route::get('tin-tuc', [AboutController::class, 'subpage'])->defaults('slug', 'tin-tuc')->name('news.index');
 Route::get('ve-huong-son/tin-tuc/{postSlug}', [AboutController::class, 'postDetail'])->name('about.post.show');

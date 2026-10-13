@@ -140,6 +140,10 @@
       {
         "label": "Tin tức & Sự kiện",
         "url": "/ve-huong-son/tin-tuc/"
+      },
+      {
+        "label": "Tư liệu ảnh & video thực tế",
+        "url": "/ve-huong-son/tu-lieu-thuc-te/"
       }
     ]
   },

@@ -92,4 +92,42 @@ class HuongSonContactSanityTest extends TestCase
             $this->assertStringContainsString('Số 27, ngõ 523 phố Minh Khai', $content, "Post #{$p['id']} missing official address");
         }
     }
+
+    public function test_tu_lieu_thuc_te_pages_return_ok_and_have_zero_forbidden_contacts(): void
+    {
+        $galleryRoutes = [
+            '/ve-huong-son/tu-lieu-thuc-te',
+            '/tin-tuc/tu-lieu-thuc-te',
+        ];
+
+        foreach ($galleryRoutes as $route) {
+            $response = $this->get($route);
+            $response->assertOk();
+            $html = $response->getContent();
+
+            foreach ($this->forbiddenStrings as $forbidden) {
+                $this->assertStringNotContainsString(
+                    $forbidden,
+                    $html,
+                    "Route {$route} contains forbidden contact/address: {$forbidden}"
+                );
+            }
+
+            $this->assertStringContainsString('091.113.8583', $html);
+            $this->assertStringContainsString('Tư liệu ảnh & video thực tế', $html);
+            $this->assertStringContainsString('gallery-lightbox', $html);
+            $this->assertStringContainsString('gallery-filter-tabs', $html);
+        }
+    }
+
+    public function test_navigation_header_and_drawer_contain_tu_lieu_thuc_te(): void
+    {
+        $response = $this->get('/');
+        $response->assertOk();
+        $html = $response->getContent();
+
+        $this->assertStringContainsString('/ve-huong-son/tu-lieu-thuc-te/', $html);
+        $this->assertStringContainsString('Tư liệu ảnh &amp; video thực tế', $html);
+    }
 }
+

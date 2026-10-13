@@ -345,6 +345,8 @@ storefront_routes = [
     ("/san-pham/photocopy-may-da-chuc-nang/", "Photocopy đa chức năng"),
     ("/san-pham/may-in-nhan-ban-toc-do-cao/", "Máy in siêu tốc Duplo"),
     ("/tin-tuc/", "Trang tin tức"),
+    ("/ve-huong-son/tu-lieu-thuc-te/", "Tư liệu ảnh & video thực tế"),
+    ("/tin-tuc/tu-lieu-thuc-te/", "Tư liệu thực tế Tin tức"),
 ]
 
 for s_path, s_name in storefront_routes:

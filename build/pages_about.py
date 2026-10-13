@@ -28,12 +28,14 @@ def build(write):
     write("/ve-huong-son/doi-tac-thuong-hieu/", _brands())
     write("/ve-huong-son/tai-nguyen/", _resources())
     write("/ve-huong-son/tin-tuc/", _news_hub())
+    write("/ve-huong-son/tu-lieu-thuc-te/", _real_gallery())
+    write("/tin-tuc/tu-lieu-thuc-te/", _real_gallery())
     for p in STRATEGIC_POSTS:
         slug = p["slug"]
         page_html = _strategic_post_page(p)
         write(f"/ve-huong-son/tin-tuc/{slug}/", page_html)
         write(f"/tin-tuc/{slug}/", page_html)
-    print(f"  về Hương Sơn: 5 trang + {len(STRATEGIC_POSTS)} bài viết chiến lược (2 URL/bài)")
+    print(f"  về Hương Sơn: 6 trang + {len(STRATEGIC_POSTS)} bài viết chiến lược (2 URL/bài)")
 
 
 
@@ -384,6 +386,11 @@ def _news_hub():
         <span>Hoàn Thiện Sau In</span>
         <span class="bg-gray-200 text-gray-700 text-[10px] px-1.5 py-0.2 rounded-full font-mono">{ht_count}</span>
       </button>
+      <a href="/ve-huong-son/tu-lieu-thuc-te/" class="bg-emerald-50 hover:bg-emerald-100 text-[{BRAND}] border border-[{BRAND}]/30 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-1.5 ml-auto">
+        <i class="fa-solid fa-camera"></i>
+        <span>Tư liệu ảnh &amp; video thực tế</span>
+        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+      </a>
     </div>
     <script>
     document.addEventListener('DOMContentLoaded', function() {{
@@ -420,7 +427,29 @@ def _news_hub():
     </script>
     """
 
+    real_gallery_banner = f"""
+    <div class="mb-12 bg-gradient-to-r from-[#0d1626] via-[#10203c] to-[#12284c] border border-white/10 rounded-xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl relative overflow-hidden">
+      <div class="absolute -right-10 -bottom-10 w-60 h-60 bg-[{BRAND}]/15 rounded-full blur-2xl pointer-events-none"></div>
+      <div class="relative z-10 max-w-2xl">
+        <div class="inline-flex items-center gap-2 bg-[{BRAND}]/20 border border-[{BRAND}]/40 text-[#84e372] text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3">
+          <i class="fa-solid fa-camera"></i>
+          <span>Tư Liệu Thực Tế Mới Nhất</span>
+        </div>
+        <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 leading-snug">Thư Viện Hình Ảnh &amp; Video Thực Tế Hương Sơn</h3>
+        <p class="text-gray-300 text-sm leading-relaxed">Khám phá tư liệu kho bãi &gt;200 thiết bị sẵn có, quy trình kiểm định kỹ thuật PDI 24 bước chính hãng và hình ảnh bàn giao thực tế tại các trường học, ngân hàng và cơ quan.</p>
+      </div>
+      <div class="relative z-10 flex-shrink-0">
+        <a href="/ve-huong-son/tu-lieu-thuc-te/" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded shadow-lg flex items-center gap-2 transition">
+          <i class="fa-solid fa-images"></i>
+          <span>Xem Thư Viện Tư Liệu</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+"""
+
     body += C.section(
+        real_gallery_banner +
         '<div class="flex items-center justify-between mb-4 flex-wrap gap-4">'
         '<div>'
         f'<span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-1">Chuyên đề chiến lược</span>'
@@ -551,6 +580,481 @@ def _news_hub():
         title="Tin Tức & Cẩm Nang Thiết Bị In Ấn, Số Hóa | Hương Sơn",
         description="Cập nhật tin tức dự án bàn giao thiết bị, cẩm nang in ấn đề thi, hướng dẫn chọn máy photocopy và số hóa tài liệu tại Hương Sơn.",
         url="/ve-huong-son/tin-tuc/", body=body, jsonld=ld, active="/ve-huong-son/")
+
+
+def _real_gallery():
+    trail = [("Trang chủ", "/"), ("Về Hương Sơn", "/ve-huong-son/"), ("Tư liệu ảnh & video thực tế", "/ve-huong-son/tu-lieu-thuc-te/")]
+    body = C.page_hero(
+        eyebrow="Tư liệu thực tế Hương Sơn",
+        h1="Tư Liệu Ảnh & Video Thực Tế",
+        lead="Tổng hợp hình ảnh và video thực tế về hệ thống kho bãi thiết bị sẵn có, quy trình kiểm định kỹ thuật PDI chính hãng và các dự án bàn giao – lắp đặt tại Hà Nội và các tỉnh phía Bắc.",
+        trail=trail,
+        badges=[
+            ('fa-solid fa-camera text-[#5eb74c]', '100% Ảnh Thực Tế Tại Kho & Hiện Trường', None),
+            ('fa-solid fa-warehouse text-[#ffc107]', 'Showroom & Kho Máy Sẵn Sàng Tại Hà Nội', None),
+            ('fa-solid fa-video text-cyan-400', 'Video Vận Hành Máy Siêu Tốc & Đa Chức Năng', None),
+        ]
+    )
+    body += C.trust_strip()
+
+    body += f"""
+  <section class="py-12 bg-white border-b border-gray-100">
+    <div class="{C.WRAP}">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div class="bg-gray-50 border border-gray-200/80 p-5 rounded-lg text-center hover:border-[{BRAND}] transition duration-300">
+          <div class="text-3xl sm:text-4xl font-extrabold text-[{BRAND}] mb-1">&gt; 200</div>
+          <div class="text-xs font-bold text-gray-800 uppercase tracking-wider mb-1">Máy Sẵn Sàng Tại Kho</div>
+          <p class="text-[12px] text-gray-500">Toshiba, Duplo, Konica Minolta nguyên đai nguyên kiện</p>
+        </div>
+        <div class="bg-gray-50 border border-gray-200/80 p-5 rounded-lg text-center hover:border-[{BRAND}] transition duration-300">
+          <div class="text-3xl sm:text-4xl font-extrabold text-[{BRAND}] mb-1">24 Bước</div>
+          <div class="text-xs font-bold text-gray-800 uppercase tracking-wider mb-1">Quy Trình Kiểm Định PDI</div>
+          <p class="text-[12px] text-gray-500">Kiểm tra dòng rò, bo mạch, cân chỉnh quang học chuẩn hãng</p>
+        </div>
+        <div class="bg-gray-50 border border-gray-200/80 p-5 rounded-lg text-center hover:border-[{BRAND}] transition duration-300">
+          <div class="text-3xl sm:text-4xl font-extrabold text-[{BRAND}] mb-1">127+ Máy</div>
+          <div class="text-xs font-bold text-gray-800 uppercase tracking-wider mb-1">Bàn Giao Vietcombank</div>
+          <p class="text-[12px] text-gray-500">Bàn giao, lắp đặt và bảo trì định kỳ trên toàn quốc</p>
+        </div>
+        <div class="bg-gray-50 border border-gray-200/80 p-5 rounded-lg text-center hover:border-[{BRAND}] transition duration-300">
+          <div class="text-3xl sm:text-4xl font-extrabold text-[{BRAND}] mb-1">500+</div>
+          <div class="text-xs font-bold text-gray-800 uppercase tracking-wider mb-1">Dự Án Đã Bàn Giao</div>
+          <p class="text-[12px] text-gray-500">Sở GD&ĐT, trường học, ngân hàng và cơ quan Nhà nước</p>
+        </div>
+      </div>
+    </div>
+  </section>
+"""
+
+    items = [
+        {
+            "id": "kho-01",
+            "category": "kho-may",
+            "category_name": "Kho Bãi & Máy Móc",
+            "badge": "Kho Hàng > 200 Máy",
+            "title": "Hệ thống kho máy photocopy Toshiba & Konica Minolta đa chức năng",
+            "desc": "Kho hàng trung tâm tại Số 27 ngõ 523 phố Minh Khai, Hà Nội luôn sẵn sàng hơn 200 thân máy photocopy Toshiba e-STUDIO, Konica Minolta bizhub nguyên đai nguyên kiện phục vụ nhu cầu thuê máy và mua sắm.",
+            "img": "/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-toshiba-duplo-ha-noi.jpg",
+            "date": "10/2026",
+            "location": "Kho Trung Tâm – 27 ngõ 523 Minh Khai, Hà Nội",
+            "type": "image",
+        },
+        {
+            "id": "kho-02",
+            "category": "kho-may",
+            "category_name": "Kho Bãi & Máy Móc",
+            "badge": "Máy In Siêu Tốc Duplo",
+            "title": "Dàn máy in nhân bản siêu tốc Duplo DP-X550 / DP-X850 phục vụ in đề thi",
+            "desc": "Khu vực lưu trữ máy in siêu tốc Duplo Nhật Bản và hệ thống phối trang tự động DFC-120 phục vụ các hội đồng thi THPT và trường học trên toàn miền Bắc.",
+            "img": "/assets/images/tu-lieu-thuc-te/kho-may/may-in-nhan-ban-sieu-toc-duplo-dp-x550.jpg",
+            "date": "10/2026",
+            "location": "Kho Thiết Bị Duplo Hương Sơn",
+            "type": "image",
+        },
+        {
+            "id": "pdi-01",
+            "category": "pdi",
+            "category_name": "Kiểm Định Kỹ Thuật PDI",
+            "badge": "Quy Trình 24 Bước PDI",
+            "title": "Đội ngũ kỹ sư kiểm tra và hiệu chuẩn 24 bước PDI trước khi xuất xưởng",
+            "desc": "100% thiết bị tại Hương Sơn đều trải qua quy trình tiền kiểm định PDI: kiểm tra bo mạch, cân chỉnh thước quang scan, đo điện trở sấy và in kiểm tra 100 bản test chuẩn màu.",
+            "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/quy-trinh-kiem-dinh-pdi-24-buoc.jpg",
+            "date": "09/2026",
+            "location": "Xưởng Kỹ Thuật & Cứu Hộ Hương Sơn",
+            "type": "image",
+        },
+        {
+            "id": "bg-01",
+            "category": "ban-giao",
+            "category_name": "Bàn Giao & Lắp Đặt",
+            "badge": "Bàn Giao Trường Học",
+            "title": "Vận chuyển logistics chuyên dụng và lắp đặt bàn giao máy tại trường học",
+            "desc": "Đội ngũ vận chuyển chuyên dụng lắp đặt tận phòng văn thư/phòng in, đấu nối mạng nội bộ, cài đặt driver và ký biên bản nghiệm thu bàn giao kỹ thuật trực tiếp.",
+            "img": "/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-thiet-bi-tan-noi-truong-hoc.jpg",
+            "date": "09/2026",
+            "location": "Trường THPT & Cơ Sở Giáo Dục Hà Nội",
+            "type": "image",
+        },
+        {
+            "id": "bg-02",
+            "category": "ban-giao",
+            "category_name": "Bàn Giao & Lắp Đặt",
+            "badge": "Dự Án Vietcombank",
+            "title": "Bàn giao 127 máy photocopy Toshiba cho hệ thống Ngân hàng Vietcombank",
+            "desc": "Triển khai hợp đồng cung cấp 127 máy photocopy Toshiba công suất lớn cho các chi nhánh Vietcombank toàn quốc, đáp ứng nghiêm ngặt an toàn thông tin ngân hàng.",
+            "img": "/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-127-may-photocopy-vietcombank.jpg",
+            "date": "08/2026",
+            "location": "Chi Nhánh Vietcombank Toàn Quốc",
+            "type": "image",
+        },
+        {
+            "id": "bg-03",
+            "category": "ban-giao",
+            "category_name": "Bàn Giao & Lắp Đặt",
+            "badge": "Hội Đồng Thi THPT",
+            "title": "Lắp đặt và trực kỹ thuật máy in nhân bản siêu tốc tại Hội đồng in sao đề thi",
+            "desc": "Triển khai máy in siêu tốc Duplo và kỹ sư túc trực 24/24 trong khu vực cách ly 3 vòng tại Hội đồng thi Sở GD&ĐT Vĩnh Phúc và Sở GD&ĐT Quảng Trị.",
+            "img": "/assets/images/proof/in-sao-de-thi-duplo.jpg",
+            "date": "06/2026",
+            "location": "Hội Đồng In Sao Đề Thi Sở GD&ĐT",
+            "type": "image",
+        },
+        {
+            "id": "vid-01",
+            "category": "videos",
+            "category_name": "Video Clip Thực Tế",
+            "badge": "Video Vận Hành 130 Bản/Phút",
+            "title": "[Video] Vận hành thực tế máy in siêu tốc Duplo DP-X550 in đề thi 130 bản/phút",
+            "desc": "Ghi lại cảnh máy in nhân bản kỹ thuật số Duplo DP-X550 vận hành thực tế tại phòng in đề thi: tốc độ in siêu tốc 130–150 bản/phút, không kẹt giấy, mực khô ngay tức thì.",
+            "img": "/assets/images/proof/in-sao-de-thi-duplo.jpg",
+            "date": "10/2026",
+            "location": "Phòng In Sao Đề Thi THPT",
+            "type": "video",
+            "duration": "02:45",
+        },
+        {
+            "id": "vid-02",
+            "category": "videos",
+            "category_name": "Video Clip Thực Tế",
+            "badge": "Video Kiểm Định PDI",
+            "title": "[Video] Kỹ sư Hương Sơn kiểm tra PDI và chạy thử máy photocopy Toshiba 6528A",
+            "desc": "Toàn cảnh các bước kiểm tra quang học, cân chỉnh hệ thống cấp giấy và đo xung điện áp bo mạch nguồn trước khi đóng gói giao cho khách hàng.",
+            "img": "/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg",
+            "date": "09/2026",
+            "location": "Xưởng Kiểm Định PDI Hương Sơn",
+            "type": "video",
+            "duration": "03:15",
+        },
+    ]
+
+    cards_html = []
+    for it in items:
+        is_vid = it.get("type") == "video"
+        play_overlay = """
+        <div class="absolute inset-0 bg-black/35 group-hover:bg-black/20 transition flex items-center justify-center">
+          <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition duration-300">
+            <i class="fa-solid fa-play text-lg ml-1"></i>
+          </div>
+          <span class="absolute bottom-3 right-3 bg-black/80 text-white text-[11px] font-mono px-2 py-0.5 rounded font-bold">
+            <i class="fa-regular fa-clock mr-1 text-amber-400"></i>""" + it.get('duration', '02:30') + """
+          </span>
+        </div>
+        """ if is_vid else """
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        """
+
+        badge_cls = "bg-red-600 text-white" if is_vid else f"bg-[{BRAND}] text-white"
+        type_icon = '<i class="fa-solid fa-video mr-1"></i>' if is_vid else '<i class="fa-solid fa-camera mr-1"></i>'
+
+        cards_html.append(f"""
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[{BRAND}] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="{it['category']}" 
+             data-id="{it['id']}"
+             data-title="{esc(it['title'])}"
+             data-desc="{esc(it['desc'])}"
+             data-img="{it['img']}"
+             data-badge="{esc(it['badge'])}"
+             data-location="{esc(it['location'])}"
+             data-date="{esc(it['date'])}"
+             data-type="{it.get('type', 'image')}"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="{it['img']}" alt="{esc(it['title'])}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 {badge_cls} text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              {type_icon}{esc(it['badge'])}
+            </div>
+            {play_overlay}
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">{esc(it['location'])}</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>{esc(it['date'])}</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[{BRAND}] transition leading-snug line-clamp-2">
+              {esc(it['title'])}
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              {esc(it['desc'])}
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[{BRAND}] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>{'Xem video chi tiết' if is_vid else 'Xem ảnh sắc nét'}</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">{esc(it['category_name'])}</span>
+            </div>
+          </div>
+        </div>
+        """)
+
+    gallery_grid = "\n".join(cards_html)
+
+    body += f"""
+  <section class="py-16 bg-[#f8fafc]">
+    <div class="{C.WRAP}">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div>
+          <span class="text-[{BRAND}] font-bold text-xs uppercase tracking-[0.2em] block mb-2">Thư viện truyền thông</span>
+          <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] leading-tight">Hình Ảnh &amp; Video Thực Tế Tại Hương Sơn</h2>
+          <p class="text-gray-600 text-[14.5px] mt-2 max-w-2xl leading-relaxed">Toàn bộ hình ảnh thực tế được chụp tại hệ thống kho máy, phân xưởng kiểm định PDI và công trình bàn giao cho các khách hàng cơ quan, trường học, ngân hàng.</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="/nhan-tu-van/bao-gia/" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-5 py-3 rounded shadow-xs transition inline-flex items-center gap-2">
+            <i class="fa-solid fa-file-invoice"></i>
+            <span>Nhận Báo Giá Máy</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="flex flex-wrap items-center gap-2 mb-10" id="gallery-filter-tabs">
+        <button type="button" class="gallery-filter-btn active bg-[{BRAND}] text-white px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2 shadow-xs" data-filter="all">
+          <i class="fa-solid fa-border-all"></i>
+          <span>Tất cả tư liệu</span>
+          <span class="bg-white/20 text-white text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">8</span>
+        </button>
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="kho-may">
+          <i class="fa-solid fa-warehouse text-[{BRAND}]"></i>
+          <span>Kho bãi &amp; Thiết bị sẵn sàng</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">2</span>
+        </button>
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="pdi">
+          <i class="fa-solid fa-screwdriver-wrench text-[{BRAND}]"></i>
+          <span>Quy trình kiểm định PDI</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">1</span>
+        </button>
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="ban-giao">
+          <i class="fa-solid fa-truck-ramp-box text-[{BRAND}]"></i>
+          <span>Bàn giao &amp; Lắp đặt thực tế</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">3</span>
+        </button>
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="videos">
+          <i class="fa-solid fa-circle-play text-red-500"></i>
+          <span>Video clip thực tế</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">2</span>
+        </button>
+      </div>
+
+      <!-- Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8" id="gallery-items-grid">
+        {gallery_grid}
+      </div>
+
+      <!-- Ready-to-fill slot notice -->
+      <div class="mt-14 bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200/80 rounded-xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xs">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 rounded-xl bg-[{BRAND}] text-white flex items-center justify-center text-xl flex-shrink-0 shadow-md">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-1">Khu Vực Tư Liệu Thực Tế Mới – Tự Động Đồng Bộ</h3>
+            <p class="text-sm text-gray-600 leading-relaxed">Toàn bộ ảnh chụp thực tế kho máy, quy trình kỹ thuật PDI và công trình bàn giao khách hàng gửi sẽ được phân loại và hiển thị sắc nét tức thì tại thư mục này.</p>
+          </div>
+        </div>
+        <a href="/nhan-tu-van/bao-gia/" class="bg-[{BRAND}] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded shadow-sm flex-shrink-0 transition inline-flex items-center gap-2">
+          <span>Đăng Ký Khảo Sát Tận Nơi</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="gallery-lightbox" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4 sm:p-6" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="relative max-w-5xl w-full max-h-[90vh] flex flex-col bg-[#12131c] border border-white/20 rounded-xl overflow-hidden shadow-2xl">
+      <div class="flex items-center justify-between px-5 py-3 border-b border-white/10 bg-white/5">
+        <div id="lightbox-badge" class="text-xs font-bold text-[#84e372] uppercase tracking-wider"></div>
+        <button id="lightbox-close" class="text-gray-400 hover:text-white p-2 text-xl" aria-label="Đóng"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="relative flex-1 bg-black flex items-center justify-center overflow-hidden min-h-[300px] sm:min-h-[480px]">
+        <img id="lightbox-img" src="" alt="" class="max-h-[70vh] w-auto max-w-full object-contain mx-auto" />
+        <div id="lightbox-video-container" class="hidden w-full h-full min-h-[400px] flex items-center justify-center p-4"></div>
+        <button id="lightbox-prev" class="absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-white/15 hover:bg-white/30 text-white rounded-full flex items-center justify-center transition"><i class="fa-solid fa-chevron-left"></i></button>
+        <button id="lightbox-next" class="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-white/15 hover:bg-white/30 text-white rounded-full flex items-center justify-center transition"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      <div class="px-6 py-4 bg-[#181924] border-t border-white/10">
+        <h4 id="lightbox-title" class="text-base sm:text-lg font-bold text-white mb-1"></h4>
+        <p id="lightbox-desc" class="text-xs sm:text-sm text-gray-300"></p>
+        <div class="mt-2.5 flex items-center gap-4 text-[11.5px] text-gray-400">
+          <span id="lightbox-location"><i class="fa-solid fa-location-dot text-[#1A9900] mr-1.5"></i><span></span></span>
+          <span id="lightbox-date"><i class="fa-regular fa-calendar mr-1.5 text-[#1A9900]"></i><span></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentGalleryItems = [];
+    let currentLightboxIndex = 0;
+
+    document.addEventListener('DOMContentLoaded', function() {{
+      const tabs = document.querySelectorAll('#gallery-filter-tabs .gallery-filter-btn');
+      const items = document.querySelectorAll('#gallery-items-grid .gallery-item');
+      
+      tabs.forEach(tab => {{
+        tab.addEventListener('click', function() {{
+          tabs.forEach(t => {{
+            t.classList.remove('bg-[' + '{BRAND}' + ']', 'text-white', 'active', 'shadow-xs');
+            t.classList.add('bg-gray-100', 'text-gray-700');
+            const b = t.querySelector('.count-badge');
+            if (b) {{
+              b.className = 'bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge';
+            }}
+          }});
+          this.classList.remove('bg-gray-100', 'text-gray-700');
+          this.classList.add('bg-[' + '{BRAND}' + ']', 'text-white', 'active', 'shadow-xs');
+          const activeBadge = this.querySelector('.count-badge');
+          if (activeBadge) {{
+            activeBadge.className = 'bg-white/20 text-white text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge';
+          }}
+
+          const filter = this.getAttribute('data-filter');
+          items.forEach(it => {{
+            if (filter === 'all' || it.getAttribute('data-category') === filter) {{
+              it.classList.remove('hidden');
+            }} else {{
+              it.classList.add('hidden');
+            }}
+          }});
+        }});
+      }});
+    }});
+
+    function openLightbox(el) {{
+      const visibleItems = Array.from(document.querySelectorAll('#gallery-items-grid .gallery-item:not(.hidden)'));
+      currentGalleryItems = visibleItems;
+      currentLightboxIndex = visibleItems.indexOf(el);
+      if (currentLightboxIndex < 0) currentLightboxIndex = 0;
+      updateLightboxContent();
+
+      const lb = document.getElementById('gallery-lightbox');
+      lb.classList.remove('hidden');
+      setTimeout(() => {{ lb.classList.remove('opacity-0'); }}, 10);
+      document.body.style.overflow = 'hidden';
+    }}
+
+    function closeLightbox() {{
+      const lb = document.getElementById('gallery-lightbox');
+      lb.classList.add('opacity-0');
+      setTimeout(() => {{
+        lb.classList.add('hidden');
+        document.body.style.overflow = '';
+        const vBox = document.getElementById('lightbox-video-container');
+        if (vBox) vBox.innerHTML = '';
+      }}, 250);
+    }}
+
+    function updateLightboxContent() {{
+      if (!currentGalleryItems.length) return;
+      const item = currentGalleryItems[currentLightboxIndex];
+      if (!item) return;
+
+      const imgUrl = item.getAttribute('data-img');
+      const title = item.getAttribute('data-title');
+      const desc = item.getAttribute('data-desc');
+      const badge = item.getAttribute('data-badge');
+      const loc = item.getAttribute('data-location');
+      const dt = item.getAttribute('data-date');
+      const type = item.getAttribute('data-type');
+
+      document.getElementById('lightbox-badge').textContent = badge;
+      document.getElementById('lightbox-title').textContent = title;
+      document.getElementById('lightbox-desc').textContent = desc;
+      document.getElementById('lightbox-location').querySelector('span').textContent = loc;
+      document.getElementById('lightbox-date').querySelector('span').textContent = dt;
+
+      const imgEl = document.getElementById('lightbox-img');
+      const vidContainer = document.getElementById('lightbox-video-container');
+
+      if (type === 'video') {{
+        imgEl.classList.add('hidden');
+        vidContainer.classList.remove('hidden');
+        vidContainer.innerHTML = `
+          <div class="text-center p-8 bg-gray-900/90 rounded-xl border border-white/20 max-w-lg">
+            <div class="w-16 h-16 rounded-full bg-red-600 text-white flex items-center justify-center mx-auto mb-4 text-2xl shadow-xl">
+              <i class="fa-solid fa-play ml-1"></i>
+            </div>
+            <h4 class="text-white font-bold text-lg mb-2">${{title}}</h4>
+            <p class="text-gray-300 text-sm mb-5 leading-relaxed">${{desc}}</p>
+            <div class="inline-flex items-center gap-2 bg-[#1A9900] text-white text-xs font-bold px-4 py-2 rounded">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Video thực tế lưu trữ tại Showroom Hương Sơn</span>
+            </div>
+          </div>
+        `;
+      }} else {{
+        vidContainer.classList.add('hidden');
+        vidContainer.innerHTML = '';
+        imgEl.classList.remove('hidden');
+        imgEl.src = imgUrl;
+        imgEl.alt = title;
+      }}
+    }}
+
+    document.addEventListener('keydown', function(e) {{
+      const lb = document.getElementById('gallery-lightbox');
+      if (!lb || lb.classList.contains('hidden')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') {{
+        currentLightboxIndex = (currentLightboxIndex - 1 + currentGalleryItems.length) % currentGalleryItems.length;
+        updateLightboxContent();
+      }}
+      if (e.key === 'ArrowRight') {{
+        currentLightboxIndex = (currentLightboxIndex + 1) % currentGalleryItems.length;
+        updateLightboxContent();
+      }}
+    }});
+
+    document.getElementById('lightbox-close')?.addEventListener('click', closeLightbox);
+    document.getElementById('gallery-lightbox')?.addEventListener('click', function(e) {{
+      if (e.target === this) closeLightbox();
+    }});
+    document.getElementById('lightbox-prev')?.addEventListener('click', function(e) {{
+      e.stopPropagation();
+      currentLightboxIndex = (currentLightboxIndex - 1 + currentGalleryItems.length) % currentGalleryItems.length;
+      updateLightboxContent();
+    }});
+    document.getElementById('lightbox-next')?.addEventListener('click', function(e) {{
+      e.stopPropagation();
+      currentLightboxIndex = (currentLightboxIndex + 1) % currentGalleryItems.length;
+      updateLightboxContent();
+    }});
+  </script>
+"""
+
+    body += C.cta_band(
+        title="Kính mời Quý khách tham quan Showroom & Kho máy Hương Sơn tại Hà Nội",
+        text="Trực tiếp trải nghiệm và in thử trên các dòng máy in siêu tốc Duplo và máy photocopy Toshiba công suất lớn trước khi ký hợp đồng.",
+        primary=("Yêu cầu báo giá nhanh", "/nhan-tu-van/bao-gia/"),
+        secondary=("Xem các dự án đã thực hiện", "/du-an/")
+    )
+
+    ld = [
+        schema.organization(),
+        schema.breadcrumb(trail),
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Tư liệu ảnh & video thực tế – Hương Sơn",
+            "description": "Thư viện hình ảnh và video thực tế về hệ thống kho bãi thiết bị, quy trình kiểm định PDI và hoạt động bàn giao máy của Hương Sơn.",
+            "url": f"{SITE['website'].rstrip('/')}/ve-huong-son/tu-lieu-thuc-te/"
+        }
+    ]
+
+    return render.page(
+        title="Tư liệu ảnh & video thực tế – Kho máy, kỹ thuật PDI & Bàn giao | Hương Sơn",
+        description="Tổng hợp tư liệu hình ảnh và video thực tế về kho máy photocopy Toshiba, Duplo, quy trình kiểm định 24 bước PDI và dự án bàn giao của Hương Sơn.",
+        url="/ve-huong-son/tu-lieu-thuc-te/",
+        body=body,
+        jsonld=ld,
+        active="/ve-huong-son/"
+    )
 
 
 def _strategic_post_page(post):
