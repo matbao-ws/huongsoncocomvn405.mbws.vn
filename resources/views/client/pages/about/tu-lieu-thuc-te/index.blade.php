@@ -361,7 +361,7 @@
         <div>
           <span class="text-[#1A9900] font-bold text-xs uppercase tracking-[0.2em] block mb-2">Thư viện truyền thông</span>
           <h2 class="text-2xl sm:text-[32px] font-bold text-[#181923] leading-tight">Hình Ảnh &amp; Video Thực Tế Tại Hương Sơn</h2>
-          <p class="text-gray-600 text-[14.5px] mt-2 max-w-2xl leading-relaxed">Toàn bộ hình ảnh thực tế được chụp tại hệ thống kho máy, phân xưởng kiểm định PDI và công trình bàn giao cho các khách hàng cơ quan, trường học, ngân hàng.</p>
+          <p class="text-gray-600 text-[14.5px] mt-2 max-w-2xl leading-relaxed">Hơn 66 tư liệu thực tế được ghi lại tại kho máy trung tâm, phân xưởng kiểm định PDI, đội xe giao vận và các dự án bàn giao cho Sở GD&amp;ĐT, hệ thống ngân hàng (Vietcombank, BIDV) và cơ quan doanh nghiệp.</p>
         </div>
         <div class="flex items-center gap-3">
           <a href="/nhan-tu-van/bao-gia/" class="bg-[#1A9900] hover:bg-[#147700] text-white font-bold text-xs uppercase tracking-wider px-5 py-3 rounded shadow-xs transition inline-flex items-center gap-2">
@@ -376,21 +376,31 @@
         <button type="button" class="gallery-filter-btn active bg-[#1A9900] text-white px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2 shadow-xs" data-filter="all">
           <i class="fa-solid fa-border-all"></i>
           <span>Tất cả tư liệu</span>
-          <span class="bg-white/20 text-white text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">8</span>
+          <span class="bg-white/20 text-white text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">66</span>
+        </button>
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="ban-giao">
+          <i class="fa-solid fa-building-columns text-[#1A9900]"></i>
+          <span>Dự án Bàn giao (Sở GD, Ngân hàng)</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">28</span>
         </button>
         <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="kho-may">
           <i class="fa-solid fa-warehouse text-[#1A9900]"></i>
-          <span>Kho bãi &amp; Thiết bị sẵn sàng</span>
-          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">2</span>
+          <span>Kho bãi &amp; Container hàng</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">12</span>
         </button>
-        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="pdi">
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="van-chuyen">
+          <i class="fa-solid fa-truck-fast text-[#1A9900]"></i>
+          <span>Đội xe &amp; Logistics giao hàng</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">12</span>
+        </button>
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="ky-thuat-pdi">
           <i class="fa-solid fa-screwdriver-wrench text-[#1A9900]"></i>
-          <span>Quy trình kiểm định PDI</span>
-          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">1</span>
+          <span>Kỹ thuật kiểm định PDI 24 bước</span>
+          <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">9</span>
         </button>
-        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="ban-giao">
-          <i class="fa-solid fa-truck-ramp-box text-[#1A9900]"></i>
-          <span>Bàn giao &amp; Lắp đặt thực tế</span>
+        <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="doi-tac">
+          <i class="fa-solid fa-handshake text-[#1A9900]"></i>
+          <span>Đối tác chiến lược &amp; Chứng nhận</span>
           <span class="bg-gray-200 text-gray-700 text-[10.5px] px-1.5 py-0.2 rounded-full font-mono count-badge">3</span>
         </button>
         <button type="button" class="gallery-filter-btn bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider rounded-xs transition inline-flex items-center gap-2" data-filter="videos">
@@ -404,20 +414,1508 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8" id="gallery-items-grid">
         
         <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="doi-tac" 
+             data-id="konica-minolta-trao-chung-nhan-doi-tac-huong-son"
+             data-title="Konica Minolta trao chứng nhận Đối tác chiến lược cho Hương Sơn"
+             data-desc="Ông Kazuhiro Okuno – Giám đốc Chi nhánh Hà Nội của Konica Minolta Business Solutions trao chứng nhận đối tác và quà lưu niệm cho Ban Lãnh đạo Hương Sơn."
+             data-img="/assets/images/tu-lieu-thuc-te/doi-tac/konica-minolta-trao-chung-nhan-doi-tac-huong-son.jpg"
+             data-badge="Đối tác &amp; Chứng nhận"
+             data-location="Trụ sở Hương Sơn, Hà Nội"
+             data-date="Tháng 08/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/doi-tac/konica-minolta-trao-chung-nhan-doi-tac-huong-son.jpg" alt="Konica Minolta trao chứng nhận Đối tác chiến lược cho Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đối tác &amp; Chứng nhận
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Trụ sở Hương Sơn, Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Konica Minolta trao chứng nhận Đối tác chiến lược cho Hương Sơn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Ông Kazuhiro Okuno – Giám đốc Chi nhánh Hà Nội của Konica Minolta Business Solutions trao chứng nhận đối tác và quà lưu niệm cho Ban Lãnh đạo Hương Sơn.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đối tác &amp; Chứng nhận</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="doi-tac" 
+             data-id="tiep-don-doi-tac-chien-luoc-mtm-toshiba"
+             data-title="Tiếp đón &amp; làm việc cùng Đối tác MTM – Toshiba"
+             data-desc="Phiên làm việc chiến lược giữa đại diện đối tác MTM – Toshiba và Ban Lãnh đạo Hương Sơn về nguồn cung thiết bị và chính sách bảo hành chính hãng."
+             data-img="/assets/images/tu-lieu-thuc-te/doi-tac/tiep-don-doi-tac-chien-luoc-mtm-toshiba.jpg"
+             data-badge="Đối tác &amp; Chứng nhận"
+             data-location="Văn phòng Hương Sơn, Hà Nội"
+             data-date="Tháng 09/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/doi-tac/tiep-don-doi-tac-chien-luoc-mtm-toshiba.jpg" alt="Tiếp đón &amp; làm việc cùng Đối tác MTM – Toshiba" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đối tác &amp; Chứng nhận
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Văn phòng Hương Sơn, Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Tiếp đón &amp; làm việc cùng Đối tác MTM – Toshiba
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Phiên làm việc chiến lược giữa đại diện đối tác MTM – Toshiba và Ban Lãnh đạo Hương Sơn về nguồn cung thiết bị và chính sách bảo hành chính hãng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đối tác &amp; Chứng nhận</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="doi-tac" 
+             data-id="doi-ngu-chuyen-gia-huong-son-duplo-toshiba"
+             data-title="Đội ngũ Chuyên viên &amp; Kỹ sư Thiết bị Hương Sơn"
+             data-desc="Đội ngũ kỹ thuật viên nòng cốt của Hương Sơn được đào tạo bài bản và cấp chứng chỉ chuyển giao công nghệ từ Duplo và Toshiba."
+             data-img="/assets/images/tu-lieu-thuc-te/doi-tac/doi-ngu-chuyen-gia-huong-son-duplo-toshiba.jpg"
+             data-badge="Đối tác &amp; Chứng nhận"
+             data-location="Showroom Hương Sơn"
+             data-date="Tháng 09/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/doi-tac/doi-ngu-chuyen-gia-huong-son-duplo-toshiba.jpg" alt="Đội ngũ Chuyên viên &amp; Kỹ sư Thiết bị Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đối tác &amp; Chứng nhận
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Showroom Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Đội ngũ Chuyên viên &amp; Kỹ sư Thiết bị Hương Sơn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Đội ngũ kỹ thuật viên nòng cốt của Hương Sơn được đào tạo bài bản và cấp chứng chỉ chuyển giao công nghệ từ Duplo và Toshiba.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đối tác &amp; Chứng nhận</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="ban-giao-may-in-de-thi-khu-vuc-cach-ly-so-gddt"
+             data-title="Bàn giao máy in siêu tốc Duplo trong khu vực in sao đề thi cách ly"
+             data-desc="Kỹ thuật viên Hương Sơn bàn giao máy in nhân bản siêu tốc Duplo và vật tư Master, mực in chuyên dụng trong khu vực cách ly 3 vòng của Sở GD&amp;ĐT."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-may-in-de-thi-khu-vuc-cach-ly-so-gddt.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Hội đồng In sao đề thi Kỳ thi Tốt nghiệp THPT"
+             data-date="Kỳ thi THPT 2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-may-in-de-thi-khu-vuc-cach-ly-so-gddt.jpg" alt="Bàn giao máy in siêu tốc Duplo trong khu vực in sao đề thi cách ly" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Hội đồng In sao đề thi Kỳ thi Tốt nghiệp THPT</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Kỳ thi THPT 2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Bàn giao máy in siêu tốc Duplo trong khu vực in sao đề thi cách ly
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Kỹ thuật viên Hương Sơn bàn giao máy in nhân bản siêu tốc Duplo và vật tư Master, mực in chuyên dụng trong khu vực cách ly 3 vòng của Sở GD&amp;ĐT.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="dan-may-in-sieu-toc-duplo-trong-phong-in-de-thi"
+             data-title="Giàn máy in siêu tốc Duplo vận hành trong phòng in sao đề thi"
+             data-desc="Hệ thống máy in nhân bản siêu tốc Duplo hoạt động liên tục 24/24 in hàng trăm nghìn bản đề thi an toàn tuyệt đối, dự phòng N+1."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-in-sieu-toc-duplo-trong-phong-in-de-thi.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Khu vực in sao đề thi cách ly đặc biệt"
+             data-date="Kỳ thi THPT 2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-in-sieu-toc-duplo-trong-phong-in-de-thi.jpg" alt="Giàn máy in siêu tốc Duplo vận hành trong phòng in sao đề thi" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Khu vực in sao đề thi cách ly đặc biệt</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Kỳ thi THPT 2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Giàn máy in siêu tốc Duplo vận hành trong phòng in sao đề thi
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Hệ thống máy in nhân bản siêu tốc Duplo hoạt động liên tục 24/24 in hàng trăm nghìn bản đề thi an toàn tuyệt đối, dự phòng N+1.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="cho-thue-dan-may-in-sieu-toc-duplo-so-gddt"
+             data-title="Cho thuê giàn máy in nhân bản siêu tốc Duplo phục vụ Sở GD&amp;ĐT"
+             data-desc="Bộ 3 máy in siêu tốc Duplo công suất 130 trang/phút sẵn sàng phục vụ công tác in ấn văn bản, đề cương và đề thi cho Sở GD&amp;ĐT."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/cho-thue-dan-may-in-sieu-toc-duplo-so-gddt.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Sở Giáo dục &amp; Đào tạo"
+             data-date="Năm 2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/cho-thue-dan-may-in-sieu-toc-duplo-so-gddt.jpg" alt="Cho thuê giàn máy in nhân bản siêu tốc Duplo phục vụ Sở GD&amp;ĐT" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Sở Giáo dục &amp; Đào tạo</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Năm 2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Cho thuê giàn máy in nhân bản siêu tốc Duplo phục vụ Sở GD&amp;ĐT
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Bộ 3 máy in siêu tốc Duplo công suất 130 trang/phút sẵn sàng phục vụ công tác in ấn văn bản, đề cương và đề thi cho Sở GD&amp;ĐT.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="dong-hanh-in-sao-de-thi-ky-thi-tot-nghiep-thpt"
+             data-title="Đồng hành in sao đề thi an toàn cho Kỳ thi Tốt nghiệp THPT"
+             data-desc="Đề thi in bằng máy Duplo đạt độ sắc nét tuyệt đối, mã đề barcode rõ ràng, phục vụ hàng chục nghìn thí sinh làm bài thi tự tin và nghiêm túc."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/dong-hanh-in-sao-de-thi-ky-thi-tot-nghiep-thpt.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Điểm thi THPT Quốc gia"
+             data-date="Kỳ thi THPT 2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/dong-hanh-in-sao-de-thi-ky-thi-tot-nghiep-thpt.jpg" alt="Đồng hành in sao đề thi an toàn cho Kỳ thi Tốt nghiệp THPT" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Điểm thi THPT Quốc gia</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Kỳ thi THPT 2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Đồng hành in sao đề thi an toàn cho Kỳ thi Tốt nghiệp THPT
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Đề thi in bằng máy Duplo đạt độ sắc nét tuyệt đối, mã đề barcode rõ ràng, phục vụ hàng chục nghìn thí sinh làm bài thi tự tin và nghiêm túc.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="ban-giao-dan-may-photocopy-toshiba-vietcombank-bac-giang"
+             data-title="Bàn giao dàn máy photocopy Toshiba tại Vietcombank Bắc Giang"
+             data-desc="Hương Sơn bàn giao đồng loạt hệ thống máy photocopy Toshiba e-STUDIO thế hệ mới nhân dịp kỷ niệm 15 năm thành lập Vietcombank Bắc Giang."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-dan-may-photocopy-toshiba-vietcombank-bac-giang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Vietcombank Chi nhánh Bắc Giang"
+             data-date="Tháng 10/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-dan-may-photocopy-toshiba-vietcombank-bac-giang.jpg" alt="Bàn giao dàn máy photocopy Toshiba tại Vietcombank Bắc Giang" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Vietcombank Chi nhánh Bắc Giang</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Bàn giao dàn máy photocopy Toshiba tại Vietcombank Bắc Giang
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Hương Sơn bàn giao đồng loạt hệ thống máy photocopy Toshiba e-STUDIO thế hệ mới nhân dịp kỷ niệm 15 năm thành lập Vietcombank Bắc Giang.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="dan-may-toshiba-e-studio-ban-giao-vietcombank"
+             data-title="Dàn máy photocopy Toshiba e-STUDIO tại Vietcombank"
+             data-desc="4 thiết bị đa chức năng hiện đại được lắp đặt, kiểm tra kỹ thuật và bàn giao sẵn sàng phục vụ khối vận hành ngân hàng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-toshiba-e-studio-ban-giao-vietcombank.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Trụ sở Vietcombank Bắc Giang"
+             data-date="Tháng 10/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-toshiba-e-studio-ban-giao-vietcombank.jpg" alt="Dàn máy photocopy Toshiba e-STUDIO tại Vietcombank" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Trụ sở Vietcombank Bắc Giang</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Dàn máy photocopy Toshiba e-STUDIO tại Vietcombank
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              4 thiết bị đa chức năng hiện đại được lắp đặt, kiểm tra kỹ thuật và bàn giao sẵn sàng phục vụ khối vận hành ngân hàng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-in-scan-van-hanh-quay-giao-dich-vietcombank"
+             data-title="Thiết bị in và scan vận hành tại Quầy giao dịch số 01 Vietcombank"
+             data-desc="Cán bộ giao dịch viên Vietcombank sử dụng hệ thống máy in và số hóa tài liệu do Hương Sơn cung cấp, đảm bảo xử lý hồ sơ khách hàng nhanh chóng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-in-scan-van-hanh-quay-giao-dich-vietcombank.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng giao dịch Vietcombank"
+             data-date="Năm 2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-in-scan-van-hanh-quay-giao-dich-vietcombank.jpg" alt="Thiết bị in và scan vận hành tại Quầy giao dịch số 01 Vietcombank" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng giao dịch Vietcombank</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Năm 2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Thiết bị in và scan vận hành tại Quầy giao dịch số 01 Vietcombank
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Cán bộ giao dịch viên Vietcombank sử dụng hệ thống máy in và số hóa tài liệu do Hương Sơn cung cấp, đảm bảo xử lý hồ sơ khách hàng nhanh chóng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="khong-gian-giao-dich-vietcombank-trang-bi-may-huong-son"
+             data-title="Không gian quầy giao dịch Vietcombank trang bị thiết bị Hương Sơn"
+             data-desc="Hệ thống máy in và sao chụp tài liệu đặt tại các quầy giao dịch Vietcombank, cam kết uptime &gt;99.5% và hỗ trợ kỹ thuật tận nơi."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/khong-gian-giao-dich-vietcombank-trang-bi-may-huong-son.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Chi nhánh Vietcombank"
+             data-date="Năm 2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/khong-gian-giao-dich-vietcombank-trang-bi-may-huong-son.jpg" alt="Không gian quầy giao dịch Vietcombank trang bị thiết bị Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Chi nhánh Vietcombank</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Năm 2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Không gian quầy giao dịch Vietcombank trang bị thiết bị Hương Sơn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Hệ thống máy in và sao chụp tài liệu đặt tại các quầy giao dịch Vietcombank, cam kết uptime &gt;99.5% và hỗ trợ kỹ thuật tận nơi.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="nghiem-thu-ban-giao-thiet-bi-tai-ngan-hang"
+             data-title="Nghiệm thu bàn giao thiết bị photocopy tại ngân hàng"
+             data-desc="Cán bộ phụ trách cơ sở vật chất ngân hàng ký nhận biên bản nghiệm thu thiết bị và bàn giao kỹ thuật của Hương Sơn."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/nghiem-thu-ban-giao-thiet-bi-tai-ngan-hang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng hội nghị Chi nhánh Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/nghiem-thu-ban-giao-thiet-bi-tai-ngan-hang.jpg" alt="Nghiệm thu bàn giao thiết bị photocopy tại ngân hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng hội nghị Chi nhánh Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Nghiệm thu bàn giao thiết bị photocopy tại ngân hàng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Cán bộ phụ trách cơ sở vật chất ngân hàng ký nhận biên bản nghiệm thu thiết bị và bàn giao kỹ thuật của Hương Sơn.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="lap-dat-dan-may-photocopy-phong-lam-viec-ngan-hang"
+             data-title="Lắp đặt dàn máy photocopy Toshiba tại phòng vận hành ngân hàng"
+             data-desc="Các kiện máy nguyên thùng được xe đẩy vận chuyển vào phòng làm việc để kỹ sư Hương Sơn tiến hành bóc hộp và kết nối mạng nội bộ."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/lap-dat-dan-may-photocopy-phong-lam-viec-ngan-hang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Chi nhánh Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/lap-dat-dan-may-photocopy-phong-lam-viec-ngan-hang.jpg" alt="Lắp đặt dàn máy photocopy Toshiba tại phòng vận hành ngân hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Chi nhánh Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Lắp đặt dàn máy photocopy Toshiba tại phòng vận hành ngân hàng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Các kiện máy nguyên thùng được xe đẩy vận chuyển vào phòng làm việc để kỹ sư Hương Sơn tiến hành bóc hộp và kết nối mạng nội bộ.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="chuyen-giao-ky-thuat-may-photocopy-ngan-hang"
+             data-title="Chuyển giao kỹ thuật vận hành máy photocopy tại ngân hàng"
+             data-desc="Kỹ sư Hương Sơn tiến hành cài đặt driver in mạng, phân quyền bảo mật in an toàn và hướng dẫn cán bộ ngân hàng khai thác tối đa tính năng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/chuyen-giao-ky-thuat-may-photocopy-ngan-hang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Hội trường Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/chuyen-giao-ky-thuat-may-photocopy-ngan-hang.jpg" alt="Chuyển giao kỹ thuật vận hành máy photocopy tại ngân hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Hội trường Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Chuyển giao kỹ thuật vận hành máy photocopy tại ngân hàng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Kỹ sư Hương Sơn tiến hành cài đặt driver in mạng, phân quyền bảo mật in an toàn và hướng dẫn cán bộ ngân hàng khai thác tối đa tính năng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="huong-dan-cai-dat-bao-mat-may-photocopy-ngan-hang"
+             data-title="Hướng dẫn cài đặt bảo mật in ấn cho cán bộ ngân hàng"
+             data-desc="Thiết lập tính năng Secure Print và scan trực tiếp về thư mục mạng bảo mật nội bộ ngân hàng trên dòng Toshiba e-STUDIO."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/huong-dan-cai-dat-bao-mat-may-photocopy-ngan-hang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng đào tạo Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/huong-dan-cai-dat-bao-mat-may-photocopy-ngan-hang.jpg" alt="Hướng dẫn cài đặt bảo mật in ấn cho cán bộ ngân hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng đào tạo Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Hướng dẫn cài đặt bảo mật in ấn cho cán bộ ngân hàng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Thiết lập tính năng Secure Print và scan trực tiếp về thư mục mạng bảo mật nội bộ ngân hàng trên dòng Toshiba e-STUDIO.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="kiem-tra-ban-in-chuan-cung-can-bo-ngan-hang"
+             data-title="Kiểm tra chất lượng bản in chuẩn cùng cán bộ ngân hàng"
+             data-desc="Hai bên cùng đối soát bản in test độ phân giải cao, độ sắc nét và tốc độ quét tài liệu trước khi ký bàn giao chính thức."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/kiem-tra-ban-in-chuan-cung-can-bo-ngan-hang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Chi nhánh Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/kiem-tra-ban-in-chuan-cung-can-bo-ngan-hang.jpg" alt="Kiểm tra chất lượng bản in chuẩn cùng cán bộ ngân hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Chi nhánh Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kiểm tra chất lượng bản in chuẩn cùng cán bộ ngân hàng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Hai bên cùng đối soát bản in test độ phân giải cao, độ sắc nét và tốc độ quét tài liệu trước khi ký bàn giao chính thức.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="can-chinh-khay-giay-may-photocopy-toshiba-e-studio"
+             data-title="Căn chỉnh khay giấy và nạp mực máy photocopy Toshiba"
+             data-desc="Kỹ thuật viên nạp mực chính hãng, căn chỉnh các khay nạp giấy A3/A4 chống kẹt giấy và tối ưu cho mùa nồm ẩm miền Bắc."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/can-chinh-khay-giay-may-photocopy-toshiba-e-studio.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng máy Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/can-chinh-khay-giay-may-photocopy-toshiba-e-studio.jpg" alt="Căn chỉnh khay giấy và nạp mực máy photocopy Toshiba" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng máy Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Căn chỉnh khay giấy và nạp mực máy photocopy Toshiba
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Kỹ thuật viên nạp mực chính hãng, căn chỉnh các khay nạp giấy A3/A4 chống kẹt giấy và tối ưu cho mùa nồm ẩm miền Bắc.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="kiem-tra-cum-drum-va-muc-toshiba-chinh-hang"
+             data-title="Kiểm tra cụm Drum và hộp mực Toshiba chính hãng"
+             data-desc="Quy trình chuẩn hóa kiểm tra linh kiện tiêu hao đảm bảo bản in rõ nét từng chi tiết nhỏ nhất trong hợp đồng tín dụng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/kiem-tra-cum-drum-va-muc-toshiba-chinh-hang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng máy Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/kiem-tra-cum-drum-va-muc-toshiba-chinh-hang.jpg" alt="Kiểm tra cụm Drum và hộp mực Toshiba chính hãng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng máy Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kiểm tra cụm Drum và hộp mực Toshiba chính hãng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Quy trình chuẩn hóa kiểm tra linh kiện tiêu hao đảm bảo bản in rõ nét từng chi tiết nhỏ nhất trong hợp đồng tín dụng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="hoan-thien-lap-dat-may-toshiba-e-studio-tai-ngan-hang"
+             data-title="Hoàn thiện lắp đặt máy Toshiba e-STUDIO tại ngân hàng"
+             data-desc="Hệ thống máy sẵn sàng đi vào vận hành với độ ổn định cao, sẵn sàng phục vụ cao điểm giao dịch."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/hoan-thien-lap-dat-may-toshiba-e-studio-tai-ngan-hang.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/hoan-thien-lap-dat-may-toshiba-e-studio-tai-ngan-hang.jpg" alt="Hoàn thiện lắp đặt máy Toshiba e-STUDIO tại ngân hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Hoàn thiện lắp đặt máy Toshiba e-STUDIO tại ngân hàng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Hệ thống máy sẵn sàng đi vào vận hành với độ ổn định cao, sẵn sàng phục vụ cao điểm giao dịch.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-photocopy-toshiba-e-studio-hoan-tat-lap-dat"
+             data-title="Máy photocopy Toshiba e-STUDIO hoạt động tại phòng làm việc"
+             data-desc="Thiết bị hoạt động êm ái, sắc nét, màn hình cảm ứng điều khiển trực quan được bố trí thuận tiện cho cán bộ văn phòng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-toshiba-e-studio-hoan-tat-lap-dat.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Văn phòng Ngân hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-toshiba-e-studio-hoan-tat-lap-dat.jpg" alt="Máy photocopy Toshiba e-STUDIO hoạt động tại phòng làm việc" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Văn phòng Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy photocopy Toshiba e-STUDIO hoạt động tại phòng làm việc
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Thiết bị hoạt động êm ái, sắc nét, màn hình cảm ứng điều khiển trực quan được bố trí thuận tiện cho cán bộ văn phòng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-photocopy-hoat-dong-thuc-te-van-phong-tap-doan"
+             data-title="Máy photocopy đa chức năng hoạt động tại văn phòng tập đoàn lớn"
+             data-desc="Máy photocopy Konica Minolta bizhub / Toshiba phục vụ khối văn phòng hàng trăm nhân sự với sản lượng in ấn lớn mỗi tháng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-hoat-dong-thuc-te-van-phong-tap-doan.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Hội sở Tập đoàn, Hà Nội"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-hoat-dong-thuc-te-van-phong-tap-doan.jpg" alt="Máy photocopy đa chức năng hoạt động tại văn phòng tập đoàn lớn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Hội sở Tập đoàn, Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy photocopy đa chức năng hoạt động tại văn phòng tập đoàn lớn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Máy photocopy Konica Minolta bizhub / Toshiba phục vụ khối văn phòng hàng trăm nhân sự với sản lượng in ấn lớn mỗi tháng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-photocopy-mau-cam-ung-hien-dai-tai-ban-lam-viec"
+             data-title="Máy photocopy màn hình cảm ứng hiện đại tại bàn làm việc"
+             data-desc="Giao diện trực quan, dễ sử dụng, đặt ngay cạnh cụm bàn làm việc giúp cán bộ nhân viên in ấn, scan hồ sơ thuận tiện nhất."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-mau-cam-ung-hien-dai-tai-ban-lam-viec.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Văn phòng khách hàng Doanh nghiệp"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-mau-cam-ung-hien-dai-tai-ban-lam-viec.jpg" alt="Máy photocopy màn hình cảm ứng hiện đại tại bàn làm việc" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Văn phòng khách hàng Doanh nghiệp</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy photocopy màn hình cảm ứng hiện đại tại bàn làm việc
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Giao diện trực quan, dễ sử dụng, đặt ngay cạnh cụm bàn làm việc giúp cán bộ nhân viên in ấn, scan hồ sơ thuận tiện nhất.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="ky-su-huong-son-ban-giao-thanh-cong-dan-3-may-photocopy"
+             data-title="Kỹ sư Hương Sơn hoàn tất bàn giao dàn 3 máy photocopy"
+             data-desc="Bàn giao đúng tiến độ cam kết theo hợp đồng thuê máy, bảo đảm khách hàng có máy hoạt động ngay trong ngày."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/ky-su-huong-son-ban-giao-thanh-cong-dan-3-may-photocopy.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Văn phòng Doanh nghiệp tại Hà Nội"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/ky-su-huong-son-ban-giao-thanh-cong-dan-3-may-photocopy.jpg" alt="Kỹ sư Hương Sơn hoàn tất bàn giao dàn 3 máy photocopy" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Văn phòng Doanh nghiệp tại Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kỹ sư Hương Sơn hoàn tất bàn giao dàn 3 máy photocopy
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Bàn giao đúng tiến độ cam kết theo hợp đồng thuê máy, bảo đảm khách hàng có máy hoạt động ngay trong ngày.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="ban-giao-may-photocopy-konica-minolta-bizhub-tan-noi"
+             data-title="Bàn giao máy photocopy Konica Minolta bizhub tận nơi"
+             data-desc="Khách hàng hoàn toàn hài lòng với chất lượng máy mới, bản in nét và phong cách phục vụ chu đáo, chuyên nghiệp của Hương Sơn."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-may-photocopy-konica-minolta-bizhub-tan-noi.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng Hành chính Doanh nghiệp"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-may-photocopy-konica-minolta-bizhub-tan-noi.jpg" alt="Bàn giao máy photocopy Konica Minolta bizhub tận nơi" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng Hành chính Doanh nghiệp</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Bàn giao máy photocopy Konica Minolta bizhub tận nơi
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Khách hàng hoàn toàn hài lòng với chất lượng máy mới, bản in nét và phong cách phục vụ chu đáo, chuyên nghiệp của Hương Sơn.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-photocopy-bizhub-dat-tai-khu-vuc-in-an-tap-trung"
+             data-title="Máy photocopy bizhub đặt tại khu vực in ấn tập trung"
+             data-desc="Khu vực in ấn văn phòng được quy hoạch gọn gàng, máy chạy êm, tiết kiệm điện năng và thân thiện môi trường."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-bizhub-dat-tai-khu-vuc-in-an-tap-trung.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Tòa nhà Văn phòng Hạng A"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-bizhub-dat-tai-khu-vuc-in-an-tap-trung.jpg" alt="Máy photocopy bizhub đặt tại khu vực in ấn tập trung" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Tòa nhà Văn phòng Hạng A</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy photocopy bizhub đặt tại khu vực in ấn tập trung
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Khu vực in ấn văn phòng được quy hoạch gọn gàng, máy chạy êm, tiết kiệm điện năng và thân thiện môi trường.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-photocopy-toshiba-e-studio-den-trang-sang-trong"
+             data-title="Máy photocopy đa chức năng thiết kế sang trọng"
+             data-desc="Dòng máy e-STUDIO thế hệ mới với tone màu đen sang trọng, chống bám bụi và phù hợp với không gian văn phòng hiện đại."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-toshiba-e-studio-den-trang-sang-trong.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Văn phòng Doanh nghiệp"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-toshiba-e-studio-den-trang-sang-trong.jpg" alt="Máy photocopy đa chức năng thiết kế sang trọng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Văn phòng Doanh nghiệp</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy photocopy đa chức năng thiết kế sang trọng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Dòng máy e-STUDIO thế hệ mới với tone màu đen sang trọng, chống bám bụi và phù hợp với không gian văn phòng hiện đại.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="lap-dat-may-photocopy-van-phong-doanh-nghiep-ha-noi"
+             data-title="Lắp đặt máy photocopy văn phòng doanh nghiệp tại Hà Nội"
+             data-desc="Khách hàng lựa chọn gói thuê trọn gói đã bao gồm toàn bộ mực in, linh kiện hao mòn và kỹ thuật bảo trì định kỳ hàng tháng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/lap-dat-may-photocopy-van-phong-doanh-nghiep-ha-noi.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Doanh nghiệp tại Cầu Giấy, Hà Nội"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/lap-dat-may-photocopy-van-phong-doanh-nghiep-ha-noi.jpg" alt="Lắp đặt máy photocopy văn phòng doanh nghiệp tại Hà Nội" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Doanh nghiệp tại Cầu Giấy, Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Lắp đặt máy photocopy văn phòng doanh nghiệp tại Hà Nội
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Khách hàng lựa chọn gói thuê trọn gói đã bao gồm toàn bộ mực in, linh kiện hao mòn và kỹ thuật bảo trì định kỳ hàng tháng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-photocopy-san-sang-phuc-vu-phong-kinh-doanh"
+             data-title="Máy photocopy sẵn sàng phục vụ phòng kinh doanh"
+             data-desc="Trang bị khay giấy dung lượng lớn và bộ nạp đảo bản gốc tự động ARDF giúp xử lý tài liệu dày nhanh chóng."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-san-sang-phuc-vu-phong-kinh-doanh.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng Kinh doanh Khách hàng"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-san-sang-phuc-vu-phong-kinh-doanh.jpg" alt="Máy photocopy sẵn sàng phục vụ phòng kinh doanh" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng Kinh doanh Khách hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy photocopy sẵn sàng phục vụ phòng kinh doanh
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Trang bị khay giấy dung lượng lớn và bộ nạp đảo bản gốc tự động ARDF giúp xử lý tài liệu dày nhanh chóng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="may-in-nhan-ban-sieu-toc-duplo-dp-f550-ban-giao"
+             data-title="Máy in nhân bản siêu tốc Duplo DP-F550 bàn giao tận nơi"
+             data-desc="Thiết bị in siêu tốc đỉnh cao của Nhật Bản, tốc độ in 150 trang/phút, chi phí mực siêu rẻ chuyên dùng cho trường học và cơ quan."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/may-in-nhan-ban-sieu-toc-duplo-dp-f550-ban-giao.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Phòng in ấn Tài liệu Khách hàng"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/may-in-nhan-ban-sieu-toc-duplo-dp-f550-ban-giao.jpg" alt="Máy in nhân bản siêu tốc Duplo DP-F550 bàn giao tận nơi" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng in ấn Tài liệu Khách hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy in nhân bản siêu tốc Duplo DP-F550 bàn giao tận nơi
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Thiết bị in siêu tốc đỉnh cao của Nhật Bản, tốc độ in 150 trang/phút, chi phí mực siêu rẻ chuyên dùng cho trường học và cơ quan.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="tap-ket-dan-may-photocopy-chuan-bi-ban-giao-du-an"
+             data-title="Tập kết dàn máy photocopy chuẩn bị bàn giao dự án"
+             data-desc="Dàn máy photocopy đa chức năng được bọc màng bảo vệ cẩn thận, chuẩn bị vận chuyển đến các điểm giao dịch của đối tác."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/tap-ket-dan-may-photocopy-chuan-bi-ban-giao-du-an.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Sảnh bàn giao Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/tap-ket-dan-may-photocopy-chuan-bi-ban-giao-du-an.jpg" alt="Tập kết dàn máy photocopy chuẩn bị bàn giao dự án" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Sảnh bàn giao Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Tập kết dàn máy photocopy chuẩn bị bàn giao dự án
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Dàn máy photocopy đa chức năng được bọc màng bảo vệ cẩn thận, chuẩn bị vận chuyển đến các điểm giao dịch của đối tác.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ban-giao" 
+             data-id="dan-may-photocopy-nguyen-ban-san-sang-xuat-kho"
+             data-title="Dàn máy photocopy sẵn sàng xuất kho phục vụ dự án lớn"
+             data-desc="Quy mô thiết bị hùng hậu, sẵn sàng đáp ứng các hợp đồng cung cấp 20 – 50 máy cùng lúc cho chuỗi phòng giao dịch."
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-photocopy-nguyen-ban-san-sang-xuat-kho.jpg"
+             data-badge="Dự án Bàn giao"
+             data-location="Sảnh xuất hàng Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-photocopy-nguyen-ban-san-sang-xuat-kho.jpg" alt="Dàn máy photocopy sẵn sàng xuất kho phục vụ dự án lớn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Dự án Bàn giao
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Sảnh xuất hàng Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Dàn máy photocopy sẵn sàng xuất kho phục vụ dự án lớn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Quy mô thiết bị hùng hậu, sẵn sàng đáp ứng các hợp đồng cung cấp 20 – 50 máy cùng lúc cho chuỗi phòng giao dịch.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Dự án Bàn giao</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
              data-category="kho-may" 
-             data-id="kho-01"
-             data-title="Hệ thống kho máy photocopy Toshiba &amp; Konica Minolta đa chức năng"
-             data-desc="Kho hàng trung tâm tại Số 27 ngõ 523 phố Minh Khai, Hà Nội luôn sẵn sàng hơn 200 thân máy photocopy Toshiba e-STUDIO, Konica Minolta bizhub nguyên đai nguyên kiện phục vụ nhu cầu thuê máy và mua sắm."
-             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-toshiba-duplo-ha-noi.jpg"
-             data-badge="Kho Hàng &gt; 200 Máy"
-             data-location="Kho Trung Tâm – 27 ngõ 523 Minh Khai, Hà Nội"
-             data-date="10/2026"
+             data-id="container-evergreen-cap-cang-xe-nang-boc-do-ve-kho-huong-son"
+             data-title="Container hàng Evergreen cập cảng, xe nâng bốc dỡ về kho Hương Sơn"
+             data-desc="Container 40 feet chở hàng trăm thiết bị photocopy Toshiba và máy in Duplo chính ngạch cập kho tổng Hương Sơn, xe nâng chuyên dụng bốc dỡ an toàn."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/container-evergreen-cap-cang-xe-nang-boc-do-ve-kho-huong-son.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Tổng Thiết bị Hương Sơn, Hà Nội"
+             data-date="Tháng 10/2024"
              data-type="image"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-toshiba-duplo-ha-noi.jpg" alt="Hệ thống kho máy photocopy Toshiba &amp; Konica Minolta đa chức năng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/container-evergreen-cap-cang-xe-nang-boc-do-ve-kho-huong-son.jpg" alt="Container hàng Evergreen cập cảng, xe nâng bốc dỡ về kho Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
-              <i class="fa-solid fa-camera mr-1"></i>Kho Hàng &gt; 200 Máy
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
             </div>
             
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
@@ -430,22 +1928,22 @@
             <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
               <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="truncate max-w-[200px]">Kho Trung Tâm – 27 ngõ 523 Minh Khai, Hà Nội</span>
+                <span class="truncate max-w-[200px]">Kho Tổng Thiết bị Hương Sơn, Hà Nội</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>10/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
-              Hệ thống kho máy photocopy Toshiba &amp; Konica Minolta đa chức năng
+              Container hàng Evergreen cập cảng, xe nâng bốc dỡ về kho Hương Sơn
             </h3>
             <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
-              Kho hàng trung tâm tại Số 27 ngõ 523 phố Minh Khai, Hà Nội luôn sẵn sàng hơn 200 thân máy photocopy Toshiba e-STUDIO, Konica Minolta bizhub nguyên đai nguyên kiện phục vụ nhu cầu thuê máy và mua sắm.
+              Container 40 feet chở hàng trăm thiết bị photocopy Toshiba và máy in Duplo chính ngạch cập kho tổng Hương Sơn, xe nâng chuyên dụng bốc dỡ an toàn.
             </p>
             <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
               <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
                 <span>Xem ảnh sắc nét</span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </span>
-              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho Bãi &amp; Máy Móc</span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
             </div>
           </div>
         </div>
@@ -453,19 +1951,19 @@
 
         <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
              data-category="kho-may" 
-             data-id="kho-02"
-             data-title="Dàn máy in nhân bản siêu tốc Duplo DP-X550 / DP-X850 phục vụ in đề thi"
-             data-desc="Khu vực lưu trữ máy in siêu tốc Duplo Nhật Bản và hệ thống phối trang tự động DFC-120 phục vụ các hội đồng thi THPT và trường học trên toàn miền Bắc."
-             data-img="/assets/images/tu-lieu-thuc-te/kho-may/may-in-nhan-ban-sieu-toc-duplo-dp-x550.jpg"
-             data-badge="Máy In Siêu Tốc Duplo"
-             data-location="Kho Thiết Bị Duplo Hương Sơn"
-             data-date="10/2026"
+             data-id="kho-tong-huong-son-may-photocopy-toshiba-e-studio-nguyen-kien"
+             data-title="Kho tổng Hương Sơn: Hàng chục kiện máy Toshiba e-STUDIO nguyên đai"
+             data-desc="Các kiện máy photocopy Toshiba thế hệ mới 2528A / 3028A / 3528A / 4528A nguyên thùng trên pallet gỗ chất đầy các dãy kệ kho."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kho-tong-huong-son-may-photocopy-toshiba-e-studio-nguyen-kien.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Tổng Hương Sơn"
+             data-date="Tháng 10/2024"
              data-type="image"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/tu-lieu-thuc-te/kho-may/may-in-nhan-ban-sieu-toc-duplo-dp-x550.jpg" alt="Dàn máy in nhân bản siêu tốc Duplo DP-X550 / DP-X850 phục vụ in đề thi" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kho-tong-huong-son-may-photocopy-toshiba-e-studio-nguyen-kien.jpg" alt="Kho tổng Hương Sơn: Hàng chục kiện máy Toshiba e-STUDIO nguyên đai" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
-              <i class="fa-solid fa-camera mr-1"></i>Máy In Siêu Tốc Duplo
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
             </div>
             
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
@@ -478,42 +1976,42 @@
             <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
               <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="truncate max-w-[200px]">Kho Thiết Bị Duplo Hương Sơn</span>
+                <span class="truncate max-w-[200px]">Kho Tổng Hương Sơn</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>10/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
-              Dàn máy in nhân bản siêu tốc Duplo DP-X550 / DP-X850 phục vụ in đề thi
+              Kho tổng Hương Sơn: Hàng chục kiện máy Toshiba e-STUDIO nguyên đai
             </h3>
             <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
-              Khu vực lưu trữ máy in siêu tốc Duplo Nhật Bản và hệ thống phối trang tự động DFC-120 phục vụ các hội đồng thi THPT và trường học trên toàn miền Bắc.
+              Các kiện máy photocopy Toshiba thế hệ mới 2528A / 3028A / 3528A / 4528A nguyên thùng trên pallet gỗ chất đầy các dãy kệ kho.
             </p>
             <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
               <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
                 <span>Xem ảnh sắc nét</span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </span>
-              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho Bãi &amp; Máy Móc</span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
             </div>
           </div>
         </div>
         
 
         <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
-             data-category="pdi" 
-             data-id="pdi-01"
-             data-title="Đội ngũ kỹ sư kiểm tra và hiệu chuẩn 24 bước PDI trước khi xuất xưởng"
-             data-desc="100% thiết bị tại Hương Sơn đều trải qua quy trình tiền kiểm định PDI: kiểm tra bo mạch, cân chỉnh thước quang scan, đo điện trở sấy và in kiểm tra 100 bản test chuẩn màu."
-             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/quy-trinh-kiem-dinh-pdi-24-buoc.jpg"
-             data-badge="Quy Trình 24 Bước PDI"
-             data-location="Xưởng Kỹ Thuật &amp; Cứu Hộ Hương Sơn"
-             data-date="09/2026"
+             data-category="kho-may" 
+             data-id="day-chuyen-kho-hang-tram-may-photocopy-toshiba-san-kho"
+             data-title="Hàng trăm máy photocopy Toshiba e-STUDIO sẵn kho phục vụ khách hàng"
+             data-desc="Quy mô kho bãi hàng nghìn m2 tại Hà Nội, cam kết luôn có sẵn máy giao ngay trong 24 giờ cho mọi quy mô dự án."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/day-chuyen-kho-hang-tram-may-photocopy-toshiba-san-kho.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Thiết bị Tổng Hương Sơn"
+             data-date="Tháng 10/2024"
              data-type="image"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/quy-trinh-kiem-dinh-pdi-24-buoc.jpg" alt="Đội ngũ kỹ sư kiểm tra và hiệu chuẩn 24 bước PDI trước khi xuất xưởng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/day-chuyen-kho-hang-tram-may-photocopy-toshiba-san-kho.jpg" alt="Hàng trăm máy photocopy Toshiba e-STUDIO sẵn kho phục vụ khách hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
-              <i class="fa-solid fa-camera mr-1"></i>Quy Trình 24 Bước PDI
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
             </div>
             
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
@@ -526,42 +2024,42 @@
             <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
               <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="truncate max-w-[200px]">Xưởng Kỹ Thuật &amp; Cứu Hộ Hương Sơn</span>
+                <span class="truncate max-w-[200px]">Kho Thiết bị Tổng Hương Sơn</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>09/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
-              Đội ngũ kỹ sư kiểm tra và hiệu chuẩn 24 bước PDI trước khi xuất xưởng
+              Hàng trăm máy photocopy Toshiba e-STUDIO sẵn kho phục vụ khách hàng
             </h3>
             <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
-              100% thiết bị tại Hương Sơn đều trải qua quy trình tiền kiểm định PDI: kiểm tra bo mạch, cân chỉnh thước quang scan, đo điện trở sấy và in kiểm tra 100 bản test chuẩn màu.
+              Quy mô kho bãi hàng nghìn m2 tại Hà Nội, cam kết luôn có sẵn máy giao ngay trong 24 giờ cho mọi quy mô dự án.
             </p>
             <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
               <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
                 <span>Xem ảnh sắc nét</span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </span>
-              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kiểm Định Kỹ Thuật PDI</span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
             </div>
           </div>
         </div>
         
 
         <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
-             data-category="ban-giao" 
-             data-id="bg-01"
-             data-title="Vận chuyển logistics chuyên dụng và lắp đặt bàn giao máy tại trường học"
-             data-desc="Đội ngũ vận chuyển chuyên dụng lắp đặt tận phòng văn thư/phòng in, đấu nối mạng nội bộ, cài đặt driver và ký biên bản nghiệm thu bàn giao kỹ thuật trực tiếp."
-             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-thiet-bi-tan-noi-truong-hoc.jpg"
-             data-badge="Bàn Giao Trường Học"
-             data-location="Trường THPT &amp; Cơ Sở Giáo Dục Hà Nội"
-             data-date="09/2026"
+             data-category="kho-may" 
+             data-id="kien-may-photocopy-toshiba-e-studio-chinh-hang-moi-100"
+             data-title="Kiện máy photocopy Toshiba e-STUDIO chính hãng mới 100%"
+             data-desc="Thùng máy in rõ thương hiệu Toshiba, thông số kỹ thuật rõ ràng, đầy đủ CO/CQ chứng nhận xuất xứ chính ngạch."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kien-may-photocopy-toshiba-e-studio-chinh-hang-moi-100.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Tổng Hương Sơn"
+             data-date="Tháng 10/2024"
              data-type="image"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-thiet-bi-tan-noi-truong-hoc.jpg" alt="Vận chuyển logistics chuyên dụng và lắp đặt bàn giao máy tại trường học" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kien-may-photocopy-toshiba-e-studio-chinh-hang-moi-100.jpg" alt="Kiện máy photocopy Toshiba e-STUDIO chính hãng mới 100%" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
-              <i class="fa-solid fa-camera mr-1"></i>Bàn Giao Trường Học
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
             </div>
             
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
@@ -574,42 +2072,42 @@
             <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
               <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="truncate max-w-[200px]">Trường THPT &amp; Cơ Sở Giáo Dục Hà Nội</span>
+                <span class="truncate max-w-[200px]">Kho Tổng Hương Sơn</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>09/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
-              Vận chuyển logistics chuyên dụng và lắp đặt bàn giao máy tại trường học
+              Kiện máy photocopy Toshiba e-STUDIO chính hãng mới 100%
             </h3>
             <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
-              Đội ngũ vận chuyển chuyên dụng lắp đặt tận phòng văn thư/phòng in, đấu nối mạng nội bộ, cài đặt driver và ký biên bản nghiệm thu bàn giao kỹ thuật trực tiếp.
+              Thùng máy in rõ thương hiệu Toshiba, thông số kỹ thuật rõ ràng, đầy đủ CO/CQ chứng nhận xuất xứ chính ngạch.
             </p>
             <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
               <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
                 <span>Xem ảnh sắc nét</span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </span>
-              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Bàn Giao &amp; Lắp Đặt</span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
             </div>
           </div>
         </div>
         
 
         <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
-             data-category="ban-giao" 
-             data-id="bg-02"
-             data-title="Bàn giao 127 máy photocopy Toshiba cho hệ thống Ngân hàng Vietcombank"
-             data-desc="Triển khai hợp đồng cung cấp 127 máy photocopy Toshiba công suất lớn cho các chi nhánh Vietcombank toàn quốc, đáp ứng nghiêm ngặt an toàn thông tin ngân hàng."
-             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-127-may-photocopy-vietcombank.jpg"
-             data-badge="Dự Án Vietcombank"
-             data-location="Chi Nhánh Vietcombank Toàn Quốc"
-             data-date="08/2026"
+             data-category="kho-may" 
+             data-id="xe-container-van-chuyen-may-photocopy-toshiba-ve-kho"
+             data-title="Xe container vận chuyển máy photocopy Toshiba về kho tổng"
+             data-desc="Thùng xe container 2 tầng pallet chứa đầy ắp máy photocopy nhập khẩu trực tiếp phục vụ thị trường miền Bắc."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/xe-container-van-chuyen-may-photocopy-toshiba-ve-kho.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho bãi Hương Sơn"
+             data-date="Tháng 10/2024"
              data-type="image"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-127-may-photocopy-vietcombank.jpg" alt="Bàn giao 127 máy photocopy Toshiba cho hệ thống Ngân hàng Vietcombank" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/xe-container-van-chuyen-may-photocopy-toshiba-ve-kho.jpg" alt="Xe container vận chuyển máy photocopy Toshiba về kho tổng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
-              <i class="fa-solid fa-camera mr-1"></i>Dự Án Vietcombank
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
             </div>
             
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
@@ -622,42 +2120,42 @@
             <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
               <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="truncate max-w-[200px]">Chi Nhánh Vietcombank Toàn Quốc</span>
+                <span class="truncate max-w-[200px]">Kho bãi Hương Sơn</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>08/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
-              Bàn giao 127 máy photocopy Toshiba cho hệ thống Ngân hàng Vietcombank
+              Xe container vận chuyển máy photocopy Toshiba về kho tổng
             </h3>
             <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
-              Triển khai hợp đồng cung cấp 127 máy photocopy Toshiba công suất lớn cho các chi nhánh Vietcombank toàn quốc, đáp ứng nghiêm ngặt an toàn thông tin ngân hàng.
+              Thùng xe container 2 tầng pallet chứa đầy ắp máy photocopy nhập khẩu trực tiếp phục vụ thị trường miền Bắc.
             </p>
             <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
               <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
                 <span>Xem ảnh sắc nét</span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </span>
-              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Bàn Giao &amp; Lắp Đặt</span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
             </div>
           </div>
         </div>
         
 
         <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
-             data-category="ban-giao" 
-             data-id="bg-03"
-             data-title="Lắp đặt và trực kỹ thuật máy in nhân bản siêu tốc tại Hội đồng in sao đề thi"
-             data-desc="Triển khai máy in siêu tốc Duplo và kỹ sư túc trực 24/24 trong khu vực cách ly 3 vòng tại Hội đồng thi Sở GD&amp;ĐT Vĩnh Phúc và Sở GD&amp;ĐT Quảng Trị."
-             data-img="/assets/images/proof/in-sao-de-thi-duplo.jpg"
-             data-badge="Hội Đồng Thi THPT"
-             data-location="Hội Đồng In Sao Đề Thi Sở GD&amp;ĐT"
-             data-date="06/2026"
+             data-category="kho-may" 
+             data-id="kho-may-in-nhan-ban-sieu-toc-duplo-nguyen-thung"
+             data-title="Kho máy in nhân bản siêu tốc Duplo nguyên thùng"
+             data-desc="Khu vực lưu trữ máy in siêu tốc Duplo Nhật Bản chuẩn độ ẩm và nhiệt độ nghiêm ngặt phục vụ ngành Giáo dục."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-in-nhan-ban-sieu-toc-duplo-nguyen-thung.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Thiết bị Duplo Hương Sơn"
+             data-date="Tháng 04/2023"
              data-type="image"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/proof/in-sao-de-thi-duplo.jpg" alt="Lắp đặt và trực kỹ thuật máy in nhân bản siêu tốc tại Hội đồng in sao đề thi" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-in-nhan-ban-sieu-toc-duplo-nguyen-thung.jpg" alt="Kho máy in nhân bản siêu tốc Duplo nguyên thùng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
-              <i class="fa-solid fa-camera mr-1"></i>Hội Đồng Thi THPT
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
             </div>
             
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
@@ -670,22 +2168,1318 @@
             <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
               <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="truncate max-w-[200px]">Hội Đồng In Sao Đề Thi Sở GD&amp;ĐT</span>
+                <span class="truncate max-w-[200px]">Kho Thiết bị Duplo Hương Sơn</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>06/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 04/2023</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
-              Lắp đặt và trực kỹ thuật máy in nhân bản siêu tốc tại Hội đồng in sao đề thi
+              Kho máy in nhân bản siêu tốc Duplo nguyên thùng
             </h3>
             <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
-              Triển khai máy in siêu tốc Duplo và kỹ sư túc trực 24/24 trong khu vực cách ly 3 vòng tại Hội đồng thi Sở GD&amp;ĐT Vĩnh Phúc và Sở GD&amp;ĐT Quảng Trị.
+              Khu vực lưu trữ máy in siêu tốc Duplo Nhật Bản chuẩn độ ẩm và nhiệt độ nghiêm ngặt phục vụ ngành Giáo dục.
             </p>
             <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
               <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
                 <span>Xem ảnh sắc nét</span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </span>
-              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Bàn Giao &amp; Lắp Đặt</span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="kho-may" 
+             data-id="thung-may-duplo-quan-mang-co-pe-chong-am-tren-xe-tai"
+             data-title="Thùng máy Duplo quấn màng co PE chống ẩm trên xe tải"
+             data-desc="Bảo vệ thiết bị hoàn hảo trong quá trình vận chuyển đường dài tới các trường học và Sở GD&amp;ĐT các tỉnh."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/thung-may-duplo-quan-mang-co-pe-chong-am-tren-xe-tai.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Xe tải vận chuyển chuyên dụng"
+             data-date="Tháng 04/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/thung-may-duplo-quan-mang-co-pe-chong-am-tren-xe-tai.jpg" alt="Thùng máy Duplo quấn màng co PE chống ẩm trên xe tải" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Xe tải vận chuyển chuyên dụng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 04/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Thùng máy Duplo quấn màng co PE chống ẩm trên xe tải
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Bảo vệ thiết bị hoàn hảo trong quá trình vận chuyển đường dài tới các trường học và Sở GD&amp;ĐT các tỉnh.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="kho-may" 
+             data-id="kho-may-photocopy-bizhub-toshiba-nguyen-dai-nguyen-kien"
+             data-title="Kho máy photocopy bizhub / Toshiba nguyên đai nguyên kiện"
+             data-desc="Dãy thùng máy photocopy Konica Minolta bizhub xếp hàng lối ngay ngắn trên pallet gỗ trước giờ xuất xưởng."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-bizhub-toshiba-nguyen-dai-nguyen-kien.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Thiết bị Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-bizhub-toshiba-nguyen-dai-nguyen-kien.jpg" alt="Kho máy photocopy bizhub / Toshiba nguyên đai nguyên kiện" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Kho Thiết bị Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kho máy photocopy bizhub / Toshiba nguyên đai nguyên kiện
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Dãy thùng máy photocopy Konica Minolta bizhub xếp hàng lối ngay ngắn trên pallet gỗ trước giờ xuất xưởng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="kho-may" 
+             data-id="kho-linh-kien-vat-tu-duplo-toshiba-ha-noi"
+             data-title="Kho linh kiện &amp; vật tư Duplo – Toshiba tại Hà Nội"
+             data-desc="Kho hàng vật tư tiêu hao phong phú: cuộn Master Duplo, mực in FANSIPAN, cụm drum, gạt mực luôn sẵn sàng thay thế ngay trong 2h."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kho-linh-kien-vat-tu-duplo-toshiba-ha-noi.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Vật tư Kỹ thuật Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kho-linh-kien-vat-tu-duplo-toshiba-ha-noi.jpg" alt="Kho linh kiện &amp; vật tư Duplo – Toshiba tại Hà Nội" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Kho Vật tư Kỹ thuật Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kho linh kiện &amp; vật tư Duplo – Toshiba tại Hà Nội
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Kho hàng vật tư tiêu hao phong phú: cuộn Master Duplo, mực in FANSIPAN, cụm drum, gạt mực luôn sẵn sàng thay thế ngay trong 2h.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="kho-may" 
+             data-id="trung-tam-vat-tu-may-in-photocopy-chinh-hang-huong-son"
+             data-title="Trung tâm vật tư máy in &amp; photocopy chính hãng Hương Sơn"
+             data-desc="Biển hiệu Duplo – TOSHIBA bảo chứng cho nguồn gốc linh kiện và vật tư tiêu hao chuẩn quốc tế."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/trung-tam-vat-tu-may-in-photocopy-chinh-hang-huong-son.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Vật tư Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/trung-tam-vat-tu-may-in-photocopy-chinh-hang-huong-son.jpg" alt="Trung tâm vật tư máy in &amp; photocopy chính hãng Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Kho Vật tư Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Trung tâm vật tư máy in &amp; photocopy chính hãng Hương Sơn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Biển hiệu Duplo – TOSHIBA bảo chứng cho nguồn gốc linh kiện và vật tư tiêu hao chuẩn quốc tế.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="kho-may" 
+             data-id="kho-may-in-laser-hp-laserjet-da-chuc-nang-nguyen-seal"
+             data-title="Kho máy in laser HP LaserJet đa chức năng nguyên seal"
+             data-desc="Hàng chục kiện máy in HP LaserJet Pro đa chức năng mới 100% sẵn sàng cho các hợp đồng trang bị đồng bộ văn phòng."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-in-laser-hp-laserjet-da-chuc-nang-nguyen-seal.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Thiết bị Văn phòng Hương Sơn"
+             data-date="Tháng 10/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-in-laser-hp-laserjet-da-chuc-nang-nguyen-seal.jpg" alt="Kho máy in laser HP LaserJet đa chức năng nguyên seal" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Kho Thiết bị Văn phòng Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kho máy in laser HP LaserJet đa chức năng nguyên seal
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Hàng chục kiện máy in HP LaserJet Pro đa chức năng mới 100% sẵn sàng cho các hợp đồng trang bị đồng bộ văn phòng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="kho-may" 
+             data-id="kho-may-photocopy-boc-mang-nilon-bao-quan-chuyen-nghiep"
+             data-title="Máy photocopy bọc màng nilon bảo quản chuyên nghiệp"
+             data-desc="Mỗi chiếc máy sau kiểm định đều được bọc nilon kín, chống ẩm và bụi bẩn, gắn phiếu kiểm định PDI trước khi xuất kho."
+             data-img="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-boc-mang-nilon-bao-quan-chuyen-nghiep.jpg"
+             data-badge="Kho bãi &amp; Thiết bị"
+             data-location="Kho Kỹ thuật Hương Sơn"
+             data-date="Tháng 10/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-boc-mang-nilon-bao-quan-chuyen-nghiep.jpg" alt="Máy photocopy bọc màng nilon bảo quản chuyên nghiệp" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kho bãi &amp; Thiết bị
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Kho Kỹ thuật Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Máy photocopy bọc màng nilon bảo quản chuyên nghiệp
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Mỗi chiếc máy sau kiểm định đều được bọc nilon kín, chống ẩm và bụi bẩn, gắn phiếu kiểm định PDI trước khi xuất kho.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kho bãi &amp; Thiết bị</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="ky-su-huong-son-can-chinh-dan-may-photocopy-e-studio"
+             data-title="Kỹ sư Hương Sơn căn chỉnh dàn máy photocopy Toshiba e-STUDIO"
+             data-desc="Kiểm tra điện áp, căn chỉnh thước quang, cân màu và đo độ phân giải bản in theo tiêu chuẩn kiểm định PDI 24 bước độc quyền."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/ky-su-huong-son-can-chinh-dan-may-photocopy-e-studio.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Xưởng Kỹ thuật Kiểm định PDI Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/ky-su-huong-son-can-chinh-dan-may-photocopy-e-studio.jpg" alt="Kỹ sư Hương Sơn căn chỉnh dàn máy photocopy Toshiba e-STUDIO" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Xưởng Kỹ thuật Kiểm định PDI Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kỹ sư Hương Sơn căn chỉnh dàn máy photocopy Toshiba e-STUDIO
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Kiểm tra điện áp, căn chỉnh thước quang, cân màu và đo độ phân giải bản in theo tiêu chuẩn kiểm định PDI 24 bước độc quyền.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="dan-may-photocopy-hoan-tat-kiem-dinh-pdi-san-sang-xuat-xuong"
+             data-title="Dàn máy photocopy hoàn tất kiểm định PDI sẵn sàng xuất xưởng"
+             data-desc="Hệ thống máy photocopy màu và đen trắng cao cấp đã qua bài kiểm tra stress-test in liên tục 500 trang không kẹt giấy."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/dan-may-photocopy-hoan-tat-kiem-dinh-pdi-san-sang-xuat-xuong.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Phòng Kiểm định Chất lượng Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/dan-may-photocopy-hoan-tat-kiem-dinh-pdi-san-sang-xuat-xuong.jpg" alt="Dàn máy photocopy hoàn tất kiểm định PDI sẵn sàng xuất xưởng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng Kiểm định Chất lượng Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Dàn máy photocopy hoàn tất kiểm định PDI sẵn sàng xuất xưởng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Hệ thống máy photocopy màu và đen trắng cao cấp đã qua bài kiểm tra stress-test in liên tục 500 trang không kẹt giấy.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="hanh-lang-kiem-dinh-thiet-bi-chuyen-nghiep-huong-son"
+             data-title="Hành lang kiểm định thiết bị chuyên nghiệp Hương Sơn"
+             data-desc="Dãy dài hàng chục thiết bị đang trong quá trình chạy thử nghiệm, nạp firmware tiếng Việt và tích hợp module in mạng."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/hanh-lang-kiem-dinh-thiet-bi-chuyen-nghiep-huong-son.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Trung tâm Kỹ thuật Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/hanh-lang-kiem-dinh-thiet-bi-chuyen-nghiep-huong-son.jpg" alt="Hành lang kiểm định thiết bị chuyên nghiệp Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Trung tâm Kỹ thuật Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Hành lang kiểm định thiết bị chuyên nghiệp Hương Sơn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Dãy dài hàng chục thiết bị đang trong quá trình chạy thử nghiệm, nạp firmware tiếng Việt và tích hợp module in mạng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="kiem-tra-dong-bo-hang-loat-may-photocopy-truoc-ban-giao"
+             data-title="Kiểm tra đồng bộ hàng loạt máy photocopy trước bàn giao"
+             data-desc="Tất cả thông số cơ khí, bộ phận cuốn giấy, gương quét và sấy nhiệt đều được đo đạc kỹ lưỡng bằng thiết bị chuyên dụng."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/kiem-tra-dong-bo-hang-loat-may-photocopy-truoc-ban-giao.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Khu vực Kỹ thuật Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/kiem-tra-dong-bo-hang-loat-may-photocopy-truoc-ban-giao.jpg" alt="Kiểm tra đồng bộ hàng loạt máy photocopy trước bàn giao" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Khu vực Kỹ thuật Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kiểm tra đồng bộ hàng loạt máy photocopy trước bàn giao
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Tất cả thông số cơ khí, bộ phận cuốn giấy, gương quét và sấy nhiệt đều được đo đạc kỹ lưỡng bằng thiết bị chuyên dụng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="dap-hop-kiem-dinh-pdi-may-in-laser-hp-moi-100"
+             data-title="Đập hộp &amp; kiểm định PDI máy in laser HP mới 100%"
+             data-desc="Kỹ thuật viên bóc seal, kiểm tra phụ kiện đi kèm, nạp mực tiêu chuẩn và in bản test hãng trước khi giao cho khách hàng."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/dap-hop-kiem-dinh-pdi-may-in-laser-hp-moi-100.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Phòng Kỹ thuật Hương Sơn"
+             data-date="Tháng 10/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/dap-hop-kiem-dinh-pdi-may-in-laser-hp-moi-100.jpg" alt="Đập hộp &amp; kiểm định PDI máy in laser HP mới 100%" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng Kỹ thuật Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Đập hộp &amp; kiểm định PDI máy in laser HP mới 100%
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Kỹ thuật viên bóc seal, kiểm tra phụ kiện đi kèm, nạp mực tiêu chuẩn và in bản test hãng trước khi giao cho khách hàng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="cai-dat-cau-hinh-dong-loat-dan-may-in-laser-hp-da-chuc-nang"
+             data-title="Cài đặt &amp; cấu hình đồng loạt dàn máy in laser HP đa chức năng"
+             data-desc="Dàn máy in HP được thiết lập IP tĩnh, cập nhật firmware mới nhất và dán tem bảo hành Hương Sơn trước khi giao dự án."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/cai-dat-cau-hinh-dong-loat-dan-may-in-laser-hp-da-chuc-nang.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Bàn Kỹ thuật Cấu hình Hệ thống"
+             data-date="Tháng 10/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/cai-dat-cau-hinh-dong-loat-dan-may-in-laser-hp-da-chuc-nang.jpg" alt="Cài đặt &amp; cấu hình đồng loạt dàn máy in laser HP đa chức năng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Bàn Kỹ thuật Cấu hình Hệ thống</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Cài đặt &amp; cấu hình đồng loạt dàn máy in laser HP đa chức năng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Dàn máy in HP được thiết lập IP tĩnh, cập nhật firmware mới nhất và dán tem bảo hành Hương Sơn trước khi giao dự án.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="kiem-tra-chuc-nang-scan-va-copy-dan-may-in-hp"
+             data-title="Kiểm tra chức năng Scan và Copy dàn máy in HP"
+             data-desc="Thực nghiệm tốc độ quét ADF hai mặt tự động và độ tương phản bản copy sắc nét từng dòng chữ nhỏ."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/kiem-tra-chuc-nang-scan-va-copy-dan-may-in-hp.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Phòng Kiểm chuẩn Thiết bị"
+             data-date="Tháng 10/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/kiem-tra-chuc-nang-scan-va-copy-dan-may-in-hp.jpg" alt="Kiểm tra chức năng Scan và Copy dàn máy in HP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng Kiểm chuẩn Thiết bị</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 10/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Kiểm tra chức năng Scan và Copy dàn máy in HP
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Thực nghiệm tốc độ quét ADF hai mặt tự động và độ tương phản bản copy sắc nét từng dòng chữ nhỏ.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="can-chinh-khay-nap-giay-may-in-sieu-toc-duplo"
+             data-title="Căn chỉnh khay nạp giấy máy in siêu tốc Duplo"
+             data-desc="Căn chỉnh con lăn kéo giấy và áp lực nạp giấy để máy in ổn định ngay cả với các loại giấy mỏng 48gsm dùng trong in đề thi."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/can-chinh-khay-nap-giay-may-in-sieu-toc-duplo.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Xưởng Kỹ thuật Duplo Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/can-chinh-khay-nap-giay-may-in-sieu-toc-duplo.jpg" alt="Căn chỉnh khay nạp giấy máy in siêu tốc Duplo" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Xưởng Kỹ thuật Duplo Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Căn chỉnh khay nạp giấy máy in siêu tốc Duplo
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Căn chỉnh con lăn kéo giấy và áp lực nạp giấy để máy in ổn định ngay cả với các loại giấy mỏng 48gsm dùng trong in đề thi.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="ky-thuat-pdi" 
+             data-id="man-hinh-cam-ung-may-photocopy-toshiba-e-studio"
+             data-title="Màn hình cảm ứng 10.1 inch máy photocopy Toshiba e-STUDIO"
+             data-desc="Giao diện đồ họa tiếng Việt dễ thao tác, tùy biến phím tắt một chạm cho các lệnh scan số hóa và photocopy bảo mật."
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/man-hinh-cam-ung-may-photocopy-toshiba-e-studio.jpg"
+             data-badge="Kỹ thuật PDI"
+             data-location="Phòng Kiểm thử Giao diện Hương Sơn"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/man-hinh-cam-ung-may-photocopy-toshiba-e-studio.jpg" alt="Màn hình cảm ứng 10.1 inch máy photocopy Toshiba e-STUDIO" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Kỹ thuật PDI
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Phòng Kiểm thử Giao diện Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Màn hình cảm ứng 10.1 inch máy photocopy Toshiba e-STUDIO
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Giao diện đồ họa tiếng Việt dễ thao tác, tùy biến phím tắt một chạm cho các lệnh scan số hóa và photocopy bảo mật.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Kỹ thuật PDI</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="doi-xe-ban-tai-suzuki-chuyen-dung-giao-may-huong-son"
+             data-title="Đội xe bán tải Suzuki chuyên dụng giao máy của Hương Sơn"
+             data-desc="Dàn xe tải và bán tải Suzuki mang nhận diện thương hiệu Hương Sơn, Duplo, Toshiba sẵn sàng cơ động giao máy hỏa tốc khắp Hà Nội."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/doi-xe-ban-tai-suzuki-chuyen-dung-giao-may-huong-son.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Đội xe Hương Sơn, Minh Khai, Hà Nội"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/doi-xe-ban-tai-suzuki-chuyen-dung-giao-may-huong-son.jpg" alt="Đội xe bán tải Suzuki chuyên dụng giao máy của Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Đội xe Hương Sơn, Minh Khai, Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Đội xe bán tải Suzuki chuyên dụng giao máy của Hương Sơn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Dàn xe tải và bán tải Suzuki mang nhận diện thương hiệu Hương Sơn, Duplo, Toshiba sẵn sàng cơ động giao máy hỏa tốc khắp Hà Nội.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="xe-tai-chuyen-dung-huong-son-bien-so-29d-42993"
+             data-title="Xe tải chuyên dụng Hương Sơn – Biển số 29D-429.93"
+             data-desc="Thùng xe kín bảo vệ thiết bị điện tử tuyệt đối khỏi mưa nắng, dập nổi đầy đủ hotline hỗ trợ và logo chính hãng Duplo – Toshiba."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-chuyen-dung-huong-son-bien-so-29d-42993.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Trung tâm Vận tải Hương Sơn"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-chuyen-dung-huong-son-bien-so-29d-42993.jpg" alt="Xe tải chuyên dụng Hương Sơn – Biển số 29D-429.93" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Trung tâm Vận tải Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Xe tải chuyên dụng Hương Sơn – Biển số 29D-429.93
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Thùng xe kín bảo vệ thiết bị điện tử tuyệt đối khỏi mưa nắng, dập nổi đầy đủ hotline hỗ trợ và logo chính hãng Duplo – Toshiba.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="xe-tai-giao-hang-tan-noi-mien-phi-noi-thanh-ha-noi"
+             data-title="Xe tải giao hàng tận nơi miễn phí nội thành Hà Nội"
+             data-desc="Chính sách miễn phí vận chuyển và lắp đặt tận nơi mọi quận huyện Hà Nội và các tỉnh lân cận trong bán kính 100km."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-giao-hang-tan-noi-mien-phi-noi-thanh-ha-noi.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Hà Nội"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-giao-hang-tan-noi-mien-phi-noi-thanh-ha-noi.jpg" alt="Xe tải giao hàng tận nơi miễn phí nội thành Hà Nội" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Xe tải giao hàng tận nơi miễn phí nội thành Hà Nội
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Chính sách miễn phí vận chuyển và lắp đặt tận nơi mọi quận huyện Hà Nội và các tỉnh lân cận trong bán kính 100km.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="xe-tai-suzuki-huong-son-giao-may-tan-co-quan"
+             data-title="Xe tải Suzuki Hương Sơn giao máy tận sảnh cơ quan"
+             data-desc="Xe mang biển kiểm soát 29D-406.87 đậu trước sảnh cơ quan chuẩn bị hạ thiết bị bàn giao đúng giờ hẹn."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-suzuki-huong-son-giao-may-tan-co-quan.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Trụ sở Cơ quan Khách hàng"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-suzuki-huong-son-giao-may-tan-co-quan.jpg" alt="Xe tải Suzuki Hương Sơn giao máy tận sảnh cơ quan" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Trụ sở Cơ quan Khách hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Xe tải Suzuki Hương Sơn giao máy tận sảnh cơ quan
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Xe mang biển kiểm soát 29D-406.87 đậu trước sảnh cơ quan chuẩn bị hạ thiết bị bàn giao đúng giờ hẹn.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="boc-do-thiet-bi-photocopy-toshiba-duplo-tu-xe-tai"
+             data-title="Bốc dỡ thiết bị photocopy Toshiba, Duplo từ xe tải"
+             data-desc="Đội ngũ giao vận Hương Sơn trang bị đồng phục bảo hộ, thao tác bốc dỡ bằng kích nâng thủy lực chuẩn chỉ, an toàn tuyệt đối."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/boc-do-thiet-bi-photocopy-toshiba-duplo-tu-xe-tai.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Trụ sở Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/boc-do-thiet-bi-photocopy-toshiba-duplo-tu-xe-tai.jpg" alt="Bốc dỡ thiết bị photocopy Toshiba, Duplo từ xe tải" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Trụ sở Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Bốc dỡ thiết bị photocopy Toshiba, Duplo từ xe tải
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Đội ngũ giao vận Hương Sơn trang bị đồng phục bảo hộ, thao tác bốc dỡ bằng kích nâng thủy lực chuẩn chỉ, an toàn tuyệt đối.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="boc-do-may-photocopy-tai-cua-kho-huong-son"
+             data-title="Bốc dỡ máy photocopy tại cửa kho Hương Sơn"
+             data-desc="Quy trình hạ hàng an toàn từ thùng xe tải chuyên dụng sang xe nâng tay để đưa vào khu kiểm định chất lượng."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/boc-do-may-photocopy-tai-cua-kho-huong-son.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Cửa kho Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/boc-do-may-photocopy-tai-cua-kho-huong-son.jpg" alt="Bốc dỡ máy photocopy tại cửa kho Hương Sơn" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Cửa kho Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Bốc dỡ máy photocopy tại cửa kho Hương Sơn
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Quy trình hạ hàng an toàn từ thùng xe tải chuyên dụng sang xe nâng tay để đưa vào khu kiểm định chất lượng.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="van-chuyen-kien-hang-tren-pallet-chuyen-dung"
+             data-title="Vận chuyển kiện hàng trên pallet chuyên dụng"
+             data-desc="Các thùng máy photocopy được đóng đai nẹp góc và cố định trên pallet gỗ đảm bảo 100% không rung lắc hay trầy xước."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/van-chuyen-kien-hang-tren-pallet-chuyen-dung.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Trụ sở Hương Sơn"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/van-chuyen-kien-hang-tren-pallet-chuyen-dung.jpg" alt="Vận chuyển kiện hàng trên pallet chuyên dụng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Trụ sở Hương Sơn</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Vận chuyển kiện hàng trên pallet chuyên dụng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Các thùng máy photocopy được đóng đai nẹp góc và cố định trên pallet gỗ đảm bảo 100% không rung lắc hay trầy xước.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="tong-kho-xuat-hang-huong-son-ha-noi"
+             data-title="Tổng kho xuất hàng Hương Sơn tại Hà Nội"
+             data-desc="Điểm tập kết hàng hóa luôn nhộn nhịp xe tải ra vào lấy máy giao cho các trường học, ngân hàng và doanh nghiệp mỗi ngày."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/tong-kho-xuat-hang-huong-son-ha-noi.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Hương Sơn, Hà Nội"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/tong-kho-xuat-hang-huong-son-ha-noi.jpg" alt="Tổng kho xuất hàng Hương Sơn tại Hà Nội" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Hương Sơn, Hà Nội</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Tổng kho xuất hàng Hương Sơn tại Hà Nội
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Điểm tập kết hàng hóa luôn nhộn nhịp xe tải ra vào lấy máy giao cho các trường học, ngân hàng và doanh nghiệp mỗi ngày.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="xe-tai-ha-thung-giao-may-photocopy-duoi-ham-toa-nha"
+             data-title="Xe tải hạ thùng giao máy photocopy dưới hầm tòa nhà"
+             data-desc="Xe tải nhỏ gọn dễ dàng xuống hầm các tòa nhà văn phòng cao cấp, xe đẩy chuyên dụng hỗ trợ đưa máy lên đúng tầng làm việc."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-ha-thung-giao-may-photocopy-duoi-ham-toa-nha.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Tầng hầm Tòa nhà Văn phòng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-ha-thung-giao-may-photocopy-duoi-ham-toa-nha.jpg" alt="Xe tải hạ thùng giao máy photocopy dưới hầm tòa nhà" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Tầng hầm Tòa nhà Văn phòng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Xe tải hạ thùng giao máy photocopy dưới hầm tòa nhà
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Xe tải nhỏ gọn dễ dàng xuống hầm các tòa nhà văn phòng cao cấp, xe đẩy chuyên dụng hỗ trợ đưa máy lên đúng tầng làm việc.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="xe-day-tay-chuyen-dung-dua-may-photocopy-vao-thang-may"
+             data-title="Xe đẩy tay chuyên dụng đưa máy photocopy vào thang máy"
+             data-desc="Trọn bộ thiết bị Toshiba e-STUDIO và phụ kiện mực in được vận chuyển nhẹ nhàng qua cửa thang máy tòa nhà."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-day-tay-chuyen-dung-dua-may-photocopy-vao-thang-may.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Sảnh thang máy Khách hàng"
+             data-date="Tháng 09/2024"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/xe-day-tay-chuyen-dung-dua-may-photocopy-vao-thang-may.jpg" alt="Xe đẩy tay chuyên dụng đưa máy photocopy vào thang máy" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Sảnh thang máy Khách hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 09/2024</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Xe đẩy tay chuyên dụng đưa máy photocopy vào thang máy
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Trọn bộ thiết bị Toshiba e-STUDIO và phụ kiện mực in được vận chuyển nhẹ nhàng qua cửa thang máy tòa nhà.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="van-chuyen-pallet-may-photocopy-qua-sanh-ngan-hang"
+             data-title="Vận chuyển pallet máy photocopy qua sảnh ngân hàng"
+             data-desc="Kỹ thuật viên Hương Sơn vận chuyển an toàn qua sảnh đá hoa cương của ngân hàng, giữ gìn vệ sinh và an ninh tòa nhà."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/van-chuyen-pallet-may-photocopy-qua-sanh-ngan-hang.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Sảnh Ngân hàng"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/van-chuyen-pallet-may-photocopy-qua-sanh-ngan-hang.jpg" alt="Vận chuyển pallet máy photocopy qua sảnh ngân hàng" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Sảnh Ngân hàng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Vận chuyển pallet máy photocopy qua sảnh ngân hàng
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Kỹ thuật viên Hương Sơn vận chuyển an toàn qua sảnh đá hoa cương của ngân hàng, giữ gìn vệ sinh và an ninh tòa nhà.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="gallery-item border border-gray-200 bg-white rounded-lg overflow-hidden group flex flex-col hover:border-[#1A9900] hover:shadow-xl transition-all duration-300 cursor-pointer" 
+             data-category="van-chuyen" 
+             data-id="dua-may-in-sieu-toc-duplo-nguyen-kien-len-phong-lam-viec"
+             data-title="Đưa máy in siêu tốc Duplo nguyên kiện lên phòng làm việc"
+             data-desc="Máy được vận chuyển cẩn thận bằng xe nâng tay vào tận phòng của khách hàng để kỹ sư tiến hành mở thùng lắp đặt."
+             data-img="/assets/images/tu-lieu-thuc-te/van-chuyen/dua-may-in-sieu-toc-duplo-nguyen-kien-len-phong-lam-viec.jpg"
+             data-badge="Đội xe Vận chuyển"
+             data-location="Tòa nhà Văn phòng"
+             data-date="Tháng 08/2023"
+             data-type="image"
+             onclick="openLightbox(this)">
+          <div class="h-60 overflow-hidden relative bg-gray-100">
+            <img src="/assets/images/tu-lieu-thuc-te/van-chuyen/dua-may-in-sieu-toc-duplo-nguyen-kien-len-phong-lam-viec.jpg" alt="Đưa máy in siêu tốc Duplo nguyên kiện lên phòng làm việc" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <div class="absolute top-3 left-3 bg-[#1A9900] text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
+              <i class="fa-solid fa-camera mr-1"></i>Đội xe Vận chuyển
+            </div>
+            
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-between p-4 text-white">
+          <span class="text-xs font-semibold flex items-center gap-1.5"><i class="fa-solid fa-expand text-[#5eb74c]"></i> Xem phóng to</span>
+          <span class="text-[11px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded">Ảnh HD</span>
+        </div>
+        
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <div class="flex items-center justify-between text-[11.5px] text-gray-500 mb-2">
+              <span class="flex items-center gap-1 text-[#1A9900] font-semibold">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="truncate max-w-[200px]">Tòa nhà Văn phòng</span>
+              </span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Tháng 08/2023</span>
+            </div>
+            <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
+              Đưa máy in siêu tốc Duplo nguyên kiện lên phòng làm việc
+            </h3>
+            <p class="text-gray-600 text-[13px] leading-relaxed mb-4 flex-1 line-clamp-3">
+              Máy được vận chuyển cẩn thận bằng xe nâng tay vào tận phòng của khách hàng để kỹ sư tiến hành mở thùng lắp đặt.
+            </p>
+            <div class="pt-3.5 border-t border-gray-100 flex items-center justify-between text-xs">
+              <span class="font-bold text-[#1A9900] inline-flex items-center gap-1.5 group-hover:underline">
+                <span>Xem ảnh sắc nét</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </span>
+              <span class="text-gray-400 text-[11px] uppercase tracking-wider">Đội xe Vận chuyển</span>
             </div>
           </div>
         </div>
@@ -696,14 +3490,14 @@
              data-id="vid-01"
              data-title="[Video] Vận hành thực tế máy in siêu tốc Duplo DP-X550 in đề thi 130 bản/phút"
              data-desc="Ghi lại cảnh máy in nhân bản kỹ thuật số Duplo DP-X550 vận hành thực tế tại phòng in đề thi: tốc độ in siêu tốc 130–150 bản/phút, không kẹt giấy, mực khô ngay tức thì."
-             data-img="/assets/images/proof/in-sao-de-thi-duplo.jpg"
+             data-img="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-in-sieu-toc-duplo-trong-phong-in-de-thi.jpg"
              data-badge="Video Vận Hành 130 Bản/Phút"
              data-location="Phòng In Sao Đề Thi THPT"
-             data-date="10/2026"
+             data-date="Kỳ thi 2023"
              data-type="video"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/proof/in-sao-de-thi-duplo.jpg" alt="[Video] Vận hành thực tế máy in siêu tốc Duplo DP-X550 in đề thi 130 bản/phút" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-in-sieu-toc-duplo-trong-phong-in-de-thi.jpg" alt="[Video] Vận hành thực tế máy in siêu tốc Duplo DP-X550 in đề thi 130 bản/phút" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-red-600 text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
               <i class="fa-solid fa-video mr-1"></i>Video Vận Hành 130 Bản/Phút
             </div>
@@ -724,7 +3518,7 @@
                 <i class="fa-solid fa-location-dot"></i>
                 <span class="truncate max-w-[200px]">Phòng In Sao Đề Thi THPT</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>10/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>Kỳ thi 2023</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
               [Video] Vận hành thực tế máy in siêu tốc Duplo DP-X550 in đề thi 130 bản/phút
@@ -748,14 +3542,14 @@
              data-id="vid-02"
              data-title="[Video] Kỹ sư Hương Sơn kiểm tra PDI và chạy thử máy photocopy Toshiba 6528A"
              data-desc="Toàn cảnh các bước kiểm tra quang học, cân chỉnh hệ thống cấp giấy và đo xung điện áp bo mạch nguồn trước khi đóng gói giao cho khách hàng."
-             data-img="/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg"
+             data-img="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/ky-su-huong-son-can-chinh-dan-may-photocopy-e-studio.jpg"
              data-badge="Video Kiểm Định PDI"
              data-location="Xưởng Kiểm Định PDI Hương Sơn"
-             data-date="09/2026"
+             data-date="09/2024"
              data-type="video"
              onclick="openLightbox(this)">
           <div class="h-60 overflow-hidden relative bg-gray-100">
-            <img src="/assets/images/proof/doi-ngu-ky-thuat-pdi.jpg" alt="[Video] Kỹ sư Hương Sơn kiểm tra PDI và chạy thử máy photocopy Toshiba 6528A" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/ky-su-huong-son-can-chinh-dan-may-photocopy-e-studio.jpg" alt="[Video] Kỹ sư Hương Sơn kiểm tra PDI và chạy thử máy photocopy Toshiba 6528A" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             <div class="absolute top-3 left-3 bg-red-600 text-white text-[11px] font-bold px-3 py-1 rounded-xs shadow-md flex items-center">
               <i class="fa-solid fa-video mr-1"></i>Video Kiểm Định PDI
             </div>
@@ -776,7 +3570,7 @@
                 <i class="fa-solid fa-location-dot"></i>
                 <span class="truncate max-w-[200px]">Xưởng Kiểm Định PDI Hương Sơn</span>
               </span>
-              <span><i class="fa-regular fa-calendar mr-1"></i>09/2026</span>
+              <span><i class="fa-regular fa-calendar mr-1"></i>09/2024</span>
             </div>
             <h3 class="text-[16px] font-bold text-[#181923] mb-2.5 group-hover:text-[#1A9900] transition leading-snug line-clamp-2">
               [Video] Kỹ sư Hương Sơn kiểm tra PDI và chạy thử máy photocopy Toshiba 6528A

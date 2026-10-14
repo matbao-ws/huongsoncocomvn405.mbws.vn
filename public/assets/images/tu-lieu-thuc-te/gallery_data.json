@@ -1,0 +1,642 @@
+[
+  {
+    "id": "konica-minolta-trao-chung-nhan-doi-tac-huong-son",
+    "category": "doi-tac",
+    "cat_name": "Đối tác & Chứng nhận",
+    "title": "Konica Minolta trao chứng nhận Đối tác chiến lược cho Hương Sơn",
+    "desc": "Ông Kazuhiro Okuno – Giám đốc Chi nhánh Hà Nội của Konica Minolta Business Solutions trao chứng nhận đối tác và quà lưu niệm cho Ban Lãnh đạo Hương Sơn.",
+    "loc": "Trụ sở Hương Sơn, Hà Nội",
+    "date": "Tháng 08/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/doi-tac/konica-minolta-trao-chung-nhan-doi-tac-huong-son.jpg"
+  },
+  {
+    "id": "tiep-don-doi-tac-chien-luoc-mtm-toshiba",
+    "category": "doi-tac",
+    "cat_name": "Đối tác & Chứng nhận",
+    "title": "Tiếp đón & làm việc cùng Đối tác MTM – Toshiba",
+    "desc": "Phiên làm việc chiến lược giữa đại diện đối tác MTM – Toshiba và Ban Lãnh đạo Hương Sơn về nguồn cung thiết bị và chính sách bảo hành chính hãng.",
+    "loc": "Văn phòng Hương Sơn, Hà Nội",
+    "date": "Tháng 09/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/doi-tac/tiep-don-doi-tac-chien-luoc-mtm-toshiba.jpg"
+  },
+  {
+    "id": "doi-ngu-chuyen-gia-huong-son-duplo-toshiba",
+    "category": "doi-tac",
+    "cat_name": "Đối tác & Chứng nhận",
+    "title": "Đội ngũ Chuyên viên & Kỹ sư Thiết bị Hương Sơn",
+    "desc": "Đội ngũ kỹ thuật viên nòng cốt của Hương Sơn được đào tạo bài bản và cấp chứng chỉ chuyển giao công nghệ từ Duplo và Toshiba.",
+    "loc": "Showroom Hương Sơn",
+    "date": "Tháng 09/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/doi-tac/doi-ngu-chuyen-gia-huong-son-duplo-toshiba.jpg"
+  },
+  {
+    "id": "ban-giao-may-in-de-thi-khu-vuc-cach-ly-so-gddt",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Bàn giao máy in siêu tốc Duplo trong khu vực in sao đề thi cách ly",
+    "desc": "Kỹ thuật viên Hương Sơn bàn giao máy in nhân bản siêu tốc Duplo và vật tư Master, mực in chuyên dụng trong khu vực cách ly 3 vòng của Sở GD&ĐT.",
+    "loc": "Hội đồng In sao đề thi Kỳ thi Tốt nghiệp THPT",
+    "date": "Kỳ thi THPT 2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-may-in-de-thi-khu-vuc-cach-ly-so-gddt.jpg"
+  },
+  {
+    "id": "dan-may-in-sieu-toc-duplo-trong-phong-in-de-thi",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Giàn máy in siêu tốc Duplo vận hành trong phòng in sao đề thi",
+    "desc": "Hệ thống máy in nhân bản siêu tốc Duplo hoạt động liên tục 24/24 in hàng trăm nghìn bản đề thi an toàn tuyệt đối, dự phòng N+1.",
+    "loc": "Khu vực in sao đề thi cách ly đặc biệt",
+    "date": "Kỳ thi THPT 2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-in-sieu-toc-duplo-trong-phong-in-de-thi.jpg"
+  },
+  {
+    "id": "cho-thue-dan-may-in-sieu-toc-duplo-so-gddt",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Cho thuê giàn máy in nhân bản siêu tốc Duplo phục vụ Sở GD&ĐT",
+    "desc": "Bộ 3 máy in siêu tốc Duplo công suất 130 trang/phút sẵn sàng phục vụ công tác in ấn văn bản, đề cương và đề thi cho Sở GD&ĐT.",
+    "loc": "Sở Giáo dục & Đào tạo",
+    "date": "Năm 2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/cho-thue-dan-may-in-sieu-toc-duplo-so-gddt.jpg"
+  },
+  {
+    "id": "dong-hanh-in-sao-de-thi-ky-thi-tot-nghiep-thpt",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Đồng hành in sao đề thi an toàn cho Kỳ thi Tốt nghiệp THPT",
+    "desc": "Đề thi in bằng máy Duplo đạt độ sắc nét tuyệt đối, mã đề barcode rõ ràng, phục vụ hàng chục nghìn thí sinh làm bài thi tự tin và nghiêm túc.",
+    "loc": "Điểm thi THPT Quốc gia",
+    "date": "Kỳ thi THPT 2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/dong-hanh-in-sao-de-thi-ky-thi-tot-nghiep-thpt.jpg"
+  },
+  {
+    "id": "ban-giao-dan-may-photocopy-toshiba-vietcombank-bac-giang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Bàn giao dàn máy photocopy Toshiba tại Vietcombank Bắc Giang",
+    "desc": "Hương Sơn bàn giao đồng loạt hệ thống máy photocopy Toshiba e-STUDIO thế hệ mới nhân dịp kỷ niệm 15 năm thành lập Vietcombank Bắc Giang.",
+    "loc": "Vietcombank Chi nhánh Bắc Giang",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-dan-may-photocopy-toshiba-vietcombank-bac-giang.jpg"
+  },
+  {
+    "id": "dan-may-toshiba-e-studio-ban-giao-vietcombank",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Dàn máy photocopy Toshiba e-STUDIO tại Vietcombank",
+    "desc": "4 thiết bị đa chức năng hiện đại được lắp đặt, kiểm tra kỹ thuật và bàn giao sẵn sàng phục vụ khối vận hành ngân hàng.",
+    "loc": "Trụ sở Vietcombank Bắc Giang",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-toshiba-e-studio-ban-giao-vietcombank.jpg"
+  },
+  {
+    "id": "may-in-scan-van-hanh-quay-giao-dich-vietcombank",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Thiết bị in và scan vận hành tại Quầy giao dịch số 01 Vietcombank",
+    "desc": "Cán bộ giao dịch viên Vietcombank sử dụng hệ thống máy in và số hóa tài liệu do Hương Sơn cung cấp, đảm bảo xử lý hồ sơ khách hàng nhanh chóng.",
+    "loc": "Phòng giao dịch Vietcombank",
+    "date": "Năm 2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-in-scan-van-hanh-quay-giao-dich-vietcombank.jpg"
+  },
+  {
+    "id": "khong-gian-giao-dich-vietcombank-trang-bi-may-huong-son",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Không gian quầy giao dịch Vietcombank trang bị thiết bị Hương Sơn",
+    "desc": "Hệ thống máy in và sao chụp tài liệu đặt tại các quầy giao dịch Vietcombank, cam kết uptime >99.5% và hỗ trợ kỹ thuật tận nơi.",
+    "loc": "Chi nhánh Vietcombank",
+    "date": "Năm 2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/khong-gian-giao-dich-vietcombank-trang-bi-may-huong-son.jpg"
+  },
+  {
+    "id": "nghiem-thu-ban-giao-thiet-bi-tai-ngan-hang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Nghiệm thu bàn giao thiết bị photocopy tại ngân hàng",
+    "desc": "Cán bộ phụ trách cơ sở vật chất ngân hàng ký nhận biên bản nghiệm thu thiết bị và bàn giao kỹ thuật của Hương Sơn.",
+    "loc": "Phòng hội nghị Chi nhánh Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/nghiem-thu-ban-giao-thiet-bi-tai-ngan-hang.jpg"
+  },
+  {
+    "id": "lap-dat-dan-may-photocopy-phong-lam-viec-ngan-hang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Lắp đặt dàn máy photocopy Toshiba tại phòng vận hành ngân hàng",
+    "desc": "Các kiện máy nguyên thùng được xe đẩy vận chuyển vào phòng làm việc để kỹ sư Hương Sơn tiến hành bóc hộp và kết nối mạng nội bộ.",
+    "loc": "Chi nhánh Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/lap-dat-dan-may-photocopy-phong-lam-viec-ngan-hang.jpg"
+  },
+  {
+    "id": "chuyen-giao-ky-thuat-may-photocopy-ngan-hang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Chuyển giao kỹ thuật vận hành máy photocopy tại ngân hàng",
+    "desc": "Kỹ sư Hương Sơn tiến hành cài đặt driver in mạng, phân quyền bảo mật in an toàn và hướng dẫn cán bộ ngân hàng khai thác tối đa tính năng.",
+    "loc": "Hội trường Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/chuyen-giao-ky-thuat-may-photocopy-ngan-hang.jpg"
+  },
+  {
+    "id": "huong-dan-cai-dat-bao-mat-may-photocopy-ngan-hang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Hướng dẫn cài đặt bảo mật in ấn cho cán bộ ngân hàng",
+    "desc": "Thiết lập tính năng Secure Print và scan trực tiếp về thư mục mạng bảo mật nội bộ ngân hàng trên dòng Toshiba e-STUDIO.",
+    "loc": "Phòng đào tạo Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/huong-dan-cai-dat-bao-mat-may-photocopy-ngan-hang.jpg"
+  },
+  {
+    "id": "kiem-tra-ban-in-chuan-cung-can-bo-ngan-hang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Kiểm tra chất lượng bản in chuẩn cùng cán bộ ngân hàng",
+    "desc": "Hai bên cùng đối soát bản in test độ phân giải cao, độ sắc nét và tốc độ quét tài liệu trước khi ký bàn giao chính thức.",
+    "loc": "Chi nhánh Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/kiem-tra-ban-in-chuan-cung-can-bo-ngan-hang.jpg"
+  },
+  {
+    "id": "can-chinh-khay-giay-may-photocopy-toshiba-e-studio",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Căn chỉnh khay giấy và nạp mực máy photocopy Toshiba",
+    "desc": "Kỹ thuật viên nạp mực chính hãng, căn chỉnh các khay nạp giấy A3/A4 chống kẹt giấy và tối ưu cho mùa nồm ẩm miền Bắc.",
+    "loc": "Phòng máy Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/can-chinh-khay-giay-may-photocopy-toshiba-e-studio.jpg"
+  },
+  {
+    "id": "kiem-tra-cum-drum-va-muc-toshiba-chinh-hang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Kiểm tra cụm Drum và hộp mực Toshiba chính hãng",
+    "desc": "Quy trình chuẩn hóa kiểm tra linh kiện tiêu hao đảm bảo bản in rõ nét từng chi tiết nhỏ nhất trong hợp đồng tín dụng.",
+    "loc": "Phòng máy Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/kiem-tra-cum-drum-va-muc-toshiba-chinh-hang.jpg"
+  },
+  {
+    "id": "hoan-thien-lap-dat-may-toshiba-e-studio-tai-ngan-hang",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Hoàn thiện lắp đặt máy Toshiba e-STUDIO tại ngân hàng",
+    "desc": "Hệ thống máy sẵn sàng đi vào vận hành với độ ổn định cao, sẵn sàng phục vụ cao điểm giao dịch.",
+    "loc": "Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/hoan-thien-lap-dat-may-toshiba-e-studio-tai-ngan-hang.jpg"
+  },
+  {
+    "id": "may-photocopy-toshiba-e-studio-hoan-tat-lap-dat",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Máy photocopy Toshiba e-STUDIO hoạt động tại phòng làm việc",
+    "desc": "Thiết bị hoạt động êm ái, sắc nét, màn hình cảm ứng điều khiển trực quan được bố trí thuận tiện cho cán bộ văn phòng.",
+    "loc": "Văn phòng Ngân hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-toshiba-e-studio-hoan-tat-lap-dat.jpg"
+  },
+  {
+    "id": "may-photocopy-hoat-dong-thuc-te-van-phong-tap-doan",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Máy photocopy đa chức năng hoạt động tại văn phòng tập đoàn lớn",
+    "desc": "Máy photocopy Konica Minolta bizhub / Toshiba phục vụ khối văn phòng hàng trăm nhân sự với sản lượng in ấn lớn mỗi tháng.",
+    "loc": "Hội sở Tập đoàn, Hà Nội",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-hoat-dong-thuc-te-van-phong-tap-doan.jpg"
+  },
+  {
+    "id": "may-photocopy-mau-cam-ung-hien-dai-tai-ban-lam-viec",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Máy photocopy màn hình cảm ứng hiện đại tại bàn làm việc",
+    "desc": "Giao diện trực quan, dễ sử dụng, đặt ngay cạnh cụm bàn làm việc giúp cán bộ nhân viên in ấn, scan hồ sơ thuận tiện nhất.",
+    "loc": "Văn phòng khách hàng Doanh nghiệp",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-mau-cam-ung-hien-dai-tai-ban-lam-viec.jpg"
+  },
+  {
+    "id": "ky-su-huong-son-ban-giao-thanh-cong-dan-3-may-photocopy",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Kỹ sư Hương Sơn hoàn tất bàn giao dàn 3 máy photocopy",
+    "desc": "Bàn giao đúng tiến độ cam kết theo hợp đồng thuê máy, bảo đảm khách hàng có máy hoạt động ngay trong ngày.",
+    "loc": "Văn phòng Doanh nghiệp tại Hà Nội",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/ky-su-huong-son-ban-giao-thanh-cong-dan-3-may-photocopy.jpg"
+  },
+  {
+    "id": "ban-giao-may-photocopy-konica-minolta-bizhub-tan-noi",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Bàn giao máy photocopy Konica Minolta bizhub tận nơi",
+    "desc": "Khách hàng hoàn toàn hài lòng với chất lượng máy mới, bản in nét và phong cách phục vụ chu đáo, chuyên nghiệp của Hương Sơn.",
+    "loc": "Phòng Hành chính Doanh nghiệp",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/ban-giao-may-photocopy-konica-minolta-bizhub-tan-noi.jpg"
+  },
+  {
+    "id": "may-photocopy-bizhub-dat-tai-khu-vuc-in-an-tap-trung",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Máy photocopy bizhub đặt tại khu vực in ấn tập trung",
+    "desc": "Khu vực in ấn văn phòng được quy hoạch gọn gàng, máy chạy êm, tiết kiệm điện năng và thân thiện môi trường.",
+    "loc": "Tòa nhà Văn phòng Hạng A",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-bizhub-dat-tai-khu-vuc-in-an-tap-trung.jpg"
+  },
+  {
+    "id": "may-photocopy-toshiba-e-studio-den-trang-sang-trong",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Máy photocopy đa chức năng thiết kế sang trọng",
+    "desc": "Dòng máy e-STUDIO thế hệ mới với tone màu đen sang trọng, chống bám bụi và phù hợp với không gian văn phòng hiện đại.",
+    "loc": "Văn phòng Doanh nghiệp",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-toshiba-e-studio-den-trang-sang-trong.jpg"
+  },
+  {
+    "id": "lap-dat-may-photocopy-van-phong-doanh-nghiep-ha-noi",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Lắp đặt máy photocopy văn phòng doanh nghiệp tại Hà Nội",
+    "desc": "Khách hàng lựa chọn gói thuê trọn gói đã bao gồm toàn bộ mực in, linh kiện hao mòn và kỹ thuật bảo trì định kỳ hàng tháng.",
+    "loc": "Doanh nghiệp tại Cầu Giấy, Hà Nội",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/lap-dat-may-photocopy-van-phong-doanh-nghiep-ha-noi.jpg"
+  },
+  {
+    "id": "may-photocopy-san-sang-phuc-vu-phong-kinh-doanh",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Máy photocopy sẵn sàng phục vụ phòng kinh doanh",
+    "desc": "Trang bị khay giấy dung lượng lớn và bộ nạp đảo bản gốc tự động ARDF giúp xử lý tài liệu dày nhanh chóng.",
+    "loc": "Phòng Kinh doanh Khách hàng",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-photocopy-san-sang-phuc-vu-phong-kinh-doanh.jpg"
+  },
+  {
+    "id": "may-in-nhan-ban-sieu-toc-duplo-dp-f550-ban-giao",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Máy in nhân bản siêu tốc Duplo DP-F550 bàn giao tận nơi",
+    "desc": "Thiết bị in siêu tốc đỉnh cao của Nhật Bản, tốc độ in 150 trang/phút, chi phí mực siêu rẻ chuyên dùng cho trường học và cơ quan.",
+    "loc": "Phòng in ấn Tài liệu Khách hàng",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/may-in-nhan-ban-sieu-toc-duplo-dp-f550-ban-giao.jpg"
+  },
+  {
+    "id": "tap-ket-dan-may-photocopy-chuan-bi-ban-giao-du-an",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Tập kết dàn máy photocopy chuẩn bị bàn giao dự án",
+    "desc": "Dàn máy photocopy đa chức năng được bọc màng bảo vệ cẩn thận, chuẩn bị vận chuyển đến các điểm giao dịch của đối tác.",
+    "loc": "Sảnh bàn giao Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/tap-ket-dan-may-photocopy-chuan-bi-ban-giao-du-an.jpg"
+  },
+  {
+    "id": "dan-may-photocopy-nguyen-ban-san-sang-xuat-kho",
+    "category": "ban-giao",
+    "cat_name": "Dự án Bàn giao",
+    "title": "Dàn máy photocopy sẵn sàng xuất kho phục vụ dự án lớn",
+    "desc": "Quy mô thiết bị hùng hậu, sẵn sàng đáp ứng các hợp đồng cung cấp 20 – 50 máy cùng lúc cho chuỗi phòng giao dịch.",
+    "loc": "Sảnh xuất hàng Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ban-giao/dan-may-photocopy-nguyen-ban-san-sang-xuat-kho.jpg"
+  },
+  {
+    "id": "container-evergreen-cap-cang-xe-nang-boc-do-ve-kho-huong-son",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Container hàng Evergreen cập cảng, xe nâng bốc dỡ về kho Hương Sơn",
+    "desc": "Container 40 feet chở hàng trăm thiết bị photocopy Toshiba và máy in Duplo chính ngạch cập kho tổng Hương Sơn, xe nâng chuyên dụng bốc dỡ an toàn.",
+    "loc": "Kho Tổng Thiết bị Hương Sơn, Hà Nội",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/container-evergreen-cap-cang-xe-nang-boc-do-ve-kho-huong-son.jpg"
+  },
+  {
+    "id": "kho-tong-huong-son-may-photocopy-toshiba-e-studio-nguyen-kien",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Kho tổng Hương Sơn: Hàng chục kiện máy Toshiba e-STUDIO nguyên đai",
+    "desc": "Các kiện máy photocopy Toshiba thế hệ mới 2528A / 3028A / 3528A / 4528A nguyên thùng trên pallet gỗ chất đầy các dãy kệ kho.",
+    "loc": "Kho Tổng Hương Sơn",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/kho-tong-huong-son-may-photocopy-toshiba-e-studio-nguyen-kien.jpg"
+  },
+  {
+    "id": "day-chuyen-kho-hang-tram-may-photocopy-toshiba-san-kho",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Hàng trăm máy photocopy Toshiba e-STUDIO sẵn kho phục vụ khách hàng",
+    "desc": "Quy mô kho bãi hàng nghìn m2 tại Hà Nội, cam kết luôn có sẵn máy giao ngay trong 24 giờ cho mọi quy mô dự án.",
+    "loc": "Kho Thiết bị Tổng Hương Sơn",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/day-chuyen-kho-hang-tram-may-photocopy-toshiba-san-kho.jpg"
+  },
+  {
+    "id": "kien-may-photocopy-toshiba-e-studio-chinh-hang-moi-100",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Kiện máy photocopy Toshiba e-STUDIO chính hãng mới 100%",
+    "desc": "Thùng máy in rõ thương hiệu Toshiba, thông số kỹ thuật rõ ràng, đầy đủ CO/CQ chứng nhận xuất xứ chính ngạch.",
+    "loc": "Kho Tổng Hương Sơn",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/kien-may-photocopy-toshiba-e-studio-chinh-hang-moi-100.jpg"
+  },
+  {
+    "id": "xe-container-van-chuyen-may-photocopy-toshiba-ve-kho",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Xe container vận chuyển máy photocopy Toshiba về kho tổng",
+    "desc": "Thùng xe container 2 tầng pallet chứa đầy ắp máy photocopy nhập khẩu trực tiếp phục vụ thị trường miền Bắc.",
+    "loc": "Kho bãi Hương Sơn",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/xe-container-van-chuyen-may-photocopy-toshiba-ve-kho.jpg"
+  },
+  {
+    "id": "kho-may-in-nhan-ban-sieu-toc-duplo-nguyen-thung",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Kho máy in nhân bản siêu tốc Duplo nguyên thùng",
+    "desc": "Khu vực lưu trữ máy in siêu tốc Duplo Nhật Bản chuẩn độ ẩm và nhiệt độ nghiêm ngặt phục vụ ngành Giáo dục.",
+    "loc": "Kho Thiết bị Duplo Hương Sơn",
+    "date": "Tháng 04/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/kho-may-in-nhan-ban-sieu-toc-duplo-nguyen-thung.jpg"
+  },
+  {
+    "id": "thung-may-duplo-quan-mang-co-pe-chong-am-tren-xe-tai",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Thùng máy Duplo quấn màng co PE chống ẩm trên xe tải",
+    "desc": "Bảo vệ thiết bị hoàn hảo trong quá trình vận chuyển đường dài tới các trường học và Sở GD&ĐT các tỉnh.",
+    "loc": "Xe tải vận chuyển chuyên dụng",
+    "date": "Tháng 04/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/thung-may-duplo-quan-mang-co-pe-chong-am-tren-xe-tai.jpg"
+  },
+  {
+    "id": "kho-may-photocopy-bizhub-toshiba-nguyen-dai-nguyen-kien",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Kho máy photocopy bizhub / Toshiba nguyên đai nguyên kiện",
+    "desc": "Dãy thùng máy photocopy Konica Minolta bizhub xếp hàng lối ngay ngắn trên pallet gỗ trước giờ xuất xưởng.",
+    "loc": "Kho Thiết bị Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-bizhub-toshiba-nguyen-dai-nguyen-kien.jpg"
+  },
+  {
+    "id": "kho-linh-kien-vat-tu-duplo-toshiba-ha-noi",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Kho linh kiện & vật tư Duplo – Toshiba tại Hà Nội",
+    "desc": "Kho hàng vật tư tiêu hao phong phú: cuộn Master Duplo, mực in FANSIPAN, cụm drum, gạt mực luôn sẵn sàng thay thế ngay trong 2h.",
+    "loc": "Kho Vật tư Kỹ thuật Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/kho-linh-kien-vat-tu-duplo-toshiba-ha-noi.jpg"
+  },
+  {
+    "id": "trung-tam-vat-tu-may-in-photocopy-chinh-hang-huong-son",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Trung tâm vật tư máy in & photocopy chính hãng Hương Sơn",
+    "desc": "Biển hiệu Duplo – TOSHIBA bảo chứng cho nguồn gốc linh kiện và vật tư tiêu hao chuẩn quốc tế.",
+    "loc": "Kho Vật tư Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/trung-tam-vat-tu-may-in-photocopy-chinh-hang-huong-son.jpg"
+  },
+  {
+    "id": "kho-may-in-laser-hp-laserjet-da-chuc-nang-nguyen-seal",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Kho máy in laser HP LaserJet đa chức năng nguyên seal",
+    "desc": "Hàng chục kiện máy in HP LaserJet Pro đa chức năng mới 100% sẵn sàng cho các hợp đồng trang bị đồng bộ văn phòng.",
+    "loc": "Kho Thiết bị Văn phòng Hương Sơn",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/kho-may-in-laser-hp-laserjet-da-chuc-nang-nguyen-seal.jpg"
+  },
+  {
+    "id": "kho-may-photocopy-boc-mang-nilon-bao-quan-chuyen-nghiep",
+    "category": "kho-may",
+    "cat_name": "Kho bãi & Thiết bị",
+    "title": "Máy photocopy bọc màng nilon bảo quản chuyên nghiệp",
+    "desc": "Mỗi chiếc máy sau kiểm định đều được bọc nilon kín, chống ẩm và bụi bẩn, gắn phiếu kiểm định PDI trước khi xuất kho.",
+    "loc": "Kho Kỹ thuật Hương Sơn",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/kho-may/kho-may-photocopy-boc-mang-nilon-bao-quan-chuyen-nghiep.jpg"
+  },
+  {
+    "id": "ky-su-huong-son-can-chinh-dan-may-photocopy-e-studio",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Kỹ sư Hương Sơn căn chỉnh dàn máy photocopy Toshiba e-STUDIO",
+    "desc": "Kiểm tra điện áp, căn chỉnh thước quang, cân màu và đo độ phân giải bản in theo tiêu chuẩn kiểm định PDI 24 bước độc quyền.",
+    "loc": "Xưởng Kỹ thuật Kiểm định PDI Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/ky-su-huong-son-can-chinh-dan-may-photocopy-e-studio.jpg"
+  },
+  {
+    "id": "dan-may-photocopy-hoan-tat-kiem-dinh-pdi-san-sang-xuat-xuong",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Dàn máy photocopy hoàn tất kiểm định PDI sẵn sàng xuất xưởng",
+    "desc": "Hệ thống máy photocopy màu và đen trắng cao cấp đã qua bài kiểm tra stress-test in liên tục 500 trang không kẹt giấy.",
+    "loc": "Phòng Kiểm định Chất lượng Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/dan-may-photocopy-hoan-tat-kiem-dinh-pdi-san-sang-xuat-xuong.jpg"
+  },
+  {
+    "id": "hanh-lang-kiem-dinh-thiet-bi-chuyen-nghiep-huong-son",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Hành lang kiểm định thiết bị chuyên nghiệp Hương Sơn",
+    "desc": "Dãy dài hàng chục thiết bị đang trong quá trình chạy thử nghiệm, nạp firmware tiếng Việt và tích hợp module in mạng.",
+    "loc": "Trung tâm Kỹ thuật Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/hanh-lang-kiem-dinh-thiet-bi-chuyen-nghiep-huong-son.jpg"
+  },
+  {
+    "id": "kiem-tra-dong-bo-hang-loat-may-photocopy-truoc-ban-giao",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Kiểm tra đồng bộ hàng loạt máy photocopy trước bàn giao",
+    "desc": "Tất cả thông số cơ khí, bộ phận cuốn giấy, gương quét và sấy nhiệt đều được đo đạc kỹ lưỡng bằng thiết bị chuyên dụng.",
+    "loc": "Khu vực Kỹ thuật Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/kiem-tra-dong-bo-hang-loat-may-photocopy-truoc-ban-giao.jpg"
+  },
+  {
+    "id": "dap-hop-kiem-dinh-pdi-may-in-laser-hp-moi-100",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Đập hộp & kiểm định PDI máy in laser HP mới 100%",
+    "desc": "Kỹ thuật viên bóc seal, kiểm tra phụ kiện đi kèm, nạp mực tiêu chuẩn và in bản test hãng trước khi giao cho khách hàng.",
+    "loc": "Phòng Kỹ thuật Hương Sơn",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/dap-hop-kiem-dinh-pdi-may-in-laser-hp-moi-100.jpg"
+  },
+  {
+    "id": "cai-dat-cau-hinh-dong-loat-dan-may-in-laser-hp-da-chuc-nang",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Cài đặt & cấu hình đồng loạt dàn máy in laser HP đa chức năng",
+    "desc": "Dàn máy in HP được thiết lập IP tĩnh, cập nhật firmware mới nhất và dán tem bảo hành Hương Sơn trước khi giao dự án.",
+    "loc": "Bàn Kỹ thuật Cấu hình Hệ thống",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/cai-dat-cau-hinh-dong-loat-dan-may-in-laser-hp-da-chuc-nang.jpg"
+  },
+  {
+    "id": "kiem-tra-chuc-nang-scan-va-copy-dan-may-in-hp",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Kiểm tra chức năng Scan và Copy dàn máy in HP",
+    "desc": "Thực nghiệm tốc độ quét ADF hai mặt tự động và độ tương phản bản copy sắc nét từng dòng chữ nhỏ.",
+    "loc": "Phòng Kiểm chuẩn Thiết bị",
+    "date": "Tháng 10/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/kiem-tra-chuc-nang-scan-va-copy-dan-may-in-hp.jpg"
+  },
+  {
+    "id": "can-chinh-khay-nap-giay-may-in-sieu-toc-duplo",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Căn chỉnh khay nạp giấy máy in siêu tốc Duplo",
+    "desc": "Căn chỉnh con lăn kéo giấy và áp lực nạp giấy để máy in ổn định ngay cả với các loại giấy mỏng 48gsm dùng trong in đề thi.",
+    "loc": "Xưởng Kỹ thuật Duplo Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/can-chinh-khay-nap-giay-may-in-sieu-toc-duplo.jpg"
+  },
+  {
+    "id": "man-hinh-cam-ung-may-photocopy-toshiba-e-studio",
+    "category": "ky-thuat-pdi",
+    "cat_name": "Kỹ thuật PDI",
+    "title": "Màn hình cảm ứng 10.1 inch máy photocopy Toshiba e-STUDIO",
+    "desc": "Giao diện đồ họa tiếng Việt dễ thao tác, tùy biến phím tắt một chạm cho các lệnh scan số hóa và photocopy bảo mật.",
+    "loc": "Phòng Kiểm thử Giao diện Hương Sơn",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/ky-thuat-pdi/man-hinh-cam-ung-may-photocopy-toshiba-e-studio.jpg"
+  },
+  {
+    "id": "doi-xe-ban-tai-suzuki-chuyen-dung-giao-may-huong-son",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Đội xe bán tải Suzuki chuyên dụng giao máy của Hương Sơn",
+    "desc": "Dàn xe tải và bán tải Suzuki mang nhận diện thương hiệu Hương Sơn, Duplo, Toshiba sẵn sàng cơ động giao máy hỏa tốc khắp Hà Nội.",
+    "loc": "Đội xe Hương Sơn, Minh Khai, Hà Nội",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/doi-xe-ban-tai-suzuki-chuyen-dung-giao-may-huong-son.jpg"
+  },
+  {
+    "id": "xe-tai-chuyen-dung-huong-son-bien-so-29d-42993",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Xe tải chuyên dụng Hương Sơn – Biển số 29D-429.93",
+    "desc": "Thùng xe kín bảo vệ thiết bị điện tử tuyệt đối khỏi mưa nắng, dập nổi đầy đủ hotline hỗ trợ và logo chính hãng Duplo – Toshiba.",
+    "loc": "Trung tâm Vận tải Hương Sơn",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-chuyen-dung-huong-son-bien-so-29d-42993.jpg"
+  },
+  {
+    "id": "xe-tai-giao-hang-tan-noi-mien-phi-noi-thanh-ha-noi",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Xe tải giao hàng tận nơi miễn phí nội thành Hà Nội",
+    "desc": "Chính sách miễn phí vận chuyển và lắp đặt tận nơi mọi quận huyện Hà Nội và các tỉnh lân cận trong bán kính 100km.",
+    "loc": "Hà Nội",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-giao-hang-tan-noi-mien-phi-noi-thanh-ha-noi.jpg"
+  },
+  {
+    "id": "xe-tai-suzuki-huong-son-giao-may-tan-co-quan",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Xe tải Suzuki Hương Sơn giao máy tận sảnh cơ quan",
+    "desc": "Xe mang biển kiểm soát 29D-406.87 đậu trước sảnh cơ quan chuẩn bị hạ thiết bị bàn giao đúng giờ hẹn.",
+    "loc": "Trụ sở Cơ quan Khách hàng",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-suzuki-huong-son-giao-may-tan-co-quan.jpg"
+  },
+  {
+    "id": "boc-do-thiet-bi-photocopy-toshiba-duplo-tu-xe-tai",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Bốc dỡ thiết bị photocopy Toshiba, Duplo từ xe tải",
+    "desc": "Đội ngũ giao vận Hương Sơn trang bị đồng phục bảo hộ, thao tác bốc dỡ bằng kích nâng thủy lực chuẩn chỉ, an toàn tuyệt đối.",
+    "loc": "Trụ sở Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/boc-do-thiet-bi-photocopy-toshiba-duplo-tu-xe-tai.jpg"
+  },
+  {
+    "id": "boc-do-may-photocopy-tai-cua-kho-huong-son",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Bốc dỡ máy photocopy tại cửa kho Hương Sơn",
+    "desc": "Quy trình hạ hàng an toàn từ thùng xe tải chuyên dụng sang xe nâng tay để đưa vào khu kiểm định chất lượng.",
+    "loc": "Cửa kho Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/boc-do-may-photocopy-tai-cua-kho-huong-son.jpg"
+  },
+  {
+    "id": "van-chuyen-kien-hang-tren-pallet-chuyen-dung",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Vận chuyển kiện hàng trên pallet chuyên dụng",
+    "desc": "Các thùng máy photocopy được đóng đai nẹp góc và cố định trên pallet gỗ đảm bảo 100% không rung lắc hay trầy xước.",
+    "loc": "Trụ sở Hương Sơn",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/van-chuyen-kien-hang-tren-pallet-chuyen-dung.jpg"
+  },
+  {
+    "id": "tong-kho-xuat-hang-huong-son-ha-noi",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Tổng kho xuất hàng Hương Sơn tại Hà Nội",
+    "desc": "Điểm tập kết hàng hóa luôn nhộn nhịp xe tải ra vào lấy máy giao cho các trường học, ngân hàng và doanh nghiệp mỗi ngày.",
+    "loc": "Hương Sơn, Hà Nội",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/tong-kho-xuat-hang-huong-son-ha-noi.jpg"
+  },
+  {
+    "id": "xe-tai-ha-thung-giao-may-photocopy-duoi-ham-toa-nha",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Xe tải hạ thùng giao máy photocopy dưới hầm tòa nhà",
+    "desc": "Xe tải nhỏ gọn dễ dàng xuống hầm các tòa nhà văn phòng cao cấp, xe đẩy chuyên dụng hỗ trợ đưa máy lên đúng tầng làm việc.",
+    "loc": "Tầng hầm Tòa nhà Văn phòng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/xe-tai-ha-thung-giao-may-photocopy-duoi-ham-toa-nha.jpg"
+  },
+  {
+    "id": "xe-day-tay-chuyen-dung-dua-may-photocopy-vao-thang-may",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Xe đẩy tay chuyên dụng đưa máy photocopy vào thang máy",
+    "desc": "Trọn bộ thiết bị Toshiba e-STUDIO và phụ kiện mực in được vận chuyển nhẹ nhàng qua cửa thang máy tòa nhà.",
+    "loc": "Sảnh thang máy Khách hàng",
+    "date": "Tháng 09/2024",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/xe-day-tay-chuyen-dung-dua-may-photocopy-vao-thang-may.jpg"
+  },
+  {
+    "id": "van-chuyen-pallet-may-photocopy-qua-sanh-ngan-hang",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Vận chuyển pallet máy photocopy qua sảnh ngân hàng",
+    "desc": "Kỹ thuật viên Hương Sơn vận chuyển an toàn qua sảnh đá hoa cương của ngân hàng, giữ gìn vệ sinh và an ninh tòa nhà.",
+    "loc": "Sảnh Ngân hàng",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/van-chuyen-pallet-may-photocopy-qua-sanh-ngan-hang.jpg"
+  },
+  {
+    "id": "dua-may-in-sieu-toc-duplo-nguyen-kien-len-phong-lam-viec",
+    "category": "van-chuyen",
+    "cat_name": "Đội xe Vận chuyển",
+    "title": "Đưa máy in siêu tốc Duplo nguyên kiện lên phòng làm việc",
+    "desc": "Máy được vận chuyển cẩn thận bằng xe nâng tay vào tận phòng của khách hàng để kỹ sư tiến hành mở thùng lắp đặt.",
+    "loc": "Tòa nhà Văn phòng",
+    "date": "Tháng 08/2023",
+    "img": "/assets/images/tu-lieu-thuc-te/van-chuyen/dua-may-in-sieu-toc-duplo-nguyen-kien-len-phong-lam-viec.jpg"
+  }
+]
